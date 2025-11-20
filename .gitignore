@@ -361,3 +361,5 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/SitefinityWebApp/App_Data/Sitefinity/Configuration/DataConfig.config
+/SitefinityWebApp/App_Data/Sitefinity/Sitefinity.lic
