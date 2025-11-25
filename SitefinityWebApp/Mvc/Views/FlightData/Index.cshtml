@@ -1,0 +1,17 @@
+@model SitefinityWebApp.Mvc.ViewModels.LaunchViewModel
+@{
+    var status = "";
+}
+
+<div class="jumbotron">
+    <h2 class="-bold">
+        @ViewBag.Title
+    </h2>
+    <h1>@Model.Name</h1>
+    <p>
+        @ViewBag.FlightNumberLabel @Model.FlightNumber
+    </p>
+    <p>
+        @ViewBag.MissionStatusLabel @ViewBag.StatusMessage
+    </p>
+</div>

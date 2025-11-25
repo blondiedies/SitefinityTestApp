@@ -3,6 +3,13 @@
 @using Telerik.Sitefinity.Frontend.Mvc.Helpers;
 @using Telerik.Sitefinity.Web.DataResolving;
 
+
+@if (Model.Item.Fields.NewsImage != null)
+{
+    var image = (Telerik.Sitefinity.Libraries.Model.Image)Model.Item.Fields.NewsImage;
+    <img src="@image.MediaUrl" alt="@Model.Item.Fields.Title" />
+}
+
 <div class="@Model.CssClass" @Html.InlineEditingAttributes(Model.ProviderName, Model.ContentType.FullName, (Guid)Model.Item.Fields.Id)>
     <h1>
         <span @Html.InlineEditingFieldAttributes("Title", "ShortText")>@Model.Item.Fields.Title</span>
