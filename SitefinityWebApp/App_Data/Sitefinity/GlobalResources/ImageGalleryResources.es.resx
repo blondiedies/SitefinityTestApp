@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="NoLimitPaging">
+    <value>Sin límite y con paginación</value>
+    <comment>Phrase: No limit and paging</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AsSetManually">
+    <value>Según lo establecido manualmente</value>
+    <comment>phrase: As set manually</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FromSelectedLibraries">
+    <value>Únicamente de bibliotecas seleccionadas...</value>
+    <comment>Phrase: From selected libraries only...</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Content">
+    <value>Contenido</value>
+    <comment>word: Content</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShowInSamePage">
+    <value>Página autogenerada</value>
+    <comment>phrase : Auto-generated page (with the same layout as the list page)</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UseLimit">
+    <value>Limite de uso</value>
+    <comment>phrase : Use limit</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LastModified">
+    <value>Última modificación</value>
+    <comment>phrase : Last modified</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ImageGalleryResourcesTitle">
+    <value>Recursos del widget de Galería de imágenes</value>
+    <comment>Title for the Image Gallery widget resources class.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AllPublishedImages">
+    <value>Todas las imágenes publicadas</value>
+    <comment>Phrase: All published images</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SortItems">
+    <value>Ordenar imágenes</value>
+    <comment>Phrase: Sort images</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BackToAllImages">
+    <value>Volver a todas las imágenes</value>
+    <comment>phrase: Back to all images</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DivideToItemPerPage">
+    <value>Dividir la lista en las páginas hasta {0} artículos por página</value>
+    <comment>Phrase: Divide the list on pages up to {0} items per page</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LastPublished">
+    <value>Último publicado</value>
+    <comment>phrase : Last published</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ImageSize">
+    <value>Tamaño de la imagen</value>
+    <comment>phrase: Image size</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PreviousImage">
+    <value>Imagen anterior</value>
+    <comment>phrase: Previous image</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ThumbnailSize">
+    <value>Tamaño de miniatura</value>
+    <comment>phrase: Thumbnail size</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SingleItemSettings">
+    <value>Configuración de Artículo único</value>
+    <comment>phrase : Single item settings</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DetailTemplate">
+    <value>Plantilla de detalles</value>
+    <comment>phrase : Detail template</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NextImage">
+    <value>Siguiente imagen</value>
+    <comment>phrase: Next image</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ByTitleAZ">
+    <value>por Título (A-Z)</value>
+    <comment>phrase : By Title (A-Z)</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AsSetInAdvancedMode">
+    <value>Según lo configurado en el modo Avanzado</value>
+    <comment>phrase: As set in Advanced mode</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ImageGalleryResourcesDescription">
+    <value>Cadenas localizables para el widget de Galería de imágenes.</value>
+    <comment>Description for the Image Gallery widget resources class.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Provider">
+    <value>Proveedor</value>
+    <comment>Provider</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ListSettings">
+    <value>Configuración de Lista</value>
+    <comment>phrase: List settings</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="IndexOfTotal">
+    <value>{0} de {1}</value>
+    <comment>phrase: [Index] of [TotalCount]</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ImageGallery">
+    <value>Galería de imágenes</value>
+    <comment>phrase: Image gallery</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="By">
+    <value>Por</value>
+    <comment>word: by</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShowLimitedItems">
+    <value>Mostrar únicamente un número limitado de artículos {0} artículos en total</value>
+    <comment>Phrase: Show only limited number of items {0} items in total</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MissingLibraries">
+    <value>Algunas de las bibliotecas seleccionadas fueron movidas o eliminadas.</value>
+    <comment>phrase: Some of the selected libraries were moved or deleted.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SelectionOfImages">
+    <value>Selección de imágenes...</value>
+    <comment>Phrase: Selection of images...</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CssClasses">
+    <value>Clases CSS</value>
+    <comment>phrase : CSS classes</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ItemsToDisplay">
+    <value>¿Qué imágenes desea mostrar?</value>
+    <comment>phrase : Which images to display?</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ListTemplate">
+    <value>Plantilla de lista</value>
+    <comment>phrase : List template</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NarrowSelection">
+    <value>Limitar selección por...</value>
+    <comment>phrase : Narrow selection by...</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OpenSingleItem">
+    <value>Abrir un solo elemento en...</value>
+    <comment>phrase : Open single item in...</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ByTitleZA">
+    <value>por Título (Z-A)</value>
+    <comment>phrase : By Title (Z-A)</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShowAllItems">
+    <value>Mostrar todos los elementos publicados a la vez</value>
+    <comment>Phrase: Show all published items at once</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MoreOptions">
+    <value>Más opciones</value>
+    <comment>phrase : More options</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AllLibraries">
+    <value>De todas las bibliotecas</value>
+    <comment>phrase: From all libraries</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UsePaging">
+    <value>Utilice paginación &lt;span class='sfNote'&gt; (en proceso de implementación) &lt;/span&gt;</value>
+    <comment>Phrase: Use paging</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FromCurrentlyOpen">
+    <value>De biblioteca actualmente abierta</value>
+    <comment>Phrase: From currently opened library</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShowInExistingPage">
+    <value>Página seleccionada existente...</value>
+    <comment>phrase : Selected existing page...</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+</root>

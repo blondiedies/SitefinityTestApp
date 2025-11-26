@@ -1336,6 +1336,7 @@
     <Content Include="App_Data\RadSpell\de-DE.tdf" />
     <Content Include="App_Data\RadSpell\en-US.tdf" />
     <Content Include="App_Data\RadSpell\fr-FR.tdf" />
+    <Content Include="Global.asax" />
     <Content Include="Mvc\Controllers\readme.txt" />
     <Content Include="Mvc\Models\readme.txt" />
     <Content Include="Mvc\Views\readme.txt" />
@@ -1362,9 +1363,20 @@
     <Content Include="ResourcePackages\Bootstrap5\GridSystem\Templates\grid-alert.html" />
     <Content Include="Web.config" />
     <Content Include="MVC\Views\FlightData\Index.cshtml" />
+    <Content Include="MVC\Views\FeaturedArticleCarousel\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_GlobalResources\FlightDataResources.es.designer.cs">
+    <Compile Include="App_GlobalResources\FeaturedNewsCarouselResources.designer.cs">
+      <DependentUpon>FeaturedNewsCarouselResources.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App_GlobalResources\FeaturedNewsCarouselResources.es.designer.cs">
+      <DependentUpon>FeaturedNewsCarouselResources.es.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App_GlobalResources\FlightDataResources.es.Designer.cs">
       <DependentUpon>FlightDataResources.es.resx</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -1375,11 +1387,22 @@
       <DependentUpon>FlightDataResources.resx</DependentUpon>
     </Compile>
     <Compile Include="AzureWebRole.cs" />
+    <Compile Include="Configuration\FeaturedNewsConfig.cs" />
     <Compile Include="Configuration\IntegrationConfig.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Mvc\Controllers\FlatTaxonomyController.cs" />
+    <Compile Include="Mvc\Models\FlatTaxonomyModel.cs" />
+    <Compile Include="Mvc\Models\TaxaCount.cs" />
+    <Compile Include="Mvc\ViewModels\FeaturedNewsModel.cs" />
+    <Compile Include="Mvc\ViewModels\FlatTaxonomyViewModel.cs" />
     <Compile Include="Mvc\ViewModels\LaunchViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="MVC\Controllers\FlightDataController.cs" />
     <Compile Include="MVC\Models\FlightDataModel.cs" />
+    <Compile Include="MVC\Controllers\FeaturedArticleCarouselController.cs" />
+    <Compile Include="MVC\Models\FeaturedArticleCarouselModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="AdminApp\kendo-font-icons.0f48fbe137cdbe1a.ttf" />
@@ -1400,6 +1423,7 @@
     <Content Include="AdminApp\63b8ee5b81329a75.ttf" />
     <Content Include="App_Data\GeoLocation\GeoLite2-City.mmdb" />
     <Content Include="AdminApp\5cc09d33ffb4819f.ttf" />
+    <Content Include="Mvc\Views\FlatTaxonomy\Index.cshtml" />
     <None Include="packages.config" />
     <Content Include="Sitefinity\ExternalLibraries\LibWebP\libwebp_x86.sflib" />
     <Content Include="Sitefinity\ExternalLibraries\LibWebP\libwebp_x64.sflib" />
@@ -1551,9 +1575,17 @@
     <Analyzer Include="..\packages\Lucene.Net.4.8.0-beta00017\analyzers\dotnet\cs\Lucene.Net.CodeAnalysis.CSharp.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_GlobalResources\FeaturedNewsCarouselResources.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>FeaturedNewsCarouselResources.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\FeaturedNewsCarouselResources.es.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>FeaturedNewsCarouselResources.es.designer.cs</LastGenOutput>
+    </Content>
     <EmbeddedResource Include="App_GlobalResources\FlightDataResources.es.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>FlightDataResources.es.designer.cs</LastGenOutput>
+      <LastGenOutput>FlightDataResources.es.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

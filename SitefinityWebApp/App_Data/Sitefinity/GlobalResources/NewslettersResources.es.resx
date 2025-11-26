@@ -1,0 +1,3420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RecipientsWhoClicked">
+    <value>Destinatarios que hicieron clic</value>
+    <comment>phrase: Recipients who clicked</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CampaignReportDescription">
+    <value>Página que muestra el informe para una sola campaña</value>
+    <comment>Description of the campaign report page of the newsletters module.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TestStatus">
+    <value>Estado de la prueba</value>
+    <comment>phrase: Test status</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DynamicListFilterTitle">
+    <value>Expresión dinámica de  filtro de lista</value>
+    <comment>phrase: Dynamic list filter expression</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SubscriptionReminder">
+    <value>Texto para recordar a sus suscriptores cómo llegaron a formar parte de su lista</value>
+    <comment>phrase: Text to remind your subscribers how they got on your list</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="HowToSplitTheCampaign">
+    <value>¿Cómo dividir la campaña?</value>
+    <comment>phrase: How to split the campaign?</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EditCampaign">
+    <value>Editar campaña</value>
+    <comment>phrase: Edit campaign</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NumberOfCampaigns">
+    <value>{0} ediciones</value>
+    <comment>phrase: {0} issues</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BackToABCampaignReport">
+    <value>Volver al informe de prueba A/B</value>
+    <comment>phrase: Back to A/B test report.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ScheduleIssue">
+    <value>Programar esta edición</value>
+    <comment>phrase: Schedule this issue</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AreYouSureDeleteTemplate">
+    <value>¿Está seguro de que desea eliminar esta(s) plantilla(s)?</value>
+    <comment>Confirmation message for deleting templates</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CampaignType">
+    <value>Tipo de campaña</value>
+    <comment>phrase: Campaign type</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Remove">
+    <value>Eliminar</value>
+    <comment>word: Remove</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DeliverIssueOn">
+    <value>Entregue esta edición el</value>
+    <comment>phrase: Deliver this issue on</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="WinningIssue">
+    <value>Edición ganadora</value>
+    <comment>phrase: Winning issue</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BackToContent">
+    <value>Regresar al contenido</value>
+    <comment>phrase: Back to content</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DefaultReplyToEmailDescription">
+    <value>Ésta es la dirección a la que la gente responderá.</value>
+    <comment>phrase: This is the address people will reply to.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DeliveryDate">
+    <value>Fecha de Entrega</value>
+    <comment>phrase: Delivery date</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EditThisIssue">
+    <value>Editar esta edición</value>
+    <comment>phrase: Edit this issue</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ClicksByHour">
+    <value>Clics por hora</value>
+    <comment>phrase: Clicks by hour</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TotalUnsubscriptions">
+    <value>Total de desuscripciones</value>
+    <comment>phrase: Total unsubscriptions</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ScheduleIssueDelivery">
+    <value>Programe la entrega de la edición</value>
+    <comment>phrase: Schedule issue delivery</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Done">
+    <value>Hecho</value>
+    <comment>word: Done</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SendThisCampaign">
+    <value>Enviar esta campaña</value>
+    <comment>phrase: Send this campaign</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SubscribersReportHtmlTitle">
+    <value>reporte de suscriptores</value>
+    <comment>Html title of the subscribers report page of the Email Campaigns module.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UniqueClicks">
+    <value>Clics únicos</value>
+    <comment>phrase: Unique clicks</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TotalClicks">
+    <value>Total de clics</value>
+    <comment>phrase: Total clicks</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UseSmtpSSL">
+    <value>Utilizar SSL SMTP</value>
+    <comment>phrase: Use SMTP SSL</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Overview">
+    <value>Información General</value>
+    <comment>word: Overview</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AddSubscriber">
+    <value>Añadir suscriptor</value>
+    <comment>phrase: Add subscriber</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NewTemplateCreatedSuccessfully">
+    <value>Una nueva plantilla se ha creado con éxito.</value>
+    <comment>phrase: New template has been successfully created.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CampaignNameDescription">
+    <value>Ejemplo: &lt;em class='sfNote'&gt;Boletín Mensual de la Compañía&lt;/em&gt;</value>
+    <comment>phrase: Example: Company Monthly Newsletter</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ManageSubscribers">
+    <value>Administrar suscriptores</value>
+    <comment>phrase: Manage subscribers</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ScheduleThisABTest">
+    <value>Programe este prueba A/B</value>
+    <comment>phrase: Schedule this A/B test</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ABCampaignReportHtmlTitle">
+    <value>informe de prueba A/B</value>
+    <comment>Html title of the A/B test report page</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PlainText">
+    <value>Texto sin formato</value>
+    <comment>User friendly name of the plain text campaign.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImportSubscribersTo">
+    <value>Importar suscriptores a {0}</value>
+    <comment>phrase: Import subscribers to {0}</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SendIssueFor">
+    <value>Enviar edición para</value>
+    <comment>Send issue for</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SelectMailingLists">
+    <value>Seleccionar listas de correo</value>
+    <comment>phrase: Select mailing lists</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SendTestMessage">
+    <value>Enviar mensaje de verificación</value>
+    <comment>phrase: Send check message</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NoMailingListSelected">
+    <value>No se ha seleccionado una lista de correo.</value>
+    <comment>phrase: No mailing list has been selected.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ClickRateDescription">
+    <value>La campaña que recibe el mayor número de clics es la ganadora.</value>
+    <comment>phrase: The campaign that receives the most clicks is the winner.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="WelcomeEmailSubjectDescription">
+    <value>por ejemplo, Gracias por suscribirse al boletín de productos Z</value>
+    <comment>phrase: e.g. Thank you for subscribing to product Z newsletter</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MessageSubject">
+    <value>Asunto del mensaje</value>
+    <comment>phrase: Message subject</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SelectCampaignBDescription">
+    <value>La campaña B debe compartir la misma lista de correo que la campaña A seleccionada</value>
+    <comment>phrase: Campaign B must share the same mailing list as the selected campaign A</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AreYouSureDeleteIssue">
+    <value>¿Está seguro de que desea eliminar esta edición?</value>
+    <comment>phrase: Are you sure you want to delete this issue?</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="WhatsVariousBouncesHint">
+    <value>Las razones por las que un correo electrónico puede rebotar pueden ser (pero no se limitan a): &lt;br /&gt;&lt;ul&gt;&lt;li&gt;Buzón lleno&lt;/li&gt;&lt;li&gt;Mensaje demasiado largo&lt;/li&gt;&lt;li&gt;El mensaje es considerado como SPAM&lt;/li&gt;&lt;li&gt;Dirección de correo electrónico no válido&lt;/li&gt;&lt;/ul&gt;</value>
+    <comment>text: The reasons for an email to bounce might be (but not limited to): &lt;br /&gt;&lt;ul&gt;&lt;li&gt;Full user mailbox&lt;/li&gt;&lt;li&gt;Too large message&lt;/li&gt;&lt;li&gt;Message is considered as a SPAM&lt;/li&gt;&lt;li&gt;Invalid email address&lt;/li&gt;&lt;/ul&gt;</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MailingListsHtmlTitle">
+    <value>Listas de correo</value>
+    <comment>Html title of the mailing lists page of the newsletters module</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Opened">
+    <value>Abierto</value>
+    <comment>word: Opened</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SelectTemplateType">
+    <value>¿Qué tipo de plantilla le gustaría crear?</value>
+    <comment>phrase: What type of template would you like to create?</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NoSubscribersImported">
+    <value>No se han importado suscriptores a la lista de correo</value>
+    <comment>phrase: No subscribers have been imported to the mailing list</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AreYouSureDeleteSubscribers">
+    <value>{0} usuarios serán borrados. ¿Está seguro de que desea borrar a {0} usuarios?</value>
+    <comment>phrase: {0} users will be deleted. Are you sure you want to delete {0} users?</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SendAbTestPromptText">
+    <value>Esta prueba será enviada a {0} usuarios</value>
+    <comment>phrase: This test will be sent to {0} users</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="WelcomeGoodbyeEmailAddressDescription">
+    <value>por ejemplo, no-reply@our-company.com</value>
+    <comment>phrase: e.g. no-reply@our-company.com</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SubsFromSelectedLists">
+    <value>Los suscriptores de las listas de correo seleccionadas...</value>
+    <comment>phrase: Subscribers from selected mailing lists...</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="HardBounceAction">
+    <value>Rebote duro</value>
+    <comment>phrase: Hard bounce</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SettingsHtmlTitle">
+    <value>Opciones</value>
+    <comment>Html title of the settings page of the newsletters module</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="HowToImproveUnsubscribed">
+    <value>Para minimizar este indicador considere la segmentación de sus clientes y el envío de información más relevante a su audiencia.</value>
+    <comment>text: To minimize this metric consider segmenting your customers and sending more relevant information to your audience.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TestingSamplePercentage">
+    <value>{0} ({1}% de todos los usuarios)</value>
+    <comment>phrase: {0} ({1}% of all users)</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Email">
+    <value>Correo electrónico</value>
+    <comment>word: Email</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ScheduleTheTestToBeSentOn">
+    <value>Programar la prueba que será enviada el...</value>
+    <comment>phrase: Schedule the test to be sent on...</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateAMessageTemplate">
+    <value>Crear una plantilla de mensaje</value>
+    <comment>phrase: Create a message template</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="IssueA">
+    <value>edición A</value>
+    <comment>phrase: issue A</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UseSmtpAuthentication">
+    <value>Utilizar autenticación SMTP</value>
+    <comment>phrase: Use SMTP authentication.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Pop3UsesSSLTitle">
+    <value>¿POP3 utiliza SSL?</value>
+    <comment>phrase: Pop3 Uses SSL</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CampaignOverviewHtmlTitle">
+    <value>Informe de campaña</value>
+    <comment>Html title of the campaign overview page of the Email Campaigns module.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AreYouSureDeleteSubscriber">
+    <value>¿Está seguro de que desea borrar a este suscriptor?</value>
+    <comment>phrase: Are you sure you want to delete this subscriber?</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TabSeparatedList">
+    <value>Separado por tabulaciones</value>
+    <comment>phrase: Tab separated</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="YouCannotUnsubscribe">
+    <value>Error: No puede cancelar su suscripción.</value>
+    <comment>Message displayed to user who tries to unsubscribe and some error prevents the action.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UnsubscribeMessageOnSuccess">
+    <value>&lt;strong&gt;Cancelación de suscripción exitosa&lt;/strong&gt; &lt;br/&gt; Ha cancelado su suscripción con éxito a nuestro boletín ({|Subscriber.Email|}) &lt;br /&gt; Si cambia de parece, puede volver a {|MergeContextItems.SubscribeLink|} a nuestro boletín. &lt;br /&gt; Gracias.</value>
+    <comment>phrase: Click edit and select mailing list</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DateOpened">
+    <value>Fecha de apertura</value>
+    <comment>phrase: Date opened</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SubscribeLink">
+    <value>Suscribirse</value>
+    <comment>subscribe</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SmtpTestTitle">
+    <value>Probar configuración SMTP</value>
+    <comment>phrase: Test SMTP settings</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Analysis">
+    <value>Análisis</value>
+    <comment>word: Analysis</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CsvFile">
+    <value>archivo .csv</value>
+    <comment>word: Csv file</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SubscriberInformationSavedSuccessfully">
+    <value>La información del suscriptor ha sido guardada con éxito</value>
+    <comment>phrase: Subscriber information has been successfully saved</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="LicenseWarning">
+    <value>Usted tiene {0} suscriptores en su sistema, más de lo permitido por su licencia. Por favor, elimine algunos de los suscriptores o actualice su edición de Sitefinity. No podrá enviar campañas hasta que se resuelva este asunto.</value>
+    <comment>The message displayed to users when they have more subscribers in the newsletters module than allowed.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Pop3ServerTitle">
+    <value>Servidor POP3</value>
+    <comment>phrase: POP3 Server</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="OneScheduledAbTest">
+    <value>1 prueba A/B programada</value>
+    <comment>Status of the campaign when it has 1 scheduled A/B test.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Issues">
+    <value>Problemas</value>
+    <comment>word: Issues</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CampaignAName">
+    <value>Nombre de la campaña A</value>
+    <comment>phrase: Campaign A name</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SmtpNotificationsInfo">
+    <value>Los ajustes del servidor SMTP se configuran en Configuración Avanzada, en el perfil de Notificaciones, que coincide con el nombre especificado aquí.</value>
+    <comment>phrase: SMTP server settings are configured under Advanced Settings, on the Notifications profile which matches the name specified here.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CampaignSentSuccessfully">
+    <value>La campaña ha sido enviada con éxito.</value>
+    <comment>phrase: Campaign has been sent successfully.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TemplateSavedSuccessfully">
+    <value>La plantilla se ha guardado correctamente.</value>
+    <comment>phrase: Template has been successfully saved.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Delivered">
+    <value>Entregado</value>
+    <comment>word: Delivered</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BackToSubscribers">
+    <value>Volver a los suscriptores</value>
+    <comment>phrase: Back to subscribers</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DoNotExportExistingSubscribers">
+    <value>No exportar suscriptores con los mismos correos electrónicos</value>
+    <comment>phrase: Do not export subscribers with same emails</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Import">
+    <value>Importar</value>
+    <comment>word: Import</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SubscriberDesignerSelectListTitle">
+    <value>Seleccionar lista de correo</value>
+    <comment>phrase: Select mailing list</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SubscribersCount">
+    <value>Suscriptores</value>
+    <comment>word: Subscribers</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TemplatesTitle">
+    <value>Plantillas de mensajes</value>
+    <comment>Title of the templates page of the newsletters module.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateNewPlainTextTemplate">
+    <value>Crear nueva plantilla de texto sin formato</value>
+    <comment>phrase: Create new plain text template</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ExportSubscribersFrom">
+    <value>Exportar suscriptores desde {0}</value>
+    <comment>phrase: Export subscribers from {0}</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="HowToImproveOpenedInFirstHours">
+    <value>Para mejorar este indicador considere crear una prueba A/B que pone a prueba por separado el tiempo de su campaña, su asunto o el correo electrónico del remitente.</value>
+    <comment>text: To improve this metric consider creating an A/B test that tests separately the timing of your campaign, its subject or sender email.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EnterAtLeastOneTestEmailAddress">
+    <value>Debe introducir al menos una dirección de correo electrónico de prueba.</value>
+    <comment>phrase: You must enter at least one test email address.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="OfTheTestSample">
+    <value>de la muestra de prueba</value>
+    <comment>phrase: of the test sample</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RecipientsWhoOpened">
+    <value>Destinatarios que abrieron</value>
+    <comment>phrase: Recipients who opened</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Pop3PortOutOfRange">
+    <value>El número de puerto de POP3 debe ser un valor entre 0 y 1023</value>
+    <comment>phrase: POP3 port number must be a value between 0 and 1023</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TestingStatus">
+    <value>Estado de las pruebas</value>
+    <comment>phrase: Testing status</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UnsubscribedSuccessMessage">
+    <value>Ha cancelado la suscripción a la lista de correo. Usted ya no recibirá los boletines enviados a esta lista de correo.</value>
+    <comment>Message displayed to the user when he or she unsubscribes from the mailing list.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NoTemplatesCreatedYet">
+    <value>Aún no se han creado plantillas.</value>
+    <comment>Message shown to user if no templates have been created yet.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="LastOpenDate">
+    <value>Última fecha en que fue abierto</value>
+    <comment>phrase: Last open date</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="OpenedInFirstHours">
+    <value>Abierto en las primeras &lt;b&gt;48&lt;/b&gt; horas</value>
+    <comment>phrase: Opened in the first 48 hrs</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ChooseTemplate">
+    <value>Elegir una plantilla</value>
+    <comment>phrase: Choose template</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TestIssueBeforeSending">
+    <value>Pruebe su edición antes de enviarla a los usuarios</value>
+    <comment>phrase: Test your issue before sending it to the users</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="LastModified">
+    <value>Última modificación</value>
+    <comment>phrase: Last modified</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BackToMessageTemplates">
+    <value>Volver a las plantillas de Mensajes</value>
+    <comment>phrase: Back to Message templates</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EditTitle">
+    <value>Editar título</value>
+    <comment>Phrase: Edit title</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Bounced">
+    <value>Rebotó</value>
+    <comment>word: Bounced</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RetrySending">
+    <value>Volver a intentar el envío</value>
+    <comment>phrase: Retry sending</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ABCampaignReportPage">
+    <value>informe de prueba A/B</value>
+    <comment>Title of the A/B test report page</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TxtFile">
+    <value>archivo .txt</value>
+    <comment>word: Txt file</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CampaignStateSending">
+    <value>Enviando...</value>
+    <comment>Status of the campaign when it is being sent.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SaveThisSettings">
+    <value>Guardar esta configuración</value>
+    <comment>phrase: Save this settings</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TestingNoteDescription">
+    <value>Añadir una nota de lo que desea probar exactamente y lo que espera aprender de esta prueba. Esta nota será añadida a la información detallada de esta prueba A/B.</value>
+    <comment>phrase: Add a note what exactly you want to test and what you expect to learn from this test. This note will be added to this A/B test detailed info</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CampaignMessageComposedAsAWebPage">
+    <value>El mensaje de la campaña se compone como una página web</value>
+    <comment>phrase: The campaign's message is composed like a web page</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SMTPServiceProvider">
+    <value>Seleccionar servicio de correo electrónico</value>
+    <comment>phrase: Select email service</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MessageInHtml">
+    <value>Mensaje en HTML</value>
+    <comment>phrase: Message in HTML</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Schedule">
+    <value>Programar</value>
+    <comment>phrase: Schedule</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateABCampaign">
+    <value>Crear una prueba A/B</value>
+    <comment>phrase: Create an A/B test</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BounceStatistics">
+    <value>&lt;b&gt;{0}&lt;/b&gt; ({1}%) de ellas no son entregadas (rebotadas) debido a direcciones de correo electrónico no válidas y &lt;b&gt;{2}&lt;/b&gt; ({3}%) no son entregadas (rebotadas) debido a varios motivos.</value>
+    <comment>text: &lt;b&gt;{0}&lt;/b&gt; ({1}%) of them are not delivered (soft bounced) &lt;b&gt;{2}&lt;/b&gt; ({3}%) are not delivered (hard bounced).</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Clicked">
+    <value>Clicado</value>
+    <comment>phrase: Clicked</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BouncedEmailsSettings">
+    <value>Configuración de correos electrónicos rebotados</value>
+    <comment>phrase: Bounced emails settings</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AreYouSureDeleteSubscriberPerMailingList">
+    <value>Este usuario será borrado y será eliminado de todas las listas de correo de las que forma parte. ¿Está seguro de que desea borrar a este usuario?</value>
+    <comment>phrase: This user will be deleted and will be removed from all mailing lists in which he is added. Are you sure you want to delete this user?</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PreviewCampaign">
+    <value>Vista previa</value>
+    <comment>word: Preview</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateNewStandardTemplate">
+    <value>Crear una nueva plantilla estándar</value>
+    <comment>phrase: Create a new standard template</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EmailAddressDoesNotExist">
+    <value>Correo electrónico no válido (no entregado)</value>
+    <comment>phrase: Invalid email (not delivered)</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PageGroupNodeTitle">
+    <value>Campañas de Correo Electrónico</value>
+    <comment>The title of the page group node in the navigation</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Unsubscribe">
+    <value>Darse de baja</value>
+    <comment>word: Unsubscribe</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MakeCampaignAWinner">
+    <value>Hacer ganadora a la Campaña A</value>
+    <comment>phrase: Make Campaign A winner</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UnsubscribeFormDescription">
+    <value>Formulario que permite a los usuarios suscribirse al boletín</value>
+    <comment>The description of the unsubscribe form</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BounceActions">
+    <value>Acciones de rebote</value>
+    <comment>phrase: Bounce actions</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CampaignReportUrlName">
+    <value>informe-campana</value>
+    <comment>Url name of the campaign report page of the newsletters module.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NoABCampaignsCreatedYet">
+    <value>Aún no se han creado pruebas A/B</value>
+    <comment>phrase: No A/B tests have been created yet</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="WinningFactorTitle">
+    <value>Después de que el período de prueba ha terminado, envíe la campaña con...</value>
+    <comment>phrase: After the testing period is over, send the campaign with...</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="IssuePreview">
+    <value>Previsualización de reporte</value>
+    <comment>phrase: Issue preview</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProvideSmtpUserName">
+    <value>Cuando la autenticación SMTP está activada, usted debe proporcionar un valor para la propiedad SmtpUserName.</value>
+    <comment>phrase: When SMTP authentication is turned on, you must provide value for the SmtpUserName property.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MailingListTitleDescription">
+    <value>Buen ejemplo: "Campañas de Correo Electrónico de la Compañía Acme" &lt;br /&gt; Mal ejemplo: "Cust_11_01_2007"</value>
+    <comment>phrase: Good example: "Acme Company Email Campaigns" - Bad example: "Cust_11_01_2007"</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DefaultFromName">
+    <value>Nombre del emisor</value>
+    <comment>phrase: From name</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="IssueNameDescription">
+    <value>Ejemplo: &lt;em class='sfNote'&gt;edición de diciembre&lt;/em&gt;</value>
+    <comment>phrase: Example: December issue</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TestingSample">
+    <value>Probar muestra</value>
+    <comment>phrase: Testing sample</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MailingListStatistics">
+    <value>&lt;b&gt;{0}&lt;/b&gt; correos electrónicos enviados a los suscriptores en &lt;i&gt;{1}&lt;/i&gt; la lista de correo.</value>
+    <comment>text: {0} emails sent to subscribers in {1} mailing list.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FirstName">
+    <value>Nombre</value>
+    <comment>word: First name</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MailingListSettings">
+    <value>Configuración de correo</value>
+    <comment>phrase: Mail settings</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UnsubscribeDesignerSelectListTitle">
+    <value>Seleccionar lista de correo</value>
+    <comment>phrase: Select mailing list</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CampaignStateCompleted">
+    <value>Enviado</value>
+    <comment>Status of the campaign when the sending has been completed.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SmtpSettings">
+    <value>Configuración SMTP</value>
+    <comment>phrase: SMTP Settings</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TestingNoteTitle">
+    <value>¿Qué está probando?</value>
+    <comment>phrase: What are you testing?</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ScheduleDelivery">
+    <value>Programar entrega</value>
+    <comment>phrase: Schedule delivery</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CampaignOverviewUrlName">
+    <value>generalidades-campaña</value>
+    <comment>Url name of the campaign overview page of the Email Campaigns module.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CampaignBName">
+    <value>Nombre de la campaña B</value>
+    <comment>phrase: Campaign B name</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SoftBounceDefinition">
+    <value>Un rebote blando es un problema temporal que evita que el correo electrónico sea entregado al destinatario. Las posibles razones son que el destinatario tenga el buzón lleno (sobrecupo), que el servidor de correo electrónico del destinatario esté caído o fuera de línea, o que el mensaje sea demasiado grande.</value>
+    <comment>A soft bounce is a temporary problem that prevents the email to be delivered to the recipient. Possible reasons are a full mailbox of the recipient (over quota), the recipient’s email server is down or offline, or the email message is too large.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NumberOfSubscribers">
+    <value>{0} suscriptores</value>
+    <comment>phrase: {0} subscribers</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UnsubscribeStatistics">
+    <value>{0}% de cancelación de suscripción</value>
+    <comment>phrase: {0}% unsubscribe</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ABTestSettings">
+    <value>Ajustes de prueba A/B</value>
+    <comment>phrase: A/B Test settings</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SelectMailingListStepTitle">
+    <value>Seleccionar la lista de correo</value>
+    <comment>phrase: Select the mailing list</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProvideSmtpPassword">
+    <value>Cuando la autenticación SMTP está activada, debe proporcionar un valor para la propiedad ProvidSmtpPassword.</value>
+    <comment>phrase: When SMTP authentication is turned on, you must provide value for the ProvidSmtpPassword property.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ClickedOn">
+    <value>Clicó en</value>
+    <comment>phrase: Clicked on</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SoFarSentMessages">
+    <value>Mensajes enviados hasta ahora</value>
+    <comment>phrase: So far sent messages</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DoNotOverwriteExistingSubscribers">
+    <value>No importar suscriptores con mensajes de correo electrónico que ya existen</value>
+    <comment>phrase: Do not import subscribers with emails that already exist</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ConnectionTitle">
+    <value>Título de conexión</value>
+    <comment>Title of the dynamic list connection</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ABCampaignsDescription">
+    <value>página de pruebas A/B</value>
+    <comment>Description of the A/B tests page</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ABCampaignType">
+    <value>Prueba A/B</value>
+    <comment>User friendly name for the A/B test type</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="HardBounceDefinition">
+    <value>Un rebote duro es un problema permanente que evita que el correo electrónico sea entregado al destinatario. Las posibles razones son una dirección de correo electrónico no existente o equivocada del destinatario, nombre de dominio no existente o equivocada, o que el servidor de correo electrónico del destinatario ha bloqueado completamente la entrega del correo electrónico.</value>
+    <comment>A hard bounce indicates a permanent problem that prevents the email to be delivered to the recipient. Possible reasons are a non-existent or wrong email address of the recipient, non-existent or wrong domain name, or the recipient’s email server has completely blocked the email delivery.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FullReport">
+    <value>Informe completo</value>
+    <comment>phrase: Full report</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MapRequiredFields">
+    <value>Asociar campos requeridos</value>
+    <comment>phrase: Map required fields</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="LastSubscribersWhoClickedTitle">
+    <value>Últimos 10 suscriptores que hicieron clic</value>
+    <comment>phrase: Last 10 subscribers who clicked</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ABTestNote">
+    <value>(Prueba AB)</value>
+    <comment>phrase: (AB test)</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SendThisABTestDotDotDot">
+    <value>Enviar esta prueba A/B...</value>
+    <comment>phrase: Send this A/B test...</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SubscribersReportUrlName">
+    <value>reporte-suscriptores</value>
+    <comment>Url name of the subscribers report page of the Email Campaigns module</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ABTestEndConfirmation">
+    <value>Si se pone fin a esta prueba, se enviará la campaña ganadora. ¿Está seguro de que desea continuar?</value>
+    <comment>phrase: If this test is ended the winning campaign will be sent. Are you sure you want to continue?</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MultipleDraftAbTests">
+    <value>{0} pruebas A/B de borrador</value>
+    <comment>Status of the campaign when it has multiple draft A/B tests.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateNewIssueDescription">
+    <value>Editar el contenido y las propiedades para enviar una nueva edición de esta campaña</value>
+    <comment>phrase: Edit content and properties to send a new issue of this campaign.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TestResults">
+    <value>Resultados de la prueba</value>
+    <comment>phrase: Test results</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MessageSubjectDescription">
+    <value>Mantener relevancia y no hacer spam para evitar los filtros de correo basura.</value>
+    <comment>phrase: Keep it relevant and non-spammy to avoid spam filters.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PageGroupNodeUrlName">
+    <value>Campañas de Correo Electrónico</value>
+    <comment>The url name of the page group node</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NotificationsSmtpProfileNotFound">
+    <value>No se puede encontrar el perfil "{0}" SMTP de notificaciones para boletines.</value>
+    <comment>phrase: Notifications SMTP profile "{0}" set for newsletters cannot be found.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ABTestSuccessfullySent">
+    <value>Prueba AB enviada con éxito.</value>
+    <comment>phrase: AB test successfully started</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Insert">
+    <value>Insertar</value>
+    <comment>word: Insert</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Pop3Settings">
+    <value>Configuración de POP3</value>
+    <comment>phrase: POP3 Settings</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Pop3PasswordTitle">
+    <value>Contraseña POP3</value>
+    <comment>phrase: POP3 Password</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Password">
+    <value>Contraseña</value>
+    <comment>word: Password</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StandardTemplate">
+    <value>Plantilla con widgets</value>
+    <comment>phrase: Template with widgets</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UniqueClicksStatisticsComparison">
+    <value>{0}% de ratio de clics en comparación con el {1}% de la edición anterior</value>
+    <comment>phrase: {0}% click through rate in comparison to {1}% previous issue</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TestingPeriodEnd">
+    <value>Decidir la campaña ganadora en</value>
+    <comment>phrase: Decide the winning campaign on</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AbTestReportUrlName">
+    <value>informe-prueba-ab</value>
+    <comment>Url name of the A/B test report page of the Email Campaigns module.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DefineTheContentOfTheMessage">
+    <value>Definir el contenido del mensaje</value>
+    <comment>phrase: Define the content of the message</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DefaultReplyToEmail">
+    <value>Correo electrónico para responder</value>
+    <comment>phrase: Reply-to email</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DynamicListProviders">
+    <value>Proveedores de lista dinámica</value>
+    <comment>phrase: Dynamic list providers</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="WhereTheSubscribersWillBeImported">
+    <value>(donde se importarán los suscriptores)</value>
+    <comment>phrase: (where the subscribers will be imported)</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MoreOpenedEmails">
+    <value>Más mensajes de correo electrónico abiertos</value>
+    <comment>phrase: More opened emails</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NoMailingListsFound">
+    <value>No se encontraron listas de correo.</value>
+    <comment>Message shown to user when searching for a mailing list and no mailing lists are found.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ComposeMessageInEditor">
+    <value>Componer mensaje en el editor</value>
+    <comment>phrase: Compose message in editor</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SubscribeFormWidgetDescriptionExample">
+    <value>por ejemplo, Manténgase al día con los últimos productos, actualizaciones y opciones de financiamiento…</value>
+    <comment>Example of the description for the subscribe form widget.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AreYouSureDeleteSubscribersPerMailingList">
+    <value>{0} usuarios serán borrados y eliminados de todas las listas de correo de las que forman parte. ¿Está seguro de que desea eliminar {0} usuarios?</value>
+    <comment>phrase: {0} users will be deleted and will be removed from all mailing lists in which they are added. Are you sure you want to delete {0} users?</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ClicksCount">
+    <value>Recuento de clics</value>
+    <comment>phrase: Clicks count</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DeliveryStatistics">
+    <value>{0}% de tasa de entrega</value>
+    <comment>phrase: {0}% delivery rate</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SelectAMergeTag">
+    <value>- seleccionar una etiqueta de fusión -</value>
+    <comment>phrase: -- select a merge tag --</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DateClicked">
+    <value>Fecha en que se hizo clic</value>
+    <comment>phrase: Date clicked</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CampaignStatePendingSending">
+    <value>Listo para enviar</value>
+    <comment>Status of the campaign when it is ready to be sent</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DefaultSubject">
+    <value>Asunto</value>
+    <comment>phrase: Subject</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Pop3UsesSSL">
+    <value>Utilizar SSL para la conexión al servidor POP3</value>
+    <comment>phrase: POP3 uses SSL</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EditCampaignMessage">
+    <value>Editar mensaje de la campaña</value>
+    <comment>phrase: Edit campaign message</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EditTemplate">
+    <value>Editar una plantilla de mensaje</value>
+    <comment>phrase: Edit a message template</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="OpenedInFirstHoursStatistics">
+    <value>{0}% de tasa de apertura</value>
+    <comment>phrase: {0}% open rate</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PlainTextTemplate">
+    <value>Texto sin formato</value>
+    <comment>phrase: Plain text</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MailingListTitle">
+    <value>Título de la lista de correo</value>
+    <comment>phrase: Mailing list title</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SendIssuePromptText">
+    <value>Esta edición será enviada a {0} usuarios</value>
+    <comment>phrase: This issue will be sent to {0} subsribers</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ViewReport">
+    <value>Ver informe</value>
+    <comment>phrase: View report</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Newsletters">
+    <value>Campañas de Correo Electrónico</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FirstColumn">
+    <value>Primera columna</value>
+    <comment>phrase: First column</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AddFromExisting">
+    <value>Agregar desde existente</value>
+    <comment>phrase: Add from existing</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BelongsToMailingLists">
+    <value>Pertenece a las listas de correo</value>
+    <comment>phrase: Belongs to mailing lists</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CopyContentFromFormat">
+    <value>Copiar contenido de {0}</value>
+    <comment>phrase: Copy content from {0}</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Subject">
+    <value>Asunto</value>
+    <comment>word: Subject</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ReplyToEmail">
+    <value>Responder al correo electrónico</value>
+    <comment>phrase: Reply to email</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SelectAPage">
+    <value>Seleccionar una página</value>
+    <comment>phrase: Select a page</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SubscribersActivity">
+    <value>Actividad de los suscriptores</value>
+    <comment>phrase: Subscribers activity</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateIssueFor">
+    <value>Crear una edición para {0}</value>
+    <comment>phrase: Create an issue for {0}</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImportSubscribers">
+    <value>Importar suscriptores</value>
+    <comment>phrase: Import subscribers</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NoCurrentCampaigns">
+    <value>En este momento, no hay campañas listas para enviar o en proceso de entrega.</value>
+    <comment>phrase: Currently, there are no campaigns that are ready for sending or in the processes of delivery.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FormsDynamicListProviderTitle">
+    <value>módulo de Formularios de Sitefinity</value>
+    <comment>phrase: Sitefinity Forms module</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SendWelcomeEmail">
+    <value>Me gustaría dar la bienvenida a los nuevos suscriptores con un mensaje de correo electrónico</value>
+    <comment>phrase: I'd like to welcome new subscribers with an email message</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TemplateName">
+    <value>Nombre de la plantilla</value>
+    <comment>phrase: Template name</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AreYouSureDeleteABCampaign">
+    <value>¿Está seguro de que desea eliminar esta prueba A/B?</value>
+    <comment>phrase: Are you sure that you want to delete this A/B test?</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ByClickedLinks">
+    <value>por enlaces Clicados…</value>
+    <comment>phrase: by Clicked links</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="HowToPickTheWinningCampaign">
+    <value>¿Cómo elegir la campaña ganadora?</value>
+    <comment>phrase: How to pick the winning campaign?</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AreYouSureRemoveSubscribers">
+    <value>¿Está seguro de que desea eliminar {0} suscriptores de esta lista de correo?</value>
+    <comment>phrase: Are you sure you want to remove {0} subscribers from this mailing list?</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TestingSampleDescription">
+    <value>Utilice el control deslizante para definir qué parte de los usuarios en la lista de correo {0} participarán en la prueba A/B. Después de terminar la prueba, la edición ganadora será enviada al resto de los usuarios de la lista de correo.</value>
+    <comment>phrase: Use the slider to define what part of the users in All_Clients mailing list will participate in the A/B test. After the test is finished the winning issue will be sent to the rest of the users in the mailing list</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UniqueOpeningsStatisticsComparison">
+    <value>{0}% de tasa de apertura en comparación con el {1}% de la edición anterior</value>
+    <comment>phrase: {0}% opening rate in comparison to {1}% previous issue</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RequiredFieldsAreBold">
+    <value>Los campos obligatorios están en negrita</value>
+    <comment>phrase: Required fields are bold.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="IssueB">
+    <value>edición B</value>
+    <comment>phrase: issue B</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BaseTemplateTitle">
+    <value>Plantilla base (se puede cambiar más adelante)</value>
+    <comment>phrase: Base template (you can change it later)</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MultipleScheduledAbTests">
+    <value>{0} pruebas A/B programadas</value>
+    <comment>Status of the campaign when it has multiple scheduled A/B tests.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EmailAddress">
+    <value>Correo electrónico</value>
+    <comment>phrase: Email Address</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UnsubscribeLink">
+    <value>desuscribirse</value>
+    <comment>Label of the unsubscribe link.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AreYouSureDeleteABCampaigns">
+    <value>¿Está seguro de que desea eliminar esta(s) prueba(s) A/B?</value>
+    <comment>phrase: Are you sure that you want to delete this A/B test(s)?</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Export">
+    <value>Exportar</value>
+    <comment>phrase: Export</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DetermineTheSizeOfTheTestingSample">
+    <value>Determinar el tamaño de la muestra de prueba.</value>
+    <comment>phrase: Determine the size of the testing sample.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FileCannotBeExported">
+    <value>El archivo no se puede exportar.</value>
+    <comment>phrase:File cannot be exported.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NumberOfBouncedMessages">
+    <value>Número de mensajes rebotados</value>
+    <comment>phrase: Number of bounced messages</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NewABCampaignSuccessfullyCreated">
+    <value>Se ha creado con éxito una nueva prueba A/B</value>
+    <comment>phrase: New A/B test has been successfully created</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AbTestReportTitle">
+    <value>informe de prueba A/B</value>
+    <comment>Title of the A/B test report page of the Email Campaigns module.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AbCampaignReportTitle">
+    <value>título de informe de prueba A/B</value>
+    <comment>Title of the A/B test report</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TestMessageBody">
+    <value>Este es un mensaje de prueba enviado desde el módulo de boletines de Sitefinity para verificar su configuración SMTP. Su configuración de SMTP está funcionando correctamente.</value>
+    <comment>phrase: the message body when sending a test message</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ClickedLinks">
+    <value>Vínculos clicados</value>
+    <comment>phrase: Clicked links</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DashboardDescription">
+    <value>Página de información general del módulo de boletines</value>
+    <comment>Description of the dashboard page</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Pop3Password">
+    <value>Contraseña POP3</value>
+    <comment>phrase: POP3 Password</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AddExistingSubscribers">
+    <value>Añadir suscriptores existentes a la lista de correo {0}</value>
+    <comment>phrase: Add existing subscribers to {0} mailing list</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Today">
+    <value>Hoy</value>
+    <comment>word: Today</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NewslettersResourcesTitle">
+    <value>Campañas de Correo Electrónico</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PageGroupNodeDescription">
+    <value>Módulo de boletines</value>
+    <comment>The description of the page group node in the navigation</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CampaignStateScheduled">
+    <value>Programado para el envío</value>
+    <comment>Status of the campaign when it is scheduled to be sent.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ExportSubscribers">
+    <value>Exportar suscriptores</value>
+    <comment>word: Export subscribers</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UniqueOpeningsStatistics">
+    <value>tasa de apertura del {0}%</value>
+    <comment>phrase: {0}% opening rate</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NewslettersControlsDescription">
+    <value>La caja de herramientas para diseñar las campañas de boletines</value>
+    <comment>The description of the newsletters control toolbox</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EnableSSL">
+    <value>¿Habilitar SSL?</value>
+    <comment>word: Enable SSL</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="HtmlCampaignType">
+    <value>texto enriquecido (HTML)</value>
+    <comment>User friendly name for the html campaign type</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateNewCampaign">
+    <value>Crear una nueva campaña</value>
+    <comment>phrase: Create new campaign</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ScheduledCampaigns">
+    <value>Campañas programadas</value>
+    <comment>phrase: Scheduled campaigns</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DashboardTitle">
+    <value>Información General</value>
+    <comment>Title of the dasboard page</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BackToDashboard">
+    <value>Volver al Panel de Control</value>
+    <comment>phrase: Back to dashboard</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SendThisABTest">
+    <value>Enviar esta prueba A/B</value>
+    <comment>phrase: Send this A/B test</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SendTestCampaignTitle">
+    <value>Pruebe su campaña antes de enviarla.</value>
+    <comment>phrase: Test your campaign before sending it.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EnterIssueTestEmailAddresses">
+    <value>&lt;div&gt;Pruebe su edición antes de enviarla a los usuarios&lt;/div&gt;&lt;label class="sfMTop15 sfTxtLbl"&gt;Introducir dirección de correo electrónico&lt;/label&gt;&lt;p class='sfExample'&gt; Separe con comas si quiere enviarlo a más de una dirección de correo electrónico&lt;/p&gt;</value>
+    <comment>phrase: Enter email address (separate with comma if you want to send it to more than one)</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SendAConfirmationEmailToNewSubscribers">
+    <value>¿Enviar un correo electrónico de confirmación a los nuevos suscriptores?</value>
+    <comment>phrase: Send a confirmation email to new subscribers?</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EndTestingAnd">
+    <value>Terminar prueba y...</value>
+    <comment>phrase: End testing and...</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Username">
+    <value>Nombre de usuario</value>
+    <comment>word: Username</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateCampaignFromScratch">
+    <value>Empezar desde cero</value>
+    <comment>phrase: Start from scratch</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateASubscriber">
+    <value>Crear un suscriptor</value>
+    <comment>phrase: Create a subscriber</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FromName">
+    <value>Nombre del emisor</value>
+    <comment>phrase: From name</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DefineTheContentOfTheMessageA">
+    <value>Definir el contenido del mensaje A</value>
+    <comment>phrase: Define the content of the message A</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Drafts">
+    <value>Borradores</value>
+    <comment>word: Drafts</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Previous">
+    <value>Anterior</value>
+    <comment>word: Previous</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Pop3ServerDescription">
+    <value>La dirección de host del servidor POP3</value>
+    <comment>phrase: The host address of the POP3 server</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SendABTest">
+    <value>Enviar una prueba A/B</value>
+    <comment>phrase: Send an A/B test</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NewslettersResourcesTitlePlural">
+    <value>Campañas de Correo Electrónico</value>
+    <comment>Title plural for the newsletters module.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SubscriberReportTitle">
+    <value>Informe de suscriptor</value>
+    <comment>Title of the subscriber report page of the newsletters module</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BouncedEmailSettings">
+    <value>Configuración de correo electrónico rebotada</value>
+    <comment>phrase: Bounced email settings</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ConnectThisList">
+    <value>Conectar esta lista</value>
+    <comment>phrase: Connect this list</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CampaignSuccessfullySaved">
+    <value>La campaña ha sido guardada con éxito.</value>
+    <comment>phrase: Campaign has been successfully saved.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MappingInstruction">
+    <value>Asociar las columnas de origen a las propiedades del suscriptor:</value>
+    <comment>phrase: Map the source columns to the subscriber's properties</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="WhatsThis">
+    <value>¿Qué es esto?</value>
+    <comment>phrase: What's this?</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="LessBounces">
+    <value>Menos rebotes</value>
+    <comment>phrase: Less bounces</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MailSettings">
+    <value>Configuración de correo</value>
+    <comment>phrase: Mail settings</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CampaignStateMissingMailingList">
+    <value>Falta la lista de correo</value>
+    <comment>phrase: Missing mailing list</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="OrElipsis">
+    <value>O ...</value>
+    <comment>Or with an elipsis</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SelectConnectionSourceErrorMessage">
+    <value>Debe seleccionar una fuente de conexión para poder continuar</value>
+    <comment>phrase: You should select a connection source to be able to continue</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Pop3Port">
+    <value>Puerto POP3</value>
+    <comment>phrase: POP3 port</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UsedFor">
+    <value>Utilizado Para</value>
+    <comment>phrase: Used For</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TestMessageSentSuccessfully">
+    <value>El mensaje de prueba ha sido enviado con éxito.</value>
+    <comment>phrase: Test message has been sent successfully.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SeeWhichLinksWereClicked">
+    <value>Ver qué vínculos fueron clicados</value>
+    <comment>phrase: See which links were clicked</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EnterTestEmailAddresses">
+    <value>Introduzca la dirección electrónica a la que desea enviar la campaña de prueba. Si utiliza más de una, sepárelas con comas (,).</value>
+    <comment>phrase: Email addresses</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Pop3UsernameDescription">
+    <value>El nombre de usuario utilizado para acceder a la cuenta POP3</value>
+    <comment>phrase: The username used to log into the POP3 account</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FileCannotBeImported">
+    <value>El archivo seleccionado no se puede importar. Compruebe si está en el formato correcto.</value>
+    <comment>phrase:The selected file cannot be imported. Check whether it is in the correct format</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SendTestButton">
+    <value>Enviar prueba</value>
+    <comment>phrase: Send test</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SendTest">
+    <value>Enviar verificación</value>
+    <comment>phrase: Send check</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CampaignsHtmlTitle">
+    <value>Campañas</value>
+    <comment>Html title of the campaigns page</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="IssueReportUrlName">
+    <value>reporte-edición</value>
+    <comment>Url name of the issue report page of the Email Campaigns module.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CampaignOverviewDescription">
+    <value>Página que muestra el reporta para una sola campaña.</value>
+    <comment>Description of the campaign overview page of the Email Campaigns module.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CampaignIssueStateOneScheduled">
+    <value>1 problema programado</value>
+    <comment>Status of the campaign when it has 1 scheduled issue.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SubsNoMailingList">
+    <value>Los suscriptores que no pertenecen a ninguna lista</value>
+    <comment>phrase: Subscribers who do not belong to any list</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="HowToImprove">
+    <value>¿Cómo mejorar?</value>
+    <comment>phrase: How to improve?</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AreYouSureRemoveSubscriber">
+    <value>¿Está seguro de que desea eliminar a este suscriptor de esta lista de correo?</value>
+    <comment>phrase: Are you sure you want to remove this subscriber from this mailing list?</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NewSubscribers">
+    <value>Nuevos suscriptores</value>
+    <comment>phrase: New subscribers</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CampaignsDescription">
+    <value>página de Campañas</value>
+    <comment>Description of the campaigns page</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ChooseTheTypeOfCampaign">
+    <value>Seleccionar el tipo de campaña</value>
+    <comment>phrase: Choose the type of campaign.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateATemplate">
+    <value>Crear una plantilla de mensaje</value>
+    <comment>phrase: Create a message template</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NoMailingListsCreatedYet">
+    <value>Aún no se han creado listas de correo.</value>
+    <comment>Message shown to user when no mailing lists have been yet created.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SubscribersDescription">
+    <value>Página para administrar a los suscriptores del boletín</value>
+    <comment>Description of the subscribers page of the newsletters module</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="OneUsingCampaigns">
+    <value>Un tema usa esta lista de correo</value>
+    <comment>phrase: 1 issue uses this mailing list</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SoftBounceAction">
+    <value>Rebote blando</value>
+    <comment>phrase: Soft bounce</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EmailExistsInTheMailingList">
+    <value>Un suscriptor con el correo electrónico dado ya está suscrito a esta lista de correo.</value>
+    <comment>phrase: A subscriber with given email is already subscribed to this mailing list.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TemplatesDescription">
+    <value>Página de plantillas</value>
+    <comment>Description of the templates page of the newsletters module.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PlainTextVersion">
+    <value>Versión de texto sin formato</value>
+    <comment>phrase: Plain text version</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="LikeAWebPage">
+    <value>Como una página web</value>
+    <comment>User friendly name of the standard campaign.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ClickedBy">
+    <value>Clicado por</value>
+    <comment>phrase: Clicked by</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="GeneralInformation">
+    <value>Información General</value>
+    <comment>phrase: General information</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Pop3Username">
+    <value>Nombre de usuario POP3</value>
+    <comment>phrase: POP3 Username</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DefaultSubjectDescription">
+    <value>Mantener relevancia y no hacer spam. Puede crear diferentes asuntos al crear las campañas.</value>
+    <comment>phrase: Keep it relevant and non-spammy. You can set different subject line when you create campaigns.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SelectConnectionSource">
+    <value>-- Seleccione fuente de conexión --</value>
+    <comment>phrase: -- Select connection source --</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EditTitleAndProperties">
+    <value>Título y Propiedades</value>
+    <comment>phrase: Title &amp; Properties</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DefaultFromNameDescription">
+    <value>Utilizar algo reconocible (como el nombre de su empresa)</value>
+    <comment>phrase: Use something recognizable (like your company name)</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Name">
+    <value>Nombre</value>
+    <comment>word: Name</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ThisWeek">
+    <value>Esta semana</value>
+    <comment>phrase: This week</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DefineTheContentOfTheMessageB">
+    <value>Definir el contenido del mensaje B</value>
+    <comment>phrase: Define the content of the message B</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NewCampaignSuccessfullyCreated">
+    <value>Una nueva campaña se ha creado con éxito.</value>
+    <comment>phrase: New campaign has been successfully created.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="WinningIssueDescription">
+    <value>Seleccione los criterios mediante los cuales se seleccionó la edición ganadora. La edición que cumple con los criterios seleccionados será enviada al resto de los usuarios.</value>
+    <comment>phrase: Select the criteria by which the winning issue to be selected. The issue that meets selected criteria will be sent to the rest of the users.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DeliverCampaignOn">
+    <value>Entregar la campaña el</value>
+    <comment>phrase: Deliver campaign on</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Settings">
+    <value>Opciones</value>
+    <comment>word: Settings</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AVCampaignReportDescription">
+    <value>informe de prueba A/B</value>
+    <comment>Descriptin of the A/B test report page</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateAndGoEmailCampaigns">
+    <value>Crear e ir a Campañas</value>
+    <comment>phrase: Create and go to Campaigns</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TrackBouncedMessages">
+    <value>Hacer seguimiento a mensajes rebotados</value>
+    <comment>phrase: Track bounced messages</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CampaignIssueMultipleSent">
+    <value>{0} ediciones enviadas</value>
+    <comment>Status of the campaign when it has 1 draft issue and multiple sent issues</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PerformATest">
+    <value>Realizar una prueba</value>
+    <comment>phrase: Perform a test</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="LinkUrl">
+    <value>Vincular url</value>
+    <comment>phrase: Link url</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StandardCampaignType">
+    <value>Plantilla con widgets</value>
+    <comment>User friendly name for the standard campaign type</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SendTestIssueTitle">
+    <value>Enviar prueba</value>
+    <comment>phrase: Send test</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ABTestNameColumn">
+    <value>Nombre de Prueba A/B</value>
+    <comment>phrase: A/B Test Name</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ClickEditAndSelectList">
+    <value>Haga clic en Editar y seleccione la lista de correo</value>
+    <comment>phrase: Click edit and select mailing list</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="GoodByeSubjectDescription">
+    <value>por ejemplo, Sentimos que se vaya, esperamos verlo pronto</value>
+    <comment>phrase: e.g. We are sorry to see you go, hope to see you back soon</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ABTest">
+    <value>Prueba A/B</value>
+    <comment>A/B test</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SubscribeToMailingList">
+    <value>Suscribirse a la lista de correo</value>
+    <comment>phrase: Subscribe to mailing list</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AreYouSureDeleteMailingLists">
+    <value>¿Está seguro de que desea eliminar esta(s) lista(s) de correo(s)?</value>
+    <comment>phrase: Are you sure you want to delete this mailing list(s)?</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EmailIsRequired">
+    <value>Es necesaria la dirección de correo electrónico</value>
+    <comment>Validation message for the missing email address.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ABCampaignSentSuccessfully">
+    <value>Se ha enviado con éxito una prueba A/B</value>
+    <comment>phrase: A/B test has been sent successfully</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SelectAPageLink">
+    <value>Seleccionar</value>
+    <comment>Text of the link for selecting a page</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FilterSubscribers">
+    <value>Filtrar suscriptores</value>
+    <comment>phrase: Filter subscribers</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DeleteSubscriber">
+    <value>Eliminar suscriptor</value>
+    <comment>phrase: Delete subscriber</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TotalRecipients">
+    <value>Total de destinatarios</value>
+    <comment>phrase: Total recipients</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RichTextHtml">
+    <value>texto enriquecido (HTML)</value>
+    <comment>User friendly name of the html campaign type.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AutomaticallyGeneratePlainTextVersion">
+    <value>Generar automáticamente versión de texto sin formato</value>
+    <comment>phrase: Automatically generate plain text version</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CurrentCampaigns">
+    <value>Campañas actuales</value>
+    <comment>phrase: Current campaigns</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SubscribersWillBeImportedInFollowingMailingList">
+    <value>Los suscriptores serán importados a la siguiente lista de correo:</value>
+    <comment>phrase: Subscribers will be imported in the following mailing list:</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ABTestDecisionConfirmation">
+    <value>La campaña {0} está marcada como ganadora y será enviada a los suscriptores. ¿Está seguro de que desea continuar?</value>
+    <comment>phrase: Campaign {0} is marked as a winner and will be sent to the subscribers. Are you sure you want to continue?</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Campaigns">
+    <value>Campañas</value>
+    <comment>word: Campaigns</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SendGoodByeEmail">
+    <value>Me gustaría hacer un seguimiento a las personas que se dan de baja</value>
+    <comment>phrase: I'd like to follow up with people that unsubscribe</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NewSubscriberCreatedSuccessfully">
+    <value>Suscriptor creado con éxito</value>
+    <comment>phrase: Subscriber successfully created</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ReportsTitle">
+    <value>Reportes</value>
+    <comment>Title of the reports page of the newsletters module</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="LikeAWebPageDescription">
+    <value>Para diseños de varias columnas y diseño enriquecido. El contenido se agrega mediante widgets. Algunos clientes de correo electrónico no pueden interpretarlos correctamente.</value>
+    <comment>Description of the standard campaign type.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AbTestReportDescription">
+    <value>Esta página muestra las estadísticas que comparan dos ediciones en una prueba A/B.</value>
+    <comment>Description of the A/B test report page of the Email Campaigns module.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SmtpProfile">
+    <value>Perfil</value>
+    <comment>label: Profile</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SubscribersUrlName">
+    <value>Suscriptores</value>
+    <comment>Url name of the subscribers page of the newsletters module</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DeliveryState">
+    <value>Estado de entrega</value>
+    <comment>phrase: Delivery state</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DiscardCampaign">
+    <value>Descartar esta campaña</value>
+    <comment>phrase: Discard this campaign</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StatisticsFor">
+    <value>Estadísticas para {0}</value>
+    <comment>phrase: Statistics for {0}</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SmtpTestNote">
+    <value>Probar la configuración SMTP al enviar un mensaje de correo electrónico de prueba</value>
+    <comment>phrase: Test your SMTP settings by sending a test email message</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UnsubscribeDesignerSelectMailingListTitle">
+    <value>Permitir a los usuarios darse de baja de:</value>
+    <comment>The title of the mailing list selector in the unsubscribe form designer.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SettingsDescription">
+    <value>Página de configuración del módulo de boletines</value>
+    <comment>Description of the settings page of the newsletters module</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TestSample">
+    <value>Probar muestra</value>
+    <comment>phrase: Test sample</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="IssueAlreadySent">
+    <value>Esta edición ya fue enviada y no puede editarse. Por favor, actualice la página.</value>
+    <comment>phrase: This issue is already sent and cannot be edited. Please, refresh the page.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CampaignsManagement">
+    <value>Gestión de campañas</value>
+    <comment>Menu title: Campaigns management</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SubscribeFormTitle">
+    <value>Formulario de suscripción</value>
+    <comment>Title of the subscribe form control</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="LaunchEditor">
+    <value>Lanzar editor</value>
+    <comment>phrase: Launch editor</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CampaignStateDraft">
+    <value>Borrador</value>
+    <comment>Status of the campaign when it is saved, but not ready for sending</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SmtpHostCannotBeEmpty">
+    <value>La propiedad smtpHost establecida a través de la configuración del módulo de "Campañas de Correo Electrónico" no puede ser una cadena vacía.</value>
+    <comment>phrase: SmtpHost property set through configuration of Email Campaigns module cannot be an empty string.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ABTestName">
+    <value>Título de prueba A/B</value>
+    <comment>phrase: A/B Test title</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Clicks">
+    <value>clics</value>
+    <comment>word: clicks</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MoreLinkClicks">
+    <value>Mayor número de clics de vínculo</value>
+    <comment>phrase: More link clicks</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Pop3Server">
+    <value>Servidor POP3</value>
+    <comment>phrase: POP3 Server</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SubscribeFormWidgetTitleExample">
+    <value>por ejemplo, ¿Quiere saber más sobre nuestros últimos productos?</value>
+    <comment>Example of the title for the subscribe form widget.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateNewIssue">
+    <value>Crear nueva edición</value>
+    <comment>phrase: Create new issue</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Queued">
+    <value>En espera</value>
+    <comment>word: Queued</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NoFileSelectedForImport">
+    <value>No hay ningún archivo seleccionado para importar</value>
+    <comment>phrase: There is no file selected for import</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AreYouSureDeleteCampaign">
+    <value>¿Está seguro de que desea borrar esta campaña?</value>
+    <comment>phrase: Are you sure you want to delete this campaign?</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Report">
+    <value>Reporte</value>
+    <comment>word: Report</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CampaignName">
+    <value>Nombre de la campaña</value>
+    <comment>phrase: Campaign name</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ViewSubscribers">
+    <value>Ver suscriptores</value>
+    <comment>phrase: View subscribers</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Stopped">
+    <value>Detenido</value>
+    <comment>word: Stopped</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DetailedReport">
+    <value>Informe detallado</value>
+    <comment>phrase: Detailed report</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MessageInPlainText">
+    <value>Mensaje en texto sin formato</value>
+    <comment>phrase: Message in plain text</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ComposeTheTemplateInPageEditor">
+    <value>Componer la plantilla en el editor de página</value>
+    <comment>phrase: Compose the template in page editor</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Dashboard">
+    <value>Cuadro de mando</value>
+    <comment>word: Dashboard</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SelectMailingListInstruction">
+    <value>¿A qué lista de correo le gustaria enviar esta campaña?</value>
+    <comment>phrase: Which mailing list would you like to send this campaign to?</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Winner">
+    <value>Ganador</value>
+    <comment>phrase: Winner</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NotificationsSmtpProfileNameCannotBeEmpty">
+    <value>El nombre del perfil SMTP de notificaciones no puede ser una cadena vacía.</value>
+    <comment>phrase: Notifications SMTP profile name cannot be an empty string.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ABCampaignsHtmlTitle">
+    <value>pruebas A/B</value>
+    <comment>Html title of the A/B tests page</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UnsubscribeDesignerSelectListDescription">
+    <value>Seleccionar la lista de correo de la que se dará de baja el usuario.</value>
+    <comment>phrase: Select the mailing list from which the user should unsubscribe.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ConfirmCampaign">
+    <value>Confirmar campaña</value>
+    <comment>phrase: Confirm campaign</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DeliverCampaignOnDescription">
+    <value>Seleccionar la fecha y hora en que desea que se entregue la campaña a los suscriptores</value>
+    <comment>phrase: Select the date and time when you wish the campaign to be delivered to the subscribers.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ModuleTitle">
+    <value>Campañas de Correo Electrónico</value>
+    <comment>The title of the newsletters module.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UnsubscribeFormWidgetDescriptionExample">
+    <value>por ejemplo, si ya no desea recibir mensajes de correo electrónico de esta lista, introduzca su correo y le enviaremos un vínculo para darse de baja.</value>
+    <comment>Example of the description for the unsubscribe form widget.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Days">
+    <value>días</value>
+    <comment>word: Days</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SendThisIssue">
+    <value>Enviar este reporte</value>
+    <comment>phrase: Send this issue</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CampaignInfo">
+    <value>Información de campaña</value>
+    <comment>phrase: Campaign info</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UseAlreadyCreatedPage">
+    <value>Utilizar página ya creada</value>
+    <comment>phrase: Use already created page</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EditAndSend">
+    <value>Editar y enviar...</value>
+    <comment>phrase: Edit and send...</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MustChooseMergeTagBeforeInserting">
+    <value>Por favor, seleccione la etiqueta de combinación que desea insertar.</value>
+    <comment>phrase: Please select the merge tag you'd like to insert.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ReportsHtmlTitle">
+    <value>Reportes</value>
+    <comment>Html title of the reports page of the newsletters module</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SelectCampaignA">
+    <value>Seleccionar campaña A</value>
+    <comment>phrase: Select campaign A</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ViewAllSubscribers">
+    <value>Ver todos los suscriptores</value>
+    <comment>phrase: View all subscribers</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AreYouSureDeleteCampaigns">
+    <value>¿Está seguro de que desea eliminar estas campañas?</value>
+    <comment>phrase: Are you sure you want to delete these campaigns?</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CampaignMessage">
+    <value>Mensaje de la campaña</value>
+    <comment>phrase: Campaign message</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CampaignIssueStateOneDraft">
+    <value>1 borrador de edición</value>
+    <comment>Status of the campaign when it has 1 draft issue.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImportedSubscribersSuccessfully">
+    <value>Los suscriptores han sido importados correctamente a la lista de correo.</value>
+    <comment>phrase: Subscribers have been successfully imported to the mailing list.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="WhatWasTestedDescription">
+    <value>Aquí puede describir el propósito de realizar la prueba A/B</value>
+    <comment>text: Here you may describe the purpose of the performed A/B test</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Cancel">
+    <value>cancelar</value>
+    <comment>word: Cancel</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AreYouSureDeleteMailingList">
+    <value>¿Está seguro de que desea eliminar esta lista de correo?</value>
+    <comment>phrase: Are you sure you want to delete this mailing list?</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="LastNamePublicForm">
+    <value>Apellido &lt;em class='sfNote'&gt;(opcional)&lt;/em&gt;</value>
+    <comment>word: Last name</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SubscribersReportTitle">
+    <value>reporte de suscriptores</value>
+    <comment>Title of the subscribers report page of the Email Campaigns module</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MailboxIsFull">
+    <value>Buzón lleno (no entregado)</value>
+    <comment>phrase: Full mailbox (not delivered)</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Pop3PortDescription">
+    <value>El número de puerto utilizado por el cliente POP3</value>
+    <comment>phrase: The number of the port to be used by the POP3 client</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SmtpPortMustBeInRange">
+    <value>La propiedad SmtpPort establecida a través de la configuración del módulo de "Campañas de Correo Electrónico" debe ser un número entero entre 0 y 65535.</value>
+    <comment>phrase: SmtpPort property set through configuration of Email Campaigns module must be an integer between 0 and 65535.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="GoBack">
+    <value>Volver</value>
+    <comment>phrase: Go back</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PlainTextCampaignType">
+    <value>Texto sin formato</value>
+    <comment>User friendly name for the plain text campaign type</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BackToAllABCampaigns">
+    <value>Volver a todas las pruebas A/B</value>
+    <comment>phrase: Back to all A/B tests</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ForwardedOpens">
+    <value>Mensaje reenviado es abierto</value>
+    <comment>phrase: Forwarded opens</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateThisSubscriber">
+    <value>Crear este suscriptor</value>
+    <comment>phrase: Create this subscriber</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MailingListNoTemplatesMessage">
+    <value>Con el fin de poder enviar mensajes de bienvenida y seguimiento, es necesario tener al menos una plantilla de mensaje. &lt;a href="{0}" target="_top" class="sfMoreDetails"&gt;Crear su primera plantilla de mensaje&lt;/a&gt;</value>
+    <comment>Message displayed to users when creating a new mailing list and no message templates that could be used for welcome or goodbye message are present.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SampleUsers">
+    <value>Ejemplos de usuarios</value>
+    <comment>phrase: sample users</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SubscribeDesignerSelectMailingListTitle">
+    <value>Permitir a los usuarios suscribirse a:</value>
+    <comment>The title of the mailing list selector in the subscribe form designer.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ABTestReport">
+    <value>reporte de prueba A/B {0}</value>
+    <comment>Phrase: A/B test {0} report</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ClickEditAndSelectMailingList">
+    <value>Haga clic en Editar y seleccione la lista de correo</value>
+    <comment>phrase: Click Edit and select the mailing list</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DeliverIssueOnDescription">
+    <value>Seleccione la fecha y hora exacta en que se entregará a los suscriptores una edición de esta campaña</value>
+    <comment>phrase: Select exact date and time when an issue of this campaign to be delivered to subscribers</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DefaultMailSettings">
+    <value>Configuración predeterminada de correo</value>
+    <comment>phrase: Default mail settings</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SaveCampaign">
+    <value>Guardar como borrador</value>
+    <comment>phrase: Save campaign and exit</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="YouDontBelongToTheMailingList">
+    <value>Usted no pertenece a la lista de correo y no puede cancelar la suscripción.</value>
+    <comment>Message displayed to user who tries to unsubscribe from the campaign he or she does not belong to.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="HtmlCampaign">
+    <value>Campaña HTML</value>
+    <comment>phrase: HTML campaign</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateAMailingList">
+    <value>Crear una lista de correo</value>
+    <comment>phrase: Create a mailing list</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ABCampaign">
+    <value>Prueba A/B</value>
+    <comment>phrase: A/B Test</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CampaignReportTitle">
+    <value>Informe de campaña</value>
+    <comment>Title of the campaign report page of the newsletters module.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SubscribersForMailingList">
+    <value>Suscriptores de la lista de correo {0}</value>
+    <comment>phrase: Subscribers for {0} mailing list</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ABCampaignsTitle">
+    <value>pruebas A/B</value>
+    <comment>Title of the A/B tests page</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UnsubscribeStatisticsComparison">
+    <value>{0}% de tasa de cancelación en comparación con el {1}% de la edición anterior</value>
+    <comment>phrase: {0}% unsubscribe in comparison to {1}% previous issue</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ScheduleCampaignDelivery">
+    <value>Programar entrega de campaña</value>
+    <comment>phrase: Schedule campaign delivery</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SubscriberReportHtmlTitle">
+    <value>Informe de suscriptor</value>
+    <comment>Html title of the subscriber report page of the newsletters module.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NumberOfSubscribersFor">
+    <value>{0} Suscriptores de {1}</value>
+    <comment>phrase: {0} Subscribers for {1}</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SubscriberDesignerSelectMailingListTitle">
+    <value>Formulario de suscripción</value>
+    <comment>phrase: Subscribe form</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MailingListInformationSuccessfullySaved">
+    <value>La información de las listas de correo ha sido guardada con éxito.</value>
+    <comment>phrase: Mailing list information has been successfully saved.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="IssueReportHtmlTitle">
+    <value>Reporte de edición</value>
+    <comment>Html title of the issue report page of the Email Campaigns module.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ABTestEnd">
+    <value>Fin de prueba A/B</value>
+    <comment>phrase: A/B test end</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ManuallyEnterPlainTextVersion">
+    <value>Introducir manualmente la versión de texto sin formato</value>
+    <comment>phrase: Manually enter plain text version</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="OneCampaign">
+    <value>1 edición</value>
+    <comment>phrase: 1 issue</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StandardCampaign">
+    <value>Campaña estándar</value>
+    <comment>phrase: Standard campaign</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FirstNamePublicForm">
+    <value>Nombre &lt;em class='sfNote'&gt;(opcional)&lt;/em&gt;</value>
+    <comment>word: First name</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="WinningCriteria">
+    <value>Criterios de ganadores</value>
+    <comment>phrase: Winning criteria</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Hours">
+    <value>horas</value>
+    <comment>word: hours</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CampaignIssueStateMultipleDraft">
+    <value>{0} borrador de problemas</value>
+    <comment>Status of the campaign when it has multiple draft issues.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Loading">
+    <value>Cargando...</value>
+    <comment>phrase: Loading</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="IssueText">
+    <value>Texto de la edición</value>
+    <comment>Phrase: Campaign text</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DateEnded">
+    <value>Fecha en que terminó</value>
+    <comment>phrase: Date ended</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ABTestEndDescription">
+    <value>Seleccionar cuándo debe terminar la prueba A/B y la edición ganadora que será enviada al resto de los usuarios</value>
+    <comment>phrase: Select when the A/B test should end and the winning issue to be sent to the rest of the users</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TemplatesUrlName">
+    <value>Plantillas</value>
+    <comment>Url name of the templates page of the newsletters module.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Immediately">
+    <value>Inmediatamente</value>
+    <comment>phrase: Immediately</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UnsubscribeFormTitle">
+    <value>Darse de baja</value>
+    <comment>Title of the unsubscribe form control</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Pop3UsernameTitle">
+    <value>Nombre de usuario POP3</value>
+    <comment>phrase: POP3 Username</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SettingsUrlName">
+    <value>Opciones</value>
+    <comment>Url name of the settings page of the newsletters module</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TestName">
+    <value>Nombre de prueba</value>
+    <comment>phrase: Test name</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SubscribeSuccessful">
+    <value>Suscripción exitosa</value>
+    <comment>phrase: Subscribe Successful</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TestAlreadyStarted">
+    <value>Esta prueba ya se ha iniciado y no se puede editar. Por favor, actualice la página.</value>
+    <comment>phrase: This test is already started and cannot be edited. Please, refresh the page.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UsersDynamicListProviderTitle">
+    <value>Usuarios de Sitefinity</value>
+    <comment>phrase: Sitefinity users</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CampaignReportHtmlTitle">
+    <value>Informe de campaña</value>
+    <comment>Html title of the campaign report page of the newsletters module</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NoCampaignsCreatedYet">
+    <value>Aún no se han creado campañas.</value>
+    <comment>Messages shown to user when no campaigns have been yet created.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateAndGoToFormat">
+    <value>Crear e ir a {0}</value>
+    <comment>phrase: Create and go to {0}</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DynamicListDescription">
+    <value>Esta configuración le permite sacar suscriptores de forma dinámica desde un origen de datos externo.</value>
+    <comment>phrase: This setting allows you to pull subscribers dynamically from an outside data source.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SettingsTitle">
+    <value>Opciones</value>
+    <comment>Title of the settings page of the newsletters module</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ABTestEnded">
+    <value>La prueba AB ha terminado. Se envía la campaña ganadora {0}</value>
+    <comment>phrase: AB test has ended. Winning campaign {0} is sent</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NumberOfUsingCampaigns">
+    <value>{0} ediciones usan esta lista de correo</value>
+    <comment>phrase: {0} issues use this mailing list</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NoSubscribers">
+    <value>No hay suscriptores.</value>
+    <comment>phrase: No subscribers</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Pop3UsesSSLDescription">
+    <value>Determina si el cliente POP3 debe conectarse con SSL</value>
+    <comment>phrase: Determines whether POP3 client should connect with SSL</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UnsubscribePageDescription">
+    <value>Debe haber un widget para Cancela suscripción en esta página</value>
+    <comment>phrase: There must be an Unsubscribe widget on this page</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FromNameDescription">
+    <value>Utilizar algo que las personas reconozcan al instante, como el nombre de su empresa.</value>
+    <comment>phrase: Use something they'll instantly recognize, like your company name.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SelectMailingList">
+    <value>Seleccionar una lista de correo</value>
+    <comment>phrase: Select a mailing list</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SubscribeFormDescription">
+    <value>Formulario que permite a los usuarios suscribirse al boletín</value>
+    <comment>The description of the subscribe form</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SelectCampaignB">
+    <value>Seleccionar campaña B</value>
+    <comment>phrase: Select campaign B</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SubscribeDesignerSelectMailingListDescription">
+    <value>Aquí están todas las listas de correo definidas en el módulo Boletines.</value>
+    <comment>The description of the mailing list selector in the subscribe form designer.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CampaignText">
+    <value>Texto de campaña</value>
+    <comment>Phrase: Campaign text</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ConnectionTitleDescription">
+    <value>Título de la conexión; p. ej. 'Sitefinity,  edición para la pequeña empresa"</value>
+    <comment>Description of the connection title field</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MakeCampaignBWinner">
+    <value>Hacer ganadora a la Campaña B</value>
+    <comment>phrase: Make Campaign B winner</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Browse">
+    <value>Navegar</value>
+    <comment>word: Browse</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CampaignB">
+    <value>Campaña B</value>
+    <comment>phrase: Campaign B</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Manually">
+    <value>Manualmente</value>
+    <comment>word: Manually</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="WhatsAbTest">
+    <value>¿Qué es una prueba A/B?</value>
+    <comment>phrase: What is an A/B test?</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MailingListsDescription">
+    <value>Página de listas de correo del módulo de boletines</value>
+    <comment>Description of the mailing lists page of the newsletter module</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TestNameDescription">
+    <value>Solo para su comodidad. Se utiliza para ayudarle a encontrar fácilmente y reconocer una prueba en particular</value>
+    <comment>phrase: For your convenience only. Used to help you easily find and recognize a particular test </comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SubscribersTitle">
+    <value>Suscriptores</value>
+    <comment>Title of the subscribers page of the newsletters module</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DynamicListFilterDescription">
+    <value>Utilizar la sintaxis dinámica de LINQ con las etiquetas de fusión. Por ejemplo, si la etiqueta de fusión es {|CustomerForm.State|}, puede escribir un filtro como: Estado &lt;&gt; 'California'</value>
+    <comment>phrase: Use dynamic LINQ syntax with the merge tags. For example, if merge tag is {|CustomerForm.State|}, you can write a filter like: State &lt;&gt; 'California'</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BackToCampaigns">
+    <value>Volver a campañas</value>
+    <comment>phrase: Back to campaigns</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ReportsDescription">
+    <value>página de informes</value>
+    <comment>Description of the reports page of the newsletters module</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateThisMailingList">
+    <value>Crear esta lista de correo</value>
+    <comment>phrase: Create this mailing list</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NotConnected">
+    <value>No está conectado</value>
+    <comment>phrase: Not connected</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CampaignOverviewReportTitle">
+    <value>Reporte de Generalidades de Campaña</value>
+    <comment>phrase: Campaign Overview Report</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Pop3PasswordDescription">
+    <value>La contraseña utilizada para acceder a la cuenta POP3.</value>
+    <comment>phrase: The password used to log into the POP3 account</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CampaignsUrlName">
+    <value>Campañas</value>
+    <comment>Url name of the campaigns page</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SelectSubscribersFile">
+    <value>Seleccione el archivo que desea importar</value>
+    <comment>phrase: Select the file you want to import</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NoScheduledCampaigns">
+    <value>En este momento, no hay campañas programadas para entregar.</value>
+    <comment>phrase: Currently, there are no campaigns that have been scheduled for delivery.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EditIssue">
+    <value>Editar edición</value>
+    <comment>phrase: Edit issue</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SMTPPortOutOfRange">
+    <value>El número de puerto SMTP debe ser un valor entre 0 y 65535</value>
+    <comment>phrase: SMTP port number must be a value between 0 and 65535</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SubscribersReportDescription">
+    <value>Página que muestra el reporte para todos los suscriptores por edición</value>
+    <comment>Page that displays the report for all subscribers per issue</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DoNothing">
+    <value>No hacer nada</value>
+    <comment>phrase: Do nothing</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BackToMailingLists">
+    <value>Volver a las listas de correo</value>
+    <comment>phrase: Back to mailing lists</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TestPop3Settings">
+    <value>Probar la configuración POP3</value>
+    <comment>phrase: Test POP3 settings</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SubscribeDesignerSelectListDescription">
+    <value>Seleccionar la lista de correo a la que desea que se suscriban los usuarios</value>
+    <comment>Select the mailing list to which you wish the users to subscribe to</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ClickRate">
+    <value>Tasa de clics</value>
+    <comment>phrase: Click rate</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SentTo">
+    <value>Enviado a</value>
+    <comment>phrase: Sent to</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="LastName">
+    <value>Apellido</value>
+    <comment>word: Last name</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NumberOfClickedLinks">
+    <value>Número de vínculos clicados</value>
+    <comment>phrase: Number of clicked links</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Port">
+    <value>Puerto</value>
+    <comment>word: Port</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SubscriberReportDescription">
+    <value>Página que muestra el informe para un solo suscriptor</value>
+    <comment>Page that displays the report for a single subscriber</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Scheduled">
+    <value>Programado</value>
+    <comment>word: Scheduled</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EditASubscriber">
+    <value>Editar a un suscriptor</value>
+    <comment>Title of the form for editing subscriber information</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SecondColumn">
+    <value>Segunda columna</value>
+    <comment>phrase: Second column</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Templates">
+    <value>Plantillas de mensajes</value>
+    <comment>Title of the message templates functionality in newsletters module.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="WinnerIssue">
+    <value>Edición ganadora</value>
+    <comment>phrase: Winner issue</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateACampaign">
+    <value>Crear una campaña</value>
+    <comment>phrase: Create a campaign</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DashboardUrlName">
+    <value>Información General</value>
+    <comment>Url name of the dashboard page</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="InsertDynamicData">
+    <value>Inserte datos dinámicos en el texto</value>
+    <comment>Phrase: Insert dynamic data in the text</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AddConnection">
+    <value>Añadir conexión</value>
+    <comment>phrase: Add connection</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UnsubscribeFormWidgetTitleExample">
+    <value>por ejemplo, ¿Se hartó de nosotros?</value>
+    <comment>Example of the title for the unsubscribe form widget.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ClickedUrl">
+    <value>URL en que se hizo clic</value>
+    <comment>phrase: Clicked Url</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="OpenRate">
+    <value>Tasa de apertura</value>
+    <comment>phrase: Open rate</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ConclusionDescription">
+    <value>Aquí puede escribir sus hallazgos en base a la prueba A/B realizada.</value>
+    <comment>text: Here you may put your findings from the performed A/B test.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TestMessageSubject">
+    <value>Mensaje de prueba del boletín Sitefinity</value>
+    <comment>phrase: the message subject when sending a test message</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DateSent">
+    <value>Fecha de envío</value>
+    <comment>phrase: Date sent</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ABCampaignSuccessfullySaved">
+    <value>Se ha guardado con éxito una prueba A/B</value>
+    <comment>phrase: A/B test has been successfully saved</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="HowToImproveUniqueOpenings">
+    <value>Para mejorar este indicador considere crear una prueba A/B que pone a prueba por separado el tiempo de su campaña, su asunto o el envío del correo electrónico</value>
+    <comment>text: To improve this metric consider creating an A/B test that tests separately the timing of your campaign, its subject or sending email.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Subscribers">
+    <value>Suscriptores</value>
+    <comment>word: Subscribers</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="OneDraftAbTest">
+    <value>1 prueba A/B de borrador</value>
+    <comment>Status of the campaign when it has 1 draft A/B test.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MailingListsTitle">
+    <value>Listas de correo</value>
+    <comment>Title of the mailing lists page</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="HowToImproveDelivered">
+    <value>Para mejorar este indicador considere mantener actualizada su lista de correo.</value>
+    <comment>text: To improve this metric consider keeping your mailing list up to date.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ConnectionSource">
+    <value>Fuente de conexión</value>
+    <comment>phrase: Connection source</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UniqueClicksStatistics">
+    <value>{0}% de ratio de clics</value>
+    <comment>phrase: {0}% click through rate</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SettingsForNewsletters">
+    <value>Configuración para campañas de correo electrónico</value>
+    <comment>phrase: Settings for newsletters</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Joined">
+    <value>Se unió a</value>
+    <comment>word: Joined</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DashboardHtmlTitle">
+    <value>Información General</value>
+    <comment>Html title of the dashboard page</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PlainTextCampaign">
+    <value>Campaña de texto sin formato</value>
+    <comment>phrase: Plain text campaign</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NumberOfOpenedMessages">
+    <value>Número de mensajes abiertos</value>
+    <comment>phrase: Number of opened messages</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateCampaignFromTemplate">
+    <value>Utilizar una plantilla</value>
+    <comment>phrase: Use a template</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="WhatWasTested">
+    <value>Lo que se probó</value>
+    <comment>phrase: What was tested</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ABCampaignReportUrlName">
+    <value>informe</value>
+    <comment>Url name of the A/B test report page</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TimesForwarded">
+    <value>Veces que fue enviado</value>
+    <comment>phrase: Times forwarded</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SubscribeToList">
+    <value>Suscribirse a la lista de correo</value>
+    <comment>phrase: Subscribe to list</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Optional">
+    <value>Opcional</value>
+    <comment>word: Optional</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EditABCampaign">
+    <value>Editar una prueba A/B</value>
+    <comment>phrase: Edit A/B test</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="HowToImproveUniqueClicks">
+    <value>Para mejorar este indicador considere crear una prueba A/B que pone a prueba la relevancia de su información. Asegúrese de que hay vínculos lo suficientemente viables para su audiencia.</value>
+    <comment>text: To improve this metric consider creating an A/B test that tests the relevance of your information. Make sure there are enough actionable links for your audience.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NewslettersControlsTitle">
+    <value>Controles de boletín</value>
+    <comment>Title of the newsletter controls toolbox</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TestingEnds">
+    <value>Termina la prueba</value>
+    <comment>phrase: Testing ends</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="IssueReportTitle">
+    <value>Reporte de edición</value>
+    <comment>Title of the issue report page of the Email Campaigns module.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SelectMailingListErrorMessage">
+    <value>Es necesario seleccionar una lista de correo.</value>
+    <comment>phrase: Select a mailing list</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CampaignA">
+    <value>Campaña A</value>
+    <comment>phrase: Campaign A</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UniqueOpenings">
+    <value>Aperturas únicas</value>
+    <comment>phrase: Unique openings</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="GoAddContent">
+    <value>Ir a añadir contenido</value>
+    <comment>phrase: Go to add content</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TemplateType">
+    <value>Tipo</value>
+    <comment>phrase: Type</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NotDelivered">
+    <value>No entregado</value>
+    <comment>phrase: Not delivered</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="HtmlTemplate">
+    <value>texto enriquecido (HTML)</value>
+    <comment>phrase: Rich text (HTML)</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NewMailingListSuccessfullyCreated">
+    <value>Lista de correo creado con éxito</value>
+    <comment>phrase: Mailing list successfully created</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DeliveryOptions">
+    <value>Opciones de envío</value>
+    <comment>phrase : Delivery options</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MailingLists">
+    <value>Listas de correo</value>
+    <comment>phrase: Mailing lists</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UnsupportedFileFormat">
+    <value>El archivo seleccionado no se puede importar debido a su formato de archivo. Solo se pueden importar archivos en formato .csv o .txt</value>
+    <comment>phrase: The selected file cannot be imported because of its file format. Only files in .csv or .txt format can be imported</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SubscribersActivityFor">
+    <value>Actividad de suscriptores para {0}</value>
+    <comment>phrase: Subscribers activity for {0}</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="InWichMailingListsToImportSubscribers">
+    <value>¿A qué listas de correo desea importar a los suscriptores?</value>
+    <comment>phrase: In which mailing lists you want the subscribers to be imported?</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TotalNumberOfSubscribers">
+    <value>Número total de suscriptores</value>
+    <comment>phrase: Total number of subscribers</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SendingOn">
+    <value>Enviando en</value>
+    <comment>phrase: Sending on</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ConnectThisListTo">
+    <value>Conectar esta lista a:</value>
+    <comment>phrase: Connect this list to</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CampaignIssueStateMultipleScheduled">
+    <value>{0} problemas programados</value>
+    <comment>Status of the campaign when it has multiple scheduled issues.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="OneSubscriber">
+    <value>1 suscriptor</value>
+    <comment>phrase: 1 subscriber</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="IssueReportDescription">
+    <value>Descripción de Reporte de Edición</value>
+    <comment>Description of the issue report page of the Email Campaigns module.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ABTestEndManualDecision">
+    <value>Se ha puesto fin a la prueba AB. Debe decidir manualmente cuál es la campaña ganadora</value>
+    <comment>phrase: AB test has been ended. You should manually decide which is the winning campaign</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EndTesting">
+    <value>Terminar prueba</value>
+    <comment>phrase: End testing</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="InProgress">
+    <value>En progreso</value>
+    <comment>phrase: In progress</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SubscriptionReminderDescription">
+    <value>Ejemplo: "Usted está recibiendo este mensaje porque en nuestro sitio web, usted aceptó recibirlos..." o "Enviamos ofertas especiales a los clientes que aceptaron recibirlas en..."</value>
+    <comment>phrase: Example: "You are receiving this email because you opted in at our website..." or "We send special offers to customers who opted in at..."</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NoLastName">
+    <value>Sin apellido</value>
+    <comment>phrase: No last name</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MissingMailingList">
+    <value>Lista de correo faltante</value>
+    <comment>phrase: Missing mailing list.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Next">
+    <value>Siguiente</value>
+    <comment>word: Next</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Domain">
+    <value>Dominio</value>
+    <comment>word: Domain</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CampaignsTitle">
+    <value>Campañas</value>
+    <comment>Title of the campaigns page</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ComposeMessage">
+    <value>Redactar mensaje</value>
+    <comment>phrase: Compose message</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Reports">
+    <value>Reportes</value>
+    <comment>word: Reports</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TotalTimesOpened">
+    <value>Total de veces que fue abierto</value>
+    <comment>phrase: Total times opened</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SubscribersGroupTitle">
+    <value>Suscriptores y listas</value>
+    <comment>Menu title: Subscribers</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ReportsUrlName">
+    <value>Reportes</value>
+    <comment>Url name of the reports page of the newsletters module</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RemoveFromThisList">
+    <value>Eliminar de esta lista</value>
+    <comment>phrase: Remove from this list</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SubscribersByClickedLink">
+    <value>Suscriptores por enlace clicado</value>
+    <comment>phrase: Subscribers by Clicked link</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NoSubscribersCreatedYet">
+    <value>Aún no se han creado suscriptores.</value>
+    <comment>Message shown to user when no subscribers have been yet created.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AllCampaigns">
+    <value>Todas las campañas</value>
+    <comment>phrase: All Campaigns</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SubscriberIsAlreadyMemberInList">
+    <value>El suscriptor "{0}" ya es un miembro de "{1}".</value>
+    <comment>phrase: Subscriber {0} is already a member of {1}.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UnsubscribeMessage">
+    <value>Mensaje de cancelación de suscripción</value>
+    <comment>Unsubscribe message</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="POP3PortTitle">
+    <value>Número de puerto POP3</value>
+    <comment>phrase: POP3 port number</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="IssuesThatWillBeSentForABTest">
+    <value>Ediciones que serán enviadas para una prueba A/B</value>
+    <comment>phrase: Issues that will be sent for an A/B test</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="IssueName">
+    <value>Nombre de la edición</value>
+    <comment>phrase: Issue name</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateNewABCampaign">
+    <value>Crear nueva prueba A/B</value>
+    <comment>phrase: Create new A/B test</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PreviewMessage">
+    <value>Previsualizar el mensaje</value>
+    <comment>phrase: Preview message</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ManualWinningDecision">
+    <value>Manualmente decidiré la campaña ganadora</value>
+    <comment>phrase: I will manually decide the winning campaign</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CampaignOverviewTitle">
+    <value>Generalidades de campaña</value>
+    <comment>Title of the campaign overview page of the Email Campaigns module.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NotificationsSmtpProfileIsNotSmtp">
+    <value>El perfil "{0}" SMTP de notificaciones no es un perfil SMTP.</value>
+    <comment>phrase: Notifications SMTP profile "{0}" is not an SMTP profile.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TestSampleTitle">
+    <value>Como una muestra de prueba, utilice el siguiente porcentaje de los suscriptores:</value>
+    <comment>phrase: As a testing sample, use following percentage of the subscribers</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateAndGoAddFirstIssue">
+    <value>Crear e ir para agregar la primera edición</value>
+    <comment>phrase: Create and go to add the first issue</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SubscribersHtmlTitle">
+    <value>Suscriptores</value>
+    <comment>Html title of the subscribers page of the newsletters module</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SubscriberReportUrlName">
+    <value>informe-suscriptor</value>
+    <comment>Url name of the subscriber report page of the newsletters module</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ThirdColumn">
+    <value>Tercera columna</value>
+    <comment>phrase: Third column</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PlainTextVersionDescription">
+    <value>Todo mensaje de correo electrónico debe tener una versión de texto sin formato; de lo contrario el mensaje puede ser tratado como spam</value>
+    <comment>phrase: Every email message should have plain text version; otherwise your message may be treated as spam</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="OpenedInFirstHoursStatisticsComparison">
+    <value>{0}% de tasa de abiertos en comparación con el {1}% de la edición anterior</value>
+    <comment>phrase: {0}% open rate in comparison to {1}% previous issue</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SelectSourceLabel">
+    <value>¿Cuál es el formato del archivo?</value>
+    <comment>phrase: What is the format of the file?</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SuccessfulDeliveries">
+    <value>Entregas exitosas</value>
+    <comment>phrase: Successful deliveries</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ModuleNotLicensed">
+    <value>La funcionalidad "Campañas de Correo Electrónico" está deshabilitada ya que el módulo "Campañas de Correo Electrónico" no tiene licencia.</value>
+    <comment>Module Not Licensed message</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="WhatWasTestedTitle">
+    <value>¿Qué se probó?</value>
+    <comment>phrase: What was tested?</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BackToFormat">
+    <value>Volver a {0}</value>
+    <comment>phrase: Back to {0}</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SupportedFileTypes">
+    <value>Archivos soportados:.. csv, txt</value>
+    <comment>phrase: Supported files: .csv, .txt</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AbTestReportHtmlTitle">
+    <value>informe de prueba A/B</value>
+    <comment>Html title of the A/B test report page of the Email Campaigns module.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CommaSeparatedList">
+    <value>Separado por coma</value>
+    <comment>phrase: Comma separated</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateNewHtmlTemplate">
+    <value>Crear una nueva plantilla de html</value>
+    <comment>phrase: Create new html template</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SuccessfulSubscription">
+    <value>Se ha suscrito con éxito a esta lista de correo. Muchas gracias.</value>
+    <comment>phrase: You have successfully subscribed to this mailing list. Thank you.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="OverwriteExistingSubscribers">
+    <value>Sustituir los suscriptores existentes que tienen los mismos correos electrónicos que los suscriptores importados</value>
+    <comment>phrase: Replace existing subscribers which have the same emails as imported subscribers</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FileFormat">
+    <value>Formato de archivo</value>
+    <comment>word: File format</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DynamicListsFieldDescription">
+    <value>Elija la lista dinámica a la que se desea conectar; las listas dinámicas son fuentes de datos externas de sus suscriptores.</value>
+    <comment>Description of the field with all the available dynamic lists</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EnableGoogleAnalyticsTrackingForThisCampaign">
+    <value>Habilitar el seguimiento de Google</value>
+    <comment>phrase: Enable Google tracking </comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EditMailingList">
+    <value>Editar lista de correo</value>
+    <comment>phrase: Edit mailing list</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ManuallyDescription">
+    <value>Usted elige el ganador en el informe de la campaña y luego enviaremos la campaña ganadora.</value>
+    <comment>phrase: You choose the winner in the campaign report, then we'll send the winning campaign.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ABCampaigns">
+    <value>pruebas A/B</value>
+    <comment>phrase: A/B tests</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ReplyToEmailDescription">
+    <value>Sus respuestas irán a esta dirección de correo electrónico.</value>
+    <comment>phrase: Their replies will go to this email address.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PlainTextDescription">
+    <value>Texto sin opciones que será formateado. Accesible con todos los clientes de correo electrónico.</value>
+    <comment>Description of the plain text campaign type.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StartTesting">
+    <value>Iniciar la prueba</value>
+    <comment>phrase: Start testing</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="OpenRateDescription">
+    <value>La campaña que se abre más es la ganadora.</value>
+    <comment>phrase: The campaign that is opened the most is the winner.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Unopened">
+    <value>Sin abrir</value>
+    <comment>word: Unopened</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ThisMonth">
+    <value>Este mes</value>
+    <comment>phrase: This month</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SkipFirstRowHeaders">
+    <value>Saltar la primera fila (verifique cuando la primera fila representa el encabezado)</value>
+    <comment>phrase: Skip the first row (check when first row represents the headers)</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MailingList">
+    <value>Listas de correo</value>
+    <comment>phrase: Mailing list</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AbTestExplanation">
+    <value>&lt;p&gt;Realizar una prueba A/B le ayudará a averiguar cuál de las versiones de un correo electrónico es más eficaz .&lt;/p&gt;&lt;p&gt;La idea principal es que usted prepare dos versiones de un correo electrónico &amp;mdash; la versión A es enviada a una pequeña parte de los suscriptores de una lista de correo y la versión B es enviada a otro pequeño grupo de estos.&lt;/p&gt;&lt;p&gt;Después de enviar el correo electrónico, se miden los resultados de ambos correos electrónicos y en base a ellos se elige el correo electrónico ganador y enviados al resto de los abonados.&lt;/p&gt;</value>
+    <comment>Explanation text for the A/B tests.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Tracking">
+    <value>Rastreo</value>
+    <comment>word: Tracking</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ShowSubscribers">
+    <value>Mostrar a los suscriptores</value>
+    <comment>phrase: Show subscribers</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CampaignIssueOneSent">
+    <value>1 edición enviada</value>
+    <comment>Status of the campaign when it has 1 draft issue and 1 sent issue</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StartFromScratch">
+    <value>Empezar desde cero</value>
+    <comment>phrase: Start from scratch</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Unsubscribed">
+    <value>Se dio de baja</value>
+    <comment>word: Unsubscribed</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UnsubscribeDesignerSelectMailingListDescription">
+    <value>Aquí están todas las listas de correo definidas en el módulo Boletines.</value>
+    <comment>The description of the mailing list selector in the unsubscribe form designer.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Title">
+    <value>Título</value>
+    <comment>word: Title</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DetermineTheWinnerAfterTheFirst">
+    <value>Determinar el ganador después del primer:</value>
+    <comment>phrase: Determine the winner after the first:</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NoFirstName">
+    <value>Sin nombre</value>
+    <comment>phrase: No first name</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateThisTemplate">
+    <value>Crear esta plantilla</value>
+    <comment>phrase: Create this template</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NewslettersResourcesDescription">
+    <value>Contiene recursos localizables para la interfaz de usuario de Campañas por Correo Electrónico.</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="WinningCondition">
+    <value>Condición de ganador</value>
+    <comment>phrase: Winning condition</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SuspendSubscriber">
+    <value>Suspender al suscriptor</value>
+    <comment>phrase: Suspend subscriber</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DeliveryStatisticsComparison">
+    <value>{0}% de tasa de entrega en comparación con {1}% de la edición anterior</value>
+    <comment>phrase: {0}% delivery rate in comparison to {1}% previous issue</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UnsubscribePage">
+    <value>Página de cancelación de suscripción</value>
+    <comment>phrase: Unsubscribe page</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RichTextHtmlDescription">
+    <value>Texto con formato enriquecido (negrita, cursiva viñetas, etc.). También se pueden insertar imágenes. Algunos clientes de correo electrónico podrían no interpretarlo correctamente.</value>
+    <comment>Description of the html campaign type</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Send">
+    <value>Enviar</value>
+    <comment>word: Send</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ConnectionSourceDescription">
+    <value>El origen de la conexión. Por ejemplo, el "módulo de formulario" ofrecerá todos los Formulario como posibles conexiones.</value>
+    <comment>phrase: The source of the connection. For example 'Forms module' will provide all Forms as possible connections.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AllSubscribers">
+    <value>Todos los suscriptores</value>
+    <comment>phrase: All subscribers</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CampaignState">
+    <value>Estado</value>
+    <comment>The title of the campaign state</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="LastClick">
+    <value>Último clic</value>
+    <comment>phrase: Last click</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ManageMailingList">
+    <value>Administrar lista de correo</value>
+    <comment>phrase: Manage mailing list</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+</root>

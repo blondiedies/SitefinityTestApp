@@ -1,0 +1,870 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DataCenterChangedNoDataCollected">
+    <value>Actualmente, no hay datos recopilados para las pruebas A/B. No puede ver, crear o actualizar ninguna prueba hasta que restablezca la conexión con el centro de datos anterior o elimine todas las pruebas existentes.</value>
+    <comment>Description of the Data center changed state</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NoDataCollected">
+    <value>Actualmente, no hay datos recopilados para las pruebas A/B.</value>
+    <comment>phrase: No data is currently collected for the A/B tests.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PermissionSetTitle">
+    <value>Pruebas A/B</value>
+    <comment>label: A/B testing</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ABTestWithSameTitleExistsValidationMessage">
+    <value>La prueba A/B con el título {0} ya existe.</value>
+    <comment>A/B test with same title already exists validation message</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ABTestingPageDescription">
+    <value>Pruebas A/B</value>
+    <comment>A/B testing page description</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ABTestExistsForPageValidationMessage">
+    <value>Ya se ha creado una prueba A/B para la página seleccionada.</value>
+    <comment>There is already an active A/B test for the selected page validation message.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DecNotConfigured">
+    <value>Para crear pruebas A/B, habilite y configure Sitefinity Digital Experience Cloud.</value>
+    <comment>phrase: To create A/B tests, enable and configure Sitefinity Digital Experience Cloud.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ContextMenuCreateTestDescription">
+    <value>Probar diferentes versiones de esta página para optimizar sus conversiones.</value>
+    <comment>Description for creating a test in context menu.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BackToEditPage">
+    <value>Volver a la página de Edición</value>
+    <comment>lable; Back to Edit page</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="VariationsCountValidationMessage">
+    <value>Las variaciones de página deben ser más de {0} y menos de {1}.</value>
+    <comment>Variations count validation message.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DeleteConfirmation">
+    <value>¿Está seguro de que desea eliminar permanentemente esta prueba?</value>
+    <comment>phrase: Are you sure you want to delete permanently this test?</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PageRequiredMessage">
+    <value>Seleccionar una página para una prueba A/B</value>
+    <comment>Page required message</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ByTitleDesc">
+    <value>Alfabeticamente (Z-A)</value>
+    <comment>phrase: Alphabetically (Z-A)</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AllTests">
+    <value>Todas las pruebas</value>
+    <comment>phrase: All tests</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ToResolveConnectivityProblems">
+    <value>Para resolver problemas de conectividad</value>
+    <comment>phrase: To resolve connectivity problems</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Stopped">
+    <value>Detenido</value>
+    <comment>phrase: Stopped</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DataCenterChanged">
+    <value>El centro de datos para Digital Experience Cloud ha cambiado.</value>
+    <comment>Phrase: Data center for Digital Experience Cloud is changed</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ABTestWinner">
+    <value>Tiene un ganador</value>
+    <comment>You have a winner label.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PublishAndEndABTest">
+    <value>Publicar y terminar prueba A/B</value>
+    <comment>label: Publish and end A/B test</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StopDateMinValueValidationMessage">
+    <value>Fecha de finalización debe ser posterior a fecha de inicio.</value>
+    <comment>Stop date min value validation message</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CleanUpAllTests">
+    <value>Limpiar todas las pruebas A/B y los datos</value>
+    <comment>Phrase: Clean up all A/B tests and data</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DeleteConfirmationMultiple">
+    <value>¿Está seguro de que desea eliminar permanentemente estas pruebas?</value>
+    <comment>phrase: Are you sure you want to delete permanently these tests?</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MyTests">
+    <value>Mis pruebas</value>
+    <comment>phrase: My tests</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ChangePermissionsABTestActionDescription">
+    <value>Permite o deniega el cambio de permisos para pruebas A/B</value>
+    <comment>label: Allows or denies changing permissions for A/B tests</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ManageABTestActionDescription">
+    <value>Permite o deniega administración de pruebas A/B</value>
+    <comment>label: Allows or denies managing of A/B tests</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="WinnerLabel">
+    <value>Ganador :</value>
+    <comment>label: Winner :</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="WinningVariationSetAsDefaultPage">
+    <value>Ganar {0} se estableció como página predeterminada.</value>
+    <comment>Winning variation set as default page message.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DecNotConfigredNoDataCollected">
+    <value>Actualmente, no hay datos recopilados para las pruebas A/B. No puede ver, crear o actualizar ninguna prueba hasta que configure correctamente la conexión.</value>
+    <comment>No data collected message for DEC not configured screen.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DateLastModifiedOnTop">
+    <value>Situar encima lo último modificado</value>
+    <comment>phrase: Last modified on top</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RestorePreviousDataCenter">
+    <value>Restablecer centro de datos anterior</value>
+    <comment>phrase: Restore previous data center</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DeleteConfirmationButton">
+    <value>Sí, eliminar esta prueba</value>
+    <comment>phrase: Yes, delete this test</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StartDateIsRequiredForStoppedTests">
+    <value>Se requiere fecha de inicio para pruebas detenidas.</value>
+    <comment>phrase: Start date is required for Stopped tests.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Results">
+    <value>Resultados</value>
+    <comment>Results label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StartTest">
+    <value>Iniciar prueba</value>
+    <comment>Start test label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PageDeletedValidationMessage">
+    <value>La página seleccionada fue movida a la Papelera de reciclaje o eliminada permanentemente.</value>
+    <comment>Selected page was moved to Recycle bin or deleted permanently.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EndTest">
+    <value>Terminar prueba</value>
+    <comment>End test label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StartDateIsRequiredForActiveTests">
+    <value>La fecha de inicio es necesaria para las pruebas Activas.</value>
+    <comment>phrase: Start date is required for Active tests.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ToRemoveAllTests">
+    <value>Para eliminar todas las variaciones de pruebas A/B de sus páginas y eliminar todos los datos de prueba</value>
+    <comment>Phrase: To remove all A/B test variations from your pages and delete all test data</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EditTest">
+    <value>Editar prueba</value>
+    <comment>Phrase: Edit test</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SelectVariationToPreview">
+    <value>Seleccionar variación para previsualizar.</value>
+    <comment>label: Select variation to preview</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ABTestingPreview">
+    <value>Vista previa de pruebas A/B</value>
+    <comment>label: A/B testing preview</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SaveAsDraftAndEndABTest">
+    <value>Guardar como borrador y terminar prueba A/B</value>
+    <comment>label: Save as Draft and end A/B test</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="GoalsRequiredMessage">
+    <value>Establecer objetivos de la prueba A/B</value>
+    <comment>Goals required message</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ConnectivityProblemsDocsLink">
+    <value>Más acerca de los problemas de conectividad</value>
+    <comment>phrase: More about connectivity problems.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SelectFinalVariationLabel">
+    <value>Seleccionar variación final</value>
+    <comment>label: Select final variation</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FilterTests">
+    <value>Filtrar pruebas</value>
+    <comment>phrase: Filter tests</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateAndGoToEditContent">
+    <value>Crear e ir a editar contenido</value>
+    <comment>label: Create and go to edit content</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="VariationNamesRequiredValidationMessage">
+    <value>Ingresar nombres para todas las variaciones de página.</value>
+    <comment>Please fill the names of all variations validation message.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MaxVariationIDsToStoreDescription">
+    <value>Seleccionar conteo máximo de identificaciones de variación para almacenar cookie para cada visitante.</value>
+    <comment>label: Select maximum variation ids count to store in cookie for every visitor</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CantChangeStatusValidationMessage">
+    <value>El estado de la prueba A/B no se puede cambiar a la proporcionada.</value>
+    <comment>The status of the A/B test can't be changed to the provided one validation message.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ContextMenuTitle">
+    <value>Pruebas A/B</value>
+    <comment>A/B testing context menu title</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PageFieldTitle">
+    <value>Página</value>
+    <comment>Page field title</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CannotEditEndedTestValidationMessage">
+    <value>No se puede modificar prueba A/B terminada.</value>
+    <comment>Cannot edit ended test validation message.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="VariationDistributionRangeValidationMessage">
+    <value>El tráfico por variación debe ser entre 0 y 100%</value>
+    <comment>Variation distribution must be greater than 0 and less than 100 validation message.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EndABTestClarifyMessage">
+    <value>Una vez que termina la prueba y publica la variación seleccionada, toda las otras variaciones quedan eliminadas.</value>
+    <comment>phrase: Once you end the test and publish the selected variation, all other variations are deleted.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ABTestingGroupPageTitle">
+    <value>Pruebas A/B</value>
+    <comment>A/B testing group page title</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="VariationDistributionsSumValidationMessage">
+    <value>La suma del tráfico de variaciones debe ser igual a 100%.</value>
+    <comment>The sum of all distributions must be equal to 100% validation message.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RestoreConnectionToPreviousCenter">
+    <value>Restablecer conexión a centro de datos anterior</value>
+    <comment>Phrase: Restore connection to previous data center</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="VariationSetAsDefaultPage">
+    <value>{0} se estableció como página predeterminada.</value>
+    <comment>Variation set as default page message.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RedirectPageValidationMessage">
+    <value>La página seleccionada es una página de redireccionamiento y no puede ser sometida a una prueba A/B.</value>
+    <comment>Cannot create A/B test for a redirecting page validation message.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ToCreateABTestYouNeed">
+    <value>Para crear pruebas A/B, habilitar y configurar</value>
+    <comment>phrase: To create A/B tests, enable</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="VariationRemainedAsDefaultPage">
+    <value>{0} permaneció como página predeterminada.</value>
+    <comment>Variation remained as default page message.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CannotDeleteActiveTestValidationMessage">
+    <value>La prueba A/B activa no se puede eliminar.</value>
+    <comment>phrase: Active A/B test cannot be deleted.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PageContent">
+    <value>Contenido de página</value>
+    <comment>phrase: Page content.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PreviewPageVariations">
+    <value>Previsualizar variaciones de página</value>
+    <comment>Phrase: Preview page variations</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="VariationsFieldTitle">
+    <value>Variaciones</value>
+    <comment>Variations field title</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NoABTestsCreatedMessage">
+    <value>Aún no se han creado pruebas A/B</value>
+    <comment>Message displayed to user when no A/B test exist in the system</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DecDataCenterChangedErrorMessage">
+    <value>El centro de datos para Digital Experience Cloud ha cambiado y actualmente no se recopilan datos para las pruebas.</value>
+    <comment>phrase: Data center for Digital Experience Cloud is changed and no data is currently collected for the tests.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ViewResults">
+    <value>Ver resultados</value>
+    <comment>label: View results</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CurrentlyViewing">
+    <value>Viendo en este momento...</value>
+    <comment>Currently viewing label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Ended">
+    <value>Terminado</value>
+    <comment>phrase: Ended</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TitleRequiredMessage">
+    <value>Ingresar un título para la prueba A/B</value>
+    <comment>Title required message</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ResumeTest">
+    <value>Reanudar prueba</value>
+    <comment>Resume test label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ABTest">
+    <value>Prueba A/B</value>
+    <comment>label: A/B test</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EditABTest">
+    <value>Editar una prueba A/B</value>
+    <comment>Edit A/B test label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NotStarted">
+    <value>No iniciado</value>
+    <comment>phrase: Not started</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateAnABTest">
+    <value>Crear una prueba A/B</value>
+    <comment>Title of the button for creating a new A/B test</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NoPublishPagePermissionsInCulture">
+    <value>Para crear pruebas A/B, necesita permisos para publicar páginas en esta cultura.</value>
+    <comment>phrase: To create A/B tests, you need permissions to publish pages in this culture. </comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateATest">
+    <value>Crear una prueba</value>
+    <comment>Phrase: Create a test</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateAndGoBackToABTesting">
+    <value>Crear y regresar a pruebas A/B</value>
+    <comment>label: Create and return to A/B Testing</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DuplicateVariationName">
+    <value>Duplicar nombre de variación de página: {0}</value>
+    <comment>Duplicate variation name validation message.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ByTitleAsc">
+    <value>Alfabeticamente (A-Z)</value>
+    <comment>phrase: Alphabetically (A-Z)</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ABTestingResourcesDescription">
+    <value>Contiene recursos localizables para el módulo de pruebas A/B.</value>
+    <comment>Description of the A/B testing resources class</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PostponedStopWarningMessage">
+    <value>No se pudo detener prueba activa. Se volverá a intentar la prueba en unos pocos minutos.</value>
+    <comment>phrase: Active test could not be stopped. The test will retry in few minutes.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ABTestExistsForPageInDifferentCultureValidationMessage">
+    <value>Una prueba A/B ya se ha creado para otra traducción de la página seleccionada. Las páginas con traducciones sincronizadas solo pueden tener una prueba A/B.</value>
+    <comment>An A/B test is already created for another translation of the selected page. Pages with synced translations can have only one A/B test validation message.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="WinningVariationAvailable">
+    <value>Usted tiene una variación ganadora.</value>
+    <comment>Winning variation available message.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Winner">
+    <value>Ganador</value>
+    <comment>label: Winner</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SaveChanges">
+    <value>Guardar cambios</value>
+    <comment>lable; Save changes</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ABTestNoWinner">
+    <value>Aún no se identificó al ganador</value>
+    <comment>phrase: No winner identified yet.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ThisABTest">
+    <value>Prueba A/B: {0}</value>
+    <comment>label: A/B test:</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AutoSyncTitle">
+    <value>AutoSincr</value>
+    <comment>Gets Auto Sync</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TryToRestoreConnectionToDec">
+    <value>Intentar restablecer conexión a DEC</value>
+    <comment>phrase: Try to restore connection to DEC</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MaxVariationIDsToStoreTitle">
+    <value>Conteo de ids de variación máxima</value>
+    <comment>label: Maximum variation ids count</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DecModuleLostConnеction">
+    <value>Se perdió la conexión a Digital Experience Cloud.</value>
+    <comment>phrase: Connection to Digital Experience Cloud is lost.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ResumeAndPublish">
+    <value>Reanudar y publicar</value>
+    <comment>label: Resume and publish</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Scheduled">
+    <value>Programado</value>
+    <comment>phrase: Scheduled</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ABTestingResourcesTitle">
+    <value>Etiquetas de pruebas A/B</value>
+    <comment>A/B testing resources title</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PostponedStartWarningMessage">
+    <value>No se pudo iniciar la prueba programada. Se volverá a intentar la prueba en unos pocos minutos.</value>
+    <comment>phrase: Scheduled test could not be started. The test will retry in few minutes.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PagePersonalizedValidationMessage">
+    <value>La página seleccionada es personalizada y no puede ser sometida a una prueba A/B.</value>
+    <comment>Cannot create A/B test for personalized page validation message.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ManageABTestLabel">
+    <value>Administrar prueba A/B</value>
+    <comment>label: Manage A/B test</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SiteSyncTooltip">
+    <value>También se recomienda sincronizar: &lt;ul&gt;&lt;li&gt;Páginas&lt;/li&gt;&lt;li&gt;Formularios (solo en caso de que las pruebas A/B tengan la "presentación de formularios" como objetivo)&lt;/li&gt;&lt;/ul&gt;</value>
+    <comment>phrase: Site sync tooltip for A/B test.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AutoSyncDescription">
+    <value>Indica si se debe habilitar la sincronización automática para los conectores existentes en uso.</value>
+    <comment>phrase: Indicating whether to enable auto-sync of AB tests.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NoPagePermissionsPromptMessage">
+    <value>No tiene permiso para realizar ninguna acción para la página sometida a una prueba A/B. Para obtener ayuda, póngase en contacto con su administrador de sistema.</value>
+    <comment>phrase: You do not have permissions to perform any actions for the A/B tested page. Contact your system administrator for assistance..</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PermissionSetDescription">
+    <value>Permisos para pruebas A/B</value>
+    <comment>label: Permissions for A/B testing</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StopDateIsRequiredForStoppedTests">
+    <value>Se requiere fecha de finalización para pruebas detenidas.</value>
+    <comment>phrase: Stop date is required for Stopped tests.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DateLastCreatedOnTop">
+    <value>Situar encima lo último creado</value>
+    <comment>phrase: Last created on top</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ABTestingGroupPageDescription">
+    <value>Pruebas A/B</value>
+    <comment>A/B testing group page description</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DeleteConfirmationButtonMultiple">
+    <value>Sí, eliminar estas pruebas</value>
+    <comment>phrase: Yes, delete these tests</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NoPublishPagePermissions">
+    <value>Para crear pruebas A/B, necesita permisos para publicar Páginas.</value>
+    <comment>phrase: To create A/B tests, you need permissions to publish Pages.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ABTestingStatus">
+    <value>Estatus de las pruebas A/B</value>
+    <comment>A/B testing status label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StopABTestLabel">
+    <value>Detener prueba A/B</value>
+    <comment>label: Stop A/B test</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="GroupPageValidationMessage">
+    <value>La página seleccionada es una página de grupo y no puede ser sometida a una prueba A/B.</value>
+    <comment>Cannot create A/B test for group page validation message.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ChangePermissionsABTestActionTitle">
+    <value>Cambiar permisos</value>
+    <comment>label: Change permissions</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ResumeABTestLabel">
+    <value>Reanudar prueba A/B</value>
+    <comment>label: Resume A/B test</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PageVariations">
+    <value>Variaciones de página</value>
+    <comment>Phrase: Page variations</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ManageABTestActionTitle">
+    <value>Administrar pruebas A/B</value>
+    <comment>label: Manage A/B tests</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ToAccessExistingTests">
+    <value>Para acceder a pruebas y datos existentes</value>
+    <comment>Phrase: To access existing tests and data</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ManageABTesting">
+    <value>Administrar pruebas A/B</value>
+    <comment>phrase: Manage A/B Testing</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ToCreateABTestsYouNeed">
+    <value>Para crear pruebas A/B, necesita</value>
+    <comment>label: To create A/B tests, you need</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DecToBeEnabled">
+    <value>Sitefinity Digital Experience Cloud.</value>
+    <comment>phrase: Sitefinity Digital Experience Cloud.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StartStopRetryIntervalTitle">
+    <value>Tarea programada de Inicio o Detención de intervalo de reintento en minutos</value>
+    <comment>label: Scheduled task Start or Stop retry interval in minutes</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="GoalsSectionTitle">
+    <value>Objetivos</value>
+    <comment>Goals section title</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ResumingABTestPublishPageWarning">
+    <value>Resumir la prueba A/B publicará todos los cambios recientes en la página sometida a prueba.</value>
+    <comment>phrase: Resuming the A/B test will publish all recent changes on the tested page.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PermissionToPublishPages">
+    <value>permisos para publicar Páginas.</value>
+    <comment>label: permissions to publish Pages.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ABTestingResourcesTitlePlural">
+    <value>Etiquetas de pruebas A/B</value>
+    <comment>A/B testing resources title</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ABTestingPageTitle">
+    <value>Pruebas A/B</value>
+    <comment>A/B testing page title</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BackToABTesting">
+    <value>Regresar a pruebas A/B</value>
+    <comment>label: Back to A/B Testing</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CannotEditSelectedPageValidationMessage">
+    <value>Usted no tiene permiso para editar la página seleccionada.</value>
+    <comment>You don't have permissions to edit the selected page.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StopTest">
+    <value>Detener prueba</value>
+    <comment>Stop test label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StartingABTestPublishPageWarning">
+    <value>El inicio de la prueba A/B publicará todos los cambios recientes en la página sometida a prueba.</value>
+    <comment>phrase: Starting the A/B test will publish all recent changes on the tested page.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CleaningUp">
+    <value>Limpiando...</value>
+    <comment>Phrase: Cleaning up...</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ConflictWithPersonalizationMsg">
+    <value>Esta página es personalizada. Debe eliminar las versiones personalizadas antes de crear una prueba A/B.</value>
+    <comment>Message in the context menu for conflict with the personalization of pages.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SyncedPagesPublishWarning">
+    <value>La variación seleccionada actualizará todas las versiones de idiomas de la página.</value>
+    <comment>label: Selected variation will update all language versions of the page.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NoABTestingPermissions">
+    <value>No tiene permisos para gestionar pruebas A/B.</value>
+    <comment>label: You don't have permissions to manage A/B tests.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StartAndPublish">
+    <value>Comenzar y publicar</value>
+    <comment>label: Start and publish</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StartDateMinValueValidationMessage">
+    <value>La fecha de inicio no puede estar en el pasado.</value>
+    <comment>Start date min value validation message</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Active">
+    <value>Activo</value>
+    <comment>phrase: Active</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EndABTestLabel">
+    <value>Finalizar prueba A/B</value>
+    <comment>label: End A/B test</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DecNotConfiguredProperly">
+    <value>Digital Experience Cloud no está configurado correctamente</value>
+    <comment>phrase: Digital Experience Cloud is not configured properly</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StartABTestLabel">
+    <value>Iniciar prueba A/B</value>
+    <comment>label: Start A/B test</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StartStopRetryIntervalDescription">
+    <value>Establecer el intervalo de reintento para una tarea programada de Inicio o Detención de Prueba. Por ejemplo, cuando la conexión con DEC se pierde, la prueba volverá a ser programada para Iniciar / Detener después de este periodo de tiempo.</value>
+    <comment>label: Set the retry interval for an A/B Test Start or Stop scheduled task in minutes. For example when the connection with DEC is lost the test will be rescheduled to Start/Stop after this period of time.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="LostConnectionNoActionsAllowed">
+    <value>No puede ver, crear o actualizar ninguna prueba hasta que se restablezca la conexión.</value>
+    <comment>phrase: You cannot view, create, or update any test until connection is restored.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ABTests">
+    <value>pruebas A/B</value>
+    <comment>label: A/B tests</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AutoSyncCronSpecTitle">
+    <value>Especificación de cron AutoSincr</value>
+    <comment>phrase: AutoSyncCronSpec</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AutoSyncCronSpecDescription">
+    <value>Una configuración que especifica los comandos que se deben ejecutar periódicamente en un horario determinado. Por ejemplo: 5 * * * * (ejecutar en el minuto 5 de cada hora)</value>
+    <comment>phrase: cron spec</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StartDateEditWarning">
+    <value>¡Advertencia! Se perderán todos los datos reportados antes de la nueva fecha de inicio.</value>
+    <comment>Currently viewing label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ABTestingTitle">
+    <value>Pruebas A/B</value>
+    <comment>A/B Testing title</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StopDateBeforeCurrentDateValidationMessage">
+    <value>La fecha de finalización no puede estar en el pasado.</value>
+    <comment>Stop date min value validation message</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DecConnectionErrorMessage">
+    <value>La conexión con Digital Experience Cloud se ha perdido y actualmente no se recopilan datos para las pruebas.</value>
+    <comment>phrase: Connection to Digital Experience Cloud is lost and no data is currently collected for the tests.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NoRecords">
+    <value>No hay registros que mostrar.</value>
+    <comment>The text to show when there are no results for the specified view.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+</root>

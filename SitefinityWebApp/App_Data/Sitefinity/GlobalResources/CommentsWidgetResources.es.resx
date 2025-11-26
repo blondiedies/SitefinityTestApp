@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CssClasses">
+    <value>Clases CSS</value>
+    <comment>phrase : CSS classes</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Rating">
+    <value>Puntuación</value>
+    <comment>phrase : Rating</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CommentsThreadIsClosedMessage">
+    <value>Ya no se permiten más comentarios</value>
+    <comment>phrase: Comments are not allowed anymore</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CommentPendingApproval">
+    <value>Gracias por el comentario! Su comentario debe ser aprobada antes de ser publicado</value>
+    <comment>phrase : Thank you for the comment! Your comment must be approved first</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LoadMoreReviews">
+    <value>Cargar más opiniones</value>
+    <comment>phrase : Load more reviews</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TypeCodeAbove">
+    <value>Por favor introduzca el código anterior</value>
+    <comment>phrase : Please type the code above</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NewCode">
+    <value>Nuevo código</value>
+    <comment>phrase : New code</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="OldestOnTop">
+    <value>Más antiguo, arriba</value>
+    <comment>phrase : Oldest on top</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LoadMoreComments">
+    <value>Cargar más comentarios</value>
+    <comment>phrase : Load more comments</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NameIsRequired">
+    <value>¡Es necesario el nombre del autor!</value>
+    <comment>phrase : Author name is required!</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EmailOptional">
+    <value>Correo electrónico (opcional)</value>
+    <comment>phrase: Email (optional)</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UserAlreadySubmitedReview">
+    <value>Ya ha enviado una opinión para este artículo</value>
+    <comment>phrase : You've already submitted a review for this item</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Comment">
+    <value>comentario</value>
+    <comment>word : comment</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SubscribeLink">
+    <value>Suscribirse</value>
+    <comment>phrase: Subscribe</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MoreOptions">
+    <value>Más opciones</value>
+    <comment>phrase : More options</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UnsubscribeLink">
+    <value>Darse de baja</value>
+    <comment>phrase: Unsubscribe</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Template">
+    <value>plantilla</value>
+    <comment>phrase : Template</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ToBeAbleToComment">
+    <value>para poder comentar</value>
+    <comment>phrase : to be able to comment</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ReviewsThreadIsClosedMessage">
+    <value>Ya no se permiten más opiniones</value>
+    <comment>phrase: Reviews are not allowed anymore</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="InvalidEmailFormat">
+    <value>¡Formato de correo electrónico no válido!</value>
+    <comment>phrase : Invalid email format!</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LeaveComment">
+    <value>Dejar un comentario</value>
+    <comment>phrase : Leave a comment</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="YouAreSubscribedToNewReviews">
+    <value>Usted está suscrito a nuevas opiniones</value>
+    <comment>phrase: You are subscribed to new reviews</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CommentsResourcesDescription">
+    <value>Cadenas localizables para el widget de Comentarios.</value>
+    <comment>Description for the comments widget resources class.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Submit">
+    <value>Enviar</value>
+    <comment>word : Submit</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ReadFullReview">
+    <value>Leer opinión completa</value>
+    <comment>phrase : Read full review</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CommentsPlural">
+    <value>comentarios</value>
+    <comment>word : comments</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CommentsResourcesTitle">
+    <value>Recursos del widget de Comentarios</value>
+    <comment>Title for the comments widget resources class.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MessageIsRequired">
+    <value>¡Es necesario un mensaje!</value>
+    <comment>phrase : Message is required!</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="From">
+    <value>de</value>
+    <comment>phrase: From</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NewestOnTop">
+    <value>Más recientes, arriba</value>
+    <comment>phrase : Newest on top</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="YourName">
+    <value>Tu nombre</value>
+    <comment>phrase: Your name</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SuccessfullyUnsubscribedFromNewComments">
+    <value>Usted se ha dado de baja con éxito</value>
+    <comment>phrase: You are successfully unsubscribed</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AverageRating">
+    <value>Calificación promedio:</value>
+    <comment>phrase : Average rating:</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SubscribeToNewComments">
+    <value>Suscribirse a nuevos comentarios</value>
+    <comment>phrase: Subscribe to new comments</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="RatingIsRequired">
+    <value>¡Es necesaria la calificación!</value>
+    <comment>phrase : Rating is required!</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SuccessfullySubscribedToNewReviews">
+    <value>Usted está suscrito con éxito a las nuevas opiniones</value>
+    <comment>phrase: You are successfully subscribed to new reviews</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="WriteReview">
+    <value>Escriba una opinión</value>
+    <comment>phrase : Write a review</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ReadFullComment">
+    <value>Leer comentario completo</value>
+    <comment>phrase : Read full comment</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Login">
+    <value>Iniciar sesión</value>
+    <comment>phrase : Login</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="YouAreSubscribedToNewComments">
+    <value>Usted está suscrito a nuevos comentarios</value>
+    <comment>phrase: You are subscribed to new comments</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ToBeAbleToReview">
+    <value>para poder escribir una opinión</value>
+    <comment>phrase : to be able to write a review</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ThankYouReviewSubmited">
+    <value>¡Gracias! Su opinión se ha enviado correctamente</value>
+    <comment>phrase : Thank you! Your review has been submitted successfully</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SubscribeToNewReviews">
+    <value>Suscríbase a nuevas opiniones</value>
+    <comment>phrase: Subscribe to new reviews</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ReviewsPlural">
+    <value>Comentarios</value>
+    <comment>word : reviews</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Review">
+    <value>opinión</value>
+    <comment>word : review</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ReviewPendingApproval">
+    <value>¡Gracias por su opinión! Esta debe ser aprobada primero</value>
+    <comment>phrase : Thank you for the review! Your review must be approved first</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SuccessfullySubscribedToNewComments">
+    <value>Usted se ha suscrito con éxito a nuevos comentarios</value>
+    <comment>phrase: You are successfully subscribed to new comments</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+</root>

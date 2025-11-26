@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ModifiedAtDateByUserName">
+    <value>Modificado: en {0} por {1}</value>
+    <comment>Phrase: Modified: at {0} by {1}</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LastPublished">
+    <value>Último publicado</value>
+    <comment>History screen label related to version change type</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Draft">
+    <value>Borrador</value>
+    <comment>History screen label related to version change type</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PreviouslyPublished">
+    <value>Publicado anteriormente</value>
+    <comment>History screen label related to version change type</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="VersionResourcesTitlePlural">
+    <value>Título plural del Control de versiones.</value>
+    <comment>The title plural of Version Control module.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FullScreen">
+    <value>Pantalla Completa</value>
+    <comment>Phrase: It is not allowed to delete last published version</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="HideNote">
+    <value>Ocultar nota</value>
+    <comment>Phrase: Hide note</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CompareVersionWrongSelection">
+    <value>Sólo dos elementos se pueden comparar. Seleccione sólo dos elementos para hacer una comparación.</value>
+    <comment>Compare Version Wrong number of selected items (history screen ) </comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Write">
+    <value>Escribir</value>
+    <comment>Phrase: Write</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Modified">
+    <value>Modificado</value>
+    <comment>Word: Modified</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="BackTo">
+    <value>Volver a</value>
+    <comment>Phrase: Back to</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="VersionNotes">
+    <value>Notas de versión</value>
+    <comment>Phrase: Version notes</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="InitialDraft">
+    <value>Borrador inicial</value>
+    <comment>History screen label related to version change type</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EditNoteForVersion">
+    <value>Editar nota de la versión</value>
+    <comment>Phrase: Edit note for version</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="RevisionHistoryLabel">
+    <value>Historial de revisiones</value>
+    <comment>Title of the revision history screen</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CannotDeleteLastPublishedVersion">
+    <value>No se permite eliminar la última versión publicada</value>
+    <comment>Phrase: It is not allowed to delete last published version</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ModuleDescription">
+    <value>Permite el control sobre versiones actuales y antiguas de los objetos de contenido y de negocios.</value>
+    <comment>The description of Version Control module.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="WriteNoteForVersion">
+    <value>Escribir una nota de la versión</value>
+    <comment>Phrase: Write note for version</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EditNoteLabel">
+    <value>Editar</value>
+    <comment>Label of the edit note button</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="revisionsHistory">
+    <value>histórico de revisiones</value>
+    <comment>Phrase: revisions histor</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ItemVersionOfClientTemplate">
+    <value>&lt;span class='sfTitleInBetween'&gt;Versión&lt;/span&gt;{0} &lt;span class='sfTitleInBetween'&gt;de&lt;/span&gt;&lt;em title="{1}"&gt;{2}&lt;/em&gt;</value>
+    <comment>Phrase: &lt;span class='sfTitleInBetween'&gt;Version&lt;/span&gt; {0} &lt;span class='sfTitleInBetween'&gt;of&lt;/span&gt; &lt;em title="{1}"&gt;{2}&lt;/em&gt;</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeleteNoteLabel">
+    <value>Eliminar</value>
+    <comment>Label of the delete note button</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ModuleTitle">
+    <value>Control de versiones</value>
+    <comment>The title of Version Control module.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="VersionConfigTitle">
+    <value>Control de versiones</value>
+    <comment>The title of the Version Control configuration section.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="VersionResourcesDescription">
+    <value>Contiene recursos localizables para el módulo de control de versiones.</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="VersionInfoTemplate">
+    <value>Versión {0} ({1})</value>
+    <comment>Phrase: Version {0} ({1}), where {0} is version number and {1} is version status</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="VersionResourcesTitle">
+    <value>Control de versiones</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ModifiedByTemplate">
+    <value>modificado por {0} &lt;span class='sfNowrapLine'&gt;el {1}&lt;/span&gt;</value>
+    <comment>Phrase:modified by {0} &lt;span class='sfNowrapLine'&gt;on {1}&lt;/span&gt;, where {0} is user name and {1} is a date</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="HistoryMenuItemTitle">
+    <value>Historial de revisiones</value>
+    <comment>history menu item title</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ErrorWhileUpdatingNote">
+    <value>La nota no fue actualizada. Se produjo un error mientras se guardaba.</value>
+    <comment>Phrase: The note was not updated.An error occurred while saving it.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="VersionConfigDescription">
+    <value>Define las opciones de configuración de páginas para el módulo de control de versiones.</value>
+    <comment>The description of Version Control configuration section.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="WriteNoteLabel">
+    <value>Escribir una nota</value>
+    <comment>Label of the write note button</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PreviouslyPublishedBrackets">
+    <value>(Publicado con anterioridad)</value>
+    <comment>Phrase: (previously published)</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CompareFersionsFor">
+    <value>Comparar versiones de</value>
+    <comment>Phrase: Compare versions for</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExitFullScreen">
+    <value>Salir de pantalla completa</value>
+    <comment>Phrase: It is not allowed to delete last published version</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Edit">
+    <value>Editar</value>
+    <comment>Phrase: Edit</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+</root>

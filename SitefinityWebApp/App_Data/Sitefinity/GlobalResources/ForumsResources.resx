@@ -1,0 +1,2060 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AllFileTypes">
+    <value>Todos los tipos de archivos</value>
+    <comment>All file types</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumsSettingsHtmlTitle">
+    <value>Configuración de Foros</value>
+    <comment>HTML Title for Forums Settings in the Forums module.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumsViewPropertyEditorTitle">
+    <value>Foros</value>
+    <comment>word: Forums</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Forum">
+    <value>Foro</value>
+    <comment>Title of the Main Forum</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumsLicenseLimitExceededException">
+    <value>Se ha superado el número de foros con licencia ({0}).</value>
+    <comment>exception message when one tries to create more forums than the license key allows</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PostThisThread">
+    <value>Publicar este hilo</value>
+    <comment>Phrase: Post this thread</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ManageThreadActionDescription">
+    <value>Permite o rechaza mover, marcar como adherido y bloquear un hilo existente.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Announcement">
+    <value>Anuncio (por encima de adherido)</value>
+    <comment>word: Announcement</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UrlNameCannotBeEmpty">
+    <value>La URL no puede estar vacía</value>
+    <comment>URL cannot be empty</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="WhoCanSeeFileAttachments">
+    <value>Quién puede ver los archivos adjuntos subidos en una emtrada</value>
+    <comment>Who can see file attachments uploaded in a post</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Back">
+    <value>Volver</value>
+    <comment>text: Back</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TheTitleFieldIsRequired">
+    <value>¡Es necesario el campo del título!</value>
+    <comment>Phrase: The title field is required!</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreatePostActionDescription">
+    <value>Permite o rechaza la creación de una nueva entrada.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AuthenticatedUsersOnly">
+    <value>Solo usuarios autenticados</value>
+    <comment>AuthenticatedUsersOnly</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumGroupPermissionsDescription">
+    <value>Representa los permisos de seguridad de uso más común.</value>
+    <comment>Permission description.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ModifyForumAction">
+    <value>Modificar un foro</value>
+    <comment>The title of ModifyForum security action.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ShowBreadcrumbExample">
+    <value>&lt;b&gt;Ejemplo:&lt;/b&gt; &lt;em&gt; Foros &gt; Foro de Soporte &gt; Tengo un problema con... &lt;/em&gt;</value>
+    <comment>Show breadcrumb example</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumGroupURL">
+    <value>URL del Grupo de Discusión</value>
+    <comment>phrase: Forum Group URL</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Url">
+    <value>URL</value>
+    <comment>Word: URL</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LastPostUpperCase">
+    <value>Última entrada</value>
+    <comment>phrase: LAST POST</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AllThreadsFromAllForums">
+    <value>Todos los hilos desde todos los foros</value>
+    <comment>phrase: All threads from all forums</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NoForumsHaveBeenCreatedYet">
+    <value>Aún no se han creado foros</value>
+    <comment>Phrase: No forums have been created yet</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NoGroupsSelected">
+    <value>No hay grupos seleccionados</value>
+    <comment>phrase: No groups selected</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AllForums">
+    <value>Todos los foros</value>
+    <comment>phrase: All forums</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="BackToThreads">
+    <value>Volver a Hilos</value>
+    <comment>phrase: Back to Threads</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MostViewed">
+    <value>Más Vistos</value>
+    <comment>Phrase: Most Viewed</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SortThreads">
+    <value>Ordenar hilos</value>
+    <comment>phrase: Sort threads</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ThreadsFromTheCurrentlyOpenForum">
+    <value>Auto: hilos del foro actualmente abierto</value>
+    <comment>phrase: Auto: threads from the currently open forum</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateNewForumGroup">
+    <value>Crear un nuevo grupo de foro</value>
+    <comment>Create a new forum group</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PostsFromForums">
+    <value>Entradas de Foros:</value>
+    <comment>phrase: Posts from Forums :</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateForumInSelectedGroup">
+    <value>Crear un foro en el grupo seleccionado</value>
+    <comment>phrase: Create a forum in selected group</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MyThreadsLower">
+    <value>hilos que creé o respondí</value>
+    <comment>Phrase: threads I have created or replied</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SubscribeForPosts">
+    <value>Suscríbase a entradas</value>
+    <comment>text: Subscribe for posts</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EmailNotificationAlreadySubscribedThreadsMessage">
+    <value>Usted ya está suscrito a nuevos hilos por correo electrónico</value>
+    <comment>text: You have already subscribed to new threads via email</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SaveChanges">
+    <value>Guardar cambios</value>
+    <comment>Save changes text</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ModifyThreadActionDescription">
+    <value>Permite o rechaza los cambios en un hilo existente.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Sticked">
+    <value>Adherido</value>
+    <comment>Word: Sticked</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EmailNotificationAlreadySubscribedPostsMessage">
+    <value>Usted ya está suscrito a nuevas entradas por correo electrónico</value>
+    <comment>text: You have already subscribed to new posts via email</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="GoToNotificationSettings">
+    <value>Ir a la configuración de Notificaciónes</value>
+    <comment>text: Go to Notification settings</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Title">
+    <value>Título</value>
+    <comment>word: Title</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PostsFromTheCurrentlyOpenThread">
+    <value>Auto: entradas del hilo actualmente abierto</value>
+    <comment>phrase: Auto: posts from the currently open thread</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ManageTextMessage">
+    <value>Administrar mensajes de texto</value>
+    <comment>Manage text message text</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumGroupCannotBeAChildOfAForum">
+    <value>Un grupo de foro no puede ser hijo de un foro</value>
+    <comment>Error message: A forum group cannot be a child of a forum</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Documents">
+    <value>Documentos (pdf, doc, docx, ppt, pptx, pps, ppsx, xls, xlsx)</value>
+    <comment>Documents (pdf, doc, docx, ppt, pptx, pps, ppsx, xls, xlsx)</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Threads">
+    <value>hilos</value>
+    <comment>Word: threads</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ThreadSelectorDetailsFormatString">
+    <value>{{Thread.Title}}&lt;br&gt;&lt;small&gt;{{ForumTitle}} | {{Thread.DateCreated.sitefinityLocaleFormat('dd MMM yyyy')}} por {{OwnerDisplayName}}&lt;/small&gt;</value>
+    <comment>Format string: {{Thread.Title}}&lt;br&gt;&lt;small&gt;{{ForumTitle}} | {{Thread.DateCreated.sitefinityLocaleFormat('dd MMM yyyy')}} by {{OwnerDisplayName}}&lt;/small&gt;</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeleteThreadActionDescription">
+    <value>Permite o rechaza la eliminación de un hilo en particular.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="StickToTop">
+    <value>Adherir a la parte superior</value>
+    <comment>Stick to top</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Unpublish">
+    <value>QuitarDePublicacion</value>
+    <comment>word: Unpublish</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PostsViewNotAvailableInEditMode">
+    <value>Aquí aparecerán las entradas del hilo actualmente abierto</value>
+    <comment>phrase: Posts from the currently opened thread will appear here</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SettingsForForums">
+    <value>Configuración de los foros</value>
+    <comment>Phrase: Settings for forums</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PostAThread">
+    <value>Publicar un hilo</value>
+    <comment>phrase: Post a thread</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CountOfFilteredThreads">
+    <value>{0} {1} de todos los foros</value>
+    <comment>Phrase: {0} {1} from all forums</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Posts">
+    <value>entradas</value>
+    <comment>Word: posts</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="GroupsListTemplateTitle">
+    <value>Lista de plantilla de grupos de discusión</value>
+    <comment>Phrase: 'List of forum groups' template</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumThreadSingleItemName">
+    <value>Hilo de Foro</value>
+    <comment>Word: Forum Thread</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NewestThreads">
+    <value>Hilos Más Recientes</value>
+    <comment>Phrase: Newest Threads</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ShowThreadsThatAre">
+    <value>Mostrar hilos que son:</value>
+    <comment>Phrase: Show threads that are: </comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumMustBePlacedInAGroup">
+    <value>Un foro debe ser colocado en un grupo.</value>
+    <comment>Error message: A forum must be placed in a group</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ModifyPostActionDescription">
+    <value>Permite o rechaza el cambio en una entrada existente.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AllowedExtensionSettingsExample">
+    <value>.doc, .docx, .xls, .xlsx, .ppt, .pptx, .pdf</value>
+    <comment>Example: .doc, .docx, .xls, .xlsx, .ppt, .pptx, .pdf</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PageForUserProfilesDetailedDescription">
+    <value>Esta es la página que se abre al hacer clic en el nombre del autor de cada entrada. En esta página, debe haber un &lt;strong&gt;Widget de perfil&lt;/strong&gt;.</value>
+    <comment>Phrase: This is the page which is opened clicking the name of the author of each post. There must be a &lt;strong&gt;Profile widget&lt;/strong&gt; on this page.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FullForumFunctionality">
+    <value>Funcionalidad del foro completa</value>
+    <comment>phrase: Full forum functionality</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TitleAndProperties">
+    <value>Título y Propiedades</value>
+    <comment>Phrase: Title &amp; Properties</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ViewsUpperCase">
+    <value>VISUALIZACIONES</value>
+    <comment>Word: VIEWS</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumPostsUrlName">
+    <value>Entradas</value>
+    <comment>URL name for Forum Posts in the Forums module.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UserQuote">
+    <value>&lt;strong class="sfUserQuote"&gt;{0} dijo:&lt;/strong&gt;</value>
+    <comment>phrase: {0} said:</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ByAuthor">
+    <value>para {0}</value>
+    <comment>ByAuthor</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FirstPostedOnTop">
+    <value>Las primeras entradas, arriba</value>
+    <comment>phrase: First posted on top</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeletePostAction">
+    <value>Eliminar una entrada</value>
+    <comment>The title of DeleteThread security action.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumListViewFriendlyName">
+    <value>Foros - lista</value>
+    <comment>Phrase: Forums - list</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EmailSubscriptionInfo">
+    <value>Suscripción por Correo Electrónico</value>
+    <comment>text: Email Subscription</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="GroupListViewFriendlyName">
+    <value>Grupo - lista</value>
+    <comment>Phrase: Group - list</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FeedForThisThread">
+    <value>Feed para este hilo</value>
+    <comment>phrase: Feed for this thread</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateForumGroup">
+    <value>Crear un grupo de foro</value>
+    <comment>Phrase: Create a forum group</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateThreadAction">
+    <value>Crear un hilo</value>
+    <comment>The title of CreateThread security action.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ModifyThreadAction">
+    <value>Modificar un hilo</value>
+    <comment>The title of ModifyThread security action.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SaveAsDraft">
+    <value>Guardar como borrador</value>
+    <comment>phrase: Save as Draft</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ChangeThisForumPermissionsAction">
+    <value>Cambiar los permisos de este foro</value>
+    <comment>The title of Change Permissions security action.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PagesWhereForumsArePublished">
+    <value>Páginas donde se publican los Foros</value>
+    <comment>Pages where Forums are published</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumsTitle">
+    <value>Foros</value>
+    <comment>Title for the Forums module.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Images">
+    <value>Imágenes (jpg, jpeg, png, gif, bmp)</value>
+    <comment>Images (jpg, jpeg, png, gif, bmp)</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CloseForumGroup">
+    <value>Cerrar grupo de discusión</value>
+    <comment>Close forum group</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateForumGroupActionDescription">
+    <value>Permite o rechaza la creación de un nuevo grupo de foros.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="RecentlyRepliedThreads">
+    <value>Hilos con Respuestas Recientes</value>
+    <comment>Phrase: Recently Replied Threads</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FromSelectedThreads">
+    <value>De hilos seleccionados</value>
+    <comment>phrase: From selected threads</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ViewThread">
+    <value>Ver hilo</value>
+    <comment>Phrase: View thread</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumsViewDescription">
+    <value>Lista de elementos de Foros</value>
+    <comment>The description of the ForumsView control, that appears on the controls toolbox.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PostsFromSelectedThread">
+    <value>Entradas de hilo seleccionado...</value>
+    <comment>phrase: Auto: posts from the currently open thread</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="BackendAnsweredThreads">
+    <value>(Respondido)</value>
+    <comment>Label: (Answered)</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SubscribeForNewThreads">
+    <value>Suscribirse a nuevos hilos</value>
+    <comment>text: Subscribe for new threads</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ViewForumActionDescription">
+    <value>Permite o rechaza la vista de un foro en particular.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PostsOfOneThreadOnly">
+    <value>Entrada de un solo hilo</value>
+    <comment>phrase: Posts of one thread only</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumThreadsHtmlTitle">
+    <value>Hilos del Foro</value>
+    <comment>Html Title for Forum Threads in the Forums module..</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LastModifiedOnDateByUser">
+    <value>Última modificación el {0} por {1}</value>
+    <comment>phrase: Last modified on {0} by {1}</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TheSystemHasNotBeenConfiguredToSendEmails">
+    <value>El sistema no ha sido configurado para enviar correos electrónicos {0} o pregunte a su administrador para ajustarlos.</value>
+    <comment>text: The system has not been configured to send emails. {0} or ask your administrator to set them.  {0} is a place holder for 'Go to SMTP settings' label which must be rendered as a link</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Unstick">
+    <value>Desmarcar como adherido</value>
+    <comment>Unstick</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ModifyForumActionDescription">
+    <value>Permite o rechaza los cambios a un foro existente.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumGroupPermissions">
+    <value>Permisos de la categoría del foro</value>
+    <comment>Permission title.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="BackToItems">
+    <value>Volver a hilos</value>
+    <comment>Phrase: Back to threads</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumsUrlName">
+    <value>Foros</value>
+    <comment>Forums URL</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DisplayLastUpdatedThreads">
+    <value>Mostrar hilos actualizados por última vez en...</value>
+    <comment>Phrase: Display threads last updated in...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MyThreads">
+    <value>Mis hilos</value>
+    <comment>Phrase: My threads</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Select library">
+    <value>&lt;strong&gt;Seleccione la biblioteca&lt;/strong&gt;</value>
+    <comment>Select library</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="StartWithForumGroups">
+    <value>Comience con grupos de discusión en el primer nivel</value>
+    <comment>Phrase: Start with forum groups on first level</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Audio">
+    <value>Audio (mp3, ogg, wav, wma)</value>
+    <comment>Audio (mp3, ogg, wav, wma )</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ModifyForumGroupAction">
+    <value>Modificar un grupo</value>
+    <comment>The title of ModifyForum security action.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MarkedAsFeatured">
+    <value>Marcado como respondido</value>
+    <comment>Phrase: Marked as answered</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumThreadsPageTitle">
+    <value>Hilos</value>
+    <comment>Title for forum threads page in the Forums module.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FilterThreads">
+    <value>Filtrar hilos</value>
+    <comment>Phrase: Filter threads</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Settings">
+    <value>Opciones</value>
+    <comment>word: Settings</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ThreadsMasterViewModeCaption">
+    <value>Modo de vista patrón de los hilos</value>
+    <comment>The title of the ViewMode configuration property</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumThreadPluralItemNameCapitalLetters">
+    <value>Hilos del Foro</value>
+    <comment>Word: Forum Threads</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Display">
+    <value>Mostrar...</value>
+    <comment>word: Display...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ThreadUpperCase">
+    <value>HILO</value>
+    <comment>Word: THREAD</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="BlockCrawlersFromIndexingThreadPostsPage">
+    <value>Evitar que los &lt;strong&gt;rastreadores de motores de búsqueda indexen&lt;/strong&gt; las páginas que contienen los mensajes de este hilo.</value>
+    <comment>Phrase: Block search engine crawlers from indexing pages that contain this thread's posts</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PostCannotBeEmpty">
+    <value>La entrada no puede estar vacía</value>
+    <comment>Post cannot be empty</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PostsPageIdDescription">
+    <value>Especifica el ID de la página que debe mostrar las entradas del foro. Si no se configura este ID, se asume la página actual.</value>
+    <comment>The description of PostsPageId configuration.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="IsProfilePublic">
+    <value>Es un perfil público</value>
+    <comment>phrase: This is a public profile</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SelectionOfPosts">
+    <value>Selección de entradas:</value>
+    <comment>phrase: Selection of posts:</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PostsPageIdCaption">
+    <value>ID de página de entradas</value>
+    <comment>The caption displayed for PostsPageId property in ForumsViewMasterElement.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PostsCount">
+    <value>Conteo de Entradas</value>
+    <comment>phrase: Posts Count</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ModifyThisForumAction">
+    <value>Modificar este foro</value>
+    <comment>Action text of the modify action for this forum.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="WhatDoYouWantToDoNow">
+    <value>¿Qué quiere hacer ahora?</value>
+    <comment>Phrase: What do you want to do now</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="InReplyTo">
+    <value>en respuesta a</value>
+    <comment>phrase: in reply to</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Everyone">
+    <value>Todos</value>
+    <comment>Everyone</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Move">
+    <value>Mover</value>
+    <comment>The text of the Move button.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LastPost">
+    <value>Última entrada</value>
+    <comment>Phrase: Last Post</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ViewThisForumAction">
+    <value>Ver este foro</value>
+    <comment>Action text of the view action for this forum.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="OpenForumGroup">
+    <value>Abrir grupo de discusión</value>
+    <comment>Open forum group</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="IncludeInSitemap">
+    <value>Incluir en el mapa del sitio</value>
+    <comment>phrase: Include in sitemap</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PostsInThreads">
+    <value>{0} entradas en {1} hilos</value>
+    <comment>PostsInThreads</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EmailNotificationSubscribe">
+    <value>Suscribirse</value>
+    <comment>text: Subscribe</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateForumActionDescription">
+    <value>Permite o rechaza la creación de un nuevo foro.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Attachments">
+    <value>Archivos anexos</value>
+    <comment>Attachments</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Example">
+    <value>Ejemplo</value>
+    <comment>Example</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumsResourcesTitle">
+    <value>Foros</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ModifyThisGroupAction">
+    <value>Modificar este grupo</value>
+    <comment>Action text of the modify action for this group.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MoveTo">
+    <value>Mover a…</value>
+    <comment>Move to..</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumsInboundPipe">
+    <value>Foros</value>
+    <comment>Forums inbound pipe UI name</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MoreOptions">
+    <value>Más opciones</value>
+    <comment>MoreOptions</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Forums">
+    <value>foros</value>
+    <comment>Word: forums</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EditForumPost">
+    <value>Editar una entrada</value>
+    <comment>Phrase: Edit a post</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ModeratorTitleCase">
+    <value>Moderador</value>
+    <comment>word: Moderator</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumsSettingsUrlName">
+    <value>Opciones</value>
+    <comment>URL name for Forums Settings in the Forums module.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ReplyToPost">
+    <value>Responder a la entrada de {0}</value>
+    <comment>phrase:Reply to {0}'s post</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PostsTitleCase">
+    <value>Entradas</value>
+    <comment>word: Posts</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LastPostByUser">
+    <value>Última entrada por {0}</value>
+    <comment>phrase: Last post by {0}</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumPostsAuthorInfoColumnHeaderText">
+    <value>Autor</value>
+    <comment>Phrase: Author</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CloseDateFilter">
+    <value>Cerrar fechas</value>
+    <comment>Phrase: Close dates</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="WaitingForApproval">
+    <value>En espera de aprobación</value>
+    <comment>Phrase: Waiting for approval</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumGroupClosed">
+    <value>El grupo de discusión está cerrado para publicaciones</value>
+    <comment>Forum group is closed for posting</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ChangeGroupPermissionsAction">
+    <value>Cambiar los permisos de un grupo</value>
+    <comment>The title of Change Permissions security action.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CustomFieldsForForums">
+    <value>Campos personalizados para foros</value>
+    <comment>Phrase: Custom fields for forums</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Content">
+    <value>Contenido</value>
+    <comment>word: Content</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Insert">
+    <value>Insertar</value>
+    <comment>Label: Insert</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateThisForum">
+    <value>Crear este foro</value>
+    <comment>phrase: Create this forum</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CloseThread">
+    <value>Cerrar hilo</value>
+    <comment>Close thread</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EditForum">
+    <value>Editar un foro</value>
+    <comment>Phrase: Edit a forum</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TitleCannotBeEmpty">
+    <value>El título no puede estar vacío</value>
+    <comment>Title cannot be empty</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NoThreadsHaveBeenPostedYet">
+    <value>Aún no se han publicado los hilos</value>
+    <comment>phrase: No threads have been posted yet</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeleteForumAction">
+    <value>Eliminar un foro</value>
+    <comment>The title of DeleteForum security action.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumsViewTitle">
+    <value>Foros</value>
+    <comment>The title of the ForumsView control, that appears on the controls toolbox.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="OK">
+    <value>Aceptar</value>
+    <comment>Word: OK</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EditPost">
+    <value>Editar entrada</value>
+    <comment>Phrase: Edit post</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Featured">
+    <value>respondido</value>
+    <comment>word: answered</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AlternativePublishing">
+    <value>Publicación alternativa (RSS)</value>
+    <comment>Alternative publishing (RSS)</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateForumGroupAction">
+    <value>Crear un grupo</value>
+    <comment>The title of CreateForum security action.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CannotDeleteTheDefaultForumGroupDialog">
+    <value>No puede eliminar este grupo de foros</value>
+    <comment>Phrase: You cannot delete this forum group</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeleteThisGroupAction">
+    <value>Eliminar este grupo</value>
+    <comment>Action text of the delete action for this group.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="BackToPosts">
+    <value>Volver a Entradas</value>
+    <comment>Phrase: Back to Posts</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FromAllForums">
+    <value>De todos los foros</value>
+    <comment>phrase: From all forums</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EmailSubscriptionThreadsDescription">
+    <value>Suscríbase a nuevos hilos por correo electrónico</value>
+    <comment>text: Subscribe to new threads via email</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Other">
+    <value>Otro…</value>
+    <comment>Other...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FeaturedFilter">
+    <value>Respondido</value>
+    <comment>Phrase: Answered</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MarkAsFeatured">
+    <value>Marcar como respondido</value>
+    <comment>phrase: Mark as answered</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SelectForums">
+    <value>Seleccionar foros</value>
+    <comment>phrase: Select forums</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CannotDeleteForumGroupDialogMessage">
+    <value>Para eliminar este grupo, primero  debe mover o eliminar sus foros</value>
+    <comment>Phrase: To delete this group you should move or delete its forums first</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UrlName">
+    <value>URL del Foro</value>
+    <comment>phrase: Forum URL</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumGroupTitleExample">
+    <value>&lt;strong&gt;Ejemplo:&lt;/strong&gt; Discusiones generales</value>
+    <comment>Phrase: Example: General discussions</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Unpublished">
+    <value>Sin publicar</value>
+    <comment>Phrase: Unpublished</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ChangeThisGroupPermissionsAction">
+    <value>Cambiar los permisos de este grupo</value>
+    <comment>The title of Change Permissions security action.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PermissionsForAllForums">
+    <value>Permisos para todos los foros</value>
+    <comment>Phrase: Permissions for all forums</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumThreadsTitle">
+    <value>{0} hilos</value>
+    <comment>Title for forum threads in the Forums module.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeleteForumGroupAction">
+    <value>Eliminar un grupo</value>
+    <comment>The title of DeleteForumGroup security action.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="IncludeFullBreadcrumbPathExample">
+    <value>&lt;b&gt;Ejemplo:&lt;/b&gt; &lt;em&gt;Inicio / Comunidad / Foros / Foro de Soporte / Tengo un problema con... &lt;/em&gt;</value>
+    <comment>Include full breadcrumb path example</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UnmarkAsFeatured">
+    <value>Desmarcar como respondido</value>
+    <comment>Unmark as answered</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="StickThisThreadToTopOfTheList">
+    <value>Pegue este hilo a la parte superior de la lista</value>
+    <comment>StickThisThreadToTopOfTheList</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumThreadsDataFields">
+    <value>Campos de datos de hilos del foro</value>
+    <comment>phrase: Forum threads data fields</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DefaultFileTypes">
+    <value>Tipos predeterminados</value>
+    <comment>phrase: Default types</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumsMasterViewModeCaption">
+    <value>Modo de vista patrón de los foros</value>
+    <comment>The title of the ViewMode configuration property</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UrlNameInvalidSymbols">
+    <value>La dirección URL contiene símbolos no válidos.</value>
+    <comment>The message shown when the url contains invalid symbols.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EditEmailThreadsTemplate">
+    <value>Editar plantilla de correo electrónico: hilos nuevos</value>
+    <comment>Edit email template: New threads text</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumGroupFieldDescription">
+    <value>Los nombres de grupo se pueden cambiar y los foros se pueden mover de un grupo a otro.</value>
+    <comment>phrase: Group names can be changed and forums can be moved from one group to another.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AllPublishedPosts">
+    <value>Todas las entradas publicadas</value>
+    <comment>phrase: All published posts</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeleteThisForumAction">
+    <value>Eliminar este foro y sus hilos y entradas</value>
+    <comment>Action text of the delete action for this forum.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Closed">
+    <value>Cerrado</value>
+    <comment>Closed</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AllowedFileTypes">
+    <value>Tipos de archivo permitidos</value>
+    <comment>Allowed file types</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PageForThreads">
+    <value>Página para Hilos</value>
+    <comment>Phrase: Page for Threads</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ManageThreads">
+    <value>Administrar Hilos</value>
+    <comment>Phrase: Manage Threads</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ModifyPostAction">
+    <value>Modificar una entrada</value>
+    <comment>The title of ModifyPost security action.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CustomSorting">
+    <value>Ordenación personalizada ...</value>
+    <comment>phrase: Custom sorting...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumPostsPluralTypeName">
+    <value>Entradas del foro</value>
+    <comment>Forum posts plural type name</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PostOwnerNameTermination">
+    <value>entrada de</value>
+    <comment>Phrase termination: 's post</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="RecentlyRepliedLower">
+    <value>hilos con nuevas respuestas</value>
+    <comment>Phrase: threads that have new replies</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SelectThread">
+    <value>Seleccionar hilo</value>
+    <comment>phrase: Select thread</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateForumPost">
+    <value>Crear una entrada</value>
+    <comment>Phrase: Create a post</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExampleDialogHeader">
+    <value>Los foros se organizan por grupos en el foro</value>
+    <comment>Forums are organized by forum groups.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EmailNotificationSuccessfulSubscribePostsMessage">
+    <value>Se ha suscrito con éxito a nuevas entradas por correo electrónico</value>
+    <comment>text: You have successfully subscribed to new posts via email</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SelectedForums">
+    <value>Foros seleccionados...</value>
+    <comment>phrase: Selected forums...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SelectedFileTypes">
+    <value>Tipos de archivo seleccionados...</value>
+    <comment>Selected file types ...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="GroupDeleteForumThreads">
+    <value>Eliminar hilos</value>
+    <comment>Phrase: Delete threads</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="QuoteAPost">
+    <value>Citar un mensaje</value>
+    <comment>Phrase: Quote a post</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CloseForum">
+    <value>Cerrar foro</value>
+    <comment>Close forum</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumPermissionsDescription">
+    <value>Representa los permisos de seguridad de uso más común.</value>
+    <comment>Permission description.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="WhatForumFunctionalityToUse">
+    <value>¿Qué funcionalidad de foro se debe usar?</value>
+    <comment>phrase: What forum functionality to use?</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EmailNotificationUnsubscribe">
+    <value>Darse de baja</value>
+    <comment>text: Unsubscribe</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MostViewedThreads">
+    <value>hilos más vistos</value>
+    <comment>Phrase: Most Viewed Threads</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ThreadsViewNotAvailableInEditMode">
+    <value>Aquí aparecerán los hilos del foro actualmente abierto</value>
+    <comment>phrase: Threads from the currently opened forum will appear here</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LinkToThisPost">
+    <value>Enlace a esta entrada</value>
+    <comment>Phrase: Link to this post</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EmailSubscriptionPostsDescription">
+    <value>Suscríbase a nuevas entradas por correo electrónico</value>
+    <comment>text: Subscribe to new posts via email</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="IsForumLockedCheckboxText">
+    <value>Cerrar este foro para deshabilitar la publicación</value>
+    <comment>Close this forum to disable posting</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumsResourcesDescription">
+    <value>Contiene recursos localizables para el módulo de Foros.</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Video">
+    <value>Video (avi, mpg, mpeg, mov, mp4, wmv)</value>
+    <comment>Video (avi, mpg, mpeg, mov, mp4, wmv)</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumPostsContentColumnHeaderText">
+    <value>Estado / Fecha / Contenido</value>
+    <comment>Status / Date / Content</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Last24Hours">
+    <value>Últimas 24 horas</value>
+    <comment>phrase: Last 24 hours</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FeedForThisForum">
+    <value>Feed para este foro</value>
+    <comment>phrase: Feed for this forum</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Reply">
+    <value>Responder</value>
+    <comment>Reply</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumssConfigDescription">
+    <value>Archivo de configuración global para el módulo de Foros</value>
+    <comment>Description of the ForumsConfig configuration class</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LastPostedOnTop">
+    <value>Última publicación, arriba</value>
+    <comment>phrase: Last posted on top</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DisplayPostsModifiedIn">
+    <value>Mostrar entradas modificadas en...</value>
+    <comment>phrase: Display posts modified in...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TemplateSubject">
+    <value>Asunto</value>
+    <comment>Subject text</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MyForums">
+    <value>Mis foros</value>
+    <comment>Phrase: My forums</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumsDescription">
+    <value>ForumsDescription</value>
+    <comment>Forums</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumPostsSingleTypeName">
+    <value>Entrada del foro</value>
+    <comment>Forum post single type name</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ManageThreadAction">
+    <value>Mover, marcar como adherido y bloquear un hilo</value>
+    <comment>The title of ManageThread security action.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FilterForums">
+    <value>Foros del filtro</value>
+    <comment>Phrase: Filter forums</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LastModifiedOn">
+    <value>Última modificación el</value>
+    <comment>Phrase: Last modified on</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumListOnly">
+    <value>Solo lista de foro</value>
+    <comment>phrase: Forum list only</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NewThreadsEmailTemplate">
+    <value>Plantilla de correo electrónico de hilos nuevos</value>
+    <comment>New threads email template text</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ChangeForumPermissionsActionDescription">
+    <value>Permite o rechaza el cambio de los permisos de un foro.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PageForPostsOfEachThreadDetailedDescription">
+    <value>Esta es la página que se abre al hacer clic en el nombre de un tema. En esta página, debe haber configurado un &lt;strong&gt;Widget de foro&lt;/strong&gt; para mostrar display &lt;strong&gt;Entrada de un solo tema&lt;/strong&gt; o &lt;strong&gt;Hilos y Entradas&lt;/strong&gt; o &lt;strong&gt;Funcionalidad total de foro&lt;/strong&gt;.</value>
+    <comment>Phrase: This is the page which is opened clicking the name of a thread. There must be a &lt;strong&gt;Forum widget&lt;/strong&gt; on this page set to display &lt;strong&gt;Post of one thread only&lt;/strong&gt; or &lt;strong&gt;Threads and Posts&lt;/strong&gt; or &lt;strong&gt;Full forum functionallity&lt;/strong&gt;.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="or">
+    <value>o</value>
+    <comment>or</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PostsListTemplateTitle">
+    <value>Lista de plantilla de entradas</value>
+    <comment>Phrase: 'List of posts' template</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ThreadsMasterViewModeDescription">
+    <value>El modo de vista patrón para los hilos del foro.</value>
+    <comment>Description of the ViewMode configuration property</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="StandardThreadType">
+    <value>Estándar</value>
+    <comment>phrase: Standard thread type</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateForumThread">
+    <value>Crear un hilo</value>
+    <comment>Phrase: Create a thread</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ThreadsListTemplateTitle">
+    <value>Lista de plantilla de hilos</value>
+    <comment>Phrase: 'List of threads' template</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MostViewedLower">
+    <value>hilos más vistos</value>
+    <comment>Phrase: most viewed threads</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SelectGroups">
+    <value>Seleccionar grupos</value>
+    <comment>phrase: Select groups</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="IncludeFullPathStartingFromHomePage">
+    <value>Incluye la ruta completa desde la Página principal</value>
+    <comment>Phrase: Include full path starting from Home page</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumGroupCannotBeAChildOfAnotherGroup">
+    <value>Un grupo de foro no puede ser hijo de otro grupo de foro</value>
+    <comment>Error message: A forum group cannot be a child of another forum group</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateThreadActionDescription">
+    <value>Permite o rechaza la creación de un nuevo hilo.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TheContentFieldIsRequired">
+    <value>¡Es necesario el campo de contenido!</value>
+    <comment>Phrase: The content field is required!</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CancelTemplateChanges">
+    <value>cancelar</value>
+    <comment>Cancel text</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EmailNotifications">
+    <value>Notificaciones por correo electrónico</value>
+    <comment>Email notifications text</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ThreadsOnly">
+    <value>Solo hilos</value>
+    <comment>phrase: Threads only</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateForumAction">
+    <value>Crear un foro</value>
+    <comment>The title of CreateForum security action.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="WhereToStoreUploadedFiles">
+    <value>Donde guardar los archivos subidos &lt;br /&gt; &lt;strong&gt;Seleccionar biblioteca&lt;/strong&gt;</value>
+    <comment>Where to store uploaded files</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SortPosts">
+    <value>Ordenar entradas</value>
+    <comment>phrase: Sort posts</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PostsFromAllForums">
+    <value>Entradas de todos los Foros</value>
+    <comment>phrase: Posts from all Forums</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="GoToSmtpSettings">
+    <value>Ir a la configuración de SMTP</value>
+    <comment>text: Go to SMTP settings</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PostAReply">
+    <value>Publicar una respuesta</value>
+    <comment>PostAReply</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FeaturedTitle">
+    <value>Respondido</value>
+    <comment>word: Answered</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumPostsTitle">
+    <value>Entradas</value>
+    <comment>Title for Forum Posts in the Forums module.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ShowThreadsFromAllForums">
+    <value>Mostrar hilos de todos los foros que son:</value>
+    <comment>Phrase: Show threads from all forums that are:</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PageGroupNodeTitle">
+    <value>Foros</value>
+    <comment>Title for the Forums module.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumsFromSelectedGroups">
+    <value>Foros de grupos seleccionados:</value>
+    <comment>phrase: Forums from selected groups:</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="OpenForum">
+    <value>Abrir foro</value>
+    <comment>Open forum</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EditForumGroup">
+    <value>Editar un grupo del foro</value>
+    <comment>Phrase: Edit a forum group</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PageForThreadsDetailedDescription">
+    <value>Esta es la página que se abre al hacer clic en el nombre de un foro. En esta página, debe haber configurado un &lt;strong&gt;Widget de foro&lt;/strong&gt; para mostrar &lt;strong&gt;Hilos&lt;/strong&gt; o &lt;strong&gt;Hilos y Entradas&lt;/strong&gt; o &lt;strong&gt;Funcionalidad total del foro&lt;/strong&gt;</value>
+    <comment>Phrase: This is the page which is opened clicking the name of a forum. There must be a &lt;strong&gt;Forum widget&lt;/strong&gt; on this page set to display &lt;strong&gt;Threads&lt;/strong&gt; or &lt;strong&gt;Threads and Posts &lt;strong&gt;or &lt;strong&gt;Full forum funcionality&lt;/strong&gt;.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ContentToInclude">
+    <value>Contenido a incluir</value>
+    <comment>Phrase: Content to include</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PostsFromThreads">
+    <value>Entradas de Hilos:</value>
+    <comment>phrase: Posts from Threads :</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ShowBreadcrumb">
+    <value>Mostrar ruta de navegación</value>
+    <comment>Phrase: Show breadcrumb</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Save">
+    <value>Guardar</value>
+    <comment>phrase: Save</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Cancel">
+    <value>cancelar</value>
+    <comment>Cancel</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EnableForumsNotificationSubscription">
+    <value>Habilitar suscripción de usuario para crear nuevos temas y entradas</value>
+    <comment>text: Enable user subscription for new threads and posts</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AllowUploadCheckboxText">
+    <value>Permite a los usuarios subir archivos adjuntos en las entradas</value>
+    <comment>AllowUploadCheckboxText</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AttachmentsFieldInvalidSymbols">
+    <value>¡Formato no válido! Ejemplo de formato válido: .doc, .docx, .xls, .xlsx, .ppt, .pptx, .pdf</value>
+    <comment>The message shown when the attachments field contains invalid symbols.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AllowedExtensionSettingsTitle">
+    <value>Tipos de archivo permitidos</value>
+    <comment>phrase: Allowed file types</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PostThisReply">
+    <value>Publicar esta respuesta</value>
+    <comment>PostThisReply</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Newest">
+    <value>Más Recientes</value>
+    <comment>Phrase: Newest</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateThisForumGroup">
+    <value>Crear este grupo de foro</value>
+    <comment>Phrase: Create this forum group</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeleteForumGroupActionDescription">
+    <value>Permite o rechaza la eliminación de un grupo de foro en particular.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="RecentlyReplied">
+    <value>Respondido Recientemente</value>
+    <comment>Phrase: Recently Replied</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FeaturedThreads">
+    <value>Hilos Respondidos</value>
+    <comment>Phrase: Answered Threads</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ChangeGroupPermissionsActionDescription">
+    <value>Permite o rechaza el cambio de los permisos de un grupo de foro.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeletePostActionDescription">
+    <value>Permite o rechaza la eliminación de un hilo en particular.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AllowComments">
+    <value>Permitir comentarios</value>
+    <comment>Phrase: Allow comments</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MoveThreadTo">
+    <value>Mover hilo a...</value>
+    <comment>phrase: Move thread to ...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ThreadsListViewFriendlyName">
+    <value>Hilos - lista</value>
+    <comment>Phrase: Threads - list</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PostsUpperCase">
+    <value>ENTRADAS</value>
+    <comment>Word: POSTS</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PageForUserProfiles">
+    <value>Página para perfiles de usuario</value>
+    <comment>Phrase: Page for user profiles</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Subscription">
+    <value>Suscripción</value>
+    <comment>Word: Subscription</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="StickedThreadsOnTop">
+    <value>Hilos pegados en la parte superior</value>
+    <comment>phrase: Sticked threads on top</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumsConfigCaption">
+    <value>Foros</value>
+    <comment>Global configuration file for the Forums module</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Post">
+    <value>entrada</value>
+    <comment>word: post</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="StickyThread">
+    <value>Adherido (siempre en la parte superior)</value>
+    <comment>phrase: Sticky thread</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ManuallyDefinedFileTypes">
+    <value>Definir manualmente…</value>
+    <comment>phrase: Define manually...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AllPosts">
+    <value>Todas las entradas</value>
+    <comment>phrase: All posts</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EditForumThread">
+    <value>Editar un hilo</value>
+    <comment>Phrase: Edit a thread</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="RegisteredTitleCase">
+    <value>Registrado</value>
+    <comment>phrase: Registered</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NarrowSelectionComplementoryText">
+    <value>Reducir selección &lt;span class='sfNote'&gt;(fecha)&lt;/span&gt;</value>
+    <comment>Narrow selection complementory text</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CountOfFilteredThreadsInForum">
+    <value>&lt;em&gt;{0} {1}&lt;/em&gt; en {2}</value>
+    <comment>Phrase: {0} {1}(threads) in {2} (forum)</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EditEmailPostsTemplate">
+    <value>Editar plantilla de correo electrónico: entradas nuevas</value>
+    <comment>Edit email template: New posts text</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SendNotificationsTo">
+    <value>Enviar notificaciones a</value>
+    <comment>text: Send notifications to</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumsSettingsTitle">
+    <value>Opciones</value>
+    <comment>Title for Forum Posts in the Forums module.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="BackToForums">
+    <value>Volver a foros</value>
+    <comment>Phrase: Back to forums</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TemplateText">
+    <value>Texto del mensaje</value>
+    <comment>Message text text</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PagesWhereForumPostsArePublished">
+    <value>Páginas donde se publican las Entradas en los Foros</value>
+    <comment>Pages where Forum Posts are published</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="OpenThread">
+    <value>Abrir hilo</value>
+    <comment>Open thread</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumThreadPluralItemName">
+    <value>hilos del foro</value>
+    <comment>Word: forum threads</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumGroup">
+    <value>Grupo del foro</value>
+    <comment>ForumGroup</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AccessForums">
+    <value>Accede al módulo de foros</value>
+    <comment>Title of the 'AccessForums' security action</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NoThreads">
+    <value>Aún no se han creado hilos.</value>
+    <comment>Phrase: No threads have been created yet</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ModifyForumGroupActionDescription">
+    <value>Permite o rechaza la modificación de un grupo de foro ya existente.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AdministratorTitleCase">
+    <value>Administrador</value>
+    <comment>word: Administrator</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TheSystemHasNotBeenConfiguredToSendNotifications">
+    <value>El sistema no ha sido configurado para enviar notificaciones. {0} o pregunte a su administrador para que lo configure.</value>
+    <comment>text: The system has not been configured to send notifications. {0} or ask your administrator to set them.  {0} is a place holder for 'Go to Notifications settings' label which must be rendered as a link</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CloseThisThreadToDisablePosting">
+    <value>Cerrar este hilo para desactivar publicación</value>
+    <comment>CloseThisThreadToDisablePosting</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AccessForumsDescription">
+    <value>Acción de seguridad que permite el acceso a las páginas de backend del módulo de foros</value>
+    <comment>Description of the 'AccessForumsDescription' security action</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NewestLower">
+    <value>hilos más recientes</value>
+    <comment>Phrase: newest threads</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Permalink">
+    <value>enlace a esta entrada</value>
+    <comment>phrase: link to this post</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="InLabel">
+    <value>en</value>
+    <comment>Phrase: in</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PostsListViewFriendlyName">
+    <value>Entradas - lista</value>
+    <comment>Phrase: Posts - list</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ThreadTypeTitle">
+    <value>Tipo de hilo</value>
+    <comment>phrase: Thread type</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="YourQuoteGoesHere">
+    <value>Su cita va aquí</value>
+    <comment>Phrase: Your quote goes here</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Edit">
+    <value>Editar</value>
+    <comment>Word: Edit</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MaxNumberFileAttachments">
+    <value>No se puede agregar extensiones de archivos adjuntos debido a una restricción de configuración.</value>
+    <comment>The message shown when the attachments field cannot accept new extensions.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EmailNotificationSuccessfulSubscribeThreadsMessage">
+    <value>Se ha suscrito con éxito a nuevos hilos por correo electrónico</value>
+    <comment>text: You have successfully subscribed to new threads via email</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumsMasterViewModeDescription">
+    <value>El modo de vista patrón de los foros.</value>
+    <comment>Description of the ViewMode configuration property</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeleteThreadAction">
+    <value>Eliminar un hilo</value>
+    <comment>The title of DeleteThread security action.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="IsForumGroupLockedCheckboxText">
+    <value>Cerrar este grupo de discusión para deshabilitar la publicación</value>
+    <comment>Close this forum group to disable posting</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FileAttachmentsTitleExample">
+    <value>Los tipos de archivo se separan con comas &lt;br/&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;: zip, rar</value>
+    <comment>Phrase:  File types are comma separated. Example: zip, rar</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ViewForumAction">
+    <value>Ver un foro</value>
+    <comment>The title of ViewForum security action.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="GroupUrlName">
+    <value>URL de Grupo</value>
+    <comment>phrase: Group URL</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeleteThread">
+    <value>Eliminar hilo</value>
+    <comment>Phrase: Delete thread</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FeaturedLower">
+    <value>hilos con mensajes respondidos</value>
+    <comment>Phrase: threads with answered posts</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumsWithoutThreads">
+    <value>Foros sin hilos</value>
+    <comment>Phrase: Forums without threads</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DefaultPage">
+    <value>Página predeterminada</value>
+    <comment>Phrase: Default page</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Summary">
+    <value>Resumen</value>
+    <comment>Summary</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeleteForumGroupWithForumsExceptionMessage">
+    <value>Intento de eliminar un grupo con foros asociados</value>
+    <comment>exception message when one tries to delete a forum group with forums</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FromSelectedForums">
+    <value>De foros seleccionados</value>
+    <comment>phrase: From selected forums</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumCannotBeAChildOfAnotherForum">
+    <value>Un foro no puede ser hijo de otro foro</value>
+    <comment>Error message: A forum cannot be a child of another forum</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Description">
+    <value>Descripción</value>
+    <comment>Description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ByDateModified">
+    <value>por fecha de modificación ...</value>
+    <comment>Phrase: by Date modified...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AttachedFileInvalidMessageFormat">
+    <value>El/los archivo(s) seleccionado(s) no se puede(n) conectar, ya que puede(n) superar el tamaño máximo de datos adjuntos ({0}) o es/son de un tipo no permitido  (allowed: {1}).</value>
+    <comment>Phrase: The selected file(s) cannot be attached because it may exceed the maximum attachment size ({0}) or is from not allowed type (allowed: {1}).</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NewThread">
+    <value>Hilo nuevo</value>
+    <comment>Phrase: New thread</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Icon">
+    <value>Icono</value>
+    <comment>phrase: Icon</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NewPostsEmailTemplate">
+    <value>Plantilla de correo electrónico de entradas nuevs</value>
+    <comment>New posts email template text</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResetTemplate">
+    <value>Restaurar plantilla predeterminada</value>
+    <comment>Restore template to default text</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UnmarkAsSpam">
+    <value>Desmarcar como spam</value>
+    <comment>Unmark as spam</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumPermissions">
+    <value>Permisos de foros</value>
+    <comment>Permission title.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="OrTemplateChanges">
+    <value>o</value>
+    <comment>or</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumClosed">
+    <value>El foro está cerrado para publicaciones</value>
+    <comment>Forum is closed for posting</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AllThreads">
+    <value>Todos los hilos</value>
+    <comment>Phrase: All threads</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumsHtmlTitle">
+    <value>Foros</value>
+    <comment>Html Title for the Forums module..</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NewThreadViewFriendlyName">
+    <value>vista de hilo nuevo</value>
+    <comment>Phrase: New thread view</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PagesWhereForumThreadsArePublished">
+    <value>Páginas donde se publicas los Hilos del Foro</value>
+    <comment>Pages where Forum Threads are published</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeleteDefaultForumGroupException">
+    <value>Intento de eliminar el grupo predeterminado de foro.</value>
+    <comment>exception message when one tries to delete the default forum group</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AGroupWithThisTitleAlreadyExists">
+    <value>Un grupo con este "{0}" ya existe</value>
+    <comment>phrase: A group with title "{0}" already exists</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ClickToAddSummary">
+    <value>Haga clic para añadir resumen</value>
+    <comment>ClickToAddSummary</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NoThreadsForumLocked">
+    <value>No puede crear nuevos hilos ya que este foro está cerrado</value>
+    <comment>phrase: You cannot create new threads because this forum is locked</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FilterPosts">
+    <value>Filtrar entradas</value>
+    <comment>phrase: Filter posts</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TemplatesForForumParts">
+    <value>Plantillas para las partes del foro</value>
+    <comment>Phrase: Templates for forum parts</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ThreadsFromSelectedForumsOnly">
+    <value>Solo hilos de foros seleccionados</value>
+    <comment>phrase: Threads from selected forums only</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumThreadsUrlName">
+    <value>Hilos</value>
+    <comment>ForumThreads URL</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumsEvaluatorDescription">
+    <value>Extrae el formulario de foro de la cadena de URL. Suponiendo que comienza después del segmento marcado en la URL hasta el final.</value>
+    <comment>The description of the Forums URL Evaluator.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PostReply">
+    <value>Publicar una respuesta</value>
+    <comment>Phrase: Post a reply</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumsListTemplateTitle">
+    <value>Lista de plantilla de foros</value>
+    <comment>Phrase: 'List of forums' template</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Unmark">
+    <value>Desmarcar</value>
+    <comment>Word: Unmark</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreatePostAction">
+    <value>Crear una entrada</value>
+    <comment>The title of CreatePost security action.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AllowedExtensionSettingsDescription">
+    <value>Representa la colección de propiedades de extensiones de nombre de archivo permitidas como una cadena de texto separada por comas.</value>
+    <comment>Describes a configuration element</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Parent">
+    <value>Padre</value>
+    <comment>word: Parent</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CannotDeleteForumGroupDialogTitle">
+    <value>No puede eliminar un grupo de foro que tiene foros</value>
+    <comment>Phrase: You cannot delete a forum group that has forums</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SubscribeMeForThisThread">
+    <value>Suscribirme a este hilo</value>
+    <comment>Phrase: Subscribe me for this thread</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Generate">
+    <value>Generar ...</value>
+    <comment>The text of my forum sidebar button</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForumPostsHtmlTitle">
+    <value>Mensajes del Foro</value>
+    <comment>HTML Title for Forum Posts in the Forums module.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ThreadClosed">
+    <value>El hilo está cerrado para publicaciones</value>
+    <comment>Thread is closed for posting</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeleteForumActionDescription">
+    <value>Permite o rechaza la eliminación de un foro en particular.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EmailNotificationSuccessfulUnsubscribeMessage">
+    <value>Se ha dado de baja con éxito</value>
+    <comment>text: You have successfully unsubscribed</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CannotDeleteTheDefaultForumGroupDialogMessage">
+    <value>No puede eliminar el grupo de foros predeterminado</value>
+    <comment>Phrase: You cannot delete the default forum group.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ViewAllForums">
+    <value>Ver todos los foros</value>
+    <comment>Phrase: View all forums</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ThreadsFromCurrentlyOpenUser">
+    <value>Auto: hilos del usuario actualmente abierto</value>
+    <comment>phrase: Auto: threads from currently open user</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ClickToAddDescription">
+    <value>Hacer clic para añadir una descripción</value>
+    <comment>phrase: Click to add description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateForum">
+    <value>Crear un foro</value>
+    <comment>Phrase: Create a forum</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ChangePage">
+    <value>Cambiar página</value>
+    <comment>phrase: Change page</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ChangeForumPermissionsAction">
+    <value>Cambiar los permisos de un foro</value>
+    <comment>The title of Change Permissions security action.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PageForPostsOfEachThread">
+    <value>Página para Mensajes de cada tema</value>
+    <comment>Phrase: Page for Posts of each thread</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+</root>

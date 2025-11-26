@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Daily">
+    <value>Diario</value>
+    <comment>Word: Daily</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SitemapGenerationSuccess">
+    <value>La generación del mapa de sitio ha concluido.</value>
+    <comment>phrase: Sitemap generation has finished.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="At">
+    <value>en</value>
+    <comment>preposition: at</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="GenerationProgressStep3">
+    <value>Paso 3 de 7: Obteniendo blogs...</value>
+    <comment>Gets the Step 3 label text.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ExcludeChildTypesTitle">
+    <value>Excluir a los Hijos Tipo</value>
+    <comment>Title of exlude child types fields</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PingDisabledMessage">
+    <value>El ping automático a Google y Bing está deshabilitado porque usted está usando localhost</value>
+    <comment>phrase: Automatic ping to Google and Bing is disabled because you are using localhost</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SitemapName">
+    <value>Nombre del mapa del sitio</value>
+    <comment>phrase: Sitemap name</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="GenerationProgressStep7">
+    <value>Paso 7 de 7: Escribiendo archivos del mapa del sitio...</value>
+    <comment>Gets the Step 7 label text.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FullTypeNameToExcludeDescription">
+    <value>El nombre de Tipo completo para excluir de la generación del Mapa del sitio, p. ej., Telerik.Sitefinity.News.Model.NewsItem</value>
+    <comment>Description of type to exclude field</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Sitemap">
+    <value>sitemap</value>
+    <comment>word: Sitemap</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="GenerationProgressStep2">
+    <value>Paso 2 de 7: Obteniendo noticias...</value>
+    <comment>Gets the Step 2 label text.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SitemapUsageDescription">
+    <value>El Mapa del Sitio es un archivo XML que enumera las direcciones URL de un sitio junto con metadatos adicionales acerca de cada URL (última actualización, frecuencia con la que generalmente cambia y lo importante que es, en comparación con otras direcciones URL en el sitio) para que los motores de búsqueda puedan rastrear el sitio de manera más inteligente. Los archivos generados de mapas del sitio pueden encontrarse en el directorio raíz de su sitio. El mapa del sitio está formateado según la especificación en &lt;a href="http://www.sitemaps.org" target="_blank"&gt;Sitemaps.org&lt;/a&gt;</value>
+    <comment>phrase: Sitemap is an XML file that lists URLs for a site along with additional metadata about each URL (when it was last updated, how often it usually changes, and how important it is, relative to other URLs in the site) so that search engines can more intelligently crawl the site. Generated sitemap files can be found at the root directory of your site. The sitemap is formatted according to the specification on &lt;a href="http://www.sitemaps.org" target="_blank"&gt;Sitemaps.org&lt;/a&gt;</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SplitSitemap">
+    <value>Dividir mapa del sitio en varios archivos si contiene más de...</value>
+    <comment>phrase: Split sitemap into multiple files if it contains more than...</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PingDisabledToolTip">
+    <value>Se generará el/los archivo(s) de mapa del sitio pero no se llamará (ping) a los motores de búsqueda. Los motores de búsqueda serán llamados (ping) automáticamente, cuando utilice un dominio válido (p. ej., www.ejemplo.com). Usted puede cambiar el dominio en Administrar sitios</value>
+    <comment>phrase: The sitemap file(s) will be generated but search engines will not be pinged. Search engines will be pinged automatic, when you use valid domain (e.g. www.example.com).You can change domain in Manage sites</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Directory">
+    <value>Directorio</value>
+    <comment>word: Directory</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Cache">
+    <value>CACHÉ</value>
+    <comment>word: Cache</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SitemapForSearchEngines">
+    <value>Mapa del sitio para motores de búsqueda</value>
+    <comment>phrase: Sitemap for search engines</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="WhenToRegenerateSitemap">
+    <value>¿Cuándo volver a generar el mapa del sitio?</value>
+    <comment>phrase: When to regenerate the sitemap?</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="LastExecutedTime">
+    <value>Último generado:</value>
+    <comment>phrase: Last generated:</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ExcludedTypesSectionTitle">
+    <value>Tipos excluidos</value>
+    <comment>Title of excluded types config section</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NumberOnlyViolationmessage">
+    <value>Caracteres incorrectos. ¡Solo se admiten números!</value>
+    <comment>phrase: Only numbers are allowed!</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="GenerationProgressStep0">
+    <value>Configuración de mapa del sitio...</value>
+    <comment>Gets the Step 0 label text.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="GenerationProgressStep4">
+    <value>Paso 4 de 7: Obteniendo foros...</value>
+    <comment>Gets the Step 4 label text.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Compress">
+    <value>Comprimir</value>
+    <comment>word: Compress</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FileNameViolationmessage">
+    <value>El nombre del archivo contiene carácteres no válidos</value>
+    <comment>phrase: File name contains invalid characters.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="GenerationProgressStep71">
+    <value>Paso 7 de 7: Escribiendo archivo del mapa del sitio...</value>
+    <comment>Gets the Step 7 label text (single file).</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Records">
+    <value>registros</value>
+    <comment>word: records</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SubmitToSearchEnginesTitle">
+    <value>Enviar mapa del sitio para...</value>
+    <comment>Gets the title for submitting the sitemap to search engines (on settings screen).</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ExplicitlyIncludeTypeTitle">
+    <value>Incluir tipo explícitamente</value>
+    <comment>Title of explicitly include type field</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Frequency">
+    <value>Frecuencia</value>
+    <comment>word: Frequency</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SitemapDirectory">
+    <value>Se recomienda encarecidamente que coloque su Mapa del Sitio en el directorio raíz de su servidor web</value>
+    <comment>Tooltip for the sitemap directory in the basic settings screen.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="GenerateManualButtonTitle">
+    <value>Generar Mapa del Sitio</value>
+    <comment>The title of the button for manual generating sitemap</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SitemapGenerationFailed">
+    <value>La generación del mapa de sitio ha fallado</value>
+    <comment>phrase: Sitemap generation has failed</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SaveChanges">
+    <value>Guardar cambios</value>
+    <comment>phrase: Save Changes</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SitemapUrlLimitMessage">
+    <value>El archivo del mapa del sitio no debe tener más de 50,000 URL.</value>
+    <comment>phrase: Sitemap file must have no more than 50,000 URLs.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="GenerationProgressStep6">
+    <value>Paso 6 de 7: Obteniendo contenido dinámico...</value>
+    <comment>Gets the Step 6 label text.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MaxValueViolationMessage">
+    <value>Las máximas URL permitidas por archivo son</value>
+    <comment>phrase: URLs per file must be in the range of 1 to</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TimeToStartViolationMessage">
+    <value>Formato de hora inválido. Debe ser 'hh:mm tt'</value>
+    <comment>phrase: Invalid time format. Must be 'hh:mm tt'</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ExplicitlyIncludeTypeDescription">
+    <value>Incluir explícitamente este tipo y sus tipos hijo, sobrescribiendo así otras exclusiones.</value>
+    <comment>Description of explicitly include type field</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="GenerateSitemapForSearchEngines">
+    <value>Generar mapa del sitio para motores de búsqueda...</value>
+    <comment>phrase: Generate sitemap for search engines...</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="GenerationInProgressMessage">
+    <value>La generación del mapa del sitio está en progreso... puede tardar unos minutos</value>
+    <comment>phrase: Sitemap generation in progress...</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SitemapGenerationCompletedPositive">
+    <value>Mapa del sitio, generado con éxito</value>
+    <comment>phrase: Sitemap generated successfully</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ErrorSavingChanges">
+    <value>Error al guardar cambios.</value>
+    <comment>Label: Error saving changes.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EnableSitemapCaching">
+    <value>Habilitar  almacenamiento en caché de mapa del sitio</value>
+    <comment>phrase: Enable sitemap caching</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ChangeSettings">
+    <value>Añadir a:</value>
+    <comment>phrase: Change settings</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="GenerationProgressStep5">
+    <value>Paso 5 de 7: Obteniendo eventos...</value>
+    <comment>Gets the Step 5 label text.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="GetSettingsErrorMessage">
+    <value>Error al obtener configuración del generador de mapa del sitio.</value>
+    <comment>Phrase: Error getting sitemap generator settings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SitemapResourcesDescription">
+    <value>Contiene recursos localizables para módulo de Mapa del Sitio.</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FullTypeNameToExcludeTitle">
+    <value>Nombre de Tipo</value>
+    <comment>Title of type to exclude field</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CompressFileLabel">
+    <value>Comprimir archivo para reducir el ancho de banda</value>
+    <comment>phrase: Compress file to reduce the bandwidth</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ExcludedTypesSectionDescription">
+    <value>Una colección de Tipos, que deben ser excluidos de la generación del Mapa del sitio.</value>
+    <comment>The description of ExcludeTypes section.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="GenerationProgressStep1">
+    <value>Paso 1 de 7: Obteniendo páginas...</value>
+    <comment>Gets the Step 1 label text.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SitemapSettings">
+    <value>Configuración del mapa del sitio</value>
+    <comment>phrase: Sitemap Settings</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SitemapModulePageTitle">
+    <value>sitemap</value>
+    <comment>Gets the sitemap module page title</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BackToSitemap">
+    <value>Volver a Mapa del sitio</value>
+    <comment>phrase: Back to Sitemap</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SitemapIndexName">
+    <value>Nombre de Índice de Mapa del Sitio</value>
+    <comment>phrase: Sitemap Index name</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FullTypeNameToInclude">
+    <value>Nombre de tipo completo para incluir explícitamente. P. ej., Telerik.Sitefinity.News.Model.NewsItem</value>
+    <comment>Description of type to include field</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Cancel">
+    <value>cancelar</value>
+    <comment>word: Cancel</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="GoToSitemapSettingsLink">
+    <value>Ir a configuración de Mapa del sitio</value>
+    <comment>phrase: Go to Sitemap settings</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Weekly">
+    <value>Semanal</value>
+    <comment>Word: Weekly</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SitemapResourcesTitle">
+    <value>Generador de Mapa del sitio</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PreparingEntities">
+    <value>Preparación de entidades</value>
+    <comment>phrase: Preparing entities</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SitemapGenerationCompletedNegative">
+    <value>Se ha producido un error mientras se generaba el mapa del sitio. Por favor, intente de nuevo.</value>
+    <comment>phrase: An error has occurred while generating the sitemap, please try again.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Manual">
+    <value>Cambiar configuración</value>
+    <comment>Word: Manual</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ExcludeChildTypesDescription">
+    <value>Excluir también Tipos Hijo de este Tipo (de ser el caso).</value>
+    <comment>Description of exlude child types fields</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+</root>

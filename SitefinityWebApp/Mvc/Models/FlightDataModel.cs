@@ -5,32 +5,44 @@
 ------------------------------------------------------------------------------ */
 
 using Newtonsoft.Json;
+using SitefinityWebApp.Configuration;
 using SitefinityWebApp.Mvc.ViewModels;
 using System;
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web.Mvc;
+using Telerik.Sitefinity.Configuration;
 using Telerik.Sitefinity.Mvc;
 
 namespace SitefinityWebApp.Mvc.Models
 {
 	public class FlightDataModel
 	{
+		private readonly IntegrationConfig config;
 
+		public FlightDataModel()=>config = Config.Get<IntegrationConfig>();
 		public LaunchViewModel GetViewModel() => Task.Run(() => this.GetLaunchAsync()).Result;
 		/// <summary>
 		/// Realiza la llamada al API y obtiene los datos.
 		/// </summary>
 		/// <returns></returns>
 		private async Task<LaunchViewModel> GetLaunchAsync()
-		{
-			using (var client = new HttpClient())
+		{if (config.IsActive)
 			{
-				var response = await client.GetAsync("https://api.spacexdata.com/v5/launches/latest");
-				response.EnsureSuccessStatusCode();
-				var jsonString = await response.Content.ReadAsStringAsync();
-				return JsonConvert.DeserializeObject<LaunchViewModel>(jsonString);
-            }
+				string jsonString = "https://api.spacexdata.com/v5/launches/latest"; //default 
+
+				using (var client = new HttpClient())
+				{
+					var response = await client.GetAsync(config.Endpoint);
+					if (response != null)
+					{
+						response.EnsureSuccessStatusCode();
+						jsonString = await response.Content.ReadAsStringAsync();
+					}
+					return JsonConvert.DeserializeObject<LaunchViewModel>(jsonString);
+				}
+			}
+			else return null;
 		} 
 	}
 }

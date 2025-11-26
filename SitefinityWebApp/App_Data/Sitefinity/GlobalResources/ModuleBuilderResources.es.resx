@@ -1,0 +1,1975 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CustomSorting">
+    <value>Ordenación personalizada ...</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ModuleWithThisNameExistsError">
+    <value>Ya existe un módulo con este nombre.</value>
+    <comment>Message shown when user tries to create a module with name already exists.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Limitations">
+    <value>Limitaciones</value>
+    <comment>Title of the tab for limitation settings of the dynamic field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FileSelector">
+    <value>Selector de archivos</value>
+    <comment>The name of the file selector.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ExportModule">
+    <value>Exportar módulo</value>
+    <comment>phrase: Export module</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContentTypeNameTitle">
+    <value>Nombre</value>
+    <comment>Title of the module name field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TaxonomyWithIdDoesntExists">
+    <value>¡No existe taxonomía con Id "{0}"!</value>
+    <comment>phrase: Taxonomy with Id "{0}" doesn't exists!</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CheckedByDefault">
+    <value>Marcado de forma predefinida</value>
+    <comment>phrase: Checked by default</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ItemNameDescription">
+    <value>El nombre utilizado en el código. No se permiten espacios</value>
+    <comment>phrase: The name used in code. Spaces are not allowed</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TextboxSelector">
+    <value>Selector de caja de texto (selecciona a medida que escribe)</value>
+    <comment>The name of the textbox selector widget.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ByMainShortTextFieldAsc">
+    <value>Por {0} (A-Z)</value>
+    <comment>phrase: By {0} (A-Z)</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Back">
+    <value>Volver</value>
+    <comment>word: Back</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContentTypeDashboardDescription">
+    <value>Página que le permite trabajar con un solo módulo.</value>
+    <comment>Description of the page that hosts module dashboard.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Draft">
+    <value>Borradores</value>
+    <comment>The text of draft dynamic module sidebar button.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="YesNoFieldTitleDescription">
+    <value>Ésta es la etiqueta de la casilla de verificación</value>
+    <comment>Description of the label textbox for YesNo field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BackTo">
+    <value>Volver a</value>
+    <comment>word: Back to</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FieldTitleDescription">
+    <value>Esta es la etiqueta del widget de la interfaz para ingresar datos en el campo</value>
+    <comment>Description of the field title textbox</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FileTitleDescription">
+    <value>Ésta es la etiqueta del interfaz del widget para seleccionar archivos</value>
+    <comment>Description of the label textbox for file field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="HowToTranslateDetailsLine1">
+    <value>Si quiere tener etiquetas en varios idiomas, necesita recursos web.</value>
+    <comment>phrase: If you want to have labels on several languages, you need web resoruces.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RadioButtons">
+    <value>Botones de radio</value>
+    <comment>Using radio buttons for selection</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Characters">
+    <value>caracteres</value>
+    <comment>word: Characters</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ImageMediaField">
+    <value>Imágenes</value>
+    <comment>Image media field type radio button</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="YesDeleteIt">
+    <value>Sí, Eliminarlo</value>
+    <comment>phrase: Yes, Delete it</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="GotoManageContentTypeContentDescription">
+    <value>Crear, modificar, eliminar  elementos de contenido</value>
+    <comment>phrase: Create, modify, delete content items in content type dashboard</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ModifyItemAction">
+    <value>Modificar {0}</value>
+    <comment>The title of ModifyItem security action.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Version">
+    <value>Versión &lt;span class="sfNote"&gt;(opcional)&lt;/span&gt;</value>
+    <comment>Label for the version of the exported module.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CreateItem">
+    <value>Crear {0} {1}</value>
+    <comment>Label of the dialog that creates a news item.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Settings">
+    <value>Opciones</value>
+    <comment>word: Settings</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BackToBackendScreensTweaks">
+    <value>Volver a ajustes de las pantallas del backend</value>
+    <comment>Text of the link to go back to backend screens tweaks</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DefineAContentTypeOf">
+    <value>Definir un tipo de contenido de</value>
+    <comment>phrase: Define a content type of</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CreateItemsWhileSelecting">
+    <value>Permite crear elementos de clasificación mientras se selecciona</value>
+    <comment>Allow creating classification items while selecting</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DateTimeInstructionalTextDescription">
+    <value>Aparece debajo del selector de fechas</value>
+    <comment>Description of the input for instructional text of the DateTime field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TypeItemFieldsDescription">
+    <value>Título, Contenido, Etiquetas, Categorías...</value>
+    <comment>The description of the functionality for editing fields of the dynamic module type.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DBScale">
+    <value>Escala DB</value>
+    <comment>Title of the field property for database scale</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CreateChildItem">
+    <value>Crear un elemento hijo</value>
+    <comment>phrase: Create a child item</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TwoFieldsWithTheSameNameErrorMessage">
+    <value>No se puede agregar dos campos con el mismo nombre. Por favor, introduzca diferentes nombres de campo.</value>
+    <comment>Message shown when user tries to create field with a name that already exists.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="YesUpdateWidgetTemplates">
+    <value>Sí, Guardar y Actualizar plantillas de widgets</value>
+    <comment>phrase: Yes, Save and update widget templates</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NotInstalled">
+    <value>No instalado</value>
+    <comment>Status of the not installed module.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Max">
+    <value>Máx</value>
+    <comment>word: Max</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ItemNameTitle">
+    <value>Nombre del desarrollador de este tipo de contenido</value>
+    <comment>phrase: Developer name of the type</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Number">
+    <value>Número</value>
+    <comment>word: Number</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LongText">
+    <value>Texto largo</value>
+    <comment>phrase: Long text</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BackendScreensTweaksPageTitle">
+    <value>Ajustar las pantallas de backend utilizadas para...</value>
+    <comment>Title of the backend screens tweaks page</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ChoiceValueDetailsLine1">
+    <value>El valor es el nombre único de cada opción. No es visible por los usuarios en la interfaz.</value>
+    <comment>phrase: Value is the unique name of each choice. It is not visible by users in the interface.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NoUndoWidgetTemplateUpdate">
+    <value>Si ha realizado cambios en las plantillas de widgest, serán descartadas. No existe la herramienta Deshacer.</value>
+    <comment>phrase: If you have made changes in the widget templates, they will be discarded. There is no undo.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ChoiceValueDetailsLine4">
+    <value>Los caracteres permitidos son letras, números y "_"</value>
+    <comment>phrase: Allowed characters are letters, numbers and "_"</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Length">
+    <value>Número de caracteres permitidos</value>
+    <comment>Number of characters allowed</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UseFieldForOneToManyRelation">
+    <value>Utilizar este campo para almacenar información relacionada con este tipo de contenido, por ejemplo, relacionar varios elementos de otro tipo usando la API.</value>
+    <comment>phrase: Use this field to store information related to this content type, e.g. to relate multiple items from another type using API.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Type">
+    <value>Tipo</value>
+    <comment>Header title of the column that displays the type of the item field.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NoDynamicModuleItemsHaveBeenCreatedYet">
+    <value>Ningún {0} se ha creado todavía</value>
+    <comment>The message shown when no items have yet been created.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AddContentType">
+    <value>añadir un tipo de contenido</value>
+    <comment>phrase: Add a content type.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Choice2">
+    <value>Opción 2</value>
+    <comment>word: Choice 2</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ItemTitleTitle">
+    <value>Tipo de contenido (singular)</value>
+    <comment>phrase: Content type of this module (singular)</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ModuleSectionDescription">
+    <value>Contiene todos los widgets de contenido dinámico para el módulo {0}.</value>
+    <comment>phrase: Holds all dynamic content widgets for the {0} module.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Example">
+    <value>Ejemplo</value>
+    <comment>word: Example</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Advanced">
+    <value>Avanzado</value>
+    <comment>Title of the collapse advanced section of type editor link.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MakeRequired">
+    <value>Éste es un campo obligatorio</value>
+    <comment>phrase: Make required</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContentTypePageGroupTitle">
+    <value>Módulo</value>
+    <comment>The title of the module page group</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DropDownList">
+    <value>Lista desplegable</value>
+    <comment>Using dropdownlist for selection</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AllAboutThisModule">
+    <value>Todo sobre este módulo</value>
+    <comment>phrase: All about this module</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MainShortFieldSectionTitle">
+    <value>¿Qué campo es el identificador de contenido?</value>
+    <comment>phrase: Which field is the identifier of the content?</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Title">
+    <value>Título</value>
+    <comment>word: Title</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MoreOptions">
+    <value>Más opciones</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AffectedItemsLine1">
+    <value>Widgets en la caja de herramientas de Página</value>
+    <comment>phrase: Widgets in Page toolbox</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AllItems">
+    <value>Todos los elementos</value>
+    <comment>phrase: All items</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ErrorUpdatingModuleNameAndDescription">
+    <value>¡Se ha producido un error al actualizar el nombre y la descripción del módulo!</value>
+    <comment>phrase: Error updating module name and description</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CustomWidgetTitle">
+    <value>Tipo o ruta virtual del widget personalizado</value>
+    <comment>Title of the field for entering the type of custom widget.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContentTypeDashboardTitle">
+    <value>Tablero del módulo</value>
+    <comment>Title of the page that hosts module dashboard.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EditDetailViewTitle">
+    <value>Editar</value>
+    <comment>Used to format the title of the edit detail view</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DeactivateAction">
+    <value>Desactivar</value>
+    <comment>Actions menu: Deactivate</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ErrorUpdatingIdsDontMatch">
+    <value>La identificación de este módulo no es la misma que la identificación del módulo inicial.</value>
+    <comment>phrase: The Id of this module is not the same as the Id of the initial module</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContentTypeLastModifiedOwnerHeader">
+    <value>Modificado por última vez / propietario</value>
+    <comment>Title of the grid column header which displays module last modified and owner info</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DeleteItemDescription">
+    <value>Permite o deniega la eliminación de un campo dinámico.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Continue">
+    <value>Continuar</value>
+    <comment>word: Continue</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Actions">
+    <value>Acciones</value>
+    <comment>word: Actions</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TypeHaveSameChildType">
+    <value>Los elementos pueden tener elementos hijos del mismo tipo</value>
+    <comment>phrase: Items can have child items from the same type</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ColumnName">
+    <value>Nombre de columna</value>
+    <comment>Title of the field property that determines the name of the column for the field.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NoneWholeNumber">
+    <value>Ninguno (número entero)</value>
+    <comment>phrase: None (whole number)</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DBType">
+    <value>Tipo DB</value>
+    <comment>Title of the DBType field property</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UpdateAModuleInformationTextRecommendation">
+    <value>Antes de importar, recomendamos que haga una copia de respaldo de su módulo y base de datos inicial.</value>
+    <comment>Information section recommendation text in update module</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BackToContentTypes">
+    <value>Volver a Módulos</value>
+    <comment>phrase: Back to modules</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ErrorDeactivatingModule">
+    <value>¡Se ha producido un error al activar el módulo!</value>
+    <comment>phrase: Error deactivating module</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SingleFileSelectionText">
+    <value>solo se puede cargar o seleccionar 01 archivo</value>
+    <comment>Only 1 file can be uploaded or selected</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="HowToTranslateLinkText">
+    <value>¿Cómo traducir?</value>
+    <comment>phrase: How to translate?</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ItemTitleExample">
+    <value>&lt;strong&gt;Ejemplo:&lt;/strong&gt; &lt;em&gt;Comunicado de prensa&lt;/em&gt;</value>
+    <comment>phrase: Example: Press release</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Added">
+    <value>Agregado</value>
+    <comment>word: Added</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ErrorUpdatingModuleFields">
+    <value>¡Se ha producido un error al actualizar los campos del módulo!</value>
+    <comment>phrase: Error updating module fields message</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ThisModuleContains">
+    <value>Este módulo contiene ...</value>
+    <comment>phrase: This module contains...</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Author">
+    <value>Autor &lt;span class="sfNote"&gt;(opcional)&lt;/span&gt;</value>
+    <comment>Label for the author of the exported module.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MultipleImageSelectionText">
+    <value>Se pueden cargar o seleccionar varias imágenes</value>
+    <comment>Multiple images can be uploaded or selected</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FieldNameTitle">
+    <value>Nombre</value>
+    <comment>Title of the field name field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContentType">
+    <value>Tipo de contenido</value>
+    <comment>phrase: Content type of this module</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CodeReferenceForContentTypeDescription">
+    <value>Fragmentos de código para este módulo, listos para usar.</value>
+    <comment>Description of the 'Code reference' link</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ActivateThisContentType">
+    <value>&lt;span class="sfLinkBtnIn"&gt;Activar este módulo&lt;/span&gt;</value>
+    <comment>Text of the button that activates a module.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RegularExpressionErrorMessage">
+    <value>no es válido. Sólo están permitidos estos caracteres: letras, números, espacios y  _. No comience con un número.</value>
+    <comment>phrase:  is invalid. Only these characters are allowed: letters, numbers, spaces and _ . Don't start with a number.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ChangeItemPermissionsDescription">
+    <value>Permite o deniega el cambio de los permisos de un campo dinámico.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TypePermissions">
+    <value>Permisos de campo dinámico</value>
+    <comment>Permission title.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CodeReferenceDescription">
+    <value>La página que muestra la referencia de código para los módulos.</value>
+    <comment>The description of the code reference page</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ExportFunctionalityNote">
+    <value>&lt;strong&gt;Nota&lt;/strong&gt;: No se exportará ningún dato (p.ej. noticias, artículos, entradas de blog), solo estructura y configuración.</value>
+    <comment>The note about how export module functionality works</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SingleVideoSelectionText">
+    <value>solo se puede cargar o seleccionar 01 video</value>
+    <comment>Only 1 video can be uploaded or selected</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DeleteModuleNotification">
+    <value>Eliminar la Notificación del Módulo.</value>
+    <comment>phrase: Delete Module Notification.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BackendScreensTweaksDescription">
+    <value>Agregar o quitar columnas a la tabla (grilla), donde se enumeran los elementos; reordenar o reagrupar los campos en el formulario para crear/editar los elementos de contenido.</value>
+    <comment>Description of the purpose of the backend screens tweaks</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FileMediaField">
+    <value>Documentos u otros archivos</value>
+    <comment>File media field type radio button</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ChooseItems">
+    <value>Elegir {0}</value>
+    <comment>phrase: Choose {0}</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ChangesWillAffect">
+    <value>Cambiar los padres de este tipo de contenido afectará:</value>
+    <comment>phrase: Changing parent of this content type will affect:</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DBLength">
+    <value>Longitud DB</value>
+    <comment>Title of the DBLength field property</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OneParticularItemOnly">
+    <value>Solo uno en particular {0}...</value>
+    <comment>phrase: One particular {0} item only...</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CreateItemAction">
+    <value>Crear {0}</value>
+    <comment>The title of CreateItem security action.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="GridEditorTitle">
+    <value>Editar la tabla (grilla) utilizada para listar {0}</value>
+    <comment>Title of the grid editor on the backend screens tweaks</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContentTypeDescriptionTitle">
+    <value>Descripción</value>
+    <comment>Title of the module description field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TypeEditorDefaultTitlePrefix">
+    <value>Tipo de contenido:</value>
+    <comment>phrase: Content type:</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ActivateAction">
+    <value>Activar</value>
+    <comment>Actions menu: Activate</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="GotoManageContentTypeContentLinkText">
+    <value>Ir a gestionar &lt;em&gt;{0}&lt;/em&gt; contenido</value>
+    <comment>phrase: Used to format the go to manage content page link text</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Active">
+    <value>Activo</value>
+    <comment>Status of the active module.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DuplicateUrlException">
+    <value>Un elemento con la dirección '{0}' ya existe.</value>
+    <comment>Error message.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ChoiceLabelDetails">
+    <value>La etiqueta es el texto que los usuarios ven en la interfaz</value>
+    <comment>Description of the label textbox for multiple choice option</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LastModified">
+    <value>Última modificación</value>
+    <comment>Text of the last modified date header</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ByTitleAsc">
+    <value>por Título (A-Z)</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ChoiceValueDetailsLine2">
+    <value>Si bien las etiquetas se pueden cambiar o traducir, los valores deben permanecer igual.</value>
+    <comment>phrase: While labels can be changed or translated, values should stay the same.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ErrorUpdatingNamesDontMatch">
+    <value>El nombre de este módulo no es el mismo que el nombre del módulo inicial</value>
+    <comment>phrase: The name of this module is not the same as the name of the initial module</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DataType">
+    <value>Tipo de datos</value>
+    <comment>phrase: Data type</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UpdateAModule">
+    <value>Importar nueva estructura y configuración a</value>
+    <comment>Title for the update module dialog</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ModuleWithIdAlreadyExists">
+    <value>¡Ya existe el módulo con el Id "{0}" y un nombre diferente!</value>
+    <comment>phrase: Module with Id "{0}" and different name already exists!</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="InstructionalText">
+    <value>Texto de Instrucción</value>
+    <comment>phrase: Instructional text</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContentTypeDashboardUrlName">
+    <value>TIPO</value>
+    <comment>Url name of the page that hosts module dashboard.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NoDatabasePermissions">
+    <value>Usted no tiene autorización para cambiar la base de datos</value>
+    <comment>phrase: You do not have permissions to change the database</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Upload">
+    <value>Cargar</value>
+    <comment>Text of the upload button for importing modules.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ExportModuleDescription">
+    <value>Descripción &lt;span class="sfNote"&gt;(opcional)&lt;/span&gt;</value>
+    <comment>Label for the description of the exported module.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FormEditorTitle">
+    <value>Reordenar campos para crear/editar {0}</value>
+    <comment>Title of the form editor on the backend screens tweaks</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DeleteModule">
+    <value>Eliminar este módulo y todos sus datos</value>
+    <comment>phrase: Delete this module and all its data</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SingleClassificationItems">
+    <value>solo se puede seleccionar un elemento de clasificación</value>
+    <comment>Only one classification item can be selected</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ImportModuleFileTitle">
+    <value>Subir un archivo .zip que contiene un módulo de exportación</value>
+    <comment>Title of the field for selecting the file of dynamic module</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DateFieldTitleDescription">
+    <value>Ésta es la etiqueta del interfaz del widget para seleccionar fechas</value>
+    <comment>Description of the label textbox for datetime field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TreelikeSelector">
+    <value>Selector de árbol (seleccionar de un árbol)</value>
+    <comment>The name of the tree-like selector widget.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ModuleWithNameAlreadyExists">
+    <value>¡Ya existe el módulo con el nombre  "{0}" y un ID diferente!</value>
+    <comment>phrase: Module with name "{0}" and different Id already exists!</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Loading">
+    <value>Cargando...</value>
+    <comment>phrase: Loading</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BackToParent">
+    <value>Volver a {0}</value>
+    <comment>Text of the link that will show the view that lists all parent items of content type.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ConfirmTypeDeleteMessage">
+    <value>¿Está seguro de que desea eliminar tipo de contenido {0} y todos sus datos?</value>
+    <comment>phrase: Are you sure you want to delete {0} content type and all its data?</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ThisIsAHiddenField">
+    <value>Se trata de un campo oculto</value>
+    <comment>Label for the checkbox that determines if the field is hidden.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ExportModuleNameExample">
+    <value>Todos publicados {0}</value>
+    <comment>The example of what could be the name of the exported module.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Range">
+    <value>Rango</value>
+    <comment>Title of the range label for dynamic field.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AddAField">
+    <value>Agregar un campo de ...</value>
+    <comment>phrase: Add a field...</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="YouCanDeleteModuleMessage">
+    <value>Así que puede eliminar el módulo, pero sus datos se mantendrán en la base de datos.</value>
+    <comment>phrase: So, you can delete the module but its data will stay in the database.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MapOnly">
+    <value>Asignar solamente (señalar manualmente o auto-localizar en apps móviles)</value>
+    <comment>label: Map only (point manually or auto-locate on mobile apps)</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Address">
+    <value>Dirección</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Cancel">
+    <value>cancelar</value>
+    <comment>word: Cancel</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ImportStructureAction">
+    <value>Importar nueva estructura y configuración</value>
+    <comment>Actions menu: Import new structure and settings</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SelectItems">
+    <value>Seleccione {0}</value>
+    <comment>phrase: Select {0}</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ConfirmWidgetTemplateUpdate">
+    <value>¿Está seguro de que desea que se regeneren las plantillas para widget públicos?</value>
+    <comment>phrase: Are you sure you want templates for public widgets to be regenerated?</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DeleteFieldLabel">
+    <value>Eliminar este campo y todos sus datos</value>
+    <comment>phrase: Delete this field and all its data</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MyItemsFormatted">
+    <value>Mi {0}</value>
+    <comment>phrase: My {0}</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BackendScreensTweaksTitle">
+    <value>Ajustes de las pantallas del backend</value>
+    <comment>Title of the page for tweaking the backend screens</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AffectedItemsLine3">
+    <value>Navegación de backend</value>
+    <comment>phrase: Backend navigation</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NoNeedOfContentGuid">
+    <value>No es necesario añadir un GUID como identificador de estos contenidos, ya que esto se hace automáticamente.</value>
+    <comment>phrase: You don't need to add a GUID as identifier of this content, as this is done automatically.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MediaTypes">
+    <value>¿Qué tipo de medios administrará este campo?</value>
+    <comment>word: MediaTypes</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ViewItemAction">
+    <value>Ver {0}</value>
+    <comment>The title of ViewItem security action.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ManageAlso">
+    <value>Gestionar también</value>
+    <comment>phrase: Manage also</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DragColumns">
+    <value>Arrastrar columnas</value>
+    <comment>phrase: Drag columns</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="IncludeInIndexes">
+    <value>Incluir en los índices</value>
+    <comment>Title of the field property which determines weather field will be indexed.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="InterfaceWidgetForEnteringData">
+    <value>Interfaz del widget para introducir datos</value>
+    <comment>phrase: Interface widget for entering data</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Scheduled">
+    <value>Programado</value>
+    <comment>The text of scheduled dynamic module sidebar button.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NewModifiedFirst">
+    <value>Situar encima lo último modificado</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ErrorDeletingModuleData">
+    <value>No puede eliminar las tablas de datos de la base de datos.</value>
+    <comment>phrase: You cannot delete data tables from database.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NameAndDescriptionOfModule">
+    <value>Nombre y descripción</value>
+    <comment>Displays the title when trying to change module name and description</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AttachLibraryText">
+    <value>Se puede conectar una biblioteca</value>
+    <comment>A library can be attached</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Permissions">
+    <value>Permisos</value>
+    <comment>word: Permissions</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ImageTitleDescription">
+    <value>Ésta es la etiqueta del interfaz del widget para seleccionar las imágenes</value>
+    <comment>Description of the label textbox for image field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ConfirmDynamicTypeUpdate">
+    <value>¿Está seguro de que desea guardar los cambios a este tipo de contenido?</value>
+    <comment>phrase: Are you sure you want to save the changes to this content type?</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ModifyItemDescription">
+    <value>Permite o deniega cambios al campo dinámico existente.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ByMainShortTextFieldDesc">
+    <value>Por {0} (Z-A)</value>
+    <comment>phrase: By {0} (Z-A)</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LengthValidationMessage">
+    <value>Avanzado: Expresión regular para su validación.</value>
+    <comment>Regular expression for validation.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ConfirmFieldDeleteMessage">
+    <value>¿Está seguro de que desea eliminar el campo {0} y todos sus datos?</value>
+    <comment>phrase: Are you sure you want to delete {0} field and all its data?</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContentTypesDashboardUrlName">
+    <value>panel principal</value>
+    <comment>Url name of the dashboard page of the custom modules</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CreatingEditingItems">
+    <value>Creación / Edición {0}</value>
+    <comment>phrase: Creating / Editing {0}</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="YesSaveChanges">
+    <value>Sí, guardar cambios</value>
+    <comment>phrase: Yes, save changes</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ErrorProcessingRequest">
+    <value>Se ha producido un error al procesar la petición. ¡El módulo dinámico con el id solicitado no existe!</value>
+    <comment>phrase: There has been an error processing the request. Dynamic module with the requested id doesn't exist!</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PredefinedDateValue">
+    <value>Fecha predefinida</value>
+    <comment>phrase: Predefined date value</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ConfirmModuleUpdateMessage">
+    <value>&lt;p class='sfMBottom10'&gt;Ya existe un módulo con el mismo nombre. Se actualizará su estructura y configuración.&lt;/p&gt;&lt;p class='sfMBottom10'&gt;Los campos del módulo inicial que no existen en la nueva estructura de módulo se borrarán y sus datos se perderán.&lt;/p&gt;&lt;p class='sfMBottom10'&gt;Antes de hacer la importación, recomendamos que haga una copia de respaldo de su módulo y base de datos inicial&lt;/p&gt;&lt;p&gt;¿Qué quiere hacer?&lt;/p&gt;</value>
+    <comment>Update module confirmation message.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Choice3">
+    <value>Opción 3</value>
+    <comment>word: Choice 3</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DateAndTime">
+    <value>Fecha y hora</value>
+    <comment>phrase: Date and time</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AllowEmptyValues">
+    <value>Permitir valores vacíos</value>
+    <comment>Title of the field property which determines weather null values can be inserted.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Published">
+    <value>Publicado</value>
+    <comment>The text of published dynamic module sidebar button.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MultipleVideoSelectionText">
+    <value>Se pueden cargar o seleccionar varios videos</value>
+    <comment>Multiple videos can be uploaded or selected</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AddAFieldTitle">
+    <value>Agregar un campo</value>
+    <comment>Title of the type field editor when adding a new field.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Classification">
+    <value>Clasificación</value>
+    <comment>word: Classification</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ExportModuleSelectSource">
+    <value>Para exportar el contenido del módulo, debe seleccionar una fuente</value>
+    <comment>Phrase: To export module content you should select a source</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DuplicateDetailsViewTitle">
+    <value>Duplicar</value>
+    <comment>Word: Duplicate</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Min">
+    <value>Mín</value>
+    <comment>word: Min</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NoSpacesAllowed">
+    <value>No se permiten espacios. Este es el nombre que se utiliza en el código y la base de datos</value>
+    <comment>phrase: No spaces allowed. This is the name used in code and database</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AllowPermissionsPerField">
+    <value>Permitir permisos por campo</value>
+    <comment>label: Allow permissions per field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Value">
+    <value>Valor</value>
+    <comment>word: Value</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FormMap">
+    <value>Forma de dirección y mapa</value>
+    <comment>label: Address form and map</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SelectionOfItems">
+    <value>Selección de {0}:</value>
+    <comment>phrase: Selection of {0}:</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CanSelectMultiple">
+    <value>Se pueden seleccionar varias opciones</value>
+    <comment>Multiple choices can be selected</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AdvancedDBType">
+    <value>Avanzados (tipo de DB)</value>
+    <comment>Title of the expand advanced section of type editor link.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ErrorCheckingModuleNameRequest">
+    <value>Se ha producido un error al comprobar el nombre del módulo. Por favor, intente de nuevo.</value>
+    <comment>Dysplayed when there is an error sending request to server to check module name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SortItems">
+    <value>Ordenar {0}</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UpdateAModuleInformationText">
+    <value>Los campos del módulo inicial que no existen en la nueva estructura de módulo se borrarán y sus datos se perderán.</value>
+    <comment>Information section text in update module</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ErrorCreatingNewModule">
+    <value>Se produjo un error al intentar crear un nuevo módulo.</value>
+    <comment>phrase: An error has occurred while trying to create a new module.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NumberOfVideosText">
+    <value>¿Cuántos videos se pueden cargar o seleccionar?</value>
+    <comment>How many videos can be uploaded or selected?</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MultipleFileSelectionText">
+    <value>Se pueden cargar o seleccionar varios archivos</value>
+    <comment>Multiple files can be uploaded or selected</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Unknown">
+    <value>Desconocido</value>
+    <comment>word: Unknown</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FilterSectionTitle">
+    <value>Filtrar {0}</value>
+    <comment>phrase: Filter {0}</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NumberOfFilesText">
+    <value>¿Cuántos archivos se pueden cargar o seleccionar?</value>
+    <comment>How many files can be uploaded or selected?</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EmptyUrlException">
+    <value>No se permite un Url vacío.</value>
+    <comment>Empty Url is not allowed.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MainShortFieldSectionDescription">
+    <value>Aparecerá en listas de elementos de contenido y se utilizará para la generación de URL</value>
+    <comment>phrase: It will be displayed in lists of content items and will be used for URL-generating</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TypePermissionsDescription">
+    <value>Representa los permisos para campos dinámicos.</value>
+    <comment>Permission description.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ClassificationTitleDescription">
+    <value>Esta es la etiqueta del widget de interfaz para seleccionar los elementos de clasificación</value>
+    <comment>Description of the label textbox for classification field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AllowPermissionsPerFieldAdditionalNote">
+    <value>Aparte de los permisos como "Quién puede crear/borrar/modificar elementos", usted tendrá permisos como "Quién puede cambiar el título del elemento" o "Quién puede cambiar las etiquetas de elementos".</value>
+    <comment>label: Allow permissions per field note</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DateField">
+    <value>Selector de fecha</value>
+    <comment>phrase: Date field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NotValidUrlException">
+    <value>La URL: '{0}' no es válida.</value>
+    <comment>The URL: '{0}' is not valid.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="YesNo">
+    <value>Sí/No</value>
+    <comment>phrase: Yes / No</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DeleteAction">
+    <value>Eliminar</value>
+    <comment>Actions menu: Delete</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UseFieldForOneToOneRelation">
+    <value>Utilizar este campo para almacenar información relacionada con este tipo de contenido, por ejemplo, relacionar un elemento de otro tipo usando la API.</value>
+    <comment>phrase: Use this field to store information related to this content type, e.g. to an item from another type using API.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FieldsOfThisItem">
+    <value>Campos de este artículo</value>
+    <comment>phrase: Fields of this item</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MediaInstructionalTextDescription">
+    <value>Aparecens debajo de la etiqueta</value>
+    <comment>Description of the input for instructional text of the media fields</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UrlNameInvalidSymbols">
+    <value>La dirección URL contiene símbolos no válidos.</value>
+    <comment>Error message displayed to the user if the url contains invalid symbols.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DateCreated">
+    <value>Creado el</value>
+    <comment>Text of the created on date header</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Inactive">
+    <value>Inactivo</value>
+    <comment>Status of the installed, but inactive module.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="InstallThisContentType">
+    <value>&lt;span class="sfLinkBtnIn"&gt;Instalar este módulo&lt;/span&gt;</value>
+    <comment>Text of the button that installs a module.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NumberRange">
+    <value>Rango de los valores introducidos</value>
+    <comment>Range of a number field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Finish">
+    <value>Finalizar</value>
+    <comment>word: Finish</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RegularExpressionDevNameErrorMessage">
+    <value>no es válido. Sólo están permitidos estos caracteres: letras, números, espacios y  _. No comience con un número</value>
+    <comment>phrase:  is invalid. Only these characters are allowed: letters, numbers and _. Don't start with a number.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CreateAContentType">
+    <value>Crear un módulo</value>
+    <comment>phrase: Create a module</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DragBetweenFields">
+    <value>Arrastrar entre los campos...</value>
+    <comment>phrase: Drag between fields...</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ModuleBuilderDashboardUrlName">
+    <value>panel principal</value>
+    <comment>Url name of the module builder dashboard page.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ImportAModule">
+    <value>Importar un módulo</value>
+    <comment>Text of the import module button.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NewCreatedFirst">
+    <value>Situar encima lo último creado</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Textarea">
+    <value>Área de texto</value>
+    <comment>Name of the textarea widget for long text</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ExportFunctionalityDescription">
+    <value>Un archivo .zip que contiene toda la estructura y la configuración de este módulo se descargará a su computadora.</value>
+    <comment>Description of the export module functionality.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ErrorActivatingModule">
+    <value>¡Se ha producido un error al activar el módulo!</value>
+    <comment>phrase: Error activating module</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="StartDate">
+    <value>Fecha de inicio</value>
+    <comment>phrase: Start date</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Label">
+    <value>Etiqueta</value>
+    <comment>Title of the label for the dynamic field.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CloseUpdateErrorButton">
+    <value>Aceptar</value>
+    <comment>phrase: OK</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ModuleTitle">
+    <value>Constructor de Módulos</value>
+    <comment>Title of the module builder module.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ExistingColumns">
+    <value>Columnas existentes</value>
+    <comment>phrase: Existing columns</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UrlNameCannotBeEmpty">
+    <value>El nombre de la URL no puede estar vacío.</value>
+    <comment>Error message displayed to the user if the url name is empty string.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BackendScreensTweaks">
+    <value>Ajustes de las pantallas del backend</value>
+    <comment>phrase: Backend screens tweaks</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ModuleDescription">
+    <value>Módulo que permite la creación de nuevos módulos dinámicos a través de la interfaz de usuario.</value>
+    <comment>Description of the module builder module.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Choice">
+    <value>Opciones</value>
+    <comment>word: Choices</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="GoToTheCloud">
+    <value>Ir a la nube</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ActivationInProgressPleaseWait">
+    <value>Activación en curso... Por favor, espere.</value>
+    <comment>The text displayed during the activation of the dynamic module.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Guid">
+    <value>GUID (identificador único global)</value>
+    <comment>word: GUID</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ErrorDeletingContentType">
+    <value>¡Se ha producido un error al eliminar el tipo de contenido!</value>
+    <comment>phrase: Error deleting content type</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="VideoTitleDescription">
+    <value>Ésta es la etiqueta del interfaz del widget para seleccionar videos</value>
+    <comment>Description of the label textbox for video field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ListingItems">
+    <value>Listando {0}</value>
+    <comment>phrase: Listing {0}</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NoItemsHaveBeenCreatedYet">
+    <value>Ningún {0} se ha creado todavía</value>
+    <comment>phrase: No {0} have been created yet</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContentTypePageGroupDescription">
+    <value>El grupo de páginas que contiene todas las páginas para trabajar con un solo módulo</value>
+    <comment>The description of the module page group</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Currency">
+    <value>Moneda</value>
+    <comment>word: Currency</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CloudServicesTitle">
+    <value>Cloud Services</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ByTitleDesc">
+    <value>por Título (Z-A)</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CannotBeEmpty">
+    <value>no puede estar vacío</value>
+    <comment>phrase: {0} cannot be empty</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BackendScreensTweaksPageDescription">
+    <value>La página para ajustar las pantallas backend de los módulos dinámicos</value>
+    <comment>Description of the page for tweaking the backend screens</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MaxFileSize">
+    <value>Se puede cargar el tamaño máximo de archivos</value>
+    <comment>Max file size can be uploaded</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="KeepWidgetsWarningLine1">
+    <value>Todos los ajustes de las Imágenes se moverán en el widget de los Álbumes.</value>
+    <comment>phrase: All settings for Images will be moved in the Albums widget.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LabelQuestion">
+    <value>Etiqueta (Pregunta)</value>
+    <comment>Title of the label for the dynamic field when type of field is multiple choice.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ErrorUpdatingTitle">
+    <value>No puede actualizar este módulo</value>
+    <comment>Update module error title.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UpdateWTemplatesFinish">
+    <value>Actualizar plantillas de widgets y terminar</value>
+    <comment>phrase: Update widget templates and finish</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CreateItemDescription">
+    <value>Permite o deniega la creación de nuevos {0}.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContactAdminMessage">
+    <value>Si desea eliminar las tablas de datos de la base de datos, contacte al administrador.</value>
+    <comment>phrase: If you want to delete data tables from the database, contact your administrator.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AllItemsFormatted">
+    <value>Todas las {0}</value>
+    <comment>phrase: All {0}</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Preview">
+    <value>Vista previa</value>
+    <comment>word: Preview</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="GridTweakingButtonText">
+    <value>Agregar / quitar columnas en la tabla (grilla)</value>
+    <comment>Text of the button for tweaking the backend grid screen</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PagesHaveChildPages">
+    <value>Las &lt;em&gt;Páginas&lt;/em&gt; Like pueden tener  &lt;em&gt;Páginas hijas&lt;/em&gt; y las &lt;em&gt;Categorías&lt;/em&gt; pueden tener &lt;em&gt;Categorías hijas&lt;/em&gt;</value>
+    <comment>phrase: Like Pages can have child-Pages and Categories can have child-Categories</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContentTypePageGroupUrlName">
+    <value>módulo</value>
+    <comment>The url name of the module page group</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SingleImageSelectionText">
+    <value>solo se puede cargar o seleccionar 01 imagen</value>
+    <comment>Only 1 image can be uploaded or selected</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Export">
+    <value>Exportar</value>
+    <comment>Text of the export button.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CloudServicesDescription">
+    <value>Este módulo sincroniza su contenido con</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UrlNameTooLong">
+    <value>El nombre de la URL es demasiado largo. El máximo permitido es 255 caracteres.</value>
+    <comment>Error message displayed to the user if the url name property is too long.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MainShortFieldSectionExamplesTitle">
+    <value>Ejemplo</value>
+    <comment>phrase: Title for main short field section</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContentTypes">
+    <value>Módulos</value>
+    <comment>phrase: Modules</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ExportModuleContent">
+    <value>Exportar el contenido del módulo</value>
+    <comment>Title of the export module content dialog.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CodeReferenceTitle">
+    <value>Referencia de código</value>
+    <comment>The title of the code reference page</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RichTextEditor">
+    <value>Editor de texto enriquecido</value>
+    <comment>The name of the rich text editor widget.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BackToModule">
+    <value>Volver al Módulo</value>
+    <comment>Text of the back to module link.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContentTypeNameHeader">
+    <value>Nombre</value>
+    <comment>Title of the grid column header which displays module name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="VideoSelector">
+    <value>video selector</value>
+    <comment>The name of the video selector.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NoModulesHaveBeenCreatedYet">
+    <value>Aún no se han creado módulos</value>
+    <comment>Message shown to users when no dynamic modules exist</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CustomWidgetExample">
+    <value>Ejemplo de tipo: CustomControls.MyCustomControlVirtual path&lt;br /&gt; &lt;strong&gt;Ejemplo:&lt;/strong&gt; ~/UserControls/MyUserControl.ascx</value>
+    <comment>Example for the possible values of custom widget type.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DeleteModuleWithoutData">
+    <value>En cualquier caso, elimine el módulo, pero no sus datos</value>
+    <comment>phrase: Anyway, Delete the module but not its data</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PreviewDetailViewTitle">
+    <value>Vista previa</value>
+    <comment>Used to format the title of the preview detail view</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AllContentTypes">
+    <value>Todos los módulos</value>
+    <comment>Text of the link to go back to all modules</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ViewItemDescription">
+    <value>Permite o deniega la vista de un campo dinámico.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AllowedExtensions">
+    <value>Extensión de archivo permitida (separados por comas)</value>
+    <comment>File extension allowed (comma separated)</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AddressField">
+    <value>Dirección y mapa</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EndDate">
+    <value>Fecha de finalización</value>
+    <comment>phrase: End date</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MainShortFieldSectionExamples">
+    <value>El identificador debe ser un breve campo de texto obligatorio</value>
+    <comment>phrase: The identificator must be a Required Short text field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MultipleClassificationItems">
+    <value>Se pueden seleccionar varios elementos de clasificación</value>
+    <comment>Multiple classification items can be selected</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MoreOptionsDescription">
+    <value>(Configuración de localización)</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ConfirmModuleUpdateButtonText">
+    <value>Actualizar</value>
+    <comment>phrase: Update</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ConfirmModuleDeleteMessage">
+    <value>¿Está seguro de que desea eliminar el módulo y todos sus datos?</value>
+    <comment>phrase: Are you sure you want to delete the {0} module and all its data?</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SaveChanges">
+    <value>Guardar cambios</value>
+    <comment>phrase: Save changes</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShortText">
+    <value>Texto breve</value>
+    <comment>phrase: Short text</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AffectedItemsLine2">
+    <value>Las URL de los elementos de contenido existentes</value>
+    <comment>phrase: URLs of existing content items</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ImageSelector">
+    <value>Selector de imágenes</value>
+    <comment>The name of the image selector.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Sort">
+    <value>Ordenar</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DisplayTitle">
+    <value>Mostrar título y opciones para ampliar / colapsar</value>
+    <comment>phrase: Display title and options for expanding / collapsing</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SectionTitle">
+    <value>Título de sección</value>
+    <comment>phrase: Section title</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UpdateWidgetTemplatesWarning">
+    <value>Si ha realizado modificaciones en las plantillas de widgets, estas se perderán</value>
+    <comment>phrase: If you have made modifications in widget templates they will be lost</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="InstallationInProgressPleaseWait">
+    <value>Instalación en curso... Por favor, espere.</value>
+    <comment>The text displayed during the installation of the dynamic module.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="YesNoInstructionalTextDescription">
+    <value>Aparece debajo de la casilla de verificación</value>
+    <comment>Description of the input for instructional text of the YesNo field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="WhichItemsToDisplay">
+    <value>¿Cuál {0} se debe mostrar?</value>
+    <comment>phrase: Which {0} to display?</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Choices">
+    <value>Opciones</value>
+    <comment>word: Choices</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="InstructionalTextDescription">
+    <value>Aparecens debajo del widget. Adecuado para dar ejemplos</value>
+    <comment>Description of the input for instructional text of the field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Choice1">
+    <value>Opción 1</value>
+    <comment>word: Choice 1</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContentTypeDescriptionHeader">
+    <value>Descripción</value>
+    <comment>Title of the grid column header which displays module description</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DisableLinkParser">
+    <value>Desactivar Analizador de Enlaces</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NumberUnit">
+    <value>Unidad</value>
+    <comment>word: Unit</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ErrorDeletingModule">
+    <value>Se produjo un error al tratar de eliminar el módulo</value>
+    <comment>phrase: An error has occurred while trying to delete the module.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NoShortTextFieldsDefined">
+    <value>No se han definido breves campos obligatorios de texto. Con el fin de crear un tipo personalizado es necesario definir como mínimo un breve campo obligatorio de texto.</value>
+    <comment>Message shown when user tries to create a custom type without any short text fields.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NavigatetoContentTypes">
+    <value>Tipos de Contenido</value>
+    <comment>phrase: Navigates to content types</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContentTypeNameExample">
+    <value>&lt;strong&gt;Ejemplo:&lt;/strong&gt; &lt;em&gt;Comunicados de prensa&lt;/em&gt;</value>
+    <comment>Example of the module name field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ModuleAlreadyExists">
+    <value>¡El módulo ya existe!</value>
+    <comment>phrase: Module already exists!</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AddressFormOnly">
+    <value>Solo forma de dirección</value>
+    <comment>label: Address form only</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CodeReferenceForContentType">
+    <value>Referencia de código para {0}</value>
+    <comment>Title of the link that leads to code reference for the custom modules.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Media">
+    <value>Medios (imágenes, videos, archivos)</value>
+    <comment>word: Media fields</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FieldAccessibleThroughAPI">
+    <value>Este campo no tiene interfaz de usuario y solo es accesible a través del API.</value>
+    <comment>phrase: This field has no user interface and is accessible only throuh API.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EnterValidModuleName">
+    <value>Por favor, introduzca un nombre de módulo válido. No debe estar vacío y puede contener espacios y cualquier carácter comprendido entre: az, AZ, _, 0-9</value>
+    <comment>Message shown if user tries to continue to step 2 without entering valid module name.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContentTypesModuleTitle">
+    <value>Desarrollador de módulos</value>
+    <comment>Title of the module for creating custom modules</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Done">
+    <value>Hecho</value>
+    <comment>word: Done</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UpdateWidgetTemplatesCheckboxLabel">
+    <value>También actualizar plantillas de widgets</value>
+    <comment>phrase: Update widget templates as well</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PermissionsDescription">
+    <value>¿Quién puede crear, editar, eliminar los elementos de este módulo?</value>
+    <comment>Permissions description showed in the content type dashboard</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ItemNameExample">
+    <value>&lt;strong&gt;Ejemplo&lt;/strong&gt;: Comunicado de prensa</value>
+    <comment>phrase: Example : PressRelease</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ExportStructureAction">
+    <value>Exportar estructura</value>
+    <comment>Actions menu: Export structure</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Save">
+    <value>Guardar</value>
+    <comment>word: Save</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="HowToTranslateDetailsLine2">
+    <value>En lugar de escribir el contenido real, pegue este</value>
+    <comment>phrase: Instead of typing the actual content, paste this</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NumberOfImagesText">
+    <value>¿Cuántas imágenes se pueden cargar o seleccionar?</value>
+    <comment>How many images can be uploaded or selected?</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="InstructionalChoice">
+    <value>Elección de instrucción (su valor no es enviado)</value>
+    <comment>phrase: Instructional choice (its value is not submitted)</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MultipleChoice">
+    <value>Opciones</value>
+    <comment>phrase: Choices</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AddressModeTitle">
+    <value>Para ingresar dirección, utilice...</value>
+    <comment>For entering address, use...</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ChoiceValueDetailsLine3">
+    <value>Mantenga los valores tan cortos como sea posible.</value>
+    <comment>phrase: Keep values as short as possible.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TimeRange">
+    <value>Rango de tiempo permitido</value>
+    <comment>phrase: Time range allowed</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ParentContentTypeExample">
+    <value>Los blogs son tipo de contenido padre de entradas de Blog; los foros son tipo de contenido padre de Hilos.</value>
+    <comment>phrase: Blogs are parent content type of Blog posts; Forums are parent content type of Threads. </comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PublicationDate">
+    <value>Fecha de publicación</value>
+    <comment>Text of the publication date header</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="InsertDetailViewTitle">
+    <value>Crear</value>
+    <comment>Used to format the title of the insert detail view</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CollapsedByDefault">
+    <value>Contraído de forma predeterminada</value>
+    <comment>phrase: Collapsed by default</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DeleteItemAction">
+    <value>Eliminar {0}</value>
+    <comment>The title of DeleteItem security action.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TypeItemFields">
+    <value>{0} campos de los elementos</value>
+    <comment>phrase: {0} item fields</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ExportContentAction">
+    <value>Exportar contenido</value>
+    <comment>Actions menu: Export content</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NoFieldsDefined">
+    <value>No se han definido campos. Con el fin de crear un tipo personalizado es necesario definir como mínimo un breve campo obligatorio de texto.</value>
+    <comment>Message shown when user tries to create a custom type without any custom fields.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UrlNameExample">
+    <value>Ejemplo de URL: mi-primera-entrada-de-blog</value>
+    <comment>Example url</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DecimalPlaces">
+    <value>número de decimales</value>
+    <comment>phrase: Decimal places</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UpdateAModuleInformationTitle">
+    <value>Importar nueva estructura y configuración</value>
+    <comment>Title for the information section in update module</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DataWillNotRecover">
+    <value>Desaparecerá para siempre, y no podrá recuperarlo.</value>
+    <comment>phrase: It will be gone forever, and cannot be recovered.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Or">
+    <value>o</value>
+    <comment>word: Or</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FormsTweakingButtonText">
+    <value>Reordenar campos</value>
+    <comment>Text of the button for tweaking the backend form screens</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="HowToTranslateResourceFormulaDescription">
+    <value>donde &amp;lt;ClassKey&amp;gt; es el nombre de la clase de recurso y &amp;lt;ResourceKey&amp;gt; identifica cuál par clave/valor se debe recuperar del archivo de recursos.</value>
+    <comment>Resource formula description</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PredefinedValue">
+    <value>Valor predefinido</value>
+    <comment>phrase: Predefined value</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="KeepWidgetsCheckboxLabel">
+    <value>Mantener widget #= ContentTypeItemTitle # en la caja de herramientas</value>
+    <comment>phrase: Keep #= ContentTypeItemTitle # widget in the toolbox</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContentTypeActionsHeader">
+    <value>Acciones</value>
+    <comment>Title of the grid column header which displays module actions</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RequiredCheckBox">
+    <value>Se requiere que al menos una casilla de verificación esté marcada</value>
+    <comment>It's required at least one checkbox to be checked</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContentTypesModuleDescription">
+    <value>El módulo que permite a los usuarios crear módulos personalizados</value>
+    <comment>Description of the module for creating custom modules</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Delete">
+    <value>Eliminar</value>
+    <comment>word: Delete</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DBPrecision">
+    <value>Precisión Base de datos</value>
+    <comment>Title of the field property for database precision</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NameAndDescriptionOfModuleDescription">
+    <value>Editar el nombre y la descripción de este módulo</value>
+    <comment>Description of the edit module name and description link</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NoItemsHaveBeenSelectedYet">
+    <value>Aún no se han seleccionado {0}</value>
+    <comment>phrase: No {0} have been selected yet</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="GuidArray">
+    <value>Array de GUID</value>
+    <comment>phrase: Array of GUIDs</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Name">
+    <value>Nombre</value>
+    <comment>Header title of the column that displays the name of the item field.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AdvancedDBTypeExample">
+    <value>(Tipo de DB, Tipo de DB SQL)</value>
+    <comment>Example advanced section of type editor link.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ChangeItemPermissions">
+    <value>Cambiar {0} permisos</value>
+    <comment>The title of Change Permissions security action.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DeactivationInProgressPleaseWait">
+    <value>Desactivación en curso... Por favor, espere.</value>
+    <comment>The text displayed during the deactivation of the dynamic module.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ManageDynamicModuleSideBarTitle">
+    <value>Administrar</value>
+    <comment>Used to format the title of the sidebar of specific dynamic module</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ParentContentType">
+    <value>Tipo de contenido padre</value>
+    <comment>phrase: Parent content type</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DeleteContentTypeLabel">
+    <value>Eliminar este tipo de contenido y todos sus datos</value>
+    <comment>phrase: Delete this content type and all its data</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SecondConfirmDeleteModuleMessage">
+    <value>¿Está realmente seguro de que desea eliminar el módulo y todos sus datos?</value>
+    <comment>phrase: Are you really sure you want to delete the {0} module and all its data?</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="HowToSyncContentWithCloudServices">
+    <value>Cómo sincronizar contenido con Cloud Services</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="KeepWidgetsWarningLine2">
+    <value>También puede mantener el widget de Imágenes antiguas en la caja de herramientas.</value>
+    <comment>phrase: You can keep the old Images widget in the toolbox, as well.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CreateAModule">
+    <value>Crear un módulo</value>
+    <comment>phrase: Create a module</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ddlMakeRequired">
+    <value>Hacer obligatorio</value>
+    <comment>Make required</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PagesWhereTheseItemsArePublished">
+    <value>Páginas donde se publican elementos como este</value>
+    <comment>Pages where items like this are published</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CustomWidget">
+    <value>Personalizado ...</value>
+    <comment>Title of the option for selecting custom widget.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+</root>

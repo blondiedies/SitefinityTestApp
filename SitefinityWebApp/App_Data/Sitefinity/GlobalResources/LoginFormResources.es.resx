@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ForgotPasswordRequestSentUseLink">
+    <value>Por favor, use el enlace proporcionado en su correo electrónico para restablecer la contraseña de su cuenta.</value>
+    <comment>phrase : Please use the link provided in your email to reset the password for your account.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResetPasswordRepeatNewPassword">
+    <value>Repetir nueva contraseña</value>
+    <comment>phrase : Repeat new password</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LandingPageAfterLoginInfo">
+    <value>Después de iniciar sesión, los usuarios serán redireccionados a...</value>
+    <comment>phrase : After login users will be redirected to...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="RememberMe">
+    <value>Recordarme</value>
+    <comment>phrase: RememberMe</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResetPasswordGeneralErrorMessage">
+    <value>Datos no válidos.</value>
+    <comment>phrase : Invalid data.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="RegistrationPageInfo">
+    <value>Esta es la página donde usted soltó el widget de Registro</value>
+    <comment>phrase : This is the page where you have dropped Registration widget</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResetPasswordRequiredErrorMessage">
+    <value>Este campo es necesario.</value>
+    <comment>phrase : This field is required.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResetPasswordBackToLogin">
+    <value>Regresar a Inicio de sesión</value>
+    <comment>phrase : Back to login</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AlreadyLoggedIn">
+    <value>Ya está conectado</value>
+    <comment>phrase : You are already logged in.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResetPasswordNewPassword">
+    <value>Nueva contraseña</value>
+    <comment>phrase : New password</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LoginFormTemplate">
+    <value>Formulario de inicio de sesión</value>
+    <comment>phrase : Login form template</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForgotPasswordEmail">
+    <value>Correo electrónico</value>
+    <comment>phrase : Email</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LoginFormLogInButton">
+    <value>Iniciar sesión</value>
+    <comment>phrase : Log in</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LoginFormResourcesDescription">
+    <value>Cadenas localizables para el widget de formulario de Inicio de sesión.</value>
+    <comment>Description for the Login form widget resources class.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CannotResetPasswordError">
+    <value>Usted no puede restablecer la contraseña. Para obtener ayuda, póngase en contacto con su administrador.</value>
+    <comment>phrase : You are unable to reset password. Contact your administrator for assistance</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LoginFormResourcesTitle">
+    <value>Recursos del widget de formulario de Inicio de sesión</value>
+    <comment>Title for the Login form widget resources class.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NotRegisteredYet">
+    <value>¿Aún no está registrado?</value>
+    <comment>phrase : Not registered yet?</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ShowRememberMe">
+    <value>Mostrar casilla de verificación "Recordarme"</value>
+    <comment>phrase: Show "Remember me" checkbox</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResetPasswordSaveButton">
+    <value>Guardar</value>
+    <comment>phrase : Save</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UseAccountIn">
+    <value>O usar cuenta en...</value>
+    <comment>phrase : Or use account in...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForgotPasswordSendButton">
+    <value>Enviar</value>
+    <comment>phrase : Send</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Templates">
+    <value>Plantillas</value>
+    <comment>phrase: Templates</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PaswordResetNotEnabled">
+    <value>Ir a Administración/Configuración/Avanzada/Seguridad para permitir el restablecimiento de Contraseña o recuperación de Contraseña desde la configuración de proveedor de membresía.</value>
+    <comment>phrase : You must first enable password reset or password retrieval from the membership provider settings.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LoginFormRegisterNow">
+    <value>Regístrese ahora</value>
+    <comment>phrase : Register now</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CssClasses">
+    <value>Clases CSS</value>
+    <comment>phrase : CSS classes</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExternalProvidersLoginOptions">
+    <value>Permitir a los usuarios iniciar sesión con...</value>
+    <comment>phrase : Allow users to log in with...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForgotPasswordHeader">
+    <value>¿Olvidaste tu contraseña?</value>
+    <comment>phrase : Forgot your password?</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Username">
+    <value>Nombre de usuario</value>
+    <comment>phrase: Email / Username</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResetPasswordTemplate">
+    <value>Restablecer contraseña</value>
+    <comment>phrase : Reset password template</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Email">
+    <value>Correo electrónico</value>
+    <comment>phrase: Email</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EnterLoginEmailAddress">
+    <value>Introduzca su dirección de correo electrónico de inicio de sesión y recibirá un correo electrónico con un enlace para restablecer su contraseña.</value>
+    <comment>phrase : Enter your login email address and you will receive email with a link to reset your password.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForgotPasswordTemplate">
+    <value>¿Olvidó su contraseña?</value>
+    <comment>phrase : Forgot your password template</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="IncorrectCredentialsMessage">
+    <value>Credenciales incorrectas</value>
+    <comment>phrase: Incorrect credentials</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AllowResetPassword">
+    <value>Permitir a los usuarios restablecer contraseña</value>
+    <comment>phrase : Allow users to reset password</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Password">
+    <value>Contraseña</value>
+    <comment>phrase: Password</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResetPasswordSuccess">
+    <value>Su contraseña ha cambiado con éxito.</value>
+    <comment>phrase : Your password is successfully changed.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForgotPasswordBackToLogin">
+    <value>Regresar a Inicio de sesión</value>
+    <comment>phrase : Back to login</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResetPasswordNonMatchingPasswordsMessage">
+    <value>Ambas contraseñas deben coincidir.</value>
+    <comment>phrase : Both passwords must match.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="RememberMeInfo">
+    <value>Mostrar casilla de verificación "Recordarme"</value>
+    <comment>phrase : Show "Remember me" checkbox</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResetPasswordAnswer">
+    <value>Respuesta</value>
+    <comment>phrase : Answer</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForgottenPasword">
+    <value>Contraseña olvidada</value>
+    <comment>phrase : Forgotten Password</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Or">
+    <value>o</value>
+    <comment>phrase : Or</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResetPasswordNotEnabled">
+    <value>No está activado el restablecimiento de contraseña</value>
+    <comment>phrase : Password reset is not enabled</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResetPasswordIncorrectAnswerErrorMessage">
+    <value>Respuesta incorrecta. Por favor, intente nuevamente.</value>
+    <comment>phrase : Incorrect answer. Please try again.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="RegistrationPage">
+    <value>Página de registro</value>
+    <comment>phrase : Registration page</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LoginFormLogInLegendHeader">
+    <value>Iniciar sesión</value>
+    <comment>phrase : Log in</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResetPasswordHeader">
+    <value>Restablecer contraseña</value>
+    <comment>phrase : Reset password</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForgotPasswordRequestSent">
+    <value>Usted envió una solicitud para restablecer su contraseña a</value>
+    <comment>phrase : You sent a request to reset your password to</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MoreOptions">
+    <value>Más opciones</value>
+    <comment>phrase : More options</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+</root>

@@ -1,0 +1,720 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="VideosByDate">
+    <value>Mostrar videos modificada el...</value>
+    <comment>phrase: Videos By Date</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ShowRelatedVideos">
+    <value>Mostrar videos relacionados</value>
+    <comment>phrase: Show related videos</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="VideosByTag">
+    <value>Videos por etiquetas</value>
+    <comment>phrase: Videos By tag</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PublishedVideos">
+    <value>Publicado</value>
+    <comment>The 'Published videos' link in the grid sidebar.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UploadThisVideo">
+    <value>Cargar este vídeo</value>
+    <comment>Upload this video</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CommentsForVideos">
+    <value>Comentarios para videos</value>
+    <comment>phrase: Comments for videos</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateThisLibrary">
+    <value>Crear y regresar</value>
+    <comment>The 'Create and go back' button in the library form.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ByHierarchy">
+    <value>por Jerarquía</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeleteThisItem">
+    <value>Eliminar</value>
+    <comment>Used in the actions menu in the Backend Detail View form</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Permissions">
+    <value>Permisos</value>
+    <comment>The link that navigates to permissions dialog in the sidebar.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="VideoWithArticle">
+    <value>un vídeo</value>
+    <comment>The 'Video' string in singular with article in front of it.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PublishVideos">
+    <value>Publicar videos</value>
+    <comment>Publish videos.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="VideosByCategory">
+    <value>Videos por categoría</value>
+    <comment>phrase: Videos by category</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AsManuallyOrdered">
+    <value>Según el orden manual</value>
+    <comment>Label text</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UnpublishVideos">
+    <value>Dejar de publicar videos</value>
+    <comment>Unpublish videos.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ShowLessLibraries">
+    <value>{0} menos bibliotecas</value>
+    <comment>phrase: {0} less libraries</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FilterVideosInThisLibrary">
+    <value>Filtrar videos en esta biblioteca</value>
+    <comment>The 'Filter videos in this library' label in the grid sidebar.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ManageAlso">
+    <value>Gestionar también</value>
+    <comment>phrase: Manage also</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UnableToPlayVideo">
+    <value>Este formato de video no es compatible</value>
+    <comment>Phrase: This video format is not supported</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UploadVideosLabel">
+    <value>Cargar vídeos</value>
+    <comment>phrase: Upload videos</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="VideoNotAvailableInEditMode">
+    <value>Si se agrega un vídeo aquí no se mostrarán antes de que la página sea publicada. Para ver el video haga clic en Vista previa en la parte superior de esta página.</value>
+    <comment>phrase: If you add a video here it will not be displayed before the page is published.To see the video click Preview on the top of this page.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ShowMoreLibraries">
+    <value>{0} más bibliotecas</value>
+    <comment>phrase: {0} more libraries</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LibraryNameCannotBeEmpty">
+    <value>nombre de la biblioteca no puede estar vacío</value>
+    <comment>The message shown when the library name is empty.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MaxVideoSize">
+    <value>Tamaño máximo de vídeo</value>
+    <comment>The title of the field for setting max video size.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Sort">
+    <value>Ordenar</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UploadCustom">
+    <value>Subir imagen personalizada</value>
+    <comment>Phrase: Upload custom image</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LibraryName">
+    <value>Nombre de la biblioteca</value>
+    <comment>The 'Library name' label.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ManageVideoLibraries">
+    <value>Administrar las Bibliotecas de Video</value>
+    <comment>The text of 'Manage Video Libraries' link.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Cancel">
+    <value>cancelar</value>
+    <comment>The text of the cancel button.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UnableToGenerateThumbnail">
+    <value>Capturar imágenes miniatura no es compatible con la versión actual de su navegador. Pruebe la versión más reciente u otro navegador.</value>
+    <comment>Message shown when trying to capture a thumbnail of a video which cannot be played inside the HTML5 player of the current browser.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TitleDurationStatus">
+    <value>Título/Duración/Estado</value>
+    <comment>The header of 'Title / Duration / Status' column in the grid.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="VideoLibraryPluralTypeName">
+    <value>Bibliotecas de Videos</value>
+    <comment>Videos plural type name</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Publish">
+    <value>Publicar</value>
+    <comment>Label of the publish action.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="WhichVideosToDisplay">
+    <value>Qué vídeos desea mostrar?</value>
+    <comment>phrase: Which videos to display?</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ByStatus">
+    <value>por estado</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MergeLibraries">
+    <value>Combinar las bibliotecas</value>
+    <comment>The label for merging libraries.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CustomizeEmbeddedVideo">
+    <value>Personalizar video incrustado</value>
+    <comment>phrase: Customize embedded video</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PlayOriginal">
+    <value>Reproducir</value>
+    <comment>The text of the 'Play' link in the action menu.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateAndAddAnotherLibrary">
+    <value>Crear y agregar otra biblioteca</value>
+    <comment>The 'Create and add another library' button in the library form.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResizeNotReady">
+    <value>&lt;span class='sfNotReadYet'&gt;Opción de cambio tamaño &lt;em class='sfNote'&gt;(en proceso de implementación) &lt;/em&gt;&lt;/span&gt;</value>
+    <comment>Phrase: Resizing option (in process of implementation).</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="BackToVideos">
+    <value>Volver a Vídeos</value>
+    <comment>Text of the link that will show the view that lists all videos.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="VideoWasNotSelectedOrHasBeenDeleted">
+    <value>No se ha seleccionado un video o ha sido borrado. Por favor, seleccione otro.</value>
+    <comment>phrase: A video was not selected or has been deleted. Please select another one.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MoreActions">
+    <value>Más acciones</value>
+    <comment>The text of the more action menu in grid toolbar.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NoItemsExist">
+    <value>Todavía no se han subido videos</value>
+    <comment>The text of the message that user is presented with on the decision screen.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UploadVideo">
+    <value>Subir video' en el Backend</value>
+    <comment>The title of the dialog for upload a video.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AlphabeticallyAsc">
+    <value>Alfabeticamente (A-Z)</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Description">
+    <value>Descripción</value>
+    <comment>The 'Description' label.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MediaPlayerControlPropertyEditorTitle">
+    <value>Seleccione un video</value>
+    <comment>The title of the designer of the MediaPlayerControl</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EmbedThisVideo">
+    <value>Embeber este vídeo</value>
+    <comment>The text of the main action in the grid.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ShowOptionForEmbedding">
+    <value>Mostrar opción para embeber</value>
+    <comment>phrase: Show option for embedding</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="VideoPluralItemName">
+    <value>Videos</value>
+    <comment>word: videos</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ReviewHistory">
+    <value>Revisar historial</value>
+    <comment>Used in the actions menu in the Backend Detail View form</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Thumbnail">
+    <value>Miniatura</value>
+    <comment>phrase: Thumbnail</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="BackToAllLibraries">
+    <value>Volver a todas las bibliotecas</value>
+    <comment>The label for link to return to all libraries.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Delete">
+    <value>Eliminar</value>
+    <comment>The text of the delete button.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LastUploaded">
+    <value>Subido por última vez</value>
+    <comment>'Last uploaded on' label in the libraries grid.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CloseDateFilter">
+    <value>Cerrar fechas</value>
+    <comment>The link for closing the date filter widget in the sidebar.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="WhatDoYouWantToDoNow">
+    <value>¿Qué quieres hacer ahora?</value>
+    <comment>The title of the decision screen when there are no videos.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MyVideos">
+    <value>Mis videos</value>
+    <comment>The 'My videos' link in the grid sidebar.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Videos">
+    <value>Videos</value>
+    <comment>The 'videos' string in plural.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateLibrary">
+    <value>Crear una biblioteca</value>
+    <comment>The label for creating a library.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ThumbnailNotReady">
+    <value>&lt;span class='sfNotReadYet'&gt;Opciones de Miniatura &lt;em class='sfNote'&gt;(en proceso de implementación) &lt;/em&gt;&lt;/span&gt;</value>
+    <comment>Phrase: Thumbnail settings (in process of implementation).</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateAndGoToUploadVideos">
+    <value>Crear e ir a cargar videos</value>
+    <comment>phrase: Create and go to upload videos.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EditVideo">
+    <value>Editar vídeo</value>
+    <comment>The title of the dialog for editing videos.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NewModifiedFirst">
+    <value>Situar encima lo último modificado</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EmbedVideo">
+    <value>Incrustar</value>
+    <comment>The text of the embed video command.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="VideoLibrarySingleTypeName">
+    <value>Biblioteca de Videos</value>
+    <comment>Videos single type name</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UploadVideos">
+    <value>Cargar vídeos</value>
+    <comment>The label for uploading videos.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ManageVideos">
+    <value>Gestionar vídeos</value>
+    <comment>word: Manage Videos</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="VideosDataFields">
+    <value>Campos de datos de los Videos</value>
+    <comment>phrase: Videos data fields</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SortByTemplate">
+    <value>por plantilla</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateItem">
+    <value>Crear un vídeo</value>
+    <comment>The title of the create video dialog</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SetPermissions">
+    <value>Establecer permisos</value>
+    <comment>The text of the 'Set permissions' link in the action menu.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AllPublishedVideos">
+    <value>Todos los vídeos publicados</value>
+    <comment>phrase: All published videos</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ChooseLibrary">
+    <value>Elija biblioteca</value>
+    <comment>phrase: Choose Library</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PagesWhereVideosArePublished">
+    <value>Páginas donde se publican los Videos</value>
+    <comment>Pages where Videos are published</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ScheduledVideos">
+    <value>Programado</value>
+    <comment>The link for displaying scheduled videos in the sidebar.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UploadVideosButton">
+    <value>Cargar vídeos</value>
+    <comment>The text of the upload button in grid toolbar.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NewUploadedFirst">
+    <value>Los últimos subidos en la parte superior</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MaxLibrarySize">
+    <value>Tamaño máximo de biblioteca</value>
+    <comment>The title of the field for setting max library size.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AllowFullSize">
+    <value>Permitir a tamaño completo</value>
+    <comment>phrase: Allow full size</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ViewItem">
+    <value>Ver un vídeo</value>
+    <comment>The title of the view item dialog</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FromAlreadyUploadedVideos">
+    <value>Desde elemento ya cargado</value>
+    <comment>phrase: From already uploaded</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="VersionPreviewVideo">
+    <value>Historial de revisiones</value>
+    <comment>Phrase: Revision history</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LibraryCategoriesTags">
+    <value>Biblioteca/categorías/etiquetas</value>
+    <comment>The header of 'Library / Categories / Tags' column in the grid.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DraftVideos">
+    <value>Borrador</value>
+    <comment>The 'Draft videos' link in the permissions dialog.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SortVideos">
+    <value>Ordenar vídeos</value>
+    <comment>phrase: Sort videos</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ChangeLibraryInSpan">
+    <value>&lt;span class='sfLinkBtnIn'&gt;Cambiar de biblioteca&lt;/span&gt;</value>
+    <comment>phrase: Change library</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AlphabeticallyDesc">
+    <value>Alfabeticamente (Z-A)</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LibraryNameExample">
+    <value>&lt;strong&gt;Ejemplo: &lt;/strong&gt;&lt;em&gt;vacaciones de verano &lt;/em&gt;</value>
+    <comment>The example how to fill library name field.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CaptureAnother">
+    <value>Capturar fotograma de video</value>
+    <comment>Phrase: Capture video frame</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ByDate">
+    <value>Por fecha…</value>
+    <comment>phrase: by Date...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Language">
+    <value>Idioma</value>
+    <comment>word: Language</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UploadNewVideos">
+    <value>Cargar nuevos vídeos ...</value>
+    <comment>phrase: Upload new videos...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SettingsForVideos">
+    <value>Opciones de los vídeos</value>
+    <comment>The 'Settings for videos' label in the grid sidebar.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LearnMoreWithVideoTutorials">
+    <value>Más información con tutoriales en video</value>
+    <comment>Label for the external links used in videos</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PermissionsForVideos">
+    <value>Permisos de vídeos</value>
+    <comment>The 'Permissions for Videos' label in the permissions dialog.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Libraries">
+    <value>BIBLIOTECAS</value>
+    <comment>word: Libraries</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Library">
+    <value>biblioteca</value>
+    <comment>word: Library</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FromSelectedLibrary">
+    <value>De la biblioteca seleccionada ...</value>
+    <comment>phrase: From selected library...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Unpublish">
+    <value>QuitarDePublicacion</value>
+    <comment>word: Unpublish</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ReorderVideos">
+    <value>Reordenar vídeos</value>
+    <comment>phrase: Reorder videos</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="BulkEditVideoProperties">
+    <value>Editar en masa las propiedades del video</value>
+    <comment>Bulk edit video properties</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CustomSorting">
+    <value>Ordenación personalizada ...</value>
+    <comment>Phrase: Custom sorting...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CaptureThumbnail">
+    <value>Capturar miniatura</value>
+    <comment>Phrase: Capture thumbnail</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SelectVideo">
+    <value>Seleccione un video</value>
+    <comment> phrase: Select a video</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EditItem">
+    <value>Editar un video</value>
+    <comment>The title of the edit item dialog</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SaveChanges">
+    <value>Guardar cambios</value>
+    <comment>The label for saving changes.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="BackToItems">
+    <value>Volver a Vídeos</value>
+    <comment>The back to all items button</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="VideosByLibrary">
+    <value>Videos según biblioteca</value>
+    <comment>The 'Videos by library' label in the grid sidebar.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="VideoSingularItemName">
+    <value>Video</value>
+    <comment>word: video</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SelectVideoGalleryType">
+    <value>Seleccione tipo de galería de vídeo</value>
+    <comment>phrase: Select video gallery type</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AllVideos">
+    <value>Todos los vídeos</value>
+    <comment>The 'All videos' link in the grid sidebar.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EditVideoGallerySettings">
+    <value>Editar opciones de Galería de vídeos</value>
+    <comment>phrase: Edit Video gallery settings</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CommonLibrary">
+    <value>biblioteca común</value>
+    <comment>phrase: Common library</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="WhichVideoToUpload">
+    <value>¿Qué vídeo cargar?</value>
+    <comment>phrase: Which video to upload?</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FilterVideosBy">
+    <value>Filtrar videos&lt;br/&gt;&lt;span class='sfNote'&gt;por estado, etiqueta, categoría, etc.&lt;/span&gt;</value>
+    <comment>The 'Filter videos' label in the sidebar.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FilterVideos">
+    <value>Filtrar videos</value>
+    <comment>The 'Filter videos' label in the grid sidebar.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="VideosResourcesDescription">
+    <value>Contiene recursos localizables para la interfaz de usuario de Vídeos.</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="WhereToStoreTheUploadedVideo">
+    <value>Donde desea guardar el vídeo subido?</value>
+    <comment>phrase: Where to store the uploaded video?</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+</root>

@@ -1,0 +1,1451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ManuallyMapVideoTitle">
+    <value>Asignar manualmente tipos de datos y bibliotecas</value>
+    <comment>Phrase: Manually map data types and libraries</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointMappingSitefinityDataProviderPropNameDescription">
+    <value>Obtiene o fija el proveedor de Sitefinity utilizado para la asignación</value>
+    <comment>Phrase: Gets or sets the Sitefinity provider used for the mapping</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="TriggerSyncOnSiteLabel">
+    <value>Sincronizar ahora</value>
+    <comment>Phrase: Synchronize now</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointSitePasswordPropNameDescription">
+    <value>Obtiene o fija la contraseña que se utiliza para que el sitio SharePoint autentique el usuario</value>
+    <comment>Phrase: Gets or sets the password that is used to authenticate the user by the SharePoint site</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ModuleTitle">
+    <value>Conector para SharePoint</value>
+    <comment>Title of the Connector for Sharepoint module.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SitesFormCreateTitle">
+    <value>Añadir un Sitio SharePoint</value>
+    <comment>Phrase: Add SharePoint site</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="NotSyncedLabel">
+    <value>Este sitio nunca ha sido sincronizado</value>
+    <comment>Phrase: This site has never been synchronized</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ReadOnlyFieldsViolationMessage">
+    <value>son de solo lectura en SharePoint y no se pueden editar cuando la dirección de sincronización es Servidor a SharePoint. Cambie la dirección o anule la asignación de los campos en el cuadro de diálogo de asignaciones de campo.</value>
+    <comment>Phrase: are read only in SharePoint and cannot be edited when the sync direction is Server to SharePoint. Please change the direction or unmap the fields from the field mappings dialog.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="NoSharepointListsConnectedLabel">
+    <value>Aún no se han conectado listas</value>
+    <comment>Phrase: No lists have been connected yet</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SyncedLabel">
+    <value>sincronizado</value>
+    <comment>Word: Synced</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AccessSharepointConnectorTitle">
+    <value>Acceder Connector para módulo SharePoint</value>
+    <comment>Phrase: Access SharePoint connector module</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="TaskRetryIntervalPropNameDescription">
+    <value>Obtiene o fija el intervalo para volver a intentar la tarea de sincronización en segundos</value>
+    <comment>Phrase: Gets or sets the synchronization task retry interval in seconds</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SkipDraftItemsPropNameCaption">
+    <value>Saltar artículos de borrador</value>
+    <comment>Phrase: Skip draft items</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ButtonSelectLabel">
+    <value>Seleccionar ...</value>
+    <comment>Phrase: Select...</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AccessSharepointConnectorDescription">
+    <value>Acción de seguridad que permite acceso a las páginas backend del Conector para el módulo SharePoint</value>
+    <comment>Phrase: Security action that allows access to the backend pages of the SharePoint connector module</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManuallyCreationInstructionLabelPart1">
+    <value>Si quiere sincronizar elementos en ambas direcciones, seleccione 'Two way sync'. En todos los otros casos, seleccione sync from SharePoint to Sitefinity o viceversa.</value>
+    <comment>Phrase: If you want to sync items in both directions select Two way sync. In all other cases select either to sync from SharePoint to Sitefinity or vice versa.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="LibrarySelectorHeader">
+    <value>Seleccionar tipo de Contenido</value>
+    <comment>Phrase: Select Content type</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ContinueSynchronizationLabel">
+    <value>Continuar sincronización</value>
+    <comment>Phrase: Continue synchronization</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointSiteAddressPropNameCaption">
+    <value>Dirección</value>
+    <comment>Word: Address</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointMappingSharepointFieldPropNameCaption">
+    <value>Campo SharePoint</value>
+    <comment>Phrase: SharePoint field</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointMappingSitefinityFieldTypePropNameCaption">
+    <value>Tipo de campo Sitefinity</value>
+    <comment>Phrase: Sitefinity field type</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ListsBySiteLabel">
+    <value>Listas según uso</value>
+    <comment>Phrase: Lists by site</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DocumentLibraryLabel">
+    <value>Biblioteca de documentos</value>
+    <comment>Phrase: Document library</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ConnectListLabel">
+    <value>Conectar una Lista</value>
+    <comment>Phrase: Connect a List</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ScheduleOneHour">
+    <value>Cada 1 hora</value>
+    <comment>Phrase: Every 1 hour</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointMappingSharepointListPropNameCaption">
+    <value>Lista SharePoint</value>
+    <comment>Phrase: SharePoint list</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EnableSyncLabel">
+    <value>Activar</value>
+    <comment>Word: Enable</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DisabledFromSiteLabel">
+    <value>Discapacitado del sitio</value>
+    <comment>Phrase: Disabled from site</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ScheduleTuesday">
+    <value>Martes</value>
+    <comment>Word: Tuesday</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SitesFormSitePasswordCannotBeEmpty">
+    <value>La contraseña no puede estar vacía</value>
+    <comment>Phrase: Password cannot be empty</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SyncSharePointTagsPropNameDescription">
+    <value>Obtiene o establece si se debe sincronizar etiquetas de SharePoint a una clasificación de Sitefinity.</value>
+    <comment>Phrase: Gets or sets whether to synchronize SharePoint tags to a Sitefinity classification.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SynchronizationStatusPropNameCaption">
+    <value>Estatus de sincronización</value>
+    <comment>Phrase: Synchronization status</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ListTemplateTypePropNameCaption">
+    <value>El tipo de la lista Sharepoint</value>
+    <comment>Phrase: The type of the Sharepoint list</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DuplicateKeyExceptionDetailedMessage">
+    <value>Un artículo con título '{0}' no pudo ser sincronizado porque ya existe en la biblioteca Sitefinity con el nombre '{1}'.</value>
+    <comment>Phrase: An item with title '{0}' failed to be synchronized, because it already exists in Sitefinity library with name '{1}'.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="BackToSharepointListsLabel">
+    <value>Regresar a las listas de Conectadas</value>
+    <comment>Phrase: Back to SharePoint lists</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SyncConditionLabel">
+    <value>Cuándo sincronizar</value>
+    <comment>Phrase: When to sync</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ListsFailedPlural">
+    <value>Las listas no se pudieron sincronizar</value>
+    <comment>Phrase: lists failed to be synced</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AutoCreationTypeLabel">
+    <value>Automáticamente</value>
+    <comment>Phrase: Automatically</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="PageSizePropNameDescription">
+    <value>Obtiene o establece el tamaño de la página durante la sincronización.</value>
+    <comment>Phrase: Gets or sets the size of the page during synchronization.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ContinueToConnectSharePointLists">
+    <value>Continuar para conectar listas SharePoint</value>
+    <comment>Phrase: Continue to connect SharePoint lists</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SyncLogLabel">
+    <value>Registro de sincronización</value>
+    <comment>Phrase: Synchronization log</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SkipDraftItemsPropNameDescription">
+    <value>Obtiene o establece si se ignoran los artículos que no están Aprobados/Publicados.</value>
+    <comment>Phrase: Gets or sets whether to ignore the items that are not Approved/Published.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="MasterAdapterPropNameDescription">
+    <value>Obtiene o fija qué adaptador gana en caso de conflictos durante una sincronización de doble vía. Valores permitidos: SharePoint, Sitefinity</value>
+    <comment>Phrase: Gets or sets which adapter wins in case of conflicts during a two-way sync. 
+ Allowed values: SharePoint, Sitefinity</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ScheduleHalfHour">
+    <value>Cada 30 minutos</value>
+    <comment>Phrase: Every 30 minutes</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ScheduleWeekly">
+    <value>Semanalmente en</value>
+    <comment>Phrase: Weekly on...</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="MappingKeyPropNameCaption">
+    <value>Asignación de nombre</value>
+    <comment>Phrase: Mapping name</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="PlaceDeletedItemsPropNameCaption">
+    <value>Colocar elementos eliminados en la Papelera de un sitio SharePoint</value>
+    <comment>Phrase: Place deleted items in the Recycle Bin of a SharePoint site</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ScheduleSummaryPropNameDescription">
+    <value>Obtiene o fija el resumen del programa localizado.</value>
+    <comment>Phrase: Gets or sets the localized schedule summary.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CancelButtonLabel">
+    <value>cancelar</value>
+    <comment>Word: Cancel</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointMappingSitefinityDataPropNameDescription">
+    <value>Obtiene o fija los datos de Sitefinity utilizados para la asignación</value>
+    <comment>Phrase: Gets or sets the Sitefinity data used for the mapping</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="NoSharepointServersConnectedLabel">
+    <value>No se ha conectado un sitio de SharePoint para la sincronización</value>
+    <comment>Phrase: No SharePoint site has been connected for synchronization</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointMappingSharepointFieldPropNameDescription">
+    <value>Obtiene o fija el campo de lista SharePoint utilizado para la asignación</value>
+    <comment>Phrase: Gets or sets the SharePoint list field used for the mapping</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ListSyncFailMessage">
+    <value>La lista no se pudo sincronizar. Vea los detalles de error en los archivos de registro de Sitefinity.</value>
+    <comment>Phrase: The list failed to be synchronized. See the error details in the Sitefinity log files.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointMappingSitefinityContentTypePropNameCaption">
+    <value>Tipo de contenido de Sitefinity</value>
+    <comment>Phrase: Sitefinity content type</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="FailedToSynchronizeLabel">
+    <value>No se pudo sincronizar</value>
+    <comment>Phrase: Failed to be synced</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointMappingSitefinityDataProviderPropNameCaption">
+    <value>Proveedor para los datos de Sitefinity</value>
+    <comment>Phrase: Provider for the Sitefinity data</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SitesFormSitePasswordTitle">
+    <value>Contraseña</value>
+    <comment>Word: Password</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ConnectLibrariesVideoTitle">
+    <value>Conectar y asignar bibliotecas de Documentos</value>
+    <comment>Phrase: Connect and map Document libraries</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CannotSyncHierarchicalTypeMessage">
+    <value>No se puede sincronizar el tipo de contenido con el nombre '{0}' porque no está en el nivel raíz de la jerarquía del módulo.</value>
+    <comment>Phrase: Cannot sync content type with name '{0}' because it is not on the root level of the module's hierarchy.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ContentTypeDeletedModule">
+    <value>Tipo de contenido eliminado</value>
+    <comment>Phrase: Deleted content type</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SyncDeletedItemsPropNameDescription">
+    <value>Obtiene o fija si se deben sincronizar los elementos eliminados</value>
+    <comment>Gets or sets whether to synchronize the deleted items</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DuplicateMappingKeyLabel">
+    <value>Ya existe una sincronización con este nombre.</value>
+    <comment>Phrase: Synchronization with this name already exist</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="FilterListsLabel">
+    <value>Filtrar listas</value>
+    <comment>Phrase: Filter lists</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointFilterPropNameCaption">
+    <value>Filtro de SharePoint</value>
+    <comment>Phrase: SharePoint filter</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SitefinityFilterPropNameDescription">
+    <value>Especifica cuáles artículos de Sitefinity se deben sincronizar</value>
+    <comment>Phrase: Specifies which Sitefinity items should be synced</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SchedulePropNameCaption">
+    <value>Tiempo de programa</value>
+    <comment>Phrase: Schedule time</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteListConfirmationLabel">
+    <value>¿Está seguro de que desea eliminar esta asignación de lista de SharePoint?</value>
+    <comment>Phrase: Are you sure you want to delete this SharePoint list mapping?</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeletedLibraryLabel">
+    <value>Biblioteca de Documentos Eliminada</value>
+    <comment>Phrase: Deleted Document library</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointMappingSharepointFieldIsReadOnlyPropNameCaption">
+    <value>Propiedad IsReadOnly para campo SharePoint</value>
+    <comment>Phrase: Gets or sets the IsReadOnly property for SharePoint field</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SitefinityTaxonomyPropNameDescription">
+    <value>Obtiene o establece el nombre del desarrollador de la clasificación plana (simple) de Sitefinity que se sincronizará con las etiquetas SharePoint.</value>
+    <comment>Phrase: Gets or sets the developer name of the Sitefinity flat (simple) classification that will be synchronized with the SharePoint tags.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointListMappingsPropNameDescription">
+    <value>Obtiene las asignaciones entre las listas SharePoint y las bibliotecas Sitefinity</value>
+    <comment>Phrase: Gets the mappings between the SharePoint lists and Sitefinity libraries</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SitefinityTaxonomyFilterPropNameDescription">
+    <value>Obtiene o establece las clasificaciones que se utilizarán para filtrar los artículos de Sitefinity, separados por puntos y comas.</value>
+    <comment>Phrase: Gets or sets the classifications that will be used to filter the Sitefinity items, separated by semicolons.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SchedulePropNameDescription">
+    <value>Obtiene o fija el tiempo del programa en el formato crontab.</value>
+    <comment>Phrase: Gets or sets the schedule time in crontab format.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ListSiteTitle">
+    <value>Sitio</value>
+    <comment>Word: Site</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="UpdateErrorMessage">
+    <value>El artículo con el nombre '{0}' no se pudo actualizar.</value>
+    <comment>Phrase: Item with name '{0}' failed to be updated.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SelectSitefinityLibraryLabel">
+    <value>Seleccionar un tipo de Contenido de Sitefinity</value>
+    <comment>Phrase: Select a Sitefinity Content type</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ImageLibraryLabel">
+    <value>Biblioteca de imágenes</value>
+    <comment>Phrase: Image library</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="NewContentTypeInExistingModuleLabel">
+    <value>Escritura de nuevo contenido</value>
+    <comment>Phrase: New content type in</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointFilterPropNameDescription">
+    <value>Especifica qué artículos de SharePoint se deben sincronizar</value>
+    <comment>Phrase: Specifies which SharePoint items should be synced</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointMappingSitefinityContentTypePropNameDescription">
+    <value>Valores permitidos: DocumentLibrary, DynamicModule, Calendar.</value>
+    <comment>Phrase: Allowed values: DocumentLibrary, DynamicModule, EventsModule.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="NotExistingContentTypeMessage">
+    <value>El tipo de contenido con el nombre '{0}' no existe en Sitefinity</value>
+    <comment>Phrase: Content type with name '{0}' does not exist in Sitefinity.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointSitesHtmlTitle">
+    <value>Sitios SharePoint</value>
+    <comment>Html title of the SharePoint connector module page.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SelectSharePointListLabel">
+    <value>Seleccionar una lista SharePoint</value>
+    <comment>Phrase: Select a SharePoint list</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointSiteUserNamePropNameCaption">
+    <value>Nombre de usuario</value>
+    <comment>Phrase: User name</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SaveAndCloseLabel">
+    <value>Guardar y cerrar</value>
+    <comment>Phrase: Save and close</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ConnectorResourcesTitlePlural">
+    <value>Conector para SharePoint</value>
+    <comment>The plural title for the Connector for SharePoint module.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SyncSharePointTagsPropNameCaption">
+    <value>Sincronizar etiquetas SharePoint</value>
+    <comment>Phrase: Sync SharePoint tags</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ModulesRadioButtonLabel2">
+    <value>Crear nuevo modulo dinámico para este tipo de Contenido</value>
+    <comment>Phrase: Create new dynamic module for this Content type</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointSiteNamePropNameCaption">
+    <value>Nombre del sitio</value>
+    <comment>Phrase: Site name</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SitefinityDataLabel">
+    <value>Tipo de contenido / Biblioteca</value>
+    <comment>Phrase: Content type / Library </comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointListMappingFormTitle">
+    <value>Conectar Listas</value>
+    <comment>Phrase: Setup Synchronization</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ItemAlreadyExistGenericMessage">
+    <value>Un archivo es duplicado en una carpeta dentro de la biblioteca de SharePoint.</value>
+    <comment>Phrase: A file is duplicated in a folder inside the SharePoint library.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SiteNameLabel">
+    <value>Nombre del sitio</value>
+    <comment>Phrase: Site name</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointMappingSharepointFieldIsBackendCalculatedPropNameCaption">
+    <value>Propiedad IsBackendCalculated para campo SharePoint</value>
+    <comment>Phrase: Gets or sets the IsBackendCalculated property for  SharePoint field</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointSitesPropNameDescription">
+    <value>Obtiene una lista de los sitios SharePoint</value>
+    <comment>Phrase: Gets a list of the SharePoint sites</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="NewContentTypeInNewModuleLabel">
+    <value>Nuevo tipo de contenido en un módulo dinámico</value>
+    <comment>Phrase: New content type in a new dynamic module</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AddSharepointSiteLabel">
+    <value>Añadir nuevo sitio</value>
+    <comment>Phrase: Add new site</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SitefinityTaxonomyPropNameCaption">
+    <value>Clasificación de Sitefinity</value>
+    <comment>Phrase: Sitefinity classification</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointMappingSitefinityFieldPropNameDescription">
+    <value>Obtiene o fija el campo de datos Sitefinity utilizado para la asignación</value>
+    <comment>Phrase: Gets or sets the Sitefinity data field used for the mapping</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteSiteConfirmationButton">
+    <value>Sí, eliminar este sitio SharePoint</value>
+    <comment>Phrase: Yes, delete this SharePoint site</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="NotExistingLibraryMessage">
+    <value>La biblioteca con el nombre '{0}' no existe en Sitefinity.</value>
+    <comment>Phrase: Library with name '{0}' does not exist in Sitefinity.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SitefinityDataDisplayNameCaption">
+    <value>Mostrar nombre de los datos Sitefinity</value>
+    <comment>Phrase: Display name of the sitefinity data</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AutoMapVideoTitle">
+    <value>Asignar automáticamente tipos de datos y bibliotecas</value>
+    <comment>Phrase: Map data types and libraries automatically</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ListCountPluralLabel">
+    <value>Listas</value>
+    <comment>Word: lists</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ExampleLabel">
+    <value>Ejemplo:</value>
+    <comment>Word: Example:</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ScheduleThursday">
+    <value>Jueves</value>
+    <comment>Word: Thursday</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="MappingsAdvancedLabel">
+    <value>asignaciones</value>
+    <comment>Phrase: mappings</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SitesVersionCannotBeEmpty">
+    <value>Por favor, seleccione una conexión</value>
+    <comment>Word: Please select a connection</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreateNewContentTypeHint">
+    <value>Usted puede agregar este tipo de Contenido a un módulo dinámico nuevo o existente.</value>
+    <comment>Phrase: You may add this Content type to a new or existing dynamic module</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharePointSiteLabel">
+    <value>Sitio SharePoint</value>
+    <comment>Phrase: SharePoint site</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DisableSyncLabel">
+    <value>Desactivar</value>
+    <comment>Word: Disable</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="NoConnectionMessage">
+    <value>El sitio '{0}' no se puede sincronizar porque no hay conexión con el servidor.</value>
+    <comment>Phrase: Site '{0}' cannot be synced because there is no connection with the server.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointMappingIsFieldKeyPropNameDescription">
+    <value>Obtiene o fija si el campo es una clave (ID)</value>
+    <comment>Phrase: Gets or sets whether the field is a key (ID)</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SitesFormSiteNameTitle">
+    <value>Nombre del sitio</value>
+    <comment>Phrase: Site name</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointSitesUrlName">
+    <value>Sitios</value>
+    <comment>Urlname of the SharePoint connector module page.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreationInstructionLabelPart2">
+    <value>Si quiere asignar manualmente listas SharePoint a tipos de contenido en Sitefinity, seleccione Manualmente.</value>
+    <comment>Phrase: If you want to manually map SharePoint lists to content types in Sitefinity select Manually.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharePointListSelectorHeader">
+    <value>Seleccionar Lista</value>
+    <comment>Phrase: Select List</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointListNameLabel">
+    <value>Listas SharePoint</value>
+    <comment>Phrase: SharePoint Lists</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ActionsLabel">
+    <value>Acciones</value>
+    <comment>Word: Actions</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharePointTagsFilterPropNameCaption">
+    <value>Filtro de etiquetas de SharePoint</value>
+    <comment>Phrase: SharePoint tags filter</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointMappingSharepointFieldTypePropNameCaption">
+    <value>Tipo de campo SharePoint</value>
+    <comment>Phrase: Sharepoint field type</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="OrLabel">
+    <value>o</value>
+    <comment>Word: or</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="UploadErrorMessage">
+    <value>No se pudo subir el artículo con el nombre '{0}'.</value>
+    <comment>Phrase: Item with name '{0}' failed to be uploaded.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ModulesRadioButtonLabel2Hint">
+    <value>El nuevo módulo dinámico se creará automáticamente</value>
+    <comment>Phrase: New dynamic module will be automatically created</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointSitesPropNameCaption">
+    <value>Sitios SharePoint</value>
+    <comment>Phrase: SharePoint sites</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointListsUrlName">
+    <value>Listas</value>
+    <comment>Url name of the SharePoint lists page.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="TheFieldsLabel">
+    <value>Los campos:</value>
+    <comment>Phrase: The fields: </comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AdvancedSettingsLinkText">
+    <value>Administración&gt; Configuración&gt;Opciones avanzadas&gt; Conector para SharePoint</value>
+    <comment>Phrase: Administration&gt;Settings&gt;Advanced&gt;SharePoint Connector</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ScheduleFiveMinutes">
+    <value>Cada 5 minutos</value>
+    <comment>Phrase: Every 5 minutes</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="LogDateLabel">
+    <value>Sincronizado a</value>
+    <comment>Phrase: Synced at</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="LogStatusLabel">
+    <value>Estado</value>
+    <comment>Word: Status</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="NewContentTypeLabel">
+    <value>Nuevo tipo de Contenido</value>
+    <comment>Phrase: New Content type</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SyncInQueueLabel">
+    <value>Sincronización pendiente…</value>
+    <comment>Phrase: Sync pending...</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManuallyCreationInstructionHint">
+    <value>Seleccione las Listas, Calendarios y Bibliotecas de documentos que desea sincronizar desde SharePoint y asígnelas manualmente a Tipos de contenido dinámico, Bibliotecas y Eventos existentes en Sitefinity</value>
+    <comment>Phrase: Select Lists, Calendars and Document libraries you want to sync from SharePoint and map them manually to existing Dynamic content types, Libraries and Events in Sitefinity</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="PlaceDeletedItemsPropNameDescription">
+    <value>Obtiene o fija si se deben colocar los elementos eliminados en la Papelera de un sitio SharePoint</value>
+    <comment>Gets or sets whether to place deleted items in the Recycle Bin of a SharePoint site</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointMappingSharepointFieldTypePropNameDescription">
+    <value>Obtiene o fija el tipo de campo de lista de SharePoint utilizado para la asignación</value>
+    <comment>Phrase: Gets or sets the SharePoint list field type used for the mapping</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="BackToSharepointSitesLabel">
+    <value>Regresar a sitios</value>
+    <comment>Phrase: Back to sites</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreationInstructionLabelPart1">
+    <value>Si selecciona Automáticamente, las Listas y Bibliotecas de documentos SharePoint se asignarán a los Tipos de contenido y Bibliotecas recién creados en Sitefinity.</value>
+    <comment>Phrase: If you select Automatically, SharePoint lists and Document Libraries will be mapped to newly created Content types and Libraries in Sitefinity.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="NewCalendarLabel">
+    <value>Nuevo Calendario</value>
+    <comment>Phrase: New Calendar</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DocumentsLabel">
+    <value>Documentos</value>
+    <comment>Word: Documents </comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="MappingSettingsLabel">
+    <value>Asignación de configuración</value>
+    <comment>Phrase: Mapping settings</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharePointTagsFilterPropNameDescription">
+    <value>Obtiene o establece las etiquetas que se utilizarán para filtrar los artículos de SharePoint, separados por punto y coma.</value>
+    <comment>Phrase: Gets or sets the tags that will be used to filter the SharePoint items, separated by semicolons.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="PictureLibraryLabel">
+    <value>Biblioteca de imágenes</value>
+    <comment>Phrase: Picture library</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ListTemplateTypePropNameDescription">
+    <value>Obtiene o fija el tipo de la lista Sharepoint.</value>
+    <comment>Phrase: Gets or sets the type of the Sharepoint list.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointSiteNamePropNameDescription">
+    <value>Obtiene o fija el nombre descriptivo para el sitio Sharepoint.</value>
+    <comment>Phrase: Gets or sets the friendly name for the Sharepoint site</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SitefinityFilterPropNameCaption">
+    <value>Filtro Sitefinity</value>
+    <comment>Phrase: Sitefinity filter</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="InactiveDynamicModuleMessage">
+    <value>El módulo dinámico '{0}' no está activado. Vaya a Administración -&gt; Constructor de módulo para activarlo.</value>
+    <comment>Phrase: The dynamic module '{0}' is not activated. Go to Administration -&gt; Module builder to activate it.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ContinueToSetupSyncLabel">
+    <value>Seguir Configurando Sincronización</value>
+    <comment>Phrase: Continue to Setup Synchronization</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="TransactionSizePropNameDescription">
+    <value>Obtiene o establece el tamaño de la transacción durante la sincronización.</value>
+    <comment>Phrase: Gets or sets the size of the transaction during synchronization.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ConfigurationIdPropNameDescription">
+    <value>Obtiene o fija el identificador de configuración</value>
+    <comment>Phrase: Gets or sets the configuraiton identifier</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SyncTypeOneWayToSitefinityLabel">
+    <value>Sharepoint a Servidor</value>
+    <comment>Phrase: Sharepoint to server</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SitefinityTaxonomyFilterPropNameCaption">
+    <value>Filtro de clasificación de Sitefinity</value>
+    <comment>Phrase: Sitefinity classification filter</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointSiteUserNamePropNameDescription">
+    <value>Obtiene o fija el nombre de usuario que debe ser autenticado por el sitio SharePoint</value>
+    <comment>Phrase: Gets or sets the username that is to be authenticated by the SharePoint site</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ProviderLabel">
+    <value>Proveedor</value>
+    <comment>Phrase: Provider</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointMappingSitefinityFieldTypePropNameDescription">
+    <value>Obtiene o fija el tipo de campo de datos Sitefinity utilizado para la asignación</value>
+    <comment>Phrase: Gets or sets the Sitefinity data field type used for the mapping</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ListsSyncedSingular">
+    <value>Lista sincronizada con éxito</value>
+    <comment>Phrase: list successfully synced</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="LibraryLabel">
+    <value>biblioteca</value>
+    <comment>Word: Library</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ItemAlreadyExistMessage">
+    <value>El archivo con el nombre '{0}' es duplicado en una carpeta dentro de la biblioteca de SharePoint.</value>
+    <comment>Phrase: File with name '{0}' is duplicated in a folder inside the SharePoint library.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ContinueLabel">
+    <value>Continuar</value>
+    <comment>Word: Continue</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SyncTypeOneWayToSharePointLabel">
+    <value>Servidor a SharePoint</value>
+    <comment>Phrase: Server to SharePoint</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreationModeInstructionHeader">
+    <value>¿Cómo conectar las listas SharePoint a Sitefinity?</value>
+    <comment>Phrase: Where automatically created types will be displayed? </comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointMappingSitefinityDataPropNameCaption">
+    <value>Datos Sitefinity</value>
+    <comment>Phrase: Sitefinity data</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EnabledSyncLabel">
+    <value>Habilitado</value>
+    <comment>Word: Enabled</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="NewImageLibraryLabel">
+    <value>Biblioteca de Nuevas imágenes</value>
+    <comment>Phrase: New Image library</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManuallyCreationTypeLabel">
+    <value>Manualmente</value>
+    <comment>Phrase: Manually</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SitefinityDataDisplayNameDescription">
+    <value>Obtiene o fija el nombre de muestra de los datos de Sitefinity.</value>
+    <comment>Phrase: Gets or sets the display name of the sitefinity data.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ModulesRadioButtonLabel1">
+    <value>Añadir tipo de Contenido a un modulo dinámico existente</value>
+    <comment>Phrase: Add Content type to an existing dynamic module</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="BackToSharepointLabel">
+    <value>Regresar a Conector para SharePoint</value>
+    <comment>Phrase: Back to Connector for SharePoint</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointSitePasswordPropNameCaption">
+    <value>Contraseña</value>
+    <comment>Word: Password</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ScheduleSaturday">
+    <value>Sábado</value>
+    <comment>Word: Saturday</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointConnectorGroupPageTitle">
+    <value>Conector para SharePoint</value>
+    <comment>Title of the Sharepoint Connector's group page.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointListMappingsPropNameCaption">
+    <value>Asignaciones de lista</value>
+    <comment>Phrase: List mappings</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SitesFormSiteNameDuplicateNameError">
+    <value>Ya existe un sitio con este nombre.</value>
+    <comment>Phrase: Site with this name already exists.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointFieldMappingsPropNameCaption">
+    <value>Asignaciones de campo</value>
+    <comment>Phrase: Field mappings</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointSitesDescription">
+    <value>Esta es la página principal del Conector para el módulo SharePoint</value>
+    <comment>Description of the SharePoint connector module main page.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SingleReadOnlyFieldViolationMessage">
+    <value>El campo '{0}' es de solo lectura en SharePoint y no se puede editar cuando la dirección de sincronización es Servidor a SharePoint. Cambie la dirección o anule la asignación del campo en el cuadro de diálogo de asignaciones de diálogo.</value>
+    <comment>Phrase: The field '{0}' is read-only in SharePoint and cannot be edited when the sync direction is Server to SharePoint. Please change the direction or unmap the field from the field mappings dialog.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ListCountLabel">
+    <value>Lista</value>
+    <comment>Word: list</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SitesFormVersionTitle">
+    <value>Esta es una conexión a...</value>
+    <comment>Word: This is a connection to...</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AddSharepointListMappingLabel">
+    <value>Conectar Listas</value>
+    <comment>Phrase: Connect Lists</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="TriggerSyncOnListLabel">
+    <value>Sincronizar ahora</value>
+    <comment>Phrase: Synchronize now</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EmptyMappingKeyLabel">
+    <value>Escribir el nombre de sincronización</value>
+    <comment>Phrase: Enter synchronization name</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SynchronizationTypeLabel">
+    <value>Tipo de sincronización</value>
+    <comment>Phrase: Synchronization type</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AutoCreationInstructionLabel">
+    <value>Se crearán nuevos Tipos de contenido y Bibliotecas de documentos automáticamente en Sitefinity para asignar las Listas y Bibliotecas de documentos SharePoint que seleccione para ser sincronizadas.</value>
+    <comment>Phrase: New Content types and Document libraries will be created automatically in Sitefinity to map SharePoint lists and Document libraries you select to be synced.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManuallyCreationInstructionLabelPart3">
+    <value>Para cambiar este ajuste vaya a</value>
+    <comment>Phrase: To change this setting go to</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ListsSidebarTitleLabel">
+    <value>Administrar listas</value>
+    <comment>Phrase: Manage lists</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SyncDirectionLabel">
+    <value>Sincronizar con</value>
+    <comment>Phrase: Sync with</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SitesFormEditTitle">
+    <value>Editar sitio SharePoint</value>
+    <comment>Phrase: Edit SharePoint site</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="UnableToConnectToSharepointLabel">
+    <value>No se puede conectar a SharePoint</value>
+    <comment>Phrase: Unable to connect to SharePoint</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="HowToSyncInstructionHeader">
+    <value>¿Cómo configurar sincronización?</value>
+    <comment>Phrase: How to setup synchronization?</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ConnectorResourcesTitle">
+    <value>Conector Sitefinity para SharePoint</value>
+    <comment>Phrase: Sitefinity Connector for SharePoint</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AllListsFilterLabel">
+    <value>Todas las listas</value>
+    <comment>Phrase: All lists</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DuplicateKeyExceptionMessage">
+    <value>Un artículo no pudo ser sincronizado porque ya existe en la biblioteca Sitefinity.</value>
+    <comment>Phrase: An item failed to be synchronized because it already exists in a Sitefinity.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SyncTypeTwoWayLabel">
+    <value>Dos vías (Sharepoint-Server-Sharepoint)</value>
+    <comment>Phrase: Two way (Sharepoint-Server-Sharepoint)</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="RunningLabel">
+    <value>Ejecutándose</value>
+    <comment>Word: Running</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SyncingDotDotDotLabel">
+    <value>Sincronizando…</value>
+    <comment>Phrase: Syncing...</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ScheduleSummaryPropNameCaption">
+    <value>Resumen de programa</value>
+    <comment>Phrase: Schedule summary</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointListLabel">
+    <value>Lista SharePoint</value>
+    <comment>Phrase: SharePoint list</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="RemoveLabel">
+    <value>Eliminar</value>
+    <comment>Word: Remove</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointSiteAddressPropNameDescription">
+    <value>Obtiene o fija la dirección del sitio SharePoint</value>
+    <comment>Phrase: Gets or sets the address of the SharePoint site</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointListsDescription">
+    <value>Esta es la página para las listas SharePoint.</value>
+    <comment>Description of the SharePoint lists page.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeletedImageLibraryLabel">
+    <value>Biblioteca de Imágenes Eliminada</value>
+    <comment>Phrase: Deleted Image library</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="TransactionSizePropNameCaption">
+    <value>Tamaño de la transacción</value>
+    <comment>Phrase: Transaction size</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ScheduleNever">
+    <value>No programado</value>
+    <comment>Phrase: Not scheduled</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SitefinityTaxaPropertyNamePropNameCaption">
+    <value>Nombre de campo de clasificación Sitefinity</value>
+    <comment>Phrase: Sitefinity classification field name</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ScheduleSunday">
+    <value>Domingo</value>
+    <comment>Word: Sunday</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ScheduleTypeLabel">
+    <value>Cuándo sincronizar…</value>
+    <comment>Phrase: When to sync</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="TaskRetryIntervalPropNameCaption">
+    <value>Reintentar intervalo</value>
+    <comment>Phrase: Retry interval</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="MappingKeyPropNameDescription">
+    <value>Identificador único para la asignación</value>
+    <comment>Phrase: Unique identifier for the mapping</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ListsFailedSingular">
+    <value>La lista no se pudo sincronizar</value>
+    <comment>Phrase: list failed to be synced</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SyncDeletedItemsPropNameCaption">
+    <value>Sincronizar elementos eliminados</value>
+    <comment>Phrase: Sync deleted items</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AlreadyMappedLabel">
+    <value>Ya conectado</value>
+    <comment>Phrase: Already connected</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ModuleDescription">
+    <value>Conector para módulo SharePoint.</value>
+    <comment>Description of the Connector module.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ConfigurationIdPropNameCaption">
+    <value>Identificador de configuración</value>
+    <comment>Phrase: Configuraiton identifier</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ScheduleWednesday">
+    <value>Miércoles</value>
+    <comment>Word: Wednesday</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AdvancedLabel">
+    <value>Avanzado</value>
+    <comment>Phrase: Advanced</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DisabledSyncLabel">
+    <value>Desactivado</value>
+    <comment>Word: Disabled</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AddSharepointServerLabel">
+    <value>Añadir un Sitio SharePoint</value>
+    <comment>Phrase: Add a SharePoint Site</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="PropertiesLabel">
+    <value>Propiedades</value>
+    <comment>Word: Properties</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="MasterAdapterPropNameCaption">
+    <value>Adaptador maestro</value>
+    <comment>Phrase: Master adapter</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ScheduleMonday">
+    <value>Lunes</value>
+    <comment>Word: Monday</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CalendarLabel">
+    <value>Calendario</value>
+    <comment>Word: Calendar</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ScheduleFriday">
+    <value>Viernes</value>
+    <comment>Word: Friday</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointListsTitle">
+    <value>Listas SharePoint</value>
+    <comment>Title of the SharePoint lists page.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SitesFormSiteNameRegExError">
+    <value>El nombre del sitio contiene caracteres no válidos.</value>
+    <comment>Phrase: The site name contains invalid characters.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AddSharepointListLabel">
+    <value>Conectar Lista SharePoint</value>
+    <comment>Phrase: Connect SharePoint List</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointBasicSettingsTitle">
+    <value>Servidores SharePoint</value>
+    <comment>The title of the SharePoint basic settings page.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="FailedLabel">
+    <value>fallido</value>
+    <comment>Word: Failed</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteListConfirmationButton">
+    <value>Sí, eliminar esta asignación</value>
+    <comment>Phrase: Yes, delete this mapping</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointMappingIsFieldKeyPropNameCaption">
+    <value>Es la clave de campo</value>
+    <comment>Phrase: Is the field key</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SitefinityTaxaPropertyNamePropNameDescription">
+    <value>Obtiene o establece la propiedad que almacena la clasificación en el artículo Sitefinity.</value>
+    <comment>Phrase: Gets or sets the property which stores the classification in the Sitefinity item.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointMappingSynchronizationTypePropNameCaption">
+    <value>Tipo de sincronización</value>
+    <comment>Phrase: Synchronization type</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SelectMultipleListsLabel">
+    <value>Seleccione las listas SharePoint que desea sincronizar</value>
+    <comment>Phrase: Select which SharePoint lists you want to be synced</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="PageSizePropNameCaption">
+    <value>Tamaño de página</value>
+    <comment>Phrase: Page size</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="FieldMappingsRequired">
+    <value>Usted debe asignar los campos que desea sincronizar</value>
+    <comment>Phrase: You should map the fields you want to be synced </comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SynchronizationStatusPropNameDescription">
+    <value>Valores permitidos: Activado, Desactivado</value>
+    <comment>Phrase: Allowed values: Enabled, Disabled</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SitesFormSiteUsernameCannotBeEmpty">
+    <value>Nombre de usuario no puede estar vacío</value>
+    <comment>Phrase: Username cannot be empty</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SitesFormSiteNameCannotBeEmpty">
+    <value>El nombre del sitio no puede estar vacío</value>
+    <comment>Phrase: Site name cannot be empty</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SitesFormSiteUsernameTitle">
+    <value>Nombre de usuario</value>
+    <comment>Word: Username</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="MappingNameLabel">
+    <value>Nombre de sincronización</value>
+    <comment>Phrase: Synchronization name</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="NewLibraryLabel">
+    <value>Biblioteca de Nuevos Documentos</value>
+    <comment>Phrase: New Library</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SitesFormSiteAddressTitle">
+    <value>Dirección URL / IP</value>
+    <comment>Phrase: URL / IP address</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SitefinityDataProviderLabel">
+    <value>Proveedor para los datos de Sitefinity</value>
+    <comment>Phrase: Sitefinity data provider</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManuallyCreationInstructionLabelPart2">
+    <value>Observe que, de manera predeterminada, todos los elementos que son eliminados de un lado de la sincronización serán eliminados del otro.</value>
+    <comment>Phrase: Note that by default all items that are deleted from one side of the sync will be deleted from the other.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SyncDetailsTitle">
+    <value>Detalles de sincronización</value>
+    <comment>Phrase: Synchronization details</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharePointFieldsMappingHeader">
+    <value>Listas SharePoint &gt; Tipos de contenido Sitefinity</value>
+    <comment>Phrase: SharePoint Lists &gt; Sitefinity Content types</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteSiteConfirmationLabel">
+    <value>¿Está seguro de que sea eliminar este sitio SharePoint?</value>
+    <comment>Phrase: Are you sure you want to delete this SharePoint site?</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointConnectorGroupPageDescription">
+    <value>Este es el Conector para la página de grupo del módulo de SharePoint.</value>
+    <comment>Description of the Sharepoint Connector module group page.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="NotSyncedFilterLabel">
+    <value>No sincronizado al tipo de dato</value>
+    <comment>Phrase: Not synced to data type</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SitefinityLibraryNameLabel">
+    <value>Tipos de contenido de Sitefinity</value>
+    <comment>Phrase: Sitefinity Content types</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="PublishErrorMessage">
+    <value>No se pudo publicar el artículo con el nombre '{0}'.</value>
+    <comment>Phrase: Item with name '{0}' failed to be published.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointMappingSynchronizationTypePropNameDescription">
+    <value>Valores permitidos: TwoWay, OneWayToSitefinity, OneWayToSharePoint</value>
+    <comment>Phrase: Allowed values: TwoWay, OneWayToSitefinity, OneWayToSharePoint</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="NameLabel">
+    <value>Nombre</value>
+    <comment>Word: Name</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointFieldMappingsPropNameDescription">
+    <value>Obtenga las asignaciones entre los campos de lista de SharePoint y los campos de datos de Sitefinity</value>
+    <comment>Phrase: Gets the mappings between the SharePoint list fields and Sitefinity data fields</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="UnableToConnectToSiteMessage">
+    <value>No se puede conectar. Por favor, asegúrese de que el sitio Sharepoint está en línea.</value>
+    <comment>Phrase: Unable to connect. Please make sure the Sharepoint site is online.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteErrorMessage">
+    <value>El artículo con el nombre '{0}' no se pudo eliminar.</value>
+    <comment>Phrase: Item with name '{0}' failed to be deleted.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SaveLabel">
+    <value>Guardar</value>
+    <comment>Word: Save</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointSitesTitle">
+    <value>Sitios SharePoint</value>
+    <comment>Title of the SharePoint connector module page.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointMappingSitefinityFieldPropNameCaption">
+    <value>Campo Sitefinity</value>
+    <comment>Phrase: Sitefinity field</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="InvalidCredentialsMessage">
+    <value>Nombre de usuario o contraseña no válido.</value>
+    <comment>Phrase: Invalid username or password.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointSiteIsOnlineVersionPropNameDescription">
+    <value>Obtiene o establece la versión del sitio SharePoint</value>
+    <comment>Phrase: Gets or sets the SharePoint site version</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SitesFormSiteAddressCannotBeEmpty">
+    <value>La dirección URL / IP no puede estar vacío</value>
+    <comment>Phrase: URL / IP address cannot be empty</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SiteConnectedListsTitle">
+    <value>Listas conectadas</value>
+    <comment>Phrase: Connected lists</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreateNewContentTypeHeader">
+    <value>Crear nuevo tipo de Contenido</value>
+    <comment>Phrase: Create new Content type</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ListsSyncedPlural">
+    <value>Las listas se sincronizaron con éxito</value>
+    <comment>Phrase: lists successfully synced</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointMappingSharepointListPropNameDescription">
+    <value>Obtiene o fija la lista SharePoint utilizada para la asignación</value>
+    <comment>Phrase: Gets or sets the SharePoint list used for the mapping</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SharepointListsHtmlTitle">
+    <value>Listas SharePoint</value>
+    <comment>Html title of the SharePoint lists page.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+</root>

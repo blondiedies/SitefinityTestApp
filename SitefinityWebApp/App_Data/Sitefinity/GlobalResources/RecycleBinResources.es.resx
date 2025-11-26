@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BatchRestoreConflictMessageActionButtonText">
+    <value>Aceptar</value>
+    <comment> Phrase: OK</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MissingParentPageMessageHeaderText">
+    <value>Falta el padre. La página será restaurada en el nivel superior</value>
+    <comment> Phrase: Missing parent. Page will be restored on top level</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ExistingContentItemUrlMessageBodyText">
+    <value>&lt;p&gt;El artículo no se puede restablecer porque ya existe un artículo con el mismo URL: &lt;i&gt;{0}&lt;/i&gt;&lt;br /&gt;Para restaurar este artículo, debe eliminar la página existente o cambiar su dirección URL o padre.</value>
+    <comment> Phrase: The item cannot be restored because a item with the same URL already exists: &lt;i&gt;{0}&lt;/i&gt;&lt;br /&gt;In order to restore this item, you should delete the existing one or change its URL or parent.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ExistingPageUrlMessageHeaderText">
+    <value>Caramba. URL existente</value>
+    <comment> Phrase: Oops. Existing URL</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RecycleBinSettings">
+    <value>Configuración de la Papelera de reciclaje</value>
+    <comment> Phrase: Recycle Bin Settings</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RecycleBinPeriodSettingTitle">
+    <value>Conservar artículos en la Papelera de reciclaje durante no más de...</value>
+    <comment> Phrase: Keep items in the Recycle Bin no longer than...</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MissingDynamicContentParentMessageHeaderText">
+    <value>Falta el padre.</value>
+    <comment> Phrase: Missing parent</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EmptyRecycleBinConfirmation">
+    <value>Sí, Vaciar Papelera de reciclaje</value>
+    <comment> Phrase: Yes, Empty Recycle Bin</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RecycleBinGroupPageTitle">
+    <value>Papelera de Reciclaje</value>
+    <comment>The title of Recycle bin page.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ParentForHierarchicalTypes">
+    <value>Padres (para tipos jerárquicos)</value>
+    <comment> Phrase: Parent (for hierarchical types)</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FilterItemsInRecycleBin">
+    <value>Filtrar artículos en la Papelera de reciclaje</value>
+    <comment> Phrase: Filter items in Recycle bin</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AllDeletedItems">
+    <value>Todos los elementos eliminados</value>
+    <comment> Phrase: All deleted items</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AreYouSureYouWantToPermanentlyDeleteItems">
+    <value>¿Está seguro de que desea eliminar permanentemente los artículos seleccionados?</value>
+    <comment> Phrase: Are you sure you want to permanently delete selected items?</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RecycleBinPeriodSettingDescription">
+    <value>Después de este período, los artículos en la Papelera de reciclaje se borran automáticamente para siempre.</value>
+    <comment> Phrase: After this period items in the Recycle Bin are automatically deleted forever</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EnableRecycleBinSetting">
+    <value>Activar Papelera de reciclaje</value>
+    <comment>Phrase: Enable Recycle Bin</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ExistingContentItemUrlMessageActionButtonText">
+    <value>Aceptar</value>
+    <comment> Phrase: OK</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BatchRestoreConflictMessageBodyText">
+    <value>{0} artículos han sido restaurados con éxito.&lt;br /&gt;{1} artículo(s) no han sido restaurados. &lt;i&gt;Intente restaurar cada uno por separado y vea los problemas.&lt;/i&gt;</value>
+    <comment> Phrase: {0} item(s) have been successfully restored.&lt;br /&gt;{1} item(s) haven't been restored. &lt;i&gt;Try to restore each of them separately and see the issues.&lt;/i&gt;</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RecycleBinGroupPageDescription">
+    <value>Papelera de Reciclaje</value>
+    <comment>The description of Recycle bin page.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MissingParentPageMessageBodyText">
+    <value>Parece que el padre de esta página no existe, así que la página será restablecida en el nivel superior.</value>
+    <comment> Phrase: It seems the parent of this page no more exists, so the page will be restored on top level.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AreYouSureYouWantToDeleteAllItems">
+    <value>¿Está seguro de que desea eliminar permanentemente todos estos artículos?</value>
+    <comment> Phrase: Are you sure you want to permanently delete all these items?</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ItemLastStatus">
+    <value>Artículo / Última Condición</value>
+    <comment> Phrase: Item / Last Status</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MissingTemplateMessageBodyText">
+    <value>No podemos encontrar la plantilla de esta página, así que la página se restablecerá a borrador con un diseño diferente.&lt;br /&gt;Las widgets de página no se perderán.</value>
+    <comment> Phrase: We can't find the template of this page , so the page will be restored to draft with different layout.&lt;br /&gt;Page widgets will not be lost.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Parent">
+    <value>Padre</value>
+    <comment> Word: Parent</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DateDeletedLastOnTop">
+    <value>Fecha de eliminación (Última, arriba)</value>
+    <comment> Phrase: Date deleted (Last on top)</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ManageRecycleBin">
+    <value>Administrar la Papelera de reciclaje</value>
+    <comment> Phrase: Manage Recycle Bin</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DeleteItemsConfirmation">
+    <value>Sí, Eliminar estos artículos</value>
+    <comment> Phrase: Yes, Delete these items</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RecycleBinIsEmpty">
+    <value>La Papelera de reciclaje está vacía</value>
+    <comment> Phrase: Recycle Bin is empty</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MissingParentPageMessageActionButtonText">
+    <value>OK, Restaurar en nivel superior</value>
+    <comment> Phrase: OK, Restore on top level</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MissingTemplateMessageActionButtonText">
+    <value>OK, Restaurar a Borrador</value>
+    <comment> Phrase: OK, Restore to Draft</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UnexpectedLifecycleStatusError">
+    <value>Estado Inesperado del Ciclo de Vida de los elementos de datos con el id:{0} estado: {1}. Solo los elementos maestros respaldan el estado eliminado.</value>
+    <comment> Phrase: Unexpected Lifecycle status of data item with id:{0} status: {1}. Only master items support the deleted status</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MissingDynamicContentParentMessageActionButtonText">
+    <value>Aceptar</value>
+    <comment> Phrase: OK</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ExistingPageUrlMessageBodyText">
+    <value>&lt;p&gt;La página no se puede restablecer porque ya existe una página con la misma URL: &lt;i&gt;{0}&lt;/i&gt;&lt;/p&gt;&lt;p&gt;Para restaurar esta página, debe eliminar la página existente o cambiar su dirección URL o padre.&lt;/p&gt;</value>
+    <comment> Phrase: &lt;p&gt;The page cannot be restored because a page with the same URL already exists: &lt;i&gt;{0}&lt;/i&gt;&lt;/p&gt;&lt;p&gt;In order to restore this page, you should delete the existing one or change its URL or parent.&lt;/p&gt;</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MissingDynamicContentParentMessageBodyText">
+    <value>El artículo no puede ser restaurado porque su padre también se encuentra en la Papelera de reciclaje. Para restaurar este artículo, restaure a su padre.</value>
+    <comment> Phrase: The item cannot be restored because its parent is also in the Recycle Bin. To restore this item, restore its parent.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ExistingContentItemUrlMessageHeaderText">
+    <value>Caramba. URL existente</value>
+    <comment> Phrase: Oops. Existing URL</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ExistingPageUrlMessageActionButtonText">
+    <value>Aceptar</value>
+    <comment> Phrase: OK</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RecycleBinResourcesTitle">
+    <value>Papelera de Reciclaje</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DateDeletedFirstOnTop">
+    <value>Fecha de eliminación (Primera, arriba)</value>
+    <comment> Phrase: Date deleted (First on top)</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DeleteItemConfirmation">
+    <value>Sí, Eliminar este elemento</value>
+    <comment> Phrase: Yes, Delete this item</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MissingTemplateMessageHeaderText">
+    <value>Plantilla faltante.  La página será restaurada a borrador</value>
+    <comment> Phrase: Missing template. Page will be restored to draft</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AreYouSureYouWantToDeleteItem">
+    <value>¿Está seguro de que desea eliminar este artículo?&amp;lt;br /&amp;gt; Esta acción no se puede deshacer.</value>
+    <comment> Phrase: Are you sure you want to delete this item?&amp;lt;br /&amp;gt;This action is not undoable.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DeletedByOn">
+    <value>Eliminado por / en</value>
+    <comment> Phrase: Deleted by / On</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EmptyRecycleBin">
+    <value>Vaciar Papelera de reciclaje</value>
+    <comment> Phrase: Empty Recycle Bin</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DisableRecycleBinSetting">
+    <value>Desactivar la Papelera de reciclaje</value>
+    <comment>Phrase: Disable Recycle Bin</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RecycleBinResourcesTitlePlural">
+    <value>Papelera de Reciclaje</value>
+    <comment>Title plural for the Recycle bin module.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+</root>

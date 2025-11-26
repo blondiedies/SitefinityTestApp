@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CssAreaDescription">
+    <value>El CSS escrito aquí se incluirá en el rótulo &amp;lt;head&amp;gt; HTML.</value>
+    <comment>Description for the css area field.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LinkToCssFile">
+    <value>Enlazar a archivo CSS</value>
+    <comment>phrase : Link to CSS file</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Description">
+    <value>Descripción</value>
+    <comment>phrase : Description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="StartWritingCss">
+    <value>Comenzar a escribir reglas CSS directamente</value>
+    <comment>phrase : Start writing CSS rules directly</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="StyleSheetResourcesTitle">
+    <value>etiquetas StyleSheetResources</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForYourConvenience">
+    <value>Solo para su comodidad</value>
+    <comment>phrase : For your convenience only</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Tips">
+    <value>Consejos</value>
+    <comment>word: Tips</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="WriteCss">
+    <value>Escribir CSS</value>
+    <comment>phrase : Write CSS</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SetCss">
+    <value>Establecer CSS</value>
+    <comment>phrase : Set CSS</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Example">
+    <value>Ejemplo</value>
+    <comment>word: Example</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MoreOptions">
+    <value>Más opciones</value>
+    <comment>phrase : More options</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DoNotAddStyleTag">
+    <value>No añadir rótulo &amp;lt;style&amp;gt;, se añadirá automáticamente. Comenzar a escribir reglas CSS directamente.</value>
+    <comment>Description for the css area field.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="StyleSheetResourcesDescription">
+    <value>Contiene recursos localizables.</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SelectedMediaTypes">
+    <value>Seleccione los tipos multimedia...</value>
+    <comment>phrase : Select media types...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="All">
+    <value>Todos</value>
+    <comment>phrase : All</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SelectCssFile">
+    <value>Seleccione un archivo CSS</value>
+    <comment>Phrase: Select a CSS file</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="IncludedInHead">
+    <value>Incluido en el rótulo &lt;head&gt; HTML</value>
+    <comment>phrase : Included in the HTML &lt;head&gt; tag</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+</root>

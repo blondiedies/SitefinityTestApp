@@ -1,0 +1,3360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MediaManager_Language">
+    <value>Esta propiedad obtiene o establece un valor que indica la localización actual utilizada para el soporte de un idioma.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="LinkManager_Title">
+    <value>Administradorde Hipervínculos</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="StyleBuilder_Capitalize">
+    <value>Usar mayúsculas</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="StyleBuilder_Bullets">
+    <value>Viñetas</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="TableWizard_InvalidTableWidth">
+    <value>Ancho de la tabla no válido.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="TableWizard_Border">
+    <value>Borde</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Common_BackgroundImage">
+    <value>Imagen de fondo</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="FlashManager_Baseline">
+    <value>Línea de base</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="FindAndReplace_Down">
+    <value>Debajo</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ImageEditor_Zoom_BestFitToolTip">
+    <value>Ajustar imagen en el área editable</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="StyleBuilder_Baseline">
+    <value>Línea de base</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Common_Yes">
+    <value>Sí</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="TableWizard_ApplySpecialFormatsTo">
+    <value>Aplicar formatos especiales a</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="StyleBuilder_FontName">
+    <value>Nombre de fuente</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="StyleBuilder_Outside">
+    <value>Fuera (Texto con sangría )</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ImageMap_ShapeAlt">
+    <value>Arrastre la esquina inferior derecha para cambiar el tamaño de la zona.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="TableWizard_NoTableStyleSelected">
+    <value>Ningún Estilo de Tabla Seleccionado</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="TableWizard_Rows">
+    <value>Filas</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="MediaManager_CurrentMarker">
+    <value>Esta propiedad obtiene o establece el número del marcador actual.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Common_Upload">
+    <value>Cargar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="FlashManager_Title">
+    <value>Administrador Flash</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="StyleBuilder_ContentIsNotClipped">
+    <value>El contenido no está recortado</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ImageEditor_Rotate_DropDownToolTip">
+    <value>Seleccionar un ángulo de rotación</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="MobileTableProperties_CellSpacing">
+    <value>CellSpacing</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="StyleBuilder_Hidden">
+    <value>Oculto</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="FormatCodeBlock_LanguageJavascript">
+    <value>Java Script</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ImageEditor_Undo">
+    <value>Deshacer</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="StyleBuilder_TextDirection">
+    <value>Dirección del texto</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Common_Insert">
+    <value>Insertar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="MediaManager_DoublepointedNWSE">
+    <value>Doble punta de flecha NW-SE</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="StyleBuilder_EdgesTab">
+    <value>Bordes</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="FlashManager_HtmlAlign">
+    <value>Alinear HTML</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="FormatCodeBlock_SelectLanguage">
+    <value>Seleccionar Idioma</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ImageEditor_Save">
+    <value>Guardar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="MobileLinkManager_RemoveLink">
+    <value>Eliminar vínculo</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="PageProperties_ClassName">
+    <value>Nombre de la clase</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="MediaManager_ColorKey">
+    <value>Esta propiedad obtiene o establece la clave de color utilizado por el reproductor DVD.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Common_CreateNewFolder">
+    <value>Introduzca el nuevo nombre de carpeta</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Common_ConfirmDelete">
+    <value>¿Está seguro de que desea borrar el elemento seleccionado? Aún podría estar en uso. Si lo elimina, algunas páginas no se mostrarán correctamente. Presione el botón OK para confirmar la eliminación.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="TableWizard_BetweenColumns">
+    <value>Entre columnas</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="MediaManager_SubpictureOn">
+    <value>Esta propiedad obtiene o establece un valor que indica si la subimagen se muestra.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="MediaManager_Text2">
+    <value>Texto2</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="StyleBuilder_BoxTab">
+    <value>Recuadro</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Common_Middle">
+    <value>Medio</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="StyleBuilder_Position">
+    <value>Posición</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="TrackChangesDialog_TrackChanges">
+    <value>Registrar cambios</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="MediaManager_CurrentSubpictureStream">
+    <value>Esta propiedad obtiene o establece un valor que indica la secuencia de subimagen actual.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="StyleBuilder_ToTheLeft">
+    <value>A la izquierda</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="LinkManager_Other">
+    <value>Otros</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Common_SelectFile">
+    <value>Seleccione archivo</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="FlashManager_Quality">
+    <value>Calidad</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="MediaManager_SendKeyboardEvents">
+    <value>Esta propiedad obtiene o establece un valor que indica si el control de Windows Media Player envía eventos de teclado.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="InsertExternalVideo_ToggleAdvancedModeEmbedCode">
+    <value>Cambiar al código incrustado del modo avanzado</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="StyleBuilder_Strikethrough">
+    <value>Tachado</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="TableWizard_OtherOptionsLabel">
+    <value>Otras opciones</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="MediaManager_AlertWidthHeight">
+    <value>Por favor, introduzca el ancho y alto del archivo multimedia!</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="TableWizard_InvalidCellWidth">
+    <value>Ancho de la celda no válido.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="StyleBuilder_Middle">
+    <value>Medio</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="MediaManager_DisplayMode">
+    <value>Esta propiedad obtiene o establece un valor que indica si la barra de estado muestra la posición actual en segundos (Sí) o fotogramas (No).</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="TableWizard_HeadingColumns">
+    <value>Columnas del encabezado</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Common_Cancel">
+    <value>cancelar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="FindAndReplace_ReplaceWith">
+    <value>Reemplazar con</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Common_Id">
+    <value>ID</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Common_Orange">
+    <value>Naranja</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Common_All">
+    <value>Todos</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="StyleBuilder_Overflow">
+    <value>Desbordamiento</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Common_Rename">
+    <value>Renombrar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="MediaManager_Description">
+    <value>&lt;br/&gt;&lt;b&gt;Descripción:&lt;/b&gt;</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="StyleBuilder_Relative">
+    <value>Relativa</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="MediaManager_Right">
+    <value>Derecho</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ImageMap_Title">
+    <value>Título del Texto</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="StyleBuilder_Circle">
+    <value>Círculo</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="FindReplaceSettings_Find">
+    <value>Buscar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="MediaManager_TextIbeam">
+    <value>Texto I-beam</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="FindAndReplace_Selection">
+    <value>Selección</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="FlashManager_LeftCenter">
+    <value>Centro izquierda</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="FlashManager_CenterTop">
+    <value>Arriba en el centro</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="StyleBuilder_ContentIsClipped">
+    <value>El contenido es recortado</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Common_BorderWidth">
+    <value>Ancho del borde</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="StyleBuilder_Dotted">
+    <value>Punteado</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Common_SortByExt">
+    <value>Ext.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="MediaManager_HalfScreen">
+    <value>Mitad del tamaño de la pantalla</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Common_Green">
+    <value>Verde</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="TrackChangesDialog_InitialContent">
+    <value>Contenido Inicial</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="StyleBuilder_Scrolling">
+    <value>Desplazamiento</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="InsertSelectDialog_RemoveOption">
+    <value>Retirar Opción</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="InsertTable_Columns">
+    <value>Columnas</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="TableWizard_Title">
+    <value>Asistente para tablas</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="MediaManager_ShowStatusBar">
+    <value>Esta propiedad obtiene o establece un valor que indica si la barra de estado es visible.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Common_MaxFileSize">
+    <value>Tamaño máximo de archivo permitido</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Common_CssClass">
+    <value>Clase CSS</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Common_LookIn">
+    <value>Buscar en</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Common_Margin">
+    <value>Margen</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ImageEditor_AddText_ColorToolTip">
+    <value>El color del texto que se va a añadir</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="InsertTable_Rows">
+    <value>Filas</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="FindAndReplace_ReplaceAll">
+    <value>Reemplazar todo</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="FlashManager_Top">
+    <value>Arriba</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="StyleBuilder_CollapseBorder">
+    <value>Contraer bordes</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="MediaManager_ShowDisplay">
+    <value>Esta propiedad obtiene o establece un valor que indica si el panel de visualización es visible.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="MediaManager_ShowAudioControls">
+    <value>Esta propiedad obtiene o establece un valor que indica si los controles de audio aparecen en la barra de control.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Common_Clear">
+    <value>Borrar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="TableWizard_Betweengroup">
+    <value>Entre el grupo de filas y columnas</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Common_ApplyClass">
+    <value>Aplicar la clase</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="RadEditorDialogsTitle">
+    <value>RadEditor Diálogos</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="LinkManager_LinkText">
+    <value>Texto del enlace</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="TableWizard_HeadingsLabel">
+    <value>Encabezado</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="StyleBuilder_DoNotAllow">
+    <value>No permitir</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="TableWizard_CellPadding">
+    <value>CellPadding</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ImageEditor_Flip">
+    <value>Rotar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="StyleBuilder_Lowercase">
+    <value>Minúsculas</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ImageMap_AlertInvalidProperties">
+    <value>Propiedades no válidas!</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="FindAndReplace_AllReplaced">
+    <value>{0} ocurrencias en el texto se han sustituido!</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ImageEditor_AddText_FontFamily">
+    <value>Familia de Fuentes</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="TableWizard_CellSpacing">
+    <value>CellSpacing</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="StyleBuilder_OnlyOnRight">
+    <value>Sólo a la derecha</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ImageEditor_Save_ServerRadioText">
+    <value>Guardar Imagen en Servidor</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="TableWizard_TopAndBottomSide">
+    <value>Sólo partes superior e inferior</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="MediaManager_AutoRewind">
+    <value>Esta propiedad obtiene o establece un valor que indica si el control de Windows Media Player automáticamente vuelve al punto de partida del clip después de que el clip termina o se para.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="StyleBuilder_FontAttributes">
+    <value>Atributos de fuentes</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="StyleBuilder_Custom">
+    <value>personalizado</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="StyleBuilder_Letters">
+    <value>Letras</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Common_NameExists">
+    <value>Un objeto con el mismo nombre ya existe en este directorio!</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Common_Refresh">
+    <value>Actualizar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="FormatCodeBlock_MaxSnippetWidth">
+    <value>Ancho máximo de fragmentos</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ImageMap_Circle">
+    <value>Círculo</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SetImageProperties_Title">
+    <value>Propiedades de la imagen</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_Black">
+    <value>Negro</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_PropertiesPanel">
+    <value>Propiedades del panel</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_NoPermissionsToCreateFolder">
+    <value>La carpeta seleccionada no se pudo crear porque la aplicación no tiene permisos suficientes. Por favor, póngase en contacto con el administrador.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FindAndReplace_EntireText">
+    <value>El texto entero</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_Layout">
+    <value>Diseño</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="InsertExternalVideo_EmbedVideoSettings">
+    <value>Insertar la configuración de video</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_NewFolder">
+    <value>Nueva carpeta</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_EnablePositionControls">
+    <value>Esta propiedad obtiene o establece un valor que indica si los controles de posición estan activos en la barra de control.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageManager_Title">
+    <value>Administrador de imágenes</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageMap_ChooseImage">
+    <value>Fuente de Imagen</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Italics">
+    <value>Cursiva</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_DefaultFrame">
+    <value>Esta propiedad obtiene o establece un valor que representa el frame HTTP destino predeterminado..</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_AutoSize">
+    <value>Esta propiedad obtiene o establece un valor que indica si el control de Windows Media Player cambia automáticamente el tamaño para acomodarse al tamaño especificado por la &lt;b&gt;propiedad DisplaySize &lt;/b&gt; del fichero multimedia</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_Forward">
+    <value>Adelante</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_NoTextWrapping">
+    <value>sin ajuste de texto</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageMap_Polygon">
+    <value>Polígono</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_Handpointing">
+    <value>Mano con el dedo índice apuntando</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_White">
+    <value>Blanco</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_Print_Title">
+    <value>Imprimir Imagen</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_Decrease">
+    <value>Disminuir</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_ActualSize">
+    <value>Tamaño real</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_OK">
+    <value>Aceptar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FindAndReplace_NotFound">
+    <value>El texto de búsqueda no fue encontrado.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_RowSpan">
+    <value>Tamaño de Fila</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_FontTab">
+    <value>Fuente</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_AlwaysUseScrollbars">
+    <value>Siempre utilizar barras de desplazamiento</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_DoublepointedNESW">
+    <value>Doble punta de flecha NE-SW</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="InsertSelectDialog_PixelsOrPercents">
+    <value>píxeles,%</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_ClassID">
+    <value>Especifica el ID de la clase</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_NoPermissionsToDeleteFolder">
+    <value>La carpeta seleccionada no se pudo eliminar porque la aplicación no tiene permisos suficientes. Por favor, póngase en contacto con el administrador.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_TargetSearch">
+    <value>Panel de búsqueda</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Style">
+    <value>Estilo</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FindReplaceSettings_Title">
+    <value>Buscar y Reemplazar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_Tab1HeaderText">
+    <value>Propiedades de la tabla</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_ImageTitleText">
+    <value>Título del Texto</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_ShowTracker">
+    <value>Esta propiedad especifica o recupera un valor que indica si el control deslizable es visible.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Bold">
+    <value>Negrita</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageMap_HowToAdd">
+    <value>Puede arrastrar sobre la imagen para crear una nueva zona.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_AllowFloatingObjects">
+    <value>Permitir objetos flotantes</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_VideoBorder3D">
+    <value>Esta propiedad obtiene o establece un valor que indica si el efecto de borde tridimensional del video está habilitado.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_Copy">
+    <value>Copiar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="InsertExternalVideo_AspectRatio">
+    <value>Relación de aspecto</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageMap_RemoveArea">
+    <value>Eliminar la zona</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="InsertExternalVideo_ShowTitleSetting">
+    <value>Mostrar título antes de que el video comience a reproducirse</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="About_Copyright">
+    <value>Copyright 2002-2012 ©Telerik  Todos los derechos reservados.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_ColumnSpan">
+    <value>Tamaño de columna</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageMap_AreaFieldSet">
+    <value>Propiedades del área seleccionada</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_ValidateNumber">
+    <value>Por favor, introduzca sólo valores numéricos.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FlashManager_Custom">
+    <value>personalizado</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_AddText_Title">
+    <value>Insertar Texto</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageMap_AlertInvalidAreaProperties">
+    <value>Propiedades de área inválidas. Por favor, introduzca la url.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_AddText_CurrentColorText">
+    <value>(El Color Actual es {0})</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageMap_SelectImage">
+    <value>Por favor, elija una imagen para crear el mapa de imagen.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SetImageProperties_ImageAlignment">
+    <value>Alineación de la imagen</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_Resize_PresetSizes">
+    <value>Tamaños Preestablecidos</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_Redo">
+    <value>Rehacer</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_Hourglass">
+    <value>Reloj de arena</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_CursorType">
+    <value>Esta propiedad obtiene o establece el tipo de cursor.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Lines">
+    <value>Líneas</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="InsertExternalVideo_FullscreenSetting">
+    <value>Botón para activar pantalla completa</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_Up">
+    <value>Arriba</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_SendOpenStateChangeEvents">
+    <value>Esta propiedad obtiene o establece un valor que indica si el control de Windows Media Player envía eventos para cambiar el estado.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="InsertSelectDialog_AddOption">
+    <value>Añadir Opción</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_ContentAlignment">
+    <value>Alineación del Contenido</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FlashManager_FlashPropertiesLegend">
+    <value>Propiedades de la película Flash</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Absolute">
+    <value>Absoluto</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_CaptionAlign">
+    <value>Alinear texto</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_Crosshair">
+    <value>Cursor</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_NonExistingFolder">
+    <value>Usted está tratando de navegar a una carpeta que no existe o no tiene los permisos adecuados para ver esta carpeta. Por favor, póngase en contacto con el administrador.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_Opacity_Title">
+    <value>Opacidad</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_BottomSide">
+    <value>Sólo parte inferior</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="About_Title">
+    <value>RadEditor por Telerik</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_TableCss">
+    <value>Tabla CSS</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="InsertSelectDialog_ManageOptions">
+    <value>Añadir/Eliminar Opciones</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_Open">
+    <value>Abierto</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FlashManager_CenterBottom">
+    <value>Abajo en el centro</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TrackChangesDialog_Obsolete">
+    <value>El cuadro de díálogo Rastrear cambios es obsoleto. Por favor, utilice &lt;a href="http://www.telerik.com/help/aspnet-ajax/editor-track-changes.html" target="blank"&gt;la propiedad EnableTrackChanges property&lt;/a&gt; para permitir una mejor funcionalidad de rastreo de cambios, la cual ofrece mejor interacción y usabilidad..</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_Resize">
+    <value>Cambiar tamaño</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_TableBorderControlSizeOverflow">
+    <value>Está tratando de establecer el tamaño de borde  mayor que el máximo (1000). Se pondrá a 1000.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Collapsed">
+    <value>Contraído</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_PixelsOrPercents">
+    <value>píxeles,%</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_Print">
+    <value>Imprimir Imagen</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Border_title">
+    <value>Borde</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_BackgroundTab">
+    <value>En segundo plano</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_Percent">
+    <value>Porcentaje</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SizeMargins_Title">
+    <value>Tamaño y Márgenes</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Justification">
+    <value>Justificación</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_TableControls">
+    <value>Controles de Tabla</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FlashManager_Medium">
+    <value>Medio</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_NoCSSClassLayout">
+    <value>Diseño sin clase CSS</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_DoubleSourceImage">
+    <value>Duplicar las dimensiones de la imagen original</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_ValidateAudio">
+    <value>Por favor, introduzca un valor entre cero y siete que indica la transmisión de audio actual, o 0xFFFFFFFF si no hay ninguna transmisión seleccionada.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SetImageProperties_LinkToOriginal">
+    <value>Enlace a la original</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_Opacity_TextboxToolTip">
+    <value>Introducir un valor entre 0 y 100%</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_CustomBullet">
+    <value>Viñeta personalizada</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="LinkManager_LinkSubject">
+    <value>Asunto</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_LeftAndRightSide">
+    <value>Sólo lados derecho e izquierdo</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Lighter">
+    <value>Más claro</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FindReplaceSettings_FindAndReplace">
+    <value>Buscar y Reemplazar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_GridPagerText">
+    <value>Página {4} &lt;strong&gt;{0} &lt;/strong&gt;de &lt;strong&gt;{1} &lt;/strong&gt;. &lt;strong&gt;Del elemento {2} &lt;/strong&gt;al &lt;strong&gt;{3} &lt;/strong&gt;de &lt;strong&gt;{5} &lt;/strong&gt;</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ReservedResource">
+    <value>Por favor, no elimine esta cadena de texto. RadEditor la necesita para determinar si un archivo de recursos externos está en App_GlobalResources.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_AccessibilityOptions">
+    <value>Opciones de accesibilidad</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="InsertSelectDialog_Value">
+    <value>Valor</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_Common_SliderDrag">
+    <value>Arrastrar para cambiar el valor</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FormatCodeBlock_MaxSnippetHeight">
+    <value>Altura máxima de los fragmetos</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_ValidateNumber10">
+    <value>Por favor, introduzca un valor entre -10,00 a 10,00.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_ConstrainProportions">
+    <value>Restringir proporciones?</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_EnableContextMenu">
+    <value>Esta propiedad obtiene o establece un valor que indica si el menú contextual aparece cuando el usuario hace clic en el botón derecho del ratón.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SetImageProperties_VerticalSpacing">
+    <value>Espacio vertical</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_FlipVertical">
+    <value>Girar vertical</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_Summary">
+    <value>Resumen</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Clipping">
+    <value>Recorte</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Medium">
+    <value>Medio</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_Value">
+    <value>Valor</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_CurrentPosition">
+    <value>Esta propiedad obtiene o establece la posición actual del clip, medido en segundos.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_Columns">
+    <value>Columnas</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MobileLinkManager_LinkTarget">
+    <value>Destino</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_OnlyOnLeft">
+    <value>Sólo a la izquierda</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Capitalization">
+    <value>Uso de mayúsculas</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_UseColor">
+    <value>Usar Color</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Underline">
+    <value>Subrayar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageMap_SelectAreaShape">
+    <value>Seleccione forma de área</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SetImageProperties_LongDescription">
+    <value>Descripción larga</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MobileTableProperties_CellPadding">
+    <value>CellPadding</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Image">
+    <value>Imagen</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="InsertSelectDialog_Text">
+    <value>Texto</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_CellCss">
+    <value>celda CSS</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_LeftToRight">
+    <value>De izquierda a derecha</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_TextFlow">
+    <value>Flujo de Texto</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="LinkManager_LinkAddress">
+    <value>Dirección</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_InvalidFileExtension">
+    <value>La extensión del archivo subido no es válida. Por favor, utilice un archivo válido!</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FlashManager_LeftTop">
+    <value>Arriba a la izquierda</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FindAndReplace_FindNext">
+    <value>Buscar siguiente</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Display">
+    <value>Mostrar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_Enabled">
+    <value>Esta propiedad obtiene o establece un valor que indica si el control de Windows Media Player está habilitado.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_CustomTargets">
+    <value>Destinos personalizados</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_DoubleLine">
+    <value>Doble línea</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_Middle">
+    <value>Medio</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FormatCodeBlock_LanguageCS">
+    <value>C #</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_Save_FileNameLabel">
+    <value>Nombre de Archivo</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_InvalidFileSize">
+    <value>El tamaño del archivo subido excede el tamaño máximo permitido</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Specific">
+    <value>Específico</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DocumentManager_Title">
+    <value>Gestor de documentos</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_StatusBar_LastAction">
+    <value>Última Acción</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PageProperties_RightMargin">
+    <value>Margen derecho</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_AssociateCellsWithHeaders">
+    <value>Asociar celdas con cabeceras</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_BorderColor">
+    <value>Color del borde</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_SortByFilename">
+    <value>Nombre de archivo</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_ValidateNumber10000">
+    <value>Por favor, introduzca un valor entre -10.000 y 10.000.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_Resize_Percentage">
+    <value>Porcentaje</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_PasteMarkdownMessage">
+    <value>Por favor, inserte el contenido Rebaja, que desea pegar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Outset">
+    <value>Altorrelieve</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_LayoutTab">
+    <value>Diseño</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_AddText_PickColorToolTip">
+    <value>Seleccionar Color</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_Nosubpicturestream">
+    <value>No hay transmisión de subimagen</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_Crop_Button">
+    <value>Cortar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_SendMouseClickEvents">
+    <value>Esta propiedad obtiene o establece un valor que indica si el control de Windows Media Player envía eventos de clic del ratón.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_OverwriteExisting">
+    <value>Sobrescribir si el archivo existe?</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_Crop">
+    <value>Cortar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_CurrentAudioStream">
+    <value>Esta propiedad obtiene o establece un valor que indica la transmisión de audio actual.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_Height">
+    <value>altura</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_UseScrollbarsIfNeeded">
+    <value>Utilice barras de desplazamiento si es necesario</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_TextTab">
+    <value>Texto</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Collapse">
+    <value>Contraer</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FlashManager_High">
+    <value>Alto</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_Resize_Title">
+    <value>Cambiar tamaño</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_ShowCaptioning">
+    <value>Esta propiedad obtiene o establece un valor que indica si el área de subtítulos es visible y si los subtitulos están activos.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_Set">
+    <value>Configurar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_Delete">
+    <value>Eliminar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DocumentManager_DocumentPropertiesLegend">
+    <value>Propiedades del documento</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_Custom">
+    <value>personalizado</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_Betweenall">
+    <value>Entre todas las filas y columnas</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="LinkManager_AnchorTab">
+    <value>Anclaje</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_FileExists">
+    <value>¡Ya existe un archivo con un nombre igual al de destino!</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_SelectionStart">
+    <value>Esta propiedad obtiene o establece el momento en el clip actual a la que la reproducción se iniciará.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Thin">
+    <value>Fino</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_PlayCount">
+    <value>Esta propiedad obtiene o establece el número de veces que un clip se reproduce</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_Frame">
+    <value>Marco</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_Opacity">
+    <value>Opacidad</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_Common_Position">
+    <value>Posición</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_AllowChangeDisplaySize">
+    <value>Esta propiedad obtiene o establece un valor que indica si el tamaño de la pantalla se puede cambiar.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Thick">
+    <value>Grosor</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_SolidLine">
+    <value>Línea sólida</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_Common_X">
+    <value>x</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_Save_FileNameToolTip">
+    <value>Introducir Nombre de Archivo</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_Caption">
+    <value>Título</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_NoStyle">
+    <value>Sin estilo</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SilverlightManager_Windowless">
+    <value>Sin ventanas</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Float">
+    <value>Flotar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_Tab2HeaderText">
+    <value>Propiedades de celda</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_InvalidCellHeight">
+    <value>Altura de celda inválida</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PageProperties_BodyAttributes">
+    <value>Atributos del elemento 'Body'</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SetImageProperties_OpenInNewWindow">
+    <value>Abrir en una ventana nueva</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_UnBulleted">
+    <value>Sin viñetas</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Clear">
+    <value>Borrar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_Customh">
+    <value>Personalizado -</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_FlowControl">
+    <value>Control de flujo</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PageProperties_LeftMargin">
+    <value>Margen izquierdo</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_AddHexColor">
+    <value>Añadir color hexadecimal...</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_SortBySize">
+    <value>Tamaño</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_or">
+    <value>o</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_AddText_FontFamilyToolTip">
+    <value>La familia de fuentes del texto que se va a añadir</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_Align">
+    <value>Alinear</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_SlashedCircle">
+    <value>Círculo rayado</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_PromptColor">
+    <value>Por favor, indique el valor HEX del color personalizado:</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_Balance">
+    <value>Esta propiedad obtiene o establece un valor que indica el balance estéreo.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_BestFit">
+    <value>Ajuste perfecto</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Square">
+    <value>Cuadrado</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_Customh">
+    <value>Personalizado -</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_Bottom">
+    <value>Parte inferior</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_DimensionUnit">
+    <value>Unidad de medida</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_MessageCannotWriteToFolder">
+    <value>No se puede escribir en la carpeta de destino!</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_FlipBoth">
+    <value>Voltear ambos</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_InvalidCharactersInPath">
+    <value>Los caracteres no válidos en nombre de la carpeta.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_SameForAll">
+    <value>Lo mismo para todos</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Visibility">
+    <value>Visibilidad</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_Flip_None">
+    <value>Voltear Ninguno</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_DisplaySize">
+    <value>Esta propiedad obtiene o establece el tamaño de la ventana de visualización de la imagen.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="LinkManager_HyperlinkTab">
+    <value>Hipervínculo</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PageProperties_BottomMargin">
+    <value>Margen inferior</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FindAndReplace_CaseSensitive">
+    <value>Distinción entre mayúsculas y minúsculas</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_NewImageName">
+    <value>Nuevo nombre de la imagen</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_TargetSelf">
+    <value>Misma ventana</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Groove">
+    <value>Guía</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_Resize_Button">
+    <value>Cambiar tamaño</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_DontAllowTextOnSides">
+    <value>No permitir texto en los lados</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_Alignment">
+    <value>Alineación</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Inline">
+    <value>Como elemento de entrada</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_FontSize">
+    <value>Tamaño</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_UseControlVMessage">
+    <value>Por favor, utilice CTRL + V para pegar el siguiente contenido que le gustaría limpiar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_Dimensions">
+    <value>Dimensiones</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="InsertExternalVideo_PasteVideoURL">
+    <value>Pegar URL de video en Youtube o Vimeo</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FindAndReplace_SearchIn">
+    <value>Buscar en</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_Text1">
+    <value>Texto1</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Padding">
+    <value>Relleno</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MobileLinkManager_LinkText">
+    <value>Texto del enlace</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_Target">
+    <value>Destino</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_Rate">
+    <value>Esta propiedad obtiene o establece la velocidad de reproducción del clip.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageManager_AlertHeight">
+    <value>Por favor, introduzca una altura de imagen válida.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_Custom">
+    <value>personalizado</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Uppercase">
+    <value>Mayúsculas</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageMap_AlertWrongAreaDimensions">
+    <value>Detectada dimensión de área incorrecta. Saltando este área.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_NoPermissionsToDeleteFile">
+    <value>El archivo seleccionado no se pudo eliminar porque la aplicación no tiene permisos suficientes. Por favor, póngase en contacto con el administrador.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MobileImageProperties_Description">
+    <value>Descripción</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_Content">
+    <value>Contenido</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_SmallCaps">
+    <value>Versalitas</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_SortByExtTitle">
+    <value>Ordenar por Extensión</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FlashManager_Transparent">
+    <value>Transparente</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FlashManager_Loop">
+    <value>Bucle</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_None">
+    <value>Ninguno</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_AutoStart">
+    <value>Esta propiedad obtiene o establece un valor que indica si se debe iniciar la reproducción del clip automáticamente.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_Blue">
+    <value>Azul</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PageProperties_Keywords">
+    <value>Palabras clave</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Inside">
+    <value>Dentro (El texto no tiene sangría)</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MobileTableProperties_Title">
+    <value>Propiedades de la tabla</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_TableDesignPreviewLabel">
+    <value>Vista previa de Diseño en Tabla</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_ImageFieldSet">
+    <value>Propiedades de la imagen</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Dimensions">
+    <value>Dimensiones</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Content">
+    <value>Contenido</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_OnEitherSide">
+    <value>A ambos lados</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_AllowScan">
+    <value>Esta propiedad obtiene o establece un valor que indica si se habilita el scanning de los archivos que soportan scanning (avance rápido y rebobinado).</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_Resize_PercentageToolTip">
+    <value>Porcentaje de Ancho x Alto original [0,100%]</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_StatusBar_Size">
+    <value>Tamaño</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="InsertSelectDialog_Size">
+    <value>Tamaño</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="InsertExternalVideo_AdvancedMode">
+    <value>Modo Avanzado</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_LastColumn">
+    <value>Última columna</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_Transparent">
+    <value>Transparente</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FlashManager_Left">
+    <value>Izquierda</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_DoublepointedNS">
+    <value>Doble punta de flecha de N-S</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_VideoBorderWidth">
+    <value>Esta propiedad obtiene o establece el ancho del borde del vídeo en píxeles.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_DisplayBackColor">
+    <value>Esta propiedad obtiene o establece el color de fondo del panel de visualización.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_TopSide">
+    <value>Sólo parte superior</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_AudioStream">
+    <value>Esta propiedad obtiene o establece el número de transmisión de la transmisión de audio actual.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FlashManager_LeftBottom">
+    <value>Abajo a la izquierda</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_CCActive">
+    <value>Esta propiedad obtiene o establece un valor que indica si los subtítulos están activos o no.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_Streamisvalid">
+    <value>La transmisión es válida</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="InsertExternalVideo_EmbedCode">
+    <value>Insertar código</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_EntireScreen">
+    <value>Tamaño de la pantalla completa</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_LeftSide">
+    <value>Lado izquierdo</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_AddCustomColor">
+    <value>Añadir color personalizado ...</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_ThumbnailsView">
+    <value>Vista de Miniaturas</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FlashManager_RightBottom">
+    <value>Abajo a la derecha</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_Select">
+    <value>Seleccionar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_FirstColumn">
+    <value>Primera columna</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="InsertSelectDialog_Options">
+    <value>Opciones</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_ClassIDText">
+    <value>ID de clase</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_PresetTargets">
+    <value>Destinos predeterminado</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FindAndReplace_Title">
+    <value>Buscar &amp;amp; reemplazar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageMap_DefineAreaPropertiesLegend">
+    <value>Define las Propiedades de Área.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="InsertSelectDialog_Multiple">
+    <value>Múltiple</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_VideoBorderColor">
+    <value>Esta propiedad obtiene o establece el color del borde del vídeo.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_GridSortedDescToolTip">
+    <value>Ordenar desc</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_SortBySizeTitle">
+    <value>Ordenar por Tamaño</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_SendMouseMoveEvents">
+    <value>Esta propiedad obtiene o establece un valor que indica si el control de Windows Media Player envía eventos de movimiento de ratón .</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_Add">
+    <value>Agregar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SilverlightManager_AutoUpgrade">
+    <value>Actualización automática</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_InsertImage_Title">
+    <value>Insertar Imagen</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_Save_Title">
+    <value>Guardar Imagen</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_PasteHtmlMessage">
+    <value>Por favor, introduzca el contenido HTML que desea pegar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_Hidden">
+    <value>Esta propiedad obtiene o establece un valor que indica si el reproductor es visible en el navegador.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_ZoomIn">
+    <value>Acercar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_Uploading">
+    <value>Subiendo ...</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_Crop_AspectRatio">
+    <value>Relación de Aspecto</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_MediaPropertiesLegend">
+    <value>Propiedades del soporte multimedia</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="LinkManager_ExistingAnchor">
+    <value>Anclaje existente</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_SendWarningEvents">
+    <value>Esta propiedad obtiene o establece un valor que indica si el control de Windows Media Player envía eventos de alerta</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageMap_UpdateArea">
+    <value>Actualizar área</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_SelectionEnd">
+    <value>Esta propiedad obtiene o establece el momento en que la reproducción del clip actual se detendrá. Esta propiedad no se puede establecer o recuperar hasta que &lt;b&gt;la propiedad ReadyState&lt;/b&gt;(sólo lectura) tenga un valor de 4.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_Crop_AspectRatioToolTip">
+    <value>Seleccionar la Relación de Aspecto</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_SixteenthScreen">
+    <value>1/16 del tamaño de pantalla</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_Middle">
+    <value>Medio</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_RightToLeft">
+    <value>De derecha a izquierda</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_Rotate_Title">
+    <value>Girar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_SelectProperty">
+    <value>Seleccione Propiedad</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_NoBorders">
+    <value>Sin bordes</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageMap_Comment">
+    <value>Texto alternativo</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_CurrentAngle">
+    <value>Esta propiedad obtiene o establece un número que identifica el ángulo de la cámara actual.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Disk">
+    <value>Disco</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="LinkManager_GenerateId">
+    <value>Generación de ID</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_BorderStyle">
+    <value>Estilo de Borde</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RadEditorDialogsDescription">
+    <value>Cadenas de recursos para diálogos RadEditor.</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_TargetBlank">
+    <value>Nueva ventana</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_TargetMedia">
+    <value>Panel Multimedia</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_AlignmentSelector">
+    <value>Selector de alineación</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MobileImageProperties_Title">
+    <value>Propiedades de la imagen</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="InsertTable_CellPadding">
+    <value>CellPadding</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_SaveAs">
+    <value>Guardar como ...</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_AlertValue">
+    <value>Por favor, introduzca un valor válido en propiedad!</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_Mute">
+    <value>Esta propiedad obtiene o establece el estado actual de "Silencio" del control de Windows Media Player.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_FixedBackground">
+    <value>de fondo fijo</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_AddText_FontSizeToolTip">
+    <value>El tamaño del texto que se va a añadir</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Smaller">
+    <value>Más pequeño</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_Volume">
+    <value>Esta propiedad obtiene o establece el volumen, en centenas de decibelios.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_EnableTracker">
+    <value>Esta propiedad obtiene o establece un valor que indica si el control deslizable está habilitado.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FormatCodeBlock_PasteSourceCode">
+    <value>Pegar el código fuente a continuación</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_ToTheRight">
+    <value>A la derecha</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_Bottom">
+    <value>Parte inferior</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_Common_FileExists">
+    <value>¡Ya existe un archivo con un nombre igual al de destino!</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FlashManager_AlertWidthHeight">
+    <value>Por favor, introduzca ancho y alto del archivo flash!</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Both">
+    <value>Ambos</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_ControlButtons">
+    <value>Botones de control</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageMap_AlertDeleteAllAreas">
+    <value>¿Está seguro de que desea eliminar TODAS las áreas?</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageMap_NewArea">
+    <value>Nuevo Área</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_GridView">
+    <value>Vista de Cuadrícula</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_ZoomOut">
+    <value>Alejar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PageProperties_TopMargin">
+    <value>Margen superior</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_ValidateLCID">
+    <value>Por favor, especifique un valor numérico que corresponde a un LCID que identifica a una lozalización para el soporte de idiomas.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SilverlightManager_EnableHtmlAccess">
+    <value>Habilitar el acceso Html</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_SortByFilenameTitle">
+    <value>Ordenar por nombre de archivo</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_Preview">
+    <value>Vista previa</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_RightSide">
+    <value>Sólo el lado derecho.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Tiling">
+    <value>En Mosaico</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_AnimationAtStart">
+    <value>Esta propiedad obtiene o establece un valor que indica si la animación se ejecuta antes de que aparezca la primera imagen.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_HeadingRow">
+    <value>Fila del encabezado</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_AllFourSides">
+    <value>Los cuatro lados</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FindAndReplace_SearchDirection">
+    <value>Orinetación</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_FileListSummary">
+    <value>Tabla que muestra el contenido del directorio actual</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_Right">
+    <value>Derecho</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_Flip_Title">
+    <value>Rotar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="LinkManager_LinkName">
+    <value>Nombre</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_SendPlayStateChangeEvents">
+    <value>Esta propiedad obtiene o establece un valor que indica si el control de Windows Media Player envía eventos de cambio de estado de reproducción.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_SendErrorEvents">
+    <value>Esta propiedad obtiene o establece un valor que indica si el control de Windows Media Player envía eventos de error.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_ClearClass">
+    <value>Borrar la clase</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FlashManager_RightCenter">
+    <value>Derecha en el centro</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FlashManager_FlashMenu">
+    <value>Menú Flash</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RadEditorDialogsTitlePlural">
+    <value>RadEditor Diálogos</value>
+    <comment>The title plural of this class.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Words">
+    <value>Palabras</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FindAndReplace_SearchOptions">
+    <value>Opciones de búsqueda</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FindReplaceSettings_MatchCase">
+    <value>Coincidir mayúsculas y minúsculas</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_ColumnSettings">
+    <value>Número de columna y tamaño de columna</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FormatCodeBlock_DisplayLineNumbers">
+    <value>Mostrar números de línea</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_AddText_SampleText">
+    <value>Su texto aquí...</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="LinkManager_LinkType">
+    <value>Tipo</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FlashManager_Right">
+    <value>Derecho</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_ApplyTo">
+    <value>Aplicar a</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_Additional">
+    <value>Adicional</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Indentation">
+    <value>Sangría</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_RotateLeft">
+    <value>Girar 90 grados a la izquierda</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_Tab4HeaderText">
+    <value>Accesibilidad</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_GridSortedAscToolTip">
+    <value>Ordenar asc</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_UploadFile">
+    <value>Cargar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_Samesize">
+    <value>Del mismo tamaño que la imagen de origen</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_ValidateNumberHex">
+    <value>Por favor, especifique un valor hexadecimal.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_BetweenRows">
+    <value>Entre las filas</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Block">
+    <value>Como elemento de bloque</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_BorderTab">
+    <value>Borde</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FlashManager_Middle">
+    <value>Medio</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_CurrentCCService">
+    <value>Esta propiedad obtiene o establece un valor que indica el servicio de subtítulos actual.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_OpacityNotSupported">
+    <value>El actual formato de imagen no admite la opacidad.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FormatCodeBlock_LanguageXml">
+    <value>Marcado - (X) HTML, ASPX XML, ...</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_Fourpointedarrow">
+    <value>flecha de cuatro puntas</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_NoUploadedFile">
+    <value>Por favor, seleccione un archivo para cargar!</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_AddCustomTarget">
+    <value>[Agregar destino personalizado ...]</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_FlipHorizontal">
+    <value>Girar horizontalmente</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Background">
+    <value>Generador de estilo de segundo plano</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_Tab3HeaderText">
+    <value>Propiedades de celda</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_NotSet">
+    <value>&amp;lt;No Configurado&amp;gt;</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FlashManager_RightTop">
+    <value>Arriba a la derecha</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FindAndReplace_NotSupported">
+    <value>La función de búsqueda no está soportada en este navegador!</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_Top">
+    <value>Arriba</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageMap_AlertDeleteArea">
+    <value>Está seguro de que desea eliminar este área.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="InsertExternalVideo_PrivacySetting">
+    <value>Activar el modo mejorado de privacidad</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FindAndReplace_MatchWholeWords">
+    <value>Coincidir toda la palabra</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MobileLinkManager_Title">
+    <value>Insertar enlace</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_EnableFullScreenControls">
+    <value>Esta propiedad obtiene o establece un valor que indica si Windows Media Player muestra los controles en modo de pantalla completa.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_HalfSourceImage">
+    <value>W y H son la mitad de la imagen de origen</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageMap_RemoveAllAreas">
+    <value>Eliminar todos</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="InsertSelectDialog_Name">
+    <value>Nombre</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_NoInteriorBorders">
+    <value>Sin bordes interiores</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FindAndReplace_SearchText">
+    <value>Buscar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_GridSortToolTip">
+    <value>Haga clic aquí para ordenar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SetImageProperties_HorizontalSpacing">
+    <value>Espacio horizontal</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Alignment">
+    <value>Alineación</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_SelectAll">
+    <value>Seleccionar todo</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_AllowTextToFlow">
+    <value>Permitir que el texto fluya</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_Title">
+    <value>Administrador multimedia</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Larger">
+    <value>Ampliar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_AllowedExtensions">
+    <value>Extensiones de archivo permitido</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_SpacingBetween">
+    <value>Espacio entre</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_RotateRight">
+    <value>Girar 90 grados a la derecha</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PageProperties_BackColor">
+    <value>Color de fondo</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Bolder">
+    <value>Más negrita</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_Zoom_TextboxToolTip">
+    <value>Introducir un valor entre 0 y 100%</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_ShowGotoBar">
+    <value>Esta propiedad obtiene o establece un valor que indica si la barra "Ir a" es visible.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_Red">
+    <value>Roja</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_AllRowsAndColomns">
+    <value>Todas las filas y columnas</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FlashManager_CenterCenter">
+    <value>Centro en el entro</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_ImageEditor">
+    <value>Editor de imágenes</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_Increase">
+    <value>Aumentar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_ListsTab">
+    <value>Listas</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FindAndReplace_Search">
+    <value>Búsqueda</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_HeadingRows">
+    <value>Filas del encabezado</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_Back">
+    <value>Volver</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_TargetParent">
+    <value>Ventana padre</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_MessageNoValidDimensions">
+    <value>Por favor, introduzca unas dimensiones de imagen válidas</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_LastRow">
+    <value>Última fila</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_StyleBuilder">
+    <value>Generador de estilos</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_Center">
+    <value>Centro</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Effects">
+    <value>Efectos</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_Yellow">
+    <value>Amarillo</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_FontFamily">
+    <value>Familia</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="LinkManager_LinkTarget">
+    <value>Destino</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageMap_Rectangle">
+    <value>Rectángulo</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_Zoom_ActualSizeToolTip">
+    <value>Zoom al 100%</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageManager_AlertDimensions">
+    <value>Por favor, introduzca el ancho o la altura de la miniatura.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_NoColor">
+    <value>Ningún color</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FlashManager_AlertClassID">
+    <value>Por favor, introduzca un identificador de clase!</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Bulleted">
+    <value>En Viñetas</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_MessageSourceNotLocal">
+    <value>La especificada para la conversión de archivos de imagen se encuentra en un servidor diferente!</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_BackgroundColor">
+    <value>Color de fondo</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FindAndReplace_Replace">
+    <value>Reemplazar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PageProperties_Description">
+    <value>Descripción</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_AddText_FontSize">
+    <value>Tamaño de Fuente</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_AllProperties">
+    <value>Todas las Propiedades...</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_Width">
+    <value>Ancho</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_Reset">
+    <value>Restaurar imagen</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_MoreTableStyling">
+    <value>Más Estilos de Tablas...</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FlashManager_Play">
+    <value>Reproducir</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_Verticalarrow">
+    <value>Flecha vertical</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_Paste">
+    <value>Pegar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Dashed">
+    <value>Punteado</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_ImageAltText">
+    <value>Texto alternativo</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageManager_AlertWidth">
+    <value>Por favor, introduzca un ancho válido de imagen.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FlashManager_Low">
+    <value>Bajo</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SetImageProperties_ImageSrc">
+    <value>Fuente de Imagen</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_DefaultCaption1">
+    <value>predeterminado. Titulo1</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_Print_Button">
+    <value>Imprimir</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_RowSettings">
+    <value>Número de fila y tamaño de fila</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FlashManager_FlashAlign">
+    <value>Alinear Flash</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PageProperties_PageAttributes">
+    <value>Atributos de página</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_ScrollingBackground">
+    <value>Fondo del desplazamiento</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_DoNotUseBgrImage">
+    <value>No usar imagen de fondo</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="InsertTable_Title">
+    <value>Insertar tabla</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_QuarterScreen">
+    <value>Una cuarta parte del tamaño de la pantalla</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_None">
+    <value>Ninguno</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_TargetTop">
+    <value>Ventana del navegador</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_Close">
+    <value>Cerrar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_Baseline">
+    <value>Línea de base</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SetImageProperties_Constrain">
+    <value>Restricción</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PageProperties_PageTitle">
+    <value>Título de la página</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_MoreCellStyling">
+    <value>Más Estilos de Celdas...</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Center">
+    <value>Centro</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_Crop_Title">
+    <value>Recortar Imagen</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_Left">
+    <value>Izquierda</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Overline">
+    <value>Línea alta</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_DoublepointedWE">
+    <value>Flecha de dos puntas apuntando hacia O-E</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_AddText">
+    <value>Añadir Texto</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_ExtendedDataServices">
+    <value>Servicios de datos extendidos (XDS)</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_Baseline">
+    <value>Línea de base</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_InvalidTableHeight">
+    <value>Altura de tabla inválida</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Justify">
+    <value>Justificar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_DisplayForeColor">
+    <value>Esta propiedad obtiene o establece el color de fondo del panel de visualización.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="InsertTable_CellSpacing">
+    <value>CellSpacing</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_Client_AlertFile">
+    <value>Por favor, introduzca archivo a cargar!</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_Common_SwapWidthHeight">
+    <value>Intercambiar Ancho y Alto</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_TransparentAtStart">
+    <value>Esta propiedad obtiene o establece un valor que indica si el control de Windows Media Player es transparente antes de que comience la reproducción y después de que termine.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_Save_ClientRadioText">
+    <value>Descargar Imagen</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StyleBuilder_Inset">
+    <value>Bajorrelieve</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_Rotate">
+    <value>Girar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SilverlightManager_MinVersion">
+    <value>Versión mínima de Runtime</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_DesignTime">
+    <value>Tamaño especificado en tiempo de diseño</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_PreviewMode">
+    <value>Esta propiedad obtiene o establece un valor que indica si el Reproductor de Windows Media está en modo de vista previa.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_ClickToPlay">
+    <value>Esta propiedad obtiene o establece un valor que indica si el usuario puede alternar entre reproducir y parar haciendo clic en la imagen de vídeo.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FindAndReplace_MatchCase">
+    <value>Coincidir mayúsculas y minúsculas</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_Create">
+    <value>Crear</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="InsertExternalVideo_AutoplaySetting">
+    <value>Reproducir el video de forma automática al cargar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_Properties">
+    <value>Propiedades</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ImageEditor_Resize_PresetSizesToolTip">
+    <value>Seleccionar Alto x Ancho Predeterminado</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_Remove">
+    <value>Eliminar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_Bottom">
+    <value>Parte inferior</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_Arrowhourglass">
+    <value>Flecha normal y pequeño reloj de arena</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Common_CreateThumbnail">
+    <value>Crear miniatura</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_InvokeURLs">
+    <value>Esta propiedad obtiene o establece un valor que indica si el control de Windows Media Player, llama automáticamente a las direcciones URL en un navegador (URL flipping).</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_Standardarrow">
+    <value>Flecha normal</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_ShowPositionControls">
+    <value>Esta propiedad obtiene o establece un valor que indica si los controles de posición aparecen en la barra de control.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_Size">
+    <value>Tamaño</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FindAndReplace_Find">
+    <value>Buscar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_NoWrapping">
+    <value>No ajustar</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_Right">
+    <value>Derecho</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TableWizard_SelectTableStyle">
+    <value>Seleccionar Estilo de Tabla</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PageProperties_BaseLocation">
+    <value>Ubicación base</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MediaManager_ShowControls">
+    <value>Esta propiedad obtiene o establece un valor que indica si la barra de control es visible.</value>
+    <comment>RadEditorDialogs resource strings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+</root>

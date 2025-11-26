@@ -1,0 +1,835 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DbSqlType">
+    <value>Tipo de base de datos SQL</value>
+    <comment>phrase: DB SQL Type</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="SelectRelatedDataButton">
+    <value>Seleccionar...</value>
+    <comment>Select related data button label</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="DeletedModuleWarningForField">
+    <value>El contenido proveniente de este tipo no se puede seleccionar debido a que el módulo o la fuente que proporciona su contenido se borra o desactiva.</value>
+    <comment>phrase: Content from this type cannot be selected because the module or the source providing its content is deleted or deactivated.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="DateAndTime">
+    <value>Fecha y hora</value>
+    <comment>phrase: Date and Time</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="SelectedFileTypesLabel">
+    <value>Tipos de archivo seleccionados...</value>
+    <comment>Selected file types label.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="ThisFieldIsAvailableForEnteringDataIn">
+    <value>Este campo está disponible para la introducción de datos en ..</value>
+    <comment>Phrase: This field is available for entering data in...</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="EditField">
+    <value>Editar un campo</value>
+    <comment>phrase: Edit a field</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="DbType">
+    <value>Tipo DB</value>
+    <comment>phrase: DB Type</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="RelatedDataSectionTitle">
+    <value>Datos relacionados</value>
+    <comment>Backend related data section title.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="CustomDotDotDot">
+    <value>Personalizado ...</value>
+    <comment>phrase: Custom...</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="IncludeInIndexes">
+    <value>Incluir en los índices</value>
+    <comment>phrase: Include in indexes</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="ImageMediaField">
+    <value>Imágenes</value>
+    <comment>Image media field type radio button</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="VideosInterfaceWidgetGroupingTitle">
+    <value>Widget de interfaz para subir o seleccionar videos</value>
+    <comment>Grouping title for interface widget selector section in video designer.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="InterfaceWidgetForSelectingClassificationItems">
+    <value>Interfaz del widget para la selección de los elementos de clasificación</value>
+    <comment>phrase: Interface widget for selecting classification items</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="DoneButtonLabel">
+    <value>Hecho</value>
+    <comment>Done button label.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="RelatedPageItemDefaultFrontendWidgetName">
+    <value>Widget de navegación</value>
+    <comment>phrase: Navigation widget</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="RelatedDataSelectorTitle">
+    <value>Seleccionar elementos relacionados</value>
+    <comment>Default Related data selector title</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="HtmlField">
+    <value>Editor de texto enriquecido</value>
+    <comment>Friendly Name for HtmlField control</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="ImagesDefaultWidgetName">
+    <value>Selector de imágenes</value>
+    <comment>The default widget name for images.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="OtherFileTypes">
+    <value>Otros tipos de archivos</value>
+    <comment>Phrase: Other file types</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="FrontendVideoWidgetLabelInstructionalText">
+    <value>Esta es la etiqueta del widget de interfaz para la visualización de videos</value>
+    <comment>Instructional text for frontend video widget's label field.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="HierarchicalTaxonField">
+    <value>Selector de árbol (seleccionar de un árbol)</value>
+    <comment>Friendly Name for HierarchicalTaxonField control</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="ModuleEditorResourcesTitle">
+    <value>Módulo Editor</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="Choices">
+    <value>Opciones</value>
+    <comment>phrase: Choices</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="OtherExtensionsInstructionalText">
+    <value>Los tipos de archivo se separan con comas.  &lt;strong&gt;Ejemplo: &lt;/strong&gt; zip, rar</value>
+    <comment>Instructional text for other extensions field.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="InterfaceWidgetForEnteringData">
+    <value>Interfaz del widget para introducir datos</value>
+    <comment>phrase: Interface widget for entering data</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="Identifier">
+    <value>Identificador</value>
+    <comment>word: Identifier</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="Type">
+    <value>Tipo</value>
+    <comment>word: Type</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="RenderChoicesAs">
+    <value>Producir campo como</value>
+    <comment>Label text shown above multiple choice field render choice as dropdown.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="ShortText">
+    <value>Texto breve</value>
+    <comment>phrase: Short text</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="RequiredFieldCheckboxLabel">
+    <value>Este es un campo obligatorio</value>
+    <comment>Label for required field checkbox.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="MultipleFilesLimitation">
+    <value>Se pueden cargar o seleccionar varios archivos</value>
+    <comment>Multiple files limitation label.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="NameInvalidSymbols">
+    <value>El nombre contiene símbolos no válidos.</value>
+    <comment>The message shown when the name contains invalid symbols.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="DuplicateClassificationException">
+    <value>El tipo {0} ya contiene un campo con la clasificación de '{1}': '{2}.</value>
+    <comment>Exception: The type {0} already contains a field with classification '{1}' : '{2}'.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="FrontendFilesWidgetLabelInstructionalText">
+    <value>Esta es la etiqueta del widget de interfaz para visualizar archivos</value>
+    <comment>Instructional text for frontend files widget's label field.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="Currency">
+    <value>Moneda</value>
+    <comment>word: Currency</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="AddField">
+    <value>Agregar un campo</value>
+    <comment>phrase: Add a field</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="OnlyOneImageLimitation">
+    <value>solo se puede cargar o seleccionar 01 imagen</value>
+    <comment>Only one image limitation label.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="CustomWidgetVirtualPathLabel">
+    <value>Tipo o ruta virtual del widget personalizado</value>
+    <comment>Label for custom widget virtual path input field.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="DbLength">
+    <value>Longitud DB</value>
+    <comment>phrase: DB Length</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="YesNo">
+    <value>Sí/No</value>
+    <comment>phrase : Yes / No</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="LabelForInstructionalTextField">
+    <value>Texto de Instrucción</value>
+    <comment>Label for Instructional text field.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="NowhereThisIsHiddenField">
+    <value>En ninguna parte. Se trata de un campo oculto</value>
+    <comment>Phrase: Nowhere. This is a hidden field</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="EditLinkLabel">
+    <value>Editar</value>
+    <comment>Edit related data link label</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="CancelButtonLabel">
+    <value>cancelar</value>
+    <comment>Cancel button label.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="ViewItemsLinkText">
+    <value>Ver {0} artículos</value>
+    <comment>phrase: View {0} items</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="DocumentsFrontendWidgetName">
+    <value>Widget de documentos</value>
+    <comment>Documents widget</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="DuplicateFieldException">
+    <value>El tipo {0} ya contiene campo '{1}</value>
+    <comment>Exception: The type {0} already contains field '{1}'</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="MultipleItemsCheckboxLabel">
+    <value>Se pueden relacionar varios artículos de este tipo de datos</value>
+    <comment>Multiple items from this data type can be related</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="SimpleLink">
+    <value>Enlace sencillo</value>
+    <comment>phrase: Simple link</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="NameCannotBeEmpty">
+    <value>El nombre no puede estar vacío.</value>
+    <comment>phrase: Name cannot be empty.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="Unknown">
+    <value>Desconocido</value>
+    <comment>word: Unknown</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="ItemsLinkingToThisItem">
+    <value>Artículos enlazados a este artículo</value>
+    <comment>phrase: Items linking to this item</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="RelatingItemsDialogTitle">
+    <value>{0} artículos enlazan a este artículo</value>
+    <comment>Relating data dialog title</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="MediaTypes">
+    <value>¿Qué tipo de medios administrará este campo?</value>
+    <comment>word: MediaTypes</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="MaxFileSizeLabel">
+    <value>Se puede cargar el tamaño máximo de archivos</value>
+    <comment>Max file size label.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="ProvidersLabel">
+    <value>PROVEEDORES</value>
+    <comment>Providers label.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="BackButtonLabel">
+    <value>Volver</value>
+    <comment>Back button label.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="ImagesFrontendWidgetName">
+    <value>Widget de imágenes</value>
+    <comment>Images widget</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="LabelLiteral">
+    <value>Etiqueta</value>
+    <comment>Phrase: Label</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="TextArea">
+    <value>Área de texto</value>
+    <comment>Friendly Name for the TextField control used as a Text area</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="ImagesInterfaceWidgetGroupingTitle">
+    <value>Widget de interfaz para subir o seleccionar imágenes</value>
+    <comment>Grouping title for interface widget selector section in images designer.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="DropDownList">
+    <value>Lista desplegable</value>
+    <comment>Using dropdownlist for selection</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="RelatedBlogsDefaultFrontendWidgetName">
+    <value>Widget para blogs</value>
+    <comment>phrase: Blogs widget</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="DeleteLinkLabel">
+    <value>Eliminar</value>
+    <comment>Delete related data link label</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="Number">
+    <value>Número</value>
+    <comment>word: Number</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="AllowEmptyValues">
+    <value>Permitir valores vacíos</value>
+    <comment>phrase: Allow empty values</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="CloseButtonLabel">
+    <value>Cerrar</value>
+    <comment>Close button label</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="LongText">
+    <value>Texto largo</value>
+    <comment>phrase: Long text</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="NoneWholeNumbers">
+    <value>Ninguno (números completos)</value>
+    <comment>phrase: None (whole numbers)</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="FlatTaxonField">
+    <value>Selector de caja de texto (selecciona a medida que escribe)</value>
+    <comment>Friendly Name for FlatTaxonField control</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="Taxonomy">
+    <value>Clasificación</value>
+    <comment>word: Classification</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="FrontendImageWidgetLabelInstructionalText">
+    <value>Esta es la etiqueta del widget de interfaz para visualizar imágenes.</value>
+    <comment>Instructional text for frontend image widget's label field.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="CannotSaveChanges">
+    <value>Usted no puede guardar los cambios porque no tiene función de Administrador.</value>
+    <comment>Error message shown when user can not save changes at custom fields since the currently logged user is not in admin role.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="TypeOrVirtualPathExample">
+    <value>&lt;strong&gt;Escriba un ejemplo:&lt;/strong&gt; &lt;em&gt;CustomControls.MyCustomControl&lt;/em&gt;&lt;strong&gt;Ejemplo de ruta virtual:&lt;/strong&gt; &lt;em&gt;~/UserControls/MyUserControl.ascx&lt;/em&gt;</value>
+    <comment>phrase: &lt;strong&gt;Type example:&lt;/strong&gt; &lt;em&gt;CustomControls.MyCustomControl&lt;/em&gt;&lt;strong&gt;Virtual path example:&lt;/strong&gt; &lt;em&gt;~/UserControls/MyUserControl.ascx&lt;/em&gt;</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="CustomWidgetVirtualPathExample">
+    <value>Escribir ejemplo: CustomControls.MyCustomControlVirtual path &lt;b&gt;Ejemplo:&lt;/b&gt; ~/UserControls/MyUserControl.ascx</value>
+    <comment>Example for custom widget virtual path.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="DefaultFields">
+    <value>Campos predeterminados</value>
+    <comment>phrase: Default fields</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="FilterSelectedButton">
+    <value>seleccionado</value>
+    <comment>Filter selected button label</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="RelatedMediaSectionTitle">
+    <value>Medios relacionados</value>
+    <comment>The title of the section used for Related media fields</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="DocumentsDefaultWidgetName">
+    <value>Selector de archivos</value>
+    <comment>The default widget name for documents and files.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="DbScale">
+    <value>Escala DB</value>
+    <comment>phrase: DB Scale</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="NoSpacesAllowed">
+    <value>No se permiten espacios. Este es el nombre que se utiliza en el código y la base de datos</value>
+    <comment>Phrase: No spaces allowed. This is the name used in code and database</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="CustomWidgetOptionLabel">
+    <value>Personalizado ...</value>
+    <comment>Custom widget option label.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="ModuleEditorResourcesDescription">
+    <value>Contiene recursos localizables para la interfaz de usuario de Editor de Módulo.</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="NumberOfFilesLimitationLabel">
+    <value>¿Cuántos archivos se pueden cargar o seleccionar?</value>
+    <comment>Label for number of files limitation.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="MultipleChoice">
+    <value>Opciones múltiples</value>
+    <comment>phrase: Multiple choice</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="RadioButtons">
+    <value>Botones de radio</value>
+    <comment>Using radio buttons for selection</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="VideosFrontendWidgetName">
+    <value>Widget de videos</value>
+    <comment>Videos widget</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="RelatedItemSourceLable">
+    <value>Fuente</value>
+    <comment>Source</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="LimitationsTabName">
+    <value>Limitaciones</value>
+    <comment>The name of the limitations tab in related media designer.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="ThisIsHiddenField">
+    <value>Se trata de un campo oculto</value>
+    <comment>phrase: This is a hidden field</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="MultipleImagesLimitation">
+    <value>Se pueden cargar o seleccionar varias imágenes</value>
+    <comment>Multiple images limitation label.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="Name">
+    <value>Nombre</value>
+    <comment>word: Name</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="Checkbox">
+    <value>Sí/No (casilla)</value>
+    <comment>phrase: Yes/No (checkbox)</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="RelatedItemWidgetLabelInstructionalText">
+    <value>Esta es la etiqueta del widget de interfaz para seleccionar artículos</value>
+    <comment>This is the label of the interface widget for selecting items</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="CreateNewItemBtn">
+    <value>Crear nuevo elemento</value>
+    <comment>Create new item button label</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="ProductItemDefaultFrontendWidgetName">
+    <value>Widget de producto</value>
+    <comment>phrase: Product widget</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="DefaultFieldsSectionNote">
+    <value>Los campos predeterminados no se pueden borrar o editar. &lt;br /&gt;Sólo los puede &lt;strong&gt;ocultar/mostrar &lt;/strong&gt; en las pantallas.</value>
+    <comment>Phrase: Default fields can't be deleted or edited. You can only hide/show them on the screens.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="RelatedBlogPostsDefaultFrontendWidgetName">
+    <value>Widget de entradas en el blog</value>
+    <comment>phrase: Blog posts widget</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="Classification">
+    <value>Clasificación</value>
+    <comment>word: Classification</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="ViewLinkLabel">
+    <value>Ver</value>
+    <comment>View related data link label</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="EmptyGridMessage">
+    <value>No hay artículos para visualizar</value>
+    <comment>phrase: Inline control</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="VideosDefaultWidgetName">
+    <value>video selector</value>
+    <comment>The default widget name for videos.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="DeletedModuleWarning">
+    <value>Este widget ya no está disponible porque el módulo que proporciona sus contenidos ha sido borrado o desactivado.</value>
+    <comment>phrase: This widget is no longer available since the module providing its content is deleted  or deactivated.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="AllScreensWhereYouCanEdit">
+    <value>Todas las pantallas que utilizas con {0} en el área administrativa</value>
+    <comment>Phrase: All screens where you work with {0} in the Backend</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="RelatedItemsInterfaceWidgetGroupingTitle">
+    <value>Widget de interfaz para seleccionar artículos</value>
+    <comment>Interface widget for selecting items</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="OnlyOneFileLimitation">
+    <value>solo se puede cargar o seleccionar 01 archivo</value>
+    <comment>Only one file limitation label.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="CanSelectMultiple">
+    <value>Se pueden seleccionar varias opciones</value>
+    <comment>Multiple choices can be selected</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="RelatedMedia">
+    <value>Medios relacionados (imágenes, videos, archivos)</value>
+    <comment>phrase: Related Media</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="RelatedDataSourceDescription">
+    <value>&lt;p&gt;Seleccione la fuente desde la que desea utilizar contenido. Cada sitio en la instancia se puede usar como fuente. &lt;/p&gt;&lt;p&gt;Si siempre desea usar contenido desde el sitio predeterminado, elija &lt;em&gt;Fuente de sitio predeterminado&lt;/em&gt;.&lt;/p&gt;&lt;p&gt;Tenga en cuenta que una vez que la seleccione, la fuente no se puede cambiar.&lt;/p&gt;</value>
+    <comment>Description about the difrent types of available data sources who can be selected when adding a related data field</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="RelatedData">
+    <value>Datos relacionados</value>
+    <comment>phrase: Related data</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="TypeOrVirtualPathOfTheCustomWidget">
+    <value>Tipo o ruta virtual del widget personalizado</value>
+    <comment>phrase: Type or Virtual path of the custom widget</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="AllFileTypesLabel">
+    <value>Todos los tipos de archivos</value>
+    <comment>All file types label.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="DataTypeLabel">
+    <value>Tipo de datos</value>
+    <comment>Data type label.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="DbPrecision">
+    <value>Precisión Base de datos</value>
+    <comment>phrase: DB Precision</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="InstructionalTextForInstructionalTextField">
+    <value>Aparecens debajo de la etiqueta</value>
+    <comment>Instructional text for Instructional text field.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="CustomFields">
+    <value>Campos personalizados</value>
+    <comment>phrase: Custom fields</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="SomeScreensWhereYouCanEdit">
+    <value>Algunas pantallas en las que trabajar con {0} enla área administrativa ...</value>
+    <comment>Phrase: Some screens where you work with {0} in the Backend...</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="MultipleVideosLimitation">
+    <value>Se pueden cargar o seleccionar varios videos</value>
+    <comment>Multiple videos limitation label.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="DefaultValueExceedsMaxRange">
+    <value>El número de símbolos introducidos para el valor predeterminado no debe exceder el rango máximo de símbolos.</value>
+    <comment>phrase: The number of symbols entered for default value should not exceed the symbols maximum range.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="OnlyOneVideoLimitation">
+    <value>solo se puede cargar o seleccionar 01 video</value>
+    <comment>Only one video limitation label.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="ChoiceField">
+    <value>Opciones (casillas de verificación/botones de radio/menú desplegable)</value>
+    <comment>Friendly Name for ChoiceField control</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="DecimalPlaces">
+    <value>número de decimales</value>
+    <comment>phrase: Decimal places</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="RelatedNewsDefaultFrontendWidgetName">
+    <value>Widget de noticias</value>
+    <comment>phrase: News widget</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="NoCustomFieldsHaveBeenAddedYet">
+    <value>Todavía no se han añadido campos personalizados</value>
+    <comment>Phrase: No custom fields have been added yet.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="RelatedItemDefaultFrontendWidgetName">
+    <value>Widget de contenido dinámico</value>
+    <comment>phrase: Dynamic content widget</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="DuplicateItemNote">
+    <value>Usted podrá cambiar los datos relacionados después de crear este artículo</value>
+    <comment>Phrase: You will be able to change related data after creating this item</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="RelatedEventsDefaultFrontendWidgetName">
+    <value>Widget de eventos</value>
+    <comment>phrase: Events widget</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="Settings">
+    <value>Opciones</value>
+    <comment>Word: Used as a title</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="FileMediaField">
+    <value>Documentos u otros archivos</value>
+    <comment>File media field type radio button</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="RelatedItemFrontendWidgetGroupingTitle">
+    <value>Mostrar elementos seleccionados en el frontend utilizando...</value>
+    <comment>phrase: Display selected items on the frontend using...</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="RelatedPageItemDefaultWidgetName">
+    <value>Selector de página</value>
+    <comment>Page selector</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="OtherLabel">
+    <value>Otros</value>
+    <comment>Phrase: Other</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="FilterAllButton">
+    <value>Todos</value>
+    <comment>Filter all button label</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="NoLinkingItemsMessage">
+    <value>No hay artículos que están enlazados a este</value>
+    <comment>phrase: No items are linking to this item</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="DocumentsInterfaceWidgetGroupingTitle">
+    <value>Widget de interfaz para subir o seleccionar archivos</value>
+    <comment>Grouping title for interface widget selector section in documents and files designer.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="ColumnName">
+    <value>Nombre de columna</value>
+    <comment>phrase: Column name</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="Advanced">
+    <value>&lt;em class='sfNote'&gt;(Tipo de DB)&lt;/em&gt; Avanzado</value>
+    <comment>phrase: Advanced (DB Type)</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="RelatedResourceComment">
+    <value>La siguiente asignación de nombres se debe registrar en la parte superior del control si no existe</value>
+    <comment>The following namespace should be registered at the top of the control if it doesn't exists</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="AllowedFileTypesLabel">
+    <value>Tipos de archivo permitidos</value>
+    <comment>Allowed file types label.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="BackendWidgetLabelInstructionalText">
+    <value>Esta es la etiqueta del widget de la interfaz para ingresar datos en el campo</value>
+    <comment>Instructional text for backend widget's label input field.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="FrontendRelatedItemWidgetLabelInstructionalText">
+    <value>Esta es la etiqueta del widget de interfaz para visualizar artículos</value>
+    <comment>This is the label of the interface widget for displaying items</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="Image">
+    <value>Imagen</value>
+    <comment>Friendly Name for Image control</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+</root>

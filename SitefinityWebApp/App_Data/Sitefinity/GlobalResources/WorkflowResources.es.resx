@@ -1,0 +1,958 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SelectAll">
+    <value>Seleccionar todo</value>
+    <comment>Workflow resource strings.</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="InvalidWorkflowFile">
+    <value>Archivo de flujo de trabajo no válido</value>
+    <comment>phrase: Invalid workflow file</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="NoApproversDescription">
+    <value>Todos los usuarios con permisos adecuados pueden crear y publicar contenido</value>
+    <comment>phrase: All users with proper permissions can create and publish content</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="AwaitingApprovalAction">
+    <value>Guardar como En espera de aprobación</value>
+    <comment>a workflow action name</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="Action">
+    <value>Acción</value>
+    <comment>phrase: Action</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="SettingsForWorkflow">
+    <value>Opciones de flujo de trabajo</value>
+    <comment>phrase: Settings for workflow</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="ReasonToReject">
+    <value>Motivo para rechazar &lt;span class='sfNote'&gt;(opcional)&lt;/span&gt;</value>
+    <comment>Phrase:  Reason to reject (optional)</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="UploadAndSendForApprovalAction">
+    <value>Cargar y Enviar para Aprobación</value>
+    <comment>a workflow action name</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="At">
+    <value>en</value>
+    <comment>Word: at</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="Continue">
+    <value>Continuar</value>
+    <comment>phrase: Continue</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="CloseSiteScopeFilter">
+    <value>cerrar sitio</value>
+    <comment>phrase: close site</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="WorkflowResourcesTitle">
+    <value>Flujo de trabajo</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="ApprovalBeforePublishing">
+    <value>&lt;strong&gt;Aprobación antes de publicar &lt;/strong&gt;&lt;span class='sfNote'&gt;Pasos: &lt;em&gt;Editar &amp;gt; Para Aprobación &amp;gt; Publicado&lt;/em&gt;&lt;/span&gt;</value>
+    <comment>Title of the standard one step workflow</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="TwoLevelsOfApprovalBeforePublishing">
+    <value>&lt;strong&gt;2 niveles de aprobación antes de publicar &lt;/strong&gt;&lt;span class='sfNote'&gt;Pasos: &lt;em&gt;Editar &amp;gt; Para aprobación &amp;gt; Para publicación &amp;gt; Publicado&lt;/em&gt;&lt;/span&gt;</value>
+    <comment>Title of the standard two step workflow</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="AllContentTypes">
+    <value>Todos los tipos de contenido</value>
+    <comment>All content types</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="AllWorkflows">
+    <value>Todos los flujos de trabajo</value>
+    <comment>phrase: All workflows</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="TheReasonWillBeSentToTheAuthor">
+    <value>&lt;p class='sfNote'&gt;Se enviará el motivo por correo electrónico al autor&lt;/p&gt;</value>
+    <comment>Phrase:  The reason will be sent to the author by email</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="UnpublishOn">
+    <value>Retirar de publicación el</value>
+    <comment>Phrase: Unpublish on</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="ByContentTypes">
+    <value>por tipos de Contenido...</value>
+    <comment>by Content types...</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="WhyRejected">
+    <value>¿Por qué se rechazó?</value>
+    <comment>Phrase: Why rejected?</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="ApproversColumnHeader">
+    <value>Aprobadores</value>
+    <comment>The approvers label.</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="InactiveWorkflows">
+    <value>Flujos de trabajo inactivos</value>
+    <comment>phrase: Inactive workflows</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="CustomWorkflow">
+    <value>&lt;strong&gt;flujo de trabajo personalizado &lt;/strong&gt;&lt;span class='sfNote'&gt;Crea tu propio flujo de trabajo desde cero &lt;/span&gt;</value>
+    <comment>phrase: Custom workflow</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="UploadWorkflowFile">
+    <value>Cargar un archivo de flujo de trabajo</value>
+    <comment>phrase: Upload a workflow file</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="PromptTitlePublishPageInMultilingual">
+    <value>Publicar</value>
+    <comment>Title of the message box shown when publishing page in multilingual mode.</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="AllLanguages">
+    <value>Todos los Idiomas</value>
+    <comment>phrase: All languages</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="SaveWorkflow">
+    <value>Guardar flujo de trabajo</value>
+    <comment>Label of the button that saves workflow</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="Remove">
+    <value>Eliminar</value>
+    <comment>word: Remove</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="NoApprovers">
+    <value>Sin aprobadores</value>
+    <comment>phrase: No approvers</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="ScheduleOperationTitle">
+    <value>Programar publicar / dejar de publicar</value>
+    <comment>a workflow action name</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="DefineWorkflowSelectType">
+    <value>Definir un flujo de trabajo: Seleccionar un tipo</value>
+    <comment>phrase: Define a workflow: Select a type</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="OneLevelOfApproval">
+    <value>Un nivel de aprobación</value>
+    <comment>Title of the standard one step workflow</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="SetApproversForLevel1Description">
+    <value>Seleccione los usuarios o roles que son capaces de aprobar elementos &lt;br /&gt;&lt;strong&gt;Nota: &lt;/strong&gt;Los administradores son capaces de aprobar de forma predeterminada</value>
+    <comment>phrase: Select users or groups who will be able to approve items</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="UnpublishAction">
+    <value>QuitarDePublicacion</value>
+    <comment>a workflow action name</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="WorkflowBySite">
+    <value>Flujo de trabajo por sitio</value>
+    <comment>phrase: Workflow by site</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="AndMoreFormat">
+    <value>y {0} más</value>
+    <comment>Suffix that is displayed when many items are selected.</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="BackToWorkflowTypes">
+    <value>Volver a los tipos de flujo de trabajo</value>
+    <comment>phrase: Back to workflow types</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="SendForApprovalAction">
+    <value>Enviar para aprobación</value>
+    <comment>a workflow action name</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="SendForPublishingAction">
+    <value>Enviar para publicación</value>
+    <comment>a workflow action name</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="DefineWorkflowProperties">
+    <value>Definir un flujo de trabajo: Propiedades</value>
+    <comment>phrase: Define a workflow: Properties</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="ContentColumnHeader">
+    <value>Contenido y páginas</value>
+    <comment>The content column header.</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="PromptTitleUnPublishPageInMultilingual">
+    <value>QuitarDePublicacion</value>
+    <comment>Title of the message box shown when unpublishing page in multilingual mode.</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="SavedOn">
+    <value>Guardado el</value>
+    <comment>Phrase: Saved on</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="RenameLabel">
+    <value>Renombrar</value>
+    <comment>Workflow rename approver level Label.</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="ScopeDescription">
+    <value>Indica donde el flujo de trabajo seleccionado se aplicará</value>
+    <comment>phrase: Where this workflow will apply</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="UnPublishInMultilingualWarning">
+    <value>"Este elemento tiene versiones traducidas.
+Si anula la publicación del elemento, también se anulará la publicación de todas las traducciones. ¿Está seguro de que desea continuar con la anulación?</value>
+    <comment>Warning dipslayed when unpublishing an item</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="AddRolesOrUserS">
+    <value>Agregar roles o usuarios</value>
+    <comment>phrase: Add roles or users</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="NotificationsColumnHeader">
+    <value>Notificaciones</value>
+    <comment>The notifications column header.</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="AdvancedSelection">
+    <value>Selección avanzada</value>
+    <comment>Phrase: Advanced selection</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="SelectedOnly">
+    <value>Sólo seleccionado</value>
+    <comment>Phrase: Selected only</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="SchedulePublishUnpublish">
+    <value>Publicar/Anular publicación en una Fecha Específica</value>
+    <comment>Phrase: Publish/Unpublish on Specific date</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="UploadAndPublish">
+    <value>Publicar</value>
+    <comment>upload and publish workflow action name</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="WorkflowByLanguage">
+    <value>Flujo de trabajo por idioma</value>
+    <comment>phrase: Workflow by language</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="UpdateContent">
+    <value>Actualizar contenido</value>
+    <comment>a workflow action name</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="Content">
+    <value>Contenido</value>
+    <comment>word: Content</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="Unpublished">
+    <value>Sin publicar</value>
+    <comment>The text of unpublished items.</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="WorkflowScope">
+    <value>Ámbito del flujo de trabajo</value>
+    <comment>Phrase: Workflow Scope</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="RejectPublishing">
+    <value>Rechazar la publicación</value>
+    <comment>Phrase: Reject publishing</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="AddScopeButtonLabel">
+    <value>Agregar</value>
+    <comment>The add scope button label.</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="RejectAction">
+    <value>Rechazar</value>
+    <comment>a workflow action name</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="SelectWorkflowFileToUpload">
+    <value>Seleccione un archivo de flujo de trabajo para cargar</value>
+    <comment>phrase: Select a workflow file to upload</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="WorkflowType">
+    <value>Tipo de flujo de trabajo</value>
+    <comment>phrase: Workflow type</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="UnpublishDateShouldBeAfterPublicationDate">
+    <value>La programación no se hizo porque la fecha de publicación es posterior a la fecha para suspender la publicación. Por favor, corrija las fechas.</value>
+    <comment>Phrase: Scheduling was not made because the publication time is later then the time of unpublishing. Please, correct the dates.</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="SchedulingWasNotMade">
+    <value>Programación no se hizo porque no se seleccionaron fechas. Por favor, especifique una fecha.</value>
+    <comment>Phrase: SchedulingWasNotMade</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="SavedAt">
+    <value>Guardado en</value>
+    <comment>Phrase: Saved at</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="SetApproversForLevel3Description">
+    <value>Seleccione los usuarios o roles que son capaces de aprobar elementos &lt;br /&gt;&lt;strong&gt;Nota: &lt;/strong&gt;Los administradores son capaces de aprobar de forma predeterminada</value>
+    <comment>phrase: Select users or groups who will be able to approve items</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="WorkflowResourcesTitlePlural">
+    <value>Flujos de trabajo</value>
+    <comment>The title plural of this class.</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="WhichContentToInclude">
+    <value>Que {0} se debe incluir?</value>
+    <comment>Phrase: Which {0} to include?</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="ScheduleAction">
+    <value>Publicar/Anular publicación en una Fecha Específica</value>
+    <comment>a workflow action name</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="FromSelectedParent">
+    <value>Desde {0} seleccionado</value>
+    <comment>Phrase: From selected {0}</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="closeCultureScopeFilter">
+    <value>cerrar idioma</value>
+    <comment>phrase: close language</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="RejectingThisItem">
+    <value>Al rechazar esta página se la enviará nuevamente a su autor.</value>
+    <comment>Phrase: Rejecting this page will return it to its author.</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="DiscardDraftAction">
+    <value>Desechar Borrador</value>
+    <comment>a workflow action name</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="NoApproval">
+    <value>Sin aprobación</value>
+    <comment>phrase: No approval</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="WorkflowPriority">
+    <value>Prioridad de flujo de trabajo</value>
+    <comment>phrase: Workflow priority</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="OneLevelOfApprovalDescription">
+    <value>Un nivel de aprobación</value>
+    <comment>Title of the standard one step workflow</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="MobilePreview">
+    <value>Vista previa para Smartphones y Tabletas</value>
+    <comment>phrase: Preview for Smartphones &amp; Tablets</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="PublishPageInMultilingualWarning">
+    <value>"Si publica una página sincronizada, también se publicarán todas las traducciones.
+¿Está seguro de que desea continuar publicando?</value>
+    <comment>Warning dipslayed when publishing a page</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="SetApproversForLevel2">
+    <value>Establecer aprobadores para el nivel 2</value>
+    <comment>phrase: Set approvers for Level 2</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="LastCreatedOnTop">
+    <value>Situar encima lo último creado</value>
+    <comment>phrase: Last created on top</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="Workflow">
+    <value>Flujo de trabajo</value>
+    <comment>word: Workflow</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="Scheduled">
+    <value>Programado</value>
+    <comment>The text of scheduled items.</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="ByPriority">
+    <value>por Prioridad</value>
+    <comment>phrase: by Priority</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="Draft">
+    <value>Borrador</value>
+    <comment>The text of draft items.</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="ActivateWorkflowImmediately">
+    <value>Este flujo de trabajo está activo</value>
+    <comment>Label for the checkbox indicating that workflow ought to be activated immediately</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="ApproversLabel">
+    <value>Aprobadores</value>
+    <comment>The approvers label.</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="TwoLevelsOfApproval">
+    <value>2 niveles de aprobación</value>
+    <comment>Title of the standard two step workflow</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="NotificationsOnSwitch">
+    <value>El</value>
+    <comment>Enabled notifications label.</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="WorkflowTitleEmpty">
+    <value>El nombre del flujo de trabajo no puede estar vacío!</value>
+    <comment>Validation message when the workflow title is empty.</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="ActiveWorkflows">
+    <value>Active los flujos de trabajo</value>
+    <comment>phrase: Active workflows</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="NoWorkflowsCreatedYet">
+    <value>Todavía no se han creado flujos de trabajo</value>
+    <comment>phrase: No workflows have been created yet</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="SelectionOfContent">
+    <value>Selección de {0}:</value>
+    <comment>Phrase: Selection of {0}:</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="BackToWorkflow">
+    <value>Volver al flujo de trabajo</value>
+    <comment>phrase: Back to workflow</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="Filter">
+    <value>Filtrar</value>
+    <comment>word: Filter</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="AllContent">
+    <value>Todas las {0}</value>
+    <comment>Phrase: All {0}</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="Permissions">
+    <value>Permisos</value>
+    <comment>word: Permissions</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="SitesAll">
+    <value>Todos los sitios</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="WaitingForApproval">
+    <value>En espera de aprobación</value>
+    <comment>The text of the 'Awaiting approval'.</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="WorkflowPriorityDescription">
+    <value>Si un elemento de contenido coincide con alcances de varios flujos de trabajo, se aplicará el flujo de trabajo con el alcance más específico</value>
+    <comment>Phrase: If a content item matches scopes of multiple workflows, the workflow with the most specific scope will be applied</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="Notes">
+    <value>Notas</value>
+    <comment>word: Notes</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="AdministratorsOnly">
+    <value>Sólo los administradores</value>
+    <comment>Workflow Administrators only label.</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="WorkflowResourcesDescription">
+    <value>Contiene recursos localizables para el módulo de flujo de trabajo.</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="WorkflowEmailListError">
+    <value>Las siguientes entradas no son direcciones de correo electrónico válidas: {0}</value>
+    <comment>phrase: The following entries are not valid email addresses: &lt;br /&gt;{0}</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="SaveAsDraftAction">
+    <value>Guardar como borrador</value>
+    <comment>a workflow action name</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="ValidateEmails">
+    <value>Validar los correos electrónicos</value>
+    <comment>phrase: Validate emails</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="SetApproversWarningMsg">
+    <value>Antes de seleccionar aprobadores asegurarse de que tienen permisos "Modificar" para el contenido a aprobar</value>
+    <comment>Phrase: Make sure the approvers have permissions to modify the content, subject to approval. Administrators are approvers by default.</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="WorkflowScopeTitle">
+    <value>Título del ámbito del Flujo de trabajo</value>
+    <comment>phrase: Workflow scope title</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="LastModified">
+    <value>Última modificación</value>
+    <comment>Label: Last modified</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="WorkflowName">
+    <value>Nombre</value>
+    <comment>Label for the workflow title.</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="AddContent">
+    <value>Añadir contenido</value>
+    <comment>phrase: Add content</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="LanguageColumnHeader">
+    <value>Idioma</value>
+    <comment>The language column header.</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="PermissionsForWorkflow">
+    <value>Permisos para flujo de trabajo</value>
+    <comment>phrase: Permissions for workflow</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="ManageWorkflows">
+    <value>Administrar flujos de trabajo</value>
+    <comment>phrase: Manage workflows</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="LearnMore">
+    <value>Más información</value>
+    <comment>phrase: Learn more</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="CloseContentScopeFilter">
+    <value>cerrar tipos de contenido</value>
+    <comment>phrase: close content type</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="FileHasBeenUploaded">
+    <value>Su archivo {0} se ha subido al App_Data/WorkFlows</value>
+    <comment>Phrase: Your {0} file has been uploaded to App_Data/Workflows</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="SetApproversForLevel2Description">
+    <value>Seleccione los usuarios o roles que son capaces de aprobar elementos &lt;br /&gt;&lt;strong&gt;Nota: &lt;/strong&gt;Los administradores son capaces de aprobar de forma predeterminada</value>
+    <comment>phrase: Select users or groups who will be able to approve items</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="On">
+    <value>en</value>
+    <comment>Word: on</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="AllowPublishersToSkipWorkflow">
+    <value>Aprobadores</value>
+    <comment>phrase: Approvers</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="AlphabeticallyZA">
+    <value>Alfabeticamente (Z-A)</value>
+    <comment>phrase: Alphabetically (Z-A)</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="CreateAWorkflow">
+    <value>Define un flujo de trabajo</value>
+    <comment>phrase: Define a workflow</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="PublishOn">
+    <value>Fecha de publicación &lt;span class='sfNote'&gt;(aparece en el sitio público)&lt;/span&gt;</value>
+    <comment>Phrase: Publication date</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="WorkflowEmailListSuccess">
+    <value>Todas las entradas son direcciones de correo electrónico válidas</value>
+    <comment>phrase: All entries are valid email addresses</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="NotifyUsersForApproval">
+    <value>Notifique a los usuarios por correo electrónico cuando un elemento esté a la espera de su aprobación</value>
+    <comment>phrase: Notify users by email when an item is waiting for their approval</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="TwoLevelsOfApprovalDescription">
+    <value>2 niveles de aprobación</value>
+    <comment>Description of the standard two step workflow</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="MyWorkflows">
+    <value>Mis flujos de trabajo</value>
+    <comment>phrase: My workflows</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="AllowAdministratorsToSkipWorkflow">
+    <value>Permitir a los administradores omitir el flujo de trabajo</value>
+    <comment>phrase: Allow administrators to skip the workflow</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="SiteColumnHeader">
+    <value>Sitio</value>
+    <comment>The site column header.</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="DefineWorkflow">
+    <value>Define un flujo de trabajo</value>
+    <comment>phrase: Define a workflow</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="SelectContentType">
+    <value>Seleccionar tipos de contenido</value>
+    <comment>phrase: Select content types</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="EnterEmailAddresses">
+    <value>Introducir las direcciones de correo electrónico una por línea</value>
+    <comment>pfrase: Enter email addresses one per line</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="DeleteAction">
+    <value>Eliminar</value>
+    <comment>a workflow action name</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="ToBePublishedAt">
+    <value>para publicar el</value>
+    <comment>Phrase: to be published at</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="LanguageVersion">
+    <value>Versión de idioma</value>
+    <comment>phrase: Language version</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="PublicationDate">
+    <value>Fecha de publicación</value>
+    <comment>Label: Publication date</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="BySites">
+    <value>por Sitios...</value>
+    <comment>by Sites...</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="Status">
+    <value>Estado</value>
+    <comment>phrase: Status</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="SaveAsPrivateDraftAction">
+    <value>Guardar como borrador privado</value>
+    <comment>a workflow action name</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="OrElipsis">
+    <value>O ...</value>
+    <comment>or with the elipsis</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="WorkflowByContentType">
+    <value>Flujo de trabajo por tipo de contenido</value>
+    <comment>phrase: Workflow by content type</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="AwaitingPublishingAction">
+    <value>Guardar como En espera de publicación</value>
+    <comment>a workflow action name</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="CustomWorkflowDescription">
+    <value>personalizado</value>
+    <comment>Description of custom workflow</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="PublishInMultilingualWarning">
+    <value>"Este elemento tiene versiones traducidas.
+Si publica el elemento, también se publicarán todas las traducciones. ¿Está seguro de que desea continuar publicando?</value>
+    <comment>Warning dipslayed when publishing an item</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="AllowAdministratorsToSkipWorkflowDescription">
+    <value>Aquí va una breve descripción</value>
+    <comment>Description explaining what it means that administrators can skip the workflow</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="AllowPublishersToSkipWorkflowLevelTwo">
+    <value>Aprobadores para Nivel 2</value>
+    <comment>phrase: Approvers for Level 2</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="SendEmailToListOfEmailAddresses">
+    <value>Enviar correo electrónico a la lista de direcciones de correo electrónico...</value>
+    <comment>phrase: Custom list of email addresses...</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="LastModifiedOnTop">
+    <value>Situar encima lo último modificado</value>
+    <comment>phrase: Last modified on top</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="SetApprovers">
+    <value>Establecer aprobadores</value>
+    <comment>phrase: Set approvers</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="Published">
+    <value>Publicado</value>
+    <comment>The text of published items.</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="CreatedOnOwner">
+    <value>Creado el/Propietario</value>
+    <comment>Title of the created on / owner column</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="Scope">
+    <value>Ámbito</value>
+    <comment>word: Scope</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="UploadAndSaveAsDraftAction">
+    <value>Guardar como borrador</value>
+    <comment>a workflow action name</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="DefineWorkflowUploadFile">
+    <value>Definir un flujo de trabajo: cargar archivo</value>
+    <comment>phrase: Define a workflow: Upload file</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="ToBePublishedOn">
+    <value>para publicar el</value>
+    <comment>Phrase: to be published on</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="PublishAction">
+    <value>Publicar</value>
+    <comment>a workflow action name</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="SetApproversForLevel1">
+    <value>Establecer aprobadores para el nivel 1</value>
+    <comment>phrase: Set approvers for Level 1</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="NotifyAdministrators">
+    <value>Administradores</value>
+    <comment>word: Administrators</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="Schedule">
+    <value>Programar</value>
+    <comment>Phrase: Schedule</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="ALL_CONTENT">
+    <value>Todo el contenido y las páginas</value>
+    <comment>Phrase: All content</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="DesignYourOwnWorkflow">
+    <value>Diseña tu propio flujo de trabajo</value>
+    <comment>phrase: Design your own workflow</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="EditWorkflow">
+    <value>Editar un flujo de trabajo</value>
+    <comment>phrase: Edit a workflow</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="NoApprovalWorkflow">
+    <value>&lt;strong&gt;Flujo de trabajo sin aprobación&lt;/strong&gt;&lt;span class='sfNote'&gt;Pasos: &lt;em&gt;Crear &gt; Publicar&lt;/em&gt;&lt;div class="sfMTop5"&gt;Usar Flujo de trabajo sin aprobación para excluir contenido seleccionado del flujo de trabajo que ya está aplicado &lt;a href="http://docs.sitefinity.com/overview-content-lifecycle-and-workflow" target="_blank"&gt;Más información &lt;/a&gt;&lt;/div&gt;&lt;/span&gt;</value>
+    <comment>phrase: No approval workflow</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="ByLanguages">
+    <value>por Idiomas...</value>
+    <comment>by Languages...</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="DateToUnpublish">
+    <value>Fecha para quitar de publicación &lt;span class='sfNote'&gt;(opcional)&lt;/span&gt;</value>
+    <comment>Phrase: Date to Unpublish (optional)</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="Review">
+    <value>Revisar</value>
+    <comment>label: Review</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="StopScheduleAction">
+    <value>Parar programación</value>
+    <comment>a workflow action name</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+  <data name="AlphabeticallyAZ">
+    <value>Alfabeticamente (A-Z)</value>
+    <comment>phrase: Alphabetically (A-Z)</comment>
+    <lastModified>2025-11-25T20:22:14</lastModified>
+  </data>
+</root>

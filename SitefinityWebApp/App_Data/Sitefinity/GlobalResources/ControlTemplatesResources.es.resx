@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EditTemplate">
+    <value>Editar plantilla</value>
+    <comment>Phrase: Edit template</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AllTemplates">
+    <value>Todas las plantillas</value>
+    <comment>Phrase: All templates {0}</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BackToItems">
+    <value>Regresar a las Plantillas de Control</value>
+    <comment>The text of the back to Control Templates link</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NameForDevelopers">
+    <value>Nombre para desarrolladores</value>
+    <comment>Phrase: Name for developers</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PageGroupNodeUrlName">
+    <value>Plantillas de control</value>
+    <comment>Page group URL for the Control Templates module.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MyTemplates">
+    <value>Mis plantillas</value>
+    <comment>Phrase: My templates {0}</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Delete">
+    <value>Eliminar</value>
+    <comment>Label for the buttons that delete a template.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ConfirmRestoreDescription">
+    <value>Esto descartará todos los cambios realizados en la plantilla y se restaurará la versión predeterminada. ¿Está seguro de que desea continuar?</value>
+    <comment>Phrase: This will discard all changes made to the template and the default version will be restored. Are you sure you want to continue?</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RestoreErrorMessage">
+    <value>No se pudo restaurar la versión predeterminada para esta plantilla.</value>
+    <comment>Phrase: Could not restore the default version for this template.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="WhatDoYouWantToDoNow">
+    <value>¿Qué quieres hacer ahora?</value>
+    <comment>Phrase: What do you want to do now?</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TemplateNameDescription">
+    <value>Este nombre no es visible públicamente. Solo es para distinguir plantillas.</value>
+    <comment>Phrase: This name is not publicly visible. It is only to distinguish templates</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ModuleDescription">
+    <value>Proporciona la interfaz de usuario para la gestión de plantillas de control.</value>
+    <comment>The description of the Control Templates module</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="HowToInsert">
+    <value>Cómo insertar ...</value>
+    <comment>Phrase: How to insert...</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="WidgetTemplatesSettings">
+    <value>Opciones de plantillas del Widget</value>
+    <comment>Phrase: Widget templates Settings</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Insert">
+    <value>Insertar</value>
+    <comment>Word: Insert</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TemplateDataEmpty">
+    <value>Los datos no puede estar vacíos!</value>
+    <comment>Validation message when the template data is empty.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AppliedTo">
+    <value>Aplicado a</value>
+    <comment>Phrase: Applied to</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NewCreatedOnTop">
+    <value>Más recientemente creado arriba</value>
+    <comment>Phrase: New created on top</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ControlTemplatesResourcesDescription">
+    <value>Contiene recursos localizables para el módulo de plantillas de control</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="VersionHistory">
+    <value>Historial de revisiones</value>
+    <comment>The text of the back to Control Templates link</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BackToTemplates">
+    <value>Volver a plantillas</value>
+    <comment>Phrase: Back to Templates</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CreateATemplate">
+    <value>Crear una plantilla</value>
+    <comment>Phrase: Create a template</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PageGroupNodeTitle">
+    <value>Plantillas del Widget</value>
+    <comment>Page group for the Control Templates module.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ModuleTitle">
+    <value>Plantillas del Widget</value>
+    <comment>The title of the Control Templates module.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OtherProperties">
+    <value>Otras propiedades</value>
+    <comment>Phrase: Other properties</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="InsertTagsFor">
+    <value>Insertar ...</value>
+    <comment>Phrase: Insert tags for...</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BrowseAndEditDelete">
+    <value>Eliminar</value>
+    <comment>Browse and edit 'Delete' button label</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ThisTemplateIsAppliedTo">
+    <value>Esta plantilla se aplica a ...</value>
+    <comment>Phrase: This template is applied to...</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CustomSorting">
+    <value>Ordenación personalizada ...</value>
+    <comment>Phrase: Custom sorting...</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RestoreTemplateToDefault">
+    <value>Restaurar plantilla predeterminada</value>
+    <comment>Phrase: Restore template to default</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CommonProperties">
+    <value>Propiedades comunes</value>
+    <comment>Phrase: Common properties</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ControlTemplatesHtmlTitle">
+    <value>Plantillas de control</value>
+    <comment>HTML title of the Control Templates module landing page.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ByWidgets">
+    <value>Por widgets a los que se aplica</value>
+    <comment>Phrase: by Widgets they are applied to</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FilterWidgetTemplates">
+    <value>Filtro plantillas de widgets</value>
+    <comment>Phrase: Filter widget templates</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NoControlTemplates">
+    <value>Todavía no se han creado plantillas</value>
+    <comment>Phrase: No templates have been created yet</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Date">
+    <value>Fecha</value>
+    <comment>Word: Date</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Name">
+    <value>Nombre</value>
+    <comment>word: Name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="InsertFieldsOf">
+    <value>Insertar campos de</value>
+    <comment>Phrase: Insert fields of</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TemplateNameEmpty">
+    <value>El nombre de la plantilla no puede estar vacío!</value>
+    <comment>Validation message when the template name is empty.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Owner">
+    <value>Propietario</value>
+    <comment>Word: Owner</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="of">
+    <value>de</value>
+    <comment>word: of</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DeleteVersionWidgetElement">
+    <value>Eliminar</value>
+    <comment>Pharse: Delete</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CopyToClipboard">
+    <value>Copia en el portaroles</value>
+    <comment>Phrase: Copy to the clipboard</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PermissionsForWidgetTemplates">
+    <value>Permisos para las plantillas de widgets</value>
+    <comment>Phrase: Permissions for widget templates</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BrowseAndEditEdit">
+    <value>Editar</value>
+    <comment>Browse and edit 'Edit' button label</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SaveChanges">
+    <value>Guardar cambios</value>
+    <comment>Phrase: Save changes</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RestoreSuccessMessage">
+    <value>La versión predeterminada de esta plantilla ha sido restaurada con éxito.</value>
+    <comment>Phrase: The default version of this template has been restored successfully.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NewModifiedOnTop">
+    <value>Más recientemente modificado arriba</value>
+    <comment>Phrase: New modified on top</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TemplateName">
+    <value>Nombre de la plantilla</value>
+    <comment>Phrase: Template name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BrowseAndEditUnpublish">
+    <value>QuitarDePublicacion</value>
+    <comment>Browse and edit 'Unpublish' button label</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ControlTemplatesDescription">
+    <value>La página de entrada para el módulo de plantillas de control</value>
+    <comment>Control Templates URL.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CreateNewTemplate">
+    <value>Crear nueva plantilla</value>
+    <comment>Phrase: Create New Template</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PageGroupNodeDescription">
+    <value>Grupo de páginas del módulo de plantillas de controles.</value>
+    <comment>Description for the Control Templates page group.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OtherData">
+    <value>Otros datos</value>
+    <comment>Phrase: Other data</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CreateThisTemplate">
+    <value>Crear esta plantilla</value>
+    <comment>Phrase: Create this template</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SortTemplates">
+    <value>Ordenar plantillas</value>
+    <comment>Phrase: This template is applied to...</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Data">
+    <value>Datos</value>
+    <comment>word: Data</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CommonData">
+    <value>Datos comunes</value>
+    <comment>Phrase: Common data</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Version">
+    <value>Versión</value>
+    <comment>word: Version</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CreateTemplate">
+    <value>Crear plantilla</value>
+    <comment>Phrase: Create template</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CopyAsNewestWidgetElement">
+    <value>Revertir a esta versión</value>
+    <comment>Pharse: Revert to this version</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Preview">
+    <value>Vista previa</value>
+    <comment>Word: Preview</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BrowseAndEditAdd">
+    <value>Agregar</value>
+    <comment>Browse and edit 'Add' button label</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ConfirmRestore">
+    <value>Sí, restaurar la versión predeterminada de esta plantilla</value>
+    <comment>Phrase: Yes, restore the default version of this template</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ControlTemplatesUrlName">
+    <value>Plantillas de control</value>
+    <comment>Control Templates URL.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ControlTemplatesTitle">
+    <value>Plantillas de control</value>
+    <comment>Title of the Control Templates module landing page.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+</root>

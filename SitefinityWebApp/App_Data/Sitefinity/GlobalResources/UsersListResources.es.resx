@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SortUsers">
+    <value>Ordenar usuarios</value>
+    <comment>phrase : Sort users</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Display">
+    <value>Mostrar</value>
+    <comment>word : Display</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShowLimitedItems">
+    <value>Mostrar únicamente un número limitado de artículos {0} artículos en total</value>
+    <comment>phrase : Show only limited number of items {TextBox} items in total</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ByLastNameAZ">
+    <value>Apellido (A-Z)</value>
+    <comment>phrase: Last name (A-Z)</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UsePaging">
+    <value>Utilice paginación &lt;span class='sfNote'&gt; (en proceso de implementación) &lt;/span&gt;</value>
+    <comment>phrase : Use paging</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LastCreated">
+    <value>Último creado</value>
+    <comment>phrase : Last created</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Provider">
+    <value>Proveedor</value>
+    <comment>Provider</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShowInSamePage">
+    <value>Página autogenerada</value>
+    <comment>phrase : Auto-generated page (with the same layout as the list page)</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UsersToDisplay">
+    <value>¿Qué usuarios se deben mostrar?</value>
+    <comment>phrase : Which users to display?</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AllRegisteredUsers">
+    <value>Todos los usuarios registrados</value>
+    <comment>phrase : All registered users</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SingleItemSettings">
+    <value>Configuración de Artículo único</value>
+    <comment>phrase : Single item settings</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SelectProfileType">
+    <value>¿Qué tipo de perfil se debe utilizar?</value>
+    <comment>phrase: Which profile type to use?</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SelectedUsers">
+    <value>Usuarios seleccionados...</value>
+    <comment>phrase : Selected users...</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UsersListResourcesDescription">
+    <value>Cadenas localizables para el widget de Lista de usuarios</value>
+    <comment>Description for the Users list widget resources class.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ListTemplate">
+    <value>Plantilla de lista</value>
+    <comment>phrase : List template</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ByFirstNameAZ">
+    <value>Nombre (A-Z)</value>
+    <comment>phrase: First name (A-Z)</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MoreOptions">
+    <value>Más opciones</value>
+    <comment>phrase : More options</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NoLimitPaging">
+    <value>Sin límite y con paginación</value>
+    <comment>phrase : No limit and paging</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ByLastNameZA">
+    <value>Apellido (A-Z)</value>
+    <comment>phrase: Last name (Z-A)</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OpenSingleItem">
+    <value>Abrir un solo elemento en...</value>
+    <comment>phrase : Open single item in...</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UseLimit">
+    <value>Limite de uso</value>
+    <comment>phrase : Use limit</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UsersListResourcesTitle">
+    <value>Recursos del widget de Lista de usuarios</value>
+    <comment>Title for the Users list widget resources class.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ByFirstNameZA">
+    <value>Nombre (Z-A)</value>
+    <comment>phrase: First name (Z-A)</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TheSelectedTemplateCannotBeUsed">
+    <value>La plantilla seleccionada no se puede utilizar con este tipo de perfil. Seleccionar otra plantilla o editar esta plantilla.</value>
+    <comment>phrase: The selected template cannot be used with this profile type. Select another template or edit this template.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NotLoggedInUser">
+    <value>Usted no está conectado.</value>
+    <comment>phrase: You are not logged in.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="By">
+    <value>Por</value>
+    <comment>word: by</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShowInSamePageNote">
+    <value>(con el mismo diseño que la página de lista)</value>
+    <comment>phrase : (with the same layout as the list page)</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShowAllItems">
+    <value>Mostrar todos los elementos publicados a la vez</value>
+    <comment>phrase : Show all published items at once</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShowInExistingPage">
+    <value>Página seleccionada existente...</value>
+    <comment>phrase : Selected existing page...</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ListSettings">
+    <value>Configuración de Lista</value>
+    <comment>phrase : List settings</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LastModified">
+    <value>Última modificación</value>
+    <comment>phrase : Last modified</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DivideToItemPerPage">
+    <value>Dividir la lista en las páginas hasta {0} artículos por página</value>
+    <comment>phrase : Divide the list on pages up to {TextBox} items per page</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AsSetInAdvancedMode">
+    <value>Según lo configurado en el modo Avanzado</value>
+    <comment>phrase: As set in Advanced mode</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NarrowSelection">
+    <value>Usuarios por funciones...</value>
+    <comment>phrase : Users by roles...</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CssClasses">
+    <value>Clases CSS</value>
+    <comment>phrase : CSS classes</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Content">
+    <value>Contenido</value>
+    <comment>word: Content</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DetailTemplate">
+    <value>Plantilla de detalles</value>
+    <comment>phrase : Detail template</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+</root>

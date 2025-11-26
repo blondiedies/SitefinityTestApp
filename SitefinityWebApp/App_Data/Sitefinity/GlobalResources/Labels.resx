@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DashboardHowToSetNavigation">
+    <value>¿Cómo configurar la navegación?</value>
+    <comment>Dashboard Label: How to set navigation?</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ChooseWhichUserToLogout">
+    <value>Seleccionar al usuario a quien se le cerrará la sesión:</value>
+    <comment>Phrase: Choose which user to be logged out:</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DashboardInlineEditing">
+    <value>Editar en línea</value>
+    <comment>Dashboard Label: Inline editing</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="TurnOn">
+    <value>El</value>
+    <comment>label</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DashboardLearnHowToMeasureYourWebsitePerformanceUsingTheWebAnalyticsFeature">
+    <value>Aprenda a medir el rendimiento de su sitio web mediante la función análisis web</value>
+    <comment>Dashboard Label: Learn how to measure your website performance using the web analytics feature</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DashboardListItem2">
+    <value>Para conocer más detalles sobre las partes específicas del producto, explore los siguientes tutoriales en video</value>
+    <comment>Dashboard list item 2: To learn more details on specific parts of the product, explore the video tutorials below</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DashboardPageLayouts">
+    <value>Diseños de página</value>
+    <comment>Dashboard Label: Page layouts</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DashboardCategoriesAndTags">
+    <value>Categorías y etiquetas</value>
+    <comment>Dashboard Label: Categories and tags</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DashboardHowToCreateASimpleBlog">
+    <value>¿Cómo crear un blog simple?</value>
+    <comment>Dashboard Label: How to create a simple blog?</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DashboardWebAnalytics">
+    <value>Análisis Web</value>
+    <comment>Dashboard Label: Web Analytics</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DashboardHowToCreateASimplePage">
+    <value>¿Cómo crear una página simple?</value>
+    <comment>Dashboard Label: How to create a simple page?</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="WelcomeToSitefinity40">
+    <value>Bienvenidos a Sitefinity 111.1</value>
+    <comment>Dashboard Label: Welcome to Sitefinity 11.1</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DashboardFluentApi">
+    <value>API de Fluent</value>
+    <comment>Dashboard Label: Fluent API</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DashboardGeneralParagraph">
+    <value>La nueva versión ofrece un sistema de gestión de contenido web que le permite crear sitios web, intranets corporativas, portales de comunidad y blogs.</value>
+    <comment>Dashboard general paragraph: The new release delivers a web content management system that empowers you to create websites, corporate intranets, community portals and blogs</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DashboardListItem1">
+    <value>Para ver la presentación general de Sitefinity y sus características, haga clic en el video resumen a la izquierda</value>
+    <comment>Dashboard list item 1: For general presentation of Sitefinity and its features, click on the overview video to the left</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="WatchVideo">
+    <value>Ver Video</value>
+    <comment>Dashboard Label: Watch Video</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="TemplateBuilderNote">
+    <value>Vea lo fácil que es crear plantillas utilizando el Generador de Plantillas</value>
+    <comment>Dashboard Label: See how to easily build templates using the Template builder</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ExternalLinkDashboardHowToCreateASimplePage">
+    <value>¿Cómo crear una página simple?</value>
+    <comment>External Link: How to create a simple page?</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DashboardLearnHowToCreateAndUseForms">
+    <value>Aprenda a crear y utilizar formularios</value>
+    <comment>Dashboard Label: Learn how to create and use forms</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="MobileWeb">
+    <value>Web móvil</value>
+    <comment>Dashboard Label: Mobile web</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DashboardSeeHowYouCanEditYourContentWhileBrowsingTheLiveWebsite">
+    <value>Vea cómo puede editar el contenido mientras navega por el sitio activo</value>
+    <comment>Dashboard Label: See how you can edit your content while browsing the live website</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DashboardPageSetupWithWidgets">
+    <value>Configuración de página con widgets</value>
+    <comment>Dashboard Label: Page setup with widgets</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DashboardLearnHowToOrganizeTheContentInYourWebsiteByUsingCategoriesAndTags">
+    <value>Aprenda a organizar el contenido de su sitio web mediante el uso de categorías y etiquetas</value>
+    <comment>Dashboard Label: Learn how to organize the content in your website by using categories and tags</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DashboardVideoTutorialsAbout">
+    <value>Tutoriales en video sobre...</value>
+    <comment>Dashboard Label: Video tutorials about...</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DashboardFindOutHowToWorkWithWidgetsToSetupYourPages">
+    <value>Descubra cómo trabajar con los widgets para configurar sus páginas</value>
+    <comment>Dashboard Label: Find out how to work with widgets to setup your pages</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Configurations">
+    <value>Configuraciones</value>
+    <comment>label: Configurations</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DashboardFindOutHowToKeepAllTheDifferentVersionsOfYourContentUsingTheRevisionHistory">
+    <value>Descubra cómo mantener todas las diferentes versiones de su contenido con el historial de revisiones</value>
+    <comment>Dashboard Label: Find out how to keep all the different versions of your content using the revision history</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DashboardFullDocumentation">
+    <value>Documentación completa</value>
+    <comment>Dashboard Label: Documentation portal</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="MobileWebNote">
+    <value>Aprenda a utilizar las técnicas de diseño adaptable</value>
+    <comment>Learn how to use the responsive design techniques</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="BrowsePublicWebsite">
+    <value>navegar por el sitio web público</value>
+    <comment>Phrase: browse the public website</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DashboardDiscoverHowTheFluentApiEnablesYouToInteractWithTheSitefinityData">
+    <value>Descubra cómo la API de Fluent permite interactuar con los datos de Sitefinity</value>
+    <comment>Dashboard Label: Discover how the Fluent API enables you to interact with the Sitefinity data</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DashboardLearnHowToDesignAndModifyLayoutsOfPages">
+    <value>Aprenda a diseñar y modificar diseños de páginas</value>
+    <comment>Dashboard Label: Learn how to design and modify layouts of pages</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+</root>

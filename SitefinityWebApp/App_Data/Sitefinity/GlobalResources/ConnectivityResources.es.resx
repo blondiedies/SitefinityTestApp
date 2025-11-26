@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="LogicalOperatorPropNameCaption">
+    <value>Operador lógico</value>
+    <comment>Phrase: Logical operator</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FieldDefaultValuePropNameCaption">
+    <value>Valor de campo de filtro determinado</value>
+    <comment>Phrase: Default filter field value</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FieldValuePropNameDescription">
+    <value>Valor que se utilizará para filtrar los artículos</value>
+    <comment>Phrase: A value that will be used to filter items</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TriggerListSyncCompletionEventPropNameCaption">
+    <value>Habilitar o deshabilitar el accionar de un evento que notificará a los usuarios cuando termine la sincronización de lista entre Sitefinity y el conector actual.</value>
+    <comment>Phrase: Enable or disable triggering of an event that will notify users when list synchronization between Sitefinity and the current connector is completed.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FieldDefaultValuePropNameDescription">
+    <value>Valor que se establecerá en la propiedad de filtro de un nuevo artículo sincronizado para que coincida con el filtro para sincronizaciones posteriores</value>
+    <comment>Phrase: A value that will be set to the filter property of a new synchronized item so it will match the filter for later synchronizations</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FieldNamePropNameCaption">
+    <value>nombre del campo</value>
+    <comment>Phrase: Field name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FilterConditionsPropNameCaption">
+    <value>Condiciones de filtrado</value>
+    <comment>Phrase: Filter conditions</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LogicalGroupsPropNameDescription">
+    <value>Contenedor para otros grupos lógicos</value>
+    <comment>Phrase: Container for other logical groups</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FieldNamePropNameDescription">
+    <value>Campo en el que se basará el filtro</value>
+    <comment>Phrase: A field that the filter will be based upon</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FieldTypeFullNamePropNameDescription">
+    <value>El nombre completo del tipo del campo</value>
+    <comment>Phrase: The full name of the field's type</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ConnectivityResourcesDescription">
+    <value>Contiene recursos localizables compartidos para todos los conectores.</value>
+    <comment>Contains shared localizable resources for all connectors.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ConnectivityResourcesTitle">
+    <value>Etiquetas ConnectivityResources</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ComparisonOperatorPropNameDescription">
+    <value>Operador para comparar un campo con su valor.</value>
+    <comment>Phrase: Operator for comparing a field with its value.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FieldTypeFullNamePropNameCaption">
+    <value>Nombre completo del tipo de campo</value>
+    <comment>Phrase: Field type full name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LogicalGroupsPropNameCaption">
+    <value>Grupos lógicos</value>
+    <comment>Phrase: Logical groups</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ComparisonOperatorPropNameCaption">
+    <value>Operador de comparación</value>
+    <comment>Phrase: Comparison operator</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TriggerListSyncCompletionEventPropNameTitle">
+    <value>Accionar un evento cuando termine la sincronización de lista</value>
+    <comment>Phrase: Trigger an event when list synchronization is completed</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LogicalOperatorPropNameDescription">
+    <value>Determina el operador lógico que se aplicará a todos los grupos lógicos y las condiciones de filtrado. Valores permitidos: 'AND', 'OR'</value>
+    <comment>Phrase: Determines the logical operator that will be applied for  all logical groups and filter conditions. Allowed values: 'AND', 'OR' </comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FilterConditionsPropNameDescription">
+    <value>Contenedor para campos con valores deseados que construyen el filtro real</value>
+    <comment>Phrase: Container for fields with desired values that build the actual filter</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ConnectivityResourcesTitlePlural">
+    <value>Etiquetas ConnectivityResources</value>
+    <comment>The plural title of this class.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FieldValuePropNameCaption">
+    <value>Valor del campo</value>
+    <comment>Phrase: Field value</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+</root>

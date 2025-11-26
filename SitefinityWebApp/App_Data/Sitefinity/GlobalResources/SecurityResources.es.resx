@@ -1,0 +1,2965 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ViewPermissionTurnedOffMessage">
+    <value>El permiso de visualización está desactivado. Cualquier cambio no se aplicará. &lt;a href="http://www.sitefinity.com/documentation/documentationarticles/changing-filtering-by-view-permissions-in-5.0" target="_blank"&gt;Más información&lt;/a&gt;</value>
+    <comment>Phrase: View permission is turned off. Any changes will not be applied. Learn more</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeThisBlogPermissions">
+    <value>Cambiar los permisos de este blog</value>
+    <comment>Action text of the change permissions action for this blog.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeThisVideoPermissions">
+    <value>Cambiar los permisos de este vídeo</value>
+    <comment>Action text of the change permissions action for this video.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="WorkflowDefinitionPermissions">
+    <value>Permisos del Flujo de trabajo</value>
+    <comment>Workflow permissions title.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreateComments">
+    <value>Crear comentarios</value>
+    <comment>The title of Create comments security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ModifyComments">
+    <value>Modificar comentarios</value>
+    <comment>The title of Modify comments security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ModifyCommentsDescription">
+    <value>Permite o prohibe modificar comentarios.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="UsersSectionTitle">
+    <value>Usuarios</value>
+    <comment>Represents 'users' selection option in the users selection dialog, for a specific action</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="VideoPermissionsDescription">
+    <value>Representa los permisos de seguridad para los vídeos.</value>
+    <comment>Video permissions description</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="MultisiteManagementPermissionsDescription">
+    <value>Representa permisos de seguridad para gestionar varios sitios.</value>
+    <comment>Multisite management permissions description</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewBlogPost">
+    <value>Ver blog</value>
+    <comment>Action text of the view action for a blog post.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="UserNameHasBeenLoggedOut">
+    <value>{0} ha cerrado la sesión.</value>
+    <comment>Message: '{0} has been logged out.', where {0} is placeholder for user name</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeVideoOwner">
+    <value>Cambiar propietario del vídeo</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AdministratorsRoleCannotBeDeleted">
+    <value>El rol seleccionado es un rol utilizado por el sistema y no se puede eliminar.</value>
+    <comment>phrase: System role cannot be deleted</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="doneEditingPermissions">
+    <value>Hecho</value>
+    <comment>Word: Done. used in the module permissions page</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewVideoLibraryDescription">
+    <value>Especifica quién puede o no puede ver el video bibliotecas</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeBlogPostPermissionsDescription">
+    <value>Permite o prohibe el cambio de los permisos de una entrada específica del blog.</value>
+    <comment>Blog post change permissions description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="NoSecurityRoot">
+    <value>No se pudo recuperar una raíz de seguridad para {0}.</value>
+    <comment>Message: Could not retrieve a security root for {0}.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreateUserFileDescription">
+    <value>Especifica quién puede o no puede crear bibliotecas de documentos.</value>
+    <comment>'Create User file' security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="InOrderToSetDiferentPermissionsThanParentOnes">
+    <value>con el fin de establecer permisos diferentes a los de los padres.</value>
+    <comment>End of phrase: in order to set permissions different from those of the parent.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewCommentActionTitle">
+    <value>Ver comentarios</value>
+    <comment>The title of ViewComments security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewBackendPermissionsDefaultMessage">
+    <value>Los roles y usuarios establecidos en &lt;i&gt;Crear&lt;/i&gt;, &lt;i&gt;Modificar&lt;/i&gt; o &lt;i&gt;Eliminar&lt;/i&gt; noticias tienen este permiso de manera predeterminada. Puede agregar más abajo</value>
+    <comment>Phrase: Roles and users set in &lt;i&gt;Create&lt;/i&gt;, &lt;i&gt;Modify&lt;/i&gt; or &lt;i&gt;Delete&lt;/i&gt; news have this permissions by default. You can add more below</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AdministratorsDescription">
+    <value>Los miembros de este rol tienen derecho de control total sobre la totalidad del sistema.Todos los derechos se conceden automáticamente a los miembros de este rol.</value>
+    <comment>Application predefined role name: Administrators</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangePermissionsLinkButtonText">
+    <value>Cambiar</value>
+    <comment>Text for the Change link in a list of permissions (for setting permissions)</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageVideo">
+    <value>Modificar biblioteca y gestionar vídeos</value>
+    <comment>'Manage video' security action title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewDocumentLibrary">
+    <value>Ver biblioteca de documentos</value>
+    <comment>Action title for viewing a Document library</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SelectUsersOrRolesText">
+    <value>Seleccionar</value>
+    <comment>Text for label for selection specific users or roles for a specific action permission</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ModifyPages">
+    <value>Modificar las propiedades de la página</value>
+    <comment>Action text of the Modify action for the root node of pages.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewLayoutActionDescription">
+    <value>Permite o prohibe la visualización (rendering) de un elemento de diseño en una página</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SiteSynchronization">
+    <value>Acceder al módulo de secuenciamiento y sincronización</value>
+    <comment>Title of the 'SiteSynchronization' security action</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ModifyPageActionDescription">
+    <value>Permite o prohibe modificar una página existente, tales como reordenación o cambio de propiedades.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ImagePermissions">
+    <value>Permisos de Imagen</value>
+    <comment>Image permissions title.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="BlogPermissionsDescription">
+    <value>Representa los permisos de seguridad de uso más común.</value>
+    <comment>Permission description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewPageActionDescription">
+    <value>Permite o prohibe la visualización (navegación) de una página en particular.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ResetPassword">
+    <value>Restablecer contraseña</value>
+    <comment>phrase: Reset password</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteLayoutActionName">
+    <value>Eliminar un elemento de diseño.</value>
+    <comment>The title of delete security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ProviderError">
+    <value>El proveedor de membresía ha detectado un error interno.</value>
+    <comment>phrase: The membership provider has encountered an internal error.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Permissions">
+    <value>Permisos</value>
+    <comment>Permissions</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="UserIsCurrentlyLogged">
+    <value>Este es el usuario actualmente conectado y no puede ser eliminado.</value>
+    <comment>phrase: This is the currently logged user and cannot be deleted.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ModifyThisDocumentLibrary">
+    <value>Modificar esta biblioteca de documentos</value>
+    <comment>Action text of the modify action for this document library.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteTaxonomyActionName">
+    <value>Eliminar la clasificación</value>
+    <comment>Delete taxonomy action title.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SaveAndCloseUsersSelectionBox">
+    <value>Guardar</value>
+    <comment>Text for the 'Close' link, which saves data and hides the users/roles selection box in the users selection dialog, for a specific action</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreatePagesChildControls">
+    <value>Añadir widgets y elementos de diseño a la página</value>
+    <comment>Action text of the Add Widgets action for the root node of pages.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeBlogPostOwner">
+    <value>Cambiar propietario de la entrada del blog</value>
+    <comment>Action text of the change owner action for a blog post.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeThisDocumentLibraryOwner">
+    <value>Cambiar el propietario de esta biblioteca de documentos</value>
+    <comment>Action text of the change owner action for this document library.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="PermissionsByUser">
+    <value>por Usuario</value>
+    <comment>Permissions Global Tab Selector: By User Title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageUserFileDocument">
+    <value>Modificar la carpeta y  administrar sus elementos</value>
+    <comment>'Manage document' security action title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteVideoDescription">
+    <value>Especifica quién puede o no puede modificar un vídeo.</value>
+    <comment>'Delete video' security action description</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DocumentLibraryPermissionsDescription">
+    <value>Representa los permisos de seguridad para las bibliotecas de documentos.</value>
+    <comment>Document library permissions description</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="YouCantDeleteTheCurrentUser">
+    <value>No puede borrar al usuario actual.</value>
+    <comment>Error message when trying to delete the current user.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteImage">
+    <value>Eliminar imagen</value>
+    <comment>'Delete image' security action title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteThisBlog">
+    <value>Eliminar este blog y sus entradas</value>
+    <comment>Action text of the delete action for this blog.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Authors">
+    <value>Autores</value>
+    <comment>Authors role title.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="GeneralPermissions">
+    <value>Permisos generales</value>
+    <comment>Permission title.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="UserFilePermissionsDescription">
+    <value>Representa los permisos de seguridad para las bibliotecas de documentos.</value>
+    <comment>User file permissions description</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ContentActionPermissionsListTitle">
+    <value>Permisos de contenido</value>
+    <comment>Content Permissions Title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewThisVideo">
+    <value>Ver este vídeo</value>
+    <comment>Action text of the view action for this video.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeDocumentLibraryPermissionsDescription">
+    <value>Especifica quién puede o no puede cambiar los permisos de la biblioteca de documentos</value>
+    <comment>'Change document library permissions' security action description</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AccessTranslationsTitle">
+    <value>Acceder a módulo de Traducciones</value>
+    <comment>Phrase: Access Translations module</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageLicenses">
+    <value>Gestionar licencias</value>
+    <comment>The title of ManageLicenses security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CannotCreateRoleWithoutName">
+    <value>No se puede crear un rol sin nombre.</value>
+    <comment>Notifies the user when they try to create a role with no name.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteThisUserFileLibrary">
+    <value>Eliminar esta carpeta</value>
+    <comment>Action text of the delete action for this user file library.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeThisAlbumOwner">
+    <value>Cambiar a este propietario de la biblioteca de imágenes</value>
+    <comment>Action text of the change owner action for this image library.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EditComments">
+    <value>Editar los comentarios</value>
+    <comment>The title of Edit comments security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AppRolesDescription">
+    <value>Almacena información sobre las funciones de aplicación. Las funciones de aplicación son funciones especiales que se asignan a los usuarios automáticamente en función a condiciones preestablecidas.</value>
+    <comment>Description of the application role provider.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="InvalidUserName">
+    <value>El nombre de usuario que ha introducido no es válido.</value>
+    <comment>phrase: The username you have entered is not valid.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewVideoLibrary">
+    <value>Ver biblioteca de vídeo</value>
+    <comment>Action title for viewing a video library</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="UsedIn">
+    <value>Utilizado también en</value>
+    <comment>Phrase: Used also in</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="MembershipProviders">
+    <value>Proveedores de membresía.</value>
+    <comment>phrase: Membership Providers</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ModifyAlbum">
+    <value>Modificar la biblioteca de imágenes</value>
+    <comment>'Modify image library' security action title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageLabelsDescription">
+    <value>Permite o prohibe etiquetas y la gestión de mensajes.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ModifyThisVideo">
+    <value>Modificar este vídeo</value>
+    <comment>Action text of the modify action for this video.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeThisDocumentOwner">
+    <value>Cambiar el propietario de este documento</value>
+    <comment>Action text of the change owner action for this document.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="OnceCreatedUsernameCannotBeChanged">
+    <value>Una vez creado el nombre de usuario no se puede modificar</value>
+    <comment>phrase: The username cannot be changed</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="UserFileDocumentPermissions">
+    <value>Permisos de UserFileDocument</value>
+    <comment>UserFileDocument permissions title.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangePageOwnerActionDescription">
+    <value>Permite o prohibe el cambio de la titularidad de una página.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EditCommentsDescription">
+    <value>Permite o prohibe modificar comentarios.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ModifyImageDescription">
+    <value>Especifica quién puede o no puede modificar una imagen.</value>
+    <comment>'Modify image' security action description</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewCommentsDescription">
+    <value>Permite o prohibe la visualización de los comentarios</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangePagePermissionsActionName">
+    <value>Cambiar los permisos de esta página y sus páginas hijas</value>
+    <comment>The title of ChangePermissions security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewThisUserFileLibrary">
+    <value>Ver esta carpeta</value>
+    <comment>Action text of the view action for this user file library.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeImageOwnerDescription">
+    <value>Permite o prohibe el cambio dde la titularidad de una imagen.</value>
+    <comment>Translated message, similar to 'Allows or denies changing the ownership of an image'</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreateAUser">
+    <value>Crear un usuario</value>
+    <comment>phrase: Create a user</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="MoveControlActionDescription">
+    <value>Permite o prohibe al usuario mover widgets hacia arriba o hacia abajo en una zona (editor de páginas).</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeBackendLinkPermissionsDescription">
+    <value>Permite o deniega el permiso de visualización de enlace de backend.</value>
+    <comment>Phrase: Allows or denies changing the view backend link permission.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="PageTemplatesPermissions">
+    <value>Permisos de plantillas de página</value>
+    <comment>Permissions title.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteUserFile">
+    <value>Eliminar archivo de usuario</value>
+    <comment>'Delete user file' security action title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeThisDocumentPermissions">
+    <value>Cambiar los permisos de este documento</value>
+    <comment>Action text of the change permissions action for this document.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreateThisUser">
+    <value>Crear este usuario</value>
+    <comment>phrase: Create this user</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageUserFileDocumentDescription">
+    <value>Especifica quién puede o no puede modificar y administrar biblioteca de documentos.</value>
+    <comment>'Manage document' security action description</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangePermissionsDescription">
+    <value>Permite o prohibe el cambio de los permisos de un elemento de datos.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="PageTemplatesPermissionsDescription">
+    <value>Representa los permisos de seguridad para las plantillas de página.</value>
+    <comment>Permissions description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteThisDocument">
+    <value>Eliminar este documento</value>
+    <comment>Action text of the delete action for this document.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Default">
+    <value>predeterminado</value>
+    <comment>The title of the default backend membership provider.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreateTaxonomyActionName">
+    <value>Crear clasificación</value>
+    <comment>Create taxonomy action title.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ModifyVideoDescription">
+    <value>Especifica quién puede o no puede modificar un vídeo.</value>
+    <comment>'Modify video' security action description</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="BackendUsersRoleDescription">
+    <value>La descripción del rol de aplicación para los usuarios del área administrativa</value>
+    <comment>Application role for users which are allowed to access the backend.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewThisBlog">
+    <value>Ver este blog</value>
+    <comment>Action text of the view action for this blog.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ActionUserSelectionCancelBtn">
+    <value>cancelar</value>
+    <comment>Close (or Cancel) button for  the users selection dialog, for a specific action</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeOwnerForThisSite">
+    <value>Cambiar el propietario de este sitio</value>
+    <comment>Security action: Change the owner of this site</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="LayoutElementPermissionSetName">
+    <value>Permisos de diseño de elementos</value>
+    <comment>Permissions title.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ApplicationRoleAlreadyExistsWithThisName">
+    <value>Una función de aplicación con el nombre {0} ya existe en el sistema.</value>
+    <comment>Error message: An application role with the name {0} already exists in the system.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ConfigureThisSiteModules">
+    <value>Configurar estos módulos de sitio</value>
+    <comment>Text of the configure modules action for a site.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageSearchIndicesDescription">
+    <value>Se requiere una medida de seguridad para acceder a la interfaz de usuario Backend para administrar índices de búsqueda</value>
+    <comment>Description of the 'ManageSearchIndices' security action</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="MissingCurrentPrincipal">
+    <value>No se puede obtener usuario actual</value>
+    <comment>Error message shown when checking for permissions and the current user couldn't be retrieved.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ModifyVideoLibrary">
+    <value>Modificar la colección de vídeo</value>
+    <comment>'Modify video library' security action title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="OwnerDescription">
+    <value>Representa un rol predefinido que se asigna automáticamente a un usuario cuando se comprueban los permisos contra un elemento que posee el usuario.</value>
+    <comment>Application predefined role name: Owner</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeOwner">
+    <value>Cambiar propietario {0}</value>
+    <comment>The title of Change Owner security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="GlobalActionPermissionsListTitle">
+    <value>Permisos globales</value>
+    <comment>Global Permissions Title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="VideoLibraryPermissions">
+    <value>Permisos de la biblioteca de videos</value>
+    <comment>Video library permissions title.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageFilesDescription">
+    <value>Permite o prohibe el permiso para administrar archivos.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewLayoutActionName">
+    <value>Ver un elemento de diseño</value>
+    <comment>The title of view security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EveryoneDescription">
+    <value>Representa un rol predefinido que se asigna automáticamente a todas las solicitudes, incluidos las anónimas.</value>
+    <comment>Application predefined role name: Everyone</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeDocumentLibraryOwner">
+    <value>Cambiar propietario de la colección de documentos</value>
+    <comment>'Change document library owner' security action title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeletePages">
+    <value>Eliminar páginas</value>
+    <comment>Action text of the Create action for the root node of pages.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageUsersDescription">
+    <value>Permite o prohibe la gestión de cuentas de usuario.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewDocumentDescription">
+    <value>Especifica quién puede o no puede ver los documentos</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageBackendPagesDescription">
+    <value>Se requiere una medida de seguridad para editar páginas backend a través de la interfaz de usuario</value>
+    <comment>Description of the 'ManageBackendPages' security action</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewThisDocument">
+    <value>Ver este documento</value>
+    <comment>Action text of the view action for this document.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="UserPermissionsEditorPerUserTitle">
+    <value>Establecer permisos por usuario</value>
+    <comment>Window Title for editing permission actions per user (UserPermissionsEditor dialog)</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeBlogPermissions">
+    <value>Cambiar los permisos de un blog</value>
+    <comment>The title of Change Permissions security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewImageDescription">
+    <value>Especifica quién puede o no puede ver las imágenes</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Delete">
+    <value>Eliminar {0}</value>
+    <comment>The title of Delete security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewUserFileDescription">
+    <value>Especifica quién puede o no puede ver las bibliotecas de documentos</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeBlogPostOwnerDescription">
+    <value>Permite o prohibe el cambio de la titularidad de una entrada específica en un blog.</value>
+    <comment>Blog post change owner description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewUserFileDocumentDescription">
+    <value>Especifica quién puede o no puede ver los documentos</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteComments">
+    <value>Eliminar comentarios</value>
+    <comment>The title of Delete comments security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageSearchIndices">
+    <value>Acceder a la búsqueda e indexación de páginas backend</value>
+    <comment>Title of the 'ManagePublishingSystem' security action</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeSitePermissionsDescription">
+    <value>Especificar quién puede/no puede cambiar los permisos del sitio</value>
+    <comment>'Change permissions' security action description</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeImagePermissions">
+    <value>Cambiar los permisos de la imagen</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CommentsPermissionsDescription">
+    <value>Representa los permisos de seguridad para los comentarios.</value>
+    <comment>Permissions description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeThisVideoLibraryOwner">
+    <value>Cambiar el propietario de este vídeo de la colección</value>
+    <comment>Action text of the change owner action for this video library.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreateCommentsActionDescription">
+    <value>Permite o prohibe la escritura de nuevos comentarios</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteDocumentLibraryDescription">
+    <value>Especifica quién puede o no puede modificar una biblioteca de documentos.</value>
+    <comment>'Delete document library' security action description</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreateBlogDescription">
+    <value>Permite o prohibe la creación de un nuevo blog.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewThisDocumentLibrary">
+    <value>Ver esta biblioteca de documentos</value>
+    <comment>Action text of the view action for this document library.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageFiles">
+    <value>Administrar archivos</value>
+    <comment>The title of ManageFiles security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AlbumPermissionsDescription">
+    <value>Representa los permisos de seguridad para las bibliotecas de imágenes.</value>
+    <comment>Represents security permissions for image libraries.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ModifyUserFileDescription">
+    <value>Especificar quién puede/no puede modificar un archivo de usuario.</value>
+    <comment>'Modify user file' security action description</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Owner">
+    <value>Propietario</value>
+    <comment>Application predefined role name: Owner</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreateBlog">
+    <value>Crear un blog</value>
+    <comment>The title of CreateBlog security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Username">
+    <value>Nombre de usuario</value>
+    <comment>word: Username</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SecurityResourcesTitlePlural">
+    <value>Seguridad</value>
+    <comment>The title plural of this class.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ThisUserCanAccessSiteBackend">
+    <value>Este usuario puede &lt;strong&gt;acceder al área administrativa&lt;/strong&gt;</value>
+    <comment>This user can access site backend</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteAlbumDescription">
+    <value>Especificar quién puede / no puede eliminar una biblioteca de imágenes</value>
+    <comment>'Delete image library' security action description</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="LoadBalancingIsDisabled">
+    <value>El equilibrio de carga está deshabilitado para su licencia.</value>
+    <comment>Error message: Load balancing is disabled for your license.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AccessSiteDescription">
+    <value>Especificar quién puede/no puede acceder a los sitios</value>
+    <comment>'Access the site' security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewAlbumDescription">
+    <value>Especificar quién puede / no puede ver la biblioteca de imágenes</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="FrontendUsers">
+    <value>Usuarios públicos</value>
+    <comment>The title of the default frontend membership provider.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DesignersRoleDescription">
+    <value>La descripción del rol de aplicación para los usuarios del área administrativa</value>
+    <comment>Application role for users which are allowed to design.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="BackendPermissionsDescription">
+    <value>Representa los permisos generales de acceso al área administrativa.</value>
+    <comment>Permission description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreateVideo">
+    <value>Cargar vídeo</value>
+    <comment>'Create video' security action title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageBlogPost">
+    <value>Modificar blog y gestionar entradas</value>
+    <comment>Action text of the manage action for a blog post.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Administrators">
+    <value>Administradores</value>
+    <comment>Application predefined role name: Administrators</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SecuredObjectWithIdDoesNotSupportPermissionSet">
+    <value>{0} con ID {1} no es compatible con conjunto de permiso {2}. Es compatible con {3}.</value>
+    <comment>Error message shown when we check whether a secured object is granted some action of a permission set that is not supported.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Anonymous">
+    <value>Anónimo</value>
+    <comment>Application predefined role name: Anonymous</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewDocument">
+    <value>Ver documento</value>
+    <comment>Action title for viewing a Document</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EditContentActionName">
+    <value>Editar el contenido de esta página y sus páginas hijas</value>
+    <comment>Edit content action title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteSite">
+    <value>Eliminar un sitio</value>
+    <comment>'Delete a site' security action title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageThisVideoLibrary">
+    <value>Administrar esta biblioteca de videos</value>
+    <comment>'Manage video library' security action title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeThisBlogPostOwner">
+    <value>Cambiar el propietario de esta entrada en el blog de</value>
+    <comment>Action text of the change owner action for this blog post.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreateVideoDescription">
+    <value>Especifica quién puede o no puede crear vídeos.</value>
+    <comment>'Create video' security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="PagePermissions">
+    <value>Permisos de la Página</value>
+    <comment>Page permissions title.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AllowedUsersPermissionsListTitle">
+    <value>Usuarios autorizados:</value>
+    <comment>Text for the allowed users label in a list of permissions</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeThisImagePermissions">
+    <value>Cambiar los permisos de esta imagen</value>
+    <comment>Action text of the change permissions action for this image.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteControlActionName">
+    <value>Borrar un widget</value>
+    <comment>The title of DeleteControl security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewControlActionName">
+    <value>Ver un widget</value>
+    <comment>The title of ViewControl security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeAlbumPermissions">
+    <value>Cambiar los permisos de la biblioteca de imágenes</value>
+    <comment>'Change image library permissions' security action name</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageUserFilesDescription">
+    <value>Acción de seguridad que permite el acceso a las páginas de backend de la librería de archivos de usuario</value>
+    <comment>Description of the 'ManageUserFiles' security action</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EditLayoutPropertiesActionName">
+    <value>Editar las propiedades del elemento de diseño</value>
+    <comment>The title of EditControlProperties security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewComments">
+    <value>Ver comentarios</value>
+    <comment>The title of View comments security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangePassword">
+    <value>Cambiar contraseña</value>
+    <comment>phrase: Change password</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteTaxonomyActionDescription">
+    <value>Permite o prohibe la supresión de una clasificación.</value>
+    <comment>Delete taxonomy action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="InvalidQuestion">
+    <value>La pregunta que ha introducido no es válida.</value>
+    <comment>phrase: The question you have entered is not valid.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteDocumentLibrary">
+    <value>Eliminar biblioteca de documentos</value>
+    <comment>'Delete document library' security action title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="WhoCanDots">
+    <value>¿Quién puede...</value>
+    <comment>phrase: Who can...</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="BackendRoles">
+    <value>Roles del área administrativa</value>
+    <comment>The title of the default backend role provider.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AppRoles">
+    <value>Roles de aplicación</value>
+    <comment>The title of the application role provider.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteCurrentUserWarning">
+    <value>Está a punto de eliminar su cuenta de usuario. Este cambio es irreversible y cerrará la sesión.</value>
+    <comment>Warning that is show to the user to confirm that they want to delete their own account.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeVideoLibraryPermissions">
+    <value>Cambiar los permisos de la colección de vídeo</value>
+    <comment>'Change video library permissions' security action title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EditControlPropertiesActionDescription">
+    <value>Permite o prohibe modificar las propiedades de un widget.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="RoleDeletionConfirmation">
+    <value>¿Está seguro de que desea eliminar este rol (los usuarios se eliminarán de forma automática del rol)?</value>
+    <comment>Asks the user for confirmation before deleting a role.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="PleaseWaitItMayTakeAWhile">
+    <value>Por favor, espere... Puede tomar algún tiempo</value>
+    <comment>Phrase: Please wait... It may take a while.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EditorsRoleDescription">
+    <value>La descripción del rol de aplicación para los usuarios del área administrativa</value>
+    <comment>Application role for users which are allowed to edit.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreateDocument">
+    <value>cargar documento</value>
+    <comment>'Create Document' security action title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteCommentsActionDescription">
+    <value>Permite o prohibe la supresión de comentarios.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewDocumentLibraryDescription">
+    <value>Especifica quién puede o no puede ver las bibliotecas de documentos</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewBlog">
+    <value>Ver un blog</value>
+    <comment>The title of ViewBlog security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="InOrderToManageContentOrSettings">
+    <value>con el fin de administrar el contenido o la configuración</value>
+    <comment>Manage content or settings</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="WordAdvanced">
+    <value>Avanzado</value>
+    <comment>Word: Advancd</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewConfigurations">
+    <value>Ver configuraciones</value>
+    <comment>The title of ViewConfigurations security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="MoveLayoutActionName">
+    <value>Mover un elemento de diseño</value>
+    <comment>The title of move layout element security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ExplicitlyDenied">
+    <value>Denegado explícitamente</value>
+    <comment>phrase: Explicitly denied:</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="PermissionsByRole">
+    <value>por Función</value>
+    <comment>Permissions Global Tab Selector: By Role Title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="UserRejected">
+    <value>El usuario ha sido rechazado.</value>
+    <comment>prhase: The user was rejected.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="NotAuthorizedToManageControlsOnThisTemplate">
+    <value>No tiene permisos para crear widgets y elementos de diseño en esta plantilla</value>
+    <comment>Message: You are not authorized to create widgets and layout elements on this template</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageDocument">
+    <value>Modificar biblioteca y gestionar documentos</value>
+    <comment>'Manage document' security action title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EditLayoutPropertiesActionDescription">
+    <value>Permite o prohibe modificar las propiedades de un elemento de diseño.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CloseUsersSelectionBox">
+    <value>Cerrar</value>
+    <comment>Text for the 'Close' link, which hides the users/roles selection box in the users selection dialog, for a specific action</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ModifyCommentActionTitle">
+    <value>Modificar comentarios</value>
+    <comment>The title of ModifyComments security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeUsersPassword">
+    <value>Cambiar la contraseña del usuario</value>
+    <comment>phrase: change user's password</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageUserProfiles">
+    <value>Administrar perfiles de usuario</value>
+    <comment>Permission title.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="UsersInRoleNameCount">
+    <value>Asignado {0} {1}</value>
+    <comment>phrase: Users in role {0} {1}</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="PasswordNeedsMoreAlphaNumericCharacters">
+    <value>Contraseña no válida. Debe contener al menos {0} caracter(es) alfanumérico(s).</value>
+    <comment>phrase: Invalid password. It should contain at least {0} alpha-numeric character(s).</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="PermissionSettingForThisObjectIsDisabledOnYourLicense">
+    <value>La licencia no será actualizado debido a</value>
+    <comment>Error message: Permission setting for this object is disabled on your license.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="NoEditPermissionsPreviewOnlyConfirmation">
+    <value>&lt;p&gt;No tiene permisos para realizar esta acción. &lt;br/&gt;Póngase en contacto con el administrador del sistema para obtener ayuda./&gt;&lt;br/&gt;&lt;br &lt;em&gt;Haga clic en Ver &lt;/em&gt;para abrir el elemento en modo de sólo lectura. Pulse &lt;em&gt;Cancelar &lt;/em&gt;para salir. &lt;/P&gt;</value>
+    <comment>Message: You do not have the permissions to perform this action. Contact your system administrator for assistance. Click View to open the item in read-only mode. Press Cancel to exit.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewTaxonomyActionDescription">
+    <value>Permite o prohibe la visualización de una clasificación.</value>
+    <comment>View taxonomy action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SpecificSelectedUsersActive">
+    <value>Selección de roles o usuarios &lt;span class='sfNote'&gt;(además de administrador) &lt;/span&gt;:</value>
+    <comment>Text for the 'Specific selected users' radio button in a users selection dialog, for a specific action. When selected</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeBlogPermissionsDescription">
+    <value>Permite o prohibe el cambio de los permisos de un blog.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewImage">
+    <value>Ver imágenes</value>
+    <comment>Action title for viewing an image</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Provider">
+    <value>Proveedor</value>
+    <comment>word: provider</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ModifyDocumentDescription">
+    <value>Especifica quién puede o no puede modificar un documento.</value>
+    <comment>'Modify document' security action description</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeCommentsOwnerDescription">
+    <value>Permite o prohibe el cambio de la titularidad de los comentarios.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="GeneralPermissionsTitle">
+    <value>Permisos para {0}</value>
+    <comment>Phrase: Permissions for {0}</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeDocumentLibraryPermissions">
+    <value>Cambiar los permisos de la biblioteca de documentos</value>
+    <comment>'Change document library permissions' security action title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeControlPermissionsActionDescription">
+    <value>Permite o prohibe el cambio de los permisos de un widget.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="FormsPermissions">
+    <value>Permisos de formularios</value>
+    <comment>Forms permissions title.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="UserPermissionsEditorSaveBtn">
+    <value>Guardar</value>
+    <comment>Close (or Cancel) button for  the users selection dialog, for a User Permissions Editor control</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Password">
+    <value>Contraseña</value>
+    <comment>phrase: Password</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AccessDataIntelligenceConnectorTitle">
+    <value>Acceder al Conector para Sitefinity DEC</value>
+    <comment>Phrase: Access Connector for Digital Experience Cloud</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DocumentLibraryPermissions">
+    <value>Permisos de la biblioteca de documentos</value>
+    <comment>Document library permissions title.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeVideoLibraryOwnerDescription">
+    <value>Especifica quién puede o no cambiar el propietario de una biblioteca de videos</value>
+    <comment>'Change video library owner' security action description</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeBlogPostPermissions">
+    <value>Cambiar los permisos de las entradas del blog</value>
+    <comment>Action text of the change permissions action for a blog post.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeCommentsOwner">
+    <value>Cambiar propietario comentarios</value>
+    <comment>The title of Change Comments Owner security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Users">
+    <value>Usuarios</value>
+    <comment>Users</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteAlbum">
+    <value>Eliminar biblioteca de imágenes</value>
+    <comment>'Delete image library' security action title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SmtpTimeoutMustBeNonNegative">
+    <value>El tiempo de espera del SMTP no puede ser negativo</value>
+    <comment>Error message displayed when the user tries to enter a value for SMTP timeout that is less than zero.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeTaxonomyPermissionsActionDescription">
+    <value>Permite o prohibe el cambio de los permisos de una clasificación.</value>
+    <comment>Change permissions of a taxonomy action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AllowedUsersTitle">
+    <value>¿Quién puede hacer esto?</value>
+    <comment>Text for the 'Allowed users' title in a users selection dialog, for a specific action</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="UseBrowseAndEdit">
+    <value>Utilizar edición en línea</value>
+    <comment>Permission title.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="NewsActionPermissionsListTitle">
+    <value>Noticias</value>
+    <comment>Module titles for the General permission set: News.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SecurityResourcesDescription">
+    <value>Contiene recursos localizables para la interfaz de usuario de Seguridad.</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ModifyThisDocument">
+    <value>Modificar este documento</value>
+    <comment>Action text of the modify action for this document.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteThisItem">
+    <value>Eliminar este {0}</value>
+    <comment>Customized title of the Delete security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Everyone">
+    <value>Todos</value>
+    <comment>Application predefined role name: Everyone</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AllProvidersText">
+    <value>Todos los proveedores</value>
+    <comment>All Providers text (users and roles) for a specific action permission</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="InvalidProviderUserKey">
+    <value>Clave inválida de proveedor de usuarios.</value>
+    <comment>phrase: Invalid provider user key.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="NewUserCreated">
+    <value>Se ha creado con éxito el nuevo usuario</value>
+    <comment>phrase: New user has been successfully created.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="FrontendUsersDescription">
+    <value>El proveedor de membresía predeterminado para usuarios del área pública.</value>
+    <comment>Description of the default backend role provider.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreatePageActionDescription">
+    <value>Permite o prohibe la creación de nuevas páginas.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreateCommentActionTitle">
+    <value>Escribir comentarios</value>
+    <comment>The title of CreateComments security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreateDocumentDescription">
+    <value>Especifica quién puede o no puede crear documentos.</value>
+    <comment>'Create Document' security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ModuleProviderLabel">
+    <value>Módulo Proveedor:</value>
+    <comment>Module provider label text</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="UsrPermissionListUsersSectionTitle">
+    <value>Usuarios</value>
+    <comment>Text for the 'Show users' link/label in a list of permissions on UserPermissionsList (for specific user/role selection)</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="RolesPermissionsMessage">
+    <value>&lt;p&gt;&lt;strong&gt;Diseñadores&lt;/strong&gt; y &lt;strong&gt;Autores&lt;/strong&gt; son roles de sistema que no se utilizan en esta ocasión. Usted no necesita cambiar sus permisos.&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;Administrador&lt;/strong&gt; y &lt;strong&gt;Editor&lt;/strong&gt; son roles de sistema que son gestionados en Administración de Cuenta.&lt;/p&gt;</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewControlActionDescription">
+    <value>Permite o prohibe la visualización (rendering) de un widget en una página</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="BackendUsersRole">
+    <value>usuarios del área administrativa</value>
+    <comment>The title of application role for backend users.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AccessDataIntelligenceConnectorDescription">
+    <value>Acción de seguridad que permite acceso a las páginas backend del Conector para Sitefinity DEC.</value>
+    <comment>Phrase: Security action that allows access to the backend pages of the Connector for Digital Experience Cloud.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangePagesOwner">
+    <value>Cambiar propietario de la página</value>
+    <comment>Action text of the Change Owner action for the root node of pages.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteVideoLibraryDescription">
+    <value>Especifica quién puede o no puede modificar una biblioteca de vídeo.</value>
+    <comment>'Delete video library' security action description</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ListOfAvailableRoles">
+    <value>Lista de roles disponibles</value>
+    <comment>phrase: List of available roles</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ModifyDescription">
+    <value>Permite o prohibe la modificación de un elemento de datos existentes.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EditControlPropertiesActionName">
+    <value>Modificar las propiedades del widget</value>
+    <comment>The title of EditControlProperties security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Assigned">
+    <value>Asignado</value>
+    <comment>word: Assigned</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AlbumPermissions">
+    <value>Permisos de Biblioteca de Imágenes</value>
+    <comment>Image Library permissions title.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewVideoDescription">
+    <value>Especifica quién puede o no puede ver videos</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="RegisteredOn">
+    <value>Fecha de registro</value>
+    <comment>Displays the registration date in grids that list users.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageThisBlogPost">
+    <value>Gestionar este blog</value>
+    <comment>Action text of the modify action for this blog post.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="FrontendRoles">
+    <value>Roles Públicas</value>
+    <comment>The title of the default frontend role provider.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ThisItemHasPermissionsDifferentFromItsParent">
+    <value>Este elemento tiene permisos diferentes que su elemento primario.</value>
+    <comment>Phrase: This item has permissions different from its parent.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="MultisiteManagementPermissions">
+    <value>Permisos para gestionar varios sitios</value>
+    <comment>Multisite management permissions title.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangePageOwnerActionName">
+    <value>Cambiar al propietario de esta página y de sus páginas hijas</value>
+    <comment>The title of Change Page Owner security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeAlbumOwner">
+    <value>Cambiar el propietario de la biblioteca de imágenes</value>
+    <comment>'Change image library owner' security action title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="UserFilePermissions">
+    <value>Permisos de Usuario de Archivos</value>
+    <comment>User file permissions title.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeThisUserFileLibraryPermissions">
+    <value>Cambiar los permisos de esta carpeta</value>
+    <comment>Action text of the change permissions action for this user file library.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="RoleNameIsReservedByTheSystem">
+    <value>El nombre del rol '{0}' está reservado para su uso por el sistema.</value>
+    <comment>phrase: The role name '{0}' is reserved for use by the system.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SpecificDeniedUsersInactive">
+    <value>Denegar explícitamente esto a los roles y usuarios seleccionados...</value>
+    <comment>Text for the 'Specific denied users' option in the users selection dialog, for a specific action, when inactive</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeUserFileDocumentPermissionsDescription">
+    <value>Especificar quién puede/no puede cambiar los permisos de los elementos</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ModifyThisImage">
+    <value>Modificar esta imagen</value>
+    <comment>Action text of the modify action for this image.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreateOrModifyUsers">
+    <value>crear o modificar usuarios</value>
+    <comment>create or modify users</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SiteSynchronizationDescription">
+    <value>Acción de seguridad que permite el acceso a las páginas de backend del módulo de secuenciamiento y sincronización</value>
+    <comment>Description of the 'SiteSynchronization' security action</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeThisBlogOwner">
+    <value>Cambiar el propietario de este blog</value>
+    <comment>Action text of the change owner action for this blog.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreatePages">
+    <value>Crear páginas</value>
+    <comment>Action text of the Create action for the root node of pages.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreationDate">
+    <value>Fecha de creación</value>
+    <comment>phrase: Creation date</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="documentGeneralPermissionSetTitleResource">
+    <value>documento</value>
+    <comment>document - text to be displayed for permissions related to documents (i.e. the text in the General permission set of the libraries root).</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteLayoutActionDescription">
+    <value>Permite o prohibe la eliminación de un elemento de diseño de una página.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeThisVideoOwner">
+    <value>Cambiar el propietario de este vídeo</value>
+    <comment>Action text of the change owner action for this video.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CommentsPermissions">
+    <value>Permisos para comentarios</value>
+    <comment>Permissions title.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AllowUserPermissionsList">
+    <value>Permitir</value>
+    <comment>Allow title text for the UserPermissionsList control</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageUserProfilesDescription">
+    <value>Representa las autorizaciones generales para administrar perfiles de usuario y tipos de perfiles.</value>
+    <comment>Permission description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="WorkflowActionPermissionsListTitle">
+    <value>Flujo de trabajo</value>
+    <comment>Module titles for the General permission set: Workflow.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeVideoPermissionsDescription">
+    <value>Especifica quién puede o no cambiar los permisos de un vídeo</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeBlogOwnerDescription">
+    <value>Permite o prohibe el cambio de la titularidad de un blog.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreateUserFile">
+    <value>Crear archivo de usuario</value>
+    <comment>'Create User file' security action title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DenyUserPermissionsList">
+    <value>Denegar</value>
+    <comment>Deny title text for the UserPermissionsList control</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ModifyDocument">
+    <value>Modificar documento</value>
+    <comment>'Modify document' security action title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageUsers">
+    <value>Administrar usuarios</value>
+    <comment>The title of ManageUsers security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteDocument">
+    <value>Eliminar documento</value>
+    <comment>'Delete document' security action title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewBlogPostDescription">
+    <value>Permite o prohibe la visualización de una entrada de blog determinada.</value>
+    <comment>Blog post viewing description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SpecificSelectedUsersInactive">
+    <value>Selección de roles o usuarios &lt;span class='sfNote'&gt;(además de administrador) &lt;/span&gt;…</value>
+    <comment>Text for the 'Specific selected users' radio button in a users selection dialog, for a specific action. When not selected</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewBlogDescription">
+    <value>Permite o prohibe la visualización de un blog determinado.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="RoleWasSuccesfullySaved">
+    <value>La función ha sido guardada correctamente.</value>
+    <comment>Message that notifies that the new role was succesfully saved.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="StartStopSite">
+    <value>Iniciar/detener un sitio</value>
+    <comment>'Start/stop a site' security action title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EditDescription">
+    <value>Permite o prohibe la modificación de un elemento de datos existentes.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="PasswordTooWeek">
+    <value>Contraseña demasiado débil. No se corresponde con la expresión regular de fortaleza.</value>
+    <comment>phrase: Password too week. It does not match the strength regular expression.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeletePageActionDescription">
+    <value>Permite o prohibe la supresión de una página.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteUserFileDescription">
+    <value>Especificar quién puede/no puede modificar un archivo de usuario.</value>
+    <comment>'Delete user file' security action description</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="WhoCan">
+    <value>Quién puede</value>
+    <comment>phrase: Who can</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="PermissionsByPrincipal">
+    <value>por rol o usuario</value>
+    <comment>Permissions Global Tab Selector: By Principal Title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeCommentPermissionsActionDescription">
+    <value>Permite o prohibe el cambio de permisos de seguridad para un comentario.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreateVideoLibraryDescription">
+    <value>Especifica quién puede o no puede crear bibliotecas de video.</value>
+    <comment>'Create video library' security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteThisDocumentLibrary">
+    <value>Eliminar esta biblioteca de documentos</value>
+    <comment>Action text of the delete action for this document library.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SelectSection">
+    <value>Seleccione una sección</value>
+    <comment>Label in Global Permissions view</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="FormsPermissionsDescription">
+    <value>Representa los permisos de seguridad para los formularios.</value>
+    <comment>Permissions description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="NotAuthorizedToManageControlsOnThisPage">
+    <value>No tiene permisos para crear widgets y elementos de diseño en esta página</value>
+    <comment>Message: You are not authorized to create widgets and layout elements on this page</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="InvalidPassword">
+    <value>La contraseña introducida no es válida.</value>
+    <comment>phrase: The password you have entered is not valid.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageImage">
+    <value>Modificar la biblioteca y administrar las imágenes</value>
+    <comment>Action text of the manage action for an image.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteBlog">
+    <value>Eliminar blog y entradas</value>
+    <comment>The title of DeleteBlog security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CantUnassignAllAdministrators">
+    <value>No se puede desasignar todos los administradores.</value>
+    <comment>Message: You cannot unassign all administrators.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteThisVideoLibrary">
+    <value>Eliminar esta biblioteca de vídeos</value>
+    <comment>Action text of the delete action for this video library.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ModifyBlogDescription">
+    <value>Permite o prohibe modificar un blog existente.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeAlbumPermissionsDescription">
+    <value>Permite o deniega el cambio de los permisos de una biblioteca de imágenes.</value>
+    <comment>Translated message, similar to 'Allows or denies changing the permissions of an image library'</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AccessBackendDescription">
+    <value>Permite o prohibe el acceso a la zona administrativa del sitio.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="BreakInheritance">
+    <value>Anular la herencia</value>
+    <comment>Button: Break inheritance</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="MoveLayoutActionDescription">
+    <value>Permite o prohibe al usuario mover elementos de diseño hacia arriba o hacia abajo en una zona (editor de páginas).</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeThisAlbumPermissions">
+    <value>Cambiar los permisos de esta biblioteca de imágenes</value>
+    <comment>Action text of the change permissions action for this image library.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ConfigureModulesDescription">
+    <value>Especificar quién puede/no puede configurar módulos.</value>
+    <comment>'Configure modules' security action description</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AuthorsRoleDescription">
+    <value>La descripción del rol de aplicación para los autores.</value>
+    <comment>Application role for users which are allowed to author content.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManagePublishingSystemDescription">
+    <value>Se requiere una medida de seguridad para acceder a las páginas relacionadas con el sistema de publicación a través de la interfaz de usuario Backend</value>
+    <comment>Description of the 'ManagePublishingSystem' security action</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ModifyDocumentLibrary">
+    <value>Modificar biblioteca de documentos</value>
+    <comment>'Modify document library' security action title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeCommentPermissionsActionTitle">
+    <value>Cambiar permisos del comentario</value>
+    <comment>The title of ChangeCommentPermissions security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewPageActionName">
+    <value>Ver esta página y sus páginas hijas</value>
+    <comment>The title of View Page security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteCommentsDescription">
+    <value>Permite o prohibe la supresión de comentarios.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeniedUsersPermissionsListTitle">
+    <value>Usuarios no autorizados:</value>
+    <comment>Text for the denied users label in a list of permissions</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="UserIsLastAdministrator">
+    <value>El usuario es el último administrador y no se puede borrar.</value>
+    <comment>phrase: User is last administrator and cannot be deleted.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SpecificDeniedUsersActive">
+    <value>Denegar explícitamente esto a los roles y usuarios seleccionados...</value>
+    <comment>Text for the 'Specific denied users' option in the users selection dialog, for a specific action, when active</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SitemapGenerationPermissionsDescription">
+    <value>Representa los permisos de seguridad para las acciones de generación de mapa de sitio.</value>
+    <comment>Phrase: Represents security permissions for sitemap generation actions.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="GeneralPermissionsDescription">
+    <value>Representa los permisos de seguridad de uso más común.</value>
+    <comment>Permission description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeUserFileOwnerDescription">
+    <value>Especificar quién puede/no puede cambiar el propietario del archivo de usuario</value>
+    <comment>'Change user file owner' security action description</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteImageDescription">
+    <value>Eliminar imagen "descripción de acción sobre seguridad</value>
+    <comment>'Delete image' security action description</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteCommentActionTitle">
+    <value>Eliminar comentarios</value>
+    <comment>The title of DeleteComments security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeUserFileOwner">
+    <value>Cambiar el propietario del archivo de usuario</value>
+    <comment>'Change user file owner' security action title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeThisVideoLibraryPermissions">
+    <value>Cambiar los permisos de esta biblioteca de vídeo</value>
+    <comment>Action text of the change permissions action for this video library.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewPermissions">
+    <value>Vista de Permisos</value>
+    <comment>The title of ViewPermissions security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeDocumentLibraryOwnerDescription">
+    <value>Especifica quién puede o no cambiar el propietario de una biblioteca de documentos</value>
+    <comment>'Change document library owner' security action description</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AnonymousDescription">
+    <value>Representa un rol predefinido que se asigna automáticamente a todas las solicitudes no autenticadas.</value>
+    <comment>Application predefined role name: Anonymous</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="BlogPermissions">
+    <value>Permisos de Blog</value>
+    <comment>Permission title.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ConfigureModules">
+    <value>Configurar módulos</value>
+    <comment>'Configure modules' security action title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangePagesPermissions">
+    <value>Cambiar permisos</value>
+    <comment>Action text of the Change Permissions action for the root node of pages.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ModifyImage">
+    <value>Modificar la imagen</value>
+    <comment>'Modify image' security action title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="NoPermissionsToSetAsHomepage">
+    <value>Usted no tiene suficientes autorizaciones para establecer esta página como página de inicio</value>
+    <comment>Title: No permissions</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageNewslettersDescription">
+    <value>Medida de seguridad que permite acceder a las páginas backend del módulo de boletines</value>
+    <comment>Description of the 'ManageNewsletters' security action</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeControlPermissionsActionName">
+    <value>Cambiar permisos de widget</value>
+    <comment>The title of ChangeControlPermissions security action</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ModifyAlbumDescription">
+    <value>Especificar quién puede / no puede modificar una biblioteca de imágenes.</value>
+    <comment>'Modify image library' security action description</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeConfigurationsDescription">
+    <value>Permite o prohibe el cambio de todas las configuraciones del sistema.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageThisAlbum">
+    <value>Actualizar esta biblioteca y administrar sus imágenes</value>
+    <comment>Action text of the modify action for this image library.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Registration">
+    <value>Registro</value>
+    <comment>word: Registration</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeCommentOwnerActionTitle">
+    <value>Cambiar la propiedad del comentario</value>
+    <comment>The title of ChangeCommentOwner security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreateImage">
+    <value>Cargar imagen</value>
+    <comment>'Upload Image' security action title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreateCommentsDescription">
+    <value>Permite o prohibe la creación de comentarios.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ModifyPageActionName">
+    <value>Modificar las propiedades de esta página y sus páginas hijas</value>
+    <comment>The title of Modify security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="InvalidEmail">
+    <value>La dirección de correo introducida no es válida.</value>
+    <comment>phrase: The email you have entered is not valid.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="PasswordTooShort">
+    <value>La contraseña es demasiado corta. Como mínimo debe tener {0} caracter(es).</value>
+    <comment>phrase: The password is too short. It should be at least {0} character(s) long.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeImagePermissionsDescription">
+    <value>Permite o prohibe el cambio de los permisos de una imagen.</value>
+    <comment>Translated message, similar to 'Allows or denies changing the permissions of an image'</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ThereCanBeOnlyOneAdministratorsRole">
+    <value>Sólo puede haber un rol 'Administradores'</value>
+    <comment>Warns the user whey they try to create a new role named 'Administrators'</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreateChildControlsActionDescription">
+    <value>Permite o prohibe la creación de widgets y elementos de diseño en una página.</value>
+    <comment>Create widgets and layout elements action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreatePageActionName">
+    <value>Crear páginas hijas de esta página</value>
+    <comment>Create a page action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangePagePermissionsActionDescription">
+    <value>Permite o prohibe el cambio de los permisos de una página.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewPermissionsDescription">
+    <value>Permite o prohibe la visualización de los permisos.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ActionUsersSelectionTitle">
+    <value>Establecer Acciones permitidas por usuario</value>
+    <comment>Window Title for editing permitted users per action (ActionUsersSelection dialog)</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageMultisiteManagement">
+    <value>Acceder a gestión de varios sitios</value>
+    <comment>Title of the 'ManageMultisiteManagement' security action</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeThisBlogPostPermissions">
+    <value>Cambiar los permisos de esta entrada del blog</value>
+    <comment>Action text of the change permissions action for this blog post.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeThisUserFileLibraryOwner">
+    <value>Cambiar el propietario de esta carpeta</value>
+    <comment>Action text of the change owner action for this user file library.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ClickOnUserToSelectIt">
+    <value>Haga clic en un usuario para seleccionarlo</value>
+    <comment>phrase: Click on a user to select it</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreateAlbumDescription">
+    <value>Especificar quién puede / no puede crear bibliotecas de imágenes.</value>
+    <comment>'Create image library' security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangePermissionsOfThisItem">
+    <value>Cambiar los permisos de este {0}</value>
+    <comment>Customized title of the Change Permssions security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DuplicateEmail">
+    <value>Ya existe un usuario con este correo electrónico</value>
+    <comment>phrase: User with this email already exists.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeCommentsPermissions">
+    <value>Cambiar los permisos de los comentarios</value>
+    <comment>The title of Change comments Permissions security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="BlogPostPermissions">
+    <value>Permisos para las entradas del Blog</value>
+    <comment>Blog post permissions title.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Role">
+    <value>Rol</value>
+    <comment>word: Role</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EditPagesContent">
+    <value>Editar contenido de la página</value>
+    <comment>Action text of the Edit action for the root node of pages.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ModifyVideoLibraryDescription">
+    <value>Especifica quién puede o no puede modificar una biblioteca de vídeo.</value>
+    <comment>'Modify video library' security action description</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="RoleExistsOnProvider">
+    <value>El rol con nombre '{0} "ya existe en el proveedor de roles ' {1} '. Por favor, elija un nombre de rol diferente.</value>
+    <comment>Message: Role with such name already exists on the role provider</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="UserPermissionsEditorHideAdvancedOptions">
+    <value>Ocultar opciones avanzadas</value>
+    <comment>Text for the 'Hide advanced options' link in a User Permissions Editor control</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="UserFileDocumentPermissionsDescription">
+    <value>Representa los permisos de seguridad para UserFileDocuments.</value>
+    <comment>UserFileDocument permissions description</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="MissingConfigurationForRelyingParty">
+    <value>Falta la configuración para el usuario de confianza solicitante "{0}"</value>
+    <comment>Missing configuration for the requesting relying party "{0}"</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ModifyATaxonomy">
+    <value>Modificar la clasificación y gestionar elementos {0}</value>
+    <comment>Action text of the modify action for a taxonomy.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="VideoLibraryPermissionsDescription">
+    <value>Representa los permisos de seguridad para las bibliotecas de video.</value>
+    <comment>Video library permissions description</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ModifyTaxonomyActionDescription">
+    <value>Permite o prohibe la modificación de una clasificación.</value>
+    <comment>Modify taxonomy action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="WorkflowDefinitionPermissionsDescription">
+    <value>Representa permisos de seguridad para flujo de trabajo.</value>
+    <comment>Permissions description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeThisDocumentLibraryPermissions">
+    <value>Cambiar los permisos de esta biblioteca de documentos</value>
+    <comment>Action text of the change permissions action for this document library.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageNewsletters">
+    <value>Acceder al módulo de campañas de correo electrónico</value>
+    <comment>Title of the 'ManageNewsletters' security action</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeOwnerDescription">
+    <value>Permite o prohibe el cambio de la titularidad de un elemento de datos.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ModifyThisItem">
+    <value>Modificar esta {0}</value>
+    <comment>Customized title of Modify security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="GlobalPermissionsTitle">
+    <value>Permisos</value>
+    <comment>Global Permissions Title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewTaxonomyActionName">
+    <value>Ver clasificación</value>
+    <comment>View taxonomy action title.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EditContentActionDescription">
+    <value>Permite o prohibe la apertura de una página en modo de edición</value>
+    <comment>Description of action EditContent</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageWidgets">
+    <value>Acceder al editor de widgets</value>
+    <comment>Title of the 'ManageWidgets' security action</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="OverrideTheInheritedPermissions">
+    <value>Sobrecargar permisos heredados</value>
+    <comment>Phrase: Override the inherited permissions</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeVideoOwnerDescription">
+    <value>Especifica quién puede o no cambiar el propietario de un vídeo</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AccessBackend">
+    <value>Acceso al área administrativa</value>
+    <comment>The title of AccessBackend security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SmtpPortMustBeNonNegative">
+    <value>puerto SMTP debe ser no negativo.</value>
+    <comment>Error message displayed when the user tries to enter a value for SMTP port that is less than zero.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreateVideoLibrary">
+    <value>Crear biblioteca de vídeo</value>
+    <comment>'Create video library' security action title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreateChildControlsActionName">
+    <value>Añadir widgets y elementos de diseño a la página y a sus páginas hijas</value>
+    <comment>Create widgets and layout elements action title.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageLicensesDescription">
+    <value>Permite o prohibe el permiso para administrar las licencias.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreateAlbum">
+    <value>Crear biblioteca de imágenes</value>
+    <comment>'Create image library' security action title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewBackendLinkDescription">
+    <value>Permite o deniega el acceso al enlace del menú backend del módulo.</value>
+    <comment>Phrase: Allows or denies access to the backend menu link of the module.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SitemapGenerationPermissions">
+    <value>Permisos para Generación de Mapas de Sitio</value>
+    <comment>Phrase: Sitemap Generation Permissions</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewVideo">
+    <value>Ver vídeo</value>
+    <comment>Action title for viewing a video</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeletePageActionName">
+    <value>Eliminar esta página y sus páginas hijas</value>
+    <comment>The title of Delete Page security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeLayoutOwnerActionDescription">
+    <value>Permite o prohibe el cambio de la titularidad de un elemento de diseño.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreateEditSite">
+    <value>Crear y editar un sitio</value>
+    <comment>'Create and Edit a site' security action title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="BlogGeneralActionTitle">
+    <value>Blog</value>
+    <comment>Module titles for the General permission set: Blog.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ModifyThisVideoLibrary">
+    <value>Modificar esta biblioteca de vídeos</value>
+    <comment>Action text of the modify action for this video library.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewDescription">
+    <value>Permite o prohibe la visualización de un elemento de datos determinada.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewUserFileDocument">
+    <value>Ver este elemento</value>
+    <comment>Action title for viewing a UserFileDocument</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteControlActionDescription">
+    <value>Permite o prohibe la eliminación de un widget de una página.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageBlogPostDescription">
+    <value>Permite o prohibe la actualización de un blog y la gestión de sus entradas.</value>
+    <comment>Blog post editing description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeBlogOwner">
+    <value>Cambiar propietario de un blog</value>
+    <comment>The title of ChangeBlogOwner security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeVideoLibraryOwner">
+    <value>Cambiar propietario de la colección de vídeo</value>
+    <comment>'Change video library owner' security action title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreateOrModifyRoles">
+    <value>crear o modificar roles</value>
+    <comment>create or modify roles</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageWidgetsDescription">
+    <value>Se requiere una medida de seguridad para acceder a la interfaz de usuario Backend para editar/diseñar widgets</value>
+    <comment>Description of the 'ManageSearchIndices' security action</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AuthenticatedDescription">
+    <value>Representa un rol predefinido que se asigna automáticamente a todas las solicitudes autenticadas.</value>
+    <comment>Application predefined role name: Authenticated</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeTaxonomyOwnerActionName">
+    <value>Cambiar propietario de clasificación</value>
+    <comment>Change owner of taxonomy action title.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeTaxonomyPermissionsActionName">
+    <value>Cambiar los permisos de clasificación</value>
+    <comment>Change taxonomy permissions action title.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="UserWithThisUsernameExists">
+    <value>Ya existe un usuario con este nombre de usuario</value>
+    <comment>phrase: User with this email already exists</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewConfigurationsDescription">
+    <value>Permite o prohibe la visualización de las configuraciones del sistema.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageMultisiteManagementDescription">
+    <value>Acción de seguridad que permite el acceso a las páginas backend de la gestión de varios sitios</value>
+    <comment>Description of the 'ManageMultisiteManagement' security action</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageThisUserFile">
+    <value>Administrar este archivo de usuario</value>
+    <comment>'Manage user file' security action title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="OpenUsersSelectionBox">
+    <value>Seleccionar usuarios o roles</value>
+    <comment>Text for the 'Open' link, which hides the users/roles selection box in the users selection dialog, for a specific action</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeDocumentPermissionsDescription">
+    <value>Especifica quién puede o no cambiar permisos de un documento</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreateTaxonomyActionDescription">
+    <value>Permite o prohibe la creación de una clasificación.</value>
+    <comment>Create taxonomy action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ControlsPermissionsDescription">
+    <value>Representa los permisos de seguridad para los controles.</value>
+    <comment>Permissions description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeDocumentOwner">
+    <value>Cambiar propietario del documento</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ContentGeneralActionTitle">
+    <value>bloque de contenido</value>
+    <comment>Module titles for the General permission set: Content block.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewPages">
+    <value>Ver páginas</value>
+    <comment>Action text of the View action for the root node of pages.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AddRolesOrUsers">
+    <value>Agregar roles o usuarios</value>
+    <comment>phrase: Add roles or users</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewThisAlbum">
+    <value>Ver esta biblioteca de imágenes</value>
+    <comment>Action text of the view action for this image library.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeControlOwnerActionName">
+    <value>Cambiar propietario de l widget</value>
+    <comment>The title of ChangeControlOwner security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeLayoutOwnerActionName">
+    <value>Cambie el propietario del elemento de diseño</value>
+    <comment>The title of change owner security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Create">
+    <value>Crear {0}</value>
+    <comment>The title of Create security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="PermissionsBySection">
+    <value>por Sección</value>
+    <comment>Permissions Global Tab Selector: By Section Title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ResetPasswordDescription">
+    <value>Haga clic para crear automáticamente una nueva contraseña para este usuario.</value>
+    <comment>phrase: Click to automatically create a new password for this user.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeLayoutPermissionsActionDescription">
+    <value>Permite o prohibe el cambio de los permisos de un widget.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewBackendLinkTitle">
+    <value>Ver {0} enlace del backend</value>
+    <comment>Phrase: View {0} backend link</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeCommentOwnerActionDescription">
+    <value>Permite o prohibe el cambio de la titularidad de un comentario.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Editors">
+    <value>Editores</value>
+    <comment>Editors role title.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="MoveControlActionName">
+    <value>Mover un widget</value>
+    <comment>The title of MoveControl security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Authenticated">
+    <value>Autenticados</value>
+    <comment>Application predefined role name: Authenticated</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageVideoDescription">
+    <value>Especifica quién puede o no puede puede modificar y administrar una biblioteca de vídeos.</value>
+    <comment>'Manage video' security action description</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ThisObjectsPermissionsAreInherited">
+    <value>Los permisos de este objeto se heredan de su padre.</value>
+    <comment>Label: This object's permissions are inherited from its parent.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DatabaseFAQ">
+    <value>&lt;h4&gt;¿Tengo que crear la base de datos de antemano?&lt;/h4&gt;&lt;p&gt;No. Si selecciona &lt;em&gt;Microsoft SQL Server Express&lt;/em&gt;, la base de datos se agregará automáticamente. Si selecciona &lt;em&gt;Microsoft SQL Server&lt;/em&gt;, el usuario de base de datos debe tener permisos para crear una base de datos o usted tendrá que crear la base de datos de forma manua.&lt;/p&gt;&lt;h4&gt;¿Qué sucede si marco &lt;em&gt;Autenticación de Windows para conexión de SQL Server&lt;/em&gt;?&lt;/h4&gt;&lt;p&gt;Usted necesita asegurarse de que la cuenta que ejecuta el proceso ASPNET tiene los permisos adecuados a la base de datos.&lt;/p&gt;</value>
+    <comment>DatabaseFAQ</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewUserFile">
+    <value>Ver archivo de usuario</value>
+    <comment>Action title for viewing a User file</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="NoEditPermissionsViewObject">
+    <value>Ver</value>
+    <comment>Button: View object</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="VideoPermissions">
+    <value>Permisos de Video</value>
+    <comment>Video permissions title.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeDocumentOwnerDescription">
+    <value>Especifica quién puede o no cambiar el propietario de un documento</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteDescription">
+    <value>Permite o prohibe la eliminación de un elemento de datos en particular.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeUserPermissionsLinkButtonText">
+    <value>Cambiar</value>
+    <comment>Text for the Change link in a list of permissions on UserPermissionsList</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ControlsPermissions">
+    <value>Permisos de Controles</value>
+    <comment>Permissions title.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="UsernameCannotBeChanged">
+    <value>El nombre de usuario no es modificable</value>
+    <comment>phrase: The username cannot be changed</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ModifyDocumentLibraryDescription">
+    <value>Especifica quién puede o no puede modificar una biblioteca de documentos.</value>
+    <comment>'Modify document library' security action description</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="BackendUsers">
+    <value>todos los usuarios del área administrativa</value>
+    <comment>Name of the backend users role name.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="PermissionsForFrontendPages">
+    <value>Permisos para las páginas públicas</value>
+    <comment>Title: Permissions for frotend pages.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Site">
+    <value>más sitios</value>
+    <comment>Phrase: more site</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewThisBlogPost">
+    <value>Ver esta entrada de blog</value>
+    <comment>Action text of the view action for this blog post.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ThisObjectsPermissionsOverride">
+    <value>Los permisos de este objeto sobrecargan a los de su padre</value>
+    <comment>Sentence: This object's permissions override its parent's.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeVideoLibraryPermissionsDescription">
+    <value>Especifica quién puede o no cambiar los permisos de un vídeo</value>
+    <comment>'Change video library permissions' security action description</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="InvalidAnswer">
+    <value>La respuesta que ha introducido no es válido.</value>
+    <comment>phrase: The answer you have entered is not valid.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteVideo">
+    <value>Eliminar vídeo</value>
+    <comment>'Delete video' security action title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ClickOnRoleToSelectIt">
+    <value>Haga clic en un rol para seleccionarlo</value>
+    <comment>phrase: Click on a role to select it</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeControlOwnerActionDescription">
+    <value>Permite o prohibe el cambio de la titularidad de un control.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="UserPermissionsEditorPerRoleTitle">
+    <value>Establecer permisos por rol</value>
+    <comment>Window Title for editing permission actions per role (UserPermissionsEditor dialog)</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ThisItemInheritsPermissionsFromItsParent">
+    <value>Este elemento hereda los permisos de su padre.</value>
+    <comment>Phrase: This item inherits permissions from its parent.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Allowed">
+    <value>Permitido</value>
+    <comment>word: Allowed</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteThisBlogPost">
+    <value>Eliminar esta entrada de blog</value>
+    <comment>Action text of the delete action for this blog post.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="UseBrowseAndEditDescription">
+    <value>Representa autorizaciones generales para utilizar la funcionalidad de edición en línea.</value>
+    <comment>Permission description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangePermissionsForThisSite">
+    <value>Cambiar permisos para este sitio</value>
+    <comment>Text of the change permissions action for a site.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteThisImage">
+    <value>Eliminar esta imagen</value>
+    <comment>Action text of the delete action for this image.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeAlbumOwnerDescription">
+    <value>Permite o deniega el cambio de la titularidad de una biblioteca de imágenes.</value>
+    <comment>Translated message, similar to 'Allows or denies changing the ownership of an image library'</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreateDocumentLibraryDescription">
+    <value>Especifica quién puede o no puede crear bibliotecas de documentos.</value>
+    <comment>'Create Document library' security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageDocumentDescription">
+    <value>Especifica quién puede o no puede modificar y administrar biblioteca de documentos.</value>
+    <comment>'Manage document' security action description</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="NameEmail">
+    <value>Nombre</value>
+    <comment>word: name / email</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AllUsers">
+    <value>Todos los usuarios</value>
+    <comment>phrase: All users</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteThisAlbum">
+    <value>Eliminar esta biblioteca de imágenes</value>
+    <comment>Action text of the delete action for this image library.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreateARole">
+    <value>Crear un rol</value>
+    <comment>Text for the create a role button</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="StartStopSiteDescription">
+    <value>Especificar quién puede/no puede iniciar/detener sitios.</value>
+    <comment>'Start/stop a site' security action description</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Sites">
+    <value>más sitios</value>
+    <comment>Phrase: more sites</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeUserFilePermissions">
+    <value>Cambiar los permisos del archivo de usuario</value>
+    <comment>'Change user file permissions' security action title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteSiteDescription">
+    <value>Especificar quién puede/no puede eliminar sitios.</value>
+    <comment>'Delete a site' security action description</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageThisBlog">
+    <value>Actualizar este blog y gestionar sus entradas</value>
+    <comment>Action text of the modify action for this blog post.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="UserPermissionsEditorCancelBtn">
+    <value>cancelar</value>
+    <comment>Close (or Cancel) button for  the users selection dialog, for a User Permissions Editor control</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageUserFiles">
+    <value>Acceda a los archivos de usuario</value>
+    <comment>Title of the 'ManageUserFiles' security action</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteVideoLibrary">
+    <value>Eliminar biblioteca de videos</value>
+    <comment>'Delete video library' security action title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SoOnlyTheAdministratorWillHavePermissions">
+    <value>Así que sólo el administrador tendrá permisos</value>
+    <comment>Phrase: So only the Administrator will have permissions.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeDocumentPermissions">
+    <value>Cambiar permisos de documentos</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="BackendUsersDescription">
+    <value>El proveedor de membresía predeterminado para los usuarios del área administrativa (los administradores del sitio).</value>
+    <comment>Description of the default backend role provider.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ModifyTaxonomyActionName">
+    <value>Modificar la clasificación y administrar los elementos de clasificación</value>
+    <comment>Modify taxonomy action title.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteDocumentDescription">
+    <value>Especifica quién puede o no puede modificar un documento.</value>
+    <comment>'Delete document' security action description</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AssignOrUnassignUsers">
+    <value>Asignar o desasignar usuarios</value>
+    <comment>Phrase: assign or unassign users</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeConfigurations">
+    <value>Cambiar configuraciones</value>
+    <comment>The title of ChangeConfigurations security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreateImageDescription">
+    <value>Especifica quién puede o no puede crear imágenes.</value>
+    <comment>'Upload image' security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AssignOrUnassignUsersToRoleName">
+    <value>Asignar o desasignar usuario &lt;strong&gt;al rol &lt;em&gt;{0} &lt;/em&gt;&lt;/strong&gt;</value>
+    <comment>Phrase: Assign or Unassign Users to Role '{0}'</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EditUser">
+    <value>Editar usuario</value>
+    <comment>phrase: Edit user</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ModifyThisUserFileLibrary">
+    <value>Actualizar carpeta y administrar sus elementos</value>
+    <comment>Action text of the modify action for this user file library.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="NoUsersOrGroupsAreSelected">
+    <value>No hay usuarios o grupos seleccionados.</value>
+    <comment>Phrase: No users or groups selected.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="View">
+    <value>Ver {0}</value>
+    <comment>The title of View security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageRoles">
+    <value>Administrar Roles</value>
+    <comment>The title of ManageRoles security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeBackendLinkPermissions">
+    <value>Cambiar los permisos de {0} enlace de backend</value>
+    <comment>Phrase: Change {0} backend link permissions</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewCommentsActionDescription">
+    <value>Permite o prohibe la visualización de los comentarios</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="BackendRolesDescription">
+    <value>Proveedor de roles predeterminado para los usuarios del área administrativa (los administradores del sitio).</value>
+    <comment>Description of the default backend role provider.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="GenericContentPermissionsTitle">
+    <value>Permisos</value>
+    <comment>Generic Content  Permissions Title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="GranularPermissionsAreDisabled">
+    <value>Los permisos granulares están deshabilitados para su licencia.</value>
+    <comment>Error message: Granular permissions are disabled for your license.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AccessSite">
+    <value>Acceda al sitio</value>
+    <comment>'Access the site' security action title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="PagePermissionsDescription">
+    <value>Representa los permisos de seguridad para las acciones de la página.</value>
+    <comment>Blog post permissions description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AllUsersCount">
+    <value>Todos los usuarios {0}</value>
+    <comment>phrase: All Users {0}</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreateEditSiteDescription">
+    <value>Especificar quién puede/no puede crear y editar sitios.</value>
+    <comment>'Create and Edit a site' security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="UsernameRole">
+    <value>Nombre de usuario/Rol</value>
+    <comment>word: email / role</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Designers">
+    <value>Diseñadores</value>
+    <comment>Designers role title.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ModifyCommentsActionDescription">
+    <value>Permite o prohibe la modificación de comentarios.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="BlogPostPermissionsDescription">
+    <value>Representa permisos de seguridad para entradas de blog.</value>
+    <comment>Blog post permissions description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="InheritPermissionsFromParentObject">
+    <value>Heredar permisos del objeto primario</value>
+    <comment>Phrase: Inherit permissions from parent object</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DocumentPermissions">
+    <value>Permisos del Documento</value>
+    <comment>Document permissions title.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="NotAuthorizedToDoSetAction">
+    <value>No está autorizado a '{0}' ('{1}').</value>
+    <comment>More detailed error message displayed when a permission is not granted.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangePermissions">
+    <value>Cambiar permisos de {0}</value>
+    <comment>The title of Change Permissions security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ModifyThisAlbum">
+    <value>Modificar esta biblioteca de imágenes</value>
+    <comment>Action text of the modify action for this image library.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Modify">
+    <value>Modificar {0}</value>
+    <comment>The title of Modify security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeTaxonomyOwnerActionDescription">
+    <value>Permite o prohibe el cambio de la titularidad de una clasificación.</value>
+    <comment>Change owner of a taxonomy action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteBlogDescription">
+    <value>Permite o prohibe la supresión de un blog determinado.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="RoleWasSuccesfullyDeleted">
+    <value>La función ha sido eliminada correctamente.</value>
+    <comment>Message that notifies that a role was succesfully deleted.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DuplicateProviderUserKey">
+    <value>Duplicar Proveedor UserKey</value>
+    <comment>phrase: Duplicate provider user key.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageLabels">
+    <value>Administrar etiquetas</value>
+    <comment>The title of ManageLabels security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ConfirmInheritPermissions">
+    <value>¿Está seguro de que desea heredar los permisos y perder todos los cambios personalizados?</value>
+    <comment>Content Permissions Title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreateDescription">
+    <value>Permite o prohibe la creación de elementos de datos nuevos.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="GranularPermissionsForPagesAreDisabled">
+    <value>Las autorizaciones granulares para las páginas están deshabilitadas para su licencia.</value>
+    <comment>Error message: Granular permissions for pages are disabled for your license.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageBackendPages">
+    <value>Administrar las páginas backend</value>
+    <comment>Title of the 'ManageBackendPages' security action</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EventGeneralActionTitle">
+    <value>Evento</value>
+    <comment>Module titles for the General permission set: Event.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewThisVideoLibrary">
+    <value>Ver esta librería de videos</value>
+    <comment>Action text of the view action for this video library.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeuserFileDocumentPermissions">
+    <value>Cambiar los permisos del elemento</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageThisDocumentLibrary">
+    <value>Administrar esta biblioteca de documentos</value>
+    <comment>'Manage document library' security action title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeImageOwner">
+    <value>Cambiar propietario de imagen</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="NoEditPermissionsPreviewOnlyConfirmationNoViewOption">
+    <value>&lt;p&gt;No tiene los permisos para realizar esta acción. &lt;br/&gt;Póngase en contacto con el administrador del sistema para obtener ayuda. &lt;/p&gt;</value>
+    <comment>Message: You do not have the permissions to perform this action. Contact your system administrator for assistance.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SelectedUsers">
+    <value>Usuarios seleccionados</value>
+    <comment>phrase: Selected users</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="LayoutElementPermissionSetDescription">
+    <value>Representa los permisos de seguridad para los elementos de diseño.</value>
+    <comment>Permissions description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="StartStopThisSite">
+    <value>Establecer este sitio en línea/fuera de línea</value>
+    <comment>Text of the start/stop action for a site.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeLayoutPermissionsActionName">
+    <value>Cambiar los permisos del elemento de diseño.</value>
+    <comment>The title of ChangeControlPermissions security action</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="BackendPermissions">
+    <value>permisos del área administrativa</value>
+    <comment>Permission title.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DocumentPermissionsDescription">
+    <value>Representa los permisos de seguridad para los documentos.</value>
+    <comment>Document permissions description</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteThisVideo">
+    <value>Eliminar este vídeo</value>
+    <comment>Action text of the delete action for this video.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeSitePermissions">
+    <value>Cambiar permisos</value>
+    <comment>'Change permissions' security action title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AccessTranslationsDescription">
+    <value>Acción de seguridad que permite acceder a las páginas backend del módulo de Traducciones.</value>
+    <comment>Phrase: Security action that allows access to the backend pages of the Translations module.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewThisImage">
+    <value>Ver esta imagen</value>
+    <comment>Action text of the view action for this image.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeUserFilePermissionsDescription">
+    <value>Especificar quién puede/no puede cambiar los permisos de archivos de usuario</value>
+    <comment>'Change user file permissions' security action description</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="UserPermissionsEditorShowAdvancedOptions">
+    <value>Mostrar opciones avanzadas</value>
+    <comment>Text for the 'Show advanced options' link in a User Permissions Editor control</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="FrontendUsersRoleDescription">
+    <value>La descripción de la función de aplicación para los usuarios del front-end.</value>
+    <comment>Application role for users which are allowed to design.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeCommentsPermissionsDescription">
+    <value>Permite o prohibe el cambio de los permisos de los comentarios</value>
+    <comment>The description of Change Permissions security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="InheritPermissionsFromItsParent">
+    <value>Heredar permisos del padre</value>
+    <comment>Button: Inherit permissions from parent</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="NoEditPermissionsViewDialogTitle">
+    <value>Editar {0}</value>
+    <comment>Title: Edit</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageImageDescription">
+    <value>Permite o rechaza la actualización de una biblioteca y la gestión de sus imágenes.</value>
+    <comment>Image editing description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ImagePermissionsDescription">
+    <value>Representa los permisos de seguridad para las imágenes.</value>
+    <comment>Image permissions description</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewAlbum">
+    <value>Ver biblioteca de imágenes</value>
+    <comment>Action title for viewing an image library</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ModifyVideo">
+    <value>Modificar vídeo</value>
+    <comment>'Modify video' security action title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DropOnLayoutActionName">
+    <value>Soltar widgets o elementos de diseño.</value>
+    <comment>The title of drop on layout security action</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageRolesDescription">
+    <value>Permite o prohibe la administración de roles</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="TaxonomyPermissions">
+    <value>Permisos para Clasificación</value>
+    <comment>Taxonomy permissions title.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeOwnerOfThisItem">
+    <value>Cambiar propietario de esta {0}</value>
+    <comment>Customized title of the Change Owner security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewThisItem">
+    <value>Ver esta {0}</value>
+    <comment>Customized title of View security action.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="TaxonomyPermissionsDescription">
+    <value>Representa los permisos de seguridad para las acciones de clasificación.</value>
+    <comment>Taxonomy permissions description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ModifyUserFile">
+    <value>Modificar el archivo de usuario</value>
+    <comment>'Modify user file' security action title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManagePublishingSystem">
+    <value>Acceder a las páginas backend del sistema de publicación</value>
+    <comment>Title of the 'ManagePublishingSystem' security action</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeThisImageOwner">
+    <value>Cambiar el propietario de este imagen</value>
+    <comment>Action text of the change owner action for this image.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SecurityResourcesTitle">
+    <value>Seguridad</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DropOnLayoutActionDescription">
+    <value>Permite o prohibe la acción "soltar" en un elemento de diseño.</value>
+    <comment>Security action description.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="NotAuthorizedToManageControlsOnThisForm">
+    <value>No tiene permisos para crear widgets y elementos de diseño en este formulario</value>
+    <comment>Message: You are not authorized to create widgets and layout elements on this form</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="FrontendRolesDescription">
+    <value>Proveedor de roles predeterminado para usuarios del área pública.</value>
+    <comment>Description of the default backend role provider.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AdministratorsOnly">
+    <value>Sólo los administradores</value>
+    <comment>Administrators Only - for permissions GUI</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteThisSite">
+    <value>Eliminar este sitio</value>
+    <comment>Text of the delete action for a site.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ChangeVideoPermissions">
+    <value>Cambiar los permisos de vídeo</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreateDocumentLibrary">
+    <value>Crear biblioteca de documentos</value>
+    <comment>'Create Document library' security action title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SelectSpecificDeniedUsers">
+    <value>Seleccionar</value>
+    <comment>Text for the 'Select specific denied users' link-button in the users selection dialog, for a specific action</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+</root>

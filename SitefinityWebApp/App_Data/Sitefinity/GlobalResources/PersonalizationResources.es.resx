@@ -1,0 +1,1432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Yes">
+    <value>Sí</value>
+    <comment>word: Yes</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SearchKeywordsEmptyError">
+    <value>Ingrese al menos una palabra clave de búsqueda</value>
+    <comment>Error message when user does not enter anything in the search keywords field.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TimeOfDayFromEmptyError">
+    <value>Por favor, defina el campo 'De'</value>
+    <comment>Error message displayed when in time of day criterion, 'from' is not defined.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="All">
+    <value>Todos</value>
+    <comment>word: All</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CriterionTitleDescription">
+    <value>Título de la propiedad de configuración del título de criterio</value>
+    <comment>Description of criterion title configuration property</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UserSegmentHeader">
+    <value>Segmento de usuario</value>
+    <comment>phrase: User segment</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CriteriaTitle">
+    <value>Criterios</value>
+    <comment>Title of the criteria configuration property</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ToolboxItemModuleNameDescription">
+    <value>Especifica el nombre único del módulo al que pertenece un elemento.</value>
+    <comment>Describes this configuration element.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="And">
+    <value>y</value>
+    <comment>word: and</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="InvalidIpAddressRangeSingle">
+    <value>El rango de dirección IP no es correcto. La primera IP debe preceder a la segunda.</value>
+    <comment>Error message when user does not enter a valid IP address range.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateAndGoToEditContent">
+    <value>Crear e ir a editar contenido</value>
+    <comment>phrase: Create and go to edit content</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResourceClassIdTitle">
+    <value>ID de clase de recursos</value>
+    <comment>Title of the resource class id configuration property.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CriterionNameDescription">
+    <value>Nombre del criterio de personalización</value>
+    <comment>Description of the criterion name configuration property</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DevicePreview">
+    <value>Vista previa de dispositivo</value>
+    <comment>phrase: Device preview</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UpToAnHour">
+    <value>Hasta por una hora</value>
+    <comment>phrase: Up to an hour</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LastMonth">
+    <value>Último mes</value>
+    <comment>phrase: Last month</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="To">
+    <value>a</value>
+    <comment>word: To</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PersonalizationResourcesDescription">
+    <value>Contiene recursos localizables para la interfaz de usuario de Personalización.</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreatePersonalizedVersionOfPageText">
+    <value>versión personalizada con diferente diseño y widgets</value>
+    <comment>Link for creating personalized page. Preceeded by Create word</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Personalization">
+    <value>Personalización</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NoPersonalizationPossibleTitle">
+    <value>No puede crear otra personalización</value>
+    <comment>Title displayed to user when page has been personalized for all the segments</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TimeOfDay">
+    <value>Hora del día</value>
+    <comment>Title of the time of the day criterion</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="GoToPersonalization">
+    <value>Ir a la personalización</value>
+    <comment>phrase: Go to personalization</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="YesDeleteThisSegment">
+    <value>Sí, eliminar este segmento y páginas</value>
+    <comment>Text of the button that confirms deletion of user segment</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NarrowByTyping">
+    <value>Filtrar escribiendo</value>
+    <comment>phrase: Narrow by typing</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeleteSegmentConfirmationMessage">
+    <value>¿Está seguro de que desea eliminar este segmento de usuario y la(s) página(s) personalizada(s)?</value>
+    <comment>Message displayed to user when deleting a user segment.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AddAProfileField">
+    <value>Añadir un campo de perfil</value>
+    <comment>Title of the field for entering profile field criterion</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PurchaseDepartmentsFieldTitle">
+    <value>Coincidencia de los siguientes departamentos</value>
+    <comment>Title of the field for purchases by department criterion field</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Location">
+    <value>Ubicación</value>
+    <comment>Title of the location URL criterion</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ConflictWithABTestingMsg">
+    <value>Terminar la prueba A/B para crear versiones de páginas personalizadas.</value>
+    <comment>Explanation what should be the next steps in order to activate Personalization</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AddWidgetVersionsUserSegments">
+    <value>Añadir versiones de widget para segmentos de usuario seleccionados</value>
+    <comment>phrase: Add widget versions for selected user segments</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NoUserSegmentsHaveBeenCreatedYet">
+    <value>Aún no se han creados de usuario</value>
+    <comment>Message shown to users when no personalizations segments exist</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LandingURL">
+    <value>URL de Aterrizaje</value>
+    <comment>Title of the Landing URL criterion</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Example">
+    <value>Ejemplo</value>
+    <comment>word: Example</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Minutes">
+    <value>minutos</value>
+    <comment>word: minutes</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="IpAddressesFieldExample">
+    <value>Introduzca las direcciones IP; una por línea</value>
+    <comment>Example label for the field for entering IP addresses criterion</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="GeoLocationFileStorageDescription">
+    <value>Ubicación de archivo de base de datos de GeoIP.</value>
+    <comment>Description of the GeoLocation.dat configuration property</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PriceRangeNoTagsSelectedError">
+    <value>Por favor, seleccione al menos una etiqueta</value>
+    <comment>Error displayed when user selects no tags in the purchase tag criterion editor.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="VisitDurationToEmptyError">
+    <value>Por favor, ingrese el campo 'A'</value>
+    <comment>Error message displayed when user does not enter 'to' field in the visit duration criterion editor.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PersonalizeWidgets">
+    <value>Personalizar widgets</value>
+    <comment>phrase: Personalize widgets</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DoesNotEndWith">
+    <value>no termina con</value>
+    <comment>phrase: doesn't end with</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Is">
+    <value>es</value>
+    <comment>word: is</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SegmentDescriptionHeader">
+    <value>Descripción</value>
+    <comment>Header of the column that provides a description of the user segment</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="WhichUserSegmentIsThisVersionFor">
+    <value>¿Para cuál segmento de usuario es esta versión personalizada?</value>
+    <comment>Which user segment is this personalized version for?</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PersonalizedVersions">
+    <value>Versiones personalizadas</value>
+    <comment>phrase: Personalized versions</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LastWeek">
+    <value>Última semana</value>
+    <comment>phrase: Last week</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ReferralUrlEmptyError">
+    <value>Ingrese al menos un URL de referencia</value>
+    <comment>Error message when user does not enter anything in the Referral URL field.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PersonalizationModuleUrlName">
+    <value>personalización</value>
+    <comment>Url name of the personalization module.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Selected">
+    <value>seleccionado</value>
+    <comment>word: Selected</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="GeoLocationFileStorageTitle">
+    <value>Ubicación de base de datos de GeoIP</value>
+    <comment>Title of the GeoLocation.dat configuration property</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="VisitDurationFromNotSmallerThanToError">
+    <value>El valor en el campo 'de' tiene que ser menor que el valor en el campo 'a'</value>
+    <comment>Error message displayed when the user enters illogical range in the visitor duration criterion editor.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Priority">
+    <value>Prioridad</value>
+    <comment>word: Priority</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NoUserSegmentsForWidgetMessage">
+    <value>Para personalizar este widget usted debe tener al menos un segmento de usuario.</value>
+    <comment>phrase: To personalize this widget you should have at least one user segment</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="StartsWith">
+    <value>comienza con</value>
+    <comment>phrase: starts with</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="BackToPersonalization">
+    <value>Regresar a la Personalización</value>
+    <comment>Title of the link for closing the dialog and going back to the personalization module</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LandingUrlFieldExample">
+    <value>&lt;strong&gt;Ejemplo:&lt;/strong&gt; &lt;em&gt;http://www.wikipedia.com/&lt;/em&gt;, &lt;em&gt;/about-us&lt;/em&gt;</value>
+    <comment>Example label for the field for entering landing URLs criterion</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="VisitedPageUrlEmptyError">
+    <value>Por favor, ingrese la URL</value>
+    <comment>Error message displayed to user when no url has been entered in visited page criterion editor.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NoWidgetPersonalizationPossibleMessage">
+    <value>Este widget ha sido personalizado para todos los segmentos de usuario disponibles.</value>
+    <comment>Message displayed to user when widget has been personalized for all the segments</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Tag">
+    <value>Etiquetas</value>
+    <comment>word: Tag</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SelectFromExisting">
+    <value>Seleccione de los existentes</value>
+    <comment>phrase: Select from existing</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Departments">
+    <value>Departamentos</value>
+    <comment>word: Departments</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Down">
+    <value>Debajo</value>
+    <comment>word: Down</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="InvalidIpAddressSingle">
+    <value>La dirección IP no es válida.</value>
+    <comment>Error message when user does not enter a valid IP address.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PriceRange">
+    <value>Rango de precios</value>
+    <comment>phrase: Price range</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PageHasBeenPersonalizedForThisSegment">
+    <value>página ha sido personalizada para este segmento</value>
+    <comment>phrase: page has been personalized for this segment</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Characteristic">
+    <value>Característica</value>
+    <comment>word: Characteristic</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ByUserSegment">
+    <value>Por segmento de usuario</value>
+    <comment>phrase: By user segment</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="View">
+    <value>Ver</value>
+    <comment>word: View</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ConsoleCriterionEditorUrlTitle">
+    <value>URL del editor de consola del criterio</value>
+    <comment>Title of the console criterion editor url property</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Contains">
+    <value>contiene</value>
+    <comment>word: contains</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="IsNotEmpty">
+    <value>no está vacío</value>
+    <comment>phrase: is not empty</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="InstallLocationsPackage">
+    <value>Instalar paquete de ubicaciones</value>
+    <comment>phrase: Install locations package</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AddACharacteristic">
+    <value>Añadir una característica</value>
+    <comment>Label of the button for adding new criteria to the segment definition</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SpecificSegment">
+    <value>Segmento específico...</value>
+    <comment>phrase: Specific segment</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SegmentDescriptionTitle">
+    <value>Descripción</value>
+    <comment>Title of the segment description field.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TypeAKeyword">
+    <value>Escribir una palabra clave</value>
+    <comment>phrase: Type a keyword</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CriterionElementDescription">
+    <value>Elemento que define un criterio de personalización</value>
+    <comment>Description of the criterion configuration element.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TheSelectedTimePeriodMustStartBeforeItEnds">
+    <value>La hora 'desde' debe ser anterior a la hora seleccionada en el campo 'hasta'</value>
+    <comment>Error message displayed to user when the time of day criterion is illogical.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Skip">
+    <value>Omitir</value>
+    <comment>word: Skip</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Go">
+    <value>Ir</value>
+    <comment>word: Go</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NoSegmentsCreatedMessage">
+    <value>Aún no se han creados de usuario</value>
+    <comment>Message displayed to user when no user segments exist in the system</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="OKUppercase">
+    <value>Aceptar</value>
+    <comment>word: OK</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CollapseAll">
+    <value>Ocultar todos</value>
+    <comment>phrase: Collapse all</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SearchKeywords">
+    <value>Buscar palabras clave</value>
+    <comment>Title of the search keywords URL criterion</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Close">
+    <value>Cerrar</value>
+    <comment>word: Close</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PriceRangeToNotValidError">
+    <value>El valor en el campo 'a' no es válido</value>
+    <comment>Error message displayed when user enters invalid value in the 'to' field.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Minute">
+    <value>Minuto</value>
+    <comment>word: Minute</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DoesNotStartWith">
+    <value>no comience con</value>
+    <comment>phrase: doesn't start with</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="IPAddressEmptyError">
+    <value>Ingrese al menos una dirección IP.</value>
+    <comment>Error message when user does not enter anything in the IP address field.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SegmentNameExample">
+    <value>Ejemplo: Clientes potenciales. Este nombre es solo para su comodidad.</value>
+    <comment>Example for the segment name field</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CitiesListFileStorageDescription">
+    <value>La ruta de acceso virtual del archivo cities.txt</value>
+    <comment>Description of the virtual path of cities.txt file</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ThisPageHasABTestSet">
+    <value>Esta página tiene una prueba A/B establecida.</value>
+    <comment>Explanation for AB already set on this page</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NotSpecified">
+    <value>No especificado</value>
+    <comment>Not specified</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SetCharacteristics">
+    <value>Establecer características</value>
+    <comment>word: Set characteristics</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SegmentNameCannotBeEmpty">
+    <value>El nombre del segmento no puede estar vacío</value>
+    <comment>Error message displayed if the user does not enter segment name.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ConsoleTitle">
+    <value>Ver sitio como visitante que tiene las siguientes características</value>
+    <comment>Title of the personalization testing console</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Time">
+    <value>Tiempo</value>
+    <comment>word: Time</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="IsNot">
+    <value>no es</value>
+    <comment>phrase: is not</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Details">
+    <value>¡Datos!</value>
+    <comment>word: Details</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Personalize">
+    <value>Personalizar…</value>
+    <comment>phrase: Personalize...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="From">
+    <value>de</value>
+    <comment>word: From</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateAPersonalizedPage">
+    <value>Crear una página personalizada</value>
+    <comment>phrase: Create a personalized page</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Price">
+    <value>Precio</value>
+    <comment>word: Price</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Landscape">
+    <value>Paisaje</value>
+    <comment>word: Landscape</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeleteSegmentConfirmationPageUsageWarning">
+    <value>&lt;strong&gt;página(s) personalizada(s)&lt;/strong&gt; utilizan este segmento.</value>
+    <comment>Warning about the number of pages being personalized by the segment that is about to be deleted</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Or">
+    <value>o</value>
+    <comment>word: Or</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ConsoleLocationEditorExample">
+    <value>Escribir nombre de país o ciudad</value>
+    <comment>phrase: Type country or city name</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PurchasePriceRangeFieldTitle">
+    <value>Coincidencia del siguiente rango de precios</value>
+    <comment>Title of the purchase price range field criterion editor</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PriceRangeToEmptyError">
+    <value>Por favor, ingrese el campo 'A'</value>
+    <comment>Error message displayed when user does not enter 'to' field in the purchase price range criterion editor.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TagFieldTitle">
+    <value>Coincidencia de las siguientes etiquetas</value>
+    <comment>Title of the purchase editor for tags</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PersonalizeWidgetInfo">
+    <value>Personalice un widget al añadir versión para el segmento de usuario seleccionado</value>
+    <comment>Explanation for personalizing widget</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AllTime">
+    <value>Todo el tiempo</value>
+    <comment>phrase: All time</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="InvalidIpAddressRangeStartSingle">
+    <value>El rango de dirección IP comienza con una dirección IP no válida.</value>
+    <comment>Error message when user does not enter a valid IP address range start.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ItIsRequiredToSelectASegment">
+    <value>Es necesario seleccionar un segmento</value>
+    <comment>phrase: It is required to select a segment</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="VisitedPage">
+    <value>Página visitada</value>
+    <comment>Title of the visited page personalization criterion</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SiteUrl">
+    <value>URL del sitio</value>
+    <comment>phrase: Site URL</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="VisitDurationFromEmptyError">
+    <value>Por favor, ingrese el campo 'De'</value>
+    <comment>Error message displayed when user does not enter 'from' field in the visit duration criterion editor.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TemplateHasBeenPersonalizedForThisSegment">
+    <value>la plantilla ha sido personalizada para este segmento</value>
+    <comment>phrase: template has been personalized for this segment</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PagesHaveBeenPersonalizedForThisSegment">
+    <value>páginas han sido personalizadas para este segmento</value>
+    <comment>phrase: pages have been personalized for this segment</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AccessPersonalizationTitle">
+    <value>Acceder a módulo de personalización</value>
+    <comment>phrase: Access personalization module</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PersonalizationsInfo">
+    <value>Esta página tiene {0} personalizaciones basadas en estos segmentos de usuarios:</value>
+    <comment>Info about page personalizations</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Remove">
+    <value>Eliminar</value>
+    <comment>word: Remove</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Hour">
+    <value>Hora</value>
+    <comment>word: Hour</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ToolboxItemHiddenTitle">
+    <value>Oculto</value>
+    <comment> Shows or hides the element.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="InvalidIpAddress">
+    <value>La dirección IP en línea {0} no es una dirección IP válida.</value>
+    <comment>Error message when user does not enter a valid IP address.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NoCharacteristicSelected">
+    <value>Ninguna característica seleccionada</value>
+    <comment>phrase: No characteristic selected</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CriterionNameTitle">
+    <value>Nombre</value>
+    <comment>Title of the criterion name configuration property</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LastYear">
+    <value>Último año</value>
+    <comment>phrase: Last year</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Any">
+    <value>Cualquier</value>
+    <comment>word: Any</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ConsoleCriterionEditorUrlDescription">
+    <value>La URL del archivo que representa el editor de consola del criterio</value>
+    <comment>Description of the console criterion editor url property</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Default">
+    <value>predeterminado</value>
+    <comment>word: Default</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EditAUserSegment">
+    <value>Editar un segmento de usuario</value>
+    <comment>Title of the form for editing a user segment</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PurchasedProductBy">
+    <value>Producto comprado por</value>
+    <comment>phrase: Purchased product by</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PersonalizationResourcesTitle">
+    <value>Personalización</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="IsEqualTo">
+    <value>es igual a</value>
+    <comment>phrase: is equal to</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TypeOfProductsFieldTitle">
+    <value>Coincidencia de los siguientes tipos de productos</value>
+    <comment>Title of the criterion field for purchase / type of products editor</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PriceRangeFromNotSmallerThanToError">
+    <value>El valor en el campo 'de' tiene que ser menor que el valor en el campo 'a'</value>
+    <comment>Error message displayed when the user enters illogical range in the purchase price range criterion editor.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Done">
+    <value>Hecho</value>
+    <comment>word: Done</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Cancel">
+    <value>cancelar</value>
+    <comment>word: Cancel</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="BackToPages">
+    <value>Regresar a páginas</value>
+    <comment>phrase: Back to pages</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Everyone">
+    <value>Todos</value>
+    <comment>word: Everyone</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Segment">
+    <value>Segmento</value>
+    <comment>Word: Segment</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExpandAll">
+    <value>Expandir todo</value>
+    <comment>phrase: Expand all</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="InvalidIpAddressRangeEnd">
+    <value>El rango de dirección IP en línea {0} termina con una dirección IP no válida.</value>
+    <comment>Error message when user does not enter a valid IP address range end.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CriteriaDescription">
+    <value>Colección de criterios de personalización disponibles</value>
+    <comment>Description of the criteria configuration property</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SearchKeywordsFieldExample">
+    <value>Palabras clave separadas por comas</value>
+    <comment>Example label for the field for entering search keywords criterion</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="IPAddress">
+    <value>Dirección IP</value>
+    <comment>Title of the IP Address criterion</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreatePersonalizedPage">
+    <value>Crear página personalizada</value>
+    <comment>phrase: Create personalized page</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Purchases">
+    <value>Compras</value>
+    <comment>Title of the purchases criterion</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="InvalidIpAddressRangeEndSingle">
+    <value>El rango de dirección IP termina con una dirección IP no válida.</value>
+    <comment>Error message when user does not enter a valid IP address range end.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ClearAllEntries">
+    <value>Borrar todas las entradas</value>
+    <comment>phrase: Clear all entries</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LocationsPackage">
+    <value>Paquete de ubicaciones</value>
+    <comment>phrase: Locations package</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="InstallationInProgressMessage">
+    <value>Por favor, espere a que termine el proceso. Puede tardar hasta una hora.</value>
+    <comment>phrase: Please wait while the process finishes. It may take up to an hour.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AccessPersonalizationDescription">
+    <value>Acción de seguridad que permite el acceso a las páginas de backend del módulo de personalización</value>
+    <comment>phrase: Security action that allows access to the backend pages of the personalization module</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="IsEmpty">
+    <value>está vacío</value>
+    <comment>phrase: is empty</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SetTime">
+    <value>Ajustar hora</value>
+    <comment>phrase: Set time</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SelectPageElipsis">
+    <value>Seleccione la página...</value>
+    <comment>phrase: Select page...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="WhichUserSegmentWillOpenThisPage">
+    <value>¿Qué segmento de usuario abrirá esta página?</value>
+    <comment>Title of the field for selecting a user segment</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SetPriority">
+    <value>Establecer prioridad</value>
+    <comment>phrase: Set priority</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TemplatesHaveBeenPersonalizedForThisSegment">
+    <value>plantillas se han personalizado para este segmento</value>
+    <comment>phrase: templates have been personalized for this segment</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LastDay">
+    <value>Último día</value>
+    <comment>phrase: Last day</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="BaseThisSegmentOn">
+    <value>Basar este segmento en...</value>
+    <comment>Phrase: Base this segment on ...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateThisSegment">
+    <value>Crear este segmento</value>
+    <comment>phrase: Create this segment</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NoUserSegmentsMessage">
+    <value>Para personalizar esta página, usted debe tener al menos un segmento de usuario</value>
+    <comment>phrase: To personalize this page you should have at least one user segment</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NoProfileCriteriaDefinedError">
+    <value>Defina los criterios para al menos un campo de perfil.</value>
+    <comment>Error message displayed when user does not define any profile field criteria.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="VisitDurationFromNotValidError">
+    <value>El valor en el campo 'de' no es válido</value>
+    <comment>Error message displayed when user enters invalid value in the 'from' field.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NoPersonalizationPossibleMessage">
+    <value>Esta página ha sido personalizada para todos los segmentos de usuarios disponibles.</value>
+    <comment>Message displayed to user when page has been personalized for all the segments</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Change">
+    <value>Cambiar</value>
+    <comment>word: Change</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ThisUserSegmentIsActive">
+    <value>Este segmento de usuario está activo</value>
+    <comment>phrase: This user segment is active</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CriterionElementTitle">
+    <value>Criterio</value>
+    <comment>Title of the criterion configuration element.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ClickToSelect">
+    <value>Haga clic para seleccionar</value>
+    <comment>phrase: Click to select</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LocationsPackageIsNotInstalled">
+    <value>El paquete de ubicaciones no está instalado</value>
+    <comment>phrase: Locations package is not installed</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="VisitedPageUrlExample">
+    <value>&lt;strong&gt;Ejemplo:&lt;/strong&gt; &lt;em&gt;http://wikipedia.com&lt;/em&gt;</value>
+    <comment>Example for the visited page url field</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TryAgain">
+    <value>Inténtelo de nuevo</value>
+    <comment>phrase: Try again</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NoPageSelectedError">
+    <value>Por favor, seleccione una página</value>
+    <comment>Error message displayed to user when no page has been selected in the visited page criterion editor</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ConsoleIPAddressEditorExample">
+    <value>&lt;strong&gt;Ejemplo:&lt;/strong&gt;78.78.34.98</value>
+    <comment>The example for the console IP address editor</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ShowPersonalizedWidgetsFor">
+    <value>Mostrar widgets personalizados para…</value>
+    <comment>Personalized widgets for...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Active">
+    <value>Activo</value>
+    <comment>Status of the active segment</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="VisitDuration">
+    <value>Duración de la visita</value>
+    <comment>Title of the visit duration criterion</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Inactive">
+    <value>Inactivo</value>
+    <comment>Status of the inactive segment</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AddPageVersionsUserSegment">
+    <value>Añadir versiones de página con distinto diseño y widgets.</value>
+    <comment>phrase: Add page versions with different layout and widgets</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Seconds">
+    <value>segundos</value>
+    <comment>word: seconds</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Custom">
+    <value>personalizado</value>
+    <comment>word: Custom</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Save">
+    <value>Guardar</value>
+    <comment>word: Save</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ChangesInTheSegmentWillAffectThesePages">
+    <value>Los cambios en el segmento afectarán estas páginas</value>
+    <comment>phrase: Changes in the segment will affect these pages</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NoCriteriaDefinedForSegment">
+    <value>Debe definir al menos una característica para el segmento</value>
+    <comment>phrase: You must define at least one characteristic for the segment</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ParticularProduct">
+    <value>Producto particular</value>
+    <comment>phrase: Particular product</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Personalizations">
+    <value>personalizaciones</value>
+    <comment>word: personalizations</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="noRolesSelected">
+    <value>Por favor seleccione una función</value>
+    <comment>Please select a role</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Under">
+    <value>Debajo</value>
+    <comment>word: Under</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ProfileType">
+    <value>Tipo de perfil</value>
+    <comment>phrase: Profile type</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Value">
+    <value>Valor</value>
+    <comment>word: Value</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SetOfCharacteristics">
+    <value>Conjunto de características</value>
+    <comment>Phrase: Set of characteristics</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Portrait">
+    <value>Retrato</value>
+    <comment>word: Portrait</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ViewSiteAs">
+    <value>Ver sitio como</value>
+    <comment>phrase: View site as</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateNewPageVersion">
+    <value>Crear nueva versión de página</value>
+    <comment>phrase: Create new page version</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LocationsPackageDescription">
+    <value>Para poder crear segmentos de usuarios según los criterios de ubicación y hora del día, es necesario instalar un paquete adicional que contiene todas las ubicaciones.
+El proceso de instalación puede tardar hasta una hora.</value>
+    <comment>Message which explains locations package insallation process</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SegmentActionsHeader">
+    <value>Acciones</value>
+    <comment>Header of the column that displays the actions for user segments</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LocationsEmptyError">
+    <value>Introduzca al menos una ubicación</value>
+    <comment>Error message when user does not enter anything in the Landing URL field.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Personalized">
+    <value>Personalizado</value>
+    <comment>word: Personalized</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Pages">
+    <value>PÁGINAS</value>
+    <comment>word: Pages</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ProfileFieldsBy">
+    <value>Campos de perfil por</value>
+    <comment>The label for the profile type selector in profile fields criterion editor</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Add">
+    <value>Agregar</value>
+    <comment>word: Add</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PageURL">
+    <value>URL de página</value>
+    <comment>phrase: Page URL</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Create">
+    <value>Crear</value>
+    <comment>Create</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeletePagePersonalizationConfirmation">
+    <value>Está seguro de que desea eliminar esta versión para</value>
+    <comment>phrase: Are you sure you want to delete this personalized version for</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AddPersonalizedControlTitle">
+    <value>Añadir una versión personalizada de widget</value>
+    <comment>title for segment selector dialog </comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ViewAs">
+    <value>Ver como…</value>
+    <comment>phrase: View as</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ToolboxItemModuleNameTitle">
+    <value>Nombre del módulo</value>
+    <comment>The display title of this configuration element.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SegmentWithNameAlreadyExists">
+    <value>Un segmento con el nombre "{0}" ya existe</value>
+    <comment>error message: A segment with name {0} already exists</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EndsWith">
+    <value>termina con</value>
+    <comment>phrase: ends with</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SaveChanges">
+    <value>Guardar cambios</value>
+    <comment>phrase: Save changes</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DoesNotContain">
+    <value>no contiene</value>
+    <comment>phrase: doesn't contain</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UserSegment">
+    <value>Segmento de usuario</value>
+    <comment>phrase: User segment</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ReferralUrlFieldExample">
+    <value>&lt;strong&gt;Ejemplo:&lt;/strong&gt;&lt;em&gt;http://www.wikipedia.com/&lt;/em&gt;</value>
+    <comment>Example label for the field for entering referral URLs criterion</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Select">
+    <value>- Seleccionar -</value>
+    <comment>DropDown title: select</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="GeoLocationFilePhysicalDescription">
+    <value>La ruta de acceso virtual del archivo GeoCity.data</value>
+    <comment>Description of the virtual path of GeoCity.data file</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EnterUrlElipsis">
+    <value>Ingrese la URL...</value>
+    <comment>phrase: Enter URL...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForUsersWithTheseCharacteristics">
+    <value>Para los usuarios con estas características...</value>
+    <comment>Title of the section to define segment criteria</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Delete">
+    <value>Eliminar</value>
+    <comment>word: Delete</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateAnUserSegment">
+    <value>Crear un segmento de usuario</value>
+    <comment>Title of the button for creating a new user segment</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="InvalidIpAddressRange">
+    <value>El rango de dirección IP en línea {0} no es correcto. La primera IP debe preceder a la segunda.</value>
+    <comment>Error message when user does not enter a valid IP address range.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MissingProfileField">
+    <value>Sus criterios de personalización dependen de un campo de Perfil faltante: {0}
+que ya no existe.</value>
+    <comment>Throw this message, when Profile field, that is used in the personalization segment characteristic is missing</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NoUserSegmentsForControl">
+    <value>Para personalizar este control, usted debe tener al menos un segmento de usuario.</value>
+    <comment>To personalize this control you should have at least one user segment</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ToolboxItemHiddenDescription">
+    <value>Especifica si el elemento es visible.</value>
+    <comment>Describes this configuration element.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ChangesInTheSegmentWillAffectTheseTemplates">
+    <value>Los cambios en el segmento afectarán estas plantillas</value>
+    <comment>phrase: Changes in the segment will affect these templates</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NoPagesHaveBeenCreatedYet">
+    <value>Todavía no se han creado páginas</value>
+    <comment>Message shown to user when no pages have been created in the system</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PeriodOfVisitation">
+    <value>Periodo de visita</value>
+    <comment>phrase: Period of visitation</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TypeOfProducts">
+    <value>Tipo de productos</value>
+    <comment>phrase: Type of products</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CloseExisting">
+    <value>Cerrar existentes</value>
+    <comment>phrase: Close existing</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Up">
+    <value>Arriba</value>
+    <comment>Down</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PriceRangeFromEmptyError">
+    <value>Por favor, ingrese el campo 'De'</value>
+    <comment>Error message displayed when user does not enter 'from' field in the purchase price range criterion editor.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ProfileFields">
+    <value>Campos del perfil</value>
+    <comment>Title of the profile fields URL criterion</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EntirePage">
+    <value>Página entera</value>
+    <comment>phrase: Entire page</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ReferralURL">
+    <value>URL de referencia</value>
+    <comment>Title of the referral URL criterion</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LocationFieldCriterionTitle">
+    <value>Coincidencia de las siguientes ubicaciones</value>
+    <comment>Title of the location field criterion</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="VisitDurationToNotValidError">
+    <value>El valor en el campo 'a' no es válido</value>
+    <comment>Error message displayed when user enters invalid value in the 'to' field.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CriterionVirtualPathPrefixTitle">
+    <value>Prefijo de ruta de acceso virtual de criterio</value>
+    <comment>Title of the criterion virtual path prefix property</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="GeoLocationFilePhysicalTitle">
+    <value>La ruta de acceso virtual del archivo GeoCity.data</value>
+    <comment>Title of the virtual path of GeoCity.data file</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="InvalidIpAddressRangeStart">
+    <value>El rango de dirección IP en línea {0} comienza con una dirección IP no válida.</value>
+    <comment>Error message when user does not enter a valid IP address range start.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Actions">
+    <value>Acciones</value>
+    <comment>word: Actions</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="IsNotEqualTo">
+    <value>no es igual a</value>
+    <comment>phrase: is not equal to</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CriterionEditorUrlDescription">
+    <value>El URL del archivo que representa al editor del criterio</value>
+    <comment>Description of the criterion editor url property</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="InstallationInProgress">
+    <value>Instalación en curso</value>
+    <comment>phrase: Installation in progress</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SomeWidgetsOnThisPage">
+    <value>Algunos widgets en esta página</value>
+    <comment>phrase: Some widgets on this page</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TagFieldNote">
+    <value>&lt;strong&gt;Separado por comas&lt;/strong&gt;, introduzca etiquetas &lt;strong&gt;nuevas&lt;/strong&gt;o &lt;strong&gt;existentes&lt;/strong&gt;</value>
+    <comment>Instruction for using tag field editor</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SegmentNameTitle">
+    <value>Nombre</value>
+    <comment>Label for the segment name field</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="OrPersonalizeEntirePage">
+    <value>o Personalice la página entera</value>
+    <comment>phrase: or Personalize entire page</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PurchasesNoDepartmentsSelected">
+    <value>Por favor, seleccione al menos un departamento</value>
+    <comment>Error message displayed when user chooses no departments in the purchase criterion editor.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PriceRangeFromNotValidError">
+    <value>El valor en el campo 'de' no es válido</value>
+    <comment>Error message displayed when user enters invalid value in the 'from' field.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Segments">
+    <value>Segmentos</value>
+    <comment>Word: Segments</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TimeOfDayToEmptyError">
+    <value>Por favor, defina el campo 'A'</value>
+    <comment>Error message displayed when in time of day criterion, 'to' is not defined.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LandingUrlEmptyError">
+    <value>Introduzca al menos un URL de destino</value>
+    <comment>Error message when user does not enter anything in the Landing URL field.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CriterionTitleTitle">
+    <value>Título</value>
+    <comment>Title of the criterion title configuration property</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CriterionEditorUrlTitle">
+    <value>URL del editor de criterio</value>
+    <comment>Title of the criterion editor url property</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PreviewThisPageAs">
+    <value>Previsualizar esta página como…</value>
+    <comment>Preview this page as...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CitiesListFileStorageTitle">
+    <value>Ubicación del archivo de ciudades</value>
+    <comment>Title of the cities file configuration property</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PurchasesProductTypesSelected">
+    <value>Por favor, seleccione al menos un tipo de producto</value>
+    <comment>Error message displayed when user does not select any product types in the purchase product type criterion editor.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="InstallationHasFailed">
+    <value>La instalación ha fallado</value>
+    <comment>phrase: Installation has failed</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PersonalizationModuleDescription">
+    <value>Módulo que permite personalizar el contenido que Sitefinity muestra a los visitantes.</value>
+    <comment>Description of the Personalization module.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="template">
+    <value>plantilla</value>
+    <comment>word: template</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResourceClassIdDescription">
+    <value>El ID de la clase de recurso que se utilizará para localizar las cadenas</value>
+    <comment>Description of the resource class id configuration property.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+</root>

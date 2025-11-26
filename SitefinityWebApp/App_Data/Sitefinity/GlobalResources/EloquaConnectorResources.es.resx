@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Enabled">
+    <value>Habilitado</value>
+    <comment>word: Enabled</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ConnectToEloquaUsingYourEloquaCredentials">
+    <value>Conéctese a Eloqua utilizando sus credenciales de Eloqua</value>
+    <comment>text: Connect to Eloqua using your Eloqua credentials</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PostDataToEloqua">
+    <value>Publicar datos en Eloqua</value>
+    <comment>label: Post data to Eloqua</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EloquaCompanyNameHintLabel">
+    <value>En su cuenta Eloqua, vaya a &lt;i&gt;Configuración &gt; Mostrar preferencias &gt; Valores predeterminados de la compañía&lt;/i&gt;. Copie el valor desde el campo &lt;i&gt;Nombre de la compañía&lt;/i&gt;.</value>
+    <comment>Company name hint label</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EloquaConnectorPageUrlName">
+    <value>Opciones</value>
+    <comment>Word: Settings</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EloquaConnectorResourcesTitlePlural">
+    <value>Etiquetas de conector Eloqua</value>
+    <comment>The title plural of this class.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EloquaSiteIdHintLabel">
+    <value>En su cuenta Eloqua, vaya a &lt;i&gt;Configuración &gt; Mostrar preferencias &gt; Valores predeterminados de la compañía&lt;/i&gt;. Copie el valor del campo &lt;i&gt;ID del sitio&lt;/i&gt;, por ejemplo: &lt;i&gt;123456789&lt;/i&gt;.</value>
+    <comment>Site id hint label</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EloquaTabFormWidgetInfoText">
+    <value>El formulario publicará datos en Eloqua una vez habilitado en el módulo Forms. Asegúrese de que el formulario que ha seleccionado tiene allí la configuración adecuada para Eloqua.</value>
+    <comment>message: Form will post data to Eloqua once enabled in the Forms module. Make sure the form you have selected has the proper Eloqua settings there. </comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EloquaConnectorPageTitle">
+    <value>Conector para Eloqua</value>
+    <comment>Phrase: Connector for Eloqua</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CompanyName">
+    <value>Nombre de la empresa</value>
+    <comment>label: Company name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AutocompleteSuggestionsDescription">
+    <value>Número de sugerencias que aparece al escribir</value>
+    <comment>label: Number of suggestions displayed when typing</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EloquaConnectorResourcesDescription">
+    <value>Contiene recursos localizables para el módulo del conector Eloqua.</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EloquaUserName">
+    <value>Nombre de usuario Eloqua</value>
+    <comment>Gets label: Eloqua user name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EloquaConnectorGroupPageDescription">
+    <value>Conector para página de grupo Eloqua</value>
+    <comment>Phrase: Connector for Eloqua group page</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EloquaConnectorGroupPageTitle">
+    <value>Conector para Eloqua</value>
+    <comment>Phrase: Connector for Eloqua</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EloquaPassword">
+    <value>Contraseña Eloqua</value>
+    <comment>Gets label: Eloqua password</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EloquaLoginUrl">
+    <value>Url de inicio de sesión de Eloqua</value>
+    <comment>Gets label: Eloqua login Url</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EloquaFormName">
+    <value>Nombre del formulario Eloqua</value>
+    <comment>label: Eloqua form name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EloquaCampaignId">
+    <value>ID de campaña Eloqua</value>
+    <comment>label: Eloqua campaign id</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EloquaConnectorPageDescription">
+    <value>Conector para Eloqua</value>
+    <comment>Connector for Eloqua</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EloquaSiteId">
+    <value>ID del sitio Eloqua</value>
+    <comment>label: Eloqua site ID</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EloquaFormPostUrlHintLabel">
+    <value>Abrir cualquier formulario Eloqua. Vaya a &lt;i&gt;Acciones (&gt;&gt;) &gt; Ver formulario HTML &gt; Datos de integración&lt;/i&gt;. Desde el campo &lt;i&gt;Publicar URL para este formulario&lt;/i&gt;, copie el valor dentro de las comillas, por ejemplo: &lt;i&gt;https://s123456789.t.eloqua.com/e/f2&lt;/i&gt;.</value>
+    <comment>Form post url hint label</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EloquaConnectorResourcesTitle">
+    <value>Etiquetas de conector Eloqua</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ErrorSendingEloquaMessage">
+    <value>Se produjo un error al publicar datos en Eloqua. Si desea más detalles, consulte los registros de error.</value>
+    <comment>Error message.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EloquaCompanyName">
+    <value>Nombre de la empresa Eloqua</value>
+    <comment>Gets label: Eloqua company name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EloquaSettings">
+    <value>Configuración Eloqua</value>
+    <comment>label: Eloqua settings</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AutocompleteSuggestionsTitle">
+    <value>Sugerencias de autocompletar</value>
+    <comment>label: Autocomplete suggestions</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EloquaFormPostUrl">
+    <value>URL de publicación de formulario Eloqua</value>
+    <comment>Gets label: Eloqua form post URL</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+</root>

@@ -1,0 +1,840 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="LayoutCssConfig">
+    <value>CSS para el elemento de diseño.</value>
+    <comment>phrase: CSS for the layout element.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ToDropDown">
+    <value>Lista desplegable</value>
+    <comment>phrase: Dropdown list</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="IsMonochromeConfig">
+    <value>¿Monocromático?</value>
+    <comment>word: Monochrome?</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PreviewDeviceViewportHeightConfig">
+    <value>La altura de la ventana del dispositivo de vista previa</value>
+    <comment>phrase: The height of the preview device's viewport</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExactWidthConfig">
+    <value>Anchura exacta</value>
+    <comment>phrase: Exact width</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="InheritFromParent">
+    <value>Las reglas se heredan de los padres</value>
+    <comment>phrase: Rules are inherited from the parent</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="RuleDescriptionRequired">
+    <value>La descripción no puede estar vacía</value>
+    <comment>Message displayed when user does not enter the description of the media query rule</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ControlTransformationsConfig">
+    <value>Transformaciones de control</value>
+    <comment>phrase: Control transformations</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PreviewDeviceNameConfig">
+    <value>Nombre del dispositivo de vista previa</value>
+    <comment>phrase: Name of the preview device</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NavigationTransformationsSectionTitle">
+    <value>Transformaciones de navegación</value>
+    <comment>phrase: Navigation transformations</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AllGroupsAreApplied">
+    <value>Se aplican todos los grupos de reglas</value>
+    <comment>phrase: All groups of rules are applied</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ApplyBehaviorTo">
+    <value>Aplicar comportamiento a...</value>
+    <comment>phrase: Apply behavior to...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeviceTypeNameConfig">
+    <value>Nombre de tipo de dispositivo</value>
+    <comment>phrase: Device type name</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MediaQueryDialogDescription">
+    <value>Cualquier cambio en esta consulta de medios se reflejará en todas las páginas y plantillas donde se utiliza</value>
+    <comment>label</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MinHeight">
+    <value>Alt. mín.</value>
+    <comment>phrase: Min-height</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResultingRuleConfig">
+    <value>Regla de consulta de medios resultante</value>
+    <comment>phrase: Resulting media query rule</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="BasicSettingsGridSecondCol">
+    <value>UTILIZADO EN</value>
+    <comment>phrase: Used in</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MaxWidthConfig">
+    <value>Anchura máxima</value>
+    <comment>phrase: Maximum width</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TabletsAndSmallScreens">
+    <value>Tabletas y pantallas pequeñas</value>
+    <comment>phrase: Tablets and small screens</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeviceTypeTitleConfig">
+    <value>Título de tipo de dispositivo</value>
+    <comment>phrase: Device type title</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PreviewDeviceOffsetYConfig">
+    <value>Desplazamiento en el eje Y de la ventana gráfica en el modo retrato.</value>
+    <comment>phrase: Offset on the Y axis of the viewport in the portrait mode.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SelectACssFile">
+    <value>Seleccione un archivo CSS</value>
+    <comment>phrase: Select a CSS file</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AccessResponsiveDesignDescription">
+    <value>Acción que otorga o rechaza el acceso de los usuarios al módulo de diseño adaptable.</value>
+    <comment>phrase: Action which either grants or denies users to access responsive design module.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Active">
+    <value>Activo</value>
+    <comment>word: Active</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResponsiveAndMobileDesign">
+    <value>Diseño Móvil y Adaptable</value>
+    <comment>phrase: Responsive &amp; Mobile Design</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResultMediaQueryCss">
+    <value>Resultado: css de consulta de medios</value>
+    <comment>phrase: Result: media query css</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Behavior">
+    <value>Comportamiento</value>
+    <comment>word: Behavior</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Both">
+    <value>Ambos</value>
+    <comment>word: Both</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateRulesGroup">
+    <value>Hecho</value>
+    <comment>word: Done</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Cancel">
+    <value>cancelar</value>
+    <comment>word: Cancel</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeviceType">
+    <value>Tipo</value>
+    <comment>word: Type</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PreviewDeviceOffsetXLandscapeConfig">
+    <value>Desplazamiento en el eje X de la ventana gráfica en el modo paisaje.</value>
+    <comment>phrase: Offset on the X asix of the viewport in the landscape mode.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResourceClassNameConfig">
+    <value>El nombre de la clase de recursos que se utilizarán para localizar las etiquetas</value>
+    <comment>phrase: The name of the resource class to be used to localize the labels</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ModifyAGroupOfRules">
+    <value>Modificar un grupo de normas</value>
+    <comment>phrase: ModifyAGroupOfRules</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Portrait">
+    <value>Retrato</value>
+    <comment>word: Portrait</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DefaultRulesConfig">
+    <value>Reglas de consulta predeterminadas de los medios</value>
+    <comment>phrase: Default media query rules</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MediaQueryNameGrid">
+    <value>Grupo de reglas</value>
+    <comment>phrase: Group of rules</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MinWidthConfig">
+    <value>Anchura mínima</value>
+    <comment>phrase: Minimum width</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PreviewDeviceOffsetYLandscapeConfig">
+    <value>Desplazamiento en el eje Y de la ventana gráfica en el modo paisaje.</value>
+    <comment>phrase: Offset on the Y axis of the viewport in the ladscape mode.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CssSelectorDescription">
+    <value>Cuando se detecta, un dispositivo con características como las establecidas arriba, siempre carga este archivo CSS.</value>
+    <comment>phrase:When detect a device with characteristics like those set above, always load this CSS file</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResponsiveAndMobileDesignNodeUrlName">
+    <value>responsive-and-mobile-design</value>
+    <comment>Url name of the responsive and mobile design page node.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NavigationTransformationIsActiveConfig">
+    <value>Está activo(a)</value>
+    <comment>phrase: Is Active</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PreviewDeviceTitleConfig">
+    <value>Título del dispositivo de vista previa</value>
+    <comment>phrase: Title of the preview device</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="HideNavigation">
+    <value>Ocultar navegación</value>
+    <comment>phrase: Hide navigation</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Reset">
+    <value>Restablecer</value>
+    <comment>word: Reset</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AddCustom">
+    <value>Añadir personalizado...</value>
+    <comment>phrase: Add custom...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Size">
+    <value>Tamaño</value>
+    <comment>word: Size</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MediaQueryNameFieldDescription">
+    <value>Se utilizará solo en la interfaz de usuario del backend.</value>
+    <comment>The description of the media query name field in the form for creating and editing media queries.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="RangeDeviceHeight">
+    <value>Rango de altura del dispositivo (mín, máx)</value>
+    <comment>phrase: Range of device height (min, max)</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="HiddenLayoutCss">
+    <value>CSS de diseños ocultos</value>
+    <comment>phrase: Hidden layouts CSS</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MediaQueryNameCannotBeEmpty">
+    <value>El nombre de la consulta de medios es un campo obligatorio.</value>
+    <comment>Validation message displayed when the media query name field is not entered.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ModuleTitle">
+    <value>Diseño Adaptable</value>
+    <comment>Title of the Responsive Design module</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Edit">
+    <value>Editar</value>
+    <comment>word: Edit</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResponsiveDesignConfigCaption">
+    <value>Configuración de Diseño Adaptable</value>
+    <comment>Title of the Responsive Design configuration section.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MinWidth">
+    <value>Anchura mín.</value>
+    <comment>word: Min-width</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MobilePreviewTitle">
+    <value>Vista previa para &lt;br /&gt;Smartphones y Tabletas</value>
+    <comment>phrase: Preview for Smartphones &amp; Tablets</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResponsiveDesignConfigDescription">
+    <value>Sección de configuración para el módulo de Diseño Adaptable.</value>
+    <comment>Description of the Responsive Design configuration section.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AccessResponsiveDesign">
+    <value>Acceder a diseño adaptable</value>
+    <comment>phrase: Access responsive design</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AspectRatioConfig">
+    <value>Relación de aspecto</value>
+    <comment>phrase: Aspect ratio</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NavigationTransformationNameConfig">
+    <value>Nombre de la transformación de navegación</value>
+    <comment>phrase: Name of the navigation transformation</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AspectRatio">
+    <value>Relación de aspecto</value>
+    <comment>phrase: Aspect ratio</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PreviewDeviceCssClassConfig">
+    <value>Tipo CSS asociado con el dispositivo de vista previa</value>
+    <comment>phrase: Css class associated with the preview device</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NavigationTransformationResourceClassIdConfig">
+    <value>ResouceClassId para localización</value>
+    <comment>phrase: ResouceClassId for localization</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PreviewDeviceHeightConfig">
+    <value>La altura del dispositivo de vista previa en píxeles</value>
+    <comment>phrase: The height of the preview device in pixels</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LayoutTransformationSectionTitle">
+    <value>Configuración del sistema: Ajustar los elementos predeterminados de distribución</value>
+    <comment>phrase: System settings: Fine tune default layout elements</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Width">
+    <value>Ancho</value>
+    <comment>word: Width</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NavigationWidgetsWithClass">
+    <value>Widgets de navegación con clase</value>
+    <comment>phrase: Navigation widgets with class</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateAGroupOfRules">
+    <value>Crear un grupo de reglas</value>
+    <comment>Title of the screen for creating a new group of rules.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResponsiveDesignBasicSettingsInfo">
+    <value>Predefinir la configuración de transformación para el widget de Navegación. Puede asociar esta configuración con reglas de diseño sensible.</value>
+    <comment>phrase: Predefine transformation settings for the Navigation widget. You can associate these settings with responsive design rules.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LargeScreens">
+    <value>Pantallas grandes</value>
+    <comment>phrase: Large screens</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResponsiveDesignResourcesTitle">
+    <value>Recursos de Diseño Adaptable</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateMediaQuery">
+    <value>Crear una consulta de medios</value>
+    <comment>phrase: Create media query</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="OrientationConfig">
+    <value>Orientación</value>
+    <comment>word: Orientation</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AsSetInTemplate">
+    <value>Según lo establecido en la plantilla</value>
+    <comment>phrase: As set in template</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TransformTheLayout">
+    <value>Transformar el diseño</value>
+    <comment>phrase: Transform the layout</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PreviewDevicesConfig">
+    <value>Previsualizar dispositivos</value>
+    <comment>phrase: Preview devices</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResponsiveDesignResourcesDescription">
+    <value>Contiene recursos localizables para el módulo de Diseño Adaptable.</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Height">
+    <value>altura</value>
+    <comment>word: Height</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ContentBlocksAppliedToColumnHeaderText">
+    <value>Aplicar A</value>
+    <comment>table header: Applied To</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Description">
+    <value>Descripción</value>
+    <comment>word: Description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="BackToMediaQueries">
+    <value>Volver a las preguntas de los medios de comunicación</value>
+    <comment>phrase: Back to media queries</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EnabledConfig">
+    <value>Habilitado</value>
+    <comment>word: Enabled</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AddACustomRule">
+    <value>Agregar una regla personalizada (consulta de los medios de comunicación)</value>
+    <comment>phrase: Add a custom rule (media query)</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="HeightTypeConfig">
+    <value>Obtiene o establece el tipo de la regla de la altura</value>
+    <comment>phrase: Gets or sets the type of the height rule</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResponsiveAndMobileDesignNodeTitle">
+    <value>Diseño Móvil y Adaptable</value>
+    <comment>Title of the responsive and mobile design page node.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ForDevicesWithTheseCharacteristics">
+    <value>Para dispositivos con estas características...</value>
+    <comment>phrase:ForDevicesWithTheseCharacteristics</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExactHeightConfig">
+    <value>Altura exacta</value>
+    <comment>phrase: Exact height</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AlternateLayoutsConfig">
+    <value>Diseños alternativos</value>
+    <comment>phrase: Alternate layouts</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MaxWidth">
+    <value>Anchura máx.</value>
+    <comment>word: Max-width</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ToToggleMenu">
+    <value>Alternar menú vertical</value>
+    <comment>phrase: Toggle vertical menu</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LayoutElementsConfig">
+    <value>Elementos de diseño</value>
+    <comment>phrase: Layout elements</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ModuleDescription">
+    <value>El módulo que vamos a definir para el diseño adaptable de las páginas basadas en las capacidades del cliente.</value>
+    <comment>Description of the Responsive Design module</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="RangeDeviceWidth">
+    <value>Rango de anchura del dispositivo (mín, máx)</value>
+    <comment>phrase: Range of device width (min, max)</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SiteSelectorFieldTitle">
+    <value>Página raíz del sitio especialmente preparado</value>
+    <comment>phrase: Root page of the specially prepared site</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResponsiveAndMobileDesignNodeDescription">
+    <value>La página que vamos a usar para administrar la configuración de diseño adaptable y móvil.</value>
+    <comment>phrase: The page which let's use manage settings for responsive and mobile design.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResponsiveDesignResourcesTitlePlural">
+    <value>Recursos de Diseño Adaptable</value>
+    <comment>The title plural of this class.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AddTransformation">
+    <value>Añadir una transformación</value>
+    <comment>phrase: Add a transformation</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CssSelectorTitle">
+    <value>Archivo CSS específico para transformar distribución y diseño</value>
+    <comment>phrase: Specific CSS file for transforming layout and design</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="BasicSettingsGridFirstCol">
+    <value>Nombre</value>
+    <comment>phrase: Name</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeviceHeight">
+    <value>Altura del dispositivo</value>
+    <comment>phrase: Device height</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MediaQueryNameFieldTitle">
+    <value>Nombre</value>
+    <comment>The title of the media query name field in the form for creating and editing media queries.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="OpenSpeciallyPreparedSite">
+    <value>Abrir un sitio especialmente preparado (por ejemplo, la versión móvil de su sitio)...</value>
+    <comment>phrase: Open a specially prepared site (e.g. mobile version of your site)...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PreviewDeviceViewportWidthConfig">
+    <value>La anchura de la ventana del dispositivo de vista previa</value>
+    <comment>phrase: The width of the preview device's viewport</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AllNavigationWidgets">
+    <value>Todos los widgets de navegación</value>
+    <comment>phrase: All navigation widgets</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SuccessfullyUpdatedMediaQuery">
+    <value>Consulta de medios actualizada correctamente en {0}.</value>
+    <comment>label: Media Query successfully updated in {0}.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="WidthTypeConfig">
+    <value>El tipo de anchura que se define</value>
+    <comment>phrase: The type of width being defined</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LayoutElementNameConfig">
+    <value>Nombre del elemento de diseño</value>
+    <comment>phrase: Name of the layout element</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TransformLayout">
+    <value>Transformar la distribución</value>
+    <comment>phrase: Transform layout</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AddNew">
+    <value>Añadir nuevo…</value>
+    <comment>phrase: Add new...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeviceWidth">
+    <value>Ancho del dispositivo</value>
+    <comment>phrase: Device width</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MinHeightConfig">
+    <value>Altura mínima</value>
+    <comment>phrase: Minimum height</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MediaQueryNameFieldExample">
+    <value>&lt;strong&gt;Ejemplo:&lt;/strong&gt; &lt;em&gt;Tabletas&lt;/em&gt;. Este nombre solo es para su comodidad.</value>
+    <comment>The example of the media query name field in the form for creating and editing media queries.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PreviewDeviceOffsetXConfig">
+    <value>Desplazamiento en el eje X de la ventana gráfica en el modo retrato.</value>
+    <comment>phrase: Offset on the X axis of the viewport in the portrait mode.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Resolution">
+    <value>Resolución</value>
+    <comment>word: Resolution</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Inactive">
+    <value>Inactivo</value>
+    <comment>word: Inactive</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Landscape">
+    <value>Paisaje</value>
+    <comment>word: Landscape</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResolutionConfig">
+    <value>Resolución</value>
+    <comment>word: Resolution</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="RangeHeight">
+    <value>Rango (altura mín, máx)</value>
+    <comment>phrase: Range (min, max-height)</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LayoutElementGroupNameConfig">
+    <value>Nombre del grupo al que pertenece el elemento de diseño</value>
+    <comment>phrase: LayoutElementGroupNameConfig</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="OpenASpeciallyPreparedSite">
+    <value>Abrir un sitio especialmente preparado</value>
+    <comment>phrase: Open a specially prepared site</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="RuleDescriptionConfig">
+    <value>Descripción de la regla</value>
+    <comment>phrase: Description of the rule</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ValueMustBeAWholeNumber">
+    <value>El valor debe ser un número entero</value>
+    <comment>Message displayed when user does not enter the whole number in a field that expects it</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Smartphones">
+    <value>Smartphones</value>
+    <comment>phrase: Smartphones</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NavigationTransformationTitleConfig">
+    <value>Título</value>
+    <comment>phrase: Title</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SiteSelectorFieldDescription">
+    <value>Cuando se detecta, un dispositivo con características como las establecidas arriba, siempre redirecciona a esta página.</value>
+    <comment>phrase: When detected, a device with characteristics like those set above, always redirect to this page</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DescriptionExample">
+    <value>&lt;strong&gt;Ejemplo:&lt;/strong&gt; &lt;em&gt;1024x768 (p. ej. iPad, iPad2)&lt;/em&gt;</value>
+    <comment>Example: 1024x768 (e.g. iPad, iPad2)</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AsSetInBaseTemplate">
+    <value>Según lo establecido en la plantilla base</value>
+    <comment>phrase: As set in base template</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NoGroupsAreApplied">
+    <value>No se aplican grupos de reglas</value>
+    <comment>phrase: No groups of rules are applied</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="RangeWidth">
+    <value>Rango (anchura mín, máx)</value>
+    <comment>phrase: Range(min, max-width)</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LayoutElementTitleConfig">
+    <value>Título del elemento de distribución</value>
+    <comment>phrase: Title of the layout element</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ThisGroupOfRulesIsActive">
+    <value>Este conjunto de reglas está activo</value>
+    <comment>phrase: This group of rules is active</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Orientation">
+    <value>Orientación</value>
+    <comment>word: Orientation</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TransformationCssConfig">
+    <value>CSS de la transformación de control</value>
+    <comment>phrase: CSS of the control transformation</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResponsiveDesignBasicSettingsTitle">
+    <value>Configuración de diseño sensible para widget de Navegación</value>
+    <comment>phrase: Responsive design settings for Navigation widget</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="RuleGroupsUrlName">
+    <value>rule-groups</value>
+    <comment>Url name of the responsive design module rule groups page</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeviceTypesConfig">
+    <value>Tipos de dispositivos</value>
+    <comment>phrase: Device types</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="IsGridConfig">
+    <value>Cuadrícula</value>
+    <comment>word: Grid?</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Monochrome">
+    <value>Monocromático</value>
+    <comment>word: Monochrome</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SelectedRulesAreApplied">
+    <value>Solo se aplican grupos seleccionados de reglas</value>
+    <comment>phrase: Only selected groups of rules are applied</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Grid">
+    <value>Grid</value>
+    <comment>word: Grid</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PreviewDeviceWidthConfig">
+    <value>La anchura del dispositivo de vista previa en píxeles</value>
+    <comment>phrase: The width of the preview device in pixels</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MaxHeight">
+    <value>Altura máx.</value>
+    <comment>word: Max-height</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TransformTo">
+    <value>Transformar a</value>
+    <comment>phrase: transform to</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MaxHeightConfig">
+    <value>Altura máxima</value>
+    <comment>phrase: Maximum height</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+</root>

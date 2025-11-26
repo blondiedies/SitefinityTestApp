@@ -1,0 +1,1055 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SslOption">
+    <value>Usar conexión SSL</value>
+    <comment>phrase: Use SSL Connection</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UncheckToStopUpdatingTheFeed">
+    <value>Desactive la opción para detener la actualización de la fuente</value>
+    <comment>word: Uncheck to stop updating the feed</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TitleFieldTitle">
+    <value>Título</value>
+    <comment>word: Title</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="StopUpdatingFeed">
+    <value>Parar la actualización</value>
+    <comment>Command text for the 'Stop updating' command of the feed</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PipeSettingsShortDescriptionBase">
+    <value>Fuente RSS está disponible en: &lt;br/&gt;</value>
+    <comment>phrase: RSS feed is available on:&lt;br /&gt;</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Description">
+    <value>Descripción</value>
+    <comment>word: Description</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CreateNewItem">
+    <value>Crear una fuente</value>
+    <comment>The title of the create new feed dialog</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FilterFeeds">
+    <value>Filtrar fuentes</value>
+    <comment>The title of feeds filter sidebar section</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContentParentItemId">
+    <value>ID del elemento primario</value>
+    <comment>Title of the Content pipe PublishingConstants.FieldParentItemId field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ChoiceRssOnly">
+    <value>Sólo RSS</value>
+    <comment>word: RSS only</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ItemsCount">
+    <value>elementos</value>
+    <comment>Used for items count limitation</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContentType">
+    <value>Tipo de contenido</value>
+    <comment>phrase: Content type</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MappingTranslators">
+    <value>Configurar traductores</value>
+    <comment>Label</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PublishingHtmlTitle">
+    <value>Fuentes y notificaciones</value>
+    <comment>HTML title of the Publishing module landing page.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SelectInboundPipes">
+    <value>Contenido a incluir</value>
+    <comment>Label for the inbound pipes selector</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Duplicate">
+    <value>Duplicar</value>
+    <comment>word: Duplicate</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DuplicateUrlException">
+    <value>Un elemento con la dirección '{0}' ya existe.</value>
+    <comment>Error message.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OriginalItemId">
+    <value>Id del Artículo Original</value>
+    <comment>Original Item Id</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContentOwnerEmail">
+    <value>Correo electrónico del propietario</value>
+    <comment>Title of the Content pipe PublishingConstants.FieldOwnerEmail field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SettingsPipeLabel">
+    <value>Opciones…</value>
+    <comment>word: Settings...</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AllFeeds">
+    <value>Todas las fuentes</value>
+    <comment>The text of all feeds sidebar button</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FeedsOutputCacheProfileName">
+    <value>El perfil de almacenamiento en caché de salida que se utilizará  para el almacenamiento en caché de la salida de feeds</value>
+    <comment>Label describing the output cache setting</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContentSummary">
+    <value>Resumen</value>
+    <comment>Title of the Content Summary field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Pop3SenderLastName">
+    <value>Apellidos del Remitente</value>
+    <comment>phrase: Sender last name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Pop3PipeSettingsImportShortDescription">
+    <value>Importando desde servidor POP3 : {0}, cuenta:{1}</value>
+    <comment>phrase: Importing from POP3 server: {0}, account:{1}</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DefaultProvider">
+    <value>Proveedor predeterminado.</value>
+    <comment>Name of the default provider for the publishing system.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RssSummary">
+    <value>Resumen</value>
+    <comment>Title of the RSS Summary field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContentExpirationDate">
+    <value>Fecha de expiración</value>
+    <comment>Title of the Content ExpirationDate field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PassThrough">
+    <value>Atravesar</value>
+    <comment>Label: Pass through</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AdvancedOptionsSection">
+    <value>Opciones avanzadas &lt;em class='sfNote'&gt; (Estructura de datos, Tipo de feed) &lt;/em&gt;</value>
+    <comment>Phrase: Advanced options (Caching, Multiple URLs, Head tags)</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContentTitle">
+    <value>Título</value>
+    <comment>Title of the Content Title field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LiteralCharactersOfTheContent">
+    <value>caracteres del contenido</value>
+    <comment>word: characters of the content</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="WarningMessagePop3DeleteOnRetrieve">
+    <value>&lt;strong&gt;Advertencia: &lt;/strong&gt;Todos los mensajes de correo recuperados con éxito será eliminado del servidor POP3.</value>
+    <comment>phrase: Warning: All successfully retrieved mail messages will be deleted from the server.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RssOutboundName">
+    <value>Fuente RSS</value>
+    <comment>Rss outblound pipe name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Author">
+    <value>Autor</value>
+    <comment>word: Author</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LiteralLimitTheItems">
+    <value>Limitar los elementos en la fuente</value>
+    <comment>word: Limit the items in the feed</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ValidationNumberGreaterThanZero">
+    <value>El número debe ser mayor que cero</value>
+    <comment>word: The number should be greater than zero</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PostsAllBlogs">
+    <value>Entradas de todos los blogs</value>
+    <comment>phrase: Posts from all blogs</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContentLink">
+    <value>Enlace</value>
+    <comment>Title of the Content pipe PublishingConstants.FieldLink field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ButtonTitleOnly">
+    <value>Sólo título</value>
+    <comment>word: Title only</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MyFeeds">
+    <value>Mis fuentes</value>
+    <comment>The text of my feeds sidebar button</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PipeSettingsImporShortDescriptionBase">
+    <value>Importar desde: &lt;br/&gt;</value>
+    <comment>phrase: Importing from:&lt;br /&gt;</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AddMapping">
+    <value>Agrear un mapeo</value>
+    <comment>Label</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PipeId">
+    <value>Id de Tubería</value>
+    <comment>Pipe Id</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DefaultDisplayPageRight">
+    <value>se publican:</value>
+    <comment>Label in the content inbound pipe designer</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ItemHash">
+    <value>Hash de artículos</value>
+    <comment>Item Hash</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RssPublicationDate">
+    <value>Fecha de publicación</value>
+    <comment>Title of the RSS PubDate field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BlogPosts">
+    <value>Entradas del Blog</value>
+    <comment>word: Blog Posts</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ChoiceRssAndAtomSeparated">
+    <value>RSS y Atom separados</value>
+    <comment>word: RSS and Atom separated</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Mapping">
+    <value>Asociación</value>
+    <comment>Label</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DateOwnerHeader">
+    <value>Creado el/Propietario</value>
+    <comment>phrase: Created on/Owner</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ExportToContentType">
+    <value>Importar datos como</value>
+    <comment>Title of content picker in Content outbound pipe</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Pop3Password">
+    <value>Contraseña</value>
+    <comment>phrase: Password</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="News">
+    <value>Noticias</value>
+    <comment>word: News</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FeedsByContentType">
+    <value>Fuentes por tipo de contenido</value>
+    <comment>The title of feeds filter by content type sidebar section</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PublishedAsHeader">
+    <value>Publicado como</value>
+    <comment>phrase: Published As</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TwitterItemsCount">
+    <value>Número de tuits mostrados</value>
+    <comment>Number of displayed tweets</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ByLastPublication">
+    <value>por última publicación</value>
+    <comment>The title of the feeds by last publication sidebar section</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ModuleTitle">
+    <value>Fuentes y notificaciones</value>
+    <comment>The title of the Publishing module.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="IncorrectUrlFormat">
+    <value>Por favor, verifique que la URL está en el formato correcto</value>
+    <comment>phrase: Please, verify the URL is in correct format</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RssOwnerEmail">
+    <value>Correo electrónico del propietario</value>
+    <comment>Title of the RSS OwnerEmail field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BackToItems">
+    <value>Volver a todos los elementos</value>
+    <comment>The text of the back to Publishing Items</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BackLinksPages">
+    <value>Página donde se publica este contenido</value>
+    <comment>Label in the content inbound pipe designer</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NonexistentBlog">
+    <value>blog inexistente</value>
+    <comment>phrase: nonexistent blog</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContentOwnerLastName">
+    <value>Apellido del propietario</value>
+    <comment>Title of the Content pipe PublishingConstants.FieldOwnerLastName field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Calendars">
+    <value>Calendarios</value>
+    <comment>word: Calendars</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Stopped">
+    <value>Detenido</value>
+    <comment>word: Stopped</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RssHash">
+    <value>Identificador Hash único</value>
+    <comment>A generated uniqe hash identifier of a RSS item</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CreateNew">
+    <value>Crear una fuente</value>
+    <comment>label</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PagePipeSettingsImportShortDescription">
+    <value>Importación de la página: {0}</value>
+    <comment>phrase: Importing from Page: {0}</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Comments">
+    <value>comentarios</value>
+    <comment>word: Comments</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DuplicateFeedTitle">
+    <value>Una fuente con este título ya existe.</value>
+    <comment>Error message: Duplicate feed title.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SelectFeed">
+    <value>Seleccione una fuente</value>
+    <comment>Select a feed</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MappingSettings">
+    <value>Opciones de Mapeo</value>
+    <comment>Label</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CalendarNotSelected">
+    <value>Por favor, seleccione un calendario hacia el cual importar los datos</value>
+    <comment>phrase: Please, select a calendar to import the data into</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BlogNotSelected">
+    <value>Por favor, seleccione un blog al que importar los datos</value>
+    <comment>Not selected blog into content pipe outbound mode</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Advanced">
+    <value>Avanzado</value>
+    <comment>Label: Advanced</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContentDateCreated">
+    <value>Fecha de creación</value>
+    <comment>Title of the Content pipe PublishingConstants.ContentDateCreated field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ValidationMessagePop3Account">
+    <value>La cuenta POP3 se debe configurar</value>
+    <comment>phrase: POP3 account must be set</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CreatedByColon">
+    <value>por:</value>
+    <comment>phrase: by:</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AddAnotherExportPipe">
+    <value>Añadir más ...</value>
+    <comment>word: Add another export pipe</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RadioIncludeAllPublishedItems">
+    <value>Incluir todos los elementos publicados</value>
+    <comment>word: Include all published items</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SelectContent">
+    <value>Seleccione contenido</value>
+    <comment>phrase: Select content</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContentPipeName">
+    <value>Contenido Sitefinity</value>
+    <comment>Content inbound pipe name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContentTags">
+    <value>Categorías</value>
+    <comment>Title of the Content Tags field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PipeSettingsUrlNameNotSet">
+    <value>La URL de la fuente RSS se generarán de forma automática</value>
+    <comment>phrase: RSS feed url will be generated automatically</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContentToInclude">
+    <value>Contenido a incluir</value>
+    <comment>word: Content to include</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PublishingUrlName">
+    <value>Fuentes</value>
+    <comment>Publishing URL name.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Permissions">
+    <value>Permisos</value>
+    <comment>Label for the buttons that switch to the permissions dialog.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ValidationMessageUrlCannotBeEmpty">
+    <value>Nombre de la URL no puede estar vacío</value>
+    <comment>word: Url name cannot be empty</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ProviderNameQueryKey">
+    <value>Formato de Nombre de usuario</value>
+    <comment>Gets or sets the query string key used to look up provider name from query string</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AllItems">
+    <value>Todos los elementos</value>
+    <comment>phrase: All items</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ProviderSettings">
+    <value>Opciones de Proveedor</value>
+    <comment>Dictionary of settings for the initialization of publishing providers.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ActiveFeeds">
+    <value>Activa fuentes</value>
+    <comment>The text of active feeds sidebar button</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ButtonTitleAndContent">
+    <value>Título y contenido</value>
+    <comment>word: Title and content</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Edit">
+    <value>&lt;strong&gt;Editar ...&lt;/strong&gt;</value>
+    <comment>word</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Pop3ServerName">
+    <value>servidor POP3</value>
+    <comment>phrase: POP3 server</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Pop3Account">
+    <value>Cuenta</value>
+    <comment>phrase: Account:</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NoPublishingPoint">
+    <value>Tiene que especificar un punto de publicación.</value>
+    <comment>Sitefinity was expecting a publishing point and didn't find one.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RssItemId">
+    <value>Id del elemento</value>
+    <comment>Title of the RSS ItemId field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContentStatus">
+    <value>Estado</value>
+    <comment>Title of the Content pipe PublishingConstants.ContentStatus field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RssContent">
+    <value>Contenido</value>
+    <comment>Title of the RSS Content field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContentCategories">
+    <value>Categorías</value>
+    <comment>Title of the Content Categories field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PageGroupNodeDescription">
+    <value>Grupo de páginas del módulo de publicación.</value>
+    <comment>Publishing Page Group Description</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PublishingMessagesDescription">
+    <value>Contiene recursos localizables para el Sistema de Publicación de Sitefinity.</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContentContent">
+    <value>Contenido</value>
+    <comment>Title of the Content Content field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FeedsBaseUrlPattern">
+    <value>URL base de las fuentes: {0}</value>
+    <comment>phrase: Feeds base url: {0}</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NewPublishingPointDefaultTitle">
+    <value>Nuevo punto de publicación</value>
+    <comment>label</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RssInboundName">
+    <value>Fuentes RSS/Atom externas</value>
+    <comment>Rss inbound pipe name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ExampleUnderTitle">
+    <value>¡Importante! Este título será visible para las personas y los motores de búsqueda. Por ejemplo si crea una fuente RSS, el título será el título de la fuente completa en el lector de RSS (por ejemplo, Google Reader)</value>
+    <comment>word: Important! This title will be visible for people and search engines. E.g. if you create a RSS feed, the title will be the title of the whole feed in the RSS reader (e.g. Google Reader)</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FeedType">
+    <value>Tipo de feed</value>
+    <comment>Label: Feed type</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="View">
+    <value>Ver</value>
+    <comment>word: View</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="WhatDoYouWantToDoNow">
+    <value>¿Qué quieres hacer ahora?</value>
+    <comment>phrase: What do you want to do now?</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PublishDataQuestion">
+    <value>Publicar automáticamente los datos importados</value>
+    <comment>Asing weather data should be publsihed after being imported</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ValidationMessagePop3ServerPortValidation">
+    <value>El puerto debe ser un número positivo</value>
+    <comment>phrase: The port must be a positive natural number</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RssFeedUrlName">
+    <value>Nombre de URL</value>
+    <comment>Rss Feed url name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LiterakAllItemsInTheFeedContains">
+    <value>Un elemento en la fuente contiene</value>
+    <comment>word: An item in the feed contains</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PublishingMessagesTitle">
+    <value>Publicando mensajes</value>
+    <comment>The title of this resource class.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="WhichItemsToInclude">
+    <value>¿Qué elementos se deben incluir?</value>
+    <comment>word: Which items to include?</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RssOwnerLastName">
+    <value>Apellido del propietario</value>
+    <comment>Title of the RSS OwnerLastName field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SaveChanges">
+    <value>Guardar cambios</value>
+    <comment>phrase: Save changes</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SelectOutboundPipes">
+    <value>Contenido a incluir</value>
+    <comment>Label for the outbound pipes selector</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RssLink">
+    <value>Enlace</value>
+    <comment>Title of the RSS Link field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Events">
+    <value>Eventos</value>
+    <comment>word: Events</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContentOwnerFirstName">
+    <value>Nombre del propietario.</value>
+    <comment>Title of the Content pipe PublishingConstants.FieldOwnerFirstName field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LastPublicationOn">
+    <value>Última publicación el:</value>
+    <comment>word: Last publication on:</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContentPublicationDate">
+    <value>Fecha de publicación</value>
+    <comment>Title of the Content PublicationDate field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NonexistentProduct">
+    <value>producto inexistente</value>
+    <comment>phrase: nonexistent product</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RssTitle">
+    <value>Título</value>
+    <comment>Title of the RSS Title field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PageKeywords">
+    <value>Palabras clave de la página</value>
+    <comment>Title of the Content Keywords field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Pop3SenderEmail">
+    <value>Remitente del correo electrónico</value>
+    <comment>phrase: Sender e-mail</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RadioIncludeTheNewest">
+    <value>Incluir el más nuevo</value>
+    <comment>word: Include the newest</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Publish">
+    <value>Publicar</value>
+    <comment>word: Publish</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ListItems">
+    <value>Elementos de lista</value>
+    <comment>word: List Items</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ChoiceAtomOnly">
+    <value>Sólo Atom</value>
+    <comment>word: Atom only</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EventsAllCalendars">
+    <value>Eventos de todos los calendarios</value>
+    <comment>phrase: Events from all calendars</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NonexistentCalendar">
+    <value>calendario no existente</value>
+    <comment>phrase: nonexistent calendar</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Lists">
+    <value>Listas</value>
+    <comment>word: Lists</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Persistent">
+    <value>Persistente</value>
+    <comment>Label: Persistent</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ValidationWholeNumber">
+    <value>Debería ser un número completo</value>
+    <comment>word: Should be a whole number</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Pop3ServerPort">
+    <value>Puerto</value>
+    <comment>phrase: Port:</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Pop3ReceivedOn">
+    <value>Recibido el</value>
+    <comment>phrase: Received on</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RssOrAtomToGenerateTitle">
+    <value>RSS o Atom para generar?</value>
+    <comment>word: RSS or Atom to generate?</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RssOwnerFirstName">
+    <value>Nombre del propietario.</value>
+    <comment>Title of the RSS OwnerFirstName field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ChoiceSmartFeed">
+    <value>Inteligentes compatibles con cualquier aplicación de lector de feeds de alimentación</value>
+    <comment>word: Smart feed compatible with any feed reader application</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ButtonTitleAndFirst">
+    <value>Título y primero</value>
+    <comment>word: Title and first</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RunPipes">
+    <value>Ejecutar</value>
+    <comment>Label used for the Execute pipes action</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AddAnotherContentType">
+    <value>Añadir otro tipo de contenido</value>
+    <comment>word: Add another content type</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ItemsAllLists">
+    <value>Artículos de todas las listas</value>
+    <comment>phrase: Items from all lists</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ValidationEnterWholeNumber">
+    <value>Introduzca un número completo</value>
+    <comment>word: Enter a whole number</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CloseDateFilter">
+    <value>Cerrar fechas</value>
+    <comment>The link for closing the date filter widget in the sidebar.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Active">
+    <value>Activo</value>
+    <comment>word: Active</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EditItem">
+    <value>Editar una fuente</value>
+    <comment>The title of the edit feed dialog</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UserAvatar">
+    <value>Avatar de usuario</value>
+    <comment>Title of the Content ExpirationDate field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Pop3PipeName">
+    <value>Contenido del correo</value>
+    <comment>POP3 mail inbound pipe name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Date">
+    <value>Fecha</value>
+    <comment>word: Date</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Tags">
+    <value>Etiquetas</value>
+    <comment>word: Tags</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Pop3SenderFirstName">
+    <value>Nombre del remitente</value>
+    <comment>phrase: Sender first name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PublishAs">
+    <value>Publicar como ...</value>
+    <comment>word: Publish as...</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Delete">
+    <value>Eliminar</value>
+    <comment>Label for the buttons that delete an event.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PublishingConfig">
+    <value>Configuración de Publicación</value>
+    <comment>Configuration section description.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="dataItemsProviderSettings">
+    <value>Opciones de elementos de datos de Proveedor</value>
+    <comment>Dictionary of settings for the initialization of publishing data items providers.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DateCreatedColon">
+    <value>Creado el:</value>
+    <comment>phrase: Created:</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DisplayLastUpdatedFeeds">
+    <value>Mostrar fuentes actualizadas por última vez el ..</value>
+    <comment>The text of last updated feeds sidebar button</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PublishingMessagesTitlePlural">
+    <value>Título plurarl para los mensajes de publicación</value>
+    <comment>The title plural of this class.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NoFeeds">
+    <value>No se han creado fuentes todavía</value>
+    <comment>word: Date</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ThisFeedIsActive">
+    <value>Este contenido está Activo</value>
+    <comment>phrase: This feed is Active</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="InactiveFeeds">
+    <value>Fuentes inactivas</value>
+    <comment>The text of inactive feeds sidebar button</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SelectIndex">
+    <value>Twitter Publishing Point Seleccionado</value>
+    <comment>Selected Twitter Publishing Point</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="IncludeAllItems">
+    <value>Incluir todos los elementos</value>
+    <comment>word: Include all items</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="StartUpdatingFeed">
+    <value>Iniciar la actualización</value>
+    <comment>Command text for the 'Start updating' command of the feed</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ModuleDescription">
+    <value>Proporciona funcionalidades de sindicación y publicación de contenidos desde y hacia sistemas externos</value>
+    <comment>The description of the Publishing module</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Title">
+    <value>Título</value>
+    <comment>word: Title</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Content">
+    <value>Contenido</value>
+    <comment>word: Content</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PageGroupNodeTitle">
+    <value>Fuentes y notificaciones</value>
+    <comment>Page group for the Publishing module.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FeedsBaseUrl">
+    <value>Url Base de enrutamiento</value>
+    <comment>Configurable url part which identifies the publishing endpoint.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Categories">
+    <value>Categorías</value>
+    <comment>word: Categories</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NonexistentList">
+    <value>lista inexistente</value>
+    <comment>phrase: nonexistent list</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UserNameFormat">
+    <value>Formato de Nombre de usuario</value>
+    <comment>Gets or sets the username template. {FirstName} is a placeholder for the first name and {LastName} is a placeholder for the last name.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PublicationDateHeader">
+    <value>Última publicación el</value>
+    <comment>phrase: Last publication on</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Feed">
+    <value>Fuente</value>
+    <comment>word: Feed</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContentOwnerUsername">
+    <value>Nombre de usuario del ropietario</value>
+    <comment>Title of the Content pipe PublishingConstants.FieldUsername field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PagePipe">
+    <value>HTML estático en páginas</value>
+    <comment>Page pipe</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DefaultDisplayPageLeft">
+    <value>Página predeterminada donde</value>
+    <comment>Label in the content inbound pipe designer</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContentOwner">
+    <value>ID propio</value>
+    <comment>Title of the Content ExpirationDate field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ExposeAuthorEmailInFeeds">
+    <value>Define si el correo electrónico del autor (para entradas de blog, etc.) será expuesto en los archivos RSS.</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RssCategories">
+    <value>Categorías</value>
+    <comment>Title of the RSS Categories field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+</root>

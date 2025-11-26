@@ -1,0 +1,1085 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="InvalidDate">
+    <value>Fecha no válida. Por favor, especifique una fecha válida.</value>
+    <comment>Sentence: Invalid date. Please specify a valid date.</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="LastSyncTo">
+    <value>a {0}</value>
+    <comment>format: to {0}</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="PagesToolTip">
+    <value>También se recomienda sincronizar las &lt;ul&gt;&lt;li&gt;Plantillas de widget&lt;/li&gt;&lt;li&gt;Plantillas de página&lt;/li&gt;&lt;li&gt;Segmentos&lt;/li&gt;&lt;/ul&gt;, ya que están relacionadas con las Páginas</value>
+    <comment>phrase: It is recommended to also sync Widget templates as they are related to Pages</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="ServerNotAccessible">
+    <value>El servidor {0} no es accesible.</value>
+    <comment>phrase: Server {0} is not accessible.</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="ScheduleSummaryFormat_Server">
+    <value>&lt;span class='sfscheduled'&gt;La sincronización a {0} está programada para &lt;/span&gt;&lt;br/&gt;&lt;strong&gt;{1}&lt;/strong&gt;&lt;br/&gt;&lt;strong&gt;Contenido para sincronizar&lt;/strong&gt;&lt;div class='sfScheduledTypes'&gt;{2}&lt;/div&gt;</value>
+    <comment>{0} stands for the current server for the scheduled sync; {1} stands for the text describing the schedule, e.g. Every Friday, 08:00 PM, {2} stands for a comma separated list of content types;</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="StoppingSiteSync">
+    <value>Deteniendo la sincronización... Por favor, espere</value>
+    <comment>phrase: Stopping sync... Please wait</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SiteScheduledForSync">
+    <value>Sincronización programada en</value>
+    <comment>The exact that on which the sync will be performed</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SiteSendingData">
+    <value>&lt;i&gt;{0}&lt;/i&gt;</value>
+    <comment>phrase: &lt;i&gt;{0}&lt;/i&gt;</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="DestinationServerNotConfiguredCorrectly">
+    <value>El servidor de destino no está configurado correctamente como destino de sincronización. Marque la 'Clave de sitio' en la configuración 'Sinc sitio'.</value>
+    <comment>phrase: The target server is not configured properly. Make sure the accurate site key is entered in the Site Sync settings.</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SiteLbl">
+    <value>sitio</value>
+    <comment>phrase: site</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="PrepareDataFailure">
+    <value>Se produjo un error al cargar los datos para la sincronización. Por favor, revise el archivo de registro para determinar el problema e intentar de nuevo.</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SyncOn">
+    <value>Sincronizar el</value>
+    <comment>phrase: Sync on</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="LastSyncSuccessfullySyncedItems">
+    <value>{0} artículos sincronizados con éxito</value>
+    <comment>format: {0} items successfully synced</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SyncDetailsBackLinkText">
+    <value>Volver a Secuenciamiento y Sincronización</value>
+    <comment>phrase: Back to Site Sync</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SiteTypeRecommendation">
+    <value>Al seleccionar &lt;strong&gt;Sitios&lt;/strong&gt;, usted sincronizará únicamente los datos meta.</value>
+    <comment>phrase: Selecting Sites you will sync their meta data only</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="FilterItemsByTaxonomy">
+    <value>Filtrar artículos &lt;em class='sfNote'&gt;(por categoría, etiqueta...)&lt;/em&gt;</value>
+    <comment>label: Filter items (by category, tag...)</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="PrepareDataSuccessLabel">
+    <value>Los datos se cargan con éxito.</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SelectedItemsOnly">
+    <value>Solo artículos seleccionados</value>
+    <comment>phrase: Selected items only</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SynchronizationError">
+    <value>Sincronización fallida. Por favor, revise el registro de sincronización para obtener más información.</value>
+    <comment>phrase: Synchronization failed. Please check the synchronization log for further information.</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SyncEmptyHistory">
+    <value>No hay historial de sincronización para este servidor</value>
+    <comment>phrase: No sync history for this server</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="StatusFailed">
+    <value>fallido</value>
+    <comment>word: failed</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="AllServersAreAvailable">
+    <value>El servidor seleccionado está disponible</value>
+    <comment>phrase: The selected server is available</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SettingsForThisSite">
+    <value>Configuración de sincronización para este sitio</value>
+    <comment>phrase: Synchronization settings for this site</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="FilterSite">
+    <value>Filtrar por sitio</value>
+    <comment>phrase: Filter by site</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SiteNameDescription">
+    <value>El nombre del sitio se utilizará en los nombres de los proveedores de contenido nuevo, roles de usuario y taxonomías en el sitio de destino. Por ejemplo, el nombre del proveedor está compuesto del nombre del Sitio y tipo de datos (p. ej., Noticias del sitio corporativo)</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="AllSites">
+    <value>Todos los sitios</value>
+    <comment>phrase: All sites</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SiteSyncChangeButtonLabel">
+    <value>&lt;span class='sfLinkBtnIn'&gt;Cambiar&lt;/span&gt;</value>
+    <comment>word: change</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="ServerReturnedUnexpectedStatusCode">
+    <value>El servidor devolvió un código de estado no esperado '{0}'</value>
+    <comment>message: The target server returned unexpected status code '{0}'.</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="WhatItemsToSync">
+    <value>¿Qué hay que sincronizar?</value>
+    <comment>phrase: What to sync?</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="NarrowItemsByTyping">
+    <value>Limitar al escribir...</value>
+    <comment>phrase: Narrow (filter) items by typing</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="AllNewOrUpdatedItems">
+    <value>Todo nuevo o actualizado</value>
+    <comment>phrase: All new or updated.</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="UnavailableSite">
+    <value>Sitio no disponible / eliminado</value>
+    <comment>Phrase: Unavailable/Deleted site</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SyncDeleteSchedulePromptText">
+    <value>¿Está seguro de que desea eliminar esta tarea?</value>
+    <comment>Label: Are you sure you want to delete this task?</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="WhatToSync">
+    <value>¿Qué es lo que desea sincronizar?</value>
+    <comment>phrase: What do you want to sync ?</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SendFrom">
+    <value>Enviar desde</value>
+    <comment> Phrase: Send from</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="FailedItemsLabel">
+    <value>artículos no se pudieron sincronizar.</value>
+    <comment>Label: items failed to sync</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="ScheduledItems">
+    <value>Tareas programadas</value>
+    <comment>phrase: Scheduled tasks</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="StartSync">
+    <value>Sincronizar ahora</value>
+    <comment>phrase: Sync now</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="ConvenienceTip">
+    <value>Solo para su comodidad</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SyncSummaryFieldNoteLabel">
+    <value>&lt;strong&gt;Nota&lt;/strong&gt;&lt;br/&gt; {0}</value>
+    <comment>phrase: &lt;strong&gt;Note&lt;/strong&gt;&lt;br/&gt; {0}</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SyncStructureAndDataOption">
+    <value>Estructura y datos</value>
+    <comment>phrase: Structure and data</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SyncingNoteExceedsAllowedSymbols">
+    <value>El campo de notas supera los 255 caracteres. Por favor, compruebe su extensión para que no exceda los 255 símbolos.</value>
+    <comment>phrase: The notes field exceeds 255 characters. Please verify its length so it is no more than 255 symbols.</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="ManageTasks">
+    <value>Administrar tareas</value>
+    <comment>phrase: Manage tasks</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SiteSyncUnknownErrorMessage">
+    <value>¡Error desconocido! Por favor, consulte los registros para obtener más información acerca de los detalles de error.</value>
+    <comment>phrase: An error message when unknown error occurs.</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SyncUrlName">
+    <value>sincronización</value>
+    <comment>Urlname of the Synchronization module page.</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="ContinuousDelivery">
+    <value>La configuración de entrega continua exige usar Exportar para implementación, en lugar de sincronización de configuración. Vaya a &lt;a href='/Sitefinity/Administration/Settings/Advanced/SiteSync'&gt;deshabilitar sincronización de configuración&lt;/a&gt;</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="DestinationServerDoesntAllowContentFromOtherSites">
+    <value>El servidor de destino no permite que contenido de otros sitios sea publicado allí. Puede permitir eso en la configuración 'Sinc sitio'.</value>
+    <comment>phrase: The target server does not allow content from other sites to be published there.</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SyncNothingOption">
+    <value>Nada</value>
+    <comment>word: Nothing</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="ConfigSnapInSyncEnabledDescription">
+    <value>Indica si se sincronizarán los ajustes de configuración. Si se usa un proceso de entrega continua no se debe activar esta opción.</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SiteSyncResourcesTitle">
+    <value>Etiquetas de módulo Synchronization</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="LastSyncDetails">
+    <value>&lt;span class='sfGoto'&gt;Detalles de la última sincronización&lt;/span&gt;</value>
+    <comment>Label:&lt;strong class='sfGoto'&gt;Last sync details&lt;/strong&gt;</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="NewOrUpdatedItemsPerLanguage">
+    <value>Todo nuevo o actualizado &lt;i&gt;({0})&lt;/i&gt;&lt;span class='sfCultureLbl'&gt;{1}&lt;/span&gt;</value>
+    <comment>phrase: All new or updated - items count and selected language code</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SyncSummaryFieldTaskDetailsLabel">
+    <value>&lt;strong&gt;Tarea&lt;/strong&gt;&lt;br/&gt;Sincronizar ahora en {0}, &lt;br/&gt; por {1} &lt;br/&gt; a {2}</value>
+    <comment>phrase: &lt;strong&gt;Task&lt;/strong&gt;&lt;br/&gt;Sync now on {0}, &lt;br/&gt; by {1}, &lt;br/&gt; to {2}</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="PasswordForServerWhereContentWillBeSent">
+    <value>Contraseña</value>
+    <comment>phrase: Password (created on the server where content will be sent)</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="ResourceSnapInSyncEnabledDescription">
+    <value>Indica si los recursos se sincronizarán.</value>
+    <comment>label: Indicates, if the resources will be synchronized</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SiteSyncOnNavigateMessage">
+    <value>Usted ha seleccionado contenido para sincronización. ¿Está seguro de que desea dejar esta página?</value>
+    <comment>phrase: You have selected content for synchronization. Are you sure that you want to leave this page?</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="ConfigSnapInSyncEnabledTitle">
+    <value>Habilitar sincronización de configuración</value>
+    <comment>label: Enable settings sync</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SynchronizationInProgressTitle">
+    <value>Sincronización en curso</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SomeSiteNeverSyncedLabel">
+    <value>Algunos de los sitios seleccionados nunca han sido sincronizados con este servidor.</value>
+    <comment>phrase: Some of selected sites have never been synced to this server. </comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SentFrom">
+    <value>Enviado desde</value>
+    <comment>phrase: Sent from</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="RetryCountWhenItemsFailTitle">
+    <value>Volver a intentar recuento cuando hay artículos fallidos</value>
+    <comment>Label: Retry count when there failed items</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="NewOrUpdatedItems">
+    <value>Todo nuevo o actualizado &lt;i&gt;({0})&lt;/i&gt;</value>
+    <comment>phrase: All new or updated &lt;i&gt;({0})&lt;/i&gt;</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SynchronizationIsCompleted">
+    <value>La sincronización se ha completado</value>
+    <comment>phrase: Synchronization is completed</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SelectedItemsToSync">
+    <value>Seleccionó &lt;i&gt;({0} de {1})&lt;/i&gt;</value>
+    <comment>phrase: Selected &lt;i&gt;({0} of {1})&lt;/i&gt;</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="ComfirmDeleteHistory">
+    <value>&lt;strong&gt;Sí, eliminar&lt;/strong&gt;</value>
+    <comment>phrase: Yes, delete</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="OutOfRange">
+    <value>Fuera de rango</value>
+    <comment>phrase: Out of range</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="WillSendDataTo">
+    <value>enviará datos a</value>
+    <comment>phrase: will send data to</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="ConfirmMigration">
+    <value>Hecho</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SiteName">
+    <value>Nombre del sitio</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="Complete">
+    <value>completar</value>
+    <comment>word: complete</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="TaskRetryInervalDescription">
+    <value>Indica el intervalo de reintento (minutos) para la operación de sincronización cuando sea necesario.</value>
+    <comment>label: Indicates the retry interval (in minutes) for the sync operation when required.</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SyncDetailsBackLinkServerText">
+    <value>Volver a {0}</value>
+    <comment>phrase: back to server name</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SiteSyncSelectedFromTotal">
+    <value>{0} de {1}</value>
+    <comment>word: of - Example: 5 of 10</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="LastSync">
+    <value>Última sincronización</value>
+    <comment>phrase: Last sync</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="ItemStatusModified">
+    <value>Modificado</value>
+    <comment>word: Modified</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SyncHistoryPromptText">
+    <value>¿Está seguro(a) de que desea eliminar este historial de sincronización?</value>
+    <comment>phrase: Are you sure you want to delete this synchronization history?</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="ServerNotConfigured">
+    <value>El servidor {0} no está configurado correctamente.</value>
+    <comment>phrase: Server {0} is not configured correctly.</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SyncDescription">
+    <value>Esta es la página del módulo Synchronization.</value>
+    <comment>Description of the synchronization module page</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="RecurringSync">
+    <value>Sincronización periódica | Sincronización siguiente</value>
+    <comment>Label: Recurring sync | Next sync</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="ScheduleSummaryFormat_Full">
+    <value>La sincronización para todo el sitio está programada para &lt;strong&gt;{0}&lt;/strong&gt;</value>
+    <comment>{0} stands for the text describing the schedule, e.g. Every Friday, 22:00 PM</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="Details">
+    <value>¡Datos!</value>
+    <comment>word: Details</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="ExcludedConfigsCaption">
+    <value>Configuraciones excluidas</value>
+    <comment>label: Excluded configs</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="WaitingItems">
+    <value>Esperando artículos</value>
+    <comment>phrase: Waiting items</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="StatusSynced">
+    <value>sincronizado</value>
+    <comment>word: synced</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="ExcludedConfigsDescription">
+    <value>Define las configuraciones que no se sincronizarán</value>
+    <comment>label: Defines the configurations that will not be synced</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SyncNotAllowedBetweenSingleAndMultisite">
+    <value>No se puede sincronizar los datos porque la sincronización no está permitida entre el sitio único y las instancias multisitio.</value>
+    <comment>phrase: Synchronization is not allowed between single site and multisite instances.</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="ModuleTitle">
+    <value>Secuenciación</value>
+    <comment>The title of the site synchronization module.</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="PendingItemsNewAdded">
+    <value>{0} nuevos artículos acaban de ser añadidos.</value>
+    <comment>phrase: Some (number) new items just have been added.</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="PrepareDataForSync">
+    <value>Cargar datos para sincronización</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SynchronizationSettings">
+    <value>Configuración de sincronización</value>
+    <comment>phrase: Synchronization Settings</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="LastSyncFailedItems">
+    <value>{0} artículos no se pudieron sincronizar.</value>
+    <comment>format: {0} items failed to be synced</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="BackToItems">
+    <value>Volver a Sinc</value>
+    <comment>phrase: Back to Sync</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SiteSyncNotAllowed">
+    <value>Usted no está autorizado porque el mismo usuario está conectado en el servidor de destino.</value>
+    <comment>phrase: An error message when there is a logged user on the target server with the same username.</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="UsernameForServerWhereContentWillBeSent">
+    <value>Nombre de usuario</value>
+    <comment>phrase: Username</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SyncingRelatedItemsConfirmation">
+    <value>Algunos de los artículos que ha seleccionado para sincronizar podrían tener artículos relacionados que también se sincronizarán. ¿Está seguro de que desea continuar?</value>
+    <comment>phrase: Some of the items you have selected to sync might have related items that will be also synced. Are you sure you want to continue?</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="LastSyncBy">
+    <value>para {0}</value>
+    <comment>format: by {0}</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SyncSelectedSites">
+    <value>&lt;strong class='sfLinkBtnIn'&gt;Sincronizar sitios seleccionados&lt;/strong&gt;</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="PublishingSnapInSyncEnabledTitle">
+    <value>Habilitar sincronización de índices de búsqueda</value>
+    <comment>label: Enable search indexes sync</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="PublishingSnapInSyncEnabledDescription">
+    <value>Indica si los índices de búsqueda se sincronizarán.</value>
+    <comment>label: </comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="AllFieldsRequired">
+    <value>Todos los campos son obligatorios</value>
+    <comment>phrase: All fields are required</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="WordTo">
+    <value>a</value>
+    <comment>Word: to</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SyncAddNotes">
+    <value>Hacer clic para añadir notas</value>
+    <comment>Label: Click to add notes</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="ServersWhereToSendData">
+    <value>Servidor(es) a los cuales &lt;strong class="sfGreen"&gt;enviar&lt;/strong&gt; datos</value>
+    <comment>phrase: Server(s) where to &lt;strong class="sfGreen"&gt;send&lt;/strong&gt; data</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SelectedSites">
+    <value>los sitios seleccionados enviarán datos a:</value>
+    <comment>phrase: selected sites will send data to:</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="RetryingSync">
+    <value>Volver a intentar la sincronización en</value>
+    <comment>Label: Retrying sync on</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SiteSyncNeverSyncedWord">
+    <value>Nunca sincronizado</value>
+    <comment>phrase: Never been synced</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="DestinationSiteDoesntContainLanguage">
+    <value>Usted no puede sincronizar los datos porque el sitio de destino '{0}' no contiene un idioma '{1}'.</value>
+    <comment>Validation error, when source site's language is not presented on the target</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="ServerKey">
+    <value>Clave del sitio</value>
+    <comment>phrase: Site key</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="StopSyncing">
+    <value>Detener sincronización</value>
+    <comment>phrase: Stop syncing</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SiteSyncInternalServerError">
+    <value>Se produjo un error interno en el servidor de destino. Por favor, consulte los registros para obtener más información acerca de los detalles de error.</value>
+    <comment>phrase: An internal error occurred on the target server. Please, check logs for further information about error details!</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="NumberRangeHint">
+    <value>Ingrese un número de {0} a {1}</value>
+    <comment>phrase: Enter a number from {0} to {1}</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="MoreSitesAvailableHeader">
+    <value>{0}, {1} y {2} más sitios</value>
+    <comment>phrase: {0}, {1}, and {2} more sites</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="PendingItemsDialogDoneMessage">
+    <value>No hay artículos seleccionados para la sincronización.</value>
+    <comment>phrase: No items are selected for sync.</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="ModuleDescription">
+    <value>Proporciona funcionalidad para la sincronización de instancias Sitefinity</value>
+    <comment>The description of the site synchronization module</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="ServerKeyRangeHint">
+    <value>Ingrese un número de 1 a 100</value>
+    <comment>phrase: Enter a number from 1 to 100</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SyncingCenterHeading">
+    <value>Los datos publicados desde este servidor se enviarán a</value>
+    <comment>The beginning of the heading in the syncing center screen</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SyncTaskDescriptionTemplate">
+    <value>en {0} por {1}</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="NoItems">
+    <value>no hay artículos</value>
+    <comment>phrase: No items (failed)</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="GoToSync">
+    <value>Ir a sincronizar</value>
+    <comment>phrase: Go to sync</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SyncDetailsNote">
+    <value>Tenga en cuenta que el número de artículos sincronizados podría ser mayor de lo esperado ya que los artículos principales y/o artículos relacionados (si los hay) también son sincronizados</value>
+    <comment>phrase: Note that the number of synchronized items might be larger than expected because language versions and parent items (if any) are also synced together with the modified items.</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="AddThisServer">
+    <value>Agregar este servidor</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="StructureOnlyOption">
+    <value>Solo estructura</value>
+    <comment>phrase: Structure only</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="DestinationSite">
+    <value>Seleccionar el sitio donde se enviarán los datos</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="MigrationOnlyAllowedSingleToMultisite">
+    <value>La migración solo se permite de sitio único a instancia multisitio.</value>
+    <comment>phrase: Migration is only allowed from single site to multisite instance.</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SyncHistory">
+    <value>Sincronizar historial</value>
+    <comment>phrase: Sync history</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="TaskLabel">
+    <value>Tarea</value>
+    <comment>Word: Task</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="ScheduleSummaryFormat_Types">
+    <value>&lt;span class='sfscheduled'&gt;La sincronización está programada para los siguientes tipos de contenido:&lt;/span&gt; &lt;div class='sfScheduledTypes'&gt;{0} &lt;strong&gt;{1}&lt;/strong&gt;&lt;/div&gt;</value>
+    <comment>{0} stands for a comma separated list of content types; {1} stands for the text describing the schedule, e.g. Every Friday, 22:00 PM</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SourceVersionDifferentThanDestinationVersion">
+    <value>Usted no puede sincronizar los datos porque la versión del sitio de origen {0} es distinta que la versión del sitio de destino {1}.</value>
+    <comment>Validation message when the source and target versions are different</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="NoContentTypeSelectedError">
+    <value>Por favor, seleccione algunos tipos de contenido</value>
+    <comment>phrase: Please select some content types</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="FailedLabel">
+    <value>fallido</value>
+    <comment>Word: Failed</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="TargetDoesntContainSiteWithName">
+    <value>Usted no puede sincronizar los datos porque el destino no contiene un sitio con el nombre '{0}'.</value>
+    <comment>Validation message when target site is not present</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="TwoMoreSitesAvailableHeader">
+    <value>{0} y {1}</value>
+    <comment>phrase: {0} and {1}</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="AllLanguagesOption">
+    <value>Todos los Idiomas</value>
+    <comment>phrase: All Languages</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SyncAllSites">
+    <value>&lt;strong class='sfLinkBtnIn'&gt;Sincronizar todos los sitios&lt;/strong&gt;</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="ServersWhreToSendData">
+    <value>Servidor(es) donde se puede enviar datos</value>
+    <comment>phrase: Server(s) where to send data</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="StopSync">
+    <value>Detener sincronización</value>
+    <comment>phrase: Stop sync</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="TestConnection">
+    <value>Probar conexión(es)</value>
+    <comment>phrase: Test connection (s)</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="NoServersAvailableForSync">
+    <value>No hay otros servidores y sitios establecidos con los cuales sincronizar datos.</value>
+    <comment>phrase: No other servers/sites are set to synchronize data with.</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="ParentTitleFormat">
+    <value>Padre {0}</value>
+    <comment>The format of the title for the ParentTitle column.</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="ModuleGroupPageTitle">
+    <value>Secuenciación</value>
+    <comment>The title of the site synchronization module group page.</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="StopSyncingButton">
+    <value>Sí, detener la sincronización</value>
+    <comment>phrase: Yes, stop syncing</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SynchronizationDetails">
+    <value>Sincronización a {0}</value>
+    <comment>phrase: Synchronization to a specified server</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="ForceStop">
+    <value>Forzar parada</value>
+    <comment>phrase: Force stop</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SiteSyncSyncingWord">
+    <value>Sincronizando…</value>
+    <comment>word: Syncing...</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="DataOnlyOption">
+    <value>Solo datos</value>
+    <comment>phrase: Data only</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="ContentTypes">
+    <value>Tipos de Contenido</value>
+    <comment>Content type</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="LastSyncSection">
+    <value>Última sincronización:</value>
+    <comment>phrase: Last sync:</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="FatalErrorOccured">
+    <value>Se produjo un error fatal durante la operación de sincronización: {0}</value>
+    <comment>Formatted string for site sync fatal errors</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="IncorrectServerAddress">
+    <value>Esta dirección de servidor no es válida. Por favor, tenga en cuenta que solo está permitido el prefijo 'http://'.</value>
+    <comment>phrase: The server address is not valid. Please note that only 'http://' prefix is allowed.</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="ThisSiteNeverSyncedLabel">
+    <value>Este sitio nunca ha sido sincronizado con este servidor.</value>
+    <comment>phrase: This site has never been synced to this server.</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SyncAntiOverlapMessage">
+    <value>La sincronización no se puede ejecutar en este momento, porque hay otra sincronización en curso. Inténtelo de nuevo cuando termine.</value>
+    <comment>message: The sync can't be executed at this time, because there is another sync in progress. Try again when it is finished.</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="WhatIsThis">
+    <value>¿Qué es esto?</value>
+    <comment>phrase: What is this?</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="OperationDuration">
+    <value>La Sincronización del sitio comienza a monitorear los cambios de datos después de que es activada. Antes de la sincronización, usted puede necesitar cargar cualquier cambio de datos no monitoreado. Esta operación puede tardar unos minutos.</value>
+    <comment>Site Sync starts tracking data changes after it is enabled. Before synchronization, you may need to load any non-tracked data changes. This operation can take a few minutes.</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="AddServer">
+    <value>Agregar un servidor</value>
+    <comment>phrase: Add a server</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="PendingItemsDialogCloseMessage">
+    <value>Hay artículos seleccionados. ¿Le gustaría cerrar este cuadro de diálogo?</value>
+    <comment>phrase: There are pending changes. Would you like to close this dialog?</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SynchronizationModuleNotActivated">
+    <value>No puede sincronizar los datos, porque no está activado el módulo Synchronization en el servidor de destino.</value>
+    <comment>phrase: The Site Sync module is not activated on the target server.</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SelectItemsForSync">
+    <value>Seleccionar estos artículos para sincronización</value>
+    <comment>phrase: Select these items for sync</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="EnableAsTarget">
+    <value>Permitir que el contenido de otros sitios se publique en este sitio</value>
+    <comment>phrase: Allow content from other sites to be published to this site </comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="StoppingSyncingPromptTitle">
+    <value>¿Está seguro de que desea detener la sincronización?</value>
+    <comment>phrase: Are you sure you want to stop syncing?</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="ServerAddressNotValid">
+    <value>{0} no es una URL válida.</value>
+    <comment>phrase: {0} is not a valid URL.</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="WaitingForSync">
+    <value>{0} en espera de sincronización</value>
+    <comment>phrase: waiting for sync - e.g. Items waiting for sync</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="ScheduleSync">
+    <value>Programar sincronización</value>
+    <comment>phrase: Schedule syncing</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="AddressWhereContentWillBeSent">
+    <value>La URL / dirección IP donde se enviará el contenido</value>
+    <comment>phrase: URL / IP address where content will be sent</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SiteNeverSyncedLabel">
+    <value>{0} La primera sincronización lo creará en el servidor de destino con su configuración. Puede cambiarlos en &lt;a href='{1}'&gt;Administrar sitios&lt;/a&gt;.</value>
+    <comment>phrase: {0} First sync will create it on the target server with its settings. You can change them in &lt;a href='{1}'&gt;Manage sites&lt;/a&gt;</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="Validation_NoSnapInFound">
+    <value>No se encontró ningún complemento de destino para el tipo {0}. Una posible explicación puede ser que en el destino no existe un tipo dinámico  correspondiente.</value>
+    <comment>The validation error when no corresponding snap-in is found on the target</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="TaskRetryInervalTitle">
+    <value>Intervalo de reintento de operación de sincronización</value>
+    <comment>label: Sync operation retry interval</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SiteSyncResourcesDescription">
+    <value>Contiene recursos localizables para la interfaz del módulo Synchronization.</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SyncTitle">
+    <value>Sincronización de datos publicados</value>
+    <comment>Title for the Synchronization module page.</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="WhenDoYouNeedSynchronization">
+    <value>&lt;strong&gt;¿Cuándo se necesita sincronización?&lt;/strong&gt;&lt;br/&gt;Se necesita sincronización si desea tener varias etapas (servidores/sitios)  para sus datos&lt;br /&gt;p. ej., &lt;em&gt;1. Trabajo; 2. Prueba; 3. Producción (en vivo)&lt;/em&gt;&lt;br/&gt;&lt;br/&gt;O puede usarla para simplemente transferir su estructura y datos a otro servidor. Por ejemplo, puede migrar todos los datos de su sitio a una instancia Multisitio existente.</value>
+    <comment>phrase: When do you need synchronization...</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SiteSyncInProgress">
+    <value>Una sincronización está en curso</value>
+    <comment>phrase: A synchronization is in progress</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="UserAuthenticationFailed">
+    <value>Autenticación de usuario fallida</value>
+    <comment>label: User authentication failed</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="LastSyncFailedItemsRetryInfo">
+    <value>Reintento pendiente cada {0} mín(s) ({1}/{2})</value>
+    <comment>format: Pending retry in every {0} min(s) ({1}/{2})</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SuccessItemsLabel">
+    <value>artículos sincronizados con éxito</value>
+    <comment>Label: items successfully synced</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="PageTemplatesToolTip">
+    <value>También se recomienda sincronizar las plantillas de Widget ya que están relacionadas con las plantillas de Página</value>
+    <comment>phrase: It is recommended to also sync Widget templates as they are related to Page templates</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SiteSyncSyncedWord">
+    <value>sincronizado</value>
+    <comment>word: synced</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SelectForSync">
+    <value>Seleccionar para sincronizar</value>
+    <comment>phrase: Select for sync</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SiteSyncAllPendingItems">
+    <value>Todos</value>
+    <comment>word: all</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SyncingNote">
+    <value>Nota</value>
+    <comment>Label: Note</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="TargetServerLabel">
+    <value>a</value>
+    <comment>Label: to</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="DuplicateServerUrlExists">
+    <value>¡Existe un servidor con la misma dirección! Por favor, elija otro para el registro actual.</value>
+    <comment>phrase: Server with the same address exists! Please, choose another one for the current record.</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SummaryLabelFailed">
+    <value>fallido</value>
+    <comment>word: FAILED</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="ThisServer">
+    <value>Este servidor enviará los datos a:</value>
+    <comment>phrase: This server</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="RetryCountWhenItemsFailDescription">
+    <value>Define cuántas veces la operación de sincronización se debe volver intentar si hay artículos fallidos.</value>
+    <comment>Label: Defines how many times the sync operation should be retried if there are failed items.</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="ResourceSnapInSyncEnabledTitle">
+    <value>Habilitar sincronización de recursos</value>
+    <comment>label: Enable resources sync</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SourceSiteDefaultLanguageDifferentThanDestination">
+    <value>Usted no puede sincronizar los datos porque el idioma predeterminado del sitio de origen '{0}' es diferente que el idioma predeterminado del sitio de destino '{1}'.</value>
+    <comment>Validation error when the default languages on source and target are different</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SitefinitySynchronization">
+    <value>Secuenciación</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="Validation_SiteNameNotProvided">
+    <value>No se ha proporcionado nombre del sitio. Por favor, proporcione un nombre de sitio que se utilizará durante la migración.</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SyncSummaryFieldSentFromLabel">
+    <value>&lt;strong&gt;Enviado desde&lt;/strong&gt; &lt;br/&gt; {0}</value>
+    <comment>phrase: &lt;strong&gt;Sent from&lt;/strong&gt; &lt;br/&gt; {0}</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SummaryLabelSynced">
+    <value>sincronizado</value>
+    <comment>word: SYNCED</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SynchronizationIsInProgress">
+    <value>Sincronización a {0} en curso</value>
+    <comment>phrase: The synchronization to a specific server is in progress</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SyncHistoryNote">
+    <value>Tenga en cuenta que el número de artículos sincronizados podría ser mayor de lo esperado ya que los artículos principales y/o artículos relacionados (si los hay) también son sincronizados</value>
+    <comment>phrase: Note that the number of synchronized items might be larger than expected because parent items and/or related items (if any) are also synced</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SyncDetails">
+    <value>¡Datos!</value>
+    <comment>word: Details</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+  <data name="SummaryLabelDataType">
+    <value>Tipo de datos</value>
+    <comment>word: DATA TYPE</comment>
+    <lastModified>2025-11-25T20:22:13</lastModified>
+  </data>
+</root>

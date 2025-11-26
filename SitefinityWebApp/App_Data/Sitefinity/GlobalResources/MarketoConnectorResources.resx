@@ -1,0 +1,560 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="UserIdLabel">
+    <value>Id de usuario</value>
+    <comment>Phrase: User Id</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EnabledLabel">
+    <value>activado</value>
+    <comment>Word: enabled</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MarketoConnectorPageTitle">
+    <value>Conector para Marketo</value>
+    <comment>Phrase: Connector for Marketo</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MarketoConnectorGroupPageTitle">
+    <value>Conector para Marketo</value>
+    <comment>Phrase: Connector for Marketo</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MarketoConnectorResourcesDescription">
+    <value>Contiene recursos localizables para módulo Conector para Marketo.</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExternalFormFieldKeyAttributesPropNameDescription">
+    <value>Determina en qué atributos de elementos de HTML se buscará un nombre de campo de Cliente Potencial Se ordenan de mayor a menor prioridad.</value>
+    <comment>Phrase: Determines in which html elements' attributes will be looked for a lead field name. They are sorted from higher to lower priority.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="HelpHeader4">
+    <value>Reglas de Personalización</value>
+    <comment>Phrase: Personalization Rules</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DoSpecificWebCallsOnExternalFormPropNameCaption">
+    <value>Hace llamadas web específicas en un formulario externo</value>
+    <comment>Phrase: Do specific web calls on external form</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UsePersonalizationRulePropNameCaption">
+    <value>Usar regla de personalización</value>
+    <comment>Phrase: Use personalization rule</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DoWebCallsOnExternalFormsLabel">
+    <value>Elevar eventos en Marketo cuando se envían formularios externos</value>
+    <comment>Phrase: Raise events in Marketo when external forms are submitted</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DoSpecificWebCallsLabel">
+    <value>Elevar un evento en Marketo cuando se envíe este formulario</value>
+    <comment>Phrase: Raise an event in Marketo when this form is submitted</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MunchkinJsLabel">
+    <value>Introduzca aquí el javascript Munchkin:</value>
+    <comment>Phrase: Enter the Munchkin javascript here:</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TrackExternalFormsPropNameCaption">
+    <value>Rastrear formularios externos</value>
+    <comment>Phrase: Track external forms</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="BelowLabel">
+    <value>abajo</value>
+    <comment>Word: below</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExternalFormSubmitButtonsQueryPropNameCaption">
+    <value>Consulta de botones externos para enviar formulario</value>
+    <comment>Phrase: External form submit buttons query</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MarketoConnectorGroupPageUrlName">
+    <value>Marketo</value>
+    <comment>Word: Marketo</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TrackExternalFormsLabel">
+    <value>Rastrear formularios externos</value>
+    <comment>Phrase: Track external forms</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AccessMarketoConnectorDescription">
+    <value>Acción de seguridad que permite acceder a las páginas backend del módulo Conector para Marketo.</value>
+    <comment>Phrase: Security action that allows access to the backend pages of the Connector for Marketo module.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeactivatedLabel">
+    <value>Desactivado</value>
+    <comment>Word: Disabled</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MarketoLeadFieldsPropNameDescription">
+    <value>Se trata de una asignación en el formato 'LeadField:Value' donde si el 'LeadField' es encontrado en un atributo clave, el 'Valor' es enviado a Marketo como nombre del campo lead. Si se omite el 'Value', el 'LeadField' es enviado como nombre del campo.</value>
+    <comment>Phrase: This is a mapping in the format 'LeadField:Value'where if the 'eadField' is found in a key attribute, the 'Value' is sent to Marketo as name of the lead field. If 'Value' is omitted, the 'LeadField' is sent as a name of the field.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="HelpHeader2">
+    <value>Rastrear páginas y enlaces</value>
+    <comment>Phrase: Track pages and links</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AboveLabel">
+    <value>arriba</value>
+    <comment>Word: above</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SavedLabel">
+    <value>Guardado</value>
+    <comment>Word: Saved</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LeadFieldLabel">
+    <value>Campo Cliente Potencial</value>
+    <comment>Phrase: Lead field</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AapiKeyLabel">
+    <value>Clave de Encriptación SOAP API</value>
+    <comment>Phrase: SOAP API Encryption Key</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UsePersonalizationRuleLabel">
+    <value>Personalizar Sitefinity usando criterio Marketo</value>
+    <comment>Phrase: Personalize Sitefinity using Marketo criteria</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MunchkinJSPropNameDescription">
+    <value>El Munchkin JS que rastreará la actividad del usuario.</value>
+    <comment>Phrase: The Munchkin JS which will track user activity.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ConnectedPropNameDescription">
+    <value>Determina si el módulo rastreará y enviará información a Marketo.</value>
+    <comment>Phrase: Determines whether the module will track and send information to Marketo.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SettingsLabel">
+    <value>Opciones</value>
+    <comment>Word: Settings</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SoapEndPointLabel">
+    <value>Punto terminal SOAP &lt;span class='sfNote'&gt;(URL para el servicio)&lt;/span&gt;</value>
+    <comment>Phrase: SOAP End point</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EqualsLabel">
+    <value>es igual a</value>
+    <comment>Phrase: is equal to</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SyncFormFieldsWithLeadFieldsLabel">
+    <value>Sincronizar estos campos de formulario con los campos de Clientes Potenciales de Marketo</value>
+    <comment>Phrase: Sync this form fields with Marketo Lead fields</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MarketoConnectorResourcesTitlePlural">
+    <value>Etiquetas de módulo Conector para Marketo</value>
+    <comment>The title plural of this class.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MarketoLeadFieldsPropNameCaption">
+    <value>Campos de Clientes Potenciales de Marketo</value>
+    <comment>Phrase: Marketo lead fields</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PersonalizationRuleLabel">
+    <value>Reglas de personalización:</value>
+    <comment>Phrase: Personalization rule:</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DoSpecificWebCallsOnExternalFormPropNameDescription">
+    <value>Determina si se debe enviar un evento 'VisitedPage' a Marketo cuando se envía el formulario externo.</value>
+    <comment>Phrase: Determines whether to send 'VisitedPage' event to Marketo, when external form is submited.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MarketoConnectorPageDescription">
+    <value>Conector para Marketo</value>
+    <comment>Connector for Marketo</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ReconnectLabel">
+    <value>Reconectar</value>
+    <comment>Word: Reconnect</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MunchkinJSPropNameCaption">
+    <value>Munchkin JS</value>
+    <comment>Phrase: Munchkin JS</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ContainsLabel">
+    <value>contiene</value>
+    <comment>Word: contains</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ActiveLabel">
+    <value>Activo</value>
+    <comment>Word: Active</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MarketoFormsFieldsHeader">
+    <value>Configuración Marketo</value>
+    <comment>Phrase: Marketo settings</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="IsLabel">
+    <value>es</value>
+    <comment>Word: is</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SoapEndPointPropNameDescription">
+    <value>El punto terminal de Soap de la cuenta de Marketo.</value>
+    <comment>Phrase: The Marketo account's Soap end point.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="HelpHeader3">
+    <value>Rastrear Formularios</value>
+    <comment>Phrase: Track Forms</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LargeScoreValidationMessage">
+    <value>El número es demasiado grande</value>
+    <comment>Phrase: The number is too big</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExternalFormFieldKeyAttributesPropNameCaption">
+    <value>Clave de campo de formulario externo</value>
+    <comment>Phrase: External form field key attributes</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ChangeMarketoLeadScoreLabel">
+    <value>Cambiar Puntuación de Clientes Potenciales de Marketo</value>
+    <comment>Phrase: Change Marketo Lead Score</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ChangeMarketoLeadScoreFieldDescription">
+    <value>Puntuación de Clientes Potenciales</value>
+    <comment>Phrase: Lead score</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ChangeConnectionLabel">
+    <value>Cambiar conexión</value>
+    <comment>Phrase: Change connection</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExternalFormSubmitButtonsQueryPropNameDescription">
+    <value>Se trata de un selector literal  jQuery estándar que determina que cada vez que se haga clic en el botón de envío del formulario, se recopilará información de los elementos del formulario.</value>
+    <comment>Phrase: This is a standard jQuery selector literal which determines on which external form submit button's clicks, an information will be collected from the form elements.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ChangeLabel">
+    <value>Cambiar</value>
+    <comment>Word: Change</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TrackExternalFormsPropNameDescription">
+    <value>Determina si se rastrearán los formularios externos.</value>
+    <comment>Phrase: Determines whether external forms will be tracked.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FormsLabel">
+    <value>Formularios:</value>
+    <comment>Word: Forms:</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="InvalidScoreValidationMessage">
+    <value>Introduzca solo números positivos</value>
+    <comment>Phrase: Enter only positive numbers</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MarketoConnectorResourcesTitle">
+    <value>Etiquetas de módulo Conector para Marketo</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SaveLabel">
+    <value>Guardar</value>
+    <comment>Word: Save</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="HelpText3">
+    <value>Si tiene instalado el módulo de Personalización, el Conector para Marketo añadirá las reglas de Personalización de Marketo.</value>
+    <comment>Phrase: If you have the Personalization module installed, the Connector for Marketo will add Marketo Personalization rules.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MarketoLeadScore">
+    <value>Puntuación de Clientes Potenciales de Marketo</value>
+    <comment>Phrase: Marketo lead score</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DisabledLabel">
+    <value>desactivado</value>
+    <comment>Word: disabled</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExternalFormsTrackingLabel">
+    <value>Rastreo externo de formularios:</value>
+    <comment>Phrase: External forms tracking:</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PagesLabel">
+    <value>Páginas:</value>
+    <comment>Word: Pages:</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DocumentsTrackingLabel">
+    <value>Rastreo de documentos:</value>
+    <comment>Phrase: Documents tracking:</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MarketoConnectorExpandableControlLabel">
+    <value>Avanzado</value>
+    <comment>Word: Advanced</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Faq">
+    <value>FAQ</value>
+    <comment>abbreviation : FAQ</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UserIdPropNameDescription">
+    <value>Id de usuario de la cuenta Marketo.</value>
+    <comment>Phrase: Marketo account's user Id.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ConnectLabel">
+    <value>Conectarse</value>
+    <comment>Word: Connect</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="HelpText1">
+    <value>El Conector para Marketo ayudará automáticamente a rastrear todas las páginas y vincular clics para todas las páginas nuevas y existentes. También se monitorearán las descargas de archivo mediante un enlace de clic.</value>
+    <comment>Phrase: The Connector for Marketo will automatically help tracking all pages and link clicks for all existing and new pages. File downloads via a click link will be monitored too.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CacheSlidingExpirationPropNameCaption">
+    <value>Expiración variable de caché de personalización</value>
+    <comment>Phrase: Personalization cache sliding expiration</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MarketoConnectorPageUrlName">
+    <value>Opciones</value>
+    <comment>Word: Settings</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ConnectedPropNameCaption">
+    <value>Conectado</value>
+    <comment>Word: Connected</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ApiKeyPropNameDescription">
+    <value>Clave API de la cuenta Marketo.</value>
+    <comment>Phrase: Marketo account's API Key.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ApiKeyPropNameCaption">
+    <value>Clave Api</value>
+    <comment>Phrase: Api Key</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="HelpHeader1">
+    <value>Usar integración de Marketo para:</value>
+    <comment>Phrase: Use Marketo integration to:</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UsePersonalizationRulePropNameDescription">
+    <value>Determina si las características de personalización estarán activas.</value>
+    <comment>Phrase: Determines whether the personalization characteristics will be active.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MarketoInstructionsHeader">
+    <value>Por qué usar Marketo</value>
+    <comment>Phrase: Why use Marketo</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CacheAbsoluteExpirationPropNameCaption">
+    <value>Expiración absoluta de caché de personalización</value>
+    <comment>Phrase: Personalization cache absolute expiration</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="HelpText2">
+    <value>Rastrear automáticamente todos los formularios desarrollados con el Módulo Formularios, así como sus formularios personalizados en los controles, páginas o plantillas de cualquier usuario. Esta es la manera en que los visitantes anónimos se pueden asociar con con los nombres reales.</value>
+    <comment>Phrase: Automatically track all Forms built with the Forms Module, as well as your custom forms in any user controls, pages or templates. This is how anonymous visitors can be associated with real names.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CacheSlidingExpirationPropNameDescription">
+    <value>Determina el tiempo que tarda en expirar una pista en la memoria caché si no se utiliza. El tiempo está en minutos. Escriba 0 para deshabilitar.</value>
+    <comment>Phrase: Determines the time that it takes for a cached lead to expire if it is not used. The time is in minutes. Enter 0 to disable.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AccessMarketoConnectorTitle">
+    <value>Acceder a módulo Conector para Marketo</value>
+    <comment>Phrase: Access Connector for Marketo module</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MarketoField">
+    <value>Campo Marketo</value>
+    <comment>Phrase: Marketo field</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="InvalidAccountSettingsMessage">
+    <value>Las credenciales proporcionadas no son válidas. Por favor, revíselas en Marketo &gt; Admin &gt; sección SOAP API.</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SoapEndPointPropNameCaption">
+    <value>Punto terminal Soap API</value>
+    <comment>Phrase: Soap API End point</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UserIdPropNameCaption">
+    <value>Id de usuario</value>
+    <comment>Phrase: User Id</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MarketoConnectorGroupPageDescription">
+    <value>Página de grupo Conector para Marketo</value>
+    <comment>Phrase: Connector for Marketo group page</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CacheAbsoluteExpirationPropNameDescription">
+    <value>Determina la duración máxima que los clientes potenciales se mantendrán en la memoria. El tiempo está en minutos. Escriba 0 para deshabilitar.</value>
+    <comment>Phrase: Determines the maximum duration that the leads will be kept in memory in minutes. Enter 0 to disable.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MarketoAccountSettingsHeader">
+    <value>Conectar a Marketo utilizando su cuenta</value>
+    <comment>Phrase: Connect to Marketo using your аccount</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DisconnectLabel">
+    <value>Desconectar</value>
+    <comment>Word: Disconnect</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+</root>

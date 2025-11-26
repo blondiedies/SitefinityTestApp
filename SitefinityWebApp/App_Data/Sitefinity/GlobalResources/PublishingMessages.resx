@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MaxItems">
+    <value>Número de artículos por incluir</value>
+    <comment>Twitter Max Items</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TwitterNoTwitterApplicationsAdded">
+    <value>No se han agregado aplicaciones de Twitter</value>
+    <comment>phrase: No Twitter applications added. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TwitterStartUsingTwitterAPI">
+    <value>para empezar a usar la API de Twitter</value>
+    <comment>Phrase: ' to start using the Twitter API'. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TwitterApplicationName">
+    <value>Nombre de la Aplicación</value>
+    <comment>phrase: Application Name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TwitterUrlShorteningServiceApiKeyNotEmpty">
+    <value>La clave de API no puede estar vacía</value>
+    <comment>Phrase: API Key cannot be empty. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TwitterUrlShorteningServiceLoginNotEmpty">
+    <value>El acceso a la cuenta no puede estar vacío</value>
+    <comment>Phrase: Account Login cannot be empty. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TwitterRegisterTwitterApp">
+    <value>Registrar una aplicación en Twitter</value>
+    <comment>Phrase: Register an application in Twitter. Appears in Administration-&gt;Settings-&gt;Twitter. Link to Twitter site</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TwitterUrlShorteningServiceApiKey">
+    <value>Clave de API</value>
+    <comment>Phrase: API Key. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TwitterPipeName">
+    <value>Fuente Twitter</value>
+    <comment>Twitter pipe name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AccountName">
+    <value>Nombre de la Cuenta</value>
+    <comment>Phrase: Account Name. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShorteningService">
+    <value>Servicio de Acortamiento</value>
+    <comment>Phrase: Shortening Service. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TwitterAssociationFail">
+    <value>El usuario no pudo asociarse.</value>
+    <comment>Unsuccessful Twitter association message</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TwitterUrlShorteningServiceName">
+    <value>Servicio de acortamiento</value>
+    <comment>Phrase: Shortening service. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TwitterPipeUIName">
+    <value>Seleccione una fuente</value>
+    <comment>Select a feed</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TwitterWhichTwitterApplicationToUse">
+    <value>¿Qué aplicación de Twitter se debe usar?</value>
+    <comment>Phrase: Which Twitter application to use?. Appears in Administration-&gt;Feeds &amp; Notifications-&gt;Edit feed-&gt;Publish as-&gt;Add more...-&gt;Twitter feed</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TwitterPipeSettingsShortDescription">
+    <value>Fuente Twitter está disponible en: &lt;br/&gt;</value>
+    <comment>phrase: Twitter feed is available on:&lt;br /&gt;</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TwitterStartUsingBitlyApiKey">
+    <value>y obtener una clave API para empezar a usarla en Sitefinity</value>
+    <comment>Phrase: ' and get an API key to start using it in Sitefinity'. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TwitterDelete">
+    <value>Eliminar</value>
+    <comment>phrase: Delete. Appears in Administration-&gt;Settings-&gt;Twitter in grid menu Actions</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TwitterRegisterBitly">
+    <value>Registre su propia cuenta bit.ly</value>
+    <comment>Phrase: Register an account with bitly. Appears in Administration-&gt;Settings-&gt;Twitter. Link to bitly site</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TwitterPipeSettingsUrlNameNotSet">
+    <value>La Url de contenido de Twitter se generará automáticamente</value>
+    <comment>phrase: Twitter feed url will be generated automatically</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TwitterUrlShorteningServiceAccountLogin">
+    <value>Acceso a la Cuenta</value>
+    <comment>Phrase: Account Login. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TwitterAssociationSuccess">
+    <value>El usuario {0} se asoció con éxito.</value>
+    <comment>Successful Twitter association message</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TwitterSelectTwitterUserForPublishing">
+    <value>¿Qué aplicación de Twitter se debe usar?</value>
+    <comment>Phrase: Select Twitter user for publishing. Appears in Administration-&gt;Feeds &amp; Notifications-&gt;Edit feed-&gt;Publish as-&gt;Add more...-&gt;Twitter feed</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TwitterWantToRegisterAnApplicationInTwitter">
+    <value>¿Desea registrar una aplicación en Twitter?</value>
+    <comment>phrase: Want to register an application in Twitter?. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TwitterUrlShortening">
+    <value>Acortado de la URL</value>
+    <comment>Phrase: URL Shortening. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TwitterDontHaveAnApplicationRegisteredInTwitter">
+    <value>¿No tiene una aplicación registrada en Twitter?</value>
+    <comment>Phrase: Don't have an application registered in Twitter?. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SocialSection">
+    <value>Social</value>
+    <comment>phrase: Social</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TwitterAssociatedUsers">
+    <value>Usuarios asociados</value>
+    <comment>phrase: Associated users. Appears in Administration-&gt;Settings-&gt;Twitter as column header</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TwitterFeedWidgetTemplate">
+    <value>plantilla</value>
+    <comment>phrase: Template</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SearchPattern">
+    <value>Patrón de búsqueda en Twitter</value>
+    <comment>Twitter search pattern</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TwitterAddedTwitterApplications">
+    <value>Aplicaciones de Twitter agregadas</value>
+    <comment>Phrase: Added Twitter applications. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TwitterFeedWidgetTitle">
+    <value>Feed de Twitter</value>
+    <comment>phrase: Twitter Feed </comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TwitterAddARegisteredTwitterApplication">
+    <value>Agregar una aplicación de Twitter registrada</value>
+    <comment>phrase: Add a registered Twitter application. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TwitterAssociateTwitterUser">
+    <value>Usuario asociado de Twitter</value>
+    <comment>Phrase: Associate Twitter User. Appears in Administration-&gt;Settings-&gt;Twitter</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+</root>

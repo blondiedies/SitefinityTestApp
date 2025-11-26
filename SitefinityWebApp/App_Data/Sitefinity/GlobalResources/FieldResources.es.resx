@@ -1,0 +1,545 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CaptchaErrorMessage">
+    <value>Valor incorrecto para la imagen captcha</value>
+    <comment>The title for Forms Captcha widget.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MoreOptions">
+    <value>Más opciones</value>
+    <comment>phrase : More options</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FileTypeViolationMessageDescription">
+    <value>Aparece mensaje de error cuando no está permitido el tipo de archivo</value>
+    <comment>phrase: Error message displayed when the file type is not allowed</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SectionHeaderPlaceholderText">
+    <value>Ingresar aquí encabezado de sección...</value>
+    <comment>phrase : Enter section header here...</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="InstructionalText">
+    <value>Texto de Instrucción</value>
+    <comment>phrase : Instructional text</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Light">
+    <value>Claro</value>
+    <comment>word : Light</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DefaultChoiceHaveToBeChanged">
+    <value>(La opción predeterminada debe ser cambiada)</value>
+    <comment>phrase : (Default choice have to be changed)</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Max">
+    <value>Máx</value>
+    <comment>word : Max</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SubmitButtonLabel">
+    <value>Enviar</value>
+    <comment>word : Submit</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AllowGoBackText">
+    <value>Permite que los usuarios den un paso hacia atrás</value>
+    <comment>phrase: Allow users to step backward</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FieldResourcesDescription">
+    <value>Recursos de widgets de campo de formulario</value>
+    <comment>Description for the form's field widgets resources class.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ErrorMessageDisplayedLabel">
+    <value>Mensaje de error aparece si no se toma una decisión</value>
+    <comment>phrase : Error message displayed if choice is not made</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Other">
+    <value>Otro…</value>
+    <comment>phrase : Other...</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FieldResourcesTitle">
+    <value>Recursos de widgets de campo de formulario</value>
+    <comment>Title for the form's field widgets resources class.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AddAnother">
+    <value>Añadir otro</value>
+    <comment>phrase: Add another</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Image">
+    <value>Imagen</value>
+    <comment>word : Image</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PreviousStepText">
+    <value>Paso anterior</value>
+    <comment>phrase: Previous step</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RequestUnauthenticatedUsersOnly">
+    <value>Solicitar solo usuarios no autenticados</value>
+    <comment>phrase : Request unauthenticated users only</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="WhatsThis">
+    <value>¿Qué es esto?</value>
+    <comment>phrase : What's this?</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Limitations">
+    <value>Limitaciones</value>
+    <comment>word : Limitations</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PreviousStepLabelText">
+    <value>Botón 'Paso anterior'</value>
+    <comment>phrase: Button 'Previous step'</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Min">
+    <value>Mín</value>
+    <comment>word : Min</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FieldRequiredErrorMessageTitle">
+    <value>Aparece un mensaje de error si el campo está vacío</value>
+    <comment>phrase: Error message displayed if the field is empty</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="OptionThirdChoice">
+    <value>Tercera Opción</value>
+    <comment>phrase : Third Choice</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TypeCodeAbove">
+    <value>Por favor introduzca el código anterior</value>
+    <comment>phrase: Please type the code above</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NextStepLabelText">
+    <value>Botón 'Paso siguiente'</value>
+    <comment>phrase: Button 'Next step'</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Label">
+    <value>Etiqueta</value>
+    <comment>word : Label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FileTooLargeErrorMessageTitle">
+    <value>Aparece mensaje de error cuando el tamaño del archivo está fuera de rango</value>
+    <comment>phrase: Error message displayed when the file size is out of range</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Theme">
+    <value>Tema</value>
+    <comment>word : Theme</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="OptionFirstChoice">
+    <value>Primera elección</value>
+    <comment>phrase : First Choice</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NextStepText">
+    <value>Siguiente paso</value>
+    <comment>phrase: Next step</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ExpandingTextBox">
+    <value>(ampliando un cuadro de texto)</value>
+    <comment>phrase : (expanding a text box)</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PlaceholderText">
+    <value>Marcador de posición</value>
+    <comment>word : Placeholder</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="WhatsCaptchaDescription">
+    <value>Se utiliza CAPTCHA para proteger su sitio web de spam y abuso.</value>
+    <comment>Description for Capthca widget</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EnterLabel">
+    <value>Ingresar etiqueta</value>
+    <comment>phrase : Enter label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="OptionSecondChoice">
+    <value>Segunda elección</value>
+    <comment>phrase : Second Choice</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RequiredErrorMessageValue">
+    <value>Este campo es obligatorio</value>
+    <comment>phrase : This field is required</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FileSizeViolationMessage">
+    <value>El tamaño del archivo seleccionado es demasiado grande</value>
+    <comment>phrase: The selected file size is too large</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RequiredField">
+    <value>Campo obligatorio</value>
+    <comment>phrase : Required field</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Type">
+    <value>Tipo</value>
+    <comment>word : Type</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Characters">
+    <value>caracteres</value>
+    <comment>word : characters</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="LearnMore">
+    <value>Más información</value>
+    <comment>phrase : Learn more</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FileTypesSeparationDescription">
+    <value>Los tipos de archivo están separados por comas.</value>
+    <comment>phrase: File types are comma separated.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AllFileTypes">
+    <value>Todos los tipos de archivos</value>
+    <comment>phrase: All file types (not recommended)</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Text">
+    <value>Texto</value>
+    <comment>phrase : Text</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TooLargeErrorMessageValue">
+    <value>El texto introducido es demasiado largo</value>
+    <comment>phrase : Entered text is too long</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AllowedFileTypes">
+    <value>Tipos de archivo permitidos</value>
+    <comment>phrase: Allowed file types</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SelectChoices">
+    <value>Seleccione opciones</value>
+    <comment>phrase : Select choices</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Remove">
+    <value>Eliminar</value>
+    <comment>word: Remove</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="OptionSelect">
+    <value>- Seleccionar -</value>
+    <comment>phrase : - Select -</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TooLargeErrorMessageTitle">
+    <value>Mensaje de error que aparecen cuando la entrada está fuera de rango</value>
+    <comment>phrase : Error message displayed when the entry is out of range</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Name">
+    <value>Nombre</value>
+    <comment>label: Name</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FileTypesExample">
+    <value>Ejemplo: zip, rar</value>
+    <comment>phrase: Example: zip, rar</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Size">
+    <value>Tamaño</value>
+    <comment>word : Size</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Choices">
+    <value>Opciones</value>
+    <comment>word : Choices</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CssClasses">
+    <value>Clases CSS</value>
+    <comment>phrase : CSS classes</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SelectChoice">
+    <value>Seleccione una opción</value>
+    <comment>phrase : Select a choice</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Style">
+    <value>Estilo</value>
+    <comment>word : Style</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SiteKey">
+    <value>Clave del sitio</value>
+    <comment>word : Site Key</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="LabelQuestion">
+    <value>Etiqueta (Pregunta)</value>
+    <comment>phrase : Label (Question)</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PageName">
+    <value>Paso</value>
+    <comment>phrase: Step</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Untitled">
+    <value>Sin título</value>
+    <comment>word : Untitled</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ExampleTitle">
+    <value>Ejemplo: Nombre</value>
+    <comment>phrase : Example: &lt;i&gt;First name&lt;/i&gt;</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="InvalidEntryMessage">
+    <value>¡La entrada no es válida!</value>
+    <comment>phrase: Entry is not valid!</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Range">
+    <value>Rango</value>
+    <comment>word : Range</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Default">
+    <value>predeterminado</value>
+    <comment>word : Default</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FileTypeViolationMessage">
+    <value>No está permitido subir el tipo de archivo</value>
+    <comment>phrase: File type is not allowed to upload</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ClickToAddChoice">
+    <value>Hacer clic para añadir una opción</value>
+    <comment>phrase : Click to add a choice</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Compact">
+    <value>Compacto</value>
+    <comment>word : Compact</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AddOtherLastChoice">
+    <value>Añadir "Otro" como última opción</value>
+    <comment>phrase : Add "Other" as a last choice</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Preview">
+    <value>Vista previa</value>
+    <comment>word : Preview</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AddInstructionalText">
+    <value>Añadir texto de instrucción</value>
+    <comment>phrase : Add instructional text</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="WhatsRecaptchaDescription">
+    <value>reCAPTCHA es un servicio gratis por Google para proteger su sitio web de spam y abuso.</value>
+    <comment>Description for reCapthca widget</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="LabelAndText">
+    <value>Etiqueta y textos</value>
+    <comment>phrase : Label and text</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Dark">
+    <value>Oscuro</value>
+    <comment>word : Dark</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AllowGoBackIfMultiPageText">
+    <value>Si se trata de un formulario de varias páginas, muestre un enlace al paso previo</value>
+    <comment>phrase: If it is a multipage form, display a link to the previous step</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ExampleExplanation">
+    <value>Adecuado para dar ejemplos e instrucciones sobre cómo se utilizará el valor introducido</value>
+    <comment>phrase : Suitable for giving examples and instructions how the entered value will be used</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NewCode">
+    <value>Nuevo código</value>
+    <comment>phrase: New code</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AllowMultipleFiles">
+    <value>Permitir subidas de varios archivos</value>
+    <comment>phrase: Allow multiple file uploads</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SelectedFileTypes">
+    <value>Tipos de archivo seleccionados...</value>
+    <comment>phrase: Selected file types...</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ExampleTitleUpload">
+    <value>Ejemplo: Seleccionar una imagen</value>
+    <comment>phrase : Example: &lt;i&gt;Select an image&lt;/i&gt;</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Template">
+    <value>plantilla</value>
+    <comment>word : Template</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MakeDefault">
+    <value>Hacer predeterminado</value>
+    <comment>phrase : Make default</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RequiredErrorMessageTitle">
+    <value>Aparece un mensaje de error si el cuadro de texto está vacío</value>
+    <comment>phrase : Error message displayed if the textbox is empty</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PredefinedValue">
+    <value>Valor predefinido</value>
+    <comment>phrase : Predefined value</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+</root>

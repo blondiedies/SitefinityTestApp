@@ -1,0 +1,1385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DataAccessProfilerStopped">
+    <value>Analizador DataAccess detenido</value>
+    <comment>phrase: DataAccess profiler stopped</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PageDetailsTitle">
+    <value>Detalles de página</value>
+    <comment>Label to show when in Compilations details view.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DisableLogBackgroundTasks">
+    <value>Desactivar el registro para tareas específicas en segundo plano</value>
+    <comment>phrase: Disable logging for specific background tasks</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Site">
+    <value>Sitio</value>
+    <comment>Site label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BackgroundTasksDescription">
+    <value>Utilice este reporte para analizar los distintos tipos de tareas en segundo plano de su aplicación web, así como la duración de las tareas y el número de consultas por tarea.</value>
+    <comment>Description of the Background Tasks View.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PagesPermissionsCache">
+    <value>Caché de resultados y permisos de página</value>
+    <comment>Output cache and page permissions label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="IsLoggingEnabledTitle">
+    <value>IsLoggingEnabled</value>
+    <comment>The label for enabling/disabling logging for a tool.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AllPages">
+    <value>Todos</value>
+    <comment>The text that signifies all page types.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Package">
+    <value>Contexto de paquete</value>
+    <comment>Text: Package context</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SiteInitializations">
+    <value>Inicializaciones del sitio</value>
+    <comment>Text: Site initializations</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CombineStyleSheetsDescription">
+    <value>Se puede elegir combinar recursos de hojas de estilo, como archivos CSS. De esta manera, cuando una página se procesa, requiere menos llamadas al servidor.   &lt;a href="http://docs.sitefinity.com/administration-script-and-stylesheet-combining#stylesheet-combining" target="_blank"&gt;Conozca más&lt;/a&gt;</value>
+    <comment>Stylesheet combining description</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="OutputCacheProfile">
+    <value>Perfil de caché de resultado</value>
+    <comment>Output cache profile</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FrontendBackend">
+    <value>Front-end y back-end</value>
+    <comment>phrase: Frontend and backend</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="WhichCompilationsToLog">
+    <value>¿Que compilaciones se deben registrar?</value>
+    <comment>phrase: Which compilations to log?</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AffectedRecords">
+    <value>Registros afectados</value>
+    <comment>Affected records</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BackToRequestDetails">
+    <value>Regresar a Detalles de petición</value>
+    <comment>phrase: Back to Request details</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Processing">
+    <value>Procesamiento</value>
+    <comment>word:Processing</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Stop">
+    <value>Detener</value>
+    <comment>Stop</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ReportsData">
+    <value>Reporta datos</value>
+    <comment>Reports data</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SystemOperationsProfilerDescription">
+    <value>Describe ejecuciones de las operaciones del sistema Sitefinity y las visualiza dentro de los detalles de las peticiones HTTP y tareas en segundo plano.</value>
+    <comment>Description for the SystemOperationsProfiler</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SiteColumn">
+    <value>Sitio</value>
+    <comment>Site.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AlertThreshold">
+    <value>Umbral de alerta</value>
+    <comment>Alert threshold</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ToolSettingsVersionDescription">
+    <value>La versión de la herramienta de diagnóstico.</value>
+    <comment>The version of the diagnostic tool.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Library">
+    <value>biblioteca</value>
+    <comment>Library label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DiagnosticsLabelsClassTitle">
+    <value>Etiquetas de módulo Diagnostics</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RazorViewCompilationsProfilerDescription">
+    <value>Describe compilaciones de vista Razor y las visualiza dentro de los detalles de las peticiones HTTP y dentro de la vista de reporte separada «compilaciones de vista Razor».</value>
+    <comment>Description for the Razor view compilations profiler.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ScriptsCombiningBackEndDescription">
+    <value>Puede combinar los recursos de script, como archivos JavaScript para páginas back-end. De esta manera, cuando una página back-end se procesa, requiere menos llamadas al servidor. &lt;a href="http://docs.sitefinity.com/administration-script-and-stylesheet-combining#script-combining-for-backend" target="_blank"&gt;Conozca más&lt;/a&gt;</value>
+    <comment>Scripts combining backend description</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RssCache">
+    <value>Caché de resultados para RSS</value>
+    <comment>RssCache label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="OutputCache">
+    <value>Caché de resultados</value>
+    <comment>Output cache label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Count">
+    <value>Recuento</value>
+    <comment>Word: Count</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Fast">
+    <value>Rápido</value>
+    <comment>The text for describing the fast samples.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SslOffloadingDescription">
+    <value>Puede utilizar descarga de SSL cuando tiene equilibrio de carga de red. Al usar la descarga de SSL, usted transfiere el procesamiento del cifrado y descifrado de SSL desde los servidores web al equilibrador de carga. El equilibrador de carga descifra peticiones HTTPS y las remite a los servidores web como peticiones HTTP, acelerando así los servidores que usted usa.   &lt;a href="http://docs.sitefinity.com/administration-ssl-offloading" target="_blank"&gt;Conozca más&lt;/a&gt;</value>
+    <comment>SslOffloadingDescription label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NoRequestDetailsAvaialble">
+    <value>No se encuentra ninguna petición HTTP para este registro. Asegúrese de que ha activado el análisis de petición HTTP tanto para peticiones front-end y back-end, si es necesario.</value>
+    <comment>The label displayed when no request details are found.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PurgeStepDescription">
+    <value>La cantidad de artículos de registro que se eliminarán al alcanzar el umbral de recuento de muestra.</value>
+    <comment>Text : The amount of log items to be deleted when reaching the sample count threshold.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NPlusOneViewDescription">
+    <value>Usar este reporte para detectar problemas N+1 potenciales en las peticiones de consulta generadas. Para más detalles, consulte &lt;a href="http://docs.telerik.com/data-access/developers-guide/profiling-and-tuning/profiler-and-tuning-advisor/data-access-profiler-n-plus-one-problem"&gt;Detectar y resolver problemas N+1&lt;/a&gt;</value>
+    <comment>Description of the N+1 query problems View.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SiteInitializationsProfilerDescription">
+    <value>Recopila datos sobre inicializaciones del sitio Sitefinity.</value>
+    <comment>Description of the Site initializations profiler.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Description">
+    <value>Descripción</value>
+    <comment>Description</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DebugModeOn">
+    <value>El modo de depuración está activado</value>
+    <comment>Debug mode is turned on label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PageDataIdTitle">
+    <value>ID de datos de página</value>
+    <comment>Page data id to show when in Compilations details view.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="HttpRequestsDescription">
+    <value>Utilice este reporte para analizar peticiones HTTP de páginas tanto en el front-end como en el back-end, así como los servicios llamados, scripts cargados por página, duración de peticiones, estados y otros.</value>
+    <comment>Description of the HttpRequests View.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DynamicCompressionDescription">
+    <value>Usted puede comprimir respuestas a peticiones para contenido dinámico. De esta manera, cuando un cliente solicita contenido dinámico, como páginas ASP o extensiones ISAPI, se comprimen antes de ser enviadas. Usted debe comprimir el contenido dinámico antes de que se almacene en la caché.  &lt;a href="http://docs.sitefinity.com/administration-static-and-dynamic-content-compression#compress-dynamic-content" target="_blank"&gt;Conozca más&lt;/a&gt;</value>
+    <comment>DynamicCompressionDescription label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ClientCache">
+    <value>Caché de cliente</value>
+    <comment>Client cache label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CacheForLibraries">
+    <value>Caché para bibliotecas</value>
+    <comment>CacheForLibraries label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="InvalidPeriodMessage">
+    <value>La fecha de finalización debe ser cronológicamente después de la fecha de inicio.</value>
+    <comment>The message for the period for the compilation report summary when the selected start and end dates do not form a valid period.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DurationColumn">
+    <value>Duración</value>
+    <comment>The header text for the compilation duration column of a report grid.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ViewDetailsTitle">
+    <value>Ver detalles</value>
+    <comment>Label to show when in Compilations details view.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ScriptsCombiningFrontEndOff">
+    <value>La combinación de scripts para front-end está desactivada.</value>
+    <comment>Scripts combining for frontend is turned off label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SslOffloading">
+    <value>Descarga SSL</value>
+    <comment>SslOffloading label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Reason">
+    <value>Motivo</value>
+    <comment>Reason</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="WidgetExecutionsProfilerDescription">
+    <value>Describe las ejecuciones de los widgets MVC y las visualiza dentro de los detalles de las peticiones HTTP.</value>
+    <comment>Description for the WidgetExecutionsProfiler</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RequiredBooleanField">
+    <value>Campo booleano obligatorio</value>
+    <comment>The text shown when a field is boolean and required.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProviderName">
+    <value>Nombre del proveedor</value>
+    <comment>Provider name</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Profilers">
+    <value>Analizadores</value>
+    <comment>Profilers</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Soft">
+    <value>Suave</value>
+    <comment>Word: Soft</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Full">
+    <value>Completo</value>
+    <comment>Word: Full</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="InsightsDisabledMessage">
+    <value>No hay datos disponibles. Vaya a &lt;a href="{0}"&gt;{1}&lt;/a&gt; e inicie el generador de perfiles Insights</value>
+    <comment>No insights</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ClientCacheDescription">
+    <value>Sitefinity almacena en caché contenido multimedia (imágenes, documentos, videos) en el navegador del cliente. Como resultado de ello, la cantidad de peticiones al servidor disminuye.  &lt;a href="http://docs.sitefinity.com/output-and-client-cache#client-cache" target="_blank"&gt;Conozca más&lt;/a&gt;</value>
+    <comment>Client cache description</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NumberOfBatchedStatements">
+    <value>Recuento de declaraciones por lotes</value>
+    <comment>Number of batched statements</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DebugMode">
+    <value>Modo de depuración</value>
+    <comment>Debug mode label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Methods">
+    <value>Métodos</value>
+    <comment>word: Methods</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SuggestionEngineDescription">
+    <value>Proporciona sugerencias para la optimización del rendimiento del sitio en función del análisis de resultados del analizador.</value>
+    <comment>Description for the SuggestionEngine</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Status">
+    <value>Estado</value>
+    <comment>Status label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DataAccessProfilerStarted">
+    <value>Analizador DataAccess iniciado</value>
+    <comment>phrase: DataAccess profiler started</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StaticCompressionDescription">
+    <value>Usted puede comprimir respuestas a peticiones para contenido estático. De esta manera, cuando un cliente solicita contenido estático, como .htm o .txt, este es comprimido antes de ser enviado.  &lt;br /&gt;&lt;br /&gt; &lt;a href="http://docs.sitefinity.com/administration-static-and-dynamic-content-compression#compress-static-content" target="_blank"&gt;Conozca más&lt;/a&gt;</value>
+    <comment>StaticCompressionDescription label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BackgroundTaskDetails">
+    <value>Detalles de la tarea en segundo plano</value>
+    <comment>The heading of the Background task details view.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MinifyJavaScriptFiles">
+    <value>&lt;h3&gt;Minimizar archivos JavaScript&lt;/h3&gt;&lt;br /&gt; &lt;div&gt;Para poder reducir el tamaño del archivo, la minimización realiza una serie de optimizaciones de código diferente a los archivos JavaScript. La minimización elimina espacios en blanco y comentarios innecesarios y reduce los nombres variables a un caracter, resultando en archivos más pequeños y tiempos de carga más rápidos.&lt;/div&gt; &lt;br /&gt;&lt;a href="http://docs.sitefinity.com/administration-enable-asp-net-bundling-and-minification" target="_blank"&gt;Habilitar minimización en JavaScript&lt;/a&gt;</value>
+    <comment>Recommended optimizations label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StatusCode">
+    <value>Código de estado</value>
+    <comment>The phrase: Status code</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ExecutionDetails">
+    <value>Detalles de ejecución</value>
+    <comment>The title of the execution details pie chart.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MethodDetails">
+    <value>Detalles del método</value>
+    <comment>phrase: Method details</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SiteNameLabel">
+    <value>Sitio</value>
+    <comment>The label for the current site name.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CompilationsProfilerSummary">
+    <value>Compilaciones de página</value>
+    <comment>The title to show when in Compilations view.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Deleted">
+    <value>Eliminado</value>
+    <comment>Deleted</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ConnectionId">
+    <value>Id de conexión</value>
+    <comment>Connection Id</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AllSites">
+    <value>Todos los sitios</value>
+    <comment>All sites</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NoInsights">
+    <value>Los datos recopilados no son suficiente para mostrar informaciones. Por favor, intente de nuevo más tarde</value>
+    <comment>No insights</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Widget">
+    <value>Widget</value>
+    <comment>Word: Widget</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PageCompilation">
+    <value>Compilación de página</value>
+    <comment>The label regarding page compilations of the HTTP request details window.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Source">
+    <value>Fuente</value>
+    <comment>Word: Source</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Libraries">
+    <value>BIBLIOTECAS</value>
+    <comment>Libraries label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BackToReport">
+    <value>Regresar a reporte</value>
+    <comment>The label of the hyperlink that closes the detail window.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UtcDates">
+    <value>Todas las fechas están en formato UTC.</value>
+    <comment>The clarification text for dates.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ToolSettingsVersionTitle">
+    <value>Versión</value>
+    <comment>Version</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ServedFromOutputCache">
+    <value>Atendido desde la caché</value>
+    <comment>Phrase: Served from cache</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DeactivateUnusedModulesAndServices">
+    <value>&lt;h3&gt;Desactive los módulos y servicios no usados&lt;/h3&gt;&lt;br /&gt; &lt;div&gt;Para poder ahorrar memoria, puede deshabilitar ciertos módulos o servicios que no usa para su sitio web. Mientras menos sean los módulos y servicios que se carguen, más rápido será el tiempo de arranque. Le recomendamos desactivar todos los módulos que actualmente no usa y desinstalar completamente los módulos que nunca necesitará.&lt;/div&gt; &lt;br /&gt;&lt;a href="http://docs.sitefinity.com/activate-and-deactivate-modules" target="_blank"&gt;Vaya a Módulos y servicios&lt;/a&gt;</value>
+    <comment>Recommended optimizations label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PageExecutionsSuggestionMessage">
+    <value>Para reducir tiempos de procesamiento, aumente la duración de los perfiles en caché de las páginas</value>
+    <comment>Decrease page executions.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Url">
+    <value>URL</value>
+    <comment>URL</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PerformanceThresholdDescription">
+    <value>El umbral establece un punto de referencia que define si la ejecución de tareas se encuentra dentro del rango de rendimiento esperado.</value>
+    <comment>The description for the performance threshold for the report summaries.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="LastCompilation">
+    <value>Última compilación</value>
+    <comment>Last Compilation</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Id">
+    <value>ID</value>
+    <comment>ID</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="L2Cache">
+    <value>caché nivel 2</value>
+    <comment>L2 cache label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PageExecutionsSuggestionTitle">
+    <value>{0} páginas han sido ejecutadas varias veces</value>
+    <comment>Decrease page executions title.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StartDateColumn">
+    <value>Hora de inicio</value>
+    <comment>The header text for the start date column of a report grid.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CompilationsViewDescription">
+    <value>Use este reporte para analizar el número de páginas compiladas, así como el número de compilaciones por página y duración de la compilación.</value>
+    <comment>Description of the Compilations View.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TotalProcessingTime">
+    <value>Tiempo total de procesamiento</value>
+    <comment>Processing time</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RootOperation">
+    <value>Operación raíz</value>
+    <comment>Root operation</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TotalTime">
+    <value>Tiempo Total</value>
+    <comment>Total time</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RequestDetails">
+    <value>Detalles de peticiones</value>
+    <comment>Request details dialog title</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TaskNameColumn">
+    <value>Tarea</value>
+    <comment>The header text for the task name column.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SelectReport">
+    <value>Seleccionar reporte</value>
+    <comment>The label of the dropdown when selecting a custom report.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="QueryCount">
+    <value>Recuento de consultas</value>
+    <comment>The header text for the query count column of a http report grid.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Yes">
+    <value>Sí</value>
+    <comment>Word: Yes</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SqlQueriesList">
+    <value>Lista de consultas SQL</value>
+    <comment>SQL queries grid view title</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Slow">
+    <value>Lento</value>
+    <comment>The text for describing the slow samples.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="OnTopLevel">
+    <value>En el nivel superior</value>
+    <comment>OnTopLevel label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="View">
+    <value>Ver</value>
+    <comment>Word: View (e.g. Razor view)</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TimeZone">
+    <value>(UTC)</value>
+    <comment>The text: (UTC)</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FrontendPages">
+    <value>Front-end</value>
+    <comment>The text that signifies the frontend page type.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SampleCountThresholdDescription">
+    <value>La cantidad máxima de artículos de registro que se almacenarán en la base de datos al realizar un análisis. Descargo de responsabilidad: Al realizar el análisis, el tamaño de la tabla de base de datos puede aumentar significativamente si no se controla (por ejemplo, los 300 000 artículos de registro corresponden a aproximadamente 1 GB).</value>
+    <comment>Text : The maximum amount of log items to be stored in the database when profiling. Disclaimer: While profiling, the database table size may increase significantly if not controlled (e.g. 300 000 log items correspond to approximately 1GB).</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DynamicCompression">
+    <value>Compresión de contenido dinámico</value>
+    <comment>DynamicCompression label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TranslationsSuggestionTitle">
+    <value>{0} tareas ejecutadas relacionadas con el módulo Translation</value>
+    <comment>Title of suggestion regarding the Translations module.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StaticCompressionOff">
+    <value>La compresión de contenido estático está desactivada.</value>
+    <comment>StaticCompressionOff label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UsingRelatedData">
+    <value>&lt;h3&gt;Los datos relacionados pueden afectar el rendimiento de su sitio&lt;/h3&gt; &lt;br /&gt; &lt;div&gt;El uso de datos relacionados puede ralentizar su sitio web porque los datos relacionados generan peticiones adicionales a la base de datos. Para cada artículo relacionado, Sitefinity crea una petición a la base de datos. Por ejemplo, una lista de 20 artículos donde cada artículo tiene dos artículos relacionados generaría 40 peticiones adicionales a la base de datos.&lt;/div&gt; &lt;br /&gt;&lt;a href="http://docs.sitefinity.com/content-relations-related-data" target="_blank"&gt;Más información sobre los datos relacionados&lt;/a&gt;</value>
+    <comment>Recommended optimizations label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NoReports">
+    <value>No hay reportes disponibles. Para crear un reporte en la base de datos use el prefijo  &lt;b&gt;{0}&lt;/b&gt;sunombre.</value>
+    <comment>The message show when there are no stored procedure with the prefix in the database.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="L2CacheDescription">
+    <value>En Sitefinity, la caché nivel 2 se utiliza para almacenar en caché los resultados de las consultas a la base de datos para posteriores peticiones. El uso de la caché nivel 2 puede aumentar significativamente el rendimiento general de su aplicación. Usted puede configurar los ajustes de caché nivel 2 por tipo persistente.  &lt;a href="http://docs.sitefinity.com/administration-configure-l2-cache-strategies" target="_blank"&gt;Conozca más&lt;/a&gt;</value>
+    <comment>L2 cache description</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PageTypesLabel">
+    <value>Tipos de páginas</value>
+    <comment>The label of the page types for the compilation report summary.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Query">
+    <value>Consulta</value>
+    <comment>Query</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MostExecutedPagesMessage">
+    <value>Páginas más ejecutadas</value>
+    <comment>Most executed pages message</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DataAccessProfilerDescription">
+    <value>Describe consultas a la base de datos.</value>
+    <comment>Description for the DataAccessProfiler</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PurgeStepTitle">
+    <value>Paso de purga</value>
+    <comment>Phrase: Purge step</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Profiler">
+    <value>Analizador</value>
+    <comment>Profiler</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EndDateColumn">
+    <value>Hora de finalización</value>
+    <comment>The header text for the end date column of a report grid.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Settings">
+    <value>Opciones</value>
+    <comment>word: Settings</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ShowLess">
+    <value>Mostrar menos</value>
+    <comment>Show less</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ClearProfilerData">
+    <value>Borrar datos</value>
+    <comment>Clear data</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NoRecords">
+    <value>No hay registros que mostrar.</value>
+    <comment>The text to show when there are no results for the specified view.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="WhatElseCanBeOptimized">
+    <value>¿Qué más se puede optimizar?</value>
+    <comment>What else can you optimize label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RequiredField">
+    <value>Campo obligatorio</value>
+    <comment>The text shown when a field is required and has no input.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="GoToModulesAndServices">
+    <value>Ir a Módulos y Servicios</value>
+    <comment>Go to Modules &amp; Services</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Start">
+    <value>Comenzar</value>
+    <comment>Start</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ShowInsightsDescription">
+    <value>Obtenga conocimientos sobre el rendimiento en función de los datos, acumulados por los analizadores.</value>
+    <comment>Get insights on performance based on data, accumulated by profilers</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Overview">
+    <value>Información General</value>
+    <comment>Overview</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AllCompilations">
+    <value>Todas las compilaciones</value>
+    <comment>The header text for the page type column of a compilations report grid.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="HomePageTitle">
+    <value>diagnóstico</value>
+    <comment>The title of the Diagnostics Module's home page</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CustomReportsDescription">
+    <value>Utilice esta vista para analizar datos desde los reportes personalizados que haya creado.</value>
+    <comment>Gets the custom reports description</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BackgroundTasks">
+    <value>Tareas en segundo plano</value>
+    <comment>The heading of the Background tasks view.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ToolSettingsEnabledTitle">
+    <value>Habilitado</value>
+    <comment>The label for enabling/disabling a tool.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BTtypesExample">
+    <value>Servicio de notificación, Programado, Segundo plano</value>
+    <comment>phrase: NotificationService, Scheduled, Background</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Parent">
+    <value>Padre</value>
+    <comment>Parent</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="HttpRequests">
+    <value>Peticiones HTTP</value>
+    <comment>The heading of the HttpRequests View.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CdnOff">
+    <value>CDN está desactivado</value>
+    <comment>CDN is turned off label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ClientSideCacheForThemesDescription">
+    <value>Puede almacenar en caché los temas de página en el navegador al activar la caché de cliente para temas. De esta manera, usted disminuye los tiempos de carga y las páginas se procesan más rápido.</value>
+    <comment>Client side cache for themes description</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Milliseconds">
+    <value>ms</value>
+    <comment>The symbol for milliseconds</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DiagnosticsHomeDescription">
+    <value>Página de diagnóstico Sitefinity</value>
+    <comment>The description of the Diagnostics Module's home page</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProfilersDescription">
+    <value>Los analizadores son herramientas que controlan un conjunto específico de indicadores de rendimiento.</value>
+    <comment>Gets the profilers description</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CombineStyleSheetsOff">
+    <value>La combinación de hojas de estilo está desactivada</value>
+    <comment>Stylesheet combining turned off label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ClientCacheOff">
+    <value>La caché de cliente está desactivada</value>
+    <comment>Client cache OFF label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PageTitle">
+    <value>Título de la página</value>
+    <comment>The header text for the page identifiers column of a compilations report grid.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NotCachedLibraries">
+    <value>La caché para algunas bibliotecas está desactivada</value>
+    <comment>NotCachedLibraries label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NotCachedPages">
+    <value>La caché para algunas páginas está desactivada</value>
+    <comment>NotCachedPages label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PagesPermissionsCacheDescription">
+    <value>De manera predeterminada, la caché de resultados no queda invalidada al cambiar los permisos de página. Puede hacer que la caché de resultados quede invalidada con los cambios de permiso de la página. Esto hará más lento su sistema porque cada vez que cambie el permiso de una página, la caché de resultados de todas las páginas quedará invalidada.  &lt;a href="http://docs.sitefinity.com/other-cache-settings#caching-and-permissions" target="_blank"&gt;Conozca más&lt;/a&gt;</value>
+    <comment>PagesPermissionsCache Description</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PerformanceThresholdLabel">
+    <value>Umbral de rendimiento</value>
+    <comment>The label for the performance threshold for the report summaries.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EnableDetailedProfiling">
+    <value>Habilitar generación de perfiles detallada</value>
+    <comment>Phrase: Enable detailed profiling</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="InvalidValueFor">
+    <value>Valor no válido para {0}</value>
+    <comment>Invalid value message for validation of stored procedure parameters.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CombineScriptsBackEnd">
+    <value>Combinación de scripts para back-end</value>
+    <comment>Scripts combining backend label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BackendPages">
+    <value>Back-end</value>
+    <comment>The text that signifies backend page types.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Results">
+    <value>Resultados</value>
+    <comment>The results heading in the custom reports view.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TaskTypeColumn">
+    <value>Tipo de tarea</value>
+    <comment>The header text for the task type column.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Under">
+    <value>Debajo</value>
+    <comment>Under label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Profiling">
+    <value>Generación de perfiles</value>
+    <comment>Profiling</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Executions">
+    <value>Ejecuciones</value>
+    <comment>Executions</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RazorViewCompilations">
+    <value>Compilaciones de vista Razor</value>
+    <comment>phrase: Razor view compilations</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PerformanceIndicators">
+    <value>Indicadores de rendimiento</value>
+    <comment>PerformanceIndicators label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CombineScriptsFrontEnd">
+    <value>Combinación de scripts para front-end</value>
+    <comment>Scripts combining frontend label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CdnImages">
+    <value>CDN para bibliotecas</value>
+    <comment>CDN for libraries</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NPlusOneViewTitle">
+    <value>Problemas de consulta N+1</value>
+    <comment>The title for the N+1 query problems view</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DiagnosticsLabelsClassDescription">
+    <value>Contiene recursos localizables para interfaz de usuario de módulo Diagnostics.</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Providers">
+    <value>PROVEEDORES</value>
+    <comment>Providers label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="IsLoggingEnabledDescription">
+    <value>Si está habilitado el registro para la herramienta de diagnóstico.</value>
+    <comment>The description for enabling/disabling logging for a tool.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ClientSideCacheForThemesOff">
+    <value>La caché de cliente para temas está desactivada.</value>
+    <comment>Client cache for themes is turned off label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SomeIndicatorsAffectThePerformance">
+    <value>Configuración que afecta el rendimiento</value>
+    <comment>Some indicators affect the performance label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CdnForImagesDescription">
+    <value>Una Red de Entrega de Contenido (CDN, Content Delivery Network) es un gran sistema de servidores distribuido en varios centros de datos alrededor del mundo. Cuando usted usa almacenamiento CDN, las imágenes, videos y documentos se envían más rápido al usuario final, reduciendo al mismo tiempo la carga de tráfico en sus propios servidores web.  &lt;a href="http://docs.sitefinity.com/use-cdn-storage-for-content-libraries" target="_blank"&gt;Conozca más&lt;/a&gt;</value>
+    <comment>CDN for libraries description</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DataAccessProfiler">
+    <value>Analizador Data Access</value>
+    <comment>phrase: Data Access Profiler</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ResponseType">
+    <value>Tipo de respuesta</value>
+    <comment>The header text for the ResponseType column of a http report grid.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="LogDisabledRootOperaations">
+    <value>Operaciones de registro que dependen de operaciones raíz deshabilitadas</value>
+    <comment>phrase: Log operations which depends on disabled root operations</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ClientAndServerCacheLib">
+    <value>Caché de cliente y servidor</value>
+    <comment>ClientAndServerCacheLib label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="WhichHttpRequestsToLog">
+    <value>¿Qué peticiones HTTP se deben registrar?</value>
+    <comment>phrase: Which HTTP requests to log?</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RazorViewCompilationsDescription">
+    <value>Utilice este reporte para analizar las compilaciones de vista Razor de los widgets MVC en páginas, así como el número de compilaciones por widget y duración de compilación.</value>
+    <comment>Description of the Razor view compilations view.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RequestUrl">
+    <value>Solicitar URL</value>
+    <comment>Title of Request URL column.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DiagnosticsHomeUrlName">
+    <value>diagnóstico</value>
+    <comment>The url of the Diagnostics Module's home page</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Method">
+    <value>Método</value>
+    <comment>word: Method</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SqlQueries">
+    <value>Consultas SQL</value>
+    <comment>SQL queries report view title</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CompilationDetailsTitle">
+    <value>Compilaciones de {0}</value>
+    <comment>Title of the compilation details view.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="IdenticalQueries">
+    <value>consultas idénticas</value>
+    <comment>Identical queries</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EventType">
+    <value>Tipo de evento</value>
+    <comment>Event type</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ClientSideCacheForThemes">
+    <value>Caché de cliente para temas</value>
+    <comment>Client cache for themes label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MachineName">
+    <value>Nombre de máquina</value>
+    <comment>phrase: Machine Name</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BackgroundTasksProfilerDescription">
+    <value>Describe las tareas en segundo plano que son ejecutadas en el sitio web.</value>
+    <comment>Description for the BackgroundTasksProfiler</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="InnerPerformance">
+    <value>Rendimiento interno</value>
+    <comment>phrase: Inner performance</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PageTypeColumn">
+    <value>Tipo de página</value>
+    <comment> Page type</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DebugModeDescription">
+    <value>El modo de depuración puede ser habilitado de manera explícita al desarrollar su sitio, pero en el entorno de producción, crea una sobrecarga. Para fines de rendimiento, recomendamos deshabilitar la depuración una vez que su sitio esté activo.   &lt;a href="http://docs.sitefinity.com/administration-debug-mode" target="_blank"&gt;Conozca más&lt;/a&gt;.</value>
+    <comment>Debug mode description</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Error">
+    <value>&lt;b&gt;Error&lt;/b&gt;&lt;p&gt;{0}&lt;/p&gt; &lt;p class="sfMTop15"&gt;Para más detalles, consulte el registro de errores&lt;/p&gt;</value>
+    <comment>The error displayed when there is a problem with the data access tool.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TranslationsSuggestionMessage">
+    <value>Si no está trabajando con el módulo Translation, desactive el módulo para que no agotes recursos y memoria del sistema</value>
+    <comment>Suggestion to deactivate the Translations module.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MethodList">
+    <value>Lista de método</value>
+    <comment>phrase: Method list</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PagePrecompilationSuggestionTitle">
+    <value>{0} páginas han sido compiladas varias veces</value>
+    <comment>Precompile page suggestion title.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ShowInsights">
+    <value>Mostrar informaciones</value>
+    <comment>Show insights</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PerformanceColumn">
+    <value>Rendimiento</value>
+    <comment>The header text for the performance column of a compilations report grid.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DiagnosticsHomeHtmlTitle">
+    <value>diagnóstico</value>
+    <comment>The html title of the Diagnostics Module's home page</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Time">
+    <value>Tiempo</value>
+    <comment>Title of Time column.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Insights">
+    <value>Informaciones</value>
+    <comment>Insights</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DynamicCompressionOff">
+    <value>La compresión de contenido dinámico está desactivada.</value>
+    <comment>DynamicCompressionOff label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RssCacheDescription">
+    <value>En Sitefinity, el resultado de los feeds RSS se almacena en caché en el servidor. El almacenamiento en caché del resultado en RSS produce menos consultas a la base de datos y mejora el rendimiento general del sitio web. El almacenamiento en caché del RSS no se invalida automáticamente una vez hecho un cambio en el contenido que se publica en el feed. El feed es actualizado después de que la caché  expira.   &lt;a href="http://docs.sitefinity.com/output-cache-for-rss" target="_blank"&gt;Conozca más&lt;/a&gt;</value>
+    <comment>RssCache description</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StackTrace">
+    <value>StackTrace</value>
+    <comment>StackTrace</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CacheForPages">
+    <value>Caché para páginas</value>
+    <comment>CacheForPages label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ScriptsCombiningBackEndOff">
+    <value>La combinación de scripts para back-end está desactivada.</value>
+    <comment>Scripts combining for backend is turned off label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RunReport">
+    <value>Ejecutar reporte</value>
+    <comment>The text of the button that executes the custom report</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Pages">
+    <value>PÁGINAS</value>
+    <comment>Pages label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="None">
+    <value>Ninguno</value>
+    <comment>None</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="L2CacheOff">
+    <value>Caché nivel 2 desactivada</value>
+    <comment>L2 cache is turned off label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Widgets">
+    <value>Widgets</value>
+    <comment>word: Widgets</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ServerCacheLib">
+    <value>Caché del servidor</value>
+    <comment>ServerCacheLib label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RequiredNumericField">
+    <value>Campo numérico obligatorio</value>
+    <comment>The text shown when a field is numeric and required.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Stopped">
+    <value>Detenido</value>
+    <comment>Stopped</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="WidgetViewCompilations">
+    <value>Compilaciones de vista Razor</value>
+    <comment>Text: Razor view compilations</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SslOffloadingOff">
+    <value>La descarga SSL está desactivada.</value>
+    <comment>SslOffloadingOff label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="No">
+    <value>No</value>
+    <comment>Word: No</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FindMoreTips">
+    <value>&lt;h3 class="sfMTop30 sfMBottom15 sfLightTxt sfAlignCenter"&gt;Encuentre más consejos para optimización de rendimiento&lt;/h3&gt; &lt;a class="sfAlignCenter" href="http://docs.sitefinity.com" target="_blank"&gt; &lt;span class="sfBlockAlignCenter sfBook"/&gt; &lt;strong class=" sfMTop10 sfDisplayBlock"&gt;Documentación de Sitefinity&lt;/strong&gt;&lt;/a&gt;</value>
+    <comment>Recommended optimizations label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MostCompiledPagesMessage">
+    <value>Páginas más compiladas</value>
+    <comment>Most compiled pages message</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ShowMore">
+    <value>Mostrar más</value>
+    <comment>Show more</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ClearAllData">
+    <value>Borrar todos los datos</value>
+    <comment>ClearAllData</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ContextId">
+    <value>ID de contexto</value>
+    <comment>Context Id</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CustomReports">
+    <value>Reportes personalizados</value>
+    <comment>The heading for the Custom reports view</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PageHasBeenDeleted">
+    <value>Se ha eliminado esta página</value>
+    <comment>This page has been deleted</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CdnImagesOff">
+    <value>El CDN para algunos proveedores está desactivado</value>
+    <comment>CDN for some providers is turned off label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PagesPermissionsCacheOff">
+    <value>La caché de resultados para permisos de páginas está desactivada.</value>
+    <comment>PagesPermissionsCache OFF label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="OutputCacheOff">
+    <value>La caché de resultados está desactivada.</value>
+    <comment>Output cache is turned off label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SampleCountThresholdTitle">
+    <value>Umbral de recuento de muestra</value>
+    <comment>Phrase: Sample count threshold</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DetailedDataAccessProfilingDisabled">
+    <value>Active el modo de generación de perfiles detallado para que el generador de perfiles DataAccess pueda ver las consultas SQL registradas.</value>
+    <comment>Text: Enable the detailed profiling mode for the DataAccess profiler to be able to view the logged SQL queries.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Period">
+    <value>periodo</value>
+    <comment>Period</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ScriptsCombiningFrontEndDescription">
+    <value>Puede combinar los recursos de script, como archivos JavaScript para páginas front-end. De esta manera, cuando una página se procesa en el front-end, requiere menos llamadas al servidor.  &lt;a href="http://docs.sitefinity.com/administration-script-and-stylesheet-combining#script-combining-for-frontend" target="_blank"&gt;Conozca más&lt;/a&gt;</value>
+    <comment>Scripts combining frontend description</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="HttpRequestProfilerDescription">
+    <value>Describe peticiones HTTP ocurridas en el sitio web.</value>
+    <comment>Description for the HttpRequestProfiler</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SiteInitializationsViewDescription">
+    <value>Utilice este reporte para analizar el número de reinicios del sitio, así como cuándo y por qué se produjeron la inicializaciones del sitio.</value>
+    <comment>Text: Provides summarized information about initializations of the Sitefinity site.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CacheForPagesDescription">
+    <value>Independientemente del tipo de caché de resultados que se establece globalmente para todo el sitio, usted puede configurar la caché de resultados individualmente para cada página. &lt;a href="http://docs.sitefinity.com/administration-cache-for-pages-and-libraries#cache-for-pages" target="_blank"&gt;Conozca más&lt;/a&gt;</value>
+    <comment>Cache for pages description</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PerformanceOptimizationsTipsDescription">
+    <value>Esta página proporciona un resumen de la configuración común que afecta el rendimiento del sitio web. Úsela para ver el estado actual de la configuración, así como el grado general al cual ha optimizado el rendimiento de su sitio web.</value>
+    <comment>Text describing Performance optimization tips page</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ReportsTitle">
+    <value>Reportes</value>
+    <comment>Reports</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SecondsAbbreviation">
+    <value>s</value>
+    <comment>Abbreviation: s (seconds).</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RestartType">
+    <value>Tipo</value>
+    <comment>Word: Type</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="All">
+    <value>Todos</value>
+    <comment>word: All</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ViewDetails">
+    <value>Ver detalles</value>
+    <comment>View details</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ChangeReportFilters">
+    <value>Cambiar</value>
+    <comment>The text for the button that should enable the user to change the report filters.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RssCacheOff">
+    <value>La caché de resultados para RSS está desactivada.</value>
+    <comment>RssCache OFF label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CombineStyleSheets">
+    <value>Combinación de hojas de estilo</value>
+    <comment>Stylesheet combining label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Cache">
+    <value>CACHÉ</value>
+    <comment>Cache label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CacheForLibrariesDescription">
+    <value>Independientemente del tipo de caché de cliente que se establece globalmente para todo el sitio, usted puede configurar la caché de cliente individualmente para cada biblioteca raíz. Esta configuración de caché se aplicará a todas las carpetas de la biblioteca raíz. &lt;a href="http://docs.sitefinity.com/administration-cache-for-pages-and-libraries#cache-for-libraries" target="_blank"&gt;Conozca más&lt;/a&gt;</value>
+    <comment>Cache for libraries description</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CompilationsProfilerDescription">
+    <value>Describe compilaciones de las páginas de Sitefinity.</value>
+    <comment>Description for the CompilationsProfiler</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PagePrecompilationSuggestionMessage">
+    <value>Para reducir tiempos de procesamiento, precompilar las siguientes páginas</value>
+    <comment>Precompile page suggestion.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StaticCompression">
+    <value>Compresión de contenido estático</value>
+    <comment>StaticCompression label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SqlQueriesDescription">
+    <value>Utilice este reporte para analizar el rendimiento de las consultas SQL, como el número y la duración de las consultas.</value>
+    <comment>Gets the SQL queries report view description</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PerformanceOptimizationsTips">
+    <value>Consejos de optimización de rendimiento</value>
+    <comment>Performance optimization tips</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Compilations">
+    <value>Compilaciones</value>
+    <comment>Compilations</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PageNodeIdTitle">
+    <value>ID de nodo de página</value>
+    <comment>Page node ID to show when in Compilations details view.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ToolSettingsEnabledDescription">
+    <value>Si la herramienta de diagnóstico está activa.</value>
+    <comment>If the diagnostic tool is active.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="OutputCacheDescription">
+    <value>La caché de resultados se almacena en el servidor. A nivel de página, Sitefinity almacena en caché todo el resultado procesado, incluyendo los widgets. De esa manera, el mismo contenido no tiene que generarse cada vez que se invoca la misma acción del widget.  &lt;a href="http://docs.sitefinity.com/output-and-client-cache#output-cache" target="_blank"&gt;Conozca más&lt;/a&gt;</value>
+    <comment>Output cache description</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ClientCacheLib">
+    <value>Caché de cliente</value>
+    <comment>ClientCacheLib label</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+</root>

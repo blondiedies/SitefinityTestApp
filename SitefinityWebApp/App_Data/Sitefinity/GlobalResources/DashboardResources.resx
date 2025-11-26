@@ -1,0 +1,590 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DesignerWidgetSettingsFilterStatus">
+    <value>Estatus (Borrador, Programado, etc.)</value>
+    <comment>phrase: Status (Draft, Scheduled, etc.)</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ModifiedBy">
+    <value>Modificado por</value>
+    <comment>Phrase: Modified by</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="RecentBlogPostsWidget">
+    <value>Entradas de blog recientes</value>
+    <comment>The title of the recent blog posts widget</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="RecentItemsInDesignMode">
+    <value>El contenido de este widget no es visible en modo diseño.</value>
+    <comment>Phrase: Not visible in design mode.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DashboardRegisterAUserCaption">
+    <value>Administrar usuarios</value>
+    <comment>Phrase: Manage users</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DesignerWidgetSettingsFilterNone">
+    <value>- No mostrar filtro -</value>
+    <comment>phrase: - Don't display filter -</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ModifiedByEveryone">
+    <value>Todos los usuarios</value>
+    <comment>Phrase: All users</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NewThemeWidgetDescription">
+    <value>&lt;p&gt;El nuevo tema Light Backend viene con un diseño limpio y atractivo, que elimina el desorden innecesario y modera la experiencia de edición.&lt;/p&gt;&lt;p class='sfMTop15'&gt;&lt;b&gt;¿Cómo cambiar al tema nuevo?&lt;/b&gt;&lt;/p&gt;&lt;ol class='sfOrderedList sfMLeft20 sfMTop10'&gt;&lt;li&gt;Vaya a &lt;i&gt;Administración y ajustes &amp;gt; Avanzado &amp;gt; Apariencia&lt;/i&gt;&lt;/li&gt;&lt;li class='sfMTop10'&gt;Escriba &lt;i&gt;Light&lt;/i&gt; en el campo &lt;i&gt;BackendTheme&lt;/i&gt; y haga clic en &lt;i&gt;Guardar cambios&lt;/i&gt;&lt;/li&gt;&lt;/ol&gt;</value>
+    <comment>The description of the New Theme Announcement dashboard widget</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="StatusCheckEnabledCaption">
+    <value>Habilitado</value>
+    <comment>Enabled</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SettingsDesignerToolTip">
+    <value>&lt;strong&gt;Filtrar por Estado&lt;/strong&gt; no se muestra si solo se selecciona que se muestren aquí los artículos de un solo estado o si todos los artículos tienen el mismo estado&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;Filtrar por Usuario&lt;/strong&gt; no se muestra si solo se selecciona que se muestren aquí los artículos modificados por mí</value>
+    <comment>phrase: Filter by Status is not displayed if items from only one status are selected to be displayed here or if all items have the same status. Filter by User is not displayed if only items modified by Me are selected to be displayed here</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UsedWorkflowStatusesTitle">
+    <value>Estados de flujo de trabajo usados</value>
+    <comment>The title of UsedWorkflowStatuses.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DashboardResourcesTitle">
+    <value>Etiquetas de módulo de panel</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DashboardWelcomeWidgetTitle">
+    <value>Bienvenidos a Sitefinity</value>
+    <comment>The title of the Welcome dashboard widget</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SelectStatus">
+    <value>Seleccione un estatus</value>
+    <comment>Phrase: Select a status</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EmptyTitle">
+    <value>Vacío</value>
+    <comment>word: empty</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NotInstalledDecWidgetDescription">
+    <value>Digital Experience Cloud es una solución basada en la nube que permite recopilar datos y hacer seguimiento al comportamiento del público en su sitio web. Digital Experience Cloud combina seguimiento, analítica, informes, predictiva y funcionalidad de marketing, convirtiéndola en una solución innovadora para hacer un esbozo de su audiencia y crear un impactante contenido personalizado y campañas para mejorar la experiencia digital en su sitio y optimizar el impacto del marketing a lo largo de todos los canales.</value>
+    <comment>Progress Sitefinity Digital Experience Cloud is a cloud-based solution that enables you to collect data and track audience behavior on your website. Progress Sitefinity Digital Experience Cloud combines tracking, analytic, reporting, predictive, and marketing functionality thus making it an innovative solution to profile your audience and to create impactful personalized content and campaigns to improve digital experience on your site and optimize marketing impact across channels.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DashboardWelcomeGettingStartedText">
+    <value>&lt;p&gt;La nueva versión ofrece un sistema de gestión de contenido web de siguiente generación que le permite crear sitios web persuasivos.&lt;/p&gt;&lt;p&gt;Si desea ver la presentación general de Sitefinity y sus funciones, haga clic en el video a la izquierda.&lt;/p&gt;</value>
+    <comment>The text in the 'Getting started' area of the Welcome  dashboard widget</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LastModified">
+    <value>Modificado por última vez</value>
+    <comment>phrase: Last Modified</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NewThemeWidgetTitle">
+    <value>¡Conozca el nuevo tema backend de Sitefinity!</value>
+    <comment>New Theme Announcement Widget title</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateBlog">
+    <value>Crear un blog</value>
+    <comment>Label of the dialog that creates a new blog.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DashboardWidgetsRefreshIntervalTitle">
+    <value>Intervalo de actualización de los widgets del panel</value>
+    <comment>The title of this property.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ConfigureDashboardLinkText">
+    <value>Configurar widgets del Panel</value>
+    <comment>Text: Configure Dashboard widgets</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DashboardWidgetsRefreshIntervalDescription">
+    <value>Especifica el intervalo de actualización para todos los widgets de paneles en minutos</value>
+    <comment>The description for DashboardWidgetsRefreshInterval</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EveryoneContentWidgetTitle">
+    <value>El contenido de todos</value>
+    <comment>The title of the everyone's content widget.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NoDataDay">
+    <value>Nada interesante en este último 1 día</value>
+    <comment>phrase: Nothing interesting in the last 1 day</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="WhichContentItemsToDisplay">
+    <value>Qué artículos de  contenido se deben mostrar</value>
+    <comment>Phrase: Which content items to display</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ContentTypes">
+    <value>Tipos de Contenido</value>
+    <comment>Phrase: Content types</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UsedWorkflowStatusesDescription">
+    <value>Los estados de flujo de trabajo usado en el sistema</value>
+    <comment>The description of UsedWorkflowStatuses.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AllStatuses">
+    <value>Todos los estados</value>
+    <comment>Phrase: All statuses</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DashboardConsiderToCaption">
+    <value>Luego, trate de…</value>
+    <comment>Phrase: 'Then, consider to...' in the Welcome dashboard widget</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DashboardViewDescription">
+    <value>Control de Vista de Panel</value>
+    <comment>The description of the Dashboard View control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DECWidgetTitle">
+    <value>¡Bienvenido a DEC!</value>
+    <comment>DEC Widget title</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DashboardManageTemplatesCaption">
+    <value>Administrar plantillas de página</value>
+    <comment>Phrase: Manage page templates</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AllContentTypes">
+    <value>Todos los tipos de contenido</value>
+    <comment>Phrase: All content types</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DECWidgetDescription">
+    <value>Un widget de bienvenida que muestra el estado de Digital Experience Cloud que contiene información introductoria y enlaces a recursos útiles.</value>
+    <comment>The description of the Progress Sitefinity Digital Experience Cloud dashboard widget</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="GoToModulesServices">
+    <value>Ir a Módulos y Servicios</value>
+    <comment>Go to Modules &amp; Services</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DashboardPageDescription">
+    <value>Esta es la página predeterminada del panel de Sitefinity</value>
+    <comment>A description of the dashboard page</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DashboardStorageExpirationTimeTitle">
+    <value>Tiempo de expiración de las entradas de registro del panel</value>
+    <comment>The title for DashboardStorageExpirationTime</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DashboardStorageMaxSizeTitle">
+    <value>Capacidad de almacenamiento del panel</value>
+    <comment>The title for DashboardStorageMaxSize</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NoData">
+    <value>Nada interesante en los últimos 365 días</value>
+    <comment>phrase: Nothing interesting in the last 365 day(s)</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Statuses">
+    <value>Estados</value>
+    <comment>word: Statuses</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EditDashboardSettings">
+    <value>Establece qué widgets se deben mostrar</value>
+    <comment>Phrase: Edit Dashboard settings</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NoDataMonths">
+    <value>Nada interesante en los últimos 12 meses</value>
+    <comment>phrase: Nothing interesting in the last 12 months</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DashboardViewTitle">
+    <value>Artículos Recientes</value>
+    <comment>The title of the Dashboard view control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DecWidgetHeader">
+    <value>Digital Experience Cloud</value>
+    <comment>Progress Sitefinity Digital Experience Cloud</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MyContentWidgetTitle">
+    <value>Mi contenido</value>
+    <comment>The title of the my content widget.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DesignerWidgetSettingsTitle">
+    <value>Título</value>
+    <comment>word: Title</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DashboardUploadPhotosCaption">
+    <value>Subiendo fotos</value>
+    <comment>The 'Upload photos' caption in the Welcome dashboard widget</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DesignerWidgetSettingsFilterUser">
+    <value>Usuario (Todos, Mis artículos)</value>
+    <comment>phrase: User (All, My items)</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SelectContentType">
+    <value>Seleccionar un tipo de contenido</value>
+    <comment>Phrase: Select a content type</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NumberNewItemsThatInvokeCleanupTitle">
+    <value>Número de nuevos artículos que invocan limpieza</value>
+    <comment>The title for NumberNewItemsThatInvokeCleanup</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DECWidgetContactLabel">
+    <value>Para empezar a utilizar Digital Experience Cloud, póngase en contacto con</value>
+    <comment>To start using Progress Sitefinity Digital Experience Cloud, contact</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Older">
+    <value>Antiguo</value>
+    <comment>word: Older</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DashboardConfigDescription">
+    <value>Cadenas de recurso para configuración de Panel.</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DashboardContentPropertyEditorTitle">
+    <value>Artículos recientes</value>
+    <comment>Phrase: Recent items</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DashboardViewPropertyEditorTitle">
+    <value>Cuadro de mando</value>
+    <comment>word: Dashboard</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DashboardResourcesDescription">
+    <value>Contiene recursos localizables para interface de módulo de panel.</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="OnlySelectedTypes">
+    <value>Solo tipos de contenido seleccionados...</value>
+    <comment>Phrase: Selected content types only</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DashboardConfigureWidgetTitle">
+    <value>Configurar Enlace de Panel</value>
+    <comment>The title of the DashboardConfigureWidget</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DECWidgetBtnLearnMoreLabel">
+    <value>Más información</value>
+    <comment>Learn more</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DashboardStorageMaxSizeDescription">
+    <value>Si hay más entradas que este valor, las más antiguas serán eliminadas</value>
+    <comment>The description for DashboardStorageMaxSize</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="InstalledDecWidgetDescription">
+    <value>El panel Insights (Información) le proporciona un acceso a sus informes y datos de la DEC (Digital Experience Cloud) directamente en Sitefinity.</value>
+    <comment>The Insights dashboard provides you an access to your reports and data from Progress Sitefinity Digital Experience Cloud directly in Sitefinity.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="OnlySelectedStatuses">
+    <value>Solo estatus seleccionados…</value>
+    <comment>Phrase: Selected statuses only</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DesignerWidgetSettingsItemsPerPage">
+    <value>Elementos por página</value>
+    <comment>phrase: items per page</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SettingsDesignerToolTipTitle">
+    <value>¿Por qué a veces no se muestra el filtro?</value>
+    <comment>phrase: Why filter is not displayed sometimes?</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DesignerWidgetSettingsPagination">
+    <value>Paginación</value>
+    <comment>word: Pagination</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DashboardConfigureWidgetDescription">
+    <value>Un enlace para la pantalla de edición de página backend del panel (solo visible para administradores).</value>
+    <comment>The description of the DashboardConfigureWidget</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DesignerWidgetMyRecentItems">
+    <value>Mis artículos recientes</value>
+    <comment>phrase: My recent items</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DahsboardTryToCaption">
+    <value>Primero, comience con…</value>
+    <comment>Phrase: 'First, try to...' in the Welcome dashboard widget</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="HideThisFromMyItems">
+    <value>Ocultar esto de mis artículos</value>
+    <comment>phrase: Hide this from my items</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DashboardPageUrlname">
+    <value>panel principal</value>
+    <comment>The url name of the dashboard page</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SelectStatuses">
+    <value>Seleccionar estados</value>
+    <comment>phrase: Select statuses</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NumberNewItemsThatInvokeCleanupDescription">
+    <value>Indica la frecuencia con la que se debe realizar la limpieza. 1 significa cada vez que se añada un artículo.</value>
+    <comment>The description for NumberNewItemsThatInvokeCleanup</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DashboardPageHtmlTitle">
+    <value>Cuadro de mando</value>
+    <comment>The html title of the dashboard page</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NotSelectedContentTypes">
+    <value>No hay tipos de contenido seleccionados</value>
+    <comment>Phrase: No content types are selected</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DashboardConfigCaption">
+    <value>Configuración de panel</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NewThemeLinkLabel">
+    <value>Más información</value>
+    <comment>How to switch to the new theme</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DashboardStorageExpirationTimeDescription">
+    <value>Las entradas del panel anteriores a este valor (en días) serán eliminadas.</value>
+    <comment>The description for DashboardStorageExpirationTimeDescription</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DECWidgetToActivateDecLabel">
+    <value>para activar su cuenta.</value>
+    <comment>to activate your account.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DashboardNotificationsWidgetTitle">
+    <value>Notificaciones de Panel</value>
+    <comment>Dashboard Notifications</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DesignerWidgetSettingsFilter">
+    <value>Mostrar filtro por</value>
+    <comment>phrase: Display filter by</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Newer">
+    <value>Reciente</value>
+    <comment>word: Newer</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MyItems">
+    <value>Mis elementos</value>
+    <comment>phrase: My items</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DECWidgetBtnInsightsLabel">
+    <value>Ir al panel Insights</value>
+    <comment>Go to Insights dashboard</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LearnHowTo">
+    <value>Aprender cómo:</value>
+    <comment>Dashboard LearnHowTo</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ModifiedByMe">
+    <value>Yo (usuario conectado)</value>
+    <comment>Phrase: Me (logged user)</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="StatusesNotSelected">
+    <value>No hay estados seleccionados</value>
+    <comment>Phrase: No statuses are selected</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DashboardWelcomeWidgetDescription">
+    <value>Un widget predeterminado de bienvenida para el panel de Sitefinity</value>
+    <comment>The description of the Welcome dashboard widget</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NoRecentData">
+    <value>Sin actualizaciones recientes</value>
+    <comment>phrase: No recent updates</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DashboardTitle">
+    <value>Módulo de panel</value>
+    <comment>Title for the Dashboard module page.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DashboardPageTitle">
+    <value>Cuadro de mando</value>
+    <comment>The title of the dashboard page</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EntitledToDecWidgetDescription">
+    <value>Digital Experience Cloud es su ventana para toda la información relacionada con marketing y datos. Con la ayuda de informes exhaustivos, usted obtiene conclusiones significativas acerca de quién hizo qué y lo que necesita hacer para mejorar los resultados.</value>
+    <comment>Progress Sitefinity Digital Experience Cloud is your window to all marketing-related information and data. With the help of comprehensive reports, you derive meaningful conclusions about who did what and what you need to do to improve results.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NewThemeWidgetHeader">
+    <value>Anuncio de Nuevo Tema</value>
+    <comment>New Theme Announcement</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="RejectedForPublishing">
+    <value>Rechazado para publicar</value>
+    <comment>phrase: Rejected for publishing</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+</root>

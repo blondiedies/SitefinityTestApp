@@ -1,0 +1,1420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Sort">
+    <value>Ordenar</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Duplicate">
+    <value>Duplicar</value>
+    <comment>Duplicate</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SubmitButton">
+    <value>Botón de envío</value>
+    <comment>phrase: Submit button</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FirstChoice">
+    <value>Primera elección</value>
+    <comment>phrase: First Choice</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ThreeColumns">
+    <value>Tres columnas</value>
+    <comment>phrase: Three columns</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NoResponsesHaveBeenSubmittedYet">
+    <value>Todavía no se han recibido respuestas</value>
+    <comment>phrase: No responses have been submitted yet</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PleaseSpecifyValuesForAllOfTheChoices">
+    <value>Por favor, especifique los valores para todas las opciones.</value>
+    <comment>phrase: Please, specify values for all of the choices.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DuplicateTitleException">
+    <value>Un elemento con el título '{0}' ya existe.</value>
+    <comment>Error message.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Appearance">
+    <value>Apariencia</value>
+    <comment>Appearance</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FormFiles">
+    <value>Archivos de formulario</value>
+    <comment>phrase: Form files</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExampleFirstName">
+    <value>&lt;strong&gt;Ejemplo: &lt;/strong&gt;&lt;em&gt;Nombre &lt;/em&gt;</value>
+    <comment>Example: First name</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateForm">
+    <value>Crear un formulario</value>
+    <comment>Phrase: Create Form</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CaptchaBackgroundColor">
+    <value>Color de fondo Captcha</value>
+    <comment>The title for Forms Captcha widget.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="YouHaveAlreadySubmittedThisForm">
+    <value>Ya ha enviado este formulario</value>
+    <comment>phrase: You have already submitted this form.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LabelAndTexts">
+    <value>Etiqueta y textos</value>
+    <comment>Label and texts</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Other">
+    <value>Otros</value>
+    <comment>word: Other</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="None">
+    <value>Ninguno</value>
+    <comment>word: None</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Author">
+    <value>Autor</value>
+    <comment>Author</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SiteIsDeleted">
+    <value>Se elimina del sitio</value>
+    <comment>phrase: Site is deleted. Used in form responses screen.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SortEntries">
+    <value>Ordenar Entradas</value>
+    <comment>phrase: SortEntries</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DefaultValueExceedsMaxRange">
+    <value>El número de símbolos introducidos para el valor predeterminado no debe exceder el rango máximo de símbolos.</value>
+    <comment>phrase: The number of symbols entered for default value should not exceed the symbols maximum range.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Characters">
+    <value>caracteres</value>
+    <comment>word: characters</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DisplayedBelowTheWidget">
+    <value>Aparece debajo del widget. Adecuado para dar ejemplos.</value>
+    <comment>phrase: Displayed below the widget. Suitable for giving examples</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FormNotificationsEmailListError">
+    <value>Las siguientes entradas no son direcciones de correo electrónico válidas: {0}</value>
+    <comment>phrase: The following entries are not valid email addresses: &lt;br /&gt;{0}</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CssClass">
+    <value>Clase CSS</value>
+    <comment>CSS class</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FormSingularItemName">
+    <value>Formulario</value>
+    <comment>word: form</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Range">
+    <value>Rango</value>
+    <comment>word: Range</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Language">
+    <value>Idioma</value>
+    <comment>word: Language</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CommonSectionTitle">
+    <value>Controles comunes</value>
+    <comment>Specifies the title of the Common Controls toolbox section.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FieldName">
+    <value>nombre del campo</value>
+    <comment>label: field name</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ThePageOutputCacheWillBeDisabled">
+    <value>¡La página que contiene este control no será guardada en el caché!</value>
+    <comment>phrase: The page that is containing this control will not be cached!</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NameExample">
+    <value>Ejemplo: &lt;em&gt;Registrar &lt;/em&gt;</value>
+    <comment>The name field example string at the form dialog.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CustomSorting">
+    <value>Ordenación personalizada ...</value>
+    <comment>Phrase: Custom sorting...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ParagraphTextBoxSize">
+    <value>Tamaño del párrafo de la caja de texto</value>
+    <comment>Paragraph Text box size</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SaveChanges">
+    <value>Guardar cambios</value>
+    <comment>Save changes</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Delete">
+    <value>Eliminar</value>
+    <comment>Delete</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="RightAligned">
+    <value>Alineado a la derecha</value>
+    <comment>phrase: Right aligned</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NumberOfCharactersAllowed">
+    <value>Número de caracteres permitidos</value>
+    <comment>phrase: Number of characters allowed</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UseButtonInsteadOfImage">
+    <value>Utiliczar botón en lugar de  imagen</value>
+    <comment>phrase: Use button instead of image</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DisplayedBellowTheTextboxSuitableForGivingExamples">
+    <value>Aparece debajo de la caja de texto. Adecuado para dar ejemplos e instrucciones de cómo se utilizará el valor introducido</value>
+    <comment>Displayed below the textbox. Suitable for giving examples and instructions how the entered value will be used</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FormsResourcesTitle">
+    <value>Formularios</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EditForm">
+    <value>EditForm</value>
+    <comment>Edit a form</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Choices">
+    <value>Opciones</value>
+    <comment>word: Choices</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CaptchaFontFamiliy">
+    <value>Familia de fuentes Captcha</value>
+    <comment>The title for Forms Captcha widget.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AllowMultipleFileAttachments">
+    <value>Permitir múltiples archivos adjuntos</value>
+    <comment>phrase: Allow multiple file attachments</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AddAnotherFile">
+    <value>Añadir otro</value>
+    <comment>Phrase: Add another</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Responses">
+    <value>respuestas</value>
+    <comment>word: responses</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExamplePersonalInformation">
+    <value>&lt;strong&gt;Ejemplo: &lt;/strong&gt;&lt;em&gt;Información personal &lt;/em&gt;</value>
+    <comment>Example: Personal Information</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Untitled">
+    <value>Sin título</value>
+    <comment>word: Untitled</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="InstructionalText">
+    <value>Texto de Instrucción</value>
+    <comment>Instructional text</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ConfirmationOptions">
+    <value>Opciones de confirmación</value>
+    <comment>phrase: Confirmation options</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SectionHeaderTitle">
+    <value>Encabezado de sección</value>
+    <comment>Section header</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FormsControlPropertyEditorTitle">
+    <value>Seleccionar un formulario</value>
+    <comment>Phrase: Select a form</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Publish">
+    <value>Publicar</value>
+    <comment>Publish</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AllForms">
+    <value>Todos los formularios</value>
+    <comment>All forms</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SectionHeaderDescription">
+    <value>Encabezado de sección</value>
+    <comment>Section header</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NewModifiedFirst">
+    <value>Situar encima lo último modificado</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ModuleNotLicensed">
+    <value>funcionalidad de los formularios están deshabilitadas ya que el módulo de formularios no tiene licencia.</value>
+    <comment>Module Not Licensed message</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AnonymousUsername">
+    <value>Anónimo</value>
+    <comment>Anonymous</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ParagraphTextBoxDescription">
+    <value>Representa un campo de texto para escribir varias líneas en un formulario.</value>
+    <comment>Describes the ParagraphBox form field.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Restrictions">
+    <value>Restricciones</value>
+    <comment>word: Restrictions</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExportAsCsv">
+    <value>Exportar como CSV</value>
+    <comment>phrase: Export as CSV</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AttachFiles">
+    <value>Adjuntar archivos</value>
+    <comment>Phrase: Attach files</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="WrappingHtmlTag">
+    <value>Ajuste del tag HTML</value>
+    <comment>Wrapping HTML tag</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SelectChoices">
+    <value>Seleccione opciones</value>
+    <comment>phrase: Select choices</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="InstructionalTextTitle">
+    <value>Texto de Instrucción</value>
+    <comment>Instructional text</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CommentsForForms">
+    <value>Comentarios para formularios</value>
+    <comment>phrase: Comments for forms</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="History">
+    <value>Historial</value>
+    <comment>History</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SectionHeader">
+    <value>Encabezado de sección</value>
+    <comment>Section header</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Title">
+    <value>Título</value>
+    <comment>word</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AttachedFiles">
+    <value>archivos adjuntos</value>
+    <comment>phrase: attached files</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="OneEntryPerUsername">
+    <value>Una entrada por nombre de usuario &lt;br/&gt;&lt;em class="sfNote"&gt;(si hay registro de usuario) &lt;/em&gt;</value>
+    <comment>phrase: One entry per username</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExportAsXLSX">
+    <value>Exportar como Excel</value>
+    <comment>phrase: Export as Excel</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UrlNameCannotBeEmpty">
+    <value>La URL no puede estar vacía</value>
+    <comment>The message shown when the url is empty.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="InlineSideBySide">
+    <value>En línea (uno frente al otro)</value>
+    <comment>phrase: Inline(side by side)</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="OtherExtensionsExample">
+    <value>Los tipos de archivo están separados por comas &lt;br /&gt;&lt;strong&gt;Ejemplo:&lt;/strong&gt; zip, rar</value>
+    <comment>Example: zip, rar</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DontApplySize">
+    <value>No aplicar tamaño</value>
+    <comment>Don't apply size</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SitefinityFieldName">
+    <value>Nombre de campo Sitefinity</value>
+    <comment>label: Sitefinity field name</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ByTitleDesc">
+    <value>por Título (Z-A)</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Create">
+    <value>Crear</value>
+    <comment>Label for the buttons that create a forms item.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Permissions">
+    <value>Permisos</value>
+    <comment>Permissions</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Edit">
+    <value>&lt;strong&gt;Editar &lt;/strong&gt;</value>
+    <comment>word: Edit</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DropDownListTitle">
+    <value>Lista desplegable</value>
+    <comment>Describes the dropdown list field title.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NoFormsItems">
+    <value>Ningun formulario se ha creado todavía</value>
+    <comment>No forms items have been created yet</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PageGroupNodeTitle">
+    <value>Formularios</value>
+    <comment>Title of the forms page group.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SendEmailNotifications">
+    <value>Enviar notificación por correo electrónico para respuestas a…</value>
+    <comment>phrase: Send email notification for responses to...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DuplicateForm">
+    <value>Duplicar formulario</value>
+    <comment>phrase: Duplicate form</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FieldMapped">
+    <value>nombre del campo</value>
+    <comment>label: field mapped</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="HowToCreateItem">
+    <value>Cómo crear un formulario</value>
+    <comment>How to create a form label.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CaptchaDesignerViewTitle">
+    <value>Diseñador de Captcha</value>
+    <comment>The title for Forms Captcha widget.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TextBoxDescription">
+    <value>Representa un campo de entrada de texto de una sola línea del campoen un formulario.</value>
+    <comment>Describes the Textbox form control.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CaptchaErrorMessage">
+    <value>Valor incorrecto para la imagen captcha</value>
+    <comment>The title for Forms Captcha widget.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FormsCommandPanelTitle">
+    <value>Formularios</value>
+    <comment>Title of the Forms command panel (the panel shown when viewing all forms).</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TwoColumns">
+    <value>Dos columnas</value>
+    <comment>phrase: Two columns</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MoreOptions">
+    <value>Más opciones</value>
+    <comment>phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PredefinedValue">
+    <value>Valor predefinido</value>
+    <comment>Predefined value</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FormControlsDescription">
+    <value>Una colección de campos de formulario reutilizables.</value>
+    <comment>The description of the toolbox for designing forms.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ThisIsARequiredField">
+    <value>Este es un campo obligatorio</value>
+    <comment>phrase: This is a required field</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FilterForms">
+    <value>Filtrar formularios</value>
+    <comment>Filter forms</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateResponse">
+    <value>Crear una respuesta</value>
+    <comment>Phrase: Create a Response</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FormsAreAboutToBeDeleted">
+    <value>{0} formularios y todas sus respuestas y archivos adjuntos están a punto de ser eliminados permanentemente.&lt;p class='sfMTop15'&gt;¿Desea continuar?&lt;/p&gt;</value>
+    <comment>phrase: {0} forms and all their responses and attached files are about to be permanently deleted.&lt;p&gt;Do you want to continue?&lt;/p&gt;</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateAndReturnToForms">
+    <value>Crear y volver a Formularios</value>
+    <comment>The text of the button for creating a page and returning to forms.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Min">
+    <value>Mín</value>
+    <comment>word: Min</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EditNoTags">
+    <value>Editar</value>
+    <comment>word: Edit</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MoreActions">
+    <value>Más acciones</value>
+    <comment>phrase: More actions</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NameForDevs">
+    <value>Nombre utilizado en el código (para desarrolladores)</value>
+    <comment>word</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ViewProperties">
+    <value>Propiedades</value>
+    <comment>word: Properties</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SelectForm">
+    <value>Seleccionar un formulario</value>
+    <comment>phrase: Select a form</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FormsHtmlTitle">
+    <value>Formularios</value>
+    <comment>Html Title for the Forms module.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FileUploadDescription">
+    <value>Carga de archivos</value>
+    <comment>phrase: File upload</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ValidateEmails">
+    <value>Validar los correos electrónicos</value>
+    <comment>phrase: Validate emails</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SuccessThanksForFillingOutOurForm">
+    <value>Finalizado! Gracias por rellenar nuestro formulario!</value>
+    <comment>phrase: Success! Thanks for filling out our form!</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AttachedFile">
+    <value>archivo adjunto</value>
+    <comment>phrase: attached file</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TopAligned">
+    <value>Alineado arriba</value>
+    <comment>phrase: Top aligned</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="BackToForms">
+    <value>Volver a Formularios</value>
+    <comment>The text of the back to forms link in form editor</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DropDownListDescription">
+    <value>Representa un menú de lista desplegable en un formulario.</value>
+    <comment>Describes the dropdown list field in a form</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PermissionsForForms">
+    <value>Permisos para las formas</value>
+    <comment>Permissions for forms</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AdvancedForDevelopers">
+    <value>Avanzado: Nombre para los desarrolladores</value>
+    <comment>phrase: Advanced (for developers)</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ByTitleAsc">
+    <value>por Título (A-Z)</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UseImageInsteadOfButton">
+    <value>Usar imagen en vez de botón</value>
+    <comment>phrase: Use image instead of button</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LabelPlacement">
+    <value>Colocación de la etiqueta</value>
+    <comment>phrase: Label placement</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FileUploadTitle">
+    <value>Carga de archivos</value>
+    <comment>phrase: File upload</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ConnectorFieldNameShouldBeMappedOnlyOnceFormat">
+    <value>El campo {0} &lt;b&gt;{1}&lt;/b&gt; solo debe asignarse una vez. No es posible asignación a múltiples campos de formulario.</value>
+    <comment>Format: {0} field &lt;b&gt;{1}&lt;/b&gt; must be mapped just once. Mapping to multiple form fields is not possible.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MoreOptionsURL">
+    <value>Más opciones &lt;em class='sfNote'&gt;(URL, comentarios) &lt;/em&gt;</value>
+    <comment>More options &lt;em class='sfNote'&gt;(URL, Comments)&lt;/em&gt;</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExampleComment">
+    <value>&lt;strong&gt;Ejemplo: &lt;/strong&gt;Comentario &lt;em&gt;&lt;/em&gt;</value>
+    <comment>Example: Comment</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ShowMessageForSuccess">
+    <value>Mostrar el mensaje para Éxito</value>
+    <comment>phrase: Show message for success</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FormsTitle">
+    <value>Formularios</value>
+    <comment>Title for the Forms module.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FormDataCommandPanelTitle">
+    <value>Datos del Formulario</value>
+    <comment>Title of the form data command panel (the panel shown when viewing a form's data).</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Tags">
+    <value>Etiquetas</value>
+    <comment>Tags</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ButtonSize">
+    <value>Tamaño del Botón</value>
+    <comment>phrase: Button size</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DefaultSelectedChoice">
+    <value>Elección seleccionada predeterminada</value>
+    <comment>phrase: Default selected choice</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CheckboxesDescription">
+    <value>Representa un control con opciones de casilla (Checkbox).</value>
+    <comment>Descripbes the Checkboxes field in a form.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DocumentsExtensions">
+    <value>Documentos (pdf, doc, docx, ppt, pptx, ppsx, xls, xlsx)</value>
+    <comment>phrase: Documents (pdf, doc, docx, ppt, pptx, ppsx, xls, xlsx)</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResponsesHtmlTitle">
+    <value>respuestas</value>
+    <comment>Html Title for Responses.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MaxDimensionsForUploadingImages">
+    <value>Tamaño máximo para cargar imágenes</value>
+    <comment>phrase: Max size for uploading images</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="BackToItems">
+    <value>Volver a Formularios</value>
+    <comment>The text of the back to forms</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FormsResourcesDescription">
+    <value>Contiene recursos localizables para la interfaz de usuario de Formularios.</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateThisItem">
+    <value>Crear esta formulario</value>
+    <comment>Create this form</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FormNotificationsEmailListSuccess">
+    <value>Todas las entradas son direcciones de correo electrónico válidas</value>
+    <comment>phrase: All entries are valid email addresses</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Max">
+    <value>Máx</value>
+    <comment>word: Max</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TitleFontSize">
+    <value>Título del tamaño de la fuente</value>
+    <comment>Title font size</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CaptchaImageTextLength">
+    <value>Longitud de Texto de Imagen Captcha</value>
+    <comment>The title for Forms Captcha widget.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DatabaseColumnName">
+    <value>nombre de la columna de Base de datos</value>
+    <comment>phrase: Database column name</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EditDotDotDot">
+    <value>&lt;strong&gt;Editar ...&lt;/strong&gt;</value>
+    <comment>word</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExampleTypeYourComment">
+    <value>&lt;strong&gt;Ejemplo: &lt;/strong&gt;Escriba su comentario &lt;em&gt;...&lt;/em&gt;</value>
+    <comment>Example: Type your comment...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Limitations">
+    <value>Limitaciones</value>
+    <comment>Limitations</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NoFormFields">
+    <value>Aún no hay campos en este formulario.&lt;br /&gt;Vaya a añadir campos para habilitar la asignación de datos.</value>
+    <comment>Instructional text when no there are no form fields.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CaptchaLineNoise">
+    <value>Ruido de línea Captcha</value>
+    <comment>The title for Forms Captcha widget.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResponsesFor">
+    <value>Respuestas para</value>
+    <comment>phrase: Responses for</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateItem">
+    <value>Crear un formulario</value>
+    <comment>Label of the dialog that creates forms item.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Cancel">
+    <value>cancelar</value>
+    <comment>Label for the buttons that cancel the editing/inserting operation.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ManageAlso">
+    <value>Gestionar también</value>
+    <comment>phrase: Manage also</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateDataMapping">
+    <value>Crear asignación de datos</value>
+    <comment>label: Create data mapping</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SubmitButtonTitle">
+    <value>Botón de envío</value>
+    <comment>phrase: Submit button</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FileTypesDescription">
+    <value>Los tipos de archivo están separados por comas.</value>
+    <comment>File types are comma separated.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="InstructionalTextGoesHere">
+    <value>texto de instrucción va aquí</value>
+    <comment>phrase: Instructional text goes here</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LeftAligned">
+    <value>Alineado a la izquierda</value>
+    <comment>phrase: Left aligned</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SecondChoice">
+    <value>Segunda elección</value>
+    <comment>phrase: Second Choice</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FormEntries">
+    <value>Entradas del Formulario</value>
+    <comment>phrase: Form Entries</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AddAfter">
+    <value>Agregar después</value>
+    <comment>phrase: Add after</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Content">
+    <value>Contenido</value>
+    <comment>Content</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NoRestrictions">
+    <value>Sin restricciones: Todo el mundo puede añadir un número ilimitado de entradas</value>
+    <comment>phrase: No restrictions: Everyone can submit as many entries as wants</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FormSubmitError">
+    <value>Se produjo un error cuando se envió el formulario.</value>
+    <comment>Common error message when submiting a form.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CaptchaBackgroundNoiseLevel">
+    <value>Nivel de ruido de fondo captcha</value>
+    <comment>The title for Forms Captcha widget.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LabelQuestion">
+    <value>Etiqueta (Pregunta)</value>
+    <comment>phrase: Label (Question)</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NoFormsHaveBeenCreatedYet">
+    <value>Ningun formulario se ha creado todavía</value>
+    <comment>phrase: No forms have been created yet</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MyForms">
+    <value>Mis Formularios</value>
+    <comment>My Forms</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NewCreatedFirst">
+    <value>Situar encima lo último creado</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SubmitButtonDescription">
+    <value>Botón de envío</value>
+    <comment>phrase: Submit button</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PredefinedImage">
+    <value>Imagen predefinida</value>
+    <comment>phrase: Predefined image used in image custom field designer</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResponsesSettings">
+    <value>Configuración de respuestas</value>
+    <comment>phrase: Responses settings</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FormControlsTitle">
+    <value>Campos</value>
+    <comment>The title of the toolbox for designing forms.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UseCustomConfirmation">
+    <value>Utilizar confirmación personalizada</value>
+    <comment>phrase: Use custom confirmation</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FieldsMapped">
+    <value>campos asignados</value>
+    <comment>label: fields mapped</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ThisInformationIsRequired">
+    <value>Esta información es obligatoria</value>
+    <comment>This information is required</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FirstSubmittedOnTop">
+    <value>Enviado primero, arriba</value>
+    <comment>phrase: option in form entries sort widget</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ChangeImage">
+    <value>Cambiar imagen</value>
+    <comment>phrase: Change image</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TitleCannotBeEmpty">
+    <value>El título no puede estar vacío</value>
+    <comment>Title cannot be empty</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CategoriesAndTags">
+    <value>Categorías y etiquetas</value>
+    <comment>phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Username">
+    <value>Nombre de usuario</value>
+    <comment>Label in response view: Username.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Form">
+    <value>Formulario</value>
+    <comment>word: Form</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CommonSectionDescription">
+    <value>Sección de la caja de herramientas que contiene controles de formulario comunes.</value>
+    <comment>Describes the Common Controls toolbox section.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Response">
+    <value>Respuesta</value>
+    <comment>word: Response</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="BackToFormEntries">
+    <value>Volver a respuestas</value>
+    <comment>The text of the back to responses link in form entry create/edit dialog</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EditDataMapping">
+    <value>Editar asignación de datos</value>
+    <comment>label: Edit data mapping</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FormsUrlName">
+    <value>Formularios</value>
+    <comment>Forms URL name.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="StepOneConfigureConnectionsTo">
+    <value>&lt;div class='sfImportantForm'&gt;&lt;h4 class='sfTxtLbl'&gt;1. Configurar conexiones a ...&lt;/h4&gt;&lt;/div&gt;</value>
+    <comment>label: 1. Configure connections to</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateNewItem">
+    <value>Crear un formulario</value>
+    <comment>The title of the create new item dialog</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="OneEntryPerIp">
+    <value>Una entrada por IP</value>
+    <comment>phrase: One entry per IP</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CustomFields">
+    <value>Campos personalizados para los formularios</value>
+    <comment>Custom Fields for forms</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SendEmailNotificationsAfterFormUpdate">
+    <value>Enviar notificación por correo electrónico después de actualización de respuesta de formulario a...</value>
+    <comment>phrase: Send email notification after form response update to..</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FormSuccessfullyUnpublished">
+    <value>La publicación del formulario fue anulada con éxito.</value>
+    <comment>positive message after unpublishing a form.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SelectedFileTypes">
+    <value>Tipos de archivo seleccionados...</value>
+    <comment>phrase: Selected file types...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FormPluralItemName">
+    <value>Formularios</value>
+    <comment>word: forms</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ThirdChoice">
+    <value>Tercera Opción</value>
+    <comment>phrase: Third Choice</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResponsesCount">
+    <value>{0} respuestas</value>
+    <comment>phrase: {0} responses</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="RedirectToAPage">
+    <value>Redirigir a una página ...</value>
+    <comment>phrase: Redirect to a page...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SortChoicesAlphabetically">
+    <value>Ordenar opciones alfabéticamente</value>
+    <comment>phrase: Sort choices alphabetically</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ConnectorsSettings">
+    <value>Configuración de conectores</value>
+    <comment>label: Connectors settings</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Owner">
+    <value>Propietario</value>
+    <comment>word: Owner</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Categories">
+    <value>Categorías</value>
+    <comment>Categories</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PageGroupNodeDescription">
+    <value>Este es el grupo de páginas que contiene todas las páginas para el módulo de Formularios</value>
+    <comment>Forms Page Group Description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Submit">
+    <value>Enviar</value>
+    <comment>word: Submit</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Name">
+    <value>Nombre</value>
+    <comment>word</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateNewGenericContent">
+    <value>Crear nuevo contenido genérico</value>
+    <comment>phrase: Create new generic content</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SelectAChoice">
+    <value>Seleccione una opción</value>
+    <comment>phrase: Select a choice</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ManageForms">
+    <value>Administrar formularios</value>
+    <comment>Manage Forms</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LabelForEnteringDataDescription">
+    <value>Esta es la etiqueta del widget de la interfaz para ingresar datos en el campo</value>
+    <comment>phrase: This is the label of the interface widget for entering data in the field</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FormsControlTitle">
+    <value>Formulario</value>
+    <comment>The title of the FormsControl widget at content toolbox.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DataMapping">
+    <value>Asignación de datos</value>
+    <comment>label: Data mapping</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MultipleChoiceTitle">
+    <value>Opciones múltiples</value>
+    <comment>Descrives the multiple choice field in a form</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ShowMessageForSuccessAfterFormUpdate">
+    <value>Mostrar mensaje para envío exitoso después de actualización de respuesta de formulario</value>
+    <comment>phrase: Show message for success</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MultipleChoiceDescription">
+    <value>Representa un campo de lista de opciones múltiple, radiobutton en un formulario.</value>
+    <comment>Describes the multiple choice field in a form</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExampleEmailAddress">
+    <value>Introducir las direcciones de correo electrónico una por línea</value>
+    <comment>phrase: Enter email addresses one per line</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Small">
+    <value>Pequeños</value>
+    <comment>Small</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CaptchaFontWrap">
+    <value>Fuente Wrap de Captcha</value>
+    <comment>The title for Forms Captcha widget.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateAndAddContent">
+    <value>Crear e ir a agregar contenido</value>
+    <comment>Phrase: Create and go to add fields</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NameCannotBeEmpty">
+    <value>El nombre no puede estar vacío</value>
+    <comment>Title cannot be empty</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="HeaderZoneLabel">
+    <value>Encabezado común</value>
+    <comment>Zone header label</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Properties">
+    <value>Propiedades</value>
+    <comment>Properties.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AddOtherAsALastChoiceExpandingATextBox">
+    <value>Añadir "Otros" como última opción (expandiendo una caja de texto)</value>
+    <comment>phrase: Add "Other" as a last choice (expanding a text box)</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="View">
+    <value>Ver</value>
+    <comment>View</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="RedirectToAPageAfterFormUpdate">
+    <value>Redirigir a una página después de actualización de respuesta de formulario...</value>
+    <comment>phrase: Redirect to a page...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LearnMoreWithVideoTutorials">
+    <value>Más información con tutoriales en video</value>
+    <comment>Label for the external links used in Pages</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CaptchaDisplayOnlyForUnauthenticatedUsers">
+    <value>Solicitar solo usuarios no autenticados</value>
+    <comment>The title for Forms Captcha widget.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MakeRequired">
+    <value>Hacer obligatorio</value>
+    <comment>Make required</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AllFileTypes">
+    <value>Todos los tipos de archivos</value>
+    <comment>phrase: All file types (not recommended)</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="OtherExtensions">
+    <value>Otro…</value>
+    <comment>phrase: Other...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ImagesExtensions">
+    <value>Imágenes (jpg, jpeg, png, gif, bmp)</value>
+    <comment>phrase: Images (jpg, jpeg, png, gif, bmp)</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TextBoxSize">
+    <value>tamaño de la caja de texo</value>
+    <comment>Text box size</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ActionsLinkText">
+    <value>Acciones</value>
+    <comment>The text of the Actions link in the page browser grid.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FormNameNotValid">
+    <value>Lo sentimos, el nombre debe empezar con una letra y continuar con las letras (a-z), números (0-9) o guiones bajos (_).</value>
+    <comment>Title cannot be empty</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ParagraphTextBoxTitle">
+    <value>Caja de texto de párrafo</value>
+    <comment>Specifies the title of the ParagraphBox form field.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="WhatDoYouWantToDoNow">
+    <value>¿Qué quieres hacer ahora?</value>
+    <comment>What do you want to do now?</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AllowedFileTypes">
+    <value>Tipos de archivo permitidos</value>
+    <comment>phrase: Allowed file types</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LastSubmittedOnTop">
+    <value>Enviado al último, arriba</value>
+    <comment>phrase: option in form entries sort widget</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ListOfEmailAddresses">
+    <value>Lista de direcciones de correo electrónico...</value>
+    <comment>phrase: List of email addresses...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Medium">
+    <value>Medio</value>
+    <comment>Medium</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ErrorMessageDisplayedIfTheParagraphTextBoxIsEmpty">
+    <value>Mensaje de error que aparecen si el cuadro de texto está vacío</value>
+    <comment>Error message displayed if the text box is empty</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FormIsAboutToBeDeleted">
+    <value>1 formulario y todas sus respuestas y archivos adjuntos están a punto de ser eliminados permanentemente.&lt;p class='sfMTop15'&gt;¿Desea continuar?&lt;/p&gt;</value>
+    <comment>phrase: 1 form and all its responses and attached files are about to be permanently deleted.&lt;p&gt;Do you want to continue?&lt;/p&gt;</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FormsDescription">
+    <value>Representa una página de destino para el módulo Formularios de Sitefinity.</value>
+    <comment>The description of the Forms module landing page.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FormsControlDescription">
+    <value>Muestra del formulario ya creado</value>
+    <comment>Control description: A control for displaying a selected form.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NoFormName">
+    <value>No está establecido un nombre de formulario {0}.</value>
+    <comment>phrase: No {0} form name is set.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="BodyZoneLabel">
+    <value>Cuerpo</value>
+    <comment>Body zone label</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="InstructionalTextDescription">
+    <value>Texto de Instrucción</value>
+    <comment>Instructional text</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SubmittedOn">
+    <value>Presentado en</value>
+    <comment>Label in response view.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="OneColumn">
+    <value>Una columna</value>
+    <comment>phrase: One column</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FormsResourcesTitlePlural">
+    <value>Formularios</value>
+    <comment>Title plural for the Forms module.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="RedirectToAPageExample">
+    <value>&lt;strong&gt;Ejemplo: &lt;/strong&gt;&lt;em&gt;http://midominio.com/page &lt;/em&gt;</value>
+    <comment>phrase: Example: http://mydomain.com/page</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SectionHeaderGoesHere">
+    <value>La cabecera de la sección va aquí ...</value>
+    <comment>phrase: Section header goes here...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TheFirstOne">
+    <value>El primero</value>
+    <comment>phrase: The first one</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TheSpecifiedFormNoLongerExists">
+    <value>El formulario especificado ya no existe o está sin publicar.</value>
+    <comment>phrase: The specified form no longer exists or is currently unpublished.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Large">
+    <value>Grande</value>
+    <comment>Large</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FooterZoneLabel">
+    <value>Pie de página común</value>
+    <comment>Zone footer label</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="StepTwoSetDataMappingFormat">
+    <value>&lt;div class='sfImportantForm'&gt;&lt;h4 class="sfMTop30 sfPBottom5 sfTxtLbl"&gt;{0}Establecer asignación de datos para conexiones configuradas&lt;/h4&gt;&lt;/div&gt;</value>
+    <comment>label: 2. Set data mapping for configured connections</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ParagraphTextBox">
+    <value>Caja de texto de párrafo</value>
+    <comment>Paragraph text box</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FileUpload">
+    <value>Carga de archivos</value>
+    <comment>phrase: File upload</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="OutOfRangeLabelText">
+    <value>Mensaje de error que aparecen cuando la entrada está fuera de rango</value>
+    <comment>phrase: Error message displayed when the entry is out of range</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Settings">
+    <value>Opciones del formulario</value>
+    <comment>Forms Settings</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MyEmailAddress">
+    <value>Mi dirección de correo electrónico</value>
+    <comment>phrase: My email address</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+</root>

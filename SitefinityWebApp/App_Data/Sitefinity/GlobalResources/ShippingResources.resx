@@ -1,0 +1,845 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="UspsMailServiceOneDay">
+    <value>1 día</value>
+    <comment>phrase: 1-Day</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="LowerPriceCannotBeGreaterThanUpperPrice">
+    <value>El precio 'hasta' debe ser mayor o igual que el peso 'desde'.</value>
+    <comment>The message shown to the user when the lower price is greater than the upper price.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ShippingServiceSortOrder">
+    <value>Orden de Clasificación</value>
+    <comment>Label for shipping service sort order.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="International">
+    <value>Internacional (todo el mundo)</value>
+    <comment>phrase: International (all the world)</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BasedOn">
+    <value>En base a…</value>
+    <comment>Label for the shipping price based on drop-down.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="USPSExpressMailFlatRateEnvelope">
+    <value>USPS Express Mail Flat-Rate Envelope</value>
+    <comment>Label for shipping service USPS_EXPRESS_MAIL_FLAT_RATE_ENVELOPE.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UPSGround">
+    <value>UPS Ground</value>
+    <comment>Label for shipping service UPS_GROUND.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="USPSPriority">
+    <value>USPS Priority</value>
+    <comment>Label for shipping service USPS_PRIORITY.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NoShippingMethodsHaveBeenCreatedYet">
+    <value>Aún no se han creado métodos de envío</value>
+    <comment>The message shown when no shipping methods have yet been created.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ModuleDescription">
+    <value>Módulo de envío de comercio electrónico.</value>
+    <comment>Description of the Ecommerce shipping module.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UpperPriceIsInvalid">
+    <value>El precio 'hasta' debe ser un valor numérico que sea mayor o igual a 0;  use punto "."  para el separador decimal; se permite un máximo de 2 dígitos a partir del separador decimal.</value>
+    <comment>The message is shown to the user when upper price is invalid.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UpperWeightRequired">
+    <value>El peso "hasta" es necesario.</value>
+    <comment>The message which warns the user that the upper weight cannot be left empty.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ShippingMethodsNodeTitle">
+    <value>Métodos de envío</value>
+    <comment>Title of the shipping methods node.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ShippingMethodInternalNameInvalidSymbols">
+    <value>El nombre interno de la método de envío tiene algunos caracteres no válidos.</value>
+    <comment>The message which warns the user that the internal name of the shipping method has some invalid characters.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UPS2ndAirAMCommercial">
+    <value>2nd Day Air AM Commercial</value>
+    <comment>Label for shipping service 2ND_DAY_AIR_AM_COMMERCIAL.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SelectShippingCarrier">
+    <value>Transportista</value>
+    <comment>Label for the shipping carrier drop-down</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ShippingPriceMustBeANumber">
+    <value>El precio de envío debe ser un número.</value>
+    <comment>The message which warns the user that the shipping price must be a number.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SortOrderIsInvalid">
+    <value>El orden de clasificación debe ser un valor numérico</value>
+    <comment>The message shown to the user if the sort order is not a numeric value.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="WorldwideExpressPlus">
+    <value>Worldwide Express Plus</value>
+    <comment>Label for shipping service WORLDWIDE_EXPRESS_PLUS.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UPSCarrierNotConfiguredCorrectly">
+    <value>Compañía UPS no configurada correctamente</value>
+    <comment>phrase: UPS Carrier not configured correctly</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="USPSExpressMailPOtoAddressee">
+    <value>USPS Express Mail PO to Addressee</value>
+    <comment>Label for shipping service USPS_EXPRESS_MAIL_PO_TO_ADDRESSEE.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UpperPriceRequired">
+    <value>El precio "hasta" es necesario.</value>
+    <comment>The message which warns the user that the upper price cannot be left empty.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="USPSPriorityMailFlatRateEnvelope">
+    <value>USPS Priority Mail Flat-Rate Envelope</value>
+    <comment>Label for shipping service USPS_PRIORITY_MAIL_FLAT_RATE_ENVELOPE.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateAShippingMethod">
+    <value>Crear un método de envío</value>
+    <comment>phrase: Create a shipping method</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MakeActive">
+    <value>Hacer Activo</value>
+    <comment>Action command.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="LowerQuantityRequired">
+    <value>La cantidad 'desde' es necesaria.</value>
+    <comment>The message which warns the user that the lower quantity cannot be left empty.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FirstOvernight">
+    <value>First Overnight</value>
+    <comment>Label for shipping service FIRST_OVERNIGHT.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ShippingMethodPassword">
+    <value>Contraseña</value>
+    <comment>The shipping method password</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BasedOnFixedPercentage">
+    <value>Porcentaje fijo del precio total</value>
+    <comment>Label for the based on fixed percentage of total price radio button.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UPS2ndDayAir">
+    <value>UPS 2nd Day Air</value>
+    <comment>Label for shipping service UPS_2ND_DAY_AIR.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UpperQuantityMustBeANumber">
+    <value>La cantidad "hasta" debe ser un número.</value>
+    <comment>The message which warns the user that the upper quantity must be a number.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FedServiceUnavailable">
+    <value>El servicio FedEx está temporalmente no disponible</value>
+    <comment>phrase: FedEx service temporarily unavailable</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SurchargeValidationMessage">
+    <value>El Recargo debe ser un valor numérico mayor o igual a 0.</value>
+    <comment>Error message for invalid surcharge.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ShippingServiceCode">
+    <value>Código</value>
+    <comment>Label for shipping service code.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UPSNextDayAirSaver">
+    <value>UPS Next Day Air Saver</value>
+    <comment>Label for shipping service UPS_NEXT_DAY_AIR_SAVER.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BasedOnPrice">
+    <value>Precio Total</value>
+    <comment>Label for the based on price radio button.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NoFedRatesAvailable">
+    <value>No hay gastos de envío FedEx disponibles</value>
+    <comment>phrase: No FedEx shipping rates available</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ManageShipping">
+    <value>Administrar Métodos de Envío</value>
+    <comment>Manage Shipping Methods</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UPSShippingRateError">
+    <value>Error de Tarifa de Envío por UPS</value>
+    <comment>phrase: UPS Shipping Rate Error</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ModuleTitle">
+    <value>Envío</value>
+    <comment>Title of the shipping module.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UPS3DaySaver">
+    <value>UPS 3 Day Saver</value>
+    <comment>Label for shipping service UPS_3_DAY_SAVER.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ShippingMethodUserName">
+    <value>UserName</value>
+    <comment>The shipping method username</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="LowerQuantityCannotBeGreaterThanUpperQuantity">
+    <value>La cantidad 'hasta' debe ser mayor o igual que la cantidad 'desde'.</value>
+    <comment>The message shown to the user when the lower quantity is greater than the upper quantity.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="USPSLibrary">
+    <value>Biblioteca USPS</value>
+    <comment>Label for shipping service USPS_LIBRARY.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ShippingServiceSurcharge">
+    <value>Recargo</value>
+    <comment>Label for shipping service surcharge.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="USPSPriorityMailSmallFlatRateBox">
+    <value>USPS Priority Mail Small Flat-Rate Box</value>
+    <comment>Label for shipping service USPS_PRIORITY_MAIL_SMALL_FLAT_RATE_BOX.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ShippingMethodMeterID">
+    <value>MeterID</value>
+    <comment>The shipping method meterID</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="USPSBoundPrintedMatter">
+    <value>USPS Bound Printed Matter</value>
+    <comment>Label for shipping service USPS_BOUND_PRINTED_MATTER.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Area">
+    <value>Área</value>
+    <comment>word: Area</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ShippingPrice">
+    <value>Precio de envío</value>
+    <comment>Label for the shipping price input.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="USPSMediaMail">
+    <value>USPS Media Mail</value>
+    <comment>Label for shipping service USPS_MEDIA_MAIL.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PercentageOfTotalPrice">
+    <value>% del precio total del pedido</value>
+    <comment>Label for the shipping price when it is based on fixed percentage of total price.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ShippingName">
+    <value>Nombre</value>
+    <comment>The name label for the shipping method.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UPSServiceUnavailable">
+    <value>Error de Tarifa de Envío por UPS</value>
+    <comment>phrase: UPS Service is Unavailable</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StandardShipping">
+    <value>Estándar (Transportistas)</value>
+    <comment>Label for standard shipping method.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="LowerQuantityMustBeANumber">
+    <value>La cantidad 'desde' debe ser un número.</value>
+    <comment>The message which warns the user that the lower quantity must be a number.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UspsMailServiceMilitary">
+    <value>Militar</value>
+    <comment>phrase: Military</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AdvancedSection">
+    <value>Avanzado</value>
+    <comment>Label for the advanced section.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Fedex2Day">
+    <value>2nd Day Air</value>
+    <comment>Label for shipping service FEDEX_2_DAY.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StandardShippingDescription">
+    <value>(p.ej. FedEx, UPS, USPS)</value>
+    <comment>StandardShipping header description</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ShippingMethodInternalNameCannotBeEmpty">
+    <value>El nombre interno del método de envío no puede estar vacío.</value>
+    <comment>The message which warns the user that the internal name of the shipping method cannot be left empty.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ShippingServicesProperties">
+    <value>(Propiedades)</value>
+    <comment>Label for link that opens shipping services dialog.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FedExCarrierSettingsNotFound">
+    <value>No se encuentra la Configuración de la Empresa de Transporte FedEx</value>
+    <comment>phrase: FedEx Shipping Carrier Settings not found</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UpperPrice">
+    <value>a</value>
+    <comment>Label for the upper range of price used in shipping price.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MakeInactive">
+    <value>Hacer Inactivo</value>
+    <comment>Action command.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FedexExpressSaver">
+    <value>3 Day Express Saver</value>
+    <comment>Label for shipping service FEDEX_EXPRESS_SAVER.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ShippingServiceMaxWeight">
+    <value>Peso Máximo</value>
+    <comment>Label for shipping service maximum weight.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UspsMailServiceThreeDay">
+    <value>3 días</value>
+    <comment>phrase: 3-Day</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BasedOnQuantity">
+    <value>Cantidad</value>
+    <comment>Label for the based on quantity radio button.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DeleteThisItem">
+    <value>Eliminar</value>
+    <comment>word: Delete</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UspsMailServiceTwoDay">
+    <value>2 días</value>
+    <comment>phrase: 2-Day</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UspsMailServiceDpo">
+    <value>DPO</value>
+    <comment>phrase: DPO</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SelectedCountries">
+    <value>Países seleccionados...</value>
+    <comment>phrase: Selected countries...</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="USPSCarrierSettingsNotFound">
+    <value>Configuración del Transportista USPS no encontrada</value>
+    <comment>phrase: USPS Shipping Carrier Settings not found</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ShippingPriceRequired">
+    <value>El precio de envío es necesario.</value>
+    <comment>The message which warns the user that the shipping price cannot be left empty.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="WorldwideExpress">
+    <value>Worldwide Express</value>
+    <comment>Label for shipping service WORLDWIDE_EXPRESS.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UPSNextDayAirPriority">
+    <value>UPS Next Day Air Priority</value>
+    <comment>Label for shipping service UPS_NEXT_DAY_AIR_PRIORITY.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ShippingMethodCode">
+    <value>Código</value>
+    <comment>The shipping method code</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UPSServiceSettingsNotFound">
+    <value>Configuración no encontrada del Servicio de Envío de UPS</value>
+    <comment>phrase: UPS Shipping Service Settings not found</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EditAShippingMethod">
+    <value>Editar un método de envío</value>
+    <comment>phrase: Edit a shipping method</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="InternationalEconomy">
+    <value>International economy</value>
+    <comment>Label for shipping service INTERNATIONAL_ECONOMY.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ShippingMethodClassificationCode">
+    <value>Código de Clasificación</value>
+    <comment>The shipping method classification code</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="LowerWeight">
+    <value>de</value>
+    <comment>Label for the lower range of weight used in shipping price.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FedExShippingRateError">
+    <value>Error de Tarifas de Envío de FedEx</value>
+    <comment>phrase: FedEx Shipping Rate Error</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="USPSExpressMailFlatRateEnvelopeHoldForPickup">
+    <value>USPS Express Mail Flat-Rate Envelope Hold For Pickup</value>
+    <comment>Label for shipping service USPS_EXPRESS_MAIL_FLAT_RATE_ENVELOPE_HOLD_FOR_PICKUP.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="InvalidMissingShippingFromCountry">
+    <value>El código de país en la configuración de Comercio Electrónico 'ShippingFromCountry' falta o no es válido. Por favor, revise su configuración en la administración de configuración.</value>
+    <comment>phrase: The country code in the 'ShippingFromCountry' eCommerce settings is missing or invalid.  Please check your configuration in the administration settings.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateShippingMethod">
+    <value>Crear método de envío</value>
+    <comment>phrase: Create shipping method</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="WillCall">
+    <value>Llamará</value>
+    <comment>Label for shipping service WILL_CALL.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ShippingMethodLicenseKey">
+    <value>Clave de licencia</value>
+    <comment>The shipping method license key</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UpperWeightIsInvalid">
+    <value>El peso 'hasta' debe ser un valor numérico que sea mayor a 0;  use punto "."  para el separador decimal; se permite un máximo de 2 dígitos a partir del separador decimal.</value>
+    <comment>The message shown to the user when upper weight is invalid.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UpperQuantityRequired">
+    <value>La cantidad "hasta" es necesaria.</value>
+    <comment>The message which warns the user that the upper quantity cannot be left empty.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BasedOnFixedPrice">
+    <value>Precio fijo por pedido</value>
+    <comment>Label for the based on fixed price per order radio button.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SortOrderIsRequired">
+    <value>El orden de clasificación no puede estar vacío.</value>
+    <comment>The message shown to the user if the sort order is empty.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="LowerWeightIsInvalid">
+    <value>El peso 'desde' debe ser un valor numérico que sea mayor o igual a 0;  use punto "."  para el separador decimal; se permite un máximo de 2 dígitos a partir del separador decimal.</value>
+    <comment>The message shown to the user when lower weight is invalid.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="LowerPriceIsInvalid">
+    <value>El peso 'desde' debe ser un valor numérico que sea mayor o igual a 0;  use punto "."  para el separador decimal; se permite un máximo de 2 dígitos a partir del separador decimal.</value>
+    <comment>The message is shown to the user when lower price is invalid.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ShippingMethodNameFieldControlExample">
+    <value>Ejemplo: Envío expreso</value>
+    <comment>An example of a shipping method name</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CustomShipping">
+    <value>Personalizado (Fuera de línea)</value>
+    <comment>Label for custom shipping method.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="IsActive">
+    <value>Este método está activo</value>
+    <comment>phrase: This method is active</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NextDayAirEarlyAM">
+    <value>Next Day Air Early AM</value>
+    <comment>Label for shipping service NEXT_DAY_AIR_EARLY_AM.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SaveChanges">
+    <value>Guardar cambios</value>
+    <comment>word: Save changes</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ShippingMethodTitle">
+    <value>Título</value>
+    <comment>The shipping method title</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Items">
+    <value>elementos</value>
+    <comment>Label following the lower and upper range of quantity fields used in shipping price.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="LowerPrice">
+    <value>de</value>
+    <comment>Label for the lower range of price used in shipping price.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StandardOvernight">
+    <value>Standard Overnight</value>
+    <comment>Label for shipping service STANDARD_OVERNIGHT.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="LowerWeightCannotBeGreaterThanUpperWeight">
+    <value>El peso 'hasta' debe ser mayor o igual que el peso 'desde'.</value>
+    <comment>The message shown to the user when the lower weight is greater than the upper weight.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="USPSFirstClassPostcardStamped">
+    <value>USPS First-Class Postcard Stamped</value>
+    <comment>Label for shipping service USPS_FIRST_CLASS_POSTCARD_STAMPED.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UpperQuantity">
+    <value>a</value>
+    <comment>Label for the upper range of quantity used in shipping price.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PriorityOvernight">
+    <value>Priority Overnight</value>
+    <comment>Label for shipping service PRIORITY_OVERNIGHT.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BackToShipping">
+    <value>Volver al envío</value>
+    <comment>phrase: Back to shipping</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UpperWeight">
+    <value>a</value>
+    <comment>Label for the upper range of weight used in shipping price.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ShippingMethodTimeout">
+    <value>Tiempo de espera</value>
+    <comment>The shipping method timeout</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateThisShippingMethod">
+    <value>Crear este método de envío</value>
+    <comment>phrase: Create this shipping method</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UPSCarrierSettingsNotFound">
+    <value>Configuración no encontrada de la Compañía de Envío UPS</value>
+    <comment>phrase: UPS Shipping Carrier Settings not found</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="USPSPriorityMailFlatRateLargeBox">
+    <value>USPS Priority Mail Flat-Rate Large Box</value>
+    <comment>Label for shipping service USPS_PRIORITY_MAIL_FLAT_RATE_LARGE_BOX.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SortOrderValidationMessage">
+    <value>El Orden de Clasificación no es un número entero.</value>
+    <comment>Error message for invalid sort order value.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="GroundHomeDelivery">
+    <value>Ground Shipping</value>
+    <comment>Label for shipping service GROUND_HOME_DELIVERY.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="USPSPriorityMailRegularFlatRateBox">
+    <value>USPS Priority Mail Regular Flat-Rate Box</value>
+    <comment>Label for shipping service USPS_PRIORITY_MAIL_REGULAR_FLAT_RATE_BOX.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FedExServiceSettingsNotFound">
+    <value>No se encuentra la Configuración del Servicio de Envío FedEx</value>
+    <comment>phrase: FedEx Shipping Service Settings not found</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="USPSExpressMailHoldForPickup">
+    <value>USPS Express Mail Hold For Pickup</value>
+    <comment>Label for shipping service USPS_EXPRESS_MAIL_HOLD_FOR_PICKUP.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ShippingMethodInternalName">
+    <value>Para los desarrolladores: nombre que se utiliza en el código</value>
+    <comment>Label for the shipping method internal name.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BasedOnWeight">
+    <value>Peso</value>
+    <comment>Label for the based on weight radio button.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ShippingMethodsNodeUrlName">
+    <value>metodos-de-envio</value>
+    <comment>Url name of the shipping methods node.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ShippingServiceDescription">
+    <value>Descripción</value>
+    <comment>Label for shipping service description.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ShippingServiceTitle">
+    <value>Título</value>
+    <comment>Label for shipping service title.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="InternationalPriority">
+    <value>Prioridad internacional</value>
+    <comment>Label for shipping service INTERNATIONAL_PRIORITY.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ShippingMethodType">
+    <value>Tipo de método de envío</value>
+    <comment>Label for shipping method type radio button selector.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ShippingServices">
+    <value>Servicios de envío permitidos</value>
+    <comment>Header for list of shipping services provided by the shipping method</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ShippingMethodAccountNumber">
+    <value>Número de Cuenta</value>
+    <comment>The shipping method account number</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SortOrder">
+    <value>Orden de clasificacion</value>
+    <comment>Label for the sort order input.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FedExCarrierNotConfiguredCorrectly">
+    <value>Empresa de Transporte FedEx no está configurada correctamente</value>
+    <comment>phrase: FedEx Carrier not configured correctly</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="WorldwideExpedited">
+    <value>Worldwide Expedited</value>
+    <comment>Label for shipping service WORLDWIDE_EXPEDITED.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ShippingMethodDescription">
+    <value>Descripción</value>
+    <comment>The shipping method description</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ShippingMethodUrl">
+    <value>Url</value>
+    <comment>The shipping method url</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="StandardShippingMethodTitle">
+    <value>Método de envío estándar</value>
+    <comment>Label for the standard shipping method control title.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="USPSExpressMailSundayHoliday">
+    <value>USPS Express Mail Sunday/Holiday</value>
+    <comment>Label for shipping service USPS_EXPRESS_MAIL_SUNDAY_HOLIDAY.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CustomeShippingDescription">
+    <value>(p. ej. métodos de envío definidos por el comerciante en base a Peso, Precio, etc.)</value>
+    <comment>CustomShipping header description</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="LowerPriceRequired">
+    <value>El precio 'desde' es necesario.</value>
+    <comment>The message which warns the user that the lower price cannot be left empty.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ShippingPriceTitle">
+    <value>Precio de envío</value>
+    <comment>Label for the shipping price control title.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="USPSFirstClassKeysAndIDs">
+    <value>Claves y ID de USPS First-Class</value>
+    <comment>Label for shipping service USPS_FIRST_CLASS_KEYS_AND_IDS.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="USPSShippingRateError">
+    <value>Error de tarifa de envío USPS:</value>
+    <comment>phrase: USPS Shipping Rate Error</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="LowerQuantity">
+    <value>de</value>
+    <comment>Label for the lower range of quantity used in shipping price.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="USPSStandardPost">
+    <value>USPS Standard Post</value>
+    <comment>Label for shipping service USPS_STANDARD_POST.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ModuleName">
+    <value>Envío</value>
+    <comment>Name of the shipping module.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="LowerWeightRequired">
+    <value>El peso 'desde' es necesario.</value>
+    <comment>The message which warns the user that the lower weight cannot be left empty.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="USPSPriorityMailKeysAndIDs">
+    <value>Claves y ID de USPS Priority Mail</value>
+    <comment>Label for shipping service USPS_PRIORITY_MAIL_KEYS_AND_IDS.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+</root>

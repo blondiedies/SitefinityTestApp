@@ -1,0 +1,1225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MyCalendars">
+    <value>Mis calendarios</value>
+    <comment>phrase: My calendars</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AreYouSureYouWantToDeleteThisCalendar">
+    <value>¿Está seguro de que desea eliminar este calendario?</value>
+    <comment>Confirmation message when calendar is deleted.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Owner">
+    <value>Propietario</value>
+    <comment>word: Owner</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="lCountry">
+    <value>País</value>
+    <comment>Word: Country</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ModuleTitle">
+    <value>Eventos</value>
+    <comment>The name of the events module.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AllowChangeCalendarView">
+    <value>Permitir a los usuarios cambiar el modo de visualización</value>
+    <comment>Allow users to change view mode</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreateThisItem">
+    <value>Crear este evento</value>
+    <comment>phrase: Create this event</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AllDay">
+    <value>Todo el día</value>
+    <comment>All day event</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ClickToAddDescription">
+    <value>Hacer clic para añadir una descripción</value>
+    <comment>phrase: Click to add description</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="lState">
+    <value>Estado</value>
+    <comment>Word: State</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ContactPhone">
+    <value>&lt;strong&gt;Teléfono: &lt;/strong&gt;</value>
+    <comment>phrase: Phone</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="NoEvents">
+    <value>Todavía no se han creado eventos</value>
+    <comment>phrase: No events have been created yet</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Permissions">
+    <value>Permisos</value>
+    <comment>Label for the buttons that switch to the permissions dialog.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="End">
+    <value>Finalizar</value>
+    <comment>Word: End</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EventsUrlName">
+    <value>Eventos</value>
+    <comment>Events URL.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CurrentOpenedEventItem">
+    <value>Elemento de evento actualmente abierto</value>
+    <comment>Current opened event item</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Weeks">
+    <value>Semanas</value>
+    <comment>Weeks</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EventsByTag">
+    <value>Eventos por etiquetas</value>
+    <comment>Phrase: Events by tag</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Delete">
+    <value>Eliminar</value>
+    <comment>Label for the buttons that delete an event.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Edit">
+    <value>&lt;strong&gt;Editar ...&lt;/strong&gt;</value>
+    <comment>word</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Search">
+    <value>Búsqueda</value>
+    <comment>Search word.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EventModifiedFirst">
+    <value>Situar encima lo último modificado</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ListTemplate">
+    <value>Plantilla de lista</value>
+    <comment>List template</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Status">
+    <value>Estado</value>
+    <comment>Word: Status</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="NoEventsSelectedYet">
+    <value>Aún no hay eventos seleccionados</value>
+    <comment>Phrase: No events selected yet</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ExpiresOn">
+    <value>Expira el:</value>
+    <comment>Phrase: Expires on:</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CalendarsPluralTypeName">
+    <value>Calendarios</value>
+    <comment>word: Calendars</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageEvents">
+    <value>Gestionar Eventos</value>
+    <comment>phrase: Manage Events</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EventsCalendarViewFriendlyName">
+    <value>Eventos - calendario</value>
+    <comment>Phrase: Events - calendar</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Date">
+    <value>Fecha</value>
+    <comment>word: Date</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="UrlNameInvalidSymbols">
+    <value>La dirección URL contiene símbolos no válidos.</value>
+    <comment>The message shown when the url contains invalid symbols.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="PublishOn">
+    <value>Publicado el:</value>
+    <comment>Phrase: Publish on:</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CategoriesAndTags">
+    <value>Categorías y etiquetas</value>
+    <comment>phrase</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="MoreDetails">
+    <value>Más detalles</value>
+    <comment>The more details link in the QuickAddEventDialog</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EventsDetailViewFriendlyName">
+    <value>Eventos - uno a uno</value>
+    <comment>Phrase: Events - single</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EndDateShouldNotBeEarlierThanStartDate">
+    <value>La fecha final del evento no puede ser anterior a su fecha de inicio.</value>
+    <comment>Message: Event's end date cannot be set earlier than its start date.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="PagesWhereEventsArePublished">
+    <value>Páginas donde se publican los Eventos</value>
+    <comment>Pages where Events are published</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="NoCalendars">
+    <value>Aún no se han creado calendarios</value>
+    <comment>phrase: No calendars have been created yet</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CalendarNotSelected">
+    <value>El calendario no está seleccionado.</value>
+    <comment>phrase: Calendar is not selected.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Create">
+    <value>Crear</value>
+    <comment>Label for the buttons that create an event.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="TitleRequired">
+    <value>Es necesario el título del proyecto</value>
+    <comment>The error message indicating that the title of the event is a required element.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CommentsForEvents">
+    <value>Comentarios para eventos</value>
+    <comment>phrase: Comments for events</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Author">
+    <value>Autor</value>
+    <comment>word: Author</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CommentsDescription">
+    <value>Gestionar comentarios</value>
+    <comment>Provides description for the comments view of events module.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="lCity">
+    <value>Ciudad</value>
+    <comment>Word: City</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="PublicationDate">
+    <value>Fecha de publicación</value>
+    <comment>phrase: Publication Date</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreateThisCalendar">
+    <value>Crear este calendario</value>
+    <comment>phrase: Create this calendar</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Cancel">
+    <value>cancelar</value>
+    <comment>Label for the buttons that cancel the editing/inserting operation.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Sort">
+    <value>Ordenar</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CurrentEvents">
+    <value>eventos actuales</value>
+    <comment>Phrase: Current events</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EditButton">
+    <value>Editar</value>
+    <comment>Word: Edit</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Settings">
+    <value>Opciones para eventos</value>
+    <comment>phrase: Events settings</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CalendarTemplate">
+    <value>Plantilla de calendario</value>
+    <comment>Calendar template</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EditEventsSettings">
+    <value>Modificar la configuración de Eventos</value>
+    <comment>Phrase: Edit Events settings</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AddEventsToOutlook">
+    <value>Los usuarios pueden añadir eventos a Outlook, Google Calendar y iCal</value>
+    <comment>The users can add events to Outlook, Google Calendar and iCal</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="lStreet">
+    <value>Calle</value>
+    <comment>Word: Street</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="PermissionsForEvents">
+    <value>Permisos</value>
+    <comment>phrase: Permissions for events</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="NoCalendarsSelectedYet">
+    <value>Aún no se han seleccionado calendarios</value>
+    <comment>Phrase: No calendars selected yet</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="PagingSectionComplementoryText">
+    <value>Paginación, límite y clasificación</value>
+    <comment>Paging, limit and sorting</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CloseSearch">
+    <value>Cerrar búsqueda</value>
+    <comment>Close search.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Category">
+    <value>Categoría</value>
+    <comment>word: Category</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Occurs">
+    <value>Ocurre</value>
+    <comment>word: Occurs</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="PublishedEvents">
+    <value>Publicado</value>
+    <comment>The text of published events sidebar button.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Dates">
+    <value>&lt;strong&gt;Fechas: &lt;/strong&gt;</value>
+    <comment>phrase: Dates</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EventsHtmlTitle">
+    <value>Eventos</value>
+    <comment>HTML title of the Events module landing page.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DisplayLastUpdatedEvents">
+    <value>Mostrar eventos actualizadas por última vez el...</value>
+    <comment>The text of last updated events sidebar button</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="RepeatEvent">
+    <value>Repetir evento</value>
+    <comment>Phrase: Repeat event</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="lSummary">
+    <value>Resumen</value>
+    <comment>word: Summary</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ContactCell">
+    <value>&lt;strong&gt;Teléfono móvil: &lt;/strong&gt;</value>
+    <comment>phrase: Cell Phone</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CalendarsTitle">
+    <value>Calendarios</value>
+    <comment>Title of the Calendars page.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="GoogleEventExporterTitle">
+    <value>Calendario Google</value>
+    <comment>The title for the Google Calendar export widget.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageAlso">
+    <value>Gestionar también</value>
+    <comment>phrase: Manage also</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Where">
+    <value>&lt;strong&gt;Ubicación: &lt;/strong&gt;</value>
+    <comment>phrase: Where</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="BackToItems">
+    <value>Volver a Eventos</value>
+    <comment>The text of the back to events</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ManageCalendars">
+    <value>Administrar Calendarios</value>
+    <comment>phrase: Manage Calendars</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Step1Title">
+    <value>¿Qué funcionalidad de eventos utilizar?</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SetPermissions">
+    <value>Establecer permisos</value>
+    <comment>phrase: Set permissions</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="IncludeInSitemap">
+    <value>Incluir en el mapa del sitio</value>
+    <comment>phrase: Include in sitemap</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ExpirationDate">
+    <value>Fecha de expiración</value>
+    <comment>phrase: Expiration Date</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ContactName">
+    <value>&lt;strong&gt;Contacto: &lt;/strong&gt;</value>
+    <comment>Contact Name</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CalendarAppearance">
+    <value>Apariencia del calendario</value>
+    <comment>Calendar appearance</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DeleteThisItem">
+    <value>Eliminar</value>
+    <comment>phrase: Delete this event item</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ClickToAddSummary">
+    <value>Haga clic para añadir resumen</value>
+    <comment>phrase: Click to add summary</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CalendarsSingleTypeName">
+    <value>Calendario</value>
+    <comment>word: Calendar</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CloseDateFilter">
+    <value>Cerrar fechas</value>
+    <comment>The link for closing the date filter widget in the sidebar.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="PublicationDateCannotBeEmpty">
+    <value>FechaDePublicacion no puede estar vacía.</value>
+    <comment>PublicationDate cannot be empty.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreateEvents">
+    <value>Crear eventos</value>
+    <comment>Create events</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Tags">
+    <value>Etiquetas</value>
+    <comment>word: Tags</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ModuleDescription">
+    <value>Proporciona la interfaz de usuario para la gestión de eventos.</value>
+    <comment>The description of the events module</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="BackToAllItems">
+    <value>Volver a todos los eventos</value>
+    <comment>phrase: Back to all events</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="PageGroupNodeTitle">
+    <value>Eventos</value>
+    <comment>Page group for the events module.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SelectACalendar">
+    <value>Seleccionar un calendario</value>
+    <comment>Select a calendar</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EventsViewDescription">
+    <value>Listas de eventos</value>
+    <comment>Describes the purpose of the EventsView control.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="MoreOptionsURL">
+    <value>Más opciones &lt;em class='sfNote'&gt;(URL, comentarios) &lt;/em&gt;</value>
+    <comment>phrase: More options &lt;em class='sfNote'&gt;(URL, Comments)&lt;/em&gt;</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="NewCalendar">
+    <value>Nuevo Calendario</value>
+    <comment>phrase: New calendar.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="LearnMoreWithVideoTutorials">
+    <value>Más información con tutoriales en video</value>
+    <comment>Label for the external links used in Pages</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="View">
+    <value>Ver</value>
+    <comment>word: View</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EditEvent">
+    <value>Editar evento</value>
+    <comment>Phrase: Edit event</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="HowToFindUsFormat">
+    <value>&lt;strong&gt;Cómo encontrarnos:&lt;/strong&gt; {0}</value>
+    <comment>&lt;strong&gt;How to find us:&lt;/strong&gt; {0}</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="lEmail">
+    <value>Correo electrónico</value>
+    <comment>Word: Email</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EventsResourcesDescription">
+    <value>Contiene recursos localizables para el módulo de Eventos</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EventsCountFormat">
+    <value>{0} eventos</value>
+    <comment>phrase: {0} events</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CustomFields">
+    <value>Campos personalizados para eventos</value>
+    <comment>phrase: Custom Fields for events</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ViewProperties">
+    <value>Propiedades</value>
+    <comment>word: Properties</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Publish">
+    <value>Publicar</value>
+    <comment>word: Publish</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SearchEvents">
+    <value>Búscar eventos ...</value>
+    <comment>phrase: Search events...</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CustomSorting">
+    <value>Ordenación personalizada ...</value>
+    <comment>Phrase: Custom sorting...</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EventCreatedFirst">
+    <value>Situar encima lo último creado</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreateNewCalendar">
+    <value>Crear un nuevo calendario</value>
+    <comment>phrase: Create a new calendar</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EndsAt">
+    <value>Finaliza a las</value>
+    <comment>Ends at</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SortEvents">
+    <value>Seleccionar eventos</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="MoreOptions">
+    <value>Más opciones</value>
+    <comment>phrase</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="MoreActions">
+    <value>Más acciones con eventos</value>
+    <comment>phrase: More actions with events</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EventsViewPropertyEditorTitle">
+    <value>Eventos</value>
+    <comment>word: Events</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EditCalendar">
+    <value>Editar un calendario</value>
+    <comment>phrase: Edit a calendar</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CategoriesMetafieldTitle">
+    <value>Categoría</value>
+    <comment>Name of the metafield containing the categories taxonomy for events.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="FilterEvents">
+    <value>Filtrar acontecimientos</value>
+    <comment>phrase: Filter events</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="TagsMetafieldDescription">
+    <value>Establece Etiquetas para este elemento de contenido.</value>
+    <comment>Description of the metafield containing the tags taxonomy for events.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="lPhone">
+    <value>Teléfono</value>
+    <comment>Word: Phone</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Unpublish">
+    <value>QuitarDePublicacion</value>
+    <comment>word: Unpublish</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EventsByCalendar">
+    <value>Eventos según calendario</value>
+    <comment>phrase: Events by calendar</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EventsSingleTypeName">
+    <value>Evento</value>
+    <comment>Events single type name</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Event">
+    <value>Evento</value>
+    <comment>Event word.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="TagsMetafieldTitle">
+    <value>Etiquetas</value>
+    <comment>Name of the metafield containing the tags taxonomy for events.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ListOnly">
+    <value>Solo Lista</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="lLocation">
+    <value>Ubicación &lt;em class='sfNote'&gt;(Calle, Ciudad, País, Estado) &lt;/em&gt;</value>
+    <comment>Word: Location &lt;em class='sfNote'&gt;(Street, City, Country, State)&lt;/em&gt;</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Calendar">
+    <value>Calendario</value>
+    <comment>Word: Calendar</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Step2Title">
+    <value>Opciones</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="lWeb">
+    <value>Sitio web</value>
+    <comment>Word: Web</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AllowComments">
+    <value>Permitir comentarios</value>
+    <comment>Phrase: Allow comments</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="lContactName">
+    <value>Nombre del contacto</value>
+    <comment>Word: Contact name</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ByTitleAsc">
+    <value>por Título (A-Z)</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="UrlNameCannotBeEmpty">
+    <value>La URL no puede estar vacía</value>
+    <comment>Word: URL cannot be empty</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Time">
+    <value>Tiempo</value>
+    <comment>Time</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EventStart">
+    <value>Inicio del evento</value>
+    <comment>phrase: Event Start</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EventsPluralTypeName">
+    <value>Eventos</value>
+    <comment>Events plural type name</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DraftEvents">
+    <value>Borradores</value>
+    <comment>The text of draft events sidebar button.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Or">
+    <value>o</value>
+    <comment>Word: or</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SingleItemOnly">
+    <value>Solo elemento único</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreateCalendar">
+    <value>Crear un calendario</value>
+    <comment>phrase: Create a calendar</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CalendarRequired">
+    <value>El calendario es obligatorio</value>
+    <comment>The error message indicating that the calendar, that the event belongs to, is a required element.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ReviewHistory">
+    <value>Historial de revisiones</value>
+    <comment>phrase: Review history</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Duplicate">
+    <value>Duplicar</value>
+    <comment>word: Duplicate</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="StartsAt">
+    <value>Comienza a las</value>
+    <comment>Starts at</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="lWebExample">
+    <value>Comenzar con &lt;em&gt;http://&lt;/em&gt;&lt;br /&gt;Ejemplo: &lt;em&gt;http://devreach.com/&lt;/em&gt;</value>
+    <comment>Example: Start with http://</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Month">
+    <value>mes</value>
+    <comment>Month</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EventsToolboxSectionTitle">
+    <value>Eventos</value>
+    <comment>Events toolbox section title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EventsMasterViewFriendlyName">
+    <value>Eventos - lista</value>
+    <comment>Phrase: Events - list</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EditItem">
+    <value>Editar un evento</value>
+    <comment>The title of the edit event dialog</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="HowToFindUsDescription">
+    <value>Instrucciones de forma libre. De manera alternativa, puede utilizar este campo para ingresar la ubicación de una manera libre.</value>
+    <comment>Description of 'How to find us' field.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SettingsForEvents">
+    <value>Opciones</value>
+    <comment>phrase: Settings for events</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EventPluralItemName">
+    <value>Eventos</value>
+    <comment>Word: events</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AllEvents">
+    <value>Todos los eventos</value>
+    <comment>Phrase: All events</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Comments">
+    <value>comentarios</value>
+    <comment>word: Comments</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Description">
+    <value>Descripción</value>
+    <comment>word: Description</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ByTitleDesc">
+    <value>por Título (Z-A)</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AreYouSureYouWantToDeleteThisEvent">
+    <value>¿Está seguro de que desea eliminar este evento?</value>
+    <comment>Confirmation message when an event is deleted.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CalendarsDescription">
+    <value>Administrar Calendarios</value>
+    <comment>Provides description for the Calendars screen of Events module.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Start">
+    <value>Comenzar</value>
+    <comment>Word: Start</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="PageForSingleItem">
+    <value>Página para Artículo Único&lt;br/&gt; &lt;span class="sfNote"&gt;Esta es la página que se abre al hacer clic en el nombre de un artículo de la lista. En esta página, debe existir un widget de Eventos para mostrar solo el Artículo Único.&lt;/span&gt;</value>
+    <comment>Page for Single item</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="WaitingForApproval">
+    <value>En espera de aprobación</value>
+    <comment>The text of the 'Awaiting approval' button in the sidebar.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AllowCreateCalendars">
+    <value>Permitir a los usuarios crear calendarios</value>
+    <comment>Allow users to create calendars</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EventsByCategory">
+    <value>Eventos por categoría</value>
+    <comment>Phrase: Events by category</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DefaultPage">
+    <value>Página predeterminada</value>
+    <comment>Phrase: Default page</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EventStartCannotBeEmpty">
+    <value>EventStart no puede estar vacío.</value>
+    <comment>EventStart cannot be empty.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Address">
+    <value>&lt;strong&gt;Dirección: &lt;/strong&gt;</value>
+    <comment>phrase: Address</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="UpcomingEvents">
+    <value>Próximos eventos</value>
+    <comment>Phrase: Upcoming events</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="At">
+    <value>En</value>
+    <comment>word: At</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ByCalendars">
+    <value>según Calendarios…</value>
+    <comment>by Calendars...</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="lCellPhone">
+    <value>Teléfono móvil</value>
+    <comment>Word: Cell phone</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Email">
+    <value>Correo electrónico</value>
+    <comment>phrase: Email</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AutoListAndSingleItem">
+    <value>Auto: Lista + elemento único</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="lContactInformation">
+    <value>Información de contacto &lt;em class='sfNote'&gt;(correo electrónico, Web, Nombre del contacto, Teléfono) &lt;/em&gt;</value>
+    <comment>Phrase: Contact information &lt;em class='sfNote'&gt;(Email, Web, Contact name, Phone)&lt;/em&gt;</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ShowMoreCalendars">
+    <value>{0} más calendarios</value>
+    <comment>phrase: {0} more calendars</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EventSingularItemName">
+    <value>Evento</value>
+    <comment>Word: event</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="PastEvents">
+    <value>Eventos pasados</value>
+    <comment>Phrase: Past events</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AddEventTo">
+    <value>Añadir evento a:</value>
+    <comment>The text preceding  the event exporters.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EventsPremissionsHtmltitle">
+    <value>Permisos de Eventos</value>
+    <comment>HTML title of the page handling permissions for the Events module.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Content">
+    <value>Contenido</value>
+    <comment>word: Content</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EndTimeShouldNotBeEarlierThanStartTime">
+    <value>La hora de finalización del evento no puede ser fijada antes que su hora de inicio.</value>
+    <comment>Message: Event's end time cannot be set earlier than its start time.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EventEnd">
+    <value>Final del evento</value>
+    <comment>phrase: Event End</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ContentCannotBeEmpty">
+    <value>El contenido no puede estar vacío</value>
+    <comment>Content cannot be empty</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Title">
+    <value>Título</value>
+    <comment>word: Title</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="HowToFindUs">
+    <value>Cómo encontrarnos</value>
+    <comment>How to find us</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ContactEmail">
+    <value>&lt;strong&gt;Correo electrónico:&lt;/strong&gt; &lt;a href='mailto:{0}'&gt;{0}&lt;/a&gt;</value>
+    <comment>Contact Name</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CommentsUrlName">
+    <value>comentarios</value>
+    <comment>Comments URL</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EventTimeZone">
+    <value>Huso horario</value>
+    <comment>phrase: Event time zone</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ByDateModified">
+    <value>por fecha de modificación ...</value>
+    <comment>The text of the date filter sidebar button.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="WaitingForPublishing">
+    <value>En espera de publicación</value>
+    <comment>The text of the 'Awaiting Publishing' button in the sidebar.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="WebSite">
+    <value>&lt;strong&gt;Sitio web:&lt;/strong&gt; &lt;a href='{0}'&gt;{0}&lt;/a&gt;</value>
+    <comment>phrase: Web Site</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Week">
+    <value>Semana</value>
+    <comment>Week</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="TitleCannotBeEmpty">
+    <value>El título no puede estar vacío</value>
+    <comment>Title cannot be empty</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ScheduledEvents">
+    <value>Programado</value>
+    <comment>The text of scheduled events sidebar button.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EventsToolboxSectionDescription">
+    <value>Título de la sección Eventos de la caja de herramientas</value>
+    <comment>Describes the event toolbox section title.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CalendarNotAvailableInEditMode">
+    <value>Puede ser que los Eventos no se muestren correctamente en el modo diseño. Si tiene problemas, haga clic en Previsualizar que aparece en la parte superior de esta página para ver los eventos.</value>
+    <comment>phrase: Events might not be correctly displayed in design mode. If you have issues click Preview on top of this page to see the events.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EventStartRequired">
+    <value>Se necesita la fecha de inicio del evento</value>
+    <comment>The error message indicating that the start date of the event is a required element.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EventEndEllipsis">
+    <value>Finalización del evento…</value>
+    <comment>phrase: Event end...</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="WhatDoYouWantToDoNow">
+    <value>¿Qué quieres hacer ahora?</value>
+    <comment>phrase: What do you want to do now?</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="ShowLessCalendars">
+    <value>{0} menos calendarios</value>
+    <comment>phrase: {0} less calendars</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AllCalendars">
+    <value>Todos los calendarios</value>
+    <comment>phrase: All calendars</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="MyEvents">
+    <value>Mis eventos</value>
+    <comment>The text of my events sidebar button</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EventsDataFields">
+    <value>Campos de datos de Eventos</value>
+    <comment>phrase: Events data fields</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Categories">
+    <value>Categorías</value>
+    <comment>word: Categories</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="PageGroupNodeDescription">
+    <value>Grupo de páginas del módulo de eventos.</value>
+    <comment>Events Page Group Description</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreateNewItem">
+    <value>Crear un evento</value>
+    <comment>The title of the create new event dialog</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Actions">
+    <value>Acciones</value>
+    <comment>word: Actions</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CommentsTitle">
+    <value>comentarios</value>
+    <comment>Title of the comments page.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="EventsViewTitle">
+    <value>Eventos</value>
+    <comment>Provides a UI for displaying events.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AllowCreateEvents">
+    <value>Permitir que los usuarios creen eventos</value>
+    <comment>Allow users to create events</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="History">
+    <value>Historial</value>
+    <comment>word: History</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CalendarsHtmlTitle">
+    <value>Calendarios</value>
+    <comment>Html Title for Calendars page.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CalendarsUrlName">
+    <value>Calendarios</value>
+    <comment>Calendars URL</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AddEventsToCalendarOption">
+    <value>Permitir que los usuarios añadan eventos a su calendario</value>
+    <comment>Allow users to add events to their calendar</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="DefaultView">
+    <value>Vista predeterminada</value>
+    <comment>Default view</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CreateEvent">
+    <value>Crear un evento</value>
+    <comment>Label of the dialog that creates an event.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CommentsHtmlTitle">
+    <value>comentarios</value>
+    <comment>Html Title for the comments events module.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Day">
+    <value>Día</value>
+    <comment>Day</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="Language">
+    <value>Idioma</value>
+    <comment>word: Language</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="CategoriesMetafieldDescription">
+    <value>Define la categoría de este elemento de contenido.</value>
+    <comment>Description of the metafield containing the categories taxonomy for events.</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="SaveChanges">
+    <value>Guardar cambios</value>
+    <comment>phrase: Save changes</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+  <data name="AllDayEvent">
+    <value>Evento que dura todo el día</value>
+    <comment>All day event</comment>
+    <lastModified>2025-11-25T20:22:20</lastModified>
+  </data>
+</root>

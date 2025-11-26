@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EmailAddress">
+    <value>Dirección de correo electrónico</value>
+    <comment>word: Email address</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="UnsubscribeFormResourcesTitle">
+    <value>Recursos del widget para Darse de baja</value>
+    <comment>Title for the Unsubscribe widget resources class.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="OpenSpecificPageLabel">
+    <value>Abrir una página especialmente preparada...</value>
+    <comment>phrase: Open a specially prepared page...</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="IncludedInNewsletter">
+    <value>incluido en el boletín</value>
+    <comment>word: Link</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="CopyPaste">
+    <value>Copiar / pegar en el texto...</value>
+    <comment>word: Copy / paste in the text...</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="MissingPage">
+    <value>Se ha eliminado la página seleccionada.</value>
+    <comment>phrase: The selected page has been deleted.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="InsertDynamicData">
+    <value>Insertar datos dinámicos</value>
+    <comment>word: Insert dynamic data</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="UnsubscribeSuccessful">
+    <value>Darse de baja con éxito</value>
+    <comment>Unsubscribe successful resource</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="NewslettersModuleDeactivatedMessage">
+    <value>Este widget no funciona porque el módulo Boletines ha sido desactivado.</value>
+    <comment>Message shown when the newsletters module is deactivated</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="EmailAddressErrorMessageResourceName">
+    <value>La dirección electrónica no es válida</value>
+    <comment>phrase: Email address is invalid</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="ShowMessageLabel">
+    <value>Mostrar mensaje</value>
+    <comment>phrase: Show message</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="YouDontBelongToTheMailingList">
+    <value>{0} no existe en nuestra lista de correo</value>
+    <comment>Message displayed to user who tries to unsubscribe from the campaign he or she does not belong to.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="MoreOptions">
+    <value>Más opciones</value>
+    <comment>phrase : More options</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="TemplateLabel">
+    <value>plantilla</value>
+    <comment>The phrase: Template</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="ToDsiplay">
+    <value>para mostrar....</value>
+    <comment>word: to display...</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="UsersUnSubscribeLists">
+    <value>Dar de baja a usuarios de las listas de correo seleccionadas</value>
+    <comment>phrase: Unsubscribe users from selected mailing list</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="SubscribeLink">
+    <value>Suscribirse</value>
+    <comment>word: subscribe</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="UnsubscribeFormResourcesDescription">
+    <value>Cadenas localizables para el widget para Darse de baja.</value>
+    <comment>Description for the Unsubscribe widget resources class.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="UnsubscribeMessageOnSuccess">
+    <value>Usted se dio de baja con éxito de nuestro boletín ({|Subscriber.Email|}). 
+Si cambia de opinión, puede {|MergeContextItems.SubscribeLink|} nuevamente a nuestro boletín. 
+Gracias.</value>
+    <comment>Unsubscribe message shown on success.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="Email">
+    <value>Correo electrónico</value>
+    <comment>word: Emal</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="UnsubscribeBy">
+    <value>Darse de baja antes del</value>
+    <comment>word: Unsubscribe by</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="UnsubscribeWidgetDescription">
+    <value>Darse de baja de nuestro boletín de correo electrónico</value>
+    <comment>Unsubscribe widget description shown when EmailAddress unsubscribe mode is selected.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="UnsubscribeWidgetTitle">
+    <value>Darse de baja</value>
+    <comment>Unsubscribe widget title shown when EmailAddress unsubscribe mode is selected.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="Link">
+    <value>Enlace</value>
+    <comment>word: Link</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="UnsubscribedFromMailingListSuccessMessage">
+    <value>Usted se dio de baja con éxito de nuestro boletín ({0}). Gracias.</value>
+    <comment>Unsubscribe message shown when the user is successfully unsubscribed by email address.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="SubscribeSuccessful">
+    <value>&lt;strong&gt;Gracias&lt;/strong&gt; &lt;br/&gt; Se ha suscrito con éxito a nuestro boletín ({0})</value>
+    <comment>Message shown when the user is successfully subscribed.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="CssClasses">
+    <value>Clases CSS</value>
+    <comment>phrase : CSS classes</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="ModuleNotLicensed">
+    <value>La funcionalidad "Campañas de Correo Electrónico" está deshabilitada ya que el módulo "Campañas de Correo Electrónico" no tiene licencia.</value>
+    <comment>Module Not Licensed message</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="MissingMailingList">
+    <value>Se ha eliminado la lista de correo seleccionada.</value>
+    <comment>phrase: The selected mailing list has been deleted.</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="Close">
+    <value>Cerrar</value>
+    <comment>word: Close</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="SuccessfullySubmittedLabel">
+    <value>Cuando el formulario es enviada correctamente...</value>
+    <comment>phrase: When the form is successfully submitted...</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="ButtonUnsubscribe">
+    <value>Darse de baja</value>
+    <comment>word: Unsubscribe</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+  <data name="MailingList">
+    <value>Listas de correo</value>
+    <comment>phrase: Mailing lists</comment>
+    <lastModified>2025-11-25T20:22:24</lastModified>
+  </data>
+</root>

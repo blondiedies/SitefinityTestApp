@@ -1,0 +1,780 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AllowFilterDescription">
+    <value>Si se establece en "false", entonces se deshabilitará el filtrado para esta propiedad y viceversa.</value>
+    <comment>Description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TypeEnabledTitle">
+    <value>Habilitado</value>
+    <comment>Description of the type enabled title.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResolverTypeDescription">
+    <value>Cada propiedad de navegación tiene una configuración ResolverType que es la implementación de cómo se consultan los datos para el artículo actual. El API para las propiedades personalizadas de navegación no es público. El desarrollador puede elegir entre tres tipos de resolución de navegación: Persistente, RelatedData, Taxonomía y Comentarios.</value>
+    <comment>Description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DefaultRouteNameTitle">
+    <value>Nombre de la ruta predeterminada</value>
+    <comment>Description about the default route name.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AutoSelectFields">
+    <value>Seleccionar automáticamente campos recién creados</value>
+    <comment>Gets the auto select fields label.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ThisServiceIsActive">
+    <value>Este servicio está activo</value>
+    <comment>Gets the activation checkbox label for service</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ReadOnly">
+    <value>Solo lectura</value>
+    <comment>Gets the Read only radio button</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FieldType">
+    <value>Tipo de campo</value>
+    <comment>Gets the fields type label</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PropertyNameTitle">
+    <value>Nombre</value>
+    <comment>Description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SortOnlyDropDown">
+    <value>Solo ordenar</value>
+    <comment>Gets the Sort only drop down label</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="StrategyTypeTitle">
+    <value>Tipo de estrategia personalizada</value>
+    <comment>Description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateThisService">
+    <value>Crear este servicio</value>
+    <comment>Gets the crate service button title</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AllContentTypes">
+    <value>Todos los tipos de contenido ({0})</value>
+    <comment>Gets the all content types label</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AuthenticatedUsers">
+    <value>Usuarios autenticados &lt;br/&gt;&lt;span class='sfSecondaryTxt'&gt;Los usuarios autenticados pueden leer y escribir (de acuerdo a sus permisos)&lt;/span&gt;</value>
+    <comment>Gets the Authenticated Users</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ClrTypeTitle">
+    <value>Tipo CLR</value>
+    <comment>Description of the clr type title.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="GetByKeyDocumentation">
+    <value>Obtiene {0} artículo según id.</value>
+    <comment>Description about Get(key) method in DynamicDataController</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UniqueNameUrl">
+    <value>Un servicio con el mismo {0} existe: {1}</value>
+    <comment>Gets the service validation message for name or url.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="WhichFieldsToUse">
+    <value>El registro muestra hora de compilación e información de la página.</value>
+    <comment>Gets the Which fields to use label</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AuthenticatedDropDown">
+    <value>Autenticados</value>
+    <comment>Gets the Authenticated users  drop down label</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResolverTypeParametersDescription">
+    <value>Configura los parámetros pasados al tipo de resolución.</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ServiceTypesDescriptionInConfig">
+    <value>Cada servicio puede tener uno o más tipos. Hay tres distintos tipos de ajustes que el usuario puede registrar. La entrada TypeSettings se debe utilizar para todos los tipos que no tienen un ciclo de vida. La entrada LifecycleTypeSettings se utiliza para los tipos que tienen un ciclo de vida, p. ej., noticias, eventos, posts de blogs, todos tipos dinámicos. La entrada  CustomStrategyTypeSettings se utiliza para especificar un tipo que no es manejado mediante la convención estándar con Administradores y Proveedores.</value>
+    <comment>Description about the service enabled description.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CalculatedResolverTypeTitle">
+    <value>Tipo de resolución</value>
+    <comment>Description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="StatusTitle">
+    <value>Estado del ciclo de vida</value>
+    <comment>Description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="RoutesTitle">
+    <value>Rutas</value>
+    <comment>Description about the route collection title.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="StatusDescription">
+    <value>Este es el estado del ciclo de vida de los artículos que se procesarán. Tiene dos ajustes, Master y Live. Si se establece en "Live", solo se procesarán los artículos en el estatus "Live". Si se establece en "Master", solo se procesarán los artículos en el estado "Master".</value>
+    <comment>Description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AllowCors">
+    <value>Solo permitir usuarios de dominios específicos</value>
+    <comment>Gets the allow cors label</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SortFilterColumn">
+    <value>Capacidad para filtrar / ordenar</value>
+    <comment>Gets the filter/sort column header</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ServiceUrlNameDescription">
+    <value>El nombre de URL del servicio.</value>
+    <comment>Description about the service description.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateRefDocumentation">
+    <value>Añadir {0} relación a {1} artículo.</value>
+    <comment>Description about CreateRef method in DynamicDataController</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ReadOnlyTitle">
+    <value>Solo lectura</value>
+    <comment>Description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ContentsLabel">
+    <value>{0} y {1} más</value>
+    <comment>Gets the contents label with first 3 contents and others count.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PutDocumentation">
+    <value>Actualización completa para {0} artículo.</value>
+    <comment>Description about Put method in DynamicDataController</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Advanced">
+    <value>Avanzado</value>
+    <comment>Gets the Advanced label for settings button</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AllowSortTitle">
+    <value>Permitir clasificación.</value>
+    <comment>Description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="BackToServices">
+    <value>Volver a Servicios</value>
+    <comment>Gets the back to services list</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="IsKeyTitle">
+    <value>Es la clave</value>
+    <comment>Description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PostDocumentation">
+    <value>Crea un artículo {0}.</value>
+    <comment>Description about Post method in DynamicDataController</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ContentType">
+    <value>Tipo de contenido</value>
+    <comment>Gets the content type</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FilterOnlyDropDown">
+    <value>Solo filtrar</value>
+    <comment>Gets the Filter only drop down label</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="GoToServicesConfig">
+    <value>Ir a configurar una ruta</value>
+    <comment>Gets the service route configuration link message</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AllContents">
+    <value>Todos los tipos de contenido</value>
+    <comment>Gets the all content types label.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PersistentNameDescription">
+    <value>El nombre persistente de la propiedad. Este es el nombre de la propiedad en el tipo de CLR real. Si no se especifica, se utiliza la propiedad Nombre.</value>
+    <comment>Description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="HelpPageLink">
+    <value>Utilice en su app</value>
+    <comment>Gets the help page link in Web services page</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AllowFilterTitle">
+    <value>Permitir filtro.</value>
+    <comment>Description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DefaultRouteNameDescription">
+    <value>Sitefinity tiene una comprensión de una ruta predeterminada. La Interfaz de usuario de backend para exposición de servicio depende de esta propiedad ya que permite la administración de los servicios para una sola ruta seleccionada.</value>
+    <comment>Description about the default route name.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PatchDocumentation">
+    <value>Actualización parcial para {0} artículo.</value>
+    <comment>Description about Patch method in DynamicDataController</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AdministratorsOnly">
+    <value>Sólo los administradores</value>
+    <comment>Gets the label for administrators only radio button</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PersistentNameTitle">
+    <value>Nombre persistente</value>
+    <comment>Description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeleteServiceTitle">
+    <value>¿Está seguro de que desea eliminar este servicio?</value>
+    <comment>Gets the deletion message for service</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AllowSortDescription">
+    <value>Si se establece en "false", entonces se deshabilitará la clasificación para esta propiedad y viceversa.</value>
+    <comment>Description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeleteDocumentation">
+    <value>Elimina un {0} artículo por Id.</value>
+    <comment>Description about Delete method in DynamicDataController</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ServiceNameDescription">
+    <value>El nombre del servicio, amigable para el usuario.</value>
+    <comment>Description about the service description.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ServiceName">
+    <value>Nombre</value>
+    <comment>Gets the name of the service</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ServiceTypesTitle">
+    <value>Tipos</value>
+    <comment>Description of the service types title.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SelectedByDefaultDescription">
+    <value>Este es un escenario que determina las propiedades que aparecerán implícitamente al consultar el tipo de servicio. P. ej., Rótulos y Categorías no son seleccionados de manera predeterminada porque se trata de propiedades que causan consultas a las bases de datos y serán una sobrecarga si se seleccionan de manera predeterminada para una gran cantidad de artículos.</value>
+    <comment>Description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DescriptionDescription">
+    <value>Obtiene la descripción que se entregará con los metadatos.</value>
+    <comment>Description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="GetPropertyDocumentation">
+    <value>Obtiene {0} propiedad de {1} artículo.</value>
+    <comment>Description about GetProperty method in DynamicDataController</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ApiServices">
+    <value>Servicios web</value>
+    <comment>Gets the Web services dashboard title</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TypeAccessTitle">
+    <value>Acceso</value>
+    <comment>Description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="InvalidName">
+    <value>Nombre no válido: "{0}" .</value>
+    <comment>Gets the Invalid name negative message.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AdminsAccess">
+    <value>Autenticado (solo lectura)</value>
+    <comment>Gets the Admin access for types.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="GetDocumentation">
+    <value>Devuelve una serie de artículos de datos de tipo {0}.</value>
+    <comment>Description about Get method in DynamicDataController</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AuthenticatedAccess">
+    <value>Autenticado (lectura y escritura)</value>
+    <comment>Gets the Authenticated access for types.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ServicesDescription">
+    <value>La colección de servicios que contiene esta ruta.</value>
+    <comment>Description about the services collection.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AutoSelectContentTypes">
+    <value>Seleccionar automáticamente tipos de contenido recién creados</value>
+    <comment>Gets the auto select content types label</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CalculatedResolverTypeDescription">
+    <value>El tipo de resolución de propiedad calculada que se invocará cuando se requiera la propiedad con el nombre registrado. Nota: las propiedades calculadas son de solo lectura.</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ServiceNameTitle">
+    <value>Nombre</value>
+    <comment>Description of the service name title.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Everyone">
+    <value>Todo el mundo &lt;br/&gt;&lt;span class='sfSecondaryTxt'&gt;Todo el mundo puede leer; los usuarios autenticados pueden escribir (en función de sus permisos)&lt;/span&gt;</value>
+    <comment>Gets the Everyone</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResolverTypeTitle">
+    <value>Tipo de resolución</value>
+    <comment>Description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SelectedContentTypes">
+    <value>Tipos de contenido seleccionados ({0})</value>
+    <comment>Gets the selected content types label</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EveryoneDropDown">
+    <value>Todos</value>
+    <comment>Gets the Everyone drop down label</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NoDefaultRoute">
+    <value>Se debe configurar la ruta predeterminada, antes de crear servicios web.</value>
+    <comment>Gets the warning message if it is not set or it is deleted default route.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PageSizeTitle">
+    <value>Tamaño de página predeterminado</value>
+    <comment>Description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="GetRelatedDocumentation">
+    <value>Devuelve una serie de artículos relacionados de tipo {0} de {1} artículo.</value>
+    <comment>Description about GetRelated method in DynamicDataController</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="GetRelatedByKeyDocumentation">
+    <value>Devuelve un artículo relacionado de tipo {0} de {1} artículo.</value>
+    <comment>Description about GetRelated({key}) method in DynamicDataController</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateService">
+    <value>Crear un servicio web</value>
+    <comment>Gets the create web service button value</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="InvalidUrl">
+    <value>Nombre de URL no válido: "{0}" .</value>
+    <comment>Gets the Invalid url negative message.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NoApiServicesYet">
+    <value>Aún no se han creado servicios de web</value>
+    <comment>Gets the label for empty screen.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AllowCorsExample">
+    <value>Permitir control de acceso HTTP (CORS) para dominios específicos. &lt;br/&gt; Ingrese un dominio por línea.</value>
+    <comment>Gets the allow cors example text</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ServiceAccessDescription">
+    <value>La propiedad Acceso se utiliza para proteger el servicio. Se trata de una enumeración y tienes tres valores: Anónimo, Autenticado y Admin. El valor predeterminado si esta propiedad está autenticada.</value>
+    <comment>Description about the service enabled description.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ServiceApiTitle">
+    <value>Servicios web</value>
+    <comment>Gets the Service API Title</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AutogenerateTypesTitle">
+    <value>Generación automática de tipos</value>
+    <comment>Description of the service access title.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="RequiredFields">
+    <value>Son necesarios campos de nombre y nombre de URL.</value>
+    <comment>Gets the required name and url fields negative message.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TypeUrlNameDescription">
+    <value>El nombre de la URL de la ruta. Esta propiedad es única por servicio.</value>
+    <comment>Description of the type enabled title.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MethodQueryStringTitle">
+    <value>Cadena de consulta</value>
+    <comment>Description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PropertyMappingsDescription">
+    <value>Cada tipo puede tener propiedades que le son asignadas. Hay tres tipos principales de propiedades: Persistente, Calculada, de Navegación y Compleja.</value>
+    <comment>Description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MethodsDescription">
+    <value>La funcionalidad de los métodos de tipo se puede utilizar para predefinir URL semánticas para manejar las peticiones. Por ejemplo, si no desea consultar el servicio mediante la cadena de consulta odata via /api/default/newsitems?$filter=startswith(Title, 'test'), podría asignar la URL /api/default/newsitems/filtered a la cadena de consulta anterior.</value>
+    <comment>Description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AccessTitle">
+    <value>¿Quién puede acceder al contenido mediante este servicio?</value>
+    <comment>Gets the access field title.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ServiceUrlNameTitle">
+    <value>Nombre de URL</value>
+    <comment>Description of the service name title.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="RouteNameTitle">
+    <value>Nombre de ruta</value>
+    <comment>Description of the route name.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ServiceUrl">
+    <value>Nombre de URL</value>
+    <comment>Gets the service url name</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ServiceEnabledDescription">
+    <value>Habilita o deshabilita un servicio. No se puede acceder a un servicio deshabilitado.</value>
+    <comment>Description about the service enabled description.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EnterDomain">
+    <value>Ingresar un dominio por línea</value>
+    <comment>Gets the helper text below allowing cors text field</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SelectedByDefaultTitle">
+    <value>Seleccionado de manera predeterminada</value>
+    <comment>Description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UrlNameDescription">
+    <value>El nombre de URL de la ruta.</value>
+    <comment>Description about the url name of the route.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="RouteNameDescription">
+    <value>El nombre de la ruta, amigable para el usuario.</value>
+    <comment>Description about the rotue collection.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ServiceAccessTitle">
+    <value>Acceso</value>
+    <comment>Description of the service access title.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MethodNameTitle">
+    <value>Nombre</value>
+    <comment>Description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PropertyMappingsTitle">
+    <value>Asignaciones de propiedad</value>
+    <comment>Description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AdministratorsDropDown">
+    <value>Administradores</value>
+    <comment>Gets the Administrators drop down label</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AutogenerateTypesDescription">
+    <value>Si se establece en "true", entonces los tipos de servicio se rellenarán automáticamente desde los tipos recomendados de OOB Sitefinity y sus propiedades. Usted es libre de manipular los tipos generados automáticamente o incluso agregar más a la colección ya generada. Cada campo o tipo dinámico personalizado recién añadido/eliminado será añadido o eliminado respectivamente de manera automática de esta colección. Si se establece en "false", entonces el desarrollador es responsable de mantener la colección de tipos.</value>
+    <comment>Description about the service enabled description.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MethodsTitle">
+    <value>Métodos predefinidos.</value>
+    <comment>Description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="RoutesDescription">
+    <value>Una colección de rutas que expone Sitefinity.</value>
+    <comment>Description about the rotue collection.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ServiceEnabledTitle">
+    <value>Habilitado</value>
+    <comment>Description of the service enabled title.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeleteRefByKeyDocumentation">
+    <value>Eliminar relación de tipo {0} de {1} artículo.</value>
+    <comment>Description about DeleteRef method in DynamicDataController</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DescriptionTitle">
+    <value>Descripción</value>
+    <comment>Description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResolverTypeParametersTitle">
+    <value>Parámetros</value>
+    <comment>Description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeleteService">
+    <value>Eliminar este servicio</value>
+    <comment>Gets the delete message for delete button.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="StrategyTypeDescription">
+    <value>El CustomStrategyType se utiliza para procesar un tipo que no es manejado a través de la convención estándar con Gerentes y Proveedores. Por el momento solo hay una implementación de ese estilo y es para comentarios. Tiene un tipo de estrategia de Telerik.Sitefinity.Web.Api.Strategies.CommentStrategy. La API para realizar tipos personalizados no es pública y solo se utiliza para los Comentarios.</value>
+    <comment>Description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TypeUrlNameTitle">
+    <value>Nombre de URL</value>
+    <comment>Description of the type enabled title.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TypeEnabledDescription">
+    <value>La propiedad Habilitado indica si el tipo está expuesto o no. Si se establece en "habilitado", el tipo será expuesto al público. Si se establece en "no habilitado", entonces el tipo no será expuesto al público.</value>
+    <comment>Description of the type enabled title.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ServiceApiResourcesTitle">
+    <value>Servicios web</value>
+    <comment>Gets the Service API Title</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ReadOnlyDescription">
+    <value>Si establece en "false", esta propiedad no permitirá que se escriba en ella y viceversa.</value>
+    <comment>Description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FilterAndSortDropDown">
+    <value>Filtrar y ordenar</value>
+    <comment>Gets the Sort only drop down label</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ReadAndWrite">
+    <value>Leer y escribir &lt;span class='sfSecondaryTxt'&gt;(de acuerdo a su permiso)&lt;/span&gt;</value>
+    <comment>Gets the Read and write radio button</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PropertyNameDescription">
+    <value>El nombre de la propiedad. No puede tener dos propiedades con el mismo nombre. La propiedad Nombre se puede utilizar para cambiar el nombre de las propiedades.</value>
+    <comment>Description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MethodNameDescription">
+    <value>El nombre del método, amigable para el usuario. Esto actúa como la clave en la URL mediante la cual se accede al método.</value>
+    <comment>Description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PageSizeDescription">
+    <value>La propiedad Tamaño de página es la predeterminada cuando no se especifica ningún parámetro $top.</value>
+    <comment>Description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeleteRefDocumentation">
+    <value>Eliminar conjunto de artículos relacionados de tipo {0} de {1} artículo.</value>
+    <comment>Description about DeleteRef method in DynamicDataController</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="IsKeyDescription">
+    <value>Si se establece en "true", entonces esta propiedad se utilizará para una clave en todas las llamadas al tipo de padre.</value>
+    <comment>Description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ServiceTypesDescription">
+    <value>Este servicio proporciona acceso a...</value>
+    <comment>Gets the service provided access</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ClrTypeDescription">
+    <value>El nombre completo del tipo .NET</value>
+    <comment>Description of the clr type description.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Access">
+    <value>Acceso</value>
+    <comment>Gets the Access</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MethodQueryStringDescription">
+    <value>La cadena de consulta utilizada para la reasignación de la URL. P. ej.. $filter=Id eq 8C8789B1-DEF6-4A8A-8D94-27487A6185CB o Id eq F63AC433-45E5-4E44-BA5D-24E66E74412D&amp;$orderby=Title asc</value>
+    <comment>Description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EditService">
+    <value>Editar un servicio web</value>
+    <comment>Gets the Edit label</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UrlNameTitle">
+    <value>Nombre de URL</value>
+    <comment>Description of the url name.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TypeAccessDescription">
+    <value>La propiedad Acceso tiene la misma lógica que a nivel de servicio. Sin embargo, cuando se especifica por tipo, se tendrá en cuenta el nivel de acceso del tipo. Si se deja vacío, regresará al AccessLevel del servicio.</value>
+    <comment>Description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Fields">
+    <value>Campos</value>
+    <comment>Gets the fields</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AccessControlAllowOriginDescription">
+    <value>La propiedad AccessControlAllowOrigin especificó los dominios a los que se les permite acceso al servicio, también conocido como la política CORS. De manera predeterminada, CORS está habilitada y al utilizar este ajuste, el desarrollador puede controlar cuáles dominios tienen acceso al servicio. Esta es una lista separada por comas de dominios permitidos.</value>
+    <comment>Description about the service enabled description.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="InheritAccessForType">
+    <value>Según lo establecido para el servicio</value>
+    <comment>Gets the Access for type same as service access.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ServicesTitle">
+    <value>Servicios</value>
+    <comment>Description of the services title.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Field">
+    <value>Campo</value>
+    <comment>Gets the fields label</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+</root>

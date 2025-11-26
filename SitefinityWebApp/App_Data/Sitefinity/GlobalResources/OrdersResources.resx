@@ -1,0 +1,3275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ManageOrders">
+    <value>Administrar Pedidos</value>
+    <comment>word: Manage Orders</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SortByOldest">
+    <value>Primero los más antiguo</value>
+    <comment>phrase: Oldest first</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CardholderNameIsRequired">
+    <value>Es necesario escribir el nombre del titular de la tarjeta</value>
+    <comment>The message shown to the user if credit card cardholder name is not entered.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Zip">
+    <value>Código postal</value>
+    <comment>word: Zip</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MoneySpent">
+    <value>Dinero gastado</value>
+    <comment>phrase: Money spent</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NoPaging">
+    <value>Sin paginación</value>
+    <comment>phrase: No paging</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodsNodeTitle">
+    <value>Métodos de pago</value>
+    <comment>Title of the payment methods node.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ToPostalCode">
+    <value>Para el ZIP / Código postal</value>
+    <comment>Label for the last postal code in a range of postal codes used in tax calculations.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TotalDiscounts">
+    <value>Total de Descuentos</value>
+    <comment>word: Total Discounts</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DiscountNameCannotBeEmpty">
+    <value>El nombre de descuento no puede estar vacío</value>
+    <comment>phrase: Discount name cannot be empty</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SomeProductsNotAvailableInOrder">
+    <value>Uno o más productos no están disponibles en el pedido.</value>
+    <comment>SomeProductsNotAvailableInOrder</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShippingMethodNameCannotBeEmpty">
+    <value>Se debe establecer el nombre del método de envío.</value>
+    <comment>The message shown to user if no name for the shipping method has been entered.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ZipBillingIsRequired">
+    <value>Es necesario escribir el código postal del destino de facturación</value>
+    <comment>The message shown to the user if zip code for the billing destination is not specified.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ItemRemovedFromWishlist">
+    <value>{0} ha sido eliminado de su lista de deseos.</value>
+    <comment>Message that gets shown when remove is successful on wishlist</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EmailShippingIsRequired">
+    <value>Es necesario escribir el correo electrónico de envío</value>
+    <comment>The message shown to the user if shipping email is not entered.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodLiveUsernameRequired">
+    <value>Se requiere el nombre de usuario directo del método de pago</value>
+    <comment>The payment method live username is required</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrdersNodeUrlName">
+    <value>Pedidos</value>
+    <comment>Url name of the orders node.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="WithMoreThanOneOrder">
+    <value>Con más de 1 pedido</value>
+    <comment>phrase: With more than 1 order</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ChangeStatus">
+    <value>Cambiar estado…</value>
+    <comment>Change status...</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodTransactionKeyRequired">
+    <value>Se requiere la clave de transacción paral método de pago</value>
+    <comment>phrase: The payment method transaction key is required</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AllowUserToMoveProductsToWishlist">
+    <value>Permitir al usuario mover los productos a la lista de deseos</value>
+    <comment>Phrase: Allow user to move products to wish list</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BackToCustomers">
+    <value>Volver a los clientes</value>
+    <comment>Back To Customers</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ApplyTaxToShippingTitle">
+    <value>Aplicar impuesto al envío</value>
+    <comment>phrase: Apply tax to shipping title.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="YouAreNotAllowedToDownloadThisFile">
+    <value>No está autorizado a descargar este archivo, ya que no lo ha comprado</value>
+    <comment>You are not allowed to download this file as you have not purchased the product</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CheckoutProductNoInventoryNoShipping">
+    <value>Lo sentimos, pero el producto &lt;strong&gt;{0}&lt;/strong&gt; ha sido eliminado de su carrito de compras. Esto puede deberse a que el inventario se agotó. Puede realizar su pedido sin este producto. El precio total ha sido recalculado.</value>
+    <comment>Shown to the user when product inventory is empty for a product at the checkout step</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrderSummaryViewFriendlyName">
+    <value>Resumen del Pedido</value>
+    <comment>phrase: Order Summary</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShoppingCartPropertyEditorTitle">
+    <value>Carrito de Compras</value>
+    <comment>Property editor title for Shopping cart widget.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Times">
+    <value>veces.</value>
+    <comment>times</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Mode">
+    <value>Modo</value>
+    <comment>The Payment Method test mode</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AddToWishlist">
+    <value>añadir a lista de deseos</value>
+    <comment>add to wish list</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Heartland">
+    <value>Heartland</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BackToItems">
+    <value>Volver a los artículos</value>
+    <comment>phrase: Back to items</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TaxClassTitleTooLong">
+    <value>La longitud del título de la clase de impuestos no puede exceder los 255 caracteres.</value>
+    <comment>The message shown to user if the title is longer than 255 characters.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DiscountMinimumSubtotalIsInvalid">
+    <value>El subtotal mínimo debe ser un valor numérico.</value>
+    <comment>The message shown to the user if the discount minimum subtotal is not valid.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CheckoutRequiresLogIn">
+    <value>Permitir que los usuarios anónimos realicen pedidos</value>
+    <comment>phrase: Allow anonymous users to place orders</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ExpirationDateExceeded">
+    <value>Por favor, introduzca una fecha de vencimiento en el futuro.</value>
+    <comment>Message to show to users who enter an expired credit card date.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LinkToContinueShopping">
+    <value>Enlace para seguir comprando</value>
+    <comment>phrase: Link to Product list page (to continue shopping)</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="StandardTaxRate">
+    <value>Tarifa estándar</value>
+    <comment>The standard tax rate.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TaxesWereNotImported">
+    <value>Los impuestos no se importaron con éxito</value>
+    <comment>Taxes were not imported successfully</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodVendorRequired">
+    <value>Se requiere el proveedor del método de pago</value>
+    <comment>The payment method vendor required</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SharingWishlist">
+    <value>Echa un vistazo a mi Lista de Deseos -</value>
+    <comment>phrase: Wishlist not set up</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AddToCart">
+    <value>Añadir al carrito</value>
+    <comment>The label of the button that adds product to cart.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Discounts">
+    <value>Descuentos</value>
+    <comment>word: Discounts</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Service">
+    <value>Servicio</value>
+    <comment>word: Service</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShippingTaxRate">
+    <value>Tasa de impuesto de envío</value>
+    <comment>The shipping tax rate.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ClickToAddDescription">
+    <value>Hacer clic para añadir una descripción</value>
+    <comment>The label for the product description expand link</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="City">
+    <value>Ciudad</value>
+    <comment>word: City</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrderStatusReturned">
+    <value>Devuelto</value>
+    <comment>word: Returned</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Location">
+    <value>Ubicación</value>
+    <comment>Location</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DiscountNewCustomers">
+    <value>Nuevos clientes</value>
+    <comment>New customers</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ThisTaxClassIsActive">
+    <value>Esta clase de impuesto está activa</value>
+    <comment>Phrase: This tax class is active</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodLoginIdRequired">
+    <value>Se requiere id de acceso al método de pago</value>
+    <comment>phrase: The payment method login id is required</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UnableToDisplayOrderDetails">
+    <value>El sistema no ha podido mostrar los detalles del Pedido</value>
+    <comment>phrase: The system was unable to display the details for the Order</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EditAPaymentMethod">
+    <value>Editar un método de pago</value>
+    <comment>phrase: Edit a payment method</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RedirectToConfirmationPage">
+    <value>Redirigir a página de confirmación</value>
+    <comment>Phrase: Redirect to confirmation page</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ToDateShouldBeAfterFromDate">
+    <value>ToDateShouldBeAfterFromDate</value>
+    <comment>To date should be a after from date</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BuyNowButton">
+    <value>Comprar ahora</value>
+    <comment>phrase: Buy Now</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CountryOfDelivery">
+    <value>País de entrega</value>
+    <comment>phrase: Country of delivery</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="QuantitySold">
+    <value>Cantidad Vendida</value>
+    <comment>Quantity Sold</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FromPostalCode">
+    <value>Desde ZIP / Código postal</value>
+    <comment>Label for the first postal code in a range of postal codes used in tax calculations.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FDMSSouth">
+    <value>First Data Merchant Services South</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CreateCouponCodeForDiscountTextboxLabel">
+    <value>Crear un código de cupón</value>
+    <comment>The label for the Create Coupon Code textbox.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShoppingCart">
+    <value>Carrito de Compras</value>
+    <comment>The title of the shopping cart</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Confirmation">
+    <value>Confirmación</value>
+    <comment>word: Confirmation</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CouponCodeDoesNotApplyToCurrentCartOrder">
+    <value>El código ingresado no se puede aplicar al pedido actual</value>
+    <comment>Message that displays when the user enters a coupon code for an order that it cannot be applied to.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CannotDeleteCustomer">
+    <value>No se puede eliminar {0}, ya que hay pedidos asociados con este cliente.</value>
+    <comment>Message that gets shown when a customer cannot be deleted.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShoppingCartTemplate">
+    <value>Plantilla del carrito de compras</value>
+    <comment>phrase: Shopping cart template.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DiscountExistingCustomers">
+    <value>Clientes actuales</value>
+    <comment>Existing customers</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BackToPaymentMethods">
+    <value>Volver a los métodos de pago</value>
+    <comment>phrase: Back to payment methods</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShoppingCartSummaryViewPropertyEditorTitle">
+    <value>Resumen del carrito de compras</value>
+    <comment>title: Shopping cart summary</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Sales">
+    <value>Ventas</value>
+    <comment>Word: Sales</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodLiveAccountNumberRequired">
+    <value>Se requiere el número de cuenta directo del método de pago</value>
+    <comment>The payment method account number is required</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodTimeout">
+    <value>Tiempo de espera</value>
+    <comment>The Payment Method timeout</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FilterCustomers">
+    <value>Filtrar clientes</value>
+    <comment>phrase: Filter customers</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentOptions">
+    <value>Opciones de pago</value>
+    <comment>phrase: Payment options</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ProductOptions">
+    <value>Opciones</value>
+    <comment>phrase: Options</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PreviewFriendlyName">
+    <value>Vista previa</value>
+    <comment>Preview view friendly name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CouponCodeViewFriendlyName">
+    <value>Código del Cupón</value>
+    <comment>phrase: Coupon Code</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BasicStepsStep">
+    <value>Pasos Básicos</value>
+    <comment>phrase: Basic Steps</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CheckoutFriendlyName">
+    <value>Pago</value>
+    <comment>Checkout view friendly name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ImportTaxes">
+    <value>Importar impuestos</value>
+    <comment>phrase:Import Taxes</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShippingOptions">
+    <value>Opciones de envío</value>
+    <comment>phrase: Shipping options</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SaveChanges">
+    <value>Guardar cambios</value>
+    <comment>word: Save changes</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Change">
+    <value>Cambiar</value>
+    <comment>word: Change (a coupon code)</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NoDownloadsTemplate">
+    <value>No hay plantilla de descargas '</value>
+    <comment>phrase: 'No downloads' template</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DiscountStartDate">
+    <value>Fecha de inicio</value>
+    <comment>phrase: Discount start date</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Carrier">
+    <value>Transportista</value>
+    <comment>word: Carrier</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PermissionsForProducts">
+    <value>Permisos para los productos</value>
+    <comment>phrase: Permissions for products</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SelectStateProvince">
+    <value>-- Seleccionar estado / provincia --</value>
+    <comment>Instruction in drop-down to select a state or province.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrdersReports">
+    <value>Reportes de pedidos</value>
+    <comment>phrase: Orders reports</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Price">
+    <value>Precio</value>
+    <comment>word: Price</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="WishListToolboxName">
+    <value>Lista de deseos</value>
+    <comment>The title of the Wishlist widget in the toolbox.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrdersReportsByProductUrlName">
+    <value>reportes-por-producto</value>
+    <comment>Url name of the orders reports by product.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentReceived">
+    <value>Pago recibido.</value>
+    <comment>phrase: Payment received</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShippingInformation">
+    <value>Información de envío</value>
+    <comment>phrase: Shipping information</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Preview">
+    <value>Vista previa</value>
+    <comment>word: Preview</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CheckoutToolboxName">
+    <value>Pago</value>
+    <comment>The title of the checkout widget in the toolbox.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DiscountNameTooLong">
+    <value>La longitud del nombre de descuento no puede ser mayor que 255 caracteres.</value>
+    <comment>The message shown to user if the name is longer than 255 characters.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="IsActive">
+    <value>Está activo(a)</value>
+    <comment>phrase: Is Active</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ProductNotAvailable">
+    <value>Lo sentimos el producto solicitado no está disponible.</value>
+    <comment>phrase: Sorry the product you requested is currently not available.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Last30Days">
+    <value>Últimos 30 días</value>
+    <comment>phrase: Last 30 days</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LinkToProductsListPage">
+    <value>Enlazar a página de lista de productos</value>
+    <comment>phrase: Link to Product list page</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NotEnoughInventory">
+    <value>En este momento, este artículo no se puede añadir a su carrito de compras porque la cantidad solicitada excede el inventario actual. La cantidad se ha actualizado automáticamente a la mayormente disponible.</value>
+    <comment>NotEnoughInventory</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Weight">
+    <value>Peso</value>
+    <comment>word: Weight</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrderDiscountDeleted">
+    <value>Uno de los descuentos de este pedido ha sido eliminado. No está autorizado a modificar el estado del pedido a Pagado</value>
+    <comment>phrase: One of the discount in this order has been deleted, you are not allowed to move the order to Paid status</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LinkToConfirmationPage">
+    <value>Vínculo a la página de confirmación</value>
+    <comment>phrase: Link to confirmation page</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ItemCannotBeMovedToCart">
+    <value>Hubo algún problema con añadir el producto a su carrito. Por favor, inténtelo más tarde.</value>
+    <comment>Message that gets shown when move to cart is pressed on wishlist </comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UseTemplateForConfirmationStep">
+    <value>Utilizar plantilla para paso de confirmación</value>
+    <comment>Phrase: Use template for confirmation step</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodLiveLoginId">
+    <value>ID de Inicio de Sesión</value>
+    <comment>The payment method live login id</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodInstallationIdRequired">
+    <value>Se requiere el ID de instalación</value>
+    <comment>the installation id is required</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TaxRateIsInvalid">
+    <value>La tasa del impuesto debe ser un valor numérico; utilizar punto "." para el separador decimal.</value>
+    <comment>The message shown to the user if the tax rate is not valid.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShoppingCartViewPropertyEditorTitle">
+    <value>Carrito de Compras</value>
+    <comment>word: Shopping Cart</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AllCustomers">
+    <value>Todos los clientes</value>
+    <comment>phrase: All customers</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Step2Payment">
+    <value>&lt;strong class='sfStep'&gt;2&lt;/strong&gt; Pago</value>
+    <comment>word: Payment</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrderStatusPending">
+    <value>Pendiente</value>
+    <comment>word: Pending</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Note">
+    <value>&lt;strong&gt;Nota&lt;/strong&gt;</value>
+    <comment>Note</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodTestUsernameRequired">
+    <value>Se requiere el nombre de usuario de prueba del método de pago</value>
+    <comment>The payment method test username is required</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrderDetailViewFriendlyName">
+    <value>Detalles del Pedido</value>
+    <comment>Order detail view friendly name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CheckoutAreaTitle">
+    <value>Página de Pago de Comercio Electrónico</value>
+    <comment>Title of checkout area</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Subtotal">
+    <value>Subtotal</value>
+    <comment>word: Subtotal</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DiscountAmount">
+    <value>Importe del descuento &lt;em class="sfLblNote"&gt;(se aplica al subtotal)&lt;/em&gt;</value>
+    <comment>phrase: Discount Amount</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="InternetUrlViolationMessage">
+    <value>Este campo debe estar en el formato de una URL de Internet (por ejemplo, http://www.telerik.com)</value>
+    <comment>Message displayed when an internet url field is in the incorrect format</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UseShippingAddressAsBillingAddress">
+    <value>La dirección de facturación es la misma que la dirección de envío</value>
+    <comment>Message that indicates that billing address is same as the shipping address.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShoppingCartProductNoInventory">
+    <value>Lo sentimos, pero el producto &lt;strong&gt;{0}&lt;/strong&gt; ha sido eliminado de su carrito de compras. Esto puede deberse a que el inventario se agotó. Puede realizar su pedido sin este producto. El precio total ha sido recalculado.</value>
+    <comment>Shown to the user when product inventory is empty for a product in the customer's shopping cart</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrderStatusUnknown">
+    <value>Desconocido</value>
+    <comment>word: Unknown</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SortCustomersByDateLabel">
+    <value>Por fecha...</value>
+    <comment>phrase: Sort Customers by date...</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CreditCardNumberIsInvalid">
+    <value>El número de tarjeta de crédito no es válido. Por favor, compruebe que el número de tarjeta de crédito es correcto y que el tipo de tarjeta de crédito seleccionado en el menú desplegable es el correcto.</value>
+    <comment>The message shown to the user if the credit card number is invalid.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OffsitePaymentRedirect">
+    <value>Redireccionando al proveedor de pagos. Por favor, espere...</value>
+    <comment>phrase: Redirecting to the payment provider. Please wait... </comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TaxCity">
+    <value>Ciudad</value>
+    <comment>Label for city where tax applies.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShowInvoice">
+    <value>Mostrar Factura</value>
+    <comment>phrase: Show invoice</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ImportTaxesFromCsvFile">
+    <value>Importar tributos desde un archivo CSV</value>
+    <comment>Import taxes from a csv file</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TotalSales">
+    <value>Ventas totales</value>
+    <comment>Total sales</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Address1BillingIsRequired">
+    <value>Es necesario introducir la dirección de facturación</value>
+    <comment>The message shown to the user if billing address is not entered.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SelectCsvFile">
+    <value>Seleccionar un archivo CSV</value>
+    <comment>Select CSV file</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="HandlingTaxRate">
+    <value>Tasa de impuesto de manipulación</value>
+    <comment>The handling tax rate.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="GlobalPaymentsEast">
+    <value>Global Payments East</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrderInvoicePropertyEditorTitle">
+    <value>Factura del pedido</value>
+    <comment>Order invoice.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CartEmpty">
+    <value>Lamentamos informarle que durante su compra, los productos se agotaron.  Su carrito de compras está vacío.</value>
+    <comment>Shown to the user when shopping cart is empty on the checkout or shopping cart pages</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BillingAddressMissing">
+    <value>Falta la dirección de facturación</value>
+    <comment>phrase: Billing address is missing</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TaxRateCannotBeNegative">
+    <value>La tasa del impuesto no puede ser menor que cero.</value>
+    <comment>The message show to the user if the tax rate is negative.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CreatePaymentMethod">
+    <value>Crear método de pago</value>
+    <comment>phrase: Create payment method</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EwayCustomerId">
+    <value>ID de Cliente Eway</value>
+    <comment>phrase: Eway Customer Id</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodLiveUrlRequired">
+    <value>Se requiere la URL directa del método de pago</value>
+    <comment>The payment method live URL is required</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ZipShippingIsRequired">
+    <value>Es necesario escribir el código postal para la dirección del envío</value>
+    <comment>The message shown to the user if zip code for the shipping destination is not specified.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShippingMethodNameTooLong">
+    <value>La longitud del nombre del método de envío no puede exceder los 255 caracteres.</value>
+    <comment>The message shown to user if the shipping method title is longer than 255 characters.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="WishlistGuidEvaluatorDescription">
+    <value>Extrae la dirección URL en base al ID de la lista de deseos que se pasa</value>
+    <comment>The description of the Wishlist Guid URL Evaluator.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TaxCounty">
+    <value>Condado</value>
+    <comment>Label for county where tax applies.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ApplyCouponCode">
+    <value>Aplicar</value>
+    <comment>Label of the button that the user clicks to apply a discount</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FirstNameBillingIsRequired">
+    <value>Es necesario escribir el nombre que aparece en el estado de cuenta</value>
+    <comment>The message shown to the user if billing first name is not entered.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodTestAccountNumber">
+    <value>Probar Número de Cuenta</value>
+    <comment>The Payment Method test account number</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DiscountApplyForHeader">
+    <value>Aplicar descuento por...</value>
+    <comment>Apply discount for...</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Total">
+    <value>Total</value>
+    <comment>word: Total</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrdersSummaryReport">
+    <value>Informe de resumen de ventas</value>
+    <comment>Orders summary report</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TaxClassInternalName">
+    <value>Para los desarrolladores: nombre que se utiliza en el código</value>
+    <comment>For developers: name used in code</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodTransactionId">
+    <value>ID de Transacción</value>
+    <comment>phrase:Transaction ID</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CheckoutPropertyEditorTitle">
+    <value>Pago</value>
+    <comment>Property editor title for checkout widget.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PrintInvoice">
+    <value>Imprimir factura</value>
+    <comment>phrase: Print invoice</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Shipment">
+    <value>Despacho</value>
+    <comment>word: Shipment</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="YourDownloads">
+    <value>Sus descargas</value>
+    <comment>phrase: Your downloads</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CustomerColumnHeader">
+    <value>Cliente</value>
+    <comment>The Customer column header.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SkuSimple">
+    <value>SKU</value>
+    <comment>word: SKU</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BackToCustomer">
+    <value>Volver a los clientes</value>
+    <comment>Back To Customer</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NoPaymentMethodsHaveBeenCreatedYet">
+    <value>Aún no se han creado métodos de pago</value>
+    <comment>The message shown when no payment methods have yet been created.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrderDetailDescriptionTierPrices">
+    <value>&lt;span class='sfNewPrice'&gt;Descuento por cantidad&lt;/span&gt;</value>
+    <comment>Quantity discount</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AddressLine2">
+    <value>Línea de dirección 2</value>
+    <comment>phrase: Address line 2</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="WishlistNotSetUp">
+    <value>Lista de deseos no configurada</value>
+    <comment>phrase: Wishlist not set up</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NoDownloadableProductsPurchased">
+    <value>Usted aún no ha adquirido ningún producto para descargar.</value>
+    <comment>phrase: You haven't purchased any downloadable products yet.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DiscountAllCustomers">
+    <value>Todos los clientes</value>
+    <comment>All customers</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Step1BillingInformation">
+    <value>&lt;strong class='sfStep'&gt;1&lt;/strong&gt; Información de facturación</value>
+    <comment>phrase: Billing information</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DigitalDownloads">
+    <value>Descargas digitales</value>
+    <comment>phrase: Digital downloads</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OfflinePayment">
+    <value>Pago fuera de línea</value>
+    <comment>OfflinePayment header</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DiscountName">
+    <value>Nombre</value>
+    <comment>phrase: Discount Name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ConfirmationFriendlyName">
+    <value>Confirmación</value>
+    <comment>Confirmation view friendly name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrdersReportsByPeriodNodeUrlName">
+    <value>reportes-por-periodo</value>
+    <comment>Url name of the reports node.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SelectFromAvailableOptions">
+    <value>Por favor seleccione una de las opciones de productos disponibles</value>
+    <comment>Please select from available product options</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ViewShoppingCart">
+    <value>Ver carrito de compra</value>
+    <comment>phrase: View shopping cart</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodPartnerRequired">
+    <value>Socio</value>
+    <comment>The payment method partner required</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OlderOrders">
+    <value>Pedido(s) Antiguo(s)</value>
+    <comment>Header for the group of other orders in the OrdersList</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TaxName">
+    <value>Nombre</value>
+    <comment>The Name label for tax.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CartProductInventoryChange">
+    <value>Lo sentimos, pero el inventario disponible para el producto {0} ha sido cambiado a {1}. Debe regresar a la página de opciones de envío para recalcular el envío antes de realizar el pago.</value>
+    <comment>We apologize that the available inventory for product {0} has been changed to {1}.  You must return to the shipping options page to recalculate shipping before checking out.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NoShippingOptionsAreAvailable">
+    <value>No hay opciones de envío disponibles. Por favor, cree un método de envío para poder continuar.</value>
+    <comment>Message shown to the user if no shopping options are available.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DiscountMaximumSubtotalIsInvalid">
+    <value>El subtotal máximo debe ser un valor numérico.</value>
+    <comment>The message shown to the user if the discount maximum subtotal is not valid.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DiscountStartCannotBeEmpty">
+    <value>La fecha de inicio del descuento no puede estar vacía.</value>
+    <comment>Phrase: Discount start date cannot be empty.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrderInvoice">
+    <value>Factura de Pedido</value>
+    <comment>The title of the Orders Invoice widget.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NotAddedToCart">
+    <value>Este elemento no se puede añadir en este momento a su Carrito de Compras.</value>
+    <comment>Shown to the user when they cannot add an item to their shopping cart (exception, etc)</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RequireCouponForDiscountCheckboxLabel">
+    <value>Aplicar el descuento sólo si el cliente introduce un &lt;strong&gt;código de cupón&lt;/strong&gt;</value>
+    <comment>label for require coupon code checkbox</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MaximumSubtotalFieldDescription">
+    <value>Aplicar el descuento sólo si el subtotal es menor que esta cantidad</value>
+    <comment>phrase: Maximum subtotal field description</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Remove">
+    <value>Eliminar</value>
+    <comment>word: Remove</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodTestUrl">
+    <value>URL</value>
+    <comment>The Payment Method test url</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrderStatusPaid">
+    <value>Pagado</value>
+    <comment>word: Paid</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TaxRateGreaterThan100">
+    <value>La tasa del impuesto debe ser menor o igual al 100%.</value>
+    <comment>The message shown to the user if the tax rate is greater than 100%.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BillingAddress">
+    <value>Dirección de facturación</value>
+    <comment>phrase: Billing address</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ExpiredCouponCode">
+    <value>Código expirado</value>
+    <comment>Message that displays when the user enters a coupon code for an expired coupon.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TrackingNumber">
+    <value>Código de rastreo</value>
+    <comment>Tracking code</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CartDiscountChange">
+    <value>Lamentamos que uno o más descuentos hayan sido retirados de su carrito de compras.  El precio total ha sido calculado de nuevo.</value>
+    <comment>We apologize that one or more discounts were removed from your shopping cart.  The total price has been recalculated.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AnonymousUser">
+    <value>Usuario anónimo</value>
+    <comment>phrase: Anonymous user</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShoppingCartSummaryViewFriendlyName">
+    <value>Resumen de su Carrito</value>
+    <comment>Shopping cart view friendly name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrderNumber">
+    <value>Número de Pedido</value>
+    <comment>phrase: Order Number</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrdersListNotSetUp">
+    <value>La lista de pedidos no está configurada</value>
+    <comment>Phrase: Orders list not set up</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DuplicateTaxException">
+    <value>El impuesto con el título '{0}' ya tiene el mismo país (y estado) y la dirección "en base a" que usted está tratando de guardar.</value>
+    <comment>The message shown to the user if the tax information duplicates another tax.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ChangeStatusTitle">
+    <value>Cambiar Estado</value>
+    <comment>Change Status</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EditATax">
+    <value>Editar un impuesto</value>
+    <comment>phrase: Edit a tax</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OfflinePaymentDescription">
+    <value>(Por ejemplo, contraentrega, Banco)</value>
+    <comment>OfflinePaymentDescription header</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShoppingCartSettingsNodeUrlName">
+    <value>configuración-del-carrito-de-compras</value>
+    <comment>Url name of the shopping cart settings node.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodTimeoutViolationMessage">
+    <value>Debe introducir el tiempo de espera (en milisegundos) para el API del procesador de pago</value>
+    <comment>Message displayed when no payment processor API timeout is entered</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FirstName">
+    <value>Nombre</value>
+    <comment>phrase: First name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SortByNewest">
+    <value>Primero lo más muevo</value>
+    <comment>phrase: Newest first</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrderHasntBeenPaid">
+    <value>Su pedido no ha sido pagado.</value>
+    <comment>phrase: Your order hasn't been paid.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Step5Confirmation">
+    <value>&lt;strong class='sfStep'&gt;5&lt;/strong&gt; Confirmación</value>
+    <comment>word: Confirmation</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Today">
+    <value>Hoy</value>
+    <comment>Word: Today</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="GoogleConversionPropertyEditorTitle">
+    <value>Seguimiento de conversión de Google</value>
+    <comment>title: Google conversion tracking</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Import">
+    <value>Importar</value>
+    <comment>Import</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentTypeAuthorizeAndCapture">
+    <value>Autorizar y CapturaR</value>
+    <comment>Processor payment type</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ItemsInCheckoutNotAvailable">
+    <value>Algunos de los artículos en la página de proceso de pago (envío, pago) ya no están disponibles. Haga clic en el botón Cambiar en su dirección de envío/facturación para iniciar nuevamente el proceso de pago.</value>
+    <comment>Message that gets shown when some items which are part of checkout are deleted by the merchant in the backend while the customer is in the process of checkout</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Nova">
+    <value>Nova (Elavon)</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CityBillingIsRequired">
+    <value>Es necesario escribir la ciudad de facturación</value>
+    <comment>The message shown to the user if billing city is not specified.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodNameFieldControlExample">
+    <value>Ejemplo: Tarjeta de Crédito</value>
+    <comment>The example text shown on the Create Payment Method screen.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="HandlingTaxRateCannotBeNegative">
+    <value>La tasa del impuesto de manejo no puede ser menor que cero.</value>
+    <comment>The message show to the user if the handling tax rate is negative.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ItemMovedToCart">
+    <value>{0} ha sido añadido a su carrito de compras.</value>
+    <comment>Message that gets shown when move to cart is successful on wishlist</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CartEmptyOnCheckout">
+    <value>Lo lamentamos, pero los productos en su carrito ya no están disponibles.   Por favor, siga comprando.</value>
+    <comment>Shown to the user when shopping cart is empty after clicking on Checkout button</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CartProductNoInventory">
+    <value>Lo sentimos, pero el producto &lt;strong&gt;{0}&lt;/strong&gt; ha sido eliminado de su carrito de compras. Esto puede deberse a que el inventario se agotó. Debe volver a la página de opciones de envío para recalcular envío antes de realizar el pago.</value>
+    <comment>Shown to the user when product inventory is empty for a product in the customer's shopping cart</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DigitalDownloadsPropertyEditorTitle">
+    <value>Descargas digitales</value>
+    <comment>Property editor title for the digital downloads widget.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Details">
+    <value>¡Datos!</value>
+    <comment>Header column for payment method grid.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BackToTaxes">
+    <value>Volver a los impuestos</value>
+    <comment>phrase: Back to taxes</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentProcessingError">
+    <value>Se produjo un error al procesar su pago. Por favor, inténtelo de nuevo más tarde.</value>
+    <comment>Phrase: There was an error processing your payment. Please try again at a later time.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BasedOn">
+    <value>Basado en</value>
+    <comment>Label in create / edit tax dialogs.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ProductQuantityIsInvalid">
+    <value>La cantidad debe ser mayor que 0 y menor que 9999.</value>
+    <comment>The message shown to the user if the quantity in the is not valid when trying to add to cart.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShoppingCartSummaryToolboxDescription">
+    <value>Resumen del Carrito de Compras del usuario actual</value>
+    <comment>The description of the shopping cart summary widget in the toolbox.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RequiredField">
+    <value>(requerido)</value>
+    <comment>RequiredField</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Free">
+    <value>Gratis</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShoppingCartProductInventoryChange">
+    <value>Lo sentimos, pero el inventario disponible para el producto {0} ha sido cambiado a {1}. Puede realizar su pedido con esta cantidad reducida. El precio total ha sido recalculado.</value>
+    <comment>We apologize that the available inventory for product {0} has been changed to {1}.  You may place your order with this reduced quantity.  The total price has been recalculated.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SecurityCode">
+    <value>Código de seguridad</value>
+    <comment>phrase: Security code</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DiscountInfo">
+    <value>Información de Descuento</value>
+    <comment>Discount Info</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CloseDateFilter">
+    <value>Cerrar fechas</value>
+    <comment>The link for closing the date filter widget in the sidebar.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PayPal">
+    <value>PayPal</value>
+    <comment>Paypal</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NoTaxClassesHaveBeenCreatedYet">
+    <value>Aún no se han creado clases de impuesto</value>
+    <comment>Message shown when there are no tax classes created</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="VATTax">
+    <value>Impuesto IVA</value>
+    <comment>word: VAT Tax</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ReportsByRegion">
+    <value>Ventas por región</value>
+    <comment>phrase: Reports by region</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TaxClassesNodeUrlName">
+    <value>tax-classes</value>
+    <comment>Url name of the tax classes node.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EmptyCouponCode">
+    <value>Por favor, introduzca un código.</value>
+    <comment>Message that displays when user enters an empty coupon code</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShoppingCartNotSetUp">
+    <value>Carrito de Compras no configurado</value>
+    <comment>phrase: Shopping cart not set up</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BasePrice">
+    <value>Precio Base</value>
+    <comment>word: Base Price</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BuyNowNotSetUp">
+    <value>Compre Ahora no configurado</value>
+    <comment>phrase: Buy now not set up</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Litle">
+    <value>Litle</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodPassword">
+    <value>Contraseña</value>
+    <comment>The payment method password</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="QuantityColon">
+    <value>Cantidad:</value>
+    <comment>word: Quantity</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Shipping">
+    <value>Envío</value>
+    <comment>word: Shipping</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodPasswordRequired">
+    <value>Se requiere la contraseña del método de pago</value>
+    <comment>phrase: The payment method password is required</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NoPaymentProcessorConfigured">
+    <value>No hay ningún procesador de pagos configurado</value>
+    <comment>phrase:No payment processor configured</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ViewOrderDetails">
+    <value>Ver detalles del pedido</value>
+    <comment>phrase: View order details</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CommentOptional">
+    <value>Comentario &lt;em class='sfNote'&gt;(opcional)&lt;/em&gt;</value>
+    <comment>Comment &lt;em class='sfNote'&gt;(optional)&lt;/em&gt;</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="InvalidCouponCode">
+    <value>Código no válido</value>
+    <comment>Message that displays when user enters a non-existent coupon code.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrderDiscountReachedLimit">
+    <value>Uno de los descuentos de este pedido ha alcanzado su límite de uso, por favor actualice el uso del descuento y luego modifique el estado del pedido a Pagado</value>
+    <comment>phrase: One of the discount in this order has reached its usage limit, please update usage of the discount and then move the order to Paid status</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodLiveUsername">
+    <value>Nombre de usuario</value>
+    <comment>The payment method live username</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Close">
+    <value>Cerrar</value>
+    <comment>Close</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="VitalVisaNet">
+    <value>Vital / VisaNet (TSYS)</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TrackingNumberOptional">
+    <value>Código de rastreo &lt;em class='sfNote'&gt;(opcional)&lt;/em&gt;</value>
+    <comment>Tracking code &lt;em class='sfNote'&gt;(optional)&lt;/em&gt;</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AllowUserToAddProductsToWishlist">
+    <value>Permitir al usuario añadir productos a la lista de deseos</value>
+    <comment>Phrase: Allow user to add products to wish list</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ClickToDownload">
+    <value>Haga clic para descargar</value>
+    <comment>phrase: Click to download</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SwitchPrivacyToPrivate">
+    <value>Hacer privada</value>
+    <comment>phrase: Make your wishlist private</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NoDiscountsHaveBeenCreatedYet">
+    <value>Aún no se han creado descuentos</value>
+    <comment>The message shown when no discounts have yet been created.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrderPlacement_Failure">
+    <value>Hubo un problema al realizar su pedido. El pedido no se realizó.</value>
+    <comment>Message shown to user when order was not placed correctly.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="IncludeTaxInPrice">
+    <value>Incluir los precios mostrados en el sitio</value>
+    <comment>Label for include tax in price checkbox.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CreditCardVerificationCodeIsInvalid">
+    <value>Por favor, introduzca un código de seguridad válido.</value>
+    <comment>phrase: Please enter a valid security code.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Amount">
+    <value>Cantidad</value>
+    <comment>phrase: Amount</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ProductQuantityIsInvalidInShoppingCart">
+    <value>La cantidad debe ser entre 0 y 9999 (escribir 0 elimina el producto de su carrito).</value>
+    <comment>The message shown to the user if the quantity in the is not valid when trying to add to cart.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MaximumSubtotal">
+    <value>Subtotal máximo</value>
+    <comment>phrase: Maximum Subtotal</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Address1ShippingIsRequired">
+    <value>Es necesario escribir la dirección de envío</value>
+    <comment>The message shown to the user if shipping address is not entered.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodTestAccountNumberRequired">
+    <value>Se requiere el número de cuenta de prueba del método de pago</value>
+    <comment>The payment method account number is required</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CreateDiscount">
+    <value>Crear descuento</value>
+    <comment>phrase: Create discount</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EditATaxClass">
+    <value>Editar una clase de impuestos</value>
+    <comment>phrase: Edit a tax class</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Last90Days">
+    <value>Últimos 90 días</value>
+    <comment>phrase: Last 90 days</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AddressLine1">
+    <value>Línea de dirección 1</value>
+    <comment>phrase: Address line 1</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BuyNowTemplate">
+    <value>plantilla</value>
+    <comment>phrase: Template</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TaxNameFieldControlExample">
+    <value>Ejemplo: IVA</value>
+    <comment>An example of a tax name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShippingTaxRateIsInvalid">
+    <value>La tasa del impuesto al envío debe ser un valor numérico, utilizar punto "." para el separador decimal.</value>
+    <comment>The message shown to the user if the shipping tax rate is not valid.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentProcessor">
+    <value>Pago en línea</value>
+    <comment>PaymentProcessor header</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShoppingCartToolboxDescription">
+    <value>Todos los productos seleccionados para ser comprados por los usuarios actualmente conectados</value>
+    <comment>The description of the shopping cart widget in the toolbox.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ManageTaxes">
+    <value>Administrar Impuestos</value>
+    <comment>Manage Taxes</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SubtotalWithDiscounts">
+    <value>Subtotal (incluidos los descuentos)</value>
+    <comment>word: SubtotalWithDiscounts</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentTypeCapture">
+    <value>Captura</value>
+    <comment>Processor payment type</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrdersReportByRegionNodeTitle">
+    <value>Reportes de pedidos por región</value>
+    <comment>Title of the node that displays the orders reports by region</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShippingAndHandling">
+    <value>Envío y manipulación</value>
+    <comment>phrase: Shipping &amp; Handling</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrdersReportsByProductNodeTitle">
+    <value>Reportes de pedidos por producto</value>
+    <comment>Title of the node that displays the orders by product.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrderStatusDeleted">
+    <value>Eliminado</value>
+    <comment>word: Deleted</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethod">
+    <value>Métodos de pago</value>
+    <comment>phrase: Payment method</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrderInvoiceDesignerViewContent">
+    <value>Factura de pedidos</value>
+    <comment>The content for the Orders Invoice Designer View</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Options">
+    <value>Opciones</value>
+    <comment>word: Options</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SetOrdersList">
+    <value>Configurar lista de pedidos</value>
+    <comment>Phrase: Set Orders list</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrderNo">
+    <value>No. de Pedido</value>
+    <comment>phrase: Order No.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DigitalDownloadsOrdersListSelectorDescriptiveTextLine1">
+    <value>Esta es la página que se abre al hacer clic en el enlace "Detalles del Pedido".</value>
+    <comment>phrase: This is the page which is opened by clicking the "Order details" link.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LinkToShoppingCartPage">
+    <value>Enlace a la página del carrito de compras</value>
+    <comment>phrase: Link to shopping cart page</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="WishListToolboxDescription">
+    <value>Lista de deseos</value>
+    <comment>Description of Wish list widget in the toolbox.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CreateAPaymentMethod">
+    <value>Crear un método de pago</value>
+    <comment>phrase: Create a payment method</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BeforeDiscounts">
+    <value>Antes de Descuentos</value>
+    <comment>phrase: Before Discounts</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Company">
+    <value>Empresa</value>
+    <comment>phrase: Company</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodUsernameRequired">
+    <value>Se requiere el nombre de usuario del método de pago</value>
+    <comment>The payment method username required</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DigitalDownloadsViewFriendlyName">
+    <value>Descargas digitales</value>
+    <comment>Digital downloads view friendly name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CreateCouponCodeForDiscountExampleText">
+    <value>Ejemplos: 9843FG, March2 discount</value>
+    <comment>The examples for creating a new Coupon Code.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="WishlistPropertyEditorTitle">
+    <value>Lista de deseos</value>
+    <comment>Wishlist property editor title.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TaxesNodeUrlName">
+    <value>Impuestos</value>
+    <comment>Url name of the taxes node.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CreateTax">
+    <value>Crear impuesto</value>
+    <comment>phrase: Create tax</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShoppingCartToolboxName">
+    <value>Carrito de Compras</value>
+    <comment>The title of the shopping cart widget in the toolbox.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShoppingCartSummaryNotSetUp">
+    <value>Resumen del Carrito de Compras no configurado</value>
+    <comment>phrase: Shopping cart summary not set up</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RegistrationDate">
+    <value>Registrado:</value>
+    <comment>Used to label the registration date field on customer profile views</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RedirectToConfirmationPageNote">
+    <value>La página de redireccionamiento debe contener un widget de la Factura de Pedido o un widget de conversiones de Google.</value>
+    <comment>Phrase: The redirect page needs to contain an Order invoice widget or a Google conversion widget.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AdvancedSection">
+    <value>Avanzado</value>
+    <comment>Advanced section title</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ItemCannotBeRemovedFromWishlist">
+    <value>Hubo algún problema con la eliminación del artículo de la lista de deseos. Por favor, inténtelo más tarde.</value>
+    <comment>Message that gets shown when remove is pressed on wishlist</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrderStatusShipped">
+    <value>Enviado</value>
+    <comment>word: Shipped</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MinimumSubtotalFieldDescription">
+    <value>Aplicar el descuento sólo si el subtotal es mayor que esta cantidad</value>
+    <comment>phrase: Minimum subtotal field description</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="InvalidMeasurementUnit">
+    <value>Una de las unidades de medida seleccionada no es válida.</value>
+    <comment>The message to display when users attempt to select a measurement unit that does not exist / apply.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrderInvoiceViewFriendlyName">
+    <value>Factura de Pedido</value>
+    <comment>Order invoice friendly name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CreateThisPaymentMethod">
+    <value>Crear este método de pago</value>
+    <comment>phrase: Create this payment method</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShippingAddress">
+    <value>Dirección de envío</value>
+    <comment>phrase: Shipping address</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Quantity">
+    <value>Cantidad</value>
+    <comment>word: Quantity</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ByProduct">
+    <value>por producto</value>
+    <comment>phrase: by product</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UsePostalCodeRange">
+    <value>Utilizar el rango de ZIP / códigos postales</value>
+    <comment>Label for the use postal code range checkbox.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrderPlacedClientEmailTemplate">
+    <value>Plantilla de correo electrónico para cliente que hizo un pedido</value>
+    <comment>phrase: Order placed client email template</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShippingOptionsFriendlyName">
+    <value>Opciones de Envío</value>
+    <comment>Shipping options view friendly name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrdersNodeTitle">
+    <value>Pedidos</value>
+    <comment>Title of the orders node.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShoppingCartSettingsNodeTitle">
+    <value>Configuración del carrito de compras</value>
+    <comment>Title of the shopping cart settings node.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DiscountMinimumSubtotalIsRequired">
+    <value>El subtotal mínimo no puede estar vacío.</value>
+    <comment>The message shown to the user if the discount minimum subtotal is empty.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentTypeAuthorize">
+    <value>Autorización</value>
+    <comment>Processor payment type</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Wishlist">
+    <value>Lista de deseos</value>
+    <comment>Wishlist</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="StateProvince">
+    <value>Estado / provincia</value>
+    <comment>The name label for the state / province combo box.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Actions">
+    <value>¡Acciones!</value>
+    <comment>Header column for payment method grid.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="WorldPayPaymentTypeSale">
+    <value>Autorización completa</value>
+    <comment>WorldPay call the sale full authroization</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrderEmailSubject">
+    <value>Confirmación del Pedido {0}</value>
+    <comment>Phrase: Confirming Order {0}</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PostalCode">
+    <value>ZIP / Código postal</value>
+    <comment>Label for the postal code used in tax calculations.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CannotReachPaymentProcessorServer">
+    <value>No puede establecer contacto con el procesador de pagos. Por favor, inténtelo de nuevo más tarde.</value>
+    <comment>Cannot reach the payment processor. Please try again later.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ActionsCustomerColumnHeader">
+    <value>Acciones</value>
+    <comment>The Actions customer column header.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AllowUsersToSortItems">
+    <value>Permite a los usuarios ordenar los elementos</value>
+    <comment>phrase: Allow users to sort items</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CouponHasExceededUsage">
+    <value>Código no válido</value>
+    <comment>Coupon usage has been reached</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="GoogleConversionTracking">
+    <value>Seguimiento de conversión de Google</value>
+    <comment>The title of the Google conversion tracking widget.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MakeInactive">
+    <value>Hacer Inactivo</value>
+    <comment>Action command.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AllCustomersLabel">
+    <value>Todos los Clientes</value>
+    <comment>phrase: All Customers</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Period">
+    <value>periodo</value>
+    <comment>Word: Period</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TaxClassTitleCannotBeEmpty">
+    <value>Se debe establecer el título de la clase de impuestos.</value>
+    <comment>The message shown to user if no title for the tax class has been entered.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrderPlacement_Success">
+    <value>Su pedido ha sido realizado con éxito</value>
+    <comment>Message shown to user when order was placed successfully.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Retry">
+    <value>Volver a intentar</value>
+    <comment>Retry</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OutOfStock">
+    <value>Agotado</value>
+    <comment>phrase: Out of stock</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TrackingCode">
+    <value>Código de rastreo</value>
+    <comment>Tracking code</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TaxImportFailed">
+    <value>Importación de archivo fallido</value>
+    <comment>Tax import failed</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShippingBillingAddressForm">
+    <value>Formulario de dirección de envío/facturación</value>
+    <comment>phrase: Shipping/billing address form</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LastName">
+    <value>Apellido</value>
+    <comment>phrase: Last name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LinkToShoppingCart">
+    <value>Enlace al carrito de compra</value>
+    <comment>phrase: Link to shopping cart</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Orders">
+    <value>Pedidos</value>
+    <comment>word: Orders</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TotalBeforeTax">
+    <value>Totales Antes de Impuestos</value>
+    <comment>phrase: Total Before Tax</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AddedToCart">
+    <value>Añadido al carrito de compras</value>
+    <comment>phrase: Added to shopping cart</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ReportsByPeriod">
+    <value>Ventas por periodo</value>
+    <comment>phrase: Reports by period</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BackToDiscounts">
+    <value>Volver a los descuentos</value>
+    <comment>phrase: Back to discounts</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Method">
+    <value>¡Método!</value>
+    <comment>Header column for payment method grid.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NarrowLocation">
+    <value>Limitar ubicación &lt;em class='sfLblNote'&gt;(opcional)&lt;/em&gt;</value>
+    <comment>Label for narrow location section.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PlacedOn">
+    <value>Colocado en</value>
+    <comment>Placed on</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DigitalDownloadRequiresLogin">
+    <value>Su carrito contiene artículos digitales. Para poder comprar y descargar sus artículos digitales, usted tendrá que registrarse y entrar.</value>
+    <comment>phrase: Your cart contains digital items. In order to purchase and download your digital items, you will need to register and log in.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TaxClassInternalNameCannotBeEmpty">
+    <value>El nombre interno de la clase de impuesto no puede estar vacío.</value>
+    <comment>The internal name of the tax class cannot be empty.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodLiveMode">
+    <value>En vivo</value>
+    <comment>The Payment Method live mode</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SetUpWishlist">
+    <value>Configurar lista de deseos</value>
+    <comment>phrase: Set Wishlist</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Taxes">
+    <value>Impuestos</value>
+    <comment>Taxes</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LinkToCheckoutPage">
+    <value>Enlace a la página de checkout</value>
+    <comment>phrase: Link to checkout page</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodTitleTooLong">
+    <value>La longitud del título del método de pago no puede ser mayor de 255 caracteres.</value>
+    <comment>The message shown to user if the title is longer than 255 characters.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MoneySpentCustomerColumnHeader">
+    <value>Dinero Gastado</value>
+    <comment>The Money Spent customer column header.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodCodeTitle">
+    <value>Para los desarrolladores: nombre que se utiliza en el código</value>
+    <comment>Payment method code title</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodName">
+    <value>Nombre</value>
+    <comment>The Name label for product method.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Export">
+    <value>Exportar</value>
+    <comment>Word: Export</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DigitalDownloadsOrdersListSelectorDescriptiveTextLine2">
+    <value>En esta página, debe haber un widget de lista de Pedido.</value>
+    <comment>phrase: There must be a Order list widget on this page.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CreateThisDiscount">
+    <value>Crear este descuento</value>
+    <comment>phrase: Create this discount</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SwitchPrivacyToPublic">
+    <value>Hacer pública</value>
+    <comment>phrase: Make your wishlist public</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ModuleDescription">
+    <value>El módulo que administra los pedidos para el módulo de comercio electrónico</value>
+    <comment>Description of the ecommerce node.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ModifyShippingInformation">
+    <value>Modificar la información de envío</value>
+    <comment>Text of the button displayed to user if no shipping options are available.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EditADiscount">
+    <value>Editar un descuento</value>
+    <comment>phrase: Edit a discount</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CustomerInfo">
+    <value>Información del Cliente</value>
+    <comment>Customer Info</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NoTaxesHaveBeenCreatedYet">
+    <value>Aún no se han creado impuestos</value>
+    <comment>The message shown when no taxes have yet been created.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Step3Preview">
+    <value>&lt;strong class='sfStep'&gt;3&lt;/strong&gt; Previsualización</value>
+    <comment>word: Preview</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ProductSlashSku">
+    <value>Producto / Sku</value>
+    <comment>phrase: Product / Sku</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodCreditCardsRequired">
+    <value>Debe seleccionar una o más tarjetas de crédito para que sean procesadas</value>
+    <comment>Message when no credit cards selected for payment processor</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MoveToWishlist">
+    <value>Mover a la lista de deseos</value>
+    <comment>Move to wishlist</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CurrentPrivacyIsPublic">
+    <value>Lista de deseos pública</value>
+    <comment>phrase: Your Wishlist is currently public (accessible to others).</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SetUpShoppingCartSummary">
+    <value>Configurar resumen de Carrito de Compras</value>
+    <comment>phrase: Set Shopping cart summary</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AtThisMomentYouHaveNoOrders">
+    <value>En este momento, usted no tiene ningún pedido.</value>
+    <comment>word: At this moment you have no orders.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Continue">
+    <value>Continuar</value>
+    <comment>word: Continue</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AddedToWishlist">
+    <value>Añadido a la lista de deseos</value>
+    <comment>Added to wish list</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentTechTampa">
+    <value>Payment tech Tampa</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentResponsePassword">
+    <value>Contraseña de respuesta de pago &lt;em class='sfNote'&gt;(opcional)&lt;/em&gt;</value>
+    <comment>Payment response password </comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CouponCodeNodeTitle">
+    <value>Página de Pago</value>
+    <comment>Title of the orders coupon code node.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrderStatusCancelled">
+    <value>Cancelado</value>
+    <comment>word: Cancelled</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MerchantESolutions">
+    <value>Merchant e-Solutions</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CreateATaxClass">
+    <value>Crear una clase de impuestos</value>
+    <comment>phrase: Create a Tax class</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrderStatusNotChanged">
+    <value>El estado del pedido no ha sido cambiado. Por favor, llene todos los campos requeridos.</value>
+    <comment>The order status have not been changed. Please fill in all the required fields.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CreateThisTax">
+    <value>Crear este impuesto</value>
+    <comment>phrase: Create this tax</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ByPeriod">
+    <value>por período</value>
+    <comment>phrase: by period</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DiscountEndDate">
+    <value>Fecha de finalización</value>
+    <comment>phrase: Discount end date</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Offline">
+    <value>Desconectado</value>
+    <comment>word: Offline</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ModuleTitle">
+    <value>Pedidos</value>
+    <comment>Title of the ecommerce orders node.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrdersReportByRegionUrlName">
+    <value>reportes-por-region</value>
+    <comment>Url name of the orders reports by region.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DiscountPercentageAmountIsInvalid">
+    <value>El porcentaje de descuento debe ser menor o igual a 100.</value>
+    <comment>The message shown to the user if the discount percentage amount is not valid.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="GetShippingRates">
+    <value>Obtener tarifas de envío</value>
+    <comment>phrase: Get shipping rates</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NameFieldControlExample">
+    <value>Ejemplo: Envío expreso</value>
+    <comment>NameFieldControlExample</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FilterOrdersLabel">
+    <value>Filtrar pedidos</value>
+    <comment>Title: Filter orders</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CardholderName">
+    <value>Nombre del titular</value>
+    <comment>phrase: Cardholder name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Date">
+    <value>Fecha</value>
+    <comment>word: Date</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FDMSNorth">
+    <value>First Data Merchant Services North</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CouponCodeRequired">
+    <value>La opción seleccionada requiere que se introduzca un código promocional</value>
+    <comment>The option selected requires a coupon code to be entered</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SecureNet">
+    <value>SecureNet</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SelectPeriod">
+    <value>Seleccionar Periodo</value>
+    <comment>phrase: Select Period</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodPartner">
+    <value>Socio</value>
+    <comment>The payment method partner</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShippingMethod">
+    <value>Método de envío</value>
+    <comment>phrase: Shipping method</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="InventoryChange">
+    <value>Cambios en el Inventario</value>
+    <comment>phrase: Inventory Change</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ProductTitleCannotBeEmpty">
+    <value>Se debe configurar el título de la forma de pago.</value>
+    <comment>The message shown to user if no title for the payment method has been entered.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentProcessorUnknown">
+    <value>Desconocido</value>
+    <comment>word:Unknown</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Products">
+    <value>Productos</value>
+    <comment>word: Products</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ProductPriceCannotBeLessThanZero">
+    <value>No puede agregar este artículo a su carrito ya que su precio es menor que cero.</value>
+    <comment>Message that gets shown to the user when they try to add a product with price less than zero.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DisplayLastUpdatedCustomers">
+    <value>Mostrar a los clientes que han hecho pedidos en…</value>
+    <comment>The text of the last updated customer sidebar button</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MeasurementUnitsChanged">
+    <value>La configuración de la unidad de medida ha cambiado. Usted tendrá que actualizar las medidas de sus productos, de conformidad con eso.</value>
+    <comment>phrase: The measurement unit settings have changed. You will need to update your products' measurements accordingly.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodAPIVersionRequired">
+    <value>Debe introducir el número de versión para el API del procesador de pago</value>
+    <comment>Message displayed when no payment processor API version number is entered</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrderMasterViewFriendlyName">
+    <value>Lista Maestra de Pedidos</value>
+    <comment>Order master view friendly name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Processor">
+    <value>Procesador</value>
+    <comment>Processor of payflow pro provider</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ProductDescription">
+    <value>Producto</value>
+    <comment>phrase: Product</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Payment">
+    <value>Pago</value>
+    <comment>word: Payment</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TaxRate">
+    <value>Calificar</value>
+    <comment>The tax rate.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DontUseCouponCode">
+    <value>No utilice un código de cupón</value>
+    <comment>phrase: Don't use a coupon code</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CouponCodeValidEntry">
+    <value>Código aplicado con éxito:</value>
+    <comment>Message that displays when user enters a valid coupon code</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Country">
+    <value>País</value>
+    <comment>word: Country</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Images">
+    <value>Imágenes</value>
+    <comment>word: Images</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ThisDiscountCanBeUsed">
+    <value>Este descuento se puede utilizar</value>
+    <comment>phrase: This discount can be used</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Invoice">
+    <value>Factura</value>
+    <comment>word: Invoice</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentTypeSale">
+    <value>Oferta</value>
+    <comment>Processor payment type</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentStepFriendlyName">
+    <value>Fase de Pago</value>
+    <comment>Payment step view friendly name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrderPaymentDataMissing">
+    <value>Faltan los datos de pago del pedido</value>
+    <comment>phrase: Order payment data is missing</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Delete">
+    <value>Eliminar</value>
+    <comment>Header column for payment method grid.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SelectPaymentProcessor">
+    <value>Procesador de Pago</value>
+    <comment>SelectPaymentProcessor</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrderStatusPlaced">
+    <value>Colocado</value>
+    <comment>word: Placed</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShippingAndBillingInformationFriendlyName">
+    <value>Información de Envío y Facturación</value>
+    <comment>Shipping and billing information view friendly name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TaxFileNote">
+    <value>El archivo .csv debe contener todos los atributos necesarios de un impuesto. Por favor, lea la &lt;a href='#' class='sfMoreDetails'&gt;documentación&lt;/a&gt; para más información.</value>
+    <comment>Tax file note</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DiscountAmountIsInvalid">
+    <value>El importe del descuento debe ser un valor numérico.</value>
+    <comment>The message shown to the user if the discount amount is not valid.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DiscountMaximumSubtotalIsRequired">
+    <value>El subtotal máximo no puede estar vacío.</value>
+    <comment>The message shown to the user if the discount maximum subtotal is empty.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DiscountNameFieldControlExample">
+    <value>Ejemplo: promoción de Navidad</value>
+    <comment>phrase: Discount name example</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EditProperties">
+    <value>Modificar las propiedades</value>
+    <comment>phrase: Edit properties</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodsNodeUrlName">
+    <value>métodos-de-pago</value>
+    <comment>Url name of the payment methods node.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SecurityCodeIsRequired">
+    <value>Es necesario escribir el seguridad de la tarjeta de crédito</value>
+    <comment>The message shown to the user if credit card security code is not entered.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AmericanExpress">
+    <value>American Express</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodGatewayUrl">
+    <value>URL de la puerta de enlace</value>
+    <comment>phrase: Gateway URL</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Browse">
+    <value>Navegar</value>
+    <comment>word: Browse</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NotAddedToWishlist">
+    <value>Este artículo no puede ser añadido a su lista de deseos en este momento.</value>
+    <comment>This item cannot be added to your wish list at this time.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="items">
+    <value>elementos</value>
+    <comment>word: items</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MaximumSubTotalShouldNotBeLessThanMinimumSubTotal">
+    <value>El subtotal máximo no debe ser menor que el subtotal mínimo.</value>
+    <comment>The message shown to the user if the maximum subtotal is less than minimum subtotal.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodTestMode">
+    <value>Prueba</value>
+    <comment>The Payment Method test mode</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContinueShopping">
+    <value>Continuar comprando...</value>
+    <comment>phrase: Continue shopping</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BackToTaxClasses">
+    <value>Regresar a las clases de impuestos</value>
+    <comment>Back To Tax classes</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DiscountsNodeUrlName">
+    <value>Descuentos</value>
+    <comment>Url name of the discounts node.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TaxImportIsCompleted">
+    <value>La importación de tributo se ha completado</value>
+    <comment>Tax import is completed</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShoppingCartSummaryPropertyEditorTitle">
+    <value>Resumen del carrito de compras</value>
+    <comment>Property editor title for Shopping cart summary widget.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="WorldPay">
+    <value>World Pay</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LastNameShippingIsRequired">
+    <value>Es necesario escribir el apellido del envío</value>
+    <comment>The message shown to the user if shipping last name is not entered.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NoProductsInWishlist">
+    <value>No hay productos en su lista de deseos.</value>
+    <comment>The message shown to the user if there are no products in his or her wishlist</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodLiveAccountNumber">
+    <value>Número de Cuenta</value>
+    <comment>The Payment Method live account number</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Vantiv">
+    <value>Vantiv</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TaxTitleTooLong">
+    <value>La longitud del título del impuesto no puede ser mayor que 255 caracteres.</value>
+    <comment>The message shown to user if the title is longer than 255 characters.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ManageDiscounts">
+    <value>Administrar Descuentos</value>
+    <comment>Manage Discounts</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodTransactionKey">
+    <value>Clave de transaccion</value>
+    <comment>The payment method transaction key</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CurrentPrivacyIsPrivate">
+    <value>Lista de deseos privada</value>
+    <comment>phrase: Your Wishlist is currently private (only accessible by you).</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Undo">
+    <value>Deshacer</value>
+    <comment>word: Undo (adding coupon code)</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AtThisMomentYouHaveNoCustomers">
+    <value>En este momento, usted no tiene clientes</value>
+    <comment>phrase: At this moment you have no customers</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrdersListPropertyEditorTitle">
+    <value>Lista de pedidos</value>
+    <comment>phrase: Orders List</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CardNumberIsRequired">
+    <value>Es necesario escribir el número de tarjeta de crédito</value>
+    <comment>The message shown to the user if credit card number is not entered.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SortBy">
+    <value>Ordenar por:</value>
+    <comment>phrase: Sort by:</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ThisDiscountIsActive">
+    <value>Este descuento está activo</value>
+    <comment>phrase: This discount is active</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodTestUrlRequired">
+    <value>Se requiere la URL de prueba del método de pago</value>
+    <comment>The payment method test URL is required</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LastOrderCustomerColumnHeader">
+    <value>Último Pedido</value>
+    <comment>The Last Order customer column header.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BackToOrders">
+    <value>Volver a los Pedidos</value>
+    <comment>Back to Orders</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CartDiscountNumberIncrease">
+    <value>Se ha añadido uno o más descuentos a su carrito de compras.  El precio total se ha calculado de nuevo.</value>
+    <comment>One or more discounts have been added to your shopping cart.  The total price has been recalculated.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ExportTaxes">
+    <value>Exportar impuestos</value>
+    <comment>phrase:Export Taxes</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShippingTaxRateCannotBeNegative">
+    <value>La tasa del impuesto al envío no puede ser menor que cero.</value>
+    <comment>The message show to the user if the shipping tax rate is negative.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentProcessorDescription">
+    <value>(Por ejemplo, PayPal, Google Checkout)</value>
+    <comment>PaymentProcessorDescription header description</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesTax">
+    <value>Impuesto a las Ventas</value>
+    <comment>phrase: Sales Tax</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ProductsSubtotal">
+    <value>Subtotal de producto(s)</value>
+    <comment>word: product(s) Subtotal</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UnitPrice">
+    <value>Precio Unitario</value>
+    <comment>phrase: Unit Price</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ViewLogFile">
+    <value>Ver archivo de registro</value>
+    <comment>View log file</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShippedOn">
+    <value>Enviado el</value>
+    <comment>phrase: Shipped on</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodCreditCards">
+    <value>Tarjetas de crédito permitidas</value>
+    <comment>Header for list of credit cards processed by the payment processor</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="WishlistIsNotForAnonymousUsers">
+    <value>Para utilizar una lista de deseos, tiene que ser miembro del sitio y estar conectado.</value>
+    <comment>Message that gets shown to the user who is not logged but tries to use wishlist</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FirstNameShippingIsRequired">
+    <value>Es necesario escribir el nombre del primer envío</value>
+    <comment>The message shown to the user if shipping first name is not entered.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TaxesNodeTitle">
+    <value>Impuestos</value>
+    <comment>Title of the taxes node.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrdersReportsSummaryReportNodeTitle">
+    <value>Resumen de Pedidos</value>
+    <comment>Orders Summary</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Email">
+    <value>Correo electrónico</value>
+    <comment>phrase: Email</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CouponCode">
+    <value>Código de descuento:</value>
+    <comment>phrase: Coupon code:</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Moneris">
+    <value>Moneris</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ModifyYourPaymentSettings">
+    <value>Modificar su configuración de pago</value>
+    <comment>The text of the button displayed to the user when there is a problem with the payment.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodIsActive">
+    <value>Esta forma de pago está activa</value>
+    <comment>phrase: This payment method is active</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodTitleCannotBeEmpty">
+    <value>El título de un método de pago no puede estar vacío</value>
+    <comment>Payment method title cannot be empty</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PageForOrdersList">
+    <value>Página para Lista de Pedidos</value>
+    <comment>phrase: Page for Orders list</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Discount">
+    <value>Descuento</value>
+    <comment>The word 'Discount.'</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ApplyTaxToShippingDescription">
+    <value>Se aplicará la tarifa estándar a las tarifas de envío de los productos sujetos a impuestos</value>
+    <comment>phrase: Description applied to Apply tax to shipping checkbox.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShoppingCartSummaryTemplate">
+    <value>Plantilla de resumen del carrito de compras</value>
+    <comment>phrase: Shopping cart summary template.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Yesterday">
+    <value>Ayer</value>
+    <comment>phrase: Yesterday</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrdersList">
+    <value>Lista de pedidos</value>
+    <comment>The title of the orders list.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Step4Preview">
+    <value>&lt;strong class='sfStep'&gt;4&lt;/strong&gt; Vista previa</value>
+    <comment>word: Preview</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SetBuyNow">
+    <value>Configurar Compre Ahora</value>
+    <comment>phrase: Set Buy now</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TaxesAreImportedSuccessfully">
+    <value>&lt;strong&gt;{0} tributos &lt;/strong&gt; se importan con éxito</value>
+    <comment>Number of taxes that are successfully imported</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PhoneNumber">
+    <value>Número telefónico</value>
+    <comment>phrase: Phone number</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrdersReportsSummaryReportNodeUrlName">
+    <value>resumen-pedidos</value>
+    <comment>Url name of the orders summary report</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrderInfo">
+    <value>Datos del Pedido</value>
+    <comment>Customer Info</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CustomersNodeUrlName">
+    <value>Clientes</value>
+    <comment>Url name of the customers node.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Last7Days">
+    <value>Últimos 7 días</value>
+    <comment>phrase: Last 7 days</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ReportsByProduct">
+    <value>Reportes por productos</value>
+    <comment>phrase: Reports by product</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="WishlistTemplate">
+    <value>Plantilla de lista de deseos</value>
+    <comment>phrase: Wishlist template.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CreateATax">
+    <value>Crear un impuesto</value>
+    <comment>phrase: Create a tax</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShoppingCartViewFriendlyName">
+    <value>Carrito de Compras</value>
+    <comment>Shopping cart view friendly name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodAPIVersionViolationMessage">
+    <value>Debe introducir una versión de API de uno o más caracteres alfanuméricos</value>
+    <comment>Message displayed when no API version alphanumeric violation occurs</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TaxInclusionDescription">
+    <value>Si el impuesto incluido no es aplicable a la dirección de envío/facturación del cliente, en la página de pago&lt;br /&gt;&lt;em&gt;será reemplazado automáticamente&lt;/em&gt; con el que corresponde.</value>
+    <comment>Explanation of what happens when the included tax is inapplicable to the customer</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrderDetails">
+    <value>Detalles del Pedido</value>
+    <comment>phrase: Order Details</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="GoToShoppingCart">
+    <value>Ir al carrito de compras</value>
+    <comment>Text on go to shopping cart link in wishlist control</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ExcludingVatTax">
+    <value>(Sin impuestos)</value>
+    <comment>phrase: Excluding Taxes</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TotalPrice">
+    <value>Precio Total</value>
+    <comment>word: TotalPrice</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TaxClassInternalNameInvalidSymbols">
+    <value>El nombre interno de la clase de impuesto contiene algunos caracteres no válidos.</value>
+    <comment>The internal name of the tax class has some invalid characters.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="WithOnlyOneOrder">
+    <value>Con sólo 1 pedido</value>
+    <comment>phrase: With only 1 order</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DiscountSelectUsersRoles">
+    <value>Usuarios y roles seleccionados</value>
+    <comment>Selected users and roles</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CheckoutToolboxDescription">
+    <value>Asistente para completar un pedido: ingreso de datos de envío y pago</value>
+    <comment>The description of the check out widget in the toolbox.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EmailBillingIsRequired">
+    <value>Es necesario escribir el correo electrónico de facturación</value>
+    <comment>The message shown to the user if billing email is not entered.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="WishlistViewFriendlyName">
+    <value>Lista de deseos</value>
+    <comment>Wishlist view friendly name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ProductQuantityIsRequired">
+    <value>Al añadir los productos a un carrito, debe especificar la cantidad</value>
+    <comment>The message shown to the user if the quantity of products was not specified</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SendACopyOfOrderPlacedEmailToMerchant">
+    <value>Enviar al comerciante una copia del correo electrónico</value>
+    <comment>phrase: Send merchant a copy of the email</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CustomersNodeTitle">
+    <value>Clientes</value>
+    <comment>Title of the customers node.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DisplayLastUpdatedOrders">
+    <value>Mostrar pedidos actualizados por última vez en...</value>
+    <comment>The text of the last updated order sidebar button</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TaxClassTitleFieldControlExample">
+    <value>Ejemplo: Drogas</value>
+    <comment>Message shown as example for Tax class title.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TaxExempt">
+    <value>Exento de impuestos</value>
+    <comment>Tax exempt .</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PlaceThisOrder">
+    <value>Hacer este pedidos</value>
+    <comment>The text of the button that places the order.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FromDateCannotBeEmpty">
+    <value>Es necesario fecha desde</value>
+    <comment>From date is required</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OnceYouHaveBoughtDownloadables">
+    <value>Una vez que ha comprado algunos, podrá descargarlos aquí</value>
+    <comment>phrase: Once you have bought some, this will be the place for downloading them.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MD5Secret">
+    <value>Secreto MD5 &lt;em class='sfNote'&gt;(opcional)&lt;/em&gt;</value>
+    <comment>MD5 secret &lt;em class='sfNote'&gt;(optional)&lt;/em&gt;</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NotAddedToWishlistAnonymous">
+    <value>La lista de deseos solo puede ser utilizada por los usuarios conectados en el sitio. Si usted tiene una cuenta, inicie sesión o cree una cuenta.</value>
+    <comment>Message that gets shown to the user who is not logged but tries to use wishlist</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodEmailRequired">
+    <value>Se requiere el correo electrónico del comerciante</value>
+    <comment>The merchant email is required</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AllOrdersLabel">
+    <value>Todos los Pedidos</value>
+    <comment>phrase: All Orders</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CartTotalInvalid">
+    <value>Lo lamentamos, pero el total de su pedido es demasiado alto para procesarlo.</value>
+    <comment>Shown to the user when shopping cart total is invalid (too high)</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PayPalIdentityToken">
+    <value>Token de Identidad PDT &lt;em class='sfNote'&gt;(opcional)&lt;/em&gt;</value>
+    <comment>label: PDT Identity Token</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ManageTaxClasses">
+    <value>Administrar Clase Impuestos</value>
+    <comment>Manage Tax Class</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CreateTaxClass">
+    <value>Crear una clase de impuestos</value>
+    <comment>phrase: Create a tax class</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodLiveUrl">
+    <value>URL</value>
+    <comment>The payment method live Url</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MakeActive">
+    <value>Activar</value>
+    <comment>Action command.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LastNameBillingIsRequired">
+    <value>Es necesario escribir el apellido que aparece en el estado de cuenta</value>
+    <comment>The message shown to the user if billing last name is not entered.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MoveToShoppingCart">
+    <value>Añadir al carrito</value>
+    <comment>Move to shopping cart</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrderTotal">
+    <value>Total del Pedido</value>
+    <comment>phrase: Order Total</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Step3Payment">
+    <value>&lt;strong class='sfStep'&gt;3&lt;/strong&gt; Pago</value>
+    <comment>word: Payment</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CannotExportReport">
+    <value>No se puede exportar el informe ya que no hay datos disponibles.</value>
+    <comment>Phrase: Cannot export the report as there is no data available</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CreateADiscount">
+    <value>Crear un descuento</value>
+    <comment>phrase: Create a discount</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ProductQuantityIsInvalidInWishList">
+    <value>La cantidad debe ser entre 0 y 9.999 (0 elimina el producto de su lista de deseos).</value>
+    <comment>The message shown to the user if the quantity in the is not valid when trying to add to wishlist.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="HaveACouponCode">
+    <value>¿Tiene un código de cupón?</value>
+    <comment>phrase: Have a coupon code?</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrderedProducts">
+    <value>Productos pedidos</value>
+    <comment>phrase: Ordered products</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PendingOrdersEmailSubject">
+    <value>{0} pedidos pendientes</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DuplicateTaxRangeException">
+    <value>No se pueden ingresar rangos de tributos duplicados, otro tributo '{0}' tiene definido el mismo rango de código postal superpuesto</value>
+    <comment>The message shown to the user if the tax range information duplicates another tax.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UnableToDisplayOrderInvoice">
+    <value>El sistema no ha podido mostrar la Factura para el Pedido</value>
+    <comment>phrase: The system was unable to display the Invoice for the Order</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodPaymentType">
+    <value>Tipo de pago</value>
+    <comment>The Payment Method payment type</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TaxTitleCannotBeEmpty">
+    <value>Se debe configurar el título del impuesto.</value>
+    <comment>The message shown to user if no title for the tax has been entered.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DiscountsNodeTitle">
+    <value>Descuentos</value>
+    <comment>Title of the discounts node.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Customer">
+    <value>Cliente</value>
+    <comment>word: Customer</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentTechSalem">
+    <value>Payment tech Salem</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EditProfile">
+    <value>Editar Perfil</value>
+    <comment>Action command: Edit profile</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Status">
+    <value>Estado</value>
+    <comment>word: Status</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ElectronicChecks">
+    <value>Cheques electrónicos</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="On">
+    <value>en</value>
+    <comment>phrase : on</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SortOrdersByDateLabel">
+    <value>Por fecha...</value>
+    <comment>phrase: Sort Orders by date...</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Order">
+    <value>Ordenar</value>
+    <comment>word: Order</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrderedOn">
+    <value>Se pidió el</value>
+    <comment>phrase: Ordered on</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodLoginId">
+    <value>ID de Inicio de Sesión</value>
+    <comment>The payment method login id</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FDMSNashville">
+    <value>First Data Merchant Services Nashville</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MinimumSubtotal">
+    <value>Mínimo subtotal</value>
+    <comment>phrase: Minimum Subtotal</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodTestUsername">
+    <value>Probar Nombre de Usuario</value>
+    <comment>The Payment Method test username</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PleaseEnterFromPostalCOde">
+    <value>Introduzca el código postal del remitente</value>
+    <comment>PleaseEnterFromPostalCOde</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CannotDeletePaymentMethod">
+    <value>No se puede eliminar esta forma de pago, porque hay pedidos en el sistema que ya lo utilizan.  Por favor, desactive la forma de pago si no se va a utilizar.</value>
+    <comment>Message that is shown when a payment method cannot be deleted because its used in order payment records</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Sku">
+    <value>SKU (Stock Keeping Unit)</value>
+    <comment>phrase: SKU (Stock Keeping Unit)</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CreateThisTaxClass">
+    <value>Crear esta clase de impuesto</value>
+    <comment>phrase: Create this tax class</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Step1ShippingInformation">
+    <value>&lt;strong class='sfStep'&gt;1&lt;/strong&gt; Información sobre el envío</value>
+    <comment>phrase: Shipping information</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ActiveOrders">
+    <value>Pedido(s) Activo(s)</value>
+    <comment>Header for the group of currently active orders in the OrdersList</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Purchased">
+    <value>Comprado</value>
+    <comment>phrase: Purchased</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="YouHaventBoughtDownloadableProductsYet">
+    <value>Usted aún no ha comprado productos para descargar.</value>
+    <comment>phrase: You haven't bought downloadable products yet.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CustomPeriod">
+    <value>Periodo personalizado</value>
+    <comment>phrase: Custom period</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CreditCards">
+    <value>Tarjetas de Crédito</value>
+    <comment>CreditCards header</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CartNotUpdated">
+    <value>Hubo un problema al actualizar su Carrito de Compras. Por favor, compruebe que su Carrito tiene los productos y las cantidades deseadas.</value>
+    <comment>Shown to the user when they cannot update their shopping cart (exception, etc)</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrderStatusAuthorized">
+    <value>Autorizado</value>
+    <comment>word: Authorized</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SetUpShoppingCart">
+    <value>Configurar Carrito de Compras</value>
+    <comment>phrase: Set Shopping cart</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Checkout">
+    <value>Pago</value>
+    <comment>word: Checkout</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ItemsSubtotal">
+    <value>Subtotal de Artículo(s)</value>
+    <comment>phrase: Items(s) Subtotal</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ByRegion">
+    <value>por región</value>
+    <comment>phrase: by region</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShippingMethodInvalid">
+    <value>Lo sentimos, pero el método de envío que seleccionó ya no está disponible.  Por favor, regrese a la página de Opciones de Envío y seleccione un método de envío diferente.</value>
+    <comment>We apologize but the shipping method you selected is no longer available.  Please return to the Shipping Options page and select a different shipping method.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CityShippingIsRequired">
+    <value>Es necesario escribir la ciudad de envío</value>
+    <comment>The message shown to the user if shipping city is not specified.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ProductsLower">
+    <value>Productos</value>
+    <comment>word: products</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrderSummary">
+    <value>Resumen de Pedido</value>
+    <comment>phrase: Order summary</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="StateOrProvince">
+    <value>Estado / provincia</value>
+    <comment>phrase: State / Province</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Via">
+    <value>via</value>
+    <comment>phrase : via</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodVendor">
+    <value>Proveedor</value>
+    <comment>word: Vendor</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ExportTaxesToCsvFile">
+    <value>Exportar impuestos a un archivo CSV</value>
+    <comment>label: Export taxes to a CSV file</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TheCsvFileContainsAllTaxes">
+    <value>El archivo .csv contiene todos los impuestos</value>
+    <comment>label: The .csv file contains all taxes</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="HandlingTaxRateIsInvalid">
+    <value>La tasa del impuesto de manejo debe ser un valor numérico;  utilizar punto "." para el separador decimal.</value>
+    <comment>The message shown to the user if the handling tax rate is not valid.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Update">
+    <value>Actualizar</value>
+    <comment>word: Update</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NoProductsInShoppingCart">
+    <value>No hay productos en su carrito de compras</value>
+    <comment>The message shown to the user if there are no products in his or her shopping cart</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="WorldPayPaymentTypeAuthorize">
+    <value>Pre-autorización</value>
+    <comment>WorldPay call the authorize pre-authorization</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ManagePaymentMethod">
+    <value>Administrar Métodos de Pago</value>
+    <comment>Manage Payment Method</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShoppingCartSummaryToolboxName">
+    <value>Resumen del carrito de compras</value>
+    <comment>The title of the shopping cart summary widget in the toolbox.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="InvoiceWidgetShouldBeOnDifferentPage">
+    <value>El widget de la factura debe estar en una página diferente al widget de lista de pedidos</value>
+    <comment>phrase: The invoice widget should be on a different page than the orders list widget</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ManageCustomers">
+    <value>Administrar Clientes</value>
+    <comment>word: Manage Customers</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Type">
+    <value>¡Tipo!</value>
+    <comment>Header column for payment method grid.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Description">
+    <value>Descripción</value>
+    <comment>The label for the product description.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AtThisMomentYouHaveNoDiscounts">
+    <value>En este momento no tiene descuentos</value>
+    <comment>phrase: At this moment you have no discounts</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DiscountEndDateShouldNotBeEarlierThanStartDate">
+    <value>La fecha de finalización del descuento no puede ser anterior a su fecha de inicio.</value>
+    <comment>Message: Discount's end date cannot be set earlier than its start date.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DeleteThisItem">
+    <value>Eliminar</value>
+    <comment>word: Delete</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodApiVersion">
+    <value>Versión de API</value>
+    <comment>The Payment Method API Version</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrdersCountCustomerColumnHeader">
+    <value>Pedidos</value>
+    <comment>The Orders Count customer column header.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FilterCustomersLabel">
+    <value>Filtrar Clientes</value>
+    <comment>Title: Filter Customers</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PayFlowProMethod">
+    <value>PayPal PayFlowPro</value>
+    <comment>word: PayFlowPro</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ThereAreNoProducts">
+    <value>No hay productos</value>
+    <comment>phrase: There are no products</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PleaseEnterToPostalCOde">
+    <value>Introduzca el código postal del destinatario</value>
+    <comment>PleaseEnterToPostalCOde</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AuthNetAimMethod">
+    <value>Authorize.Net AIM</value>
+    <comment>phrase: Authorize.Net AIM</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ExpirationDate">
+    <value>Fecha de expiración</value>
+    <comment>phrase: Expiration date</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CustomPeriodDot">
+    <value>Periodo personalizado...</value>
+    <comment>phrase: Custom period...</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="GlobalPaymentsCentral">
+    <value>Global Payments Central</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PaymentMethodUsername">
+    <value>Nombre de usuario</value>
+    <comment>word: Username</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CreditCard">
+    <value>Tarjeta de crédito</value>
+    <comment>phrase: Credit card</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrdersReportsByPeriodNodeTitle">
+    <value>Reportes</value>
+    <comment>Title of the reports node.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NoItemsInCartMessage">
+    <value>No puede pagar sin tener al menos un artículo en el carrito de compras.</value>
+    <comment>Message shown to the user when they try checking out with no itmes in their shopping cart.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Step4Confirmation">
+    <value>&lt;strong class='sfStep'&gt;4&lt;/strong&gt; Confirmación</value>
+    <comment>word: Confirmation</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TaxClassTitle">
+    <value>Clase de impuestos</value>
+    <comment>phrase: Tax class</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CheckoutWizardUrlCannotBeDetermined">
+    <value>No se puede determinar el asistente de procesamiento de pedido.</value>
+    <comment>Message shown to the merchant when the url of the checkout wizard cannot be determined.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="YourDownloadsTemplate">
+    <value>Su plantilla de descargas</value>
+    <comment>phrase: 'Your downloads' template</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Tax">
+    <value>Impuesto</value>
+    <comment>word: Tax</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="WorldPayInstallationId">
+    <value>ID de instalación de WorldPay</value>
+    <comment>WorldPay Installation ID</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrderStatusDeclined">
+    <value>Rechazado</value>
+    <comment>word: Declined</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CardNumber">
+    <value>Número de tarjeta</value>
+    <comment>phrase: Card number</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TaxClassesNodeTitle">
+    <value>Clases de impuesto</value>
+    <comment>Title of the tax classes node.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Step2ShippingOptions">
+    <value>&lt;strong class='sfStep'&gt;2&lt;/strong&gt; Opciones de envío</value>
+    <comment>phrase: Shipping options</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrderSummaryNodeTitle">
+    <value>Página de Pago</value>
+    <comment>Title of the Order Summary node.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ImportedExportedTaxesLogFiles">
+    <value>Archivos de registro de impuestos Importados / Exportados</value>
+    <comment>Imported / Exported taxes log files</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+</root>

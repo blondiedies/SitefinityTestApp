@@ -1,0 +1,87 @@
+@model List<SitefinityWebApp.Mvc.ViewModels.FeaturedNewsModel>
+
+@{
+    var i = 0;
+    var j = 0;
+}
+<div id="NewsCarousel" class="carousel slide" data-bs-ride="carousel">
+    <h2 class="-bold">
+        @ViewBag.Title
+    </h2>
+    <div class="carousel-indicators">
+        @foreach (var news in Model)
+        {
+            if (i == 0)
+            {
+                <button type="button" data-bs-target="#NewsCarousel" data-bs-slide-to=@i class="active" aria-current="true"></button>
+
+            }
+            else
+            {
+                <button type="button" data-bs-target="#NewsCarousel" data-bs-slide-to=@i></button>
+            }
+            i++;
+        }
+
+    </div>
+    <div class="carousel-inner">
+        @foreach (var news in Model)
+        {
+            if (j == 0) //Noticia activa
+            {
+                <div class="carousel-item active">
+                    <img src=@news.NewsImages.First().Url class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <h5>@news.Title</h5>
+                        <p class="text-body-emphasis">@news.Summary</p>
+                        <a class="-align-self-center" href=@news.Url>@ViewBag.ReadMore</a>
+                    </div>
+                </div>
+            }
+            else
+            {
+                <div class="carousel-item">
+                    <img src=@news.NewsImages.First().Url class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <h5>@news.Title</h5>
+                        <p class="text-body-emphasis">@news.Summary</p>
+                        <a class="-align-self-center" href=@news.Url>@ViewBag.ReadMore</a>
+                    </div>
+                </div>
+            }
+            j++;
+        }
+    </div>
+    <button class="carousel-control-prev" data-bs-target="#NewsCarousel" type="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">@ViewBag.Previous</span>
+    </button>
+    <button class="carousel-control-next" data-bs-target="#NewsCarousel" type="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">@ViewBag.Next</span>
+    </button>
+</div>
+<script src="~/ResourcePackages/Bootstrap5/assets/dist/js/bootstrap.min.js"></script>
+<style>
+    /* Force carousel items to a consistent height */
+    #NewsCarousel .carousel-item {
+        height: 500px; /* adjust to the height you want */
+    }
+
+        /* Make images fill the item and crop if necessary */
+        #NewsCarousel .carousel-item img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover; /* crop to fill */
+            object-position: center; /* keep centered */
+        }
+    #NewsCarousel .carousel-caption {
+        background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent background */
+        border: 1px solid rgba(255, 255, 255, 0.6); /* A subtle border for definition */
+        border-radius: 10px;
+        border-image: linear-gradient(rgba(255, 255, 255, 0.5), transparent) 1; /* Gradient from transparent to red and back to transparent */
+
+        backdrop-filter: blur(5px);
+    }
+
+</style>

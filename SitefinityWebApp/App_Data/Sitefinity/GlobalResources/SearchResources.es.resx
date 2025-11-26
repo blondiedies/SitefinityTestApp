@@ -1,0 +1,550 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SearchBoxDesignerNoSearchIndexesCreated">
+    <value>No se han creado índices de búsqueda</value>
+    <comment>phrase: No search indexes created</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MaxSuggestionsCountDescription">
+    <value>La máxima cantidad de sugerencias que se pueden recuperar</value>
+    <comment>phrase: The maximum amount of suggestions that can be retreived</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MinSuggestLengthTitle">
+    <value>Longitud mínima de sugerencias</value>
+    <comment>phrase: Minimum suggest length</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AutoIndex">
+    <value>Índice automático</value>
+    <comment>phrase: Auto-index</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FailStatus">
+    <value>La Búsqueda de Azure no está accesible</value>
+    <comment>Label: Azure Search is not accessible</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ModuleDescription">
+    <value>Proporciona la interfaz de usuario para la creación y gestión de índices y controlar los comportamientos de búsqueda.</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SearchBoxDescription">
+    <value>Recuadro de búsqueda</value>
+    <comment>Control description: A search box control for entering search criteria.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SearchResultsStatusMessage">
+    <value>{0} resultados de búsqueda para &lt;strong&gt;{1} &lt;/strong&gt;</value>
+    <comment>Phrase: {0} search results for &lt;strong&gt;{1}&lt;/strong&gt;</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SearchUrlName">
+    <value>Búsqueda</value>
+    <comment>Search URL name.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SaveChanges">
+    <value>Guardar cambios</value>
+    <comment>phrase: Save changes</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AdditionalFieldsDescription">
+    <value>Puede incluir manualmente campos diferentes (estáticos o dinámicos) en el índice de búsqueda. Tenga en cuenta que estos campos deben ser de tipo de texto corto o largo. Separe con una coma.</value>
+    <comment>The description of the 'Advanced settings' field in the Backend Detail View form.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SearchNotification">
+    <value>Después de cambiar el servicio de búsqueda o la ubicación, cualquier índice existente debe ser reindexado manualmente, de lo contrario no funcionará.</value>
+    <comment>Label: After changing the search service or location, any existing indexes should be manually re-indexed, otherwise they won’t work.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="IndexContentFrom">
+    <value>Indexar contenido desde...</value>
+    <comment>Phrase: Index content from...</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Name">
+    <value>Nombre</value>
+    <comment>word: Name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ExampleSiteUrl">
+    <value>Ejemplo: http://mysite:9200</value>
+    <comment>phrase: Example: http://mysite:9200</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShowSearchBoxBelow">
+    <value>Mostrar cuadro de búsqueda debajo de los resultados</value>
+    <comment>phrase: Show search box below the results</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SearchIndexes">
+    <value>Índices de búsqueda</value>
+    <comment>phrase: Search indexes</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SearchBoxDesignerIndexTitle">
+    <value>¿Cuál feed mostrar?</value>
+    <comment>phrase: Which feed to display?</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SearchResultsTitle">
+    <value>Resultados de la búsqueda</value>
+    <comment>Control title: Search results</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SearchResultsDescription">
+    <value>Lista de resultados de búsqueda</value>
+    <comment>Control description: A control for displaying search results.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SearchResourcesDescription">
+    <value>Contiene recursos localizables para el módulo de búsqueda y de servicios de Indexado.</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="WhatDoYouWantToDoNow">
+    <value>¿Qué quieres hacer ahora?</value>
+    <comment>phrase: What do you want to do now?</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ModuleTitle">
+    <value>Índices de búsqueda</value>
+    <comment>The title of the search module.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DefineWhatTypeOfContentWillBeIndexed">
+    <value>Indica qué tipo de contenido se indexará</value>
+    <comment>Word: Define what type of content will be indexed</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CurrentSearchService">
+    <value>Servicio de búsqueda actual</value>
+    <comment>Label: Current search service</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ThisSiteOnly">
+    <value>Este sitio solo</value>
+    <comment>Label: This site only</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ExampleLabel">
+    <value>Ejemplo:</value>
+    <comment>Label: Example</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SuccessStatus">
+    <value>Conectado con éxito a la Búsqueda de Azure</value>
+    <comment>Label: Successfully connected to Azure Search</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EnableExactMatchDescription">
+    <value>Habilita la coincidencia exacta de palabras. Si se deshabilita se realizará la búsqueda StartsWith (usando el asterisco al final).</value>
+    <comment>phrase: Enables the exact match of words. If disabled StartsWith search will be performed ( using asterisk at the end ).</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MaxSuggestionLengthTitle">
+    <value>Longitud máxima de sugerencias</value>
+    <comment>phrase: Maximum suggestion length</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SearchBoxDesignerRequiredIndexMessage">
+    <value>Por favor, seleccione el lugar donde buscar.</value>
+    <comment>phrase: Please select where to search.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SearchServiceDescription">
+    <value>¿Que servicio de búsqueda se debe usar en su sitio?</value>
+    <comment>Label: Which search service to use in your site?</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NameCannotBeEmpty">
+    <value>El nombre no puede estar vacío</value>
+    <comment>phrase: Name cannot be empty</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AzureConnect">
+    <value>Conectar a Búsqueda de Azure</value>
+    <comment>Label: Connect to Azure Search</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SearchHtmlTitle">
+    <value>Búsqueda e Índices</value>
+    <comment>The html title of the search module.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BackToItems">
+    <value>Volver</value>
+    <comment>phrase: Go back</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PageGroupNodeDescription">
+    <value>Grupo de páginas del módulo de publicación.</value>
+    <comment>Search Page Group Description</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EnableExactMatchTitle">
+    <value>Habilitar coincidencia exacta</value>
+    <comment>phrase: Enable exact match</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CreateSearchIndex">
+    <value>Crear un índice de búsqueda</value>
+    <comment>phrase: Create a search index</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TestConnectionLabel">
+    <value>Probar conexión</value>
+    <comment>Label: Test connection</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AzureSearchServiceTitle">
+    <value>Búsqueda de Azure</value>
+    <comment>Label: Azure Search</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SelectIndex">
+    <value>Seleccione índice</value>
+    <comment>phrase: Select index</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShowSearchBoxAbove">
+    <value>Mostrar cuadro de búsqueda encima de los resultados</value>
+    <comment>phrase: Show search box above the results</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MaxSuggestionsCountTitle">
+    <value>Recuento máximo de sugerencias</value>
+    <comment>phrase: Maximum suggestions count</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SearchServiceName">
+    <value>Nombre del servicio de búsqueda</value>
+    <comment>Label: Search service name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SearchResourcesTitle">
+    <value>Búsqueda e Índices</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LastIndexing">
+    <value>Última indexación</value>
+    <comment>phrase: Last indexing</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ElasticsearchURL">
+    <value>URL Elasticsearch</value>
+    <comment>phrase: Elasticsearch URL</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SearchResultsViewFriendlyName">
+    <value>Resultados de búsqueda - Lista</value>
+    <comment>Phrase: Search results - list</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="InvalidIndex">
+    <value>índice no válido: {0}</value>
+    <comment>Phrase: Invalid index: {0}</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SearchBoxTitle">
+    <value>Búsqueda</value>
+    <comment>Control title: Search</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SearchBoxDesignerIndexDescription">
+    <value>Aquí se muestran los índices de búsqueda creados en &lt;br/&gt;&lt;em&gt;Administración&amp;gt;Índices de búsqueda&lt;/em&gt;</value>
+    <comment>phrase: Here are listed search indexes created in&lt;br /&gt;&lt;em&gt;Administration &amp;gt; Search indexes&lt;/em&gt;</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AzureDescription">
+    <value>La Búsqueda de Azure es una solución de búsqueda como servicio que permite a los desarrolladores incorporar capacidades de búsqueda en sus aplicaciones sin tener que preocuparse por las complejidades de la búsqueda de texto completo y sin tener que desplegar, mantener o administrar ninguna infraestructura.</value>
+    <comment>Description for Azure Search</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CreateThisSearchIndex">
+    <value>Crear este índice de búsqueda</value>
+    <comment>phrase: Create this search index</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Index">
+    <value>Índice</value>
+    <comment>word: Index</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AdvancedSection">
+    <value>Avanzado &lt;em class='sfNote'&gt;(para desarrolladores)&lt;/em&gt;</value>
+    <comment>The title of the 'Advanced' section in the Backend Detail View form.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ConnectToElasticSearch">
+    <value>Conectarse a Elasticsearch</value>
+    <comment>word: Connect to Elasticsearch</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NotAutoIndex">
+    <value>No indexar automáticamente</value>
+    <comment>phrase: Not auto-index</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ServerConnectivity">
+    <value>Conectividad del servidor</value>
+    <comment>Label: Server connectivity</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EditSearchIndex">
+    <value>Editar un índice de búsqueda</value>
+    <comment>phrase: Edit a search index</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AdditionalFieldsTitle">
+    <value>Campos adicionales para indexar</value>
+    <comment>The title of the 'Additional fields' field in the Backend Detail View form.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SearchResourcesTitlePlural">
+    <value>Búsqueda e Índices</value>
+    <comment>The title plural of this class.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PageGroupNodeTitle">
+    <value>Índices de búsqueda</value>
+    <comment>Page group for the Search module.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LuceneSearchServiceTitle">
+    <value>Lucene &lt;em class="sfSecondaryTxt"&gt;(predeterminado)&lt;/em&gt;</value>
+    <comment>Label: Lucene (default)</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Scope">
+    <value>Ámbito</value>
+    <comment>Word: Scope</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NoSearchIndexes">
+    <value>Todavía no se han creado índices de búsqueda</value>
+    <comment>phrase: No search indexes have been created yet</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Search">
+    <value>Búsqueda</value>
+    <comment>Word: Search</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SearchResultsStatusMessageShort">
+    <value>Resultados de búsqueda para &lt;strong&gt;{0}&lt;/strong&gt;</value>
+    <comment>Phrase: Search results for &lt;strong&gt;{0}&lt;/strong&gt;</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MaxSuggestionLengthDescription">
+    <value>La longitud máxima de una sola sugerencia</value>
+    <comment>phrase: The maximum length of a single suggestion</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MinSuggestLengthDescription">
+    <value>La longitud mínima requerida para comenzar a sugerir</value>
+    <comment>phrase: The minimum length required to start suggesting</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SearchBoxDesignerPageDescription">
+    <value>Esta es la página donde &lt;strong&gt;has soltado el widget &lt;em&gt;Resultados de búsqueda&lt;/em&gt;&lt;/strong&gt;</value>
+    <comment>phrase: This is the page where you have &lt;strong&gt;dropped &lt;em&gt;Search results&lt;/em&gt; widget&lt;/strong&gt;</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SearchServiceType">
+    <value>Nombre del tipo del servicio de búsqueda que debe utilizarse.</value>
+    <comment>Label: Name of the type of the search service that should be used.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RequiredField">
+    <value>Campo obligatorio</value>
+    <comment>Label: Required field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AllSites">
+    <value>Todos los sitios</value>
+    <comment>Label: All sites</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="IndexingInProgress">
+    <value>Indexación en proceso...</value>
+    <comment>phrase: Indexing in progress...</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SearchConfig">
+    <value>Configuración de búsqueda</value>
+    <comment>phrase: Search settings</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SearchBoxDesignerPageTitle">
+    <value>Dónde mostrar los resultados de búsqueda?</value>
+    <comment>phrase: Where to display search results?</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Reindex">
+    <value>Reindexar</value>
+    <comment>phrase: Start indexing now</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="WhereIndexFilesStored">
+    <value>Donde se almacenan los archivos de índice de búsqueda</value>
+    <comment>Label: Where search index files are stored</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LuceneSettings">
+    <value>Configuración de Lucene</value>
+    <comment>Label: Lucene Settings</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DuplicateSearchIndexTitle">
+    <value>Un índice de búsqueda con este nombre ya existe.</value>
+    <comment>Error message: Duplicate search index title.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SearchBoxDesignerRequiredPageMessage">
+    <value>Por favor, seleccione el lugar donde mostrar los resultados de búsqueda.</value>
+    <comment>phrase: Please select where to display search results.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ServiceAdminKey">
+    <value>Clave de API admin</value>
+    <comment>Label: Admin API key</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CurrentSearchServiceDescription">
+    <value>Define el servicio de búsqueda actual</value>
+    <comment>Label: Defines the current search service</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SearchBoxEmptyLinkText">
+    <value>Establecer donde buscar</value>
+    <comment>phrase: Set where to search</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="IndexFolder">
+    <value>Carpeta Índice</value>
+    <comment>Label: Index Folder</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+</root>

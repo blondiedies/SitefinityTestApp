@@ -1,0 +1,2140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BuyNowViewToolboxDescription">
+    <value>El botón 'Compre ahora' personalizado que se puede utilizar con diferentes tipos de contenido (no sólo con productos)</value>
+    <comment>Description of the buy now view widget in the toolbox.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Cancel">
+    <value>cancelar</value>
+    <comment>word: Cancel</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Platform">
+    <value>Plataforma</value>
+    <comment>word: Platform</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ReleaseYear">
+    <value>Año de lanzamiento</value>
+    <comment>phrase: Year of release</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ReleaseYearFormatError">
+    <value>El año de puesta en venta debe ser un número con cuatro dígitos; sólo se aceptan años entre 1900 y 2099.</value>
+    <comment>Violation message displayed to user if value for the year of release is not correctly entered.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductTitleTooLong">
+    <value>La longitud del título del producto no puede ser de más de 255 caracteres.</value>
+    <comment>The message shown to user if the title is longer than 255 characters.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UsedIfTheProductHasVariations">
+    <value>(Se utiliza si el producto presenta variaciones)</value>
+    <comment>phrase: (Used if the product has variations)</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SalePriceIsInvalid">
+    <value>El precio de venta no es válido</value>
+    <comment>phrase: Sale price is invalid</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ByTagFilterTitle">
+    <value>por Etiqueta</value>
+    <comment>by Departments</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Title">
+    <value>Título</value>
+    <comment>The label for product title.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MakeInactive">
+    <value>Hacer Inactivo</value>
+    <comment>Action command.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateA">
+    <value>Crear un...</value>
+    <comment>phrase: Create a...</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductsCatalogNodeUrlName">
+    <value>catálogo-de-productos</value>
+    <comment>Url name of the products catalog node.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Tax">
+    <value>Impuesto</value>
+    <comment>word: Tax</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateAProduct">
+    <value>Crear un producto</value>
+    <comment>phrase: Create a product</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NameKeyword">
+    <value>Nombre</value>
+    <comment>Name Keyword</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NoProductAttributesHaveBeenCreatedYet">
+    <value>Aún no se han creado atributos</value>
+    <comment>phrase: No attributes have been created yet</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductAttributeValuesTitleFormat">
+    <value>&lt;em&gt;{0}&lt;/em&gt; valores</value>
+    <comment>Title format for the product attribute values.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AllowUserToPurchaseEvenIfNoLongerInStock">
+    <value>Permitir a los usuarios comprar este artículo, incluso si ya no está en stock</value>
+    <comment>phrase: Allow users to purchase this item, even if it is no longer in stock</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Length">
+    <value>Extensión</value>
+    <comment>word: Length</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductVariationsTitleFormat">
+    <value>&lt;em&gt;{0}&lt;/em&gt; variaciones</value>
+    <comment>Title format for the product variations.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AutoCreatedVariations">
+    <value>Las variaciones se crearán automáticamente</value>
+    <comment>phrase : variations will be created automatically</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateAnProductAttribute">
+    <value>Crear un atributo</value>
+    <comment>phrase: Create an attribute</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductsReports">
+    <value>Informes de los productos</value>
+    <comment>Products reports</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MakeActive">
+    <value>Hacer Activo</value>
+    <comment>Action command.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="OrKeyword">
+    <value>o</value>
+    <comment>Or Keyword that gets shown before add to wish list</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="OptionSubtractPrice">
+    <value>- {0}</value>
+    <comment>Format for displaying the option price (which will be subtracted from the base price) in drop-down</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AdvancedSection">
+    <value>Avanzado</value>
+    <comment>Advanced</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ItemsCustomSelection">
+    <value>Selección personalizada de artículos</value>
+    <comment>phrase: Custom selection of items</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TierPricesQuantityInvalid">
+    <value>La cantidad debe ser un valor entero mayor que 1</value>
+    <comment>phrase: The quantity must be a integer value which is greater than 1</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductsViewPropertyEditorTitle">
+    <value>Lista de productos</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ClickToAddDescription">
+    <value>Hacer clic para añadir una descripción</value>
+    <comment>The label for the product description expand link</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TierPricesSinglePriceQuantityExist">
+    <value>Ya está especificada la cantidad</value>
+    <comment>The quantity is already specified</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="IsServiceTitle">
+    <value>Servicios u otros productos no despachables (por ejemplo, suscripciones)</value>
+    <comment>Title of the Is Service field</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TierPricesNote">
+    <value>Los precios por niveles deben ser menores que el precio de venta para que aparezcan en el sitio.</value>
+    <comment>Tier prices should be lower than sale price to appear on the site</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SaleEndDateShouldNotBeEarlierThanStartDate">
+    <value>La fecha de finalización de la venta no se puede establecer antes de su fecha de inicio.</value>
+    <comment>Message: Sale end date cannot be set earlier than its start date.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Author">
+    <value>Autor</value>
+    <comment>word: Author</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TrackInventoryForThisVariation">
+    <value>Rastrear inventario para esta variación</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="QuantityLeastOnTop">
+    <value>Cantidad: menos arriba</value>
+    <comment>Quantity less on top</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Variations">
+    <value>Variaciones</value>
+    <comment>Variations</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SameTemplateForAllProductTypes">
+    <value>Misma plantilla para todo tipo de productos...</value>
+    <comment>Phrase: Same template for all product types...</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Availability">
+    <value>Disponibilidad</value>
+    <comment>Availability</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductAttributeInternalNameInvalidSymbols">
+    <value>El nombre interno del atributo tiene algunos caracteres no válidos.</value>
+    <comment>The internal name of the attribute has some invalid characters.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PermissionsForProducts">
+    <value>Permisos para los productos</value>
+    <comment>phrase: Permissions for products</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ManageCatalogModule">
+    <value>Administrar módulo de catálogo</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ByTitleDesc">
+    <value>por Título (Z-A)</value>
+    <comment>By Title (Z-A)</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Images">
+    <value>Imágenes</value>
+    <comment>word: Images</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NewCreatedFirst">
+    <value>Situar encima lo último creado</value>
+    <comment>Last created on top</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BackToVariations">
+    <value>Volver a variaciones</value>
+    <comment>phrase: Back to variations</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductsCatalogNodeTitle">
+    <value>Catálogo de productos</value>
+    <comment>Title of the products catalog node.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateAVariationRequirementHint">
+    <value>Para crear variaciones, debe tener al menos un atributo y definir primero sus valores.</value>
+    <comment>phrase : To create variations you should have at least one attribute and define its values first.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NoProductVariationsHaveBeenCreatedYet">
+    <value>&lt;strong&gt;¿Qué son variaciones?&lt;/strong&gt; &lt;br /&gt; Si este producto está disponible en más de una talla, color, material, etc., necesita crear variaciones. Cada variación puede tener un precio, SKU, descripción diferente, etc.</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FromValueGreaterThanToValue">
+    <value>El valor mínimo debe ser menor que el máximo</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DocumentsAndOtherFilesField">
+    <value>Documentos y otros archivos</value>
+    <comment>phrase: Documents and other files</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SalePriceShouldBeLessThanPrice">
+    <value>El precio de venta debe ser menor que el precio</value>
+    <comment>phrase: Sale price should be less than price.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="InventoryViolationMessage">
+    <value>La cantidad de inventario solo puede ser un número entero.</value>
+    <comment>phrase: Inventory amount can only be a whole number</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CatalogWidgetsSectionTitle">
+    <value>Catálogo</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductsViewTitle">
+    <value>Vista de Productos</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AppliedToProductTypeError">
+    <value>Por favor, seleccione un tipo de producto al que se debe aplicar este atributo</value>
+    <comment>Please select a product type that this attribute has to apply to</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductReviewsNodeTitle">
+    <value>Comentarios</value>
+    <comment>Title of the product reviews node.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ByDepartments">
+    <value>por Departamentos</value>
+    <comment>phrase: by Departments</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ThisVariationIsActive">
+    <value>Esta variación está activa</value>
+    <comment>phrase: This variation is active</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="InventoryStatus">
+    <value>Estado del inventario</value>
+    <comment>Inventory status</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductsNodeUrlName">
+    <value>Productos</value>
+    <comment>Url name of the products node.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BuyNowViewToolboxName">
+    <value>Comprar ahora</value>
+    <comment>Title of the buy now view widget in the toolbox.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductTypeProperties">
+    <value>Propiedades del tipo de producto</value>
+    <comment>phrase: Product type properties</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="OptionAddPrice">
+    <value>+ {0}</value>
+    <comment>Format for displaying the option price (which will be added to the base price) in drop-down</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Filter">
+    <value>Filtrar</value>
+    <comment>Filter</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RatingDescendingOptionText">
+    <value>Calificación de alto a bajo</value>
+    <comment>Phrase: rating high to low</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EcommerceReportsNodeTitle">
+    <value>Reportes</value>
+    <comment>Reports</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductsByVendor">
+    <value>Productos por Proveedor</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductCustomFields">
+    <value>Configurar campos personalizados para los productos</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="LastCreatedTop">
+    <value>Situar encima lo último creado</value>
+    <comment>phrase: Last created on top</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductFilesAndDocuments">
+    <value>Archivos y documentos de productos</value>
+    <comment>phrase: Product files and documents</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductAttributeValuesNodeUrlName">
+    <value>attribute-values</value>
+    <comment>Url name of the product attributes values node.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DepartmentsOpenThisPage">
+    <value>Esta página</value>
+    <comment>phrase: Open department products on page...</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RolePickerFieldTitle">
+    <value>Función: Cuando alguien pide este producto, asignarle esta función</value>
+    <comment>The title of the product role picker field</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DepartmentFilterEvaluatorDescription">
+    <value>Extrae el URL basado en el departamento especificado por el Filtro por Tienda</value>
+    <comment>The description of the department shop By Filter URL Evaluator.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductPluralTypeName">
+    <value>Productos</value>
+    <comment>word: Products</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EditAProductVariations">
+    <value>Editar variaciones</value>
+    <comment>Edit variations</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EditAProductAttribute">
+    <value>Editar un atributo</value>
+    <comment>phrase: Edit an attribute</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SaveChanges">
+    <value>Guardar cambios</value>
+    <comment>word: Save changes</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NamePluralExample">
+    <value>Ejemplo: Libros. Esto se utilizará en los filtros.</value>
+    <comment>phrase: Example: Books. This will be used in filters.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TopSellingReport">
+    <value>Informe de más vendidos</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Downloadable">
+    <value>Descargable</value>
+    <comment>Downloadable</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NoAttributesAvailable">
+    <value>No hay atributos disponibles</value>
+    <comment>phrase : No available attributes</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Unpublish">
+    <value>QuitarDePublicacion</value>
+    <comment>word: Unpublish</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AllTypesOfProducts">
+    <value>Todos los tipos de productos</value>
+    <comment>All types of products</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Products">
+    <value>Productos</value>
+    <comment>word: Products</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SaleEndDate">
+    <value>Fecha de finalización de la venta</value>
+    <comment>phrase: Sale End Date</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CloseVendors">
+    <value>Cerrar Proveedores</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PriceDescendingOptionText">
+    <value>Precio de mayor a menor</value>
+    <comment>Phrase: price high to low</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CannotDeleteThisProductAttribute">
+    <value>El atributo '{0}' no puede ser eliminado ya que un producto lo está utilizando como una variación. Por favor, elimine la variación antes de eliminar este atributo.</value>
+    <comment>phrase: message that gets shown to the user when deleting a product attribute failed due to exsisting product using the attribute</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TierPricesSinglePriceInvalidBiggerThenPrice">
+    <value>El precio debe ser un valor inferior que el precio base</value>
+    <comment>phrase: The price must be lower value than the base price</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DoNotTrackInventory">
+    <value>No controlar inventario</value>
+    <comment>phrase: Do not track inventory</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductVariationsUrlName">
+    <value>ProductVariations</value>
+    <comment>Product variations URL name</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SelectValues">
+    <value>Seleccionar valores</value>
+    <comment>phrase: Select values</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="IfProductIsOutOfStock">
+    <value>Si este producto está fuera de stock...</value>
+    <comment>If this product is out of stock...</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AddPrice">
+    <value>Añadir precio</value>
+    <comment>phrase: Add price</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TaxCategoryRequired">
+    <value>Debe seleccionar una categoría de impuestos.</value>
+    <comment>phrase: TaxCategoryRequired</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ByPriceDesc">
+    <value>Más costoso arriba</value>
+    <comment>Most expensive on top</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductsTitle">
+    <value>Productos</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TrackInventory">
+    <value>Controlar inventario</value>
+    <comment>phrase: Track inventory</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EditProductVariations">
+    <value>Variaciones</value>
+    <comment>Variations</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductTypes">
+    <value>Tipos de producto</value>
+    <comment>phrase: Product types</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TaxClass">
+    <value>Clase de impuestos</value>
+    <comment>word: Tax class</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductVariations">
+    <value>ProductVariations</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BackToProductAttributes">
+    <value>Volver a atributos</value>
+    <comment>phrase: Back to attributes</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductAttribute">
+    <value>Atributo</value>
+    <comment>Attribute</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateAProductAttribute">
+    <value>Crear un atributo</value>
+    <comment>phrase: Create an attribute</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Artist">
+    <value>Artista</value>
+    <comment>word: Artist</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EditAProductAttributeValue">
+    <value>Editar un valor</value>
+    <comment>phrase: Edit a value</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PriceRangeValueInvalid">
+    <value>El valor debe ser numérico y debe estar en el rango de 0-{0}</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateVariation">
+    <value>Crear esta variación</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SortBy">
+    <value>Ordenar por</value>
+    <comment>Sort by</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ThisProductAttributeValue">
+    <value>Este valor está activo</value>
+    <comment>phrase: This value is active</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ByDepartmentFilterTitle">
+    <value>por Departamento</value>
+    <comment>by Departments</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Sale">
+    <value>Oferta</value>
+    <comment>word: Sale</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TypesOfProductsNodeUrlName">
+    <value>tipos-de-productos</value>
+    <comment>Url name of the types of products node.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NewModifiedFirst">
+    <value>Situar encima lo último modificado</value>
+    <comment>Last modified on top</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BackToProducts">
+    <value>Volver a los productos</value>
+    <comment>phrase: Back to products</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductTitleCannotBeEmpty">
+    <value>El título del producto se debe establecer</value>
+    <comment>The message shown to user if no title for the product has been entered.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DepartmentsNodeUrlName">
+    <value>Departamentos</value>
+    <comment>Url name of the departments node.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Inventory">
+    <value>Inventario</value>
+    <comment>Inventory</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SelectTax">
+    <value>-- Seleccionar un impuesto --</value>
+    <comment>phrase: Select a tax</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductAddOnsNodeTitle">
+    <value>Complementos</value>
+    <comment>Title of the product add-ons node.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RatingAscendingOptionText">
+    <value>Calificación de bajo a alto</value>
+    <comment>Phrase: rating low to high</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductAttributeInternalName">
+    <value>Para los desarrolladores: nombre que se utiliza en el código</value>
+    <comment>For developers: name used in code</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Edit">
+    <value>&lt;strong&gt;Editar ...&lt;/strong&gt;</value>
+    <comment>word</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="VisibleOnTheSite">
+    <value>(Visible en el sitio)</value>
+    <comment>Visible on the site</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TagFilterEvaluatorDescription">
+    <value>Extrae el URL basado en la etiqueta especificada por el Filtro por Tienda</value>
+    <comment>The description of the tag shop By Filter URL Evaluator.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateThisProductVariation">
+    <value>Crear esta variación</value>
+    <comment>phrase: Create this variation</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Rating">
+    <value>Puntuación</value>
+    <comment>word: Rating</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NameSingular">
+    <value>Nombre (singular)</value>
+    <comment>phrase: Name singular</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateProductAttributeValue">
+    <value>Crear un valor</value>
+    <comment>phrase: Create a value</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RatingRangeValueInvalid">
+    <value>El valor debe ser numérico y debe estar en el rango de 0-{0}</value>
+    <comment>Error message when the rating is out of the allowed range</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DepartmentsOtherPageHelpfulText">
+    <value>Debe tener un widget de lista de productos en la página seleccionada</value>
+    <comment>phrase: Open department products on page...</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ValueTooLong">
+    <value>La longitud del valor no puede exceder los 255 caracteres.</value>
+    <comment>The message shown to user if the value is longer than 255 characters.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ThisValueIsActive">
+    <value>Este valor está activo</value>
+    <comment>phrase: This value is active</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PriceFilterFormatString">
+    <value>{0} a {1}</value>
+    <comment>Price filter format string</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ManageProductTypes">
+    <value>Administrar Tipos de Productos</value>
+    <comment>Manage Product Types</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductAttributesNodeTitle">
+    <value>Atributos (tamaño, color, etc.)</value>
+    <comment>Title of the product attributes node.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ThisAttributeCanBeAppliedTo">
+    <value>Este atributo se puede aplicar a...</value>
+    <comment>This attribute can be applied to...</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NumberOfPagesFormatErrorMessage">
+    <value>El número de páginas debe ser un número entero.</value>
+    <comment>Violation message displayed to user if value for number of pages is not correctly entered.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FilterProducts">
+    <value>Filtrar productos</value>
+    <comment>phrase: Filter products</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductWeightCannotBeNegative">
+    <value>El peso del producto no puede ser menor que cero.</value>
+    <comment>The message shown to the user if the weight of the product is negative.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CatalogNodeName">
+    <value>Catálogo</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CannotDeleteThisProductAttributeValue">
+    <value>El valor '{0}' no puede ser eliminado ya que un producto lo está utilizando como una variación. Por favor, elimine la variación antes de eliminar este valor.</value>
+    <comment>phrase: message that gets shown to the user when deleting a product attribute value is failed due to exsisting product using the attribute / value</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AllProductTypes">
+    <value>Todos los Tipos de Productos</value>
+    <comment>Phrase: All Product Types</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TierPrices">
+    <value>Precio por niveles &lt;span class="sfNote"&gt; (precios basados en cantidad)&lt;/span&gt;</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NameDescendingOptionText">
+    <value>Nombre (Z - A)</value>
+    <comment>Name (Z - A)</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SelectAttribute">
+    <value>- Seleccionar atributo -</value>
+    <comment>- Select attribute -</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DepartmentsOpenOtherPage">
+    <value>Otra página…</value>
+    <comment>phrase: Open department products on page...</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CatalogNodeTitle">
+    <value>Catálogo</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EditProductVariation">
+    <value>Editar variaciones del producto</value>
+    <comment>Edit Product variations</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ByVendor">
+    <value>por Proveedor…</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="GenerateVariations">
+    <value>Generar estas variaciones</value>
+    <comment>phrase : Generate these variations</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Categories">
+    <value>Categorías</value>
+    <comment>word</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateThisProduct">
+    <value>Crear este producto</value>
+    <comment>phrase: Create this product</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SelectedTypes">
+    <value>Tipos seleccionados...</value>
+    <comment>Selected types...</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="GenerateAProductVariations">
+    <value>Generar variaciones de producto</value>
+    <comment>Generate product variations</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DisplayProductsInTheDefaultLanguageIfTheyAreNotTranslatedToTheCurrentLanguage">
+    <value>Mostrar productos en el idioma predeterminado si no están traducidos en el idioma actual</value>
+    <comment>phrase: Display products in the default language, if they are not translated in the current language</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateAndAddAnotherProductAttributeValue">
+    <value>Crear y agregar otro</value>
+    <comment>phrase: Create and add another</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ThisProductAttribute">
+    <value>Este atributo está activo</value>
+    <comment>phrase: This attribute is active</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NoAssociatedRole">
+    <value>- ningún rol asociado -</value>
+    <comment>phrase: - no associated role -</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BackToAllProducts">
+    <value>Volver a todos los productos</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TierPricesBuyMore">
+    <value>Precio para {0} o más es {1} por unidad &lt;i class='sfNewPrice'&gt;(Ahorre {2} por artículo)&lt;/i&gt;</value>
+    <comment>Price for {0} or more is {1} each (Save {2} per item)</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateAProductVariations">
+    <value>Crear una variación</value>
+    <comment>Create a variation</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SortByPriceDescending">
+    <value>Precio: más alto, primero</value>
+    <comment>Phrase: Price (high to low)</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="IfVariationIsOutOfStock">
+    <value>Si esta variación está fuera de stock…</value>
+    <comment>If this variation is out of stock...</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductForCount">
+    <value>producto</value>
+    <comment>word: product</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AttributeApplyToNote">
+    <value>Este atributo se agregará automáticamente a todas las variaciones especificadas para tipos de productos seleccionados</value>
+    <comment>This attribute will be automatically added to all variations specified for selected product types</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TierPricesEmptyNote">
+    <value>El precio por niveles es una herramienta promocional que permite que los administradores de tiendas animen a sus usuarios a comprar mayores cantidades de un producto al aplicar descuentos basados en la cantidad que se ordena</value>
+    <comment>Tier pricing is a promotional tool that allows store administrators to encourage their users to buy larger quantities of a product by applying discounts based on the quantity that is ordered</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Weight">
+    <value>Peso</value>
+    <comment>word: Weight</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateProductVariation">
+    <value>Crear una variación</value>
+    <comment>Create a variation</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Quantity">
+    <value>Cantidad</value>
+    <comment>Quantity</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ValueCannotBeEmpty">
+    <value>El valor no puede estar vacío</value>
+    <comment>phrase: value cannot be empty</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductUrlName">
+    <value>URL</value>
+    <comment>The title of the product url name property.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductsLower">
+    <value>Productos</value>
+    <comment>word: products</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PackageSizeByTag">
+    <value>Tamaño del paquete por etiqueta</value>
+    <comment>Phrase: Package size by tag</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Change">
+    <value>Cambiar</value>
+    <comment>phrase: Change</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Shippable">
+    <value>Enviable</value>
+    <comment>Shippable</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductTypeFilterEvaluatorDescription">
+    <value>Extrae el URL basado en el tipo de producto especificado por el Filtro por Tienda</value>
+    <comment>The description of the product type shop By Filter URL Evaluator.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductsViewToolboxDescription">
+    <value>Lista de productos con opciones para comprar</value>
+    <comment>Description of the products view widget in the toolbox.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CatalogNodeDescription">
+    <value>Módulo de catálogos</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NoTracking">
+    <value>Sin control</value>
+    <comment>NoTracking</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateProductAttribute">
+    <value>Crear un atributo</value>
+    <comment>phrase: Create an attribute</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductDocumentsAndFilesPropertyEditorTitle">
+    <value>Documentos y archivos de productos</value>
+    <comment>Property editor title for the product documents and files.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NameSingularExample">
+    <value>Ejemplo: Libro</value>
+    <comment>phrase: Example: Book</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SortByRatingDescending">
+    <value>Calificación: máxima, primero</value>
+    <comment>Phrase: Rating (high to low)</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ViewAllAttributes">
+    <value>Todos los atributos</value>
+    <comment>All attributes</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="IsActive">
+    <value>Este producto está activo</value>
+    <comment>phrase: This product is active</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="InventoryReport">
+    <value>Informe del inventario</value>
+    <comment>Inventory report</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ManageAlso">
+    <value>Configuración de productos</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DisplayTheProduct">
+    <value>Mostrar el producto</value>
+    <comment>Display the product</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Was">
+    <value>Antes</value>
+    <comment>word: Was</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SalePrice">
+    <value>Precio de venta</value>
+    <comment>phrase: Sale Price</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductAttributeValuesUrlName">
+    <value>AttributeValues</value>
+    <comment>Product Attribute values URL name</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Delete">
+    <value>Eliminar</value>
+    <comment>word: Delete</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductsForCount">
+    <value>Productos</value>
+    <comment>word: products</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AddAnotherAttribute">
+    <value>Añadir otro atributo</value>
+    <comment>Add another attribute</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Service">
+    <value>Servicio</value>
+    <comment>Service</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SortByRating">
+    <value>Puntuación</value>
+    <comment>Phrase: Rating</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductAttributeInternalNameCannotBeEmpty">
+    <value>El nombre interno del atributo no puede estar vacío.</value>
+    <comment>The internal name of the attribute cannot be empty.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EditProductsViewSettings">
+    <value>EditProductsViewSettings</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductValue">
+    <value>Valor</value>
+    <comment>Value</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NumberOfPages">
+    <value>Número de páginas</value>
+    <comment>phrase: Number of pages</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AddPriceRange">
+    <value>Añadir rango de precios</value>
+    <comment>Message inviting the user to add price range</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateAttribute">
+    <value>Crear este atributo</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BuyNowPropertyEditorTitle">
+    <value>Editar Comprar Ahora</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateThisProductType">
+    <value>Crear este tipo de producto y definir sus campos</value>
+    <comment>phrase: Create this product type</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Release">
+    <value>Puesta en venta</value>
+    <comment>word: Release</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductTypeName">
+    <value>Producto</value>
+    <comment>word: Product</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Sku">
+    <value>SKU (Stock Keeping Unit)</value>
+    <comment>phrase: SKU (Stock Keeping Unit)</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BackToProductVariations">
+    <value>Volver a variaciones</value>
+    <comment>phrase: Back to variations</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NoProductTypesHaveBeenCreatedYet">
+    <value>Aún no se han creado tipos de productos</value>
+    <comment>phrase: No product types have been created yet</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="VatIncluded">
+    <value>(incl&amp;nbsp;Imp)</value>
+    <comment>phrase: (incl Tax)</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ManageFilterOptions">
+    <value>Administrar opciones de filtro</value>
+    <comment>phrase: Manage filter options</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductAttributeValuesNodeTitle">
+    <value>Valores de un atributo</value>
+    <comment>Values of an attribute</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Departments">
+    <value>Departamentos</value>
+    <comment>word: Departments</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TypesOfProductsNodeTitle">
+    <value>Tipos de productos</value>
+    <comment>Title of the types of products node.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ByRatingDesc">
+    <value>Mejor clasificado, arriba</value>
+    <comment>Best rated on top</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SelectAtleastOneAttribute">
+    <value>Debe seleccionar al menos un valor de atributo para crear una variación</value>
+    <comment>Error message that gets shown when the user doesnt select any attribute values and tries to create a variation</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AllowUsersToSetNumberOfItemsPerPage">
+    <value>Permitir que los usuarios configuren el número de artículos por página</value>
+    <comment>phrase: Allow users to set number of items per page</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UsedIfTheProductDoesNotHaveAnyVariations">
+    <value>(Se utiliza cuando el producto no tiene ninguna variación)</value>
+    <comment>phrase: (Used if the product does not have any variations)</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DepartmentsPropertyEditorTitle">
+    <value>Departamentos</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ByPriceFilterTitle">
+    <value>por Precio</value>
+    <comment>by Price</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MoreOptions">
+    <value>Más opciones</value>
+    <comment>phrase: More options</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Type">
+    <value>Tipo</value>
+    <comment>word: Type</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Remove">
+    <value>Eliminar</value>
+    <comment>Remove</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AvailableForPurchase">
+    <value>(Disponible para su compra)</value>
+    <comment>Available for purchase</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ManufacturersNodeUrlName">
+    <value>Fabricantes</value>
+    <comment>Url name of the manufacturers node.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SortByRatingAscending">
+    <value>Calificación: más bajo, primero</value>
+    <comment>Phrase: Rating (low to high)</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SaleEndDateIsInvalid">
+    <value>La fecha de finalización de la venta no es válida</value>
+    <comment>phrase: Sale end date is invalid</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ByPriceAsc">
+    <value>Menos costoso arriba</value>
+    <comment>Cheapest on top</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductTitlePluralCannotBeEmpty">
+    <value>Debe introducir el nombre en plural para el Tipo de Producto.</value>
+    <comment>Phrase: You must enter the plural name for the Product Type.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductAddOnsNodeUrlName">
+    <value>Complementos</value>
+    <comment>Url name of the product add-ons node.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DuplicateProductVariationException">
+    <value>Existe otra variación del producto con este atributo y la combinación de valor para este producto.</value>
+    <comment>The message shown to the user if the product variation information duplicates another variation of the same product.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ModuleTitle">
+    <value>Catálogo</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Order">
+    <value>Ordenar</value>
+    <comment>word: Order</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductReviewsNodeUrlName">
+    <value>Comentarios</value>
+    <comment>Url name of the product reviews node.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AttributeNameFieldControlExample">
+    <value>Ejemplo: Tamaño</value>
+    <comment>Example: Size</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SelectFile">
+    <value>Seleccione archivo</value>
+    <comment>The text for the 'Select file' button.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="IsVatTaxable">
+    <value>Este precio está sujeto al VAT</value>
+    <comment>phrase: This price is VAT taxable</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductPriceIsInvalid">
+    <value>El precio del producto debe ser un valor numérico que sea mayor o igual a 0 y menor de 100,000,000.00;  use punto "."  para el separador decimal; se permite un máximo de 2 dígitos a partir del separador decimal.</value>
+    <comment>The message shown to the user if the price of the product is not valid.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductAttributeValues">
+    <value>Valores de Atributos</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EditAProduct">
+    <value>Editar un producto</value>
+    <comment>phrase: Edit a product</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TierPricesSinglePriceInvalid">
+    <value>El precio debe ser un valor numérico mayor que 0</value>
+    <comment>phrase: The price must be a numeric value which is greater than 0</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SinglePrice">
+    <value>Precio único</value>
+    <comment>Single Price</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductsByCategory">
+    <value>Productos por Categoría</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateProductType">
+    <value>Crear tipo de producto</value>
+    <comment>phrase: Create product type</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CustomSorting">
+    <value>Ordenación personalizada ...</value>
+    <comment>Custom sorting</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SizeOfThumbnails">
+    <value>Tamaño de las miniaturas</value>
+    <comment>The text for the Select thumbnail size dropdown</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Tags">
+    <value>Etiquetas</value>
+    <comment>word</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RedirectToShoppingCart">
+    <value>Redirigir al Carrito de Compras</value>
+    <comment>phrase: Redirect to Shopping cart</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AlphabeticallyZA">
+    <value>Alfabeticamente (Z-A)</value>
+    <comment>word: Alphabetically (Z-A)</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductsNodeTitle">
+    <value>Productos</value>
+    <comment>Title of the products node.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateProduct">
+    <value>Crear producto</value>
+    <comment>phrase: Create product</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateAProductType">
+    <value>Crear un tipo</value>
+    <comment>phrase: Create a product type</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ISBN">
+    <value>ISBN</value>
+    <comment>word: ISBN</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BySku">
+    <value>Según SKU</value>
+    <comment>By SKU</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Price">
+    <value>Precio</value>
+    <comment>word: Price</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateAProductVariation">
+    <value>Crear variaciones</value>
+    <comment>Create variations</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AttributeNameCannotBeEmpty">
+    <value>El nombre del atributo no puede estar vacío</value>
+    <comment>phrase: Attribute name cannot be empty</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DateOwner">
+    <value>Fecha/Propietario</value>
+    <comment>Date / Owner</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DepartmentsThisPageHelpfulText">
+    <value>Debe tener un widget de lista de productos en esta página</value>
+    <comment>phrase: Open department products on page...</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DepartmentControlToolboxName">
+    <value>Departamentos</value>
+    <comment>Title of the Department Control widget in the toolbox.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DepartmentsNodeTitle">
+    <value>Departamentos</value>
+    <comment>Title of the departments node.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ManageValues">
+    <value>Administrar valores</value>
+    <comment>phrase: Manage values</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateThisProductAttribute">
+    <value>Crear este atributo</value>
+    <comment>phrase: Create this attribute</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TierPricesQuantityInvalidInteger">
+    <value>La cantidad debe ser un valor entero</value>
+    <comment>phrase: The quantity must be a integer value</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AdditionalCharge">
+    <value>Cargo adicional</value>
+    <comment>Additional charge</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TrackInventoryByVariations">
+    <value>Controlar inventario según variaciones &lt;span class="sfNote"&gt;(si este producto tiene variaciones)&lt;/span&gt;</value>
+    <comment>phrase: Track inventory by variations</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Album">
+    <value>Álbumes</value>
+    <comment>word: Album</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ClassificationFilterEvaluatorDescription">
+    <value>Extrae el URL basado en la clasificación especificada por el Filtro por Tienda</value>
+    <comment>The description of the classification shop By Filter URL Evaluator.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductVariationsSKU">
+    <value>SKU</value>
+    <comment>Product Variations SKU</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NoProductsHaveBeenCreatedYetCreateA">
+    <value>Aún no se han creado productos &lt;h2&gt;Crear un... &lt;/h2&gt;</value>
+    <comment>The message shown when no products have yet been created.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SelectThumbnailDefault">
+    <value>- Seleccionar -</value>
+    <comment>A dropdown default value '- Select -'</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BackToAllVendors">
+    <value>Volver a todos los proveedores</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Description">
+    <value>Descripción</value>
+    <comment>The label for the product description.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductUrlNameInvalidSymbols">
+    <value>El nombre de la URL del producto contiene algunos caracteres no válidos.</value>
+    <comment>The message which warns user that url name of the product has some invalid characters.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FilterProductsPropertyEditorTitle">
+    <value>Filtrar productos</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ClearFilter">
+    <value>Quitar filtro</value>
+    <comment>ClearFilter</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ManageAttributes">
+    <value>Administrar atributos</value>
+    <comment>phrase: Manage attributes</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SelectValue">
+    <value>- Seleccionar valor -</value>
+    <comment>- Select value -</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ManufacturersNodeTitle">
+    <value>Fabricantes</value>
+    <comment>Title of the manufacturers node.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Sort">
+    <value>Ordenar productos:</value>
+    <comment>Sort</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Actions">
+    <value>Acciones</value>
+    <comment>word: Actions</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SortByFeatured">
+    <value>Destacado</value>
+    <comment>Phrase: Featured</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ThisAttributeIsActive">
+    <value>Este atributo está activo</value>
+    <comment>phrase: This attribute is active</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Permissions">
+    <value>Permisos</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SortByDate">
+    <value>Primero lo más muevo</value>
+    <comment>Phrase: Newest first</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NameAscendingOptionText">
+    <value>Nombre (A - Z)</value>
+    <comment>Name (A - Z)</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductWeightIsInvalid">
+    <value>El peso del producto debe ser un valor numérico mayor que 0; use punto "."  para el separador decimal; se permite un máximo de 2 dígitos a partir del separador decimal.</value>
+    <comment>The message shown to the user if the weight of the product is not valid.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="IsTaxable">
+    <value>Este precio está sujeto a impuestos</value>
+    <comment>phrase: This price is taxable</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductAttributeRequired">
+    <value>Usted debe seleccionar un atributo.</value>
+    <comment>phrase: You must select an attribute</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ReleaseDate">
+    <value>Fecha de puesta en venta</value>
+    <comment>phrase: Release date</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TopSellingReportNodeTitle">
+    <value>Informe de más vendidos</value>
+    <comment>Top selling report node title</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UploadOrSelectADocument">
+    <value>Cargar o seleccionar un documento...</value>
+    <comment>phrase: Upload or select a document...</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AttributeNameTooLong">
+    <value>La longitud del nombre del atributo no puede exceder los 255 caracteres.</value>
+    <comment>The message shown to user if the name is longer than 255 characters.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NamePlural">
+    <value>Nombre (plural)</value>
+    <comment>phrase: Name (plural)</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RatingFilterFormatString">
+    <value>{0} a {1}</value>
+    <comment>Rating filter format string</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="QuantityMostOnTop">
+    <value>Cantidad: más arriba</value>
+    <comment>Quantity most on top</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SortByPriceAscending">
+    <value>Precio: más bajo, primero</value>
+    <comment>Phrase: Price (low to high)</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DeliveryType">
+    <value>Tipo</value>
+    <comment>Delivery Type</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NoAttributesInSystem">
+    <value>No hay atributos creados en el sistema (o los atributos creados están inactivos o no se aplican a este producto). Para crear variaciones, por favor primero cree atributos.</value>
+    <comment>Error message that gets shown when there are no attributes in the system and user tries to create variations</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ByTitleAsc">
+    <value>por Título (A-Z)</value>
+    <comment>By Title (A-Z)</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductUrlNameCannotBeEmpty">
+    <value>El nombre de la URL del producto no puede estar vacío.</value>
+    <comment>The message which warns user that url name of the product cannot be left empty.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FilterProductsFriendlyName">
+    <value>Filtrar productos</value>
+    <comment>phrase: Filter products</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ThisProductHasVariationsBy">
+    <value>Este producto tiene variaciones en...</value>
+    <comment>This product has variations by...</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ByClassificationFilterTitle">
+    <value>para {0}</value>
+    <comment>by Classification</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Manually">
+    <value>Manualmente</value>
+    <comment>word: Manually</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DoNotDisplayProductsWhichAreNotTranslatedToTheCurrentLanguage">
+    <value>No mostrar productos que no se traducen en el idioma actual</value>
+    <comment>phrase: Don’t display products that are not translated in the current language</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NoDocumentsAndFilesToShow">
+    <value>No hay archivos ni documentos para este producto</value>
+    <comment>There are no files and documents for this product</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductPriceCannotBeNegative">
+    <value>El precio del producto no puede ser negativo.</value>
+    <comment>The message shown to the user if the price of the product is negative.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductsDetailViewFriendlyName">
+    <value>Detalles del Producto</value>
+    <comment>phrase: Product Details</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ClickingAddToCartButtonRedirectsToTheShoppingCartPage">
+    <value>Si hace clic en "Agregar al Carrito de Compras" será redirigido a la página del Carrito de Compras</value>
+    <comment>Clicking "Add to cart" button redirects to the Shopping cart page</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AlphabeticallyAZ">
+    <value>Alfabeticamente (A-Z)</value>
+    <comment>word: Alphabetically (A-Z)</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DiscountPerItem">
+    <value>Descuento por artículo</value>
+    <comment>Discount Per Item</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AllProducts">
+    <value>Todos los productos</value>
+    <comment>Phrase: All products</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ModuleDescription">
+    <value>Módulo de catálogo usado para administrar los productos para el módulo de comercio electrónico.</value>
+    <comment>Description of the catalog module.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="EditTheVariations">
+    <value>Editar variaciones</value>
+    <comment>phrase: Edit variations</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="IsShippableTitle">
+    <value>Productos despachables</value>
+    <comment>Title of the Is shippable field</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductsViewToolboxName">
+    <value>Lista de productos</value>
+    <comment>Title of the products view widget in the toolbox.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="YouHaveToSelectAFile">
+    <value>Por favor, seleccione un archivo para descargar</value>
+    <comment>Please select a file to download</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DropdownList">
+    <value>Lista desplegable</value>
+    <comment>phrase: Dropdown list</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateAProductAttributeValue">
+    <value>Crear un valor</value>
+    <comment>phrase: Create a value</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="IsShippableDescription">
+    <value>No seleccione esta opción si los productos no se pueden enviar, p. ej., software, MP3.</value>
+    <comment>Description of the Is shippable field</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ItemsPerPage">
+    <value>Artículos por página:</value>
+    <comment>Phrase: Items per page:</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductDocumentsAndFilesFriendlyName">
+    <value>Documentos y Archivos de Productos</value>
+    <comment>phrase: Product Documents And Files</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductAttributes">
+    <value>Atributos</value>
+    <comment>Phrase: Product Attributes</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PriceFilterEvaluatorDescription">
+    <value>Extrae el URL basado en el precio especificado por el Filtro por Tienda</value>
+    <comment>The description of the price shop By Filter URL Evaluator.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SortByName">
+    <value>Nombre</value>
+    <comment>Phrase: Sort by name</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="FileToDownload">
+    <value>Archivos para descargar</value>
+    <comment>phrase: Files to download</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DifferentTemplateForEachProductType">
+    <value>Una plantilla diferente para cada tipo de producto...</value>
+    <comment>Phrase: Different template for each product type...</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TitleAboveProductsFilter">
+    <value>El título encima del filtro &lt;em class='sfNote'&gt;(opcional)&lt;/em&gt;</value>
+    <comment>phrase: Title above the filter (optional)</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DisplayMode">
+    <value>Modo de visualización</value>
+    <comment>phrase: Display mode</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ViewAll">
+    <value>Ver Todos</value>
+    <comment>Phrase: View All</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TopSellingReportUrlName">
+    <value>Informe-más-vendidos</value>
+    <comment>Url name of the top selling report.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="UploadOrSelectAnImage">
+    <value>Subir o seleccionar una imagen...</value>
+    <comment>The text for the 'Upload or select an image...' button.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateVariations">
+    <value>Crear variaciones</value>
+    <comment>create variations</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="VendorsNodeTitle">
+    <value>Proveedores</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductDeliveryTitle">
+    <value>&lt;string&gt;Este tipo contiene...&lt;/strong&gt;</value>
+    <comment>Title of the product delivery title</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SaleStartDate">
+    <value>Fecha de inicio de la venta</value>
+    <comment>phrase: Sale Start Date</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SortByBestSelling">
+    <value>Más vendidos</value>
+    <comment>Phrase: Best selling</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductVariationsNodeUrlName">
+    <value>product-variations</value>
+    <comment>Url name of the product variations node.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ByRatingAsc">
+    <value>Peor clasificado, arriba</value>
+    <comment>Worst rated on top</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="IsDownloadableTitle">
+    <value>Productos descargables (por ejemplo, MP3, libros electrónicos, software)</value>
+    <comment>Title of the Is Downloadable field</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PriceAscendingOptionText">
+    <value>Precio de menor a mayor</value>
+    <comment>Phrase: price low to high</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="OpenDepartmentProductsOnPage">
+    <value>Abrir los productos del departamento en la página...</value>
+    <comment>phrase: Open department products on page...</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AppliedTo">
+    <value>Aplicar A</value>
+    <comment>Applied To</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="WhatToDoWithNotTranslatedProductsText">
+    <value>¿Qué hacer con los productos sin traducir?</value>
+    <comment>phrase: What to do with untranslated products?</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductVariationsName">
+    <value>Nombre</value>
+    <comment>Name</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SizeOfPrimaryImagePreview">
+    <value>Tamaño de la imagen principal</value>
+    <comment>The text for the Select image preview dropdown</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="WhichItemsToDisplay">
+    <value>¿Qué elementos desea mostrar?</value>
+    <comment>phrase: Which items to display?</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ByRatingFilterTitle">
+    <value>por Calificación</value>
+    <comment>by Rating</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BackToItems">
+    <value>Volver a los productos</value>
+    <comment>phrase: Back to products</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ValueNameFieldControlExample">
+    <value>Ejemplo: XL</value>
+    <comment>Example: XL</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BuyNowViewFriendlyName">
+    <value>Comprar ahora</value>
+    <comment>phrase: Buy now</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RolePickerFieldDescription">
+    <value>Asignar usuarios a una función le permite darles permisos específicos, p. ej., sólo ellos están autorizados a descargar un archivo, tener acceso a recursos específicos de apoyo, etc.</value>
+    <comment>The description of the product role picker field.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="PriceFilterFormatStringForAbove">
+    <value>{0} y {1}</value>
+    <comment>Price filter format string for above</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DisplayTheVariation">
+    <value>Mostrar la variación</value>
+    <comment>Display the variation</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SkuLarge">
+    <value>SKU</value>
+    <comment>SKU</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NoProductAttributeValuesHaveBeenCreatedYet">
+    <value>Aún no se han creado valores</value>
+    <comment>phrase: No values have been created yet</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="RatingFilterFormatStringForAbove">
+    <value>{0} y {1}</value>
+    <comment>Rating filter format string for above</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="InStock">
+    <value>En stock</value>
+    <comment>InStock</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="InventoryReportUrlName">
+    <value>informe-inventario</value>
+    <comment>Url name of the inventory report.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductFilterTitle">
+    <value>Filtrar productos</value>
+    <comment>phrase: Filter products</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SetPermissions">
+    <value>Establecer permisos</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BackToProductTypes">
+    <value>Volver a los tipos</value>
+    <comment>phrase: Back to product types</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AndAbove">
+    <value>y superior</value>
+    <comment>and above</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductVariation">
+    <value>Variación</value>
+    <comment>Product Variation</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="GoToCreateAnAttribute">
+    <value>Ir a crear un atributo</value>
+    <comment>Go to create an attribute</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SaleStartDateIsInvalid">
+    <value>La fecha de inicio de la venta no es válida</value>
+    <comment>phrase: Sale start date is invalid</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ManageProducts">
+    <value>Administrar Productos</value>
+    <comment>phrase: Manage Products</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreateVendor">
+    <value>Crear este proveedor</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="InventoryReportNodeTitle">
+    <value>Informe del inventario</value>
+    <comment>Title of the node that displays the Inventory report</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="MyProducts">
+    <value>Mis productos</value>
+    <comment>The text of my products sidebar button</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="HiddenOnTheSite">
+    <value>(Oculto en el sitio)</value>
+    <comment>Hidden on the site</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductsMasterViewFriendlyName">
+    <value>Lista de Productos</value>
+    <comment>phrase: Products List</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductAttributeValueRequired">
+    <value>Debe seleccionar un valor.</value>
+    <comment>phrase: You must select a value</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AddRatingRange">
+    <value>Añadir rango de calificación</value>
+    <comment>Message inviting the user to add rating range</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="DeleteThisItem">
+    <value>Eliminar</value>
+    <comment>word: Delete</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="BackToProductAttributeValues">
+    <value>Volver a valores</value>
+    <comment>phrase: Back to values</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Publisher">
+    <value>Editor</value>
+    <comment>word: Publisher</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CannotDeleteProductAttribute">
+    <value>Este atributo no puede ser eliminado ya que un producto lo está utilizando como una variación. Por favor, elimine la variación antes de eliminar este atributo.</value>
+    <comment>phrase: message that gets shown to the user when deleting a product attribute failed due to exsisting product using the attribute</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ByProductTypeFilterTitle">
+    <value>por Tipo de producto</value>
+    <comment>by Product type</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Publish">
+    <value>Publicar</value>
+    <comment>word: Publish</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ColumnList">
+    <value>Lista de columna</value>
+    <comment>phrase: Column list</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AtLeastOneFieldNeeded">
+    <value>Al menos se debe llenar un campo</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CreatedDateOptionText">
+    <value>Fecha de creación</value>
+    <comment>Created date</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="Manage">
+    <value>Administrar</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="AllowOrdersEvenIfNotAvailable">
+    <value>Permitir pedidos incluso si no está disponible</value>
+    <comment>Allow orders even if not available</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SelectAValue">
+    <value>- Seleccionar -</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="NoValuesSelected">
+    <value>Los valores no están seleccionados</value>
+    <comment>Values are not selected</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="LastCreatedBottom">
+    <value>Último creado en el fondo</value>
+    <comment>phrase: Last created at bottom</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="OutOfStock">
+    <value>Agotado</value>
+    <comment>OutOfStock</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="SaleOptions">
+    <value>Opciones de venta</value>
+    <comment>phrase: Sale options</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductVariationsNodeTitle">
+    <value>Variaciones del Producto</value>
+    <comment>Values of an attribute</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="CannotDeleteProductAttributeValue">
+    <value>Este valor no puede ser eliminado ya que un producto lo está utilizando como una variación. Por favor, elimine la variación antes de eliminar este valor.</value>
+    <comment>phrase: message that gets shown to the user when deleting a product attribute value is failed due to exsisting product using the attribute / value</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="GroupDeleteProductAttributeValues">
+    <value>Eliminar</value>
+    <comment>Delete</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="TrackedOnVariations">
+    <value>Control hecho en variaciones</value>
+    <comment>TrackedOnVariations</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ProductAttributesNodeUrlName">
+    <value>atributos-de-productos</value>
+    <comment>Url name of the product attributes node.</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ThisProductVariation">
+    <value>Esta variación está activa</value>
+    <comment>phrase: This variation is active</comment>
+    <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+</root>

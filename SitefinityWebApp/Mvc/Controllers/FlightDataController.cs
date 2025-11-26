@@ -23,15 +23,17 @@ namespace SitefinityWebApp.Mvc.Controllers
         /// <returns></returns>
         public ActionResult Index()
 		{
-            var threadCulture = System.Threading.Thread.CurrentThread.CurrentUICulture;
-            var sitefinityCulture = SystemManager.CurrentContext.Culture;
+            var model = new FlightDataModel();
+            var viewModel = model.GetViewModel();
+            ViewBag.Title = FlightDataResources.Title;
+            ViewBag.DisabledModule = FlightDataResources.DisabledModule;
 
-            ViewBag.Title= FlightDataResources.Title;
+            if (viewModel != null) { 
+            
             ViewBag.FlightNumberLabel= FlightDataResources.FlightNumberLabel;
             ViewBag.MissionStatusLabel = FlightDataResources.MissionStatusLabel;
 
-            var model = new FlightDataModel();
-			var viewModel = model.GetViewModel();
+            
             if (viewModel.Success)
             {
                 ViewBag.StatusMessage = FlightDataResources.SuccessMessage;
@@ -39,9 +41,10 @@ namespace SitefinityWebApp.Mvc.Controllers
             else 
             {
                 ViewBag.StatusMessage = FlightDataResources.FailureMessage;
-            }
+            }}
             return View("Index",viewModel);
-		}
+            
+        }
 		
         protected override void HandleUnknownAction(string actionName)
         {

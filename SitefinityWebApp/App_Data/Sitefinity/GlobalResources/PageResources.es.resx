@@ -1,0 +1,4064 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="VersionAndLicensingUrlName">
+    <value>Versión y Licencias</value>
+    <comment>The name if About Sitefinity page that appears in the URL.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ServicesDescription">
+    <value>Permite el acceso a los servicios de sistema Sitefinity tales como fuentes y de búsqueda.</value>
+    <comment>Description of Sitefinity/Admin/Services section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="AdminDescription">
+    <value>Sección para la administración Sitefinity tales como gestión de usuarios, permisos, servicios del sistema, etc.</value>
+    <comment>Description of Administration section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SectionDescription">
+    <value>Añadir un contenedor de páginas.</value>
+    <comment>The description of Section toolbar button.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SystemNodeTitle">
+    <value>Sistema</value>
+    <comment>The title of the System section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadSchedulerTitle">
+    <value>Programador</value>
+    <comment>The title of the RadScheduler control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadDateTimePickerDescription">
+    <value>RadDateTimePicker para ASP.NET AJAX</value>
+    <comment>The description of the RadDateTimePicker control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SuccessTemplateDescription">
+    <value>Obtiene la plantilla que define el diseño de "Éxito" del control 'Password Recovery'</value>
+    <comment>Description of SuccessTemplate property</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RolePoliciesDescription">
+    <value>Define opciones de configuración de los roles individuales.</value>
+    <comment>The description of Role Policies Handler.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ByDate">
+    <value>por fecha de modificación ...</value>
+    <comment>phrase: by Date modified</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="IsEditing">
+    <value>está editando</value>
+    <comment>Page version screen label</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Email">
+    <value>Correo electrónico</value>
+    <comment>Word</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SiteAndLanguageSelectorFieldTitle">
+    <value>Sitio e Idioma</value>
+    <comment>The label for the site and language selector when duplicating a page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ZoneEditorDeleteCommand">
+    <value>Eliminar</value>
+    <comment>Page editor 'delete' command title.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadSkinManagerTitle">
+    <value>Administrador de Skins</value>
+    <comment>The title of the RadSkinManager control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadListViewTitle">
+    <value>Vista de Lista</value>
+    <comment>The title of the RadListView control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RightSidebarHeaderFooter">
+    <value>Barra lateral a la derecha, encabezado, pie de página</value>
+    <comment>Label</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SystemNodeUrlName">
+    <value>Sistema</value>
+    <comment>The name of the System node that appears in the URL.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="TaxonomyControlTitle">
+    <value>Clasificación</value>
+    <comment>Control title: Taxonomy</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="TemplateGridColumnHeaderText">
+    <value>plantilla</value>
+    <comment>The text of Template column in the page browser grid.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ContentCommandName">
+    <value>Contenido</value>
+    <comment>The name of Content command.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SectionInfo">
+    <value>Sección de {0} páginas</value>
+    <comment>The section information displayed in the page browser grid.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="WhatsThis">
+    <value>¿Qué es esto?</value>
+    <comment>A generic title for links used to show contextual help.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="BlogsViewDescription">
+    <value>Control de Vista de Blogs</value>
+    <comment>The description of the Blogs View control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadFormDecoratorDescription">
+    <value>RadFormDecorator para ASP.NET AJAX</value>
+    <comment>The description of the RadFormDecorator control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DownloadListViewTitle">
+    <value>Descargar lista</value>
+    <comment>Control title: DownloadListViewTitle</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CloseDateFilter">
+    <value>Cerrar fechas</value>
+    <comment>The link for closing the date filter widget in the sidebar.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CannotCreateChildPages">
+    <value>Usted no está autorizado a crear páginas en {0}.</value>
+    <comment>An error message displayed when the user tries to create a assign a parent to a page, when the parent had no permissions to create child pages.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CreateOwnLayout">
+    <value>Crea tu propio diseño, eligiendo "Sin plantilla".</value>
+    <comment>Create your own layout by choosing "No template".</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="OpenInNewWindow">
+    <value>Abrir en ventana nueva</value>
+    <comment>Open in new window</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Draft">
+    <value>Borrador</value>
+    <comment>Draft page status</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadStyleSheetManagerTitle">
+    <value>Administrador de estilos de hoja</value>
+    <comment>The title of the RadStyleSheet control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="BasicSettingsHtmlTitle">
+    <value>Opciones básicas</value>
+    <comment>The html title of the BasicSettings backend page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PageTemplatesDescription">
+    <value>Proporciona una interfaz de usuario para crear y administrar plantillas de página.</value>
+    <comment>Description of Templates section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PageTemplateYouCanChangeItLater">
+    <value>Plantilla &lt;span class='sfLblNote'&gt;(Puede cambiarla luego)&lt;/span&gt;</value>
+    <comment>phrase: Template (You can change it later)</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadPanelBarDescription">
+    <value>RadPanelBar para ASP.NET AJAX</value>
+    <comment>The description of the RadPanelBar control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ChangeResponsiveDesignLayout">
+    <value>Diseño Sensible</value>
+    <comment>Phrase: Responsive design Layout</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="NotSpecified">
+    <value>No especificado</value>
+    <comment>Not specified</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="HomepageSettingFailedMessage">
+    <value>No se pudo establecer esta página como página de inicio.</value>
+    <comment>Message shown to the user when setting this page as homepage failed.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SeoTitleCannotBeEmpty">
+    <value>El título para los motores de búsqueda no puede estar vacío.</value>
+    <comment>The message shown when the 'Title for search engines' is empty.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ZoneEditorEmptyZoneLayoutCaption">
+    <value>¿Desea dividir este cuadro en columnas?</value>
+    <comment>The description of this element.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ZoneEditorThemes">
+    <value>Temas</value>
+    <comment>Page editor 'themes' tab title.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ClassificationsDescription">
+    <value>Proporciona la interfaz de usuario para administrar el contenido de las clasificaciones (taxonomías).</value>
+    <comment>Description of Sitefinity/Content/Classifications section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ServicesNodeDescription">
+    <value>Grupos de módulos de servicios de sistema.</value>
+    <comment>The description of the Services section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PoliciesLabel">
+    <value>Directivas</value>
+    <comment>The title of Sitefinity/Admin/Configuraiton/Policies section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CannotSplitNonSplitChildren">
+    <value>El nodo de página dado tiene nodos hijos. Usted sólo puede dividir un nodo si no tiene nodos hijos o si la totalidad de sus nodos hijos también está dividido.</value>
+    <comment>An error message displayed when the user tries to split a page which has non-split children.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="MarkedItemsHtmlTitle">
+    <value>Elementos marcados</value>
+    <comment>Title of the page that displays marked items in Sitefinity's backend.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadColorPickerDescription">
+    <value>RadColorPicker para ASP.NET AJAX</value>
+    <comment>The description of the RadColorPicker control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PageDuplicateMessage">
+    <value>La dirección URL especificada ya existe en la página: {0}</value>
+    <comment>The message that will be displayed when a duplicate page url has been found.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="LeftSidebarHeaderFooter">
+    <value>Barra lateral a la izquierda, encabezado, pie de página</value>
+    <comment>Label</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadUploadTitle">
+    <value>Cargar</value>
+    <comment>The title of the RadUpload control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="EnableViewState">
+    <value>Habilitar &lt;strong&gt;ViewState&lt;/strong&gt;</value>
+    <comment>Phrase: Enable ViewState</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ModulesNodeTitle">
+    <value>Tipos de Contenido</value>
+    <comment>The title of the Modules taxon.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Modules">
+    <value>Módulos</value>
+    <comment>word : Modules</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ConfigurationsHtmlTitle">
+    <value>Configuraciones</value>
+    <comment>Title of the page in Sitefinity's backend that manages configurations.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="BasicSettingsTitle">
+    <value>Opciones básicas</value>
+    <comment>The title of BasicSettings backend page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="InvalidUrl">
+    <value>La URL introducida no es válida.</value>
+    <comment>The entered URL is invalid.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Col1Description">
+    <value>Diseño de una sola columna.</value>
+    <comment>The description of layout control.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ConnectivityNodeUrlName">
+    <value>Conectividad</value>
+    <comment>The name of the Connectivity node that appears in the URL.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CreateAndReturnToTemplates">
+    <value>Crear y volver a Plantillas</value>
+    <comment>The text of the button for creating a template and returning to templates.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="BackendPagesWarningTitle">
+    <value>Páginas del área administrativa - Advertencia</value>
+    <comment>The title of the BackendPages Warning page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RatingToolboxSectionTitle">
+    <value>Puntuación</value>
+    <comment>The title of the Rating toolbox section in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ContentBlocksUrlName">
+    <value>Contenido genérico</value>
+    <comment>The name that appears in the URL when navigating to ContentBlocks control panel.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CachingOptions">
+    <value>Opciones de almacenamiento en caché</value>
+    <comment>phrase: Caching options</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PromptTitlePageCannotCreateChildPage">
+    <value>Usted no puede crear una página hija de esta página.</value>
+    <comment>Title of the message shown when an invalid attempt to create a child page is made.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PromptTitleSomePagesWereNotDeleted">
+    <value>Algunas páginas no fueron eliminadas.</value>
+    <comment>Title of the message shown when you have invoked deletion of a given selection of paegs but not all were deleted due to some restriction.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="BackToContent">
+    <value>Regresar al contenido genérico</value>
+    <comment>Back to Generic content, from the permissions settings screen.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CustomerFeedbackUrlName">
+    <value>Comentarios</value>
+    <comment>The name if Customer Feedback page that appears in the URL.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DataToolboxSectionDescription">
+    <value>Sección de la caja de herramientas que contiene los controles de datos y fuentes de datos.</value>
+    <comment>The description of the Data toolbox section in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadToolTipDescription">
+    <value>RadToolTip para ASP.NET AJAX</value>
+    <comment>The description of the RadToolTip control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadSplitterDescription">
+    <value>RadSplitter para ASP.NET AJAX</value>
+    <comment>The description of the RadSplitter control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="VersionAndLicensingDescription">
+    <value>Proporciona información del sistema y licencia.</value>
+    <comment>Description of Customer Feedback page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DragFormWidgetsToTheLeft">
+    <value>Arrastre widgets de formulario &lt;em class='sfInfo'&gt;para añadir contenido al formulario &lt;/em&gt;</value>
+    <comment>word: Drag form widgets to the left</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Col3T3Title">
+    <value>fijos + auto + fijo</value>
+    <comment>The title of layout control.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Users">
+    <value>Usuarios</value>
+    <comment>The name of the Sitefinity/Admin/Users section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SelectAnother">
+    <value>Seleccione otra ...</value>
+    <comment>phrase</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Delete">
+    <value>Eliminar</value>
+    <comment>Delete</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="LanguageSelectorControlDescription">
+    <value>Conmutador entre los idiomas del sitio</value>
+    <comment>Toolbox description: Language selector</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DiscussionsGroupPageUrlName">
+    <value>Debates</value>
+    <comment>Urlname of the Discussions's group page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="BackendPagesUrlName">
+    <value>PÁGINAS</value>
+    <comment>The name that appears in the URL.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ShareDialogLinkDescription">
+    <value>Enlace &lt;em class='sfNote'&gt;(publicar en correo electrónico o IM)&lt;/em&gt;</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadStyleSheetManagerDescrtiption">
+    <value>RadStyleSheetManager para ASP.NET AJAX</value>
+    <comment>The description of the RadStyleSheetManager control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Col2T4Description">
+    <value>Dos columnas con el 67% y 33% de ancho respectivamente.</value>
+    <comment>The description of layout control.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="TemplateDescription">
+    <value>Diseñar una plantilla que contiene elementos de diseño y el contenido que se utiliza en varias páginas.</value>
+    <comment>The description of Template toolbar button.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ProfileUrlName">
+    <value>Perfil</value>
+    <comment>The name of the Profile page that appears in the URL.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Description">
+    <value>Descripción</value>
+    <comment>The 'Description' label.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadNumericTextBoxTitle">
+    <value>Caja de texto numérica</value>
+    <comment>The title of the RadTextBox control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SiteMapDataSourceDescription">
+    <value>Proporciona datos jerárquicos del mapa del sitio para otros widgets</value>
+    <comment>The description of the SiteMapDataSource control.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="FilterPages">
+    <value>Filtrar páginas</value>
+    <comment>phrase: Filter pages</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ConfigurationDescription">
+    <value>Proporciona la interfaz de usuario para administrar las configuraciones de Sitefinity y su personalización.</value>
+    <comment>Description of Sitefinity/Admin/Configuration section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="AllLabelsTitle">
+    <value>Todas las etiquetas</value>
+    <comment>LocalizationPanel label.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadComboBoxDescription">
+    <value>RadComboBox para ASP.NET AJAX</value>
+    <comment>The description of the RadComboBox control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PageDescription">
+    <value>Crear una página desde cero, establecer su esquema y contenido.</value>
+    <comment>The description of Page toolbar button.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DeletedPage">
+    <value>página eliminada</value>
+    <comment>Phrase: deleted page</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="AdditionalUrlNameInvalidSymbols">
+    <value>Una o más de las URL adicionales especificadas no son válidas.</value>
+    <comment>The message shown when the url contains invalid symbols.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Generic">
+    <value>Genérico</value>
+    <comment>word: Generic</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PagesCount">
+    <value>{0} páginas</value>
+    <comment>The page count displayed in the template browser grid.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="StagingSyncTitle">
+    <value>Secuenciación</value>
+    <comment>Title for the Site Sync group page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="BackendPagesNodeUrlName">
+    <value>Páginas administrativas</value>
+    <comment>The name of the System node that appears in the URL.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="HtmlIncludedInTheHeadTagExample">
+    <value>&lt;strong&gt;Ejemplo:&lt;/strong&gt;&lt;br/&gt;&amp;lt;meta name="author" content="John Smith" /&amp;gt; &lt;br/&gt; &amp;lt;link rel="stylesheet" type="text/css" media="screen and (max-width: 600px)" href="myCssFile.css" /&amp;gt;&lt;br/&gt;&amp;lt;script type="text/javascript" src="myJavascriptFile.js"&amp;gt;&amp;lt;/script&amp;gt;</value>
+    <comment>Phrase: HTML included in the head tag - example</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Keywords">
+    <value>Palabras clave</value>
+    <comment>The 'Keywords' label.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DashboardGroupPageUrlName">
+    <value>panel principal</value>
+    <comment>The url name of the dashboards group page</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DoneCreatingSections">
+    <value>Creación de secciones finalizada</value>
+    <comment>phrase</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Permissions">
+    <value>Permisos</value>
+    <comment>The name of the Sitefinity/Admin/Permissions section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="TemplateUsedByPagesAndCampaigns">
+    <value>La plantilla especificada tiene páginas y campañas por correo electrónico basadas ​​en ella. Solo puede eliminar una plantilla cuando no hay páginas, campañas por correo electrónico o plantillas que hacen referencia a ella. Hacen referencia a páginas y campañas: {0}</value>
+    <comment>Error message: The specified template has pages and email campaigns based on it. You can only delete a template when no pages, email campaigns or templates reference it. Referencing pages/campaigns: {0}</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadTreeViewDescription">
+    <value>RadTreeview para ASP.NET AJAX</value>
+    <comment>The description of the RadTreeView control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PromptMessageDuplicatePageWithUnavailableCulture">
+    <value>La página no se puede duplicar porque está en traducción que no existe en el sitio de destino. Para poder duplicarla, usted debe ir al sitio de destino y habilitar allí la traducción del idioma respectivo.</value>
+    <comment>Message shown when an invalid attempt to duplicate a page in a site where the culture is unavailable is made.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadCaptchaDescription">
+    <value>RadCaptcha para ASP.NET AJAX</value>
+    <comment>The description of the RadCaptcha control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ServicesNodeUrlName">
+    <value>Servicios</value>
+    <comment>The name of the Services node that appears in the URL.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Design">
+    <value>Diseño</value>
+    <comment>Word: Design</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SectionCreatedMsg">
+    <value>La sección {0} ha sido creada!</value>
+    <comment>phrase</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="StagingSyncUrlName">
+    <value>Secuenciación</value>
+    <comment>Urlname of the Site Sync group page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PagesTaxonomyTitle">
+    <value>PÁGINAS</value>
+    <comment>Title of the pages root taxonomy.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="WithNoKeywords">
+    <value>Sin palabras clave</value>
+    <comment>phrase: With no keywords</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="MyProfile">
+    <value>Mi Perfil</value>
+    <comment>phrase : My Profile</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CustomerFeedbackTitle">
+    <value>Comentarios de clientes</value>
+    <comment>The title of the Customer Feedback page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="BackendModulesAndServicesDescription">
+    <value>Proporciona una interfaz de usuario para la gestión de módulos del sistema.</value>
+    <comment>Description of Modules &amp; Services section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadDateInputDescription">
+    <value>RadDateInput para ASP.NET AJAX</value>
+    <comment>The description of the RadDateInput control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DateGridColumnHeaderText">
+    <value>Fecha</value>
+    <comment>The text of Date column in the page browser grid.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PageThemeNotFound">
+    <value>El tema seleccionado no se pudo encontrar: {0}.</value>
+    <comment>This message is dispayed when the page theme is missing.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="LoginFailedTitle">
+    <value>Inicio de sesión fallido</value>
+    <comment>label: Login failed</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ZoneEditorEmptyZoneContentDragMessage">
+    <value>Arrastrar widgets aquí</value>
+    <comment>The description of this element.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadCalendarTitle">
+    <value>Calendario</value>
+    <comment>The title of the RadCalendar control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="NewslettersToolboxSectionTitle">
+    <value>Campañas de Correo Electrónico</value>
+    <comment>Title of the toolbox section for newsletter controls.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="NewslettersToolboxSectionDescription">
+    <value>Esta sección contiene controles públicos del módulo de boletines.</value>
+    <comment>Description of the toolbox section for the newsletter controls.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="LeftSidebar">
+    <value>Barra lateral a la izquierda, contenido</value>
+    <comment>Label</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadListViewDescription">
+    <value>RadListView para ASP.NET AJAX</value>
+    <comment>The description of the RadListView control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ZoneEditorRollback">
+    <value>Restaurar a widget de plantilla base</value>
+    <comment>Page editor 'edit' command title.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Col2T5Description">
+    <value>Dos columnas con el 75% y 25% de ancho respectivamente.</value>
+    <comment>The description of layout control.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DuplicatedUrl">
+    <value>URL duplicada!</value>
+    <comment>phrase</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="TemplateYouCanChangeItLater">
+    <value>¿Quiere que esta plantilla se base en otro modelo?</value>
+    <comment>The title of the field for selecting a template.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ContentBlockIsUsedViewInstructions">
+    <value>Utilizado</value>
+    <comment>Text used in content blocks grid to open a dialog of pages using that content block</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="YourOwnMasterFile">
+    <value>O bien, utilizar su propia página principal de ASP.NET (archivo .master).</value>
+    <comment> Or, use your own ASP.NET master page (.master file).</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="AllowMultipleUrlsForThisPage">
+    <value>Permitir &lt;strong&gt;varias URL&lt;/strong&gt; para esta página</value>
+    <comment>Phrase: Enable multiple URLs for this page</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="LoginNodeDescription">
+    <value>Páginas de inicio de sesión para el backend.</value>
+    <comment>Description of Login node.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ContentToolbox">
+    <value>Contenido</value>
+    <comment>label</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CreateCustomUrl">
+    <value>Editar estructura de URL</value>
+    <comment>phrase: Edit URL structure</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="UsersListCreateUser">
+    <value>Crear un usuario</value>
+    <comment>Text for the Create User button.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ViewThisPage">
+    <value>Ver esta página</value>
+    <comment>Label: View this page</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Edit">
+    <value>Editar ...</value>
+    <comment>word</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadDateTimePickerTitle">
+    <value>Selector de fecha</value>
+    <comment>The title of the RadDateTimePicker control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="HelpNodeDescription">
+    <value>Una sección del sitio de información de ayuda.</value>
+    <comment>The description of the Help section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ZoneEditorLayouts">
+    <value>Diseños</value>
+    <comment>Page editor 'layouts' tab title.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="UploadMasterFileFTP">
+    <value>Sube tu fichero .master por FTP a una carpeta de tu elección en el servidor.</value>
+    <comment> Upload your .master file using FTP to a folder of your choice on the server.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ViewProperties">
+    <value>Propiedades</value>
+    <comment>word: Properties</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RequireSsl">
+    <value>Requerir &lt;strong&gt;SSL&lt;/strong&gt;</value>
+    <comment>Phrase: Require SSL</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DuplicatePageSiteFieldDescription">
+    <value>(Dónde duplicar esta página)</value>
+    <comment>phrase: (Where to duplicate this page)</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Col3T2Description">
+    <value>Tres columnas con ancho de 25%, 50% y 25% respectivamente</value>
+    <comment>The description of layout control.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="UserManagementNodeUrlName">
+    <value>Gestión de usuarios</value>
+    <comment>The name of the UserManagement node that appears in the URL.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="AuthorGridColumnHeaderText">
+    <value>Autor</value>
+    <comment>The text of Author column in the page browser grid.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="BackToItems">
+    <value>Regresar a la lista</value>
+    <comment>The text of the back to pages link in page editor</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ZoneEditorConfirmDeleteControl">
+    <value>¿Está seguro de que desea eliminar el control?</value>
+    <comment>Confirmation message used by the Page Editor before deleting a widget.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ZoneEditorControlOverridenInPages">
+    <value>{0} se edita en {1} páginas</value>
+    <comment>Page editor 'edit' command title.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ManagePages">
+    <value>Gestionar páginas</value>
+    <comment>phrase: Manage Pages</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Col3T3Description">
+    <value>Dos columnas con un ancho automático y ancho fijo respectivamente.</value>
+    <comment>The description of layout control.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadSiteMapTitle">
+    <value>Mapa del Sitio</value>
+    <comment>The title of the RadSiteMap control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="LearnMoreWithVideoTutorials">
+    <value>Más información con tutoriales en video</value>
+    <comment>Label for the external links used in Pages</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PriorityToolTipMessage">
+    <value>La prioridad informa a los motores de búsqueda qué páginas en el Mapa del sitio usted considera más importantes para los robots de búsqueda. Los valores válidos fluctúan entre 0.0 y 1.0. Usted puede administrar la generación de mapa de sitios en la configuración Básica</value>
+    <comment>phrase: The priority lets the search engines know which pages in Sitemap you deem most important for the crawlers. Valid values range from 0.0 to 1.0. You can manage sitemap generation in Basic Settings</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="AllPages">
+    <value>Todas las páginas</value>
+    <comment>phrase: All pages</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PromptRevertVersion">
+    <value>&lt;p&gt;Usted está a punto de regresar este artículo a una versión anterior donde algunas de sus traducciones no existen.&lt;/br&gt;Si regresa a esta versión, se perderán estas traducciones.&lt;/p&gt;&lt;p&gt;¿Está seguro de que desea regresar a esta versión? &lt;/p&gt;</value>
+    <comment>The message of the warning dialog when reverting a sycned page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="QuestionTemplateDescription">
+    <value>Obtiene la plantilla que define el diseño de "Pregunta" del control 'Password Recovery'</value>
+    <comment>Description of QuestionTemplate property</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DashboardHtmlTitle">
+    <value>Cuadro de mando</value>
+    <comment>word : Dashboard</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadFileExplorerTitle">
+    <value>Explorador de archivos</value>
+    <comment>The title of the RadFileExplorer control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DeveloperNameLabel">
+    <value>Nombre del desarrollador &lt;em class="sfLightTxt sfFontNormal"&gt;(utilizado en código)&lt;/em&gt;</value>
+    <comment>Phrase: Name for developers</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadMaskedTextBoxDescription">
+    <value>RadMaskedTextBox para ASP.NET AJAX</value>
+    <comment>The description of the RadMaskedTextBox control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="UserAlreadyLoggedInTitle">
+    <value>Usuario ya conectado</value>
+    <comment>The title of the User Already Logged In page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="AllowSearchEnginesToIndexThisPage">
+    <value>Permitir que los &lt;strong&gt;motores de búsqueda indexen&lt;/strong&gt; esta página</value>
+    <comment>Phrase: Allow external search engines to index this page and include in Sitemap</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="BackendPagesTitle">
+    <value>Páginas backend</value>
+    <comment>The title of the BackendPages page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ChangePasswordTemplateDescription">
+    <value>Obtiene la plantilla que define el diseño del control ChangePassword.</value>
+    <comment>Description of ChangePasswordTemplate property</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DownloadListViewDescription">
+    <value>Documentos u otros archivos para descargar</value>
+    <comment>Control description: A control for displaying list with items to download in master or detail views.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="TextEditor">
+    <value>Editor de texto</value>
+    <comment>The 'Text editor' link text in Basic Settings sidebar.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="MarketingDescription">
+    <value>Sección para características de marketing de Sitefinity, tales como personalización, análisis, etc.</value>
+    <comment>Description of the Marketing section</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadDockDescription">
+    <value>RadDock para ASP.NET AJAX</value>
+    <comment>The description of the RadDock control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="UserManagementNodeTitle">
+    <value>Gestión de usuarios</value>
+    <comment>The title of the UserManagement section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="BackToEditor">
+    <value>Volver al editor</value>
+    <comment>phrase: Back to editor</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="TemplateNACommandName">
+    <value>Plantilla &lt;em&gt;N/A &lt;/em&gt;</value>
+    <comment>The name of Template command.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="NewCreatedFirst">
+    <value>Situar encima lo último creado</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Preferences">
+    <value>Preferencias</value>
+    <comment>word : Preferences</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CreatePage">
+    <value>Crear una página</value>
+    <comment>phrase: Create a page</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="HelpNodeUrlName">
+    <value>Ayuda</value>
+    <comment>The name of the Help node that appears in the URL.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="TehereAreManyElements">
+    <value>Hay muchos elementos de diseño disponibles que se pueden combinar, cambiar el tamaño o anidar para lograr el resultado deseado.</value>
+    <comment>There are many layout elements available that you can combine, resize or nest to achieve the desired result.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SelectAParent">
+    <value>Debajo de la página principal ...</value>
+    <comment>phrase: Under parent page...</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadDockZoneTitle">
+    <value>Zona de anclaje</value>
+    <comment>The title of the RadDockZone control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Configurations">
+    <value>Configuraciones</value>
+    <comment>The name of the Sitefinity/Setting/Configurations section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Site">
+    <value>Sitio</value>
+    <comment>word: Site</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="TryToReload">
+    <value>Intentar volver a cargar</value>
+    <comment>Button message: Try to reload the current page (in case the draft is no longer available / changed / locked).</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="HtmlIncludedInTheHeadTag">
+    <value>HTML incluido en la etiqueta &amp;lt;head&amp;gt; (excepto título, palabras clave, descripción)</value>
+    <comment>Phrase: HTML included in the head tag (except title, keywords, description)</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PermissionsHtmlTitle">
+    <value>Permisos</value>
+    <comment>Name of the page in sitefinity's backend that manages permissions.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ItemToEditNotAvailable">
+    <value>El elemento que está tratando de editar ya no está disponible.</value>
+    <comment>The message displayed when the page which the user tries to edit is not available.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SettingsAndConfigurationsNodeTitle">
+    <value>Opciones y Configuraciones</value>
+    <comment>The title of the SettingsAndConfigurations section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DesignNodeTitle">
+    <value>Diseño</value>
+    <comment>The title of the Design section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="NavigationControlsSectionDescription">
+    <value>Grupo de enlaces que aparecen en diferentes formas: horizontal, vertical, menú desplegable, árbol, etc</value>
+    <comment>Navigation Controls</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ThemesNodeTitle">
+    <value>Temas</value>
+    <comment>The title of the Themes section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SettingsForPages">
+    <value>Opciones de las páginas</value>
+    <comment>phrase: Settings for pages</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadToolBarTitle">
+    <value>Barra de herramientas</value>
+    <comment>The title of the  control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="TaxonomyNodeUrlName">
+    <value>Taxonomía</value>
+    <comment>The name of the node that appears in the URL when navigating through taxonomies.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="NoThemesAvailable">
+    <value>Todavía no se han subido temas</value>
+    <comment>phrase: No themes have been uploaded yet</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SiteMenuDescription">
+    <value>Control SiteMenu</value>
+    <comment>SiteMenu Control</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PromptMessageTemplateChanged">
+    <value>La plantilla se ha modificado correctamente.</value>
+    <comment>The message of the dialog displpayed when the template of a page was changed successfully.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="NotBasedOnOtherTemplate">
+    <value>No se basa en otra plantilla</value>
+    <comment>Template explorer: Not based on other template.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="EnableDefaultCanonicalUrl">
+    <value>Activar URL canónica predeterminada</value>
+    <comment>The 'Enable default canonical URL' label.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="AuthKeyTitle">
+    <value>Clave de autenticación</value>
+    <comment>Word</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="EditPageToRedirectTo">
+    <value>Cambiar</value>
+    <comment>The label of the open popup button when a page is already selected</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadSplitterTitle">
+    <value>Separador</value>
+    <comment>The title of the RadSplitter control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="TwoColumnsSectionTitle">
+    <value>Individual y dos columnas</value>
+    <comment>The title of layout toolbox section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadSchedulerDescription">
+    <value>RadScheduler para ASP.NET AJAX</value>
+    <comment>The description of the RadScheduler control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ClassificationsHtmlTitle">
+    <value>Clasificaciones</value>
+    <comment>The html title of the Sitefinity/Content/Classifications section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="NewsViewDescription">
+    <value>Control de Vista de Noticias</value>
+    <comment>The description of the News View control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="AlternativePublishingUrlName">
+    <value>Publicación alternativa</value>
+    <comment>The name of the System node that appears in the URL.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="NoTheme">
+    <value>- Sin tema -</value>
+    <comment>phrase: -- no theme --</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="NeedAdminRightsTitle">
+    <value>Necesita Derechos de Administrador</value>
+    <comment>The title of the Need Admin Rights page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CreateChildOfTheSelectedPage">
+    <value>Crear una página secundaria de la página seleccionada</value>
+    <comment>phrase: Create a child of the selected page</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="BlogDescription">
+    <value>Crear un conjunto de páginas que componen un blog estándar.</value>
+    <comment>The description of the Blog toolbar button.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ProfileDescription">
+    <value>información del perfil de usuario y edición.</value>
+    <comment>Description of Profile page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="BasedOnGridColumnHeaderText">
+    <value>Basado en</value>
+    <comment>The text of Based on column in the template browser grid.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PagesByDate">
+    <value>Mostrar páginas modificadas el...</value>
+    <comment>phrase: Pages By Date</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DraftStatus">
+    <value>Borrador</value>
+    <comment>Draft page status</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="TemplateUsedByPages">
+    <value>La plantilla especificada tiene páginas basadas ​​en ella. Solo puede eliminar una plantilla cuando no hay páginas, campañas por correo electrónico o plantillas que hacen referencia a ella. Hacen referencia a páginas: {0}</value>
+    <comment>Error message: The specified template has pages based on it. You can only delete a template when no pages, email campaigns or templates reference it. Referencing pages: {0}</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CurrentlyPublishedStatus">
+    <value>Actualmente publicado</value>
+    <comment>Currently published page status</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CopyAsNew">
+    <value>Revertir a esta versión</value>
+    <comment>Copy As New Page</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ArchiveControlDescription">
+    <value>Elementos listados de un tipo de contenido seleccionado</value>
+    <comment>Control description: A control for displaying archive list of content items of specified content type.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadToolBarDescription">
+    <value>RadToolBar para ASP.NET AJAX</value>
+    <comment>The description of the RadToolBar control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="BackToTemplates">
+    <value>Volver a plantillas</value>
+    <comment>The text of the back to templates link in page editor</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PageTemplatesTitle">
+    <value>Plantillas de página</value>
+    <comment>The title of the PageTemplates page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SiteMapControlTitle">
+    <value>sitemap</value>
+    <comment>SiteMap Control</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Services">
+    <value>Servicios</value>
+    <comment>The name of the Sitefinity/Admin/Services section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Name">
+    <value>Nombre</value>
+    <comment>word</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PageCommandName">
+    <value>Página</value>
+    <comment>The name of Page command.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ShareDialogCaption">
+    <value>Compartir enlace seguro para este artículo</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PropertiesCommandName">
+    <value>Propiedades</value>
+    <comment>The name of Properties command.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="BackendTemplatesDescription">
+    <value>Proporciona una interfaz de usuario para crear y administrar plantillas del área administrativa.</value>
+    <comment>Description of Backend Templates section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Area">
+    <value>Área</value>
+    <comment>word: Area</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="LogOff">
+    <value>Cerrar sesión</value>
+    <comment>word : Log Off</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="TitlesDescriptionsKeywords">
+    <value>Títulos, descripciones, palabras clave</value>
+    <comment>phrase: Titles, descriptions, keywords</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Message">
+    <value>Mensaje</value>
+    <comment>Word</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Published">
+    <value>Publicado</value>
+    <comment>word: Published</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="BreadcrumbTitle">
+    <value>Ruta de navegación</value>
+    <comment>Title of the Breadcrumb widget</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="KeywordsDescription">
+    <value>Separa las palabras clave con comas.</value>
+    <comment>The 'Keywords description' label.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Col5T1Description">
+    <value>Cinco columnas con un ancho de 20% cada una.</value>
+    <comment>The description of layout control.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Required">
+    <value>Obligatorio</value>
+    <comment>Word</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SiteTreeDescription">
+    <value>Control SiteTree</value>
+    <comment>SiteTree Control</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="LoginNodeTitle">
+    <value>Iniciar sesión</value>
+    <comment>The title of the Login node.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ContentNodeUrlName">
+    <value>Contenido</value>
+    <comment>The name of the Content taxon that appears on the URL.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PagePropertiesCommandName">
+    <value>&lt;strong&gt;Edición por lotes ... &lt;/Strong&gt;título, descripción, palabras clave &lt;em&gt;N/A &lt;/em&gt;</value>
+    <comment>The name of Titles, Descriptions, Keywords command.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="OneColumnHeaderFooter">
+    <value>1 Columna, encabezado, pie de página</value>
+    <comment>Label</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="WithNoDescriptions">
+    <value>Sin Descripciones</value>
+    <comment>phrase: With no descriptions</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CanonicalUrl">
+    <value>URL Canónica</value>
+    <comment>phrase: Canonical Url</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ByHierarchy">
+    <value>por Jerarquía</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SettingsNodeUrlName">
+    <value>Avanzado</value>
+    <comment>The name of the Settings node that appears in the URL.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadNumericTextBoxDescription">
+    <value>RadNumericTextBox para ASP.NET AJAX</value>
+    <comment>The description of the RadNumericTextBox control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Col1Title">
+    <value>1</value>
+    <comment>The title of layout control.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadListBoxDescription">
+    <value>RadComboBox para ASP.NET AJAX</value>
+    <comment>The description of the RadListBox control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DuplicatePage">
+    <value>Duplicar una página</value>
+    <comment>phrase: Duplicate a page</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DashboardGroupPageDescription">
+    <value>Una página de grupo de panel que contiene el panel predeterminado y algunos paneles personalizados de Sitefinity</value>
+    <comment>A description for the dashboards group page</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DraftSuccessfullySaved">
+    <value>El borrador ha sido guardado con éxito</value>
+    <comment>positive message after saving the darft</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="IsLockedForEditingBy">
+    <value>está bloqueado para su edición por</value>
+    <comment>A part of the message displayed when the page is already locked.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="GenericContentPermissionsDescription">
+    <value>Representa una página de permisos para el módulo Contenido Genérico de Sitefinity.</value>
+    <comment>The description of the Generic Content module permissions page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DiscussionsGroupPageDescription">
+    <value>Este es la página del grupo del módulo Comentarios|Foros.</value>
+    <comment>Description of the Comments|Forums module group page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SystemNodeDescription">
+    <value>Grupos de herramientas de sistema como el Administrador de configuración, Administrador de recursos, Explorador de archivos de sistema, etc.</value>
+    <comment>The description of the System section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Col2T7Description">
+    <value>Dos columnas con un ancho automático y ancho fijo respectivamente.</value>
+    <comment>The description of layout control.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="StagingSyncDescription">
+    <value>Éste es el grupo de páginas que contiene todas las páginas de Secuenciación y Sincronización.</value>
+    <comment>Site Sync Page Group Description</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PersonalizedFor">
+    <value>Personalizado para…</value>
+    <comment>Personalized for...</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Personalize">
+    <value>Personalizar</value>
+    <comment>word: Personalize</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ContentToolboxSectionDescription">
+    <value>La sección de la caja de herramientas que contiene controles de contenido.</value>
+    <comment>The description of the Content toolbox section in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="LocalizationHtmlTitle">
+    <value>Localización</value>
+    <comment>Title of the page in Sitefinity's backend that manages the translation of labels.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ContentNodeTitle">
+    <value>Contenido</value>
+    <comment>The title of the Content section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ImageControlTitle">
+    <value>Imagen</value>
+    <comment>Control title: Image</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="AlternativePublishingTitle">
+    <value>Publicación alternativa</value>
+    <comment>The title of the System section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="TemplatesNodeTitle">
+    <value>Plantillas</value>
+    <comment>The title of the Templates section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="VersionAndLicensingTitle">
+    <value>Versión y licencias</value>
+    <comment>The title of the Version And Licensing Sitefinity page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="UseYourOwnMasterFile">
+    <value>Utilizar su propio archivo .master</value>
+    <comment>The title of the button for selecting a master file.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SiblingPageBefore">
+    <value>Página relacionada antes</value>
+    <comment>phrase: Sibling page before</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="WorkflowTitle">
+    <value>Flujo de trabajo</value>
+    <comment>word: Workflow</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DocumentLinkControlDescription">
+    <value>Enlace para descargar un documento seleccionado de otro archivo</value>
+    <comment>Control description: A control for displaying a link to download a document.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PriorityRangeViolationMessage">
+    <value>Ha introducido un número no válido. Los valores válidos fluctúan entre 0.0 y 1.0</value>
+    <comment>phrase: You have entered an invalid number. Valid values range from 0.0 to 1.0</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PromptNavigateFromEditorToolBar">
+    <value>Al navegar fuera del editor, los cambios no serán cancelados y el elemento permanecerá bloqueado. Puede utilizar el enlace 'Volver a Páginas/Plantillas' para salir y desbloquear.</value>
+    <comment>Message displayed when the user navigates away from the Page Editor with unsaved changes</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="BackendTemplatesUrlName">
+    <value>Plantillas del área administrativa</value>
+    <comment>The name that appears in the URL.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PageSavedMsg">
+    <value>La página {0} ha sido guardada con éxito!</value>
+    <comment>phrase</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PageSuccessfullyUnpublished">
+    <value>La página fue retirada con éxito.</value>
+    <comment>positive message after unpublishing a page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="AdditionalUrls">
+    <value>URL adicionales (una por línea)</value>
+    <comment>Phrase: Additional URLs</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Default">
+    <value>predeterminado</value>
+    <comment>Default</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CreateNewItem">
+    <value>Crear un evento</value>
+    <comment>The title of the create new page dialog</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RatingTitle">
+    <value>Puntuación</value>
+    <comment>Title of the Rating control in the control toolbox</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DevNameInvalidSymbols">
+    <value>El nombre contiene símbolos no válidos.</value>
+    <comment>The message shown when the dev name contains invalid symbols.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="XmlDataSourceTitle">
+    <value>Fuente de datos XML</value>
+    <comment>The title of the XmlDataSource control.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="MyPages">
+    <value>Mis páginas</value>
+    <comment>phrase: My pages</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DiscussionsGroupPageTitle">
+    <value>Debates</value>
+    <comment>Title of the Discussions's group page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="BackendPagesHtmlTitle">
+    <value>Páginas administrativas</value>
+    <comment>The html title of the BackendPages page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Dashboard">
+    <value>Cuadro de mando</value>
+    <comment>word : Dashboard</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SectionCommandName">
+    <value>Sección</value>
+    <comment>The name of Section command.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadSliderDescription">
+    <value>RadSlider para ASP.NET AJAX</value>
+    <comment>The description of the RadSlider control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ExistingTranslations">
+    <value>traducciones existentes</value>
+    <comment>existing translations</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ConnectivityNodeTitle">
+    <value>Conectividad</value>
+    <comment>The title of the Connectivity section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CanonicalUrlEnabled">
+    <value>Habilitado</value>
+    <comment>phrase: Enabled</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ContentBlockDescription">
+    <value>Texto con formato enriquecido (negrita, cursiva, viñetas, etc.) También se pueden insertar imágenes, videos, tablas.</value>
+    <comment>Control description:Control for inserting arbitrary content on the page</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ZoneEditorRemovePersonalizedVersion">
+    <value>Eliminar esta versión</value>
+    <comment>Remove this version</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="UserAuthentication">
+    <value>Autenticación de Usuario</value>
+    <comment>The 'User authentication' link text in Basic Settings sidebar.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PromptTitleTranslationSyncedWarning">
+    <value>Todas las traducciones de esta plantilla están sincronizadas</value>
+    <comment>phrase: All translations of this template are synced</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="NotSetPageTitle">
+    <value>No establecido</value>
+    <comment>Label: When a page title is not set (usually when missing ML page node).</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="NewPages">
+    <value>Nuevas páginas</value>
+    <comment>NewPages</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RolesDescription">
+    <value>Proporciona la interfaz de usuario para administrar los roles de Sitefinity.</value>
+    <comment>Description of Sitefinity/Admin/Roles section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="HelpNodeTitle">
+    <value>Ayuda</value>
+    <comment>The title of the Help site section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadChartTitle">
+    <value>Gráfico</value>
+    <comment>The title of the RadChart control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="FeedEmbedControlTitle">
+    <value>Fuente</value>
+    <comment>Control title: FeedEmbedControlTitle</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="UseDefaultSettingsForCaching">
+    <value>Usar la configuración predeterminada para el Almacenamiento en caché</value>
+    <comment>Phrase: Use default settings for Caching</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PageTemplatesHtmlTitle">
+    <value>Plantillas de página</value>
+    <comment>The title of the PageTemplates page that is going to be displayed in the browser's titlebar.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadEditorDescription">
+    <value>RadEditor para ASP.NET AJAX</value>
+    <comment>The description of the RadEditor control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PageNoModifyPermission">
+    <value>Usted no está autorizado a modificar esta página: {0}</value>
+    <comment>phrase: You are not allowed to modify this page: {0}</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CreateNewText">
+    <value>Crear nuevo ...</value>
+    <comment>The text of the Create New toolbar dropdown.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CopyWidgetSettings">
+    <value>Copiar la configuración de widget de otra traducción</value>
+    <comment>phrase: Copy widget settings from another translation</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="AllowSiteSearchToIndexThisPage">
+    <value>Permitir &lt;strong&gt; búsqueda del sitio para indexar &lt;/strong&gt; esta página</value>
+    <comment>phrase: Allow site search to index this page</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SelectAnotherTemplate">
+    <value>Seleccione otra plantilla ...</value>
+    <comment>Select another template...</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PromptMessagePageCannotDeleteChildren">
+    <value>Para eliminar esta página usted debe mover o eliminar primero sus páginas hijas.</value>
+    <comment>Message shown when a non-admin user tries to delete a page containing children.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PageHasBeenDeletedInBackend">
+    <value>La página ha sido borrada en el área administrativa.</value>
+    <comment>Message displayed when a page has been deleted after loaded for browse &amp; edit</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PageThemesToolboxTitle">
+    <value>Establecer tema &lt;em class='sfInfo'&gt;Para tener consistencia de estilo en todo el sitio web&lt;/em&gt;</value>
+    <comment>The title of the toolbox for page themes.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PropertiesNACommandName">
+    <value>Propiedades &lt;em&gt;N/A &lt;/em&gt;</value>
+    <comment>The name of Properties NA command.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadMenuDescription">
+    <value>RadMenu para ASP.NET AJAX</value>
+    <comment>The description of the RadMenu control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Hidden">
+    <value>Sin publicar</value>
+    <comment>word: Hidden</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="BasicSettingsUrlName">
+    <value>Básico</value>
+    <comment>The name that appears in the URL.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="LabelsTitle">
+    <value>Filtrar etiquetas por tipo</value>
+    <comment>The title of Labels Command Panel in Localization control panel.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Col2T6Description">
+    <value>Dos columnas con ancho fijo y ancho automático respectivamente.</value>
+    <comment>The description of layout control.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadSiteMapDescription">
+    <value>RadSiteMap para ASP.NET AJAX</value>
+    <comment>The description of the RadSiteMap control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="LogCompilationDescription">
+    <value>Indica si está activado el registro de compilación de páginas.</value>
+    <comment>Log compilation description.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CreateTemplate">
+    <value>Crear una plantilla</value>
+    <comment>phrase</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ByAuthor">
+    <value>por &lt;strong&gt;autor&lt;/strong&gt;</value>
+    <comment>phrase: by author</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="LiveDescription">
+    <value>Ver páginas publicadas y sus contenidos.</value>
+    <comment>Description of Live section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PromptMessageBatchDeleteNotAllowed">
+    <value>&lt;strong&gt;Algunas plantillas que ha seleccionado son utilizados por páginas o plantillas. &lt;/strong&gt;&lt;br/&gt;&lt;br/&gt;Antes de poder eliminar una plantilla, deberá seleccionar otra plantilla para las páginas o plantillas que lo utilizan.</value>
+    <comment> The message of the warning dialog displpayed when deleting batch templates that are used by other pages or by other temlates.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DataToolboxSectionTitle">
+    <value>Datos</value>
+    <comment>The title of the Data toolbox section in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ConnectivityNodeDescription">
+    <value>Agrupa conectores y herramientas de conectividad personalizadas.</value>
+    <comment>The description of the Connectivity section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Settings">
+    <value>Opciones avanzadas</value>
+    <comment>Word: Settings</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DeleteText">
+    <value>Eliminar</value>
+    <comment>The text of Delete toolbar button.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="EditPages">
+    <value>Editar Páginas</value>
+    <comment>The text of Edit Pages toolbar button.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadBinaryImageDescription">
+    <value>RadBinaryImage para ASP.NET AJAX</value>
+    <comment>The description of the RadBinaryImage control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="GoogleAnalyticsEmbedControlDescription">
+    <value>Incorpora el código de Google Analytics</value>
+    <comment>Control description: A control for embedding Google Analytics code.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="TwoColumnsSectionDescription">
+    <value>Contiene definiciones de zona de diseños de uno y dos columna</value>
+    <comment>The description of layout toolbox section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PageLayoutToolboxDescription">
+    <value>Una colección de entidades (definiciones de zona) que componen el diseño de una página o un gadget.</value>
+    <comment>The description of the toolbox for designing pages.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="NextPage">
+    <value>Versión más reciente</value>
+    <comment>Newer Page</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ContentBlocksHtmlTitle">
+    <value>Contenido genérico</value>
+    <comment>The html title of the Content Blocks module landing page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="LoginFormDescription">
+    <value>Formulario de inicio de sesión para el back-end.</value>
+    <comment>Description of Login form page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="MarkedItemsDescription">
+    <value>Descripción de Elementos Marcados</value>
+    <comment>Describes the marked itesm description.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PageResourcesTitlePlural">
+    <value>Recursos de las páginas</value>
+    <comment>The title plural of this class.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="BackendModulesAndServicesTitle">
+    <value>Módulos y Servicios</value>
+    <comment>The title of the Modules &amp; Services page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadXmlHttpPanelDescription">
+    <value>RadXmlHttpPanel para ASP.NET AJAX</value>
+    <comment>The description of the RadXmlHttpPanel control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Cancel">
+    <value>cancelar</value>
+    <comment>The text of the cancel button.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CompleteTemplateDescription">
+    <value>Obtiene la plantilla que define el diseño completo del control CreateUserWizardForm.</value>
+    <comment>Description of CompleteTemplate property</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SortPages">
+    <value>Ordenar</value>
+    <comment>phrase: Sort</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="TemplateDoesNotFit">
+    <value>Estas plantillas no se ajustan a mi diseño. ¿Qué debo hacer?</value>
+    <comment>These templates don't fit to my design. What should I do?</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PublishCommandName">
+    <value>Publicar</value>
+    <comment>The name of Publish command.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="GoToAllPages">
+    <value>Ir a todas las páginas</value>
+    <comment>phrase: Go to all pages</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ThisVesrion">
+    <value>esta versión</value>
+    <comment>Delete This Version of the page</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="EventsViewTitle">
+    <value>Ver eventos</value>
+    <comment>The title of the Events view control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="BreadcrumbDescription">
+    <value>Widget de navegación que muestra la ubicación de la página actual.</value>
+    <comment>The description of the Breadcrumb widget in the navigation toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Files">
+    <value>Administrador de Archivos</value>
+    <comment>phrase : File manager</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PageIsLockedBy">
+    <value>La página está bloqueada por {0}</value>
+    <comment>Message displayed when a page is locked displayed by browse and edit</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadInputManagerDescription">
+    <value>RadInputManager para ASP.NET AJAX</value>
+    <comment>The description of the RadInputManager control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ZoneEditorDuplicationCommand">
+    <value>Duplicar</value>
+    <comment>Page editor 'duplicate' command title.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ServicesNodeTitle">
+    <value>Servicios</value>
+    <comment>The title of the Services section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ZoneEditorControls">
+    <value>Duplicar</value>
+    <comment>Page editor 'widgets' tab title.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ZoneEditorEmptyZoneDraggingText">
+    <value>Soltar aquí</value>
+    <comment>The description of this element.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="GenericContentPermissionsTitle">
+    <value>Permisos de contenido genérico</value>
+    <comment>The title of the Generic Content permissions page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="BaseTemplate">
+    <value>Plantilla base</value>
+    <comment>Label</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="OnlineResourcesDescription">
+    <value>Ofrece enlaces de ayuda en línea de recursos tales como foros, base de conocimiento, videos, etc</value>
+    <comment>Description of Help Contents page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="TemplatesNodeUrlName">
+    <value>Plantillas</value>
+    <comment>The name of the Templates node that appears in the URL.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="EventsViewDescription">
+    <value>Control de Vista de Eventos</value>
+    <comment>The description of the Events View control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ClickToViewWhichPagesUseThisTemplate">
+    <value>Haga clic para ver las páginas que utilizan esta plantilla.</value>
+    <comment>Template explorer: Click to view which pages use this template.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PagePoliciesTitle">
+    <value>PÁGINAS</value>
+    <comment>The title of Page Policies Handler.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="BackendPagesNodeDescription">
+    <value>Grupos de herramientas de sistema como el Administrador de configuración, Administrador de recursos, Explorador de archivos de sistema, etc.</value>
+    <comment>The description of the System section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Col2T2Description">
+    <value>Dos columnas con el 33% y 67% de ancho respectivamente.</value>
+    <comment>The description of layout control.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ContentToolboxSectionTitle">
+    <value>Contenido</value>
+    <comment>The title of the Content toolbox section in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ExternalPageFieldDescription">
+    <value>Esta página no tiene su propio contenido y redirecciona a otra página en el sitio web o a una página externa</value>
+    <comment>Label: This page doesn't have its own content and redirects to another page in the website or to an external page</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PageLayoutChangeTemplate">
+    <value>O bien, cambiar toda la plantilla</value>
+    <comment>Phrase: Or, change the entire template</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CustomUrlValidationMessageDescription">
+    <value>El mensaje de validación que aparece cuando la URL normal contiene barras diagonales ('/')</value>
+    <comment>The description of this element</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PageTemplatesUrlName">
+    <value>Plantillas de página</value>
+    <comment>The name that appears on the URL.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ZoneEditorPermissionsCommand">
+    <value>Permisos</value>
+    <comment>Page editor 'permissions' command title.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="BackendPagesNodeTitle">
+    <value>Páginas administrativas</value>
+    <comment>The title of the System section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SetPermissions">
+    <value>Establecer permisos</value>
+    <comment>The text of the 'Set permissions' link in the action menu.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="HelpAndResourcesHtmlTitle">
+    <value>Ayuda &amp;amp; Recursos</value>
+    <comment>Help &amp;amp; Resources</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SettingsToolbox">
+    <value>Opciones</value>
+    <comment>word: Settings</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ToolsNodeDescription">
+    <value>Grupos personalizados de herramientas Sitefinity.</value>
+    <comment>The description of the Tools section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="BackToPages">
+    <value>Regresar a la lista</value>
+    <comment>The text of the back to pages link in page editor</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="UserAlreadyLoggedInDescription">
+    <value>Página que trata el mensaje de Usuario ya Conectado al iniciar sesión.</value>
+    <comment>Description of User Already Logged In page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="UserPoliciesTitle">
+    <value>Usuarios</value>
+    <comment>The title of User Policies Handler.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CreateAPage">
+    <value>Crear una página</value>
+    <comment>phrase: Create a page</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="AdditionalUrlsExample">
+    <value>&lt;strong&gt;Ejemplo:&lt;/strong&gt;&lt;br /&gt;~/contacts&lt;br /&gt;~/contacts-us&lt;br /&gt;~/contact</value>
+    <comment>Phrase: Additional URLs - example</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SkipToTheMainContent">
+    <value>Saltar al contenido principal</value>
+    <comment>phrase : Skip to the main content</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DeleteThisItem">
+    <value>Eliminar</value>
+    <comment>Used in the actions menu in the Backend Detail View form</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PreviouslyPublishedStatus">
+    <value>Publicado anteriormente</value>
+    <comment>Previously published page status</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CustomerFeedbackHtmlTitle">
+    <value>Comentarios de los clientes Sitefinity</value>
+    <comment>The HTML title of the Customer Feedback page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadRotatorTitle">
+    <value>Rotador</value>
+    <comment>The title of the RadRotator control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ToParentDirectory">
+    <value>Al directorio padre</value>
+    <comment>Label</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="HelpContentsUrlName">
+    <value>Contenido</value>
+    <comment>The name if Help Contents page that appears in the URL.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="AllLabelsDescription">
+    <value>Muestra todas las etiquetas de todas las clases.</value>
+    <comment>Description of "All Lables" command.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PermissionsCommandName">
+    <value>Permisos</value>
+    <comment>The name of Permissions command.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="BackToPage">
+    <value>Volver a la página</value>
+    <comment>The text of the back to pages link View Page History in Page editor</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="YouCannotDeleteATemplateInUseTitle">
+    <value>No se puede eliminar una plantilla que está siendo utilizada</value>
+    <comment>You cannot delete a template in use.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PhotoGalleryDescription">
+    <value>Crear un conjunto de páginas que componen una galería de fotos estándar.</value>
+    <comment>The description of Photo Gallery toolbar button.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SiteMapControlDescription">
+    <value>Control Mapa del sitio</value>
+    <comment>SiteMap Control</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SiteTreeTitle">
+    <value>Árbol</value>
+    <comment>SiteTree Control</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="FloatOnlyViolationMessage">
+    <value>Caracteres incorrectos. ¡Solo se permiten flotadores!</value>
+    <comment>phrase: Only floats are allowed!</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="NameExample">
+    <value>Aparece en la navegación. &lt;strong&gt;Ejemplo: &lt;/strong&gt;&lt;em&gt;Quiénes somos &lt;/em&gt;</value>
+    <comment>The name field example string at the page dialog.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="OnlineResourcesUrlName">
+    <value>Recursos</value>
+    <comment>The name if Online Resources page that appears in the URL.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadRotatorDescription">
+    <value>RadRotator para ASP.NET AJAX</value>
+    <comment>The description of the RadRotator control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ToggleToolbox">
+    <value>Activar Caja de herramientas</value>
+    <comment>label</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PageHasBeenChangedInBackend">
+    <value>La página ha sido modificada en el área administrativa.</value>
+    <comment>Message displayed when a page has been changed after loaded for browse &amp; edit</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="TrackingConsent">
+    <value>Seguimiento de consentimiento</value>
+    <comment>The 'Tracking consent' link text in Basic Settings sidebar.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ModulesNodeUrlName">
+    <value>Tipos</value>
+    <comment>The name that appears in the URL.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="TitleAndProperties">
+    <value>Título y Propiedades</value>
+    <comment>label</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ExternalUrlExample">
+    <value>&lt;b&gt;Ejemplo:&lt;/b&gt; http://weather.com</value>
+    <comment>The example text below the textbox for external web address</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CustomUrlValidationMessage">
+    <value>La dirección URL contiene símbolos no válidos. Puede utilizar barra diagonal  ( / ) en la estructura URL personalizada.</value>
+    <comment>Message displayed when a user enters a slash('/') in the urlname of the field and the url is not custom.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="NameCannotBeEmpty">
+    <value>El nombre no puede estar vacío</value>
+    <comment>phrase: Title cannot be empty</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Comments">
+    <value>comentarios</value>
+    <comment>The 'Comments' link text in Basic Settings sidebar.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DocumentLinkControlTitle">
+    <value>Enlace de Documento</value>
+    <comment>Control title: Document link</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadTreeViewTitle">
+    <value>Vista de árbol</value>
+    <comment>The title of the RadTreeView control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CustomerFeedbackDescription">
+    <value>Proporciona los formularios para enviar comentarios y peticiones de funcionalidades.</value>
+    <comment>Description of Customer Feedback page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PromptLeavePageEditor">
+    <value>¿Está seguro de que quiere salir del editor?</value>
+    <comment>Message displayed when the user leaves the page editor.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PageControlsToolboxTitle">
+    <value>Arrastre widgets &lt;em class='sfInfo'&gt;para añadir contenido a la página &lt;/em&gt;</value>
+    <comment>The title of the toolbox for designing pages.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ByStatus">
+    <value>por estado</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="NoPagesMatchedGivenCriteria">
+    <value>Ninguna página coincide con los criterios introducidos.</value>
+    <comment>phrase: No pages matched given criteria.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="UseForGroupPage">
+    <value>Utilizar esta página sólo para agrupar otras páginas</value>
+    <comment>Label: Use this page only to group other pages</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="EditPage">
+    <value>Editar una página</value>
+    <comment>The label for editing a page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ParentSectionCommandName">
+    <value>Sección de elementos primarios N &lt;em&gt;/A &lt;/em&gt;</value>
+    <comment>The name of Parent Section command.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Col2T3Description">
+    <value>Dos columnas con un ancho de 50% cada una.</value>
+    <comment>The description of layout control.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="VersionAndLicensingHtmlTitle">
+    <value>Versión y Licencias</value>
+    <comment>The HTML title of the Version And Licensing Sitefinity page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Preview">
+    <value>Vista previa</value>
+    <comment>The text of the Preview toolbar button.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ZoneEditorAddPersonalizedVersion">
+    <value>Añadir versión personalizada</value>
+    <comment>Add personalized version</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RatingToolboxSectionDescription">
+    <value>La sección de la caja de herramientas que contiene los controles de clasificación.</value>
+    <comment>The description of the Rating toolbox section in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SettingsDescription">
+    <value>Para personas que saben cómo escribir archivos de configuración, aquí están todos las opciones, listadas en secciones</value>
+    <comment>Description of "Settings" command.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SlidingExpiration">
+    <value>Caducidad variable</value>
+    <comment>Phrase: Sliding expiration</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CustomTemplates">
+    <value>Plantillas personalizadas</value>
+    <comment>Label</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PreviousPage">
+    <value>Versión más antigua</value>
+    <comment>Older Page</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="WebFormsAndMVC">
+    <value>Formularios web y MVC (híbrido)</value>
+    <comment>Title of the hybrid mode of page template</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadColorPickerTitle">
+    <value>Selector de color</value>
+    <comment>The title of the RadColorPicker control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Unpublished">
+    <value>Sin publicar</value>
+    <comment>word: Unpublished</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="TechnicalSupportHtmlTitle">
+    <value>Soporte Técnico Sitefinity</value>
+    <comment>The HTML title of the Technical Support page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="BackToEdit">
+    <value>Volver a</value>
+    <comment>The text of the back to edit link when adding new language to which must be appended the title of the page</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="EditTemplates">
+    <value>Editar plantillas</value>
+    <comment>The text of Edit Templates toolbar button.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="BackendSiteMapProviderDescription">
+    <value>Proporciona información de navegación acerca del Backend de Sitefinity (administración).</value>
+    <comment>Description of backend site map provider.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ProfileTitle">
+    <value>Perfil</value>
+    <comment>The title of the Profile Sitefinity page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RAdWindowManagerTitle">
+    <value>Gestor de ventanas</value>
+    <comment>The title of the RadWindowManager control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="TaxonomyNodeDescription">
+    <value>Sección específica para trabajar con la taxonomía Sitefinity.</value>
+    <comment>Description of Modules section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="UserNameTemplateDescription">
+    <value>Obtiene la plantilla que define el diseño de "Nombre de usuario" del control 'Password Recovery'</value>
+    <comment>Description of UserNameTemplate property</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="HelpContentsTitle">
+    <value>Contenido</value>
+    <comment>The title of the Help Contents page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ShowInNavigation">
+    <value>Mostrar en la navegación</value>
+    <comment>Label</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SettingsNodeDescription">
+    <value>Una sección para la gestión de usuarios, los servicios de sistema, configuración del sistema, herramientas personalizadas, etc</value>
+    <comment>The description of the Settings section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DeleteDraftSuccessfull">
+    <value>El borrador se ha eliminado con éxito.</value>
+    <comment>Used in View Specific page version screen.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ShareDialogLinkExpirationDescription">
+    <value>El enlace expirará en {0}.</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PageControlsToolboxDescription">
+    <value>Una colección de aplicaciones reutilizables de un solo servicio.</value>
+    <comment>The description of the toolbox for designing pages.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="TwoSidebarsHeaderFooter">
+    <value>Dos barras laterales, cabecera, pie de página</value>
+    <comment>Label</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CategoryGridColumnHeaderText">
+    <value>Categoría</value>
+    <comment>The text of Category column in the template browser grid.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ZoneEditorEditableInPagesWithoutALinkLabel">
+    <value>&lt;span class='sfShared'&gt;Editable en páginas&lt;/span&gt;</value>
+    <comment>Confirmation message used by the Page Editor before deleting a widget.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="AllAdditionalUrlsRedirectToTheDefaultOne">
+    <value>Todas las direcciones URL son redireccionadas a la predeterminada:</value>
+    <comment>Phrase: Additional URLs redirect to the default URL</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ReorderPagesCommandName">
+    <value>Reordenar páginas &lt;em&gt;N/A &lt;/em&gt;</value>
+    <comment>The name of Reorder pages in this group command.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="TranslationsSectionTitle">
+    <value>Copiar configuración de widget</value>
+    <comment>Label</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PoliciesDescription">
+    <value>Para personas que saben cómo escribir archivos de configuración, aquí están todos las opciones, listadas en secciones</value>
+    <comment>Description of "Policies" command.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SitefinityDescription">
+    <value>Sección del sitio para el Backend de Sitefinity.</value>
+    <comment>Description of the Sitefinity section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PageResourcesDescription">
+    <value>Contiene recursos localizables para las páginas del área administrativa de Sitefinity.</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SaveDraft">
+    <value>Guardar borrador</value>
+    <comment>The text of the Save Draft toolbar button.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="BlogsViewTitle">
+    <value>Vista de Blogs</value>
+    <comment>The title of the Blogs view control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="AwaitingPublishing">
+    <value>En espera de publicación</value>
+    <comment>The text of the 'Awaiting publishing' button in the sidebar.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CannotSplitAlreadySplit">
+    <value>¡El nodo de página dado ya está dividido!</value>
+    <comment>An error message displayed when the user tries to split a page which is already split.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadSpellDescription">
+    <value>RadSpell para ASP.NET AJAX</value>
+    <comment>The description of the RadSpell control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="NamesUrls">
+    <value>Nombres, direcciones URL</value>
+    <comment>phrase: Names, URLs</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SetAsHomepage">
+    <value>Establecer como página de inicio</value>
+    <comment>phrase: Set as Homepage</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CodeBehindType">
+    <value>&lt;strong&gt;Código detrás de tipo&lt;/strong&gt; (para desarrolladores de ASP.NET)</value>
+    <comment>Phrase: Code behind type (for ASP.NET developers)</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RedirectingPage">
+    <value>Redireccionando página</value>
+    <comment>phrase: Redirecting page</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ContentViewDescription">
+    <value>Control de Vista de Contenido</value>
+    <comment>The description of the ContentView control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CustomTextInBrackets">
+    <value>(Personalizado)</value>
+    <comment>phrase: (Custom)</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DoneCreatingPages">
+    <value>Creación de páginas finalizada</value>
+    <comment>phrase</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Master">
+    <value>Borrador</value>
+    <comment>word: Draft</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Priority">
+    <value>Prioridad en Mapa del Sitio</value>
+    <comment>phrase: Priority in Sitemap</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="WithNoTitles">
+    <value>Sin títulos</value>
+    <comment>phrase: With no Titles</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SetAsHomepagePrompt">
+    <value>¿Quiere establecer la página actual como página de inicio?</value>
+    <comment>Message shown to the user as a prompt before setigna a page as homepage.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ConfigurationsDescription">
+    <value>Proporciona la interfaz de usuario para administrar las configuraciones de Sitefinity y su personalización.</value>
+    <comment>Description of Sitefinity/Setting/Configurations section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ToolsNodeUrlName">
+    <value>Herramientas</value>
+    <comment>The name of the Tools node that appears in the URL.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CannotSplitGroupPage">
+    <value>El nodo de página dado es un nodo de página de grupo. Usted sólo puede dividir nodos de páginas estándar.</value>
+    <comment>An error message displayed when the user tries to split a group page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ParentCommandName">
+    <value>Sección N &lt;em&gt;/A &lt;/em&gt;</value>
+    <comment>The name of Section command.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Search">
+    <value>Búsqueda</value>
+    <comment>Label: Search</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="AlternativePublishingDescription">
+    <value>Proporciona módulos relacionados con la publicación y la utilización de contenido de sistemas y canales externos</value>
+    <comment>The description of the System section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="WorkflowDescriptionMenu">
+    <value>Página para la gestión de flujos de trabajo</value>
+    <comment>phrase: Page for managing workflows</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SettingsUrlName">
+    <value>Opciones</value>
+    <comment>The name that appears in the URL.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="NameForDevelopers">
+    <value>Nombre para desarrolladores</value>
+    <comment>Phrase: Name for developers</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="BackendTemplatesHtmlTitle">
+    <value>Plantillas del área administrativa</value>
+    <comment>The html title of the BackendTemplates page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="UsersHtmlTitle">
+    <value>Usuarios</value>
+    <comment>Title of the page in Sitefinity backend that dispays users.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="BackendPagesDescription">
+    <value>Proporciona la interfaz de usuario para crear y administrar páginas administrativas.</value>
+    <comment>Description of Backend Pages section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="TimeZone">
+    <value>Huso horario</value>
+    <comment>The 'Time zone' link text in Basic Settings sidebar.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Locked">
+    <value>Bloqueado</value>
+    <comment>word: Locked</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Col2T7Title">
+    <value>Auto + fijo</value>
+    <comment>The title of layout control.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SettingsNodeTitle">
+    <value>Opciones avanzadas</value>
+    <comment>The title of the Settings section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="LogCompilationTitle">
+    <value>Compilación de registro</value>
+    <comment>Log compilation title</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PublishCommandNameNotReady">
+    <value>Publicar &lt;em&gt;N/A &lt;/em&gt;</value>
+    <comment>The name of Publish command.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="NeedToSelectMaster">
+    <value>Tienes que seleccionar una página maestra!</value>
+    <comment>phrase</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="LayoutTemplateDescription">
+    <value>Obtiene o establece la plantilla que define el diseño del control.</value>
+    <comment>Description of LayoutTemplate property.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Group">
+    <value>Agrupar página</value>
+    <comment>phrase: Group page</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ContentBlockTitle">
+    <value>Bloque de contenido</value>
+    <comment>Control title: Content Block</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ModuleTitle">
+    <value>PÁGINAS</value>
+    <comment>The title of the Pages module.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SuccessTemplateChangePasswordDescription">
+    <value>Obtiene la plantilla que define el diseño de "Éxito" del control ChangePassword.</value>
+    <comment>Description of SuccessTemplate property</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Content">
+    <value>Contenido</value>
+    <comment>Word: Content</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PromptMessageTemplatesChangeFailed">
+    <value>La plantilla se ha aplicado correctamente a {0} páginas. La plantilla no se aplicó a las siguientes páginas: &lt;br/&gt;{1}</value>
+    <comment>The message of the dialog displpayed when changing the template of multiple pages was NOT successfull for all selected pages.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="BackendPagesWarningUrlName">
+    <value>Advertencia</value>
+    <comment>The name that appears in the URL.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PagesHtmlTitle">
+    <value>PÁGINAS</value>
+    <comment>Title of the 'Pages' page in the Sitefinity Backend</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="NewModifiedFirst">
+    <value>Situar encima lo último modificado</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="NoPagesHaveBeenCreatedYet">
+    <value>Todavía no se han creado páginas</value>
+    <comment>phrase: No pages have been created yet</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="BackendTemplates">
+    <value>Plantillas del área administrativa</value>
+    <comment>Label</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ModulesNodeDescription">
+    <value>Sección para trabajar con módulos Sitefinity.</value>
+    <comment>Description of Modules section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Promo3ColumnsHeaderFooter">
+    <value>Promo, 3 columnas, cabecera, pie de página</value>
+    <comment>Label</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ContentNodeDescription">
+    <value>Una sección para la gestión de la aplicación Sitefinity, módulos, contenidos y taxonomías.</value>
+    <comment>The description of the Content taxon.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SeoTitleInvalidSymbols">
+    <value>El 'Título para los motores de búsqueda' contiene símbolos no válidos.</value>
+    <comment>The message shown when the 'Title for search engines' contains invalid symbols.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="TemplateUsedByOTherTemplates">
+    <value>La plantilla especificada tiene otras plantillas basadas en ella. Solo puede eliminar una plantilla cuando no hay páginas, campañas por correo electrónico o plantillas que hacen referencia a ella. Hacen referencia a plantillas: {0}</value>
+    <comment>Error message: The specified template has other templates based on it. You can only delete a template when no pages, email campaigns or templates reference it. Referencing templates: {0}</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadTextBoxDescription">
+    <value>RadTextBoxDescription para ASP.NET AJAX</value>
+    <comment>The description of the RadTextBox control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadComboBoxTitle">
+    <value>Cuadro combinado</value>
+    <comment>The title of the RadComboBox control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="StatusPageLocation">
+    <value>Estado / Página / Ubicación</value>
+    <comment>phrase: Status / Page / Location</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ToolsDescription">
+    <value>Permite el acceso a las herramientas Sitefinity como el exportador de plantillas del sitio web.</value>
+    <comment>Description of Sitefinity/Admin/Tolls section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="MarketingToolsUrlName">
+    <value>herramientas</value>
+    <comment>Url name of the Marketing tools section</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ContentViewTitle">
+    <value>Vista de contenido</value>
+    <comment>The title of the ContentView control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ChildPageDuplicateMessage">
+    <value>No puede guardar sus cambios, porque una página hija tendrá una URL '{0}' que ya existe.</value>
+    <comment>The message that will be displayed when a duplicate page url has been found in the child nodes.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="AdjacentControlPlaceholdersDoNotMatch">
+    <value>Marcadores de posición de controles adyacentes no coinciden.</value>
+    <comment>Error message. Shown when a control and its parent are not in the same placeholder.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DashboardDescription">
+    <value>Muestra un resumen del estado actual del sitio y proporciona accesos directos a tareas comunes.</value>
+    <comment>Description of the backend dashboard page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CssEmbedControlDescription">
+    <value>Incorpora archivos CSS o estilos personalizados en esta página</value>
+    <comment>Control description: A control for embedding CSS style sheets.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CompilationElementDescription">
+    <value>Configuraciones para precompilar páginas.</value>
+    <comment>Settings for precompiling pages.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="HelpAndResources">
+    <value>Ayuda &amp;amp; Recursos</value>
+    <comment>phrase: Help &amp; Resources</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="IncludeInSitemap">
+    <value>Incluir en el mapa del sitio</value>
+    <comment>phrase: Include in sitemap</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Website">
+    <value>Sitio web</value>
+    <comment>Word</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="YouAreNotAuthorizedToAccessThisPage">
+    <value>No está autorizado a acceder a esta página</value>
+    <comment>Error message: You are not authorized to access this page</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="BackToRevisionHistory">
+    <value>Volver a la Historial de revisiones</value>
+    <comment>phrase: Back to Revision History</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadMenuTitle">
+    <value>Menú</value>
+    <comment>The title of the RadMenu control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ZoneEditorEnablePageOverride">
+    <value>Hacer editable en las páginas</value>
+    <comment>Page editor 'edit' command title.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DeletePageTemplateConfirm">
+    <value>Todas las páginas y plantillas que utilizan esta plantilla se eliminará. ¿Desea continuar?</value>
+    <comment>Message show to the user as a propmt before deleting a page template.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ByTemplate">
+    <value>por &lt;strong&gt;Plantilla &lt;/strong&gt;</value>
+    <comment>phrase: by template</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ZoneEditorConfirmDeleteLayout">
+    <value>¿Está seguro de que desea eliminar el elemento de diseño?</value>
+    <comment>Confirmation message used by the Page Editor before deleting a layout element.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CanonicalUrlDisabled">
+    <value>Desactivado</value>
+    <comment>phrase: Disabled</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="TitleColumnText">
+    <value>Título</value>
+    <comment>The text of Title column in the page browser grid.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ZoneEditorEmptyZoneLayoutDragMessage">
+    <value>Arrastrar elementos de diseño</value>
+    <comment>The description of this element.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="TemplateUsedByCampaigns">
+    <value>La plantilla especificada tiene campañas de correo electrónico basadas ​​en ella. Solo puede eliminar una plantilla cuando no hay páginas, campañas por correo electrónico o plantillas que hacen referencia a ella. Hacen referencia a campañas: {0}</value>
+    <comment>Error message: The specified template has email campaigns based on it. You can only delete a template when no pages, email campaigns or templates reference it. Referencing campaigns: {0}</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="BackendPagesWarningHtmlTitle">
+    <value>Páginas del área administrativa - Advertencia</value>
+    <comment>The html title of the BackendPages Warning page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ConfirmRollbackToVersion">
+    <value>&lt;H1&gt;Restaurar a ajustes de widget a partir de plantilla base&lt;/H1&gt;
+
+Actualmente, el contenido y los ajustes del widget no son los mismos que los del widget original en la plantilla de página. Si restaura al widget de la plantilla de página, se perderán todos los cambios que ha realizado.
+&lt;br/&gt;&lt;br/&gt;
+¿Está seguro de que desea continuar?</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="AdminTitle">
+    <value>Administración</value>
+    <comment>The title of the Adminisration section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ConfirumRollbackButtonLabel">
+    <value>&lt;b&gt;Sí, restaurar&lt;/b&gt;</value>
+    <comment>Confirm dialog buttin label</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadPanelBarTitle">
+    <value>PanelBar</value>
+    <comment>The title of the RadPanelBar control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="UseTheFullyQualifiedNameOfTheType">
+    <value>Use el nombre completo calificado del tipo.</value>
+    <comment>Phrase: Use the fully qualified name of the type.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ReviewHistory">
+    <value>Revisar historial</value>
+    <comment>Used in the actions menu in the Backend Detail View form</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PageCount">
+    <value>1 página</value>
+    <comment>The page count displayed in the template browser grid.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SetPageToRedirectTo">
+    <value>Establecer página de redirección</value>
+    <comment>Label: Set page to redirect to</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PersonalizeThisPage">
+    <value>Personalizar esta página</value>
+    <comment>phrase: Personalize this page</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PromptRevertButtonText">
+    <value>Sí, Volver a esta versión</value>
+    <comment>The title of the button in the revert prompt dialog.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="MoreActions">
+    <value>Más acciones</value>
+    <comment>phrase: More actions</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ImageControlDescription">
+    <value>Imagen transferida desde su computadora o seleccionado de bibliotecas de imágenes</value>
+    <comment>Control description: A control for displaying uploded image with specified properties at properties dialog.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="OpenAccessDataSourceTitle">
+    <value>Fuente de datos OpenAccess</value>
+    <comment>The title of the OpenAccessDataSource control.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadCalendarDescription">
+    <value>RadCalendar para ASP.NET AJAX</value>
+    <comment>The description of the RadCalendar control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="HelpContentsHtmlTitle">
+    <value>Documentación Sitefinity</value>
+    <comment>The HTML title of the Help Contents page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SaveAsTemplCommandName">
+    <value>Guardar como plantilla &lt;em&gt;N/A &lt;/em&gt;</value>
+    <comment>The name of Save as Template command.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="MarkedItems">
+    <value>Elementos marcados</value>
+    <comment>Menu name of the page in Sitefinity's backedn that displays marked items</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ShowToolbox">
+    <value>Mostrar caja de herramientas</value>
+    <comment>label</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadMaskedTextBoxTitle">
+    <value>Caja de texto con máscara</value>
+    <comment>The title of the RadMaskedTextBox control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="TechnicalSupportDescription">
+    <value>Proporciona los formularios para el envío de consultas técnicas y el seguimiento de problemas.</value>
+    <comment>Description of Technical Support page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PagesDescription">
+    <value>Proporciona la interfaz de usuario para crear y administrar páginas.</value>
+    <comment>Description of Pages section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SearchPagesText">
+    <value>Buscar páginas ...</value>
+    <comment>The text of Search Pages toolbar button.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="AlphabeticallyAsc">
+    <value>Alfabeticamente (A-Z)</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SettingsTitle">
+    <value>Opciones</value>
+    <comment>The title of Settings command Panel in Configuration control panel.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PermissionsForAllPages">
+    <value>Permisos para todas las páginas</value>
+    <comment>phrase: Permissions for all pages</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadFormDecoratorTitle">
+    <value>Decorador de formularios</value>
+    <comment>The title of the RadFormDecorator control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Basic">
+    <value>Básico</value>
+    <comment>The 'Basic' link text.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ViewCommandName">
+    <value>Ver</value>
+    <comment>The name of View command.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="HelpAndResourcesDescription">
+    <value>Ayuda &amp;amp; Recursos</value>
+    <comment>Help &amp;amp; Resources</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="AllTemplates">
+    <value>Todas las plantillas</value>
+    <comment>phrase</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadChartDescription">
+    <value>RadChart para ASP.NET AJAX</value>
+    <comment>The description of the RadChart control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SiteMap">
+    <value>Mapa del Sitio</value>
+    <comment>The name of the Sitefinity/Admin/SiteMap section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="AllowParameterValidation">
+    <value>Permitir validación de parámetros</value>
+    <comment>phrase: Allow parameter validation</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="LoginFormTitle">
+    <value>Iniciar sesión</value>
+    <comment>The title of the Login form page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="UserManagementNodeDescription">
+    <value>Grupos de herramientas de gestión de usuarios, tales como usuarios, roles, permisos, etc</value>
+    <comment>The description of the UserManagement section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="UseSpamProtectionImage">
+    <value>Usar protección de spam por imagen (captcha)</value>
+    <comment>Phrase</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadWindowTitle">
+    <value>Ventana</value>
+    <comment>The title of the RadWindow control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="BackendModulesAndServicesHtmlTitle">
+    <value>Módulos</value>
+    <comment>The html title of the Modules &amp; Services page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PagesDataFields">
+    <value>Campos de datos de la Página</value>
+    <comment>phrase: Pages data fields</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="AutomaticallyCloseComments">
+    <value>Cerrar automáticamente los comentarios para elementos más antiguos que</value>
+    <comment>Phrase</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="WebFrameworkDescription">
+    <value>Qué tipo de widgets estarán disponibles en la caja de herramientas</value>
+    <comment>Description of the Web framework setting</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PromptMessagePageCannotCreateChildPage">
+    <value>Antes de que pueda crear una página hija de esta página, cree una versión para el idioma actualmente seleccionado.</value>
+    <comment>Message shown when an invalid attempt to create a child page for page is made.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="UserPoliciesDescription">
+    <value>Define las opciones de configuración para usuarios de forma individual.</value>
+    <comment>The description of User Policies Handler.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="KeywordsExample">
+    <value>&lt;strong&gt;Ejemplo: &lt;/strong&gt;&lt;em&gt;música, guitarra, canción &lt;/em&gt;</value>
+    <comment>The 'Keywords example' label.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Days">
+    <value>días</value>
+    <comment>Word</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PermissionsDescription">
+    <value>Proporciona la interfaz de usuario para la gestión de permisos de seguridad.</value>
+    <comment>Description of Sitefinity/Admin/Permissions section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ThemesNodeUrlName">
+    <value>Temas</value>
+    <comment>The name of the Themes node that appears in the URL.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="FilesDescription">
+    <value>Sección para trabajar con el sistema de archivos.</value>
+    <comment>Description of Files section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CyclicChildParentRelationship">
+    <value>Relación cíclica hijo/padre. Un control/diseño no puede ser el padre de su propio padre.</value>
+    <comment>Error message. Shown when the control's parent's parent is the control itself.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="IncludeRadScriptManager">
+    <value>Incluir &lt;strong&gt;RadScriptManager&lt;/strong&gt;</value>
+    <comment>Phrase: Include RadScriptManager</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DuplicateCommandName">
+    <value>Duplicar &lt;em&gt;N/A &lt;/em&gt;</value>
+    <comment>The name of Duplicate command.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SiblingPageAfter">
+    <value>Página relacionada después</value>
+    <comment>phrase: Sibling page after</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="EnableDefaultCanonicalUrlDescription">
+    <value>Si se configura en true y no hay widget que añada una etiqueta canónica, se añadirá una URL canónica predeterminada. Si se configura en false (predeterminado), solo se añadirá la etiqueta canónica si existe un widget específico en la página y no está desa</value>
+    <comment>If set to true and there is no widget that will add a canonical tag a default canonical URL will be added. If set to false (default) the canonical tag will be added only if there is a specific widget on the page and it is not disabled globally.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RestoreToDefaultStructure">
+    <value>Restaurar a la estructura predeterminada</value>
+    <comment>phrase: Restore to default structure</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="AsForWholeSite">
+    <value>Según lo configurado para todo el sitio</value>
+    <comment>phrase: As set for the whole site</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SectionSavedMsg">
+    <value>La sección {0} ha sido guardada con éxito!</value>
+    <comment>phrase</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="LayoutToolbox">
+    <value>Diseño</value>
+    <comment>label</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ToolsNodeTitle">
+    <value>Herramientas</value>
+    <comment>The title of the Tools section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadBinaryImageTitle">
+    <value>Imagen Binaria</value>
+    <comment>The title of the RadBinaryImage control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadWindowManagerDescription">
+    <value>RadWindowManager para ASP.NET AJAX</value>
+    <comment>The description of the RadWindowManager control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DuplicatePageToLanguageTooltip">
+    <value>Usted puede duplicar esta traducción de la página a otro idioma. Por ejemplo, La traducción a inglés puede ser duplicada al francés.</value>
+    <comment>The tooltip message that appears next to the language when you duplicate a page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Tools">
+    <value>Herramientas</value>
+    <comment>The name of the Sitefinity/Admin/Tolls section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CreateChildPage">
+    <value>Crear una página secundaria</value>
+    <comment>phrase: Create a child page</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PagePoliciesDescription">
+    <value>Define las opciones de configuración para páginas de forma individual.</value>
+    <comment>The description of Page Policies Handler.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ZoneEditorEnablePageOverrideDisplayContenxtMenuInfo">
+    <value>No puede eliminar o mover este widget porque es herencia de la plantilla de página.</value>
+    <comment>Page editor 'edit' command title.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="GenericContentPermissionsHtmlTitle">
+    <value>Permisos de contenido genérico</value>
+    <comment>The html title of the Generic Content permissions page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ShareLink">
+    <value>Compartir enlace de vista previa...</value>
+    <comment>phrase: Share preview link...</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ExternalPageFieldLabel">
+    <value>Esta página redirecciona a otra página</value>
+    <comment>Label: This page redirects to another page</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DescriptionKeywordsSection">
+    <value>Descripción, palabras clave &lt;em class='sfNote'&gt;(únicamente para motores de búsqueda) &lt;/em&gt;</value>
+    <comment>Phrase: Description, Keywords (for search engines only)</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ZoneEditorEditableInPagesLabel">
+    <value>&lt;span class='sfShared'&gt;Editable en páginas&lt;/span&gt;&lt;span&gt; &lt;a dockId='{0}' class='displayOverridenControls sfMoreDetails'&gt;Ver donde se editó el widget&lt;/a&gt;&lt;/span&gt;</value>
+    <comment>Confirmation message used by the Page Editor before deleting a widget.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadToolTipTitle">
+    <value>Tooltip</value>
+    <comment>The title of the RadToolTip control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Classifications">
+    <value>Clasificaciones</value>
+    <comment>The name of the Sitefinity/Content/Classifications section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CacheDuration">
+    <value>Duración de caché &lt;span class='sfNote'&gt;(en segundos)&lt;/span&gt;</value>
+    <comment>Phrase: Cache duration (in seconds)</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PageResourcesTitle">
+    <value>Recursos de las páginas</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DeleteCommandName">
+    <value>Eliminar</value>
+    <comment>The name of Delete command.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Page">
+    <value>Página</value>
+    <comment>Page</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="TaxonomyNodeTitle">
+    <value>Clasificación de Contenido</value>
+    <comment>The title of the single taxonomy navigation node.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="JavaScriptEmbedControlDescription">
+    <value>Incrusta archivos JavaScript o código personalizado en esta página</value>
+    <comment>Control description: A control for embedding Java Script files/code.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Languages">
+    <value>Idiomas</value>
+    <comment>The 'Languages' link text in Basic Settings sidebar.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ContentBlockIsUsed">
+    <value>Utilizado en al menos una página</value>
+    <comment>Text indicating that a content block is used in the grid of the shared content selector of the content block designer</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DesignNodeUrlName">
+    <value>Diseño</value>
+    <comment>The name of the Design node that appears in the URL.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="GroupPageDescription">
+    <value>Esta página no tiene su propio contenido y redirige a la primera subpágina</value>
+    <comment>Label: This page doesn't have its own content and redirects to the first subpage</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Advanced">
+    <value>Avanzado</value>
+    <comment>The 'Advanced' link text.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DuplicatePageToLanguageTitle">
+    <value>Idioma</value>
+    <comment>The label that is displayed for the language selector when duplicating a page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="WaitingForApproval">
+    <value>En espera de aprobación</value>
+    <comment>The text of the 'Awaiting approval' button in the sidebar.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CreateUserTemplateDescription">
+    <value>Obtiene la plantilla que define el diseño de CreateUser del control CreateUserWizardForm.</value>
+    <comment>Description of CreateUserTemplate property.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SeoTitleExample">
+    <value>Aparece en la barra de título del navegador y en los resultados de búsqueda. Hágalo más descriptivo.</value>
+    <comment>The SEO title example string at the page dialog</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="BasicSettingsDescription">
+    <value>Permite una interfaz de usuario más amigable para la gestión de configuración.</value>
+    <comment>Description of Basic Settings backend page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PhotoGalleryCommandName">
+    <value>Galería de fotos</value>
+    <comment>The name of Photo Gallery command.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Workflow">
+    <value>Flujo de trabajo</value>
+    <comment>The 'Workflow' link text in Basic Settings sidebar.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="EditTemplate">
+    <value>Editar una plantilla</value>
+    <comment>The label for editing a template.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DuplicatedName">
+    <value>Nombre duplicado!</value>
+    <comment>phrase</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PromptMessageTranslationSyncedWarning">
+    <value>Todas las versiones de idiomas de la plantilla se sincronizarán como una plantilla. Los cambios realizados a los widgets, diseños y plantillas base en una plantilla se verán reflejados en todas las versiones de idiomas de la plantilla.</value>
+    <comment>phrase: All language versions of the template will be synced as one template</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PoliciesTitle">
+    <value>Directivas</value>
+    <comment>The title of Labels Command Panel in Localization control panel.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="pageTemplateNotFound">
+    <value>No se encuentra la plantilla de página por lo que no se puede mostrar la página</value>
+    <comment>This message is dispayed when the page template is missing</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PromptMessagePageChangeTemplate">
+    <value>Está a punto de cambiar la plantilla de una página &lt;strong&gt;publicada &lt;/strong&gt;. &lt;br/&gt;&lt;br/&gt;&lt;strong&gt;Un nuevo borrador &lt;/strong&gt;se creará para esta página y la plantilla seleccionada se aplicará a este borrador.</value>
+    <comment>The message of the warning dialog displayed when changing the template of a single published page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Col2T1Description">
+    <value>Dos columnas con el 25% y 75% de ancho respectivamente.</value>
+    <comment>The description of layout control.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="WhatAreThemes">
+    <value>¿Qué son los temas?</value>
+    <comment>What are themes?</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="TwoEqualHeaderFooter">
+    <value>2 columnas iguales, encabezado, pie de página</value>
+    <comment>Label</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DuplicatedFrameworkIsDifferent">
+    <value>¡No puede cambiar la estructura al duplicar una plantilla!</value>
+    <comment>phrase</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PublishedAndDraft">
+    <value>El borrador es más reciente que la versión publicada</value>
+    <comment>word: Draft newer than published version</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ZoneEditorDisablePageOverride">
+    <value>Hacer no editable en páginas</value>
+    <comment>Page editor 'edit' command title.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadGridDescription">
+    <value>RadGrid para ASP.NET AJAX</value>
+    <comment>The description of the RadGrid control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DesignNodeDescription">
+    <value>Una sección para la gestión de plantillas y temas.</value>
+    <comment>The description of the Design section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadFileExplorerDescription">
+    <value>RadFileExplorer para ASP.NET AJAX</value>
+    <comment>The description of the RadFileExplorer control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="LocalizationDescription">
+    <value>Proporciona la interfaz de usuario para la gestión y localización de textos utilizados en Sitefinity tales como etiquetas, botones, advertencias, mensajes de error, y etc</value>
+    <comment>Description of Sitefinity/Admin/Localization section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ZoneEditorMoreCommand">
+    <value>Más información</value>
+    <comment>Page editor 'more' command title.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CustomUrlValidationMessageTitle">
+    <value>El mensaje de validación de URL personalizado</value>
+    <comment>The description of this element.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ThisSite">
+    <value>este sitio</value>
+    <comment>phrase: this site</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="MarketingToolsTitle">
+    <value>Herramientas</value>
+    <comment>Title of the Marketing tools section</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DeleteEditedWidgetConfirmation">
+    <value>&lt;p&gt;El contenido y la configuración de este widget han sido editados en {0} página(s).&lt;br/&gt;Una vez eliminados, se perderán todos los cambios y no se podrán restaurar.&lt;/p&gt;&lt;p&gt;¿Está seguro de que desea continuar?&lt;/p&gt;</value>
+    <comment>Holds the warning text for deleteEditedWidgetConfirmationDialog shown for delete operation on editable widgets</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SortByTemplate">
+    <value>por plantilla</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PagesRootLabel">
+    <value>En el nivel superior</value>
+    <comment>At top level</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Title">
+    <value>Título</value>
+    <comment>label</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PromptMessageSingleTemplateInUse">
+    <value>&lt;strong&gt;{0} páginas y {1} plantillas &lt;/strong&gt;usan esta plantilla. &lt;br/&gt;Antes de poder eliminar la plantilla, deberá seleccionar otra plantilla para las páginas o plantillas que la utilizan .</value>
+    <comment>The message of the warning dialog displpayed when deleting single template that is used by pages or by other templates.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PageLayoutToolboxTitle">
+    <value>Arrastre los elementos de diseño &lt;em class='sfInfo'&gt;para dividir la página en columnas &lt;/em&gt;</value>
+    <comment>The title of the toolbox for designing pages.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ContentBlockNotUsed">
+    <value>No se utiliza en ninguna página</value>
+    <comment>Text indicating that a content block is not used in the grid of the shared content selector of the content block designer</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SaveChanges">
+    <value>Guardar cambios</value>
+    <comment>Save changes</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PromptTitlePageCannotDeleteChildren">
+    <value>Usted no puede eliminar una página que tiene páginas hijas.</value>
+    <comment>Title of the message box shown when a non-admin user tries to delete a page containing children.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="EnableCaching">
+    <value>Habilitar &lt;strong&gt;almacenamiento en caché&lt;/strong&gt;...</value>
+    <comment>Phrase: Enable Caching...</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="UrlNameCannotBeEmpty">
+    <value>La URL no puede estar vacía</value>
+    <comment>The message shown when the url is empty.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CustomSorting">
+    <value>Ordenación personalizada ...</value>
+    <comment>Phrase: Custom sorting...</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Col2T6Title">
+    <value>fijo + Auto</value>
+    <comment>The title of layout control.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadDockZoneDescription">
+    <value>RadDockZone para ASP.NET AJAX</value>
+    <comment>The description of the RadDockZone control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="MediaPlayerControlDescription">
+    <value>Video cargado desde su computadora o seleccionado de otras bibliotecas de Video</value>
+    <comment>Control description: A control for displaying rich media content</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadControlsDescription">
+    <value>Sección de la caja de herramientas que contiene los controles Telerik RadControls para ASP.Net AJAX.</value>
+    <comment>The description of the RadControls toolbox section in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="UsersDescription">
+    <value>Proporciona la interfaz de usuario para la gestión de usuarios y roles Sitefinity.</value>
+    <comment>Description of Sitefinity/Admin/Users section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="TemplatesByCategory">
+    <value>Plantillas por categoría</value>
+    <comment>phrase</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="HomepageSuccessfullySetMessage">
+    <value>Esta página fue establecida con éxito como página de inicio.</value>
+    <comment>Message shown to the user when he have set the current page as a homepage.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadListBoxTitle">
+    <value>Cuadro de Lista</value>
+    <comment>The title of the RadListBox control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ConfirmRollbackToVersionTitle">
+    <value>Restaurar a los ajustes de widget desde la plantilla de la página</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PageGroupPoliciesDescription">
+    <value>Define las opciones de configuración para secciones.</value>
+    <comment>The description of Section Policies Handler.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ReviewHistoryCommandName">
+    <value>Revisar historial</value>
+    <comment>The name of Review History command.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PermissionsTitle">
+    <value>Permisos</value>
+    <comment>The title of Permissions command panel in Configuration control panel.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="UrlNameInvalidSymbols">
+    <value>La dirección URL contiene símbolos no válidos.</value>
+    <comment>The message shown when the url contains invalid symbols.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="WebFrameworkTitle">
+    <value>Framework web</value>
+    <comment>Title of the Web framework setting</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PromptMessageTemplateNotUsed">
+    <value>¿Está seguro de que desea eliminar esta plantilla?</value>
+    <comment>The message of the warning dialog displpayed when deleting an template that is not used.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DeleteNACommandName">
+    <value>Eliminar &lt;em&gt;N /A &lt;/em&gt;</value>
+    <comment>The name of Delete command.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SettingsAndConfigurationsNodeDescription">
+    <value>Opciones de grupos y configuraciones</value>
+    <comment>The description of the SettingsAndConfigurations section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CopyWidgetSettingsDescription">
+    <value>La configuración de widget puede variar entre las traducciones. Usted puede optar por copiar la configuración de widget de otra traducción</value>
+    <comment>Description of the Copy widget settings section in add page template language dialog.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="BasicTemplates">
+    <value>Plantillas básicas</value>
+    <comment>Label</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="UserLimitReachedTitle">
+    <value>Límite de Usuarios Alcanzado</value>
+    <comment>The title of the User Limit Reached page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="FilesHtmlTitle">
+    <value>Archivos</value>
+    <comment>Title of the page that manages files on the server in Sitefinity's backend.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SiteMapDescription">
+    <value>Proporciona la interfaz de usuario para la gestión y edición de las páginas de Sitefinity.</value>
+    <comment>Description of Sitefinity/Admin/SiteMap section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="YouCanChangeParticularCommentForms">
+    <value>Puede cambiar de formularios de comentarios individuales si quiere que sean diferentes.</value>
+    <comment>Phrase</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="BackToAllPages">
+    <value>Regresar a la lista</value>
+    <comment>phrase: Back to Pages</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadSkinManagerDescription">
+    <value>RadSkinManager para ASP.NET AJAX</value>
+    <comment>The description of the RadSkinManager control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PromptTitlePageCannotDeleteHomepage">
+    <value>Usted no puede eliminar la Página de Inicio</value>
+    <comment>Title of the message shown when an attempt to delete the hompate is made.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ZoneEditorControlOverridenInPage">
+    <value>{0} se edita en 1 página</value>
+    <comment>Page editor 'edit' command title.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ThemesNodeDescription">
+    <value>Una sección para la gestión de temas.</value>
+    <comment>The description of the Design section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="AllClassifications">
+    <value>Todas las clasificaciones</value>
+    <comment>The name of the Sitefinity/Content/Classifications section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="TaxonomyControlDescription">
+    <value>Un control para mostrar la lista de taxones del tipo de contenido especificado o del elemento de contenido especificado.</value>
+    <comment>Control description: A control for displaying list of taxa of specified content type or for the specified content item.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="HideToolbox">
+    <value>Ocultar Caja de herramientas</value>
+    <comment>label</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="XmlDataSourceDescription">
+    <value>Proporciona fuente de datos XML para otros widgets (controles vinculados a datos)</value>
+    <comment>The description of the XmlDataSource control.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DeleteDraftMessageConfirm">
+    <value>El elemento seleccionado se eliminará. ¿Está seguro de que desea continuar?</value>
+    <comment>Used in View Specific page version screen</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PageGroupPoliciesTitle">
+    <value>Secciones</value>
+    <comment>The title of Role Group Policies Handler.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PromptMessagePageChangeTemplates">
+    <value>Está a punto de cambiar la plantilla de una página &lt;strong&gt;publicada &lt;/strong&gt;. &lt;br/&gt;&lt;br/&gt;&lt;strong&gt;Un nuevo borrador &lt;/strong&gt;se creará para esta página y la plantilla seleccionada se aplicará a este borrador.</value>
+    <comment>The message of the warning dialog displayed when changing the template of a single published page in a batch operation.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PromptNavigateFromEditorToolBarLocked">
+    <value>Al navegar fuera del editor, el elemento permanecerá bloqueado. Puede utilizar el enlace 'Volver a Páginas/Plantillas' para salir y desbloquear.</value>
+    <comment>Message displayed when the user navigates away from the Page Editor when the page is locked</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadUploadDescription">
+    <value>RadUpload para ASP.NET AJAX</value>
+    <comment>The description of the RadUpload control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadTextBoxTitle">
+    <value>Textbox</value>
+    <comment>The title of the RadTextBox control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="MarketingToolsDescription">
+    <value>Sección para herramientas de marketing Sitefinity, como personalización, análisis, etc.</value>
+    <comment>Description of the Marketing tools section</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DraftNewerThanPublishedMessage">
+    <value>El borrador es más reciente que la página publicada. &lt;a href='{0}' target='_blank'&gt;Vista previa &lt;/a&gt;de la versión publicada de la página.</value>
+    <comment>The message that is displayed when you start editing apage that has a draft newer than the published version.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="HelpAndResourcesTitle">
+    <value>Ayuda &amp;amp; Recursos</value>
+    <comment>Help &amp;amp; Resources</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="AuthKeyDescription">
+    <value>La clave de autenticación, que utilizará la herramienta precompiladora de Sitefinity para autenticar Sitefinity.</value>
+    <comment>The authentication key, which the Sitefinity precompiler tool will use to authenticate to Sitefinity.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="HowToUploadMyOwnTheme">
+    <value>¿Cómo cargar mis propios temas?</value>
+    <comment>How to upload my own theme?</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PromptMessageTemplatesChanged">
+    <value>La plantilla se ha aplicado correctamente a {0} páginas.</value>
+    <comment>The message of the dialog displpayed when the template of multiple pages was changed successfully.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ContentBlockNotUsedViewInstructions">
+    <value>No se utiliza</value>
+    <comment>Text used in content blocks grid to show that a content block is not used on any page</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PromptMessagePageCannotDeleteHomepage">
+    <value>Antes de poder eliminar esta página, debe establecer otra página como Página de Inicio</value>
+    <comment>Message shown when an attempt to delete the hompate is made.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CreateAndAddContent">
+    <value>Crear e ir a agregar contenido</value>
+    <comment>Phrase: Create and go to add content</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Version">
+    <value>Versión</value>
+    <comment>Version Label </comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CannotFindSiblig">
+    <value>No se pueden encontrar elementos hermanos.</value>
+    <comment>Error message. Shown when a control's parent cannot be found.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Live">
+    <value>En vivo</value>
+    <comment>word : Live</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PromptTitleDuplicatePageWithUnavailableCulture">
+    <value>No se puede duplicar una página.</value>
+    <comment>Title of the message shown when an invalid attempt to duplicate a page in a site where the culture is unavailable is made.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="TemplateCommandName">
+    <value>plantilla</value>
+    <comment>The name of Template command.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="HelpContentsDescription">
+    <value>Proporciona la documentación de sistema de Sitefinity.</value>
+    <comment>Description of Help Contents page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Template">
+    <value>plantilla</value>
+    <comment>word: Template</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DeleteEditedWidgetButtonLabel">
+    <value>&lt;b&gt;Sí, eliminar este widget&lt;/b&gt;</value>
+    <comment>Confirm deleteEditedWidgetConfirmationDialog button label</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="FilesUrlName">
+    <value>Archivos</value>
+    <comment>word : Files</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ContentBlocksTitle">
+    <value>Contenido genérico</value>
+    <comment>The title of the Content Blocks module landing page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SettingsDescriptionMenu">
+    <value>Proporciona la interfaz de usuario para administrar la configuración Sitefinity.</value>
+    <comment>Description of "Settings" command.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadTabStripDescription">
+    <value>RadTabStrip para ASP.NET AJAX</value>
+    <comment>The description of the RadTabStrip control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ZoneEditorEditCommand">
+    <value>Editar</value>
+    <comment>Page editor 'edit' command title.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CannotModifyPage">
+    <value>No tiene permiso para modificar {0}.</value>
+    <comment>An error message displayed when the user tries to modify a page which they are not allowed.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ProfileHtmlTitle">
+    <value>Perfil</value>
+    <comment>The HTML title of the Profile Sitefinity page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SetHomepageCommandName">
+    <value>Establecer como página de inicio</value>
+    <comment>The name of Set as Homepage command.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PageCreatedMsg">
+    <value>La página {0} ha sido creada!</value>
+    <comment>phrase</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="OwnerCommandName">
+    <value>Propietario &lt;em&gt;N/A &lt;/em&gt;</value>
+    <comment>The name of Owner command.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="NewsViewTitle">
+    <value>Vista de Noticias</value>
+    <comment>The title of the News view control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="TemplateSavedMsg">
+    <value>La plantilla {0} ha sido guardada con éxito!</value>
+    <comment>phrase</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Profile">
+    <value>Perfil</value>
+    <comment>word : Profile</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ArchiveControlTitle">
+    <value>Archivo</value>
+    <comment>Control title: Archive</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="LanguageSelectorControlTitle">
+    <value>Selector de idioma</value>
+    <comment>Toolbox title: Language selector</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="LabelsAndMassages">
+    <value>Interfaz de Etiquetas y mensajes</value>
+    <comment>The title of Sitefinity/Settings/Labels section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CreateThisTemplate">
+    <value>Crear esta plantilla</value>
+    <comment>Phrase</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ThreeEqualHeaderFooter">
+    <value>3 Columnas iguales, encabezado, pie de página</value>
+    <comment>Label</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PromptMessageSomePagesWereNotDeleted">
+    <value>La Página de Inicio y sus páginas padres no fueron eliminadas. Antes de hacerlo, tiene que configurar otra página como Página de Inicio.</value>
+    <comment>Message shown when you have invoked deletion of a given selection of paegs but not all were deleted due to some restriction.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="AdvancedOptionsSection">
+    <value>Opciones avanzadas &lt;em class='sfNote'&gt;(Almacenamiento en Caché, Direcciones URL Múltiples, Etiquetas Head)&lt;/em&gt;</value>
+    <comment>Phrase: Advanced options (Caching, Head tags)</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ExternalPageFieldValidatorMessage">
+    <value>Por favor, seleccione una página para la redirección</value>
+    <comment>The error message that shows when the user has marked a page as external but hasn't selected where it will redirect to</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="TemplatesNodeDescription">
+    <value>Una sección para la gestión de plantillas.</value>
+    <comment>The description of the Templates section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="AlphabeticallyDesc">
+    <value>Alfabeticamente (Z-A)</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Parent">
+    <value>Padre</value>
+    <comment>word: Parent</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="OpenAccessDataSourceDescription">
+    <value>Proporciona fuente de datos Telerik.OpenAccess para otros widgets</value>
+    <comment>The description of the OpenAccessDataSource control.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CreateAndReturnToPages">
+    <value>Crear y volver a Páginas</value>
+    <comment>The text of the button for creating a page and returning to pages.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Localization">
+    <value>Etiquetas y Mensajes</value>
+    <comment>The name of the Sitefinity/Admin/Localization section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="OnlineResourcesTitle">
+    <value>Recursos en la Red</value>
+    <comment>The title of the Online Resources page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="GenericContentPermissionsUrlName">
+    <value>Permisos</value>
+    <comment>The name that appears in the URL when navigating to GenericContent permissions panel.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadTabStripTitle">
+    <value>Tab Franja</value>
+    <comment>The title of the RadTabStrip control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CompilationElementTitle">
+    <value>Compilación</value>
+    <comment>Word</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CharacterCounterDescription">
+    <value>Se recomiendan menos de {0} caracteres</value>
+    <comment>Describes CharacterCounterDescription property.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RatingDescription">
+    <value>Permite a los usuarios calificar los elementos de contenido.</value>
+    <comment>Describes the Rating control in the control toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SiteMapDataSourceTitle">
+    <value>Fuente de datos del Mapa del sitio</value>
+    <comment>The title of the SiteMapDataSource control.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SharedLinkExpirationTimeOutOfRangeMessage">
+    <value>El plazo de expiración para los enlaces compartidos está fuera de rango .</value>
+    <comment>Message displayed when expiration time for shared links is out of range.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="InvalidParent">
+    <value>Elemento primario no válido!</value>
+    <comment>phrase</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Configuration">
+    <value>Opciones</value>
+    <comment>The name of the Sitefinity/Admin/Configuration section.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="CreateNewTemplate">
+    <value>Crear una plantilla</value>
+    <comment>The text of Create new Template toolbar button.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="MyPreferences">
+    <value>Mis preferencias</value>
+    <comment>phrase : My Preferences</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Templates">
+    <value>Plantillas</value>
+    <comment>Templates</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Col3T1Description">
+    <value>Tres columnas con ancho de 33%, 34% y 33%  respectivamente.</value>
+    <comment>The description of layout control.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Synchronization">
+    <value>Secuenciación</value>
+    <comment>The 'Site Sync' link text in Basic Settings sidebar.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadDateInputTitle">
+    <value>Fecha de entrada</value>
+    <comment>The title of the RadDateInput control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="OnTopLevel">
+    <value>en &lt;strong&gt;nivel superior &lt;/strong&gt;</value>
+    <comment>phrase: on the top level</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ThemeToolbox">
+    <value>Tema</value>
+    <comment>word: Theme</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Pages">
+    <value>PÁGINAS</value>
+    <comment>Pages</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="TechnicalSupportTitle">
+    <value>Soporte Técnico</value>
+    <comment>The title of the Technical Support page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ThemeToolboxDescription">
+    <value>Proporciona una forma de trabajar con temas de página.</value>
+    <comment>phrase: Provides a way to work with page themes.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PromptTitleWarning">
+    <value>Advertencia</value>
+    <comment>The title of a warning prompt dialog.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DuplicateChildPages">
+    <value>También duplicar páginas secundarias</value>
+    <comment>phrase: Duplicate child pages as well</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="For">
+    <value>Para</value>
+    <comment>For</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="NeedAdminRightsDescription">
+    <value>Página que maneja el mensaje "Se Necesita Derechos de Administrador".</value>
+    <comment>Description of Need Admin Rights page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="UserLimitReachedDescription">
+    <value>Página que trata el mensaje d alcance de límite del usuario al iniciar sesión.</value>
+    <comment>Description of User limit reached page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ResponsiveDesignTransformations">
+    <value>Diseño sensible</value>
+    <comment>The 'Responsive design transformations' link text in Basic Settings sidebar.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="SiteMenuTitle">
+    <value>Menú</value>
+    <comment>SiteMenu Control</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DuplicateTemplate">
+    <value>Duplicar una plantilla</value>
+    <comment>phrase</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="TitleForSearchEngines">
+    <value>Título para los motores de búsqueda</value>
+    <comment>The 'Title for search engines' label.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="MoreActionsText">
+    <value>Más acciones ...</value>
+    <comment>The text of More Actions toolbar dropdown.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Col4T1Description">
+    <value>Cuatro columnas con un ancho de 25% cada una.</value>
+    <comment>The description of layout control.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="WhatFieldsShouldContainTheForm">
+    <value>¿Qué campos debe contener el formulario para publicar comentarios?</value>
+    <comment>Phrase</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RadWindowDescription">
+    <value>RadWindow para ASP.NET AJAX</value>
+    <comment>The description of the RadWindow control in pages toolbox.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="Admin">
+    <value>Administración</value>
+    <comment>word : Administration</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PromptMessageTemplateChangeFailed">
+    <value>La plantilla no ha sido modificada. La página está bloqueada por otra persona.</value>
+    <comment>The message of the dialog displpayed when the template of a page was NOT changed successfully.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="FullSectionInfo">
+    <value>Sección de {0} páginas y {1} secciones</value>
+    <comment>The section information displayed in the page browser grid.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="RightSidebar">
+    <value>Barra lateral a la derecha, contenido</value>
+    <comment>Label</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="NavigationControlsSectionTitle">
+    <value>Navegación</value>
+    <comment>Navigation controls</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="TechnicalSupportUrlName">
+    <value>Soporte</value>
+    <comment>The name if Technical Support page that appears in the URL.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ClickToViewWhichSitesUseThisTemplate">
+    <value>Haga clic aquí para ver qué sitios utilizan esta plantilla.</value>
+    <comment>Phrase: Click to view which sites use this template.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ScriptsAndStylesControlsSectionTitle">
+    <value>Scripts y Estilos</value>
+    <comment>Control title: Scripts and Styles</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="FeedEmbedControlDescription">
+    <value>Enlace a una fuente (RSS, Twitter, personalizado)</value>
+    <comment>Control description: A link to a published feed.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ParentTemplateCommandName">
+    <value>Plantilla base</value>
+    <comment>The name of Parent Template command.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="PutThisPageDots">
+    <value>Poner esta página ...</value>
+    <comment>phrase: Put this page...</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ActionsLinkText">
+    <value>Acciones</value>
+    <comment>The text of the Actions link in the page browser grid.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="DashboardGroupPageTitle">
+    <value>Cuadro de mando</value>
+    <comment>The title of the new dashboards group page</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="BackendTemplatesTitle">
+    <value>Plantillas del área administrativa</value>
+    <comment>The title of the BackendTemplates page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="OnlineResourcesHtmlTitle">
+    <value>Recursos en la Red Sitefinity</value>
+    <comment>The HTML title of the Online Resources page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+  <data name="ContentBlocksDescription">
+    <value>Representa una página de destino para el módulo  Bloques de Contenido de Sitefinity.</value>
+    <comment>The description of the Content Blocks module landing page.</comment>
+    <lastModified>2025-11-25T20:22:18</lastModified>
+  </data>
+</root>

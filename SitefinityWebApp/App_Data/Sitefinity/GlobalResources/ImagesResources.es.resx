@@ -1,0 +1,1000 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ImagesSingleTypeName">
+    <value>Imagen</value>
+    <comment>Images single type name</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AlwaysResizeToThisSizeByDefault">
+    <value>Siempre cambiar el tamaño a este tamaño por defecto</value>
+    <comment>The 'Always resize to this size by default' label.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Albums">
+    <value>Bibliotecas de Imágenes</value>
+    <comment>phrase: Image Libraries</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UnpublishImages">
+    <value>Dejar de publicar imágenes</value>
+    <comment>Unpublish images.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CommentsForImages">
+    <value>Comentarios para imágenes</value>
+    <comment>phrase: Comments for images</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UploadOriginalImages">
+    <value>No cambiar el tamaño, siempre cargar imágenes sin modificar tamaño</value>
+    <comment>The text of the option for uploading original image.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResizeNotReady">
+    <value>&lt;span class='sfNotReadYet'&gt;Opción de cambio tamaño &lt;em class='sfNote'&gt;(en proceso de implementación) &lt;/em&gt;&lt;/span&gt;</value>
+    <comment>Phrase: Resizing option (in process of implementation).</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Alignment">
+    <value>Alineación</value>
+    <comment>phrase: Alignment</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ViewOriginalSize">
+    <value>Ver en tamaño original</value>
+    <comment>The text of the 'View in original size' button.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ImageWasNotSelectedOrHasBeenDeleted">
+    <value>No se ha seleccionado una imagen o ha sido borrada. Por favor, seleccione otra.</value>
+    <comment>phrase: An image was not selected or has been deleted. Please select another one.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UploadNewImages">
+    <value>Cargar nuevas imágenes ...</value>
+    <comment>phrase: Upload new images...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Thumbnail">
+    <value>100 px de ancho</value>
+    <comment>The thumbnail option in the dropdown for selecting size.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SelectImageGalleryType">
+    <value>Seleccione tipo de galería de imágenes</value>
+    <comment>phrase: Select image gallery type</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ShowMoreAlbums">
+    <value>{0} más bibliotecas de imágenes</value>
+    <comment>phrase: {0} more image libraries</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UploadedOn">
+    <value>Cargado el</value>
+    <comment>phrase: Uploaded on</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MergeAlbums">
+    <value>Combinar bibliotecas de imágenes</value>
+    <comment>The text of the 'Merge image libraries' button.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateAndGoBackToAllImages">
+    <value>Crear y volver a todas las imágenes</value>
+    <comment>phrase: Create and go back to all images.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ChangeAlbum">
+    <value>Cambiar</value>
+    <comment>Change image library</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FilterImages">
+    <value>Filtrar imágenes</value>
+    <comment>The 'Filter images' label in the sidebar.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ImagesDataFields">
+    <value>Campos de datos de imágenes</value>
+    <comment>phrase: Images data fields</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CloseDateFilter">
+    <value>Cerrar fechas</value>
+    <comment>The link for closing the date filter widget in the sidebar.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FromSelectedAlbum">
+    <value>De la biblioteca de imágenes seleccionada…</value>
+    <comment>phrase: From selected image library...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="WhatDoYouWantToDoNow">
+    <value>¿Qué quieres hacer ahora?</value>
+    <comment>The title of the decision screen when there are no images.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EnableCaching">
+    <value>Habilitar el &lt;strong&gt;Almacenamiento en Caché de Resultados&lt;/strong&gt;...</value>
+    <comment>Phrase: Enable Output Caching...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MaxAlbumSize">
+    <value>Tamaño máximo de biblioteca</value>
+    <comment>The title of the field for setting max image library size.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResizeImagesOnUpload">
+    <value>¿Desea cambiar el tamaño de las imágenes durante la carga en esta biblioteca?</value>
+    <comment>The title of the field which provides options for resizing images on upload.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Title">
+    <value>Título</value>
+    <comment>word: Title</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LinkOrEmbed">
+    <value>Vincular o embeber</value>
+    <comment>phrase: Link or embed</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Sort">
+    <value>Ordenar</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UploadImage">
+    <value>Subir imagen' en el Backend</value>
+    <comment>The title of the dialog for upload an image.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ClickToAddAlternativeText">
+    <value>Haga clic para añadir texto alternativo</value>
+    <comment>The expand text for the alternative text field.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AlbumDescription">
+    <value>La descripción de esta biblioteca de imágenes.</value>
+    <comment>The description of the Description field in the image library form.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NewModifiedFirst">
+    <value>Situar encima lo último modificado</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PublishImages">
+    <value>Publicar imágenes</value>
+    <comment>Publish images.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LibraryCreatedFirst">
+    <value>Situar encima lo último creado</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PagesWhereImagesArePublished">
+    <value>Páginas donde se publican las Imágenes</value>
+    <comment>Pages where Images are published</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UseDefaultSettingsForClientCaching">
+    <value>Utilizar la configuración predeterminada para el Almacenamiento en Caché de Cliente</value>
+    <comment>Phrase: Use default settings for client Caching</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ChooseAlbum">
+    <value>Elegir Biblioteca de Imágenes</value>
+    <comment>phrase: Choose Image Library</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateAndGoToUploadImages">
+    <value>Crear e ir a cargar imágenes</value>
+    <comment>phrase: Create and go to upload images.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SaveChanges">
+    <value>Guardar cambios</value>
+    <comment>The label for saving changes.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Custom">
+    <value>Personalizado ...</value>
+    <comment>phrase: Custom...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EditImageGallerySettings">
+    <value>Editar opciones de Galería de imágenes</value>
+    <comment>phrase: Edit Image gallery settings</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SelectAnImage">
+    <value>Seleccione una imagen</value>
+    <comment>word: Select an image</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SetPermissions">
+    <value>Establecer permisos</value>
+    <comment>The text of the 'Set permissions' link in the action menu.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MasterImages">
+    <value>Borrador de imágenes</value>
+    <comment>The link for displaying draft images in the sidebar.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ImagesByCategory">
+    <value>Imágenes por categoría</value>
+    <comment>phrase: Images by category</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FilterImagesInThisAlbum">
+    <value>Filtrar imágenes en esta biblioteca</value>
+    <comment>The 'Filter images in this library' label in the sidebar.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ManageImages">
+    <value>Administrar imágenes</value>
+    <comment>Manage Images</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateAndAddAnotherAlbum">
+    <value>Crear y agregar otra biblioteca de imágenes</value>
+    <comment>The text of the button for creating and adding another image library.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FileName">
+    <value>Nombre de archivo</value>
+    <comment>phrase: File name</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CacheDuration">
+    <value>Duración de caché &lt;span class='sfNote'&gt;(en segundos)&lt;/span&gt;</value>
+    <comment>Phrase: Cache duration (in seconds)</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MyImages">
+    <value>Mis imágenes</value>
+    <comment>The link for displaying my images in the sidebar.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ServerCaching">
+    <value>Almacenamiento en caché del servidor</value>
+    <comment>phrase: Server caching</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NoItemsExist">
+    <value>Todavía no se han subido imágenes</value>
+    <comment>The text of the message that user is presented with on the decision screen.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PermissionsForImages">
+    <value>Permisos para todas las imágenes</value>
+    <comment>The title of the permissions dialog.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ThumbnailNotReady">
+    <value>&lt;span class='sfNotReadYet'&gt;Opciones de Miniatura &lt;em class='sfNote'&gt;(en proceso de implementación) &lt;/em&gt;&lt;/span&gt;</value>
+    <comment>Phrase: Thumbnail settings (in process of implementation).</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PreviewImage">
+    <value>Vista previa de imagen</value>
+    <comment>Phrase: Preview image</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Album">
+    <value>biblioteca</value>
+    <comment>phrase: Image Library</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AsForWholeSite">
+    <value>Según lo configurado para todo el sitio</value>
+    <comment>phrase: As set for the whole site</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Previous">
+    <value>Anterior</value>
+    <comment>word</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EditAlbum">
+    <value>Editar una biblioteca de imágenes</value>
+    <comment>The label for editing an image library.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExpiresOn">
+    <value>Expira el:</value>
+    <comment>Phrase: Expires on:</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CacheMaxSize">
+    <value>Límite máximo de artículo en caché &lt;span class='sfNote'&gt;(en KB)&lt;/span&gt;</value>
+    <comment>Phrase: Cache item max limit  (in KB)</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ChangePhoto">
+    <value>Cambiar foto</value>
+    <comment>phrase: Change photo</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ReplaceImage">
+    <value>Reemplazar imagen</value>
+    <comment>The text of the 'Replace Image' button.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ReorderImages">
+    <value>&lt;em&gt;Reordenar &lt;/em&gt;imágenes</value>
+    <comment>phrase: Reorder images</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SlidingExpiration">
+    <value>Caducidad variable</value>
+    <comment>Phrase: Sliding expiration</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Author">
+    <value>Autor</value>
+    <comment>The 'Author' label.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="VisualAppearanceAndSearchEngines">
+    <value>aspecto visual y motores de búsqueda</value>
+    <comment>phrase: visual appearance and search engines</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ImagesByAlbum">
+    <value>Imágenes por Biblioteca</value>
+    <comment>phrase: Images by Library</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EditImage">
+    <value>Editar imagen</value>
+    <comment>The title of the dialog for editing images.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UploadImagesButton">
+    <value>cargar imágenes</value>
+    <comment>The text of the upload button in grid toolbar.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AlbumName">
+    <value>Nombre de la Biblioteca de Imágenes</value>
+    <comment>The 'Image Library name' label.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AlbumNameCannotBeEmpty">
+    <value>nombre de la biblioteca no puede estar vacío</value>
+    <comment>The message shown when the image library name is empty.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ImagesResourcesTitlePlural">
+    <value>Imágenes</value>
+    <comment>The title of this class in plural.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FromAlreadyUploadedImages">
+    <value>Desde elemento ya cargado</value>
+    <comment>phrase: From already uploaded</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PublicationDateCannotBeEmpty">
+    <value>Fecha de publicación no puede estar vacía</value>
+    <comment>Publication Date cannot be empty.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AlbumsPluralTypeName">
+    <value>Bibliotecas de Imágenes</value>
+    <comment>Image Libraries plural type name</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ImagePluralItemName">
+    <value>Imágenes</value>
+    <comment>phrase: images</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ClientCacheDuration">
+    <value>Duración de Caché de Cliente &lt;span class='sfNote'&gt;(en segundos)&lt;/span&gt;</value>
+    <comment>Phrase: Client Cache duration (in seconds)</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="RequiredField">
+    <value>Este campo es obligatorio</value>
+    <comment>phrase: This field is required</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateImage">
+    <value>Crear imagen</value>
+    <comment>The title of the dialog for creating images.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AllPublishedImages">
+    <value>Todas las imágenes publicadas</value>
+    <comment>phrase: All published images</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ImagesResourcesDescription">
+    <value>Contiene recursos localizables para la interfaz de usuario de las Imágenes.</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateAlbum">
+    <value>Crear una biblioteca</value>
+    <comment>The label for creating an image library.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExtraLarge">
+    <value>Extra-grande: 1024 px de ancho</value>
+    <comment>The extra-large option in the dropdown for selecting size.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeletePhoto">
+    <value>Eliminar foto</value>
+    <comment>phrase: Delete photo</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UploadImages">
+    <value>&lt;strong&gt;Subir imágenes&lt;/strong&gt; en esta biblioteca</value>
+    <comment>Phrase: Upload images in this library</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ByTitleDesc">
+    <value>por Título (Z-A)</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ByHierarchy">
+    <value>por Jerarquía</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="BulkEditImageProperties">
+    <value>Editar en masa las propiedades de la imagen</value>
+    <comment>Bulk edit image properties</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ChooseSize1">
+    <value>1. Seleccione el tamaño</value>
+    <comment>The '1. Choose size' label.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EmbedThisImage">
+    <value>Embeber esta imagen</value>
+    <comment>The text of the main action in the grid.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="BrowserCaching">
+    <value>Almacenamiento en caché del navegador</value>
+    <comment>phrase: Browser caching</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SelectAnAlbum">
+    <value>-- Seleccionar una biblioteca de imágenes --</value>
+    <comment>phrase: -- select an image library --</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Dimensions">
+    <value>Dimensiones:</value>
+    <comment>The 'Dimensions:' label.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AlphabeticallyAsc">
+    <value>Alfabeticamente (A-Z)</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ImagesResourcesTitle">
+    <value>Imágenes</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AlbumNameExample">
+    <value>Ejemplo: Vacaciones de verano</value>
+    <comment>The example how to fill image library name field.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Description">
+    <value>Descripción</value>
+    <comment>The 'Description' label.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AlternativeText">
+    <value>Texto alternativo</value>
+    <comment>The 'Alternative text' label.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SortByTemplate">
+    <value>por plantilla</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="BackToItems">
+    <value>Volver a imágenes</value>
+    <comment>The back to all items button</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="BackToImages">
+    <value>Volver a imágenes</value>
+    <comment>Text of the link that will show the view that lists all images.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ImagesByTag">
+    <value>Imágenes por etiquetas</value>
+    <comment>phrase: Images by tag</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CustomizeEmbeddedImage">
+    <value>Personalizar imagen incrustada</value>
+    <comment>The 'Customize embedded image' label.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EnableClientCaching">
+    <value>Habilitar el &lt;strong&gt;Almacenamiento en Caché de Cliente&lt;/strong&gt;...</value>
+    <comment>Phrase: Enable Client Caching...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FilterImagesBy">
+    <value>Filtrar imágenes&lt;br/&gt;&lt;span class='sfNote'&gt;por estado, etiqueta, categoría, etc.&lt;/span&gt;</value>
+    <comment>The 'Filter images' label in the sidebar.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PublishedImages">
+    <value>Publicado</value>
+    <comment>The link for displaying published images in the sidebar.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MoveToAnotherAlbum">
+    <value>&lt;strong&gt;Mover&lt;/strong&gt; a otra biblioteca de imágenes</value>
+    <comment>The text of the button for moving to another image library in the action menu.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Status">
+    <value>Estado</value>
+    <comment>The 'Status' label.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ImagesByLibrary">
+    <value>Imágenes según biblioteca</value>
+    <comment>Images by library</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ImageDescription">
+    <value>La descripción de esta imagen.</value>
+    <comment>The description of the Description field in the image form.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AlbumCategoriesTags">
+    <value>Biblioteca de imágenes / Categorías / Etiquetas</value>
+    <comment>The header of 'Image Library / Categories / Tags' column in the grid.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DefaultImageSize">
+    <value>Tamaño de imagen predeterminado</value>
+    <comment>The title of the 'Default image size' section.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Medium">
+    <value>500 px de ancho</value>
+    <comment>The medium option in the dropdown for selecting size.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AllImages">
+    <value>Todas las imágenes</value>
+    <comment>The link for displaying all images in the sidebar.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UseDefaultSettingsForCaching">
+    <value>Utilizar la configuración predeterminada para el Almacenamiento en Caché de Resultados</value>
+    <comment>Phrase: Use default settings for Caching</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Large">
+    <value>800 px de ancho</value>
+    <comment>The large option in the dropdown for selecting size.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Next">
+    <value>Siguiente</value>
+    <comment>word</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EmbedPasteInHtml2">
+    <value>2. Insertar (pegar en HTML)</value>
+    <comment>The '2. Embed (paste in HTML)' label.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="BackToAllAlbums">
+    <value>Regresar a todas las bibliotecas de imágenes</value>
+    <comment>Text of the link that will show the view that lists all image libraries.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ImageRevisionHistory">
+    <value>Historial de revisiones</value>
+    <comment>Phrase: Revision history</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FromAlreadyUploaded">
+    <value>De las imágenes ya subidas</value>
+    <comment>phrase: From already uploaded images</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ShowLessAlbums">
+    <value>{0} menos bibliotecas de imágenes</value>
+    <comment>phrase: {0} less image libraries</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Images">
+    <value>Imágenes</value>
+    <comment>word: Images</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CreateThisAlbum">
+    <value>Crear y regresar</value>
+    <comment>The text of the button for creating an image library.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AlphabeticallyDesc">
+    <value>Alfabeticamente (Z-A)</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DontChangePhoto">
+    <value>No cambiar foto</value>
+    <comment>phrase: Don't change photo</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ManageAlso">
+    <value>Gestionar también</value>
+    <comment>phrase: Manage also</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SaveImageAs">
+    <value>Guardar la imagen como...</value>
+    <comment>The label for saving an edited image under a different name.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ImageSize">
+    <value>Tamaño de la imagen</value>
+    <comment>phrase: Image size</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ManageAlbums">
+    <value>Administrar Bibliotecas de Imágenes</value>
+    <comment>The text of 'Manage Image Libraries' link.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ReviewHistory">
+    <value>Historial de revisiones</value>
+    <comment>Used in the actions menu in the Backend Detail View form</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PublishOn">
+    <value>Publicado el:</value>
+    <comment>Phrase: Publish on:</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Size">
+    <value>Tamaño:</value>
+    <comment>The 'Size:' label.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LibraryModifiedFirst">
+    <value>Situar encima lo último modificado</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UploadImagesLabel">
+    <value>cargar imágenes</value>
+    <comment>phrase: Upload images</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MaxImageSize">
+    <value>Tamaño máximo de imagen</value>
+    <comment>The title of the field for setting max image size.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CustomSize">
+    <value>De tamaño personalizado ...</value>
+    <comment>The custom size option in the dropdown for selecting size.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AsManuallyOrdered">
+    <value>Según el orden manual</value>
+    <comment>Label text</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ByTitleAsc">
+    <value>por Título (A-Z)</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResizeImages">
+    <value>Cambiar el tamaño de las imágenes para que no sean más anchas que ...</value>
+    <comment>The text of the option for resizing image.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LinkPasteInEmailOrIm">
+    <value>Enlace &lt;span class='sfNote'&gt;(pegar en el correo electrónico o IM) &lt;/span&gt;</value>
+    <comment>The 'Link (paste in email or IM)' label.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AlbumLabel">
+    <value>&lt;em&gt;Bibliotecas: &lt;/em&gt;</value>
+    <comment>The 'Library' label in the grid column.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Height">
+    <value>Altura:</value>
+    <comment>The 'Height:' label.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NewUploadedFirst">
+    <value>Los últimos subidos en la parte superior</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ScheduledImages">
+    <value>Programado</value>
+    <comment>The link for displaying scheduled images in the sidebar.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ByStatus">
+    <value>por estado</value>
+    <comment>Label text.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FileSize">
+    <value>Tamaño del archivo</value>
+    <comment>phrase: File size</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SettingsForImages">
+    <value>Opciones para imágenes</value>
+    <comment>The 'Settings for images' label in the sidebar.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Width">
+    <value>Ancho:</value>
+    <comment>The 'Width:' label.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ImageSingularItemName">
+    <value>Imagen</value>
+    <comment>phrase: image</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeleteThisItem">
+    <value>Eliminar</value>
+    <comment>Used in the actions menu in the Backend Detail View form</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SetImagesToDisplay">
+    <value>Establecer qué imágenes mostrar</value>
+    <comment>phrase: Set which images to display</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CustomSorting">
+    <value>Ordenación personalizada ...</value>
+    <comment>Phrase: Custom sorting...</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="BackToItem">
+    <value>Volver a la Imagen</value>
+    <comment>The back to item details button</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Uploaded">
+    <value>Cargado</value>
+    <comment>word: Uploaded</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AlbumsSingleTypeName">
+    <value>Biblioteca de imágenes</value>
+    <comment>Image Library single type name</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ImagesByDate">
+    <value>Mostrar imágenes modificadas el...</value>
+    <comment>phrase: Images By Date</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MyImagesUrlName">
+    <value>mis-imágenes</value>
+    <comment>The url of the default image library</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LearnMoreWithVideoTutorials">
+    <value>Más información con tutoriales en video</value>
+    <comment>Label for the external links used in images</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ChangeAlbumInSpan">
+    <value>&lt;span class='sfLinkBtnIn'&gt;Cambiar de biblioteca&lt;/span&gt;</value>
+    <comment>Change image library</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Small">
+    <value>240 px de ancho</value>
+    <comment>The small option in the dropdown for selecting size.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TitleStatus">
+    <value>Título/Estado</value>
+    <comment>The header of 'Title / Status' column in the grid.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EmbedPasteInHtml">
+    <value>Insertar &lt;span class='sfNote'&gt;(pegar en HTML) &lt;/span&gt;</value>
+    <comment>The 'Embed (paste in HTML)' label.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EditImageInBackendLabel">
+    <value>Editar imagen</value>
+    <comment>phrase: Edit image</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="WhichImagesToDisplay">
+    <value>¿Qué imágenes desea mostrar?</value>
+    <comment>phrase: Which images to display?</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ModuleTitle">
+    <value>Imágenes</value>
+    <comment>The title of the Images module.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SortImages">
+    <value>Ordenar imágenes</value>
+    <comment>phrase: Sort images </comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SelectSize">
+    <value>- Selecciona el tamaño -</value>
+    <comment>The default option in the dropdown for selecting size.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LastUploaded">
+    <value>Subido por última vez</value>
+    <comment>'Last uploaded on' label in the image libraries grid.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ImageWithArticle">
+    <value>una imagen</value>
+    <comment>word: an image</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Image">
+    <value>Imagen</value>
+    <comment>word: Image</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CommonAlbum">
+    <value>Biblioteca de imágenes comunes</value>
+    <comment>phrase: Common image library</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ImagesPluralTypeName">
+    <value>Imágenes</value>
+    <comment>Images plural type name</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+</root>

@@ -1,0 +1,2295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FileSystem">
+    <value>Sistema de archivos</value>
+    <comment>phrase: File System</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="WhereToStoreTheUploadedItem">
+    <value>¿Dónde guardar los {0} Cargados?</value>
+    <comment>label</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ChangeDocument">
+    <value>Cambiar documento</value>
+    <comment>Label: Change document</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UploadFileLimitReachedSingular">
+    <value>Por favor, seleccione únicamente 1 archivo.</value>
+    <comment>Text shown when the user is trying to upload more than one file (when replacing)</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ParentLibrary">
+    <value>Biblioteca padre</value>
+    <comment>phrase: Parent library</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AnImagePerPage">
+    <value>Una imagen por página</value>
+    <comment>Phrase: An image per page</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SelectedParentLib">
+    <value>Biblioteca padre seleccionada...</value>
+    <comment>phrase: Selected parent library...</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LibraryVideosUrlName">
+    <value>Biblioteca de vídeos</value>
+    <comment>Videos page for selected library.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ReorderItems">
+    <value>&lt;em&gt;Reordenar &lt;/em&gt;</value>
+    <comment>phrase: Reorder {0}</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RegenereateThumbnailsConfirm">
+    <value>Sí, regenerar todas las miniaturas</value>
+    <comment>phrase: Yes, regenerate all thumbnails</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MultipleThumbnailsDeletedWarning">
+    <value>{0} y {1} ya no están seleccionados y estas miniaturas serán eliminadas de esta biblioteca.</value>
+    <comment>phrase: {0} and {1} are no longer selected and these thumbnails will be deleted from this library.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AddAProvider">
+    <value>Agregar un proveedor</value>
+    <comment>phrase: Add a provider</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FromYourComputer">
+    <value>Desde tu ordenador</value>
+    <comment>phrase: From your computer</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SelectAFile">
+    <value>Seleccionar un archivo</value>
+    <comment>Select a file</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BlobStorageProviderIsUsedMessage">
+    <value>El proveedor {0} ya está siendo utilizado en una biblioteca de medios y no se pueden borrar.</value>
+    <comment>Warning for users that  blob storage provider is used so it cannot be deleted/disabled</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AccountName">
+    <value>Nombre de la cuenta</value>
+    <comment>phrase: Account name. Used in Blob storage provider basic settings Azure storage</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DragAndDropBeforeDragging">
+    <value>&lt;span class='sfNoFilesLbl'&gt;&lt;span class='sfDragAndDropLbl'&gt;&lt;i&gt;Arrastrar y Soltar {0} aquí&lt;/i&gt;&lt;br/&gt;or&lt;/span&gt; &lt;b&gt;Seleccionar {0}&lt;/b&gt;&lt;/span&gt;&lt;span class='sfFilesSelectedLbl'&gt;Añadir más {0}&lt;/span&gt;</value>
+    <comment>Text shown in the Html5 Upload prompt before dragging files</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MaxHeight">
+    <value>Altura máxima</value>
+    <comment>phrase: Max Height</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Width">
+    <value>Ancho</value>
+    <comment>word: Width</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SelectAnotherLibrary">
+    <value>El {0} seleccionado fue movido o eliminado. Por favor, seleccione otro {1}.</value>
+    <comment>phrase: The selected {0} was moved or deleted. Please select another {1}.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EditVideoThumbnailProfile">
+    <value>Editar el tamaño de miniatura de un video ({0})</value>
+    <comment>phrase: Edit a video thumbnail size ({0})</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DocumentsMasterTableViewFriendlyName">
+    <value>Documentos - Tabla</value>
+    <comment>phrase: Documents - table</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ImagesViewDescription">
+    <value>Imágenes de una biblioteca, mostradas en diversas formas</value>
+    <comment>The description of the ImagesView control, that appears on the controls toolbox.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="InvalidProfileName">
+    <value>Formato no válido para el nombre del desarrollador.</value>
+    <comment>phrase: Invalid format for developer name.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ValueMustBeInteger">
+    <value>El valor debe ser un número entero entre 1 y 9999, inclusive.</value>
+    <comment>prase: Field must have an integer value.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ModuleTitle">
+    <value>BIBLIOTECAS</value>
+    <comment>The title of the Libraries module.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContainerNameExplaination">
+    <value>El nombre del contenedor debe ser un nombre DNS válido, conforme a las siguientes reglas de nomenclaturas: &lt;ol&gt;&lt;li&gt;Los nombres de los contenedores &lt;li&gt; deben comenzar con una letra o número, y solo pueden contener letras, números y el caracter del guión (-)&lt;/li&gt;&lt;li&gt;Cada caracter del guión (-) debe ser precedido y seguido inmediatamente por una letra o número; no se aceptan guiones consecutivos en los nombres de los contenedores&lt;/li&gt;&lt;li&gt;Todas las letras del nombre de contenido deben aparecer en minúsculas&lt;/li&gt;&lt;li&gt;Los nombres de los contenedores deben tener entre 3 y 63 caracteres.&lt;/li&gt;&lt;/ol&gt;</value>
+    <comment>Exaplainatino message for the 'Container name' field in the Windows Azure blob storage provider basic settings.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ThumbnailProfiles">
+    <value>Miniaturas</value>
+    <comment>phrase: Thumbnails</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EditAllProperties">
+    <value>Editar todas las propiedades</value>
+    <comment>Edit all properties</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TransferLibrary">
+    <value>Mover a otro almacenamiento</value>
+    <comment>Transfer library context menu item in backend library grid action menu</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CropResizeRotate">
+    <value>Recortar/Cambiar de Tamaño/Rotar...</value>
+    <comment>Label: Crop/Resize/Rotate...</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="GalleryDesignerLimitDesc">
+    <value>Mostrar sólo número limitado de temas:</value>
+    <comment>Phrase: Show only limited number of items:</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Database">
+    <value>Base de datos</value>
+    <comment>word: Database</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="InvalidFileSizeAlertMessage">
+    <value>El archivo seleccionado supera el tamaño máximo permitido ({0} kB)</value>
+    <comment> Message displayed on attempt to insert a file with size larger than allowed.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AddMore">
+    <value>Añadir más</value>
+    <comment>phrase: Add more</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UseAnotherFile">
+    <value>Utilizar otro archivo para esta traducción</value>
+    <comment>Label: Use another file for this translation</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DocumentsPageGroupNodeDescription">
+    <value>Este es el grupo de páginas que contiene todas las páginas para el módulo de Documentos y Archivos.</value>
+    <comment>Documents &amp; Files Page Group Description</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UploadThisItem">
+    <value>Cargar este {0}</value>
+    <comment>phrase: Upload this {0}</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OtherFilterOptions">
+    <value>Otras opciones de filtro</value>
+    <comment>The 'Other filter options' label in the sidebar.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ImagesTitle">
+    <value>Imágenes</value>
+    <comment>Title of the Images page.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="WhereToStoreUploadedItems">
+    <value>¿Dónde guardar los {0} Cargados?</value>
+    <comment>phrase: Where to store the uploaded {0}?</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CategoriesAndTags">
+    <value>Categorías y etiquetas</value>
+    <comment>The title of the 'Categories and Tags' section.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LibrariesResourcesTitle">
+    <value>biblioteca</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DocumentsMasterListViewFriendlyName">
+    <value>Documentos - lista</value>
+    <comment>phrase: Documents - list</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ThumbnailProfilesWarning">
+    <value>Por favor, tenga en cuenta que esta operación puede tomar algún tiempo (hasta unas cuantas horas). Eliminar las imágenes miniatura puede afectar las páginas públicas que las están usando.</value>
+    <comment>phrase: Please note that this operation may take some time (up to few hours). Deleting of the thumbnails may affect the public pages which are using them.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SelectImageLibrary">
+    <value>Seleccionar biblioteca de imágenes</value>
+    <comment>phrase: Select image library</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RootLibrarySettings">
+    <value>Configuración de biblioteca raíz</value>
+    <comment>The title of the Root library settings section in the library details dialog.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CreateThisLibrary">
+    <value>Crear este {0}</value>
+    <comment>The text of 'Create this library', specific to each library type</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ImagesCountFormat">
+    <value>&lt;b&gt;{0}&lt;/b&gt; imágenes</value>
+    <comment>A phrase representing a count of images. Should be formatted with one argument.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OriginalFile">
+    <value>Archivo original:</value>
+    <comment>The 'Original file:' label.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EditProperties">
+    <value>Modificar las propiedades</value>
+    <comment>The text of the 'Edit Properties' link in the action menu.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShowRecent">
+    <value>Reciente {0}</value>
+    <comment>phrase: Recent {0}</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RelocationWarning">
+    <value>Tenga en cuenta que esta operación puede tardar algún tiempo (hasta unas pocas horas). &lt;br /&gt; La transferencia de los artículos en la biblioteca no afectará las páginas públicas que las están usando, pero durante este proceso no podrá editar ni eliminar estos elementos.</value>
+    <comment>Relocation warning label in move to another storage and change url screen</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ImagesDetailSimpleViewFriendlyName">
+    <value>Imágenes - una a una</value>
+    <comment>phrase: Images - single</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ImageAdvancedSection">
+    <value>Avanzado &lt;em class='sfNote'&gt;(URL, Comentarios, Proveedor de almacenamiento)&lt;/em&gt;</value>
+    <comment>The title of the 'Advanced' section in the Backend Detail View form.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PublicationDateCannotBeEmpty">
+    <value>Fecha de publicación no puede estar vacía</value>
+    <comment>Publication Date cannot be empty.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DragAndDropWhileDragging">
+    <value>Arrastrar {0} aquí para cargar</value>
+    <comment>Text shown in the Html5 Upload prompt</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MaxDocumentSize">
+    <value>Tamaño máximo de documentos/archivo</value>
+    <comment>The title of the field for setting max document size.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AllVideos">
+    <value>Todos los vídeos</value>
+    <comment>All videos</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UploadAnother">
+    <value>o subir otro archivo para esta traducción</value>
+    <comment>Label: or upload another file for this translation</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="YesRegenerate">
+    <value>Sí, Regenerar</value>
+    <comment>phrase: Yes, Regenerate</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Libraries">
+    <value>BIBLIOTECAS</value>
+    <comment>phrase: Libraries</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TextLinks">
+    <value>Enlaces de texto</value>
+    <comment>Phrase: Text Links</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="VideosMasterThumbnailViewFriendlyName">
+    <value>Videos - lista</value>
+    <comment>phrase: Videos - list</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LinkOrEmbed">
+    <value>Vincular o embeber</value>
+    <comment>Link or embed</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContainerNameIsRequired">
+    <value>Es necesario un nombre válido para el contenedor</value>
+    <comment>phrase: Valid container name is required. Used in Blob storage provider basic settings Azure storage</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FilterByDate">
+    <value>Por fecha…</value>
+    <comment>The 'by Date...' label in the sidebar.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ResizeWithFitToSideImageProcessorMethod">
+    <value>Redimensionar al lado</value>
+    <comment>The title of the ImageProcessor.Resize method with FitToSideArguments</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="InsertItem">
+    <value>Inserte el {0}</value>
+    <comment>Insert the {0}</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ThereIsProblemWithTheSettings">
+    <value>Hay un problema con la configuración: {0}</value>
+    <comment>phrase: There is a problem with the settings: {0}</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Regenerate">
+    <value>Regenerar</value>
+    <comment>word: Regenerate.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EditImageThumbnailProfile">
+    <value>Editar el tamaño de miniatura de una imagen ({0})</value>
+    <comment>phrase: Edit an image thumbnail size ({0})</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LessLibraries">
+    <value>Menos Bibliotecas</value>
+    <comment>phrase: Less Libraries</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DeleteLibrary">
+    <value>&lt;em&gt;Eliminar &lt;/em&gt;este {0}</value>
+    <comment>Phrase: Delete this {0}</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BackToItems">
+    <value>Volver a Bibliotecas</value>
+    <comment>The back to all libraries button</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ImagesSize">
+    <value>Tamaño de imágenes</value>
+    <comment>Phrase: Size of images</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Height">
+    <value>altura</value>
+    <comment>word: Height</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AlbumsHtmlTitle">
+    <value>BIBLIOTECAS</value>
+    <comment>Html Title of the Image Libraries page.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AppliedTo">
+    <value>Aplicado a</value>
+    <comment>phrase: Applied to</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShowMoreLibraries">
+    <value>Mostrar 10 bibliotecas más</value>
+    <comment>The 'Show 10 more libraries' link.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ProviderName">
+    <value>Nombre del proveedor</value>
+    <comment>phrase: Provider name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ImagesMasterThumbnailSimpleViewFriendlyName">
+    <value>Imágenes - Lista sencilla</value>
+    <comment>phrase: Images - simple list</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DocumentsDetailViewFriendlyName">
+    <value>Documentos - Uno a uno</value>
+    <comment>phrase: Documents - single</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UnableToEditItemBecauseOfLibraryUrlChangeTask">
+    <value>Usted no tiene permiso para editar este artículo ya que la biblioteca a la que pertenece está en proceso de cambiar de URL. Inténtelo de nuevo en un rato.</value>
+    <comment>Message displayed on the client on attempt to edit media content, while the library is in process of changing URL.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ViewOriginalImage">
+    <value>Ver imagen original</value>
+    <comment>Label: View original image</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CustomFields">
+    <value>Campos personalizados</value>
+    <comment>The link that navigates to the dialog for managing custom fields in the sidebar.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UseHttps">
+    <value>Utilzar SSL para gestión de almacenamiento</value>
+    <comment>phrase: Use SSL for storage management. Used in Blob storage provider basic settings Azure storage</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AllDocuments">
+    <value>Todos los documentos</value>
+    <comment>All documents</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NoLibrarySelected">
+    <value>Ninguna biblioteca seleccionada</value>
+    <comment>Word: No library selected</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UploadDocument">
+    <value>cargar documento</value>
+    <comment>UploadDocument</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ImagesPageGroupNodeDescription">
+    <value>Este es el grupo de páginas que contiene todas las páginas para el módulo de imágenes.</value>
+    <comment>Images Page Group Description</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LibraryDocumentsDescription">
+    <value>Descripción de Biblioteca de Documentos</value>
+    <comment>Description of the LibraryDocuments page</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ImagesUrlName">
+    <value>Imágenes</value>
+    <comment>Images page URL.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NoVideoLibrariesWarningMessage">
+    <value>El video no se puede insertar porque no hay bibliotecas. Por favor, póngase en contacto con el administrador para obtener más detalles.</value>
+    <comment>Message displayed on the client on attempt to insert a video, while there are no library providers configured for the current site.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ImageFiles">
+    <value>Archivos de imagen</value>
+    <comment>ImageFiles.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EmbedImage">
+    <value>Incrustar</value>
+    <comment>The text of the command for generating embed image html.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ViewAllItems">
+    <value>Ver todos los elementos</value>
+    <comment>phrase: View all items</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FileSize">
+    <value>Archivo/Tamaño</value>
+    <comment>The header of 'File / Size' column in the grid.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UploadDone">
+    <value>Carga finalizada</value>
+    <comment>phrase:  Upload done</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="VideosDescription">
+    <value>Descripción de Videos</value>
+    <comment>Description of the Videos page</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DocumentsPageGroupNodeUrl">
+    <value>Documentos</value>
+    <comment>Url of the documents page group.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SelectLibraryCommon">
+    <value>Seleccionar {0} biblioteca</value>
+    <comment>phrase: Select {0} library</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ChangeImage">
+    <value>Cambiar imagen</value>
+    <comment>Label: Change image</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LibraryDocumentsUrlName">
+    <value>Biblioteca de Documentos</value>
+    <comment>Documents page for selected library.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Example">
+    <value>Ejemplo:</value>
+    <comment>phrase: Example</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ChangeParentLibrary">
+    <value>Cambiar biblioteca padre</value>
+    <comment>Change parent library</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SingleThumbnailDeletedWarning">
+    <value>{0} ya no está seleccionado y estas miniaturas serán eliminadas de esta biblioteca.</value>
+    <comment>phrase: {0} is no longer selected and these thumbnails will be deleted from this library.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NoDocumentLibrariesWarningMessage">
+    <value>El documento no se puede insertar porque no hay bibliotecas. Por favor, póngase en contacto con el administrador para obtener más detalles.</value>
+    <comment>Message displayed on the client on attempt to insert a document, while there are no library providers configured for the current site.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LibraryDocumentsHtmlTitle">
+    <value>Biblioteca de Documentos</value>
+    <comment>Html Title of the LibraryDocuments page.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SelectItems">
+    <value>Seleccione {0}</value>
+    <comment>phrase: Select {0}</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OnlyOneItemCanBeUploadedAtATime">
+    <value>Sólo un {0} se pueden cargar a la vez.</value>
+    <comment>phrase:  Multiple {0} can be uploaded at a time</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Publish">
+    <value>Publicar</value>
+    <comment>Label of the publish action.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ThumbnailProfileNameExample">
+    <value>&lt;strong&gt;Example:&lt;/strong&gt; Miniatura</value>
+    <comment>phrase: Thumbnail</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DocumentsAndFiles">
+    <value>Documentos y archivos</value>
+    <comment>Phrase: Documents &amp; Files</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ResizeWithFitToSideSizeFormat">
+    <value>Redimensionar a {Size}</value>
+    <comment>Fit to side {Size}x{Size}</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FileDimSize">
+    <value>Archivo/Dim. /Tamaño</value>
+    <comment>The header of 'File / Dim. / Size' column in the grid.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LibrariesTitle">
+    <value>BIBLIOTECAS</value>
+    <comment>Title of the Libraries page.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ChooseFromAlreadyUploaded">
+    <value>Utilizar archivo de los ya subidos para otras traducciones...</value>
+    <comment>Label: Use file from already uploaded for other translations...</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Move">
+    <value>Mover</value>
+    <comment>The text of the Move button.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ThumbnailSize">
+    <value>Tamaño de las miniaturas (opcional)</value>
+    <comment>Phrase: Size of thumbnails (optional)</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="GenerateThumbnails">
+    <value>Generar miniaturas con tamaños seleccionados...</value>
+    <comment>phrase: Generate thumbnails with selected sizes...</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MoveLibraryWarning">
+    <value>&lt;p&gt;&lt;strong&gt;Está a punto de mover esta biblioteca a biblioteca &lt;i&gt;{0}&lt;/i&gt;.&lt;/strong&gt;&lt;br/&gt;&lt;br/&gt;Esto puede tomar mucho tiempo y todas las URL se cambiarán.&lt;br/&gt;&lt;br/&gt;¿Está seguro de que desea continuar?&lt;/p&gt;</value>
+    <comment>phrase: &lt;p&gt;&lt;strong&gt;You are about to move this library to library {0}.&lt;/strong&gt;&lt;br/&gt;&lt;br/&gt;This may take a lot of time and all URLs will be changed.&lt;br/&gt;&lt;br/&gt;Are you sure you want to proceed?&lt;/p&gt;</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="WaitingForPublishing">
+    <value>En espera de publicación</value>
+    <comment>The text of the 'Awaiting Publishing' button in the sidebar.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="InsertAItem">
+    <value>Inserte {0}</value>
+    <comment>phrase: Insert {0}</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="VideosViewTitle">
+    <value>Galería de vídeos</value>
+    <comment>The title of the VideosView control, that appears on the controls toolbox.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RegenerateThumbnailsInLibraryMessage">
+    <value>Se generarán las miniaturas en la biblioteca.</value>
+    <comment>phrase: The thumbnails in the library will be regenerated.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PublishOn">
+    <value>Publicado el:</value>
+    <comment>Phrase: Publish on:</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SelectedByDefault">
+    <value>Seleccionado de manera predeterminada</value>
+    <comment>phrase: Selected by default.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BulkEditDialogTitle">
+    <value>Editar en lotes</value>
+    <comment>Phrase: Bulk edit</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AccountNameIsRequired">
+    <value>Es necesario el nombre de la cuenta</value>
+    <comment>phrase: Account name is required. Used in Blob storage provider basic settings Azure storage</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DocumentsUrlName">
+    <value>Documentos</value>
+    <comment>Documents page URL.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RegeneratingThumbnails">
+    <value>Regeneración de miniaturas</value>
+    <comment>phrase: Regenerating thumbnails</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MultipleItemsHaveBeenSuccessfullyUploaded">
+    <value>{0} {1}(s) se ha(n) cargado con éxito</value>
+    <comment>phrase:  {0} {1}s have been successfully uploaded</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="WhichItemToUpload">
+    <value>Que {0} se debe cargar?</value>
+    <comment>label</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ResizeBiggerSide">
+    <value>Cambiar tamaño de mayor dimensión de acuerdo al lado</value>
+    <comment>The title of the ResizeBiggerSide property of the ImageProcessor.Resize method with FitToSideArguments</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LibraryImagesHtmlTitle">
+    <value>Biblioteca de Imágenes</value>
+    <comment>Html Title of the LibraryImages page.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BlobStorageAzureTypeDescription">
+    <value>Almacena los datos de blob de los elementos de la biblioteca en el almacenamiento de blob de Windows Azure.</value>
+    <comment>phrase: Stores the blob data of library items in Windows Azure Blob storage.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CannotDeleteSettings">
+    <value>No puede eliminar esta configuración.</value>
+    <comment>phrase: You cannot delete these settings.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="History">
+    <value>Historial</value>
+    <comment>word: History</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LibraryDocumentsTitle">
+    <value>Biblioteca de Documentos</value>
+    <comment>Title of the Libraries at Documents page.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OpenTheFile">
+    <value>Abrir el archivo</value>
+    <comment>Label: Open the file</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ThumbnailSizes">
+    <value>Tamaños de miniaturas</value>
+    <comment>phrase: Thumbnail sizes</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SelectALibrary">
+    <value>Seleccionar una biblioteca</value>
+    <comment>phrase: Select a library</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AllItems">
+    <value>Todas las {0}</value>
+    <comment>All {0}</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MediaFileUrlName">
+    <value>URL a archivo</value>
+    <comment>The title of the media file url field.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="WaitingForApproval">
+    <value>En espera de aprobación</value>
+    <comment>The text of the 'Awaiting approval' button in the sidebar.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CreateNewLibrary">
+    <value>Crear un nuevo {0}</value>
+    <comment>label</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ImageControlPropertyEditorTitle">
+    <value>Seleccione una imagen</value>
+    <comment>Phrase: Select an image</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EditThumbnailListTemplate">
+    <value>Editar plantilla de lista de miniaturas</value>
+    <comment>Phrase: Edit Thumbnail list template</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LibraryVideosDescription">
+    <value>Descripción de la biblioteca de vídeos</value>
+    <comment>Description of the LibraryVideos page</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Choose">
+    <value>Elegir</value>
+    <comment>Word: Choose</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FolderIsRequired">
+    <value>Carpeta es un campo obligatorio</value>
+    <comment>phrase: Folder is a required field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AccountKeyOrSAS">
+    <value>Clave de la cuenta o firma de acceso compartido (SAS)</value>
+    <comment>phrase: 'Account key or shared access signature (SAS)'; Used in Blob storage provider basic settings Azure storage</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MaxAlbumSize">
+    <value>Tamaño máximo de disco</value>
+    <comment>The title of the field for setting max album size.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SelectFromAlreadyUploaded">
+    <value>Seleccionar {0} desde ya cargado</value>
+    <comment>phrase: Select {0} from already uploaded</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DocumentItemName">
+    <value>documento</value>
+    <comment>The title of the document item name.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AlbumsTitle">
+    <value>BIBLIOTECAS</value>
+    <comment>Title of the Image Libraries page.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DoNotGenerateThumbnails">
+    <value>No generar miniaturas</value>
+    <comment>phrase: Do not generate thumbnails</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LibraryVideosHtmlTitle">
+    <value>Biblioteca de vídeos</value>
+    <comment>Html Title of the LibraryVideos page.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SetPermissions">
+    <value>Establecer permisos</value>
+    <comment>The text of the 'Set permissions' link in the action menu.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ResizeWithFitToAreaSizeFormat">
+    <value>Ajustar a área {MaxWidth}x{MaxHeight}</value>
+    <comment>Fit to area {MaxWidth}x{MaxHeight}</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ReplaceFile">
+    <value>Reemplazar el archivo</value>
+    <comment>Label: Replace the file</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ImagesMasterThumbnailStripViewFriendlyName">
+    <value>Imágenes - franja</value>
+    <comment>phrase: Images - strip</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ImagesPageGroupNodeTitle">
+    <value>Imágenes</value>
+    <comment>Title of the images page group.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ThumbnailsInfo">
+    <value>Las miniaturas son copias de la imagen original generada de acuerdo a ajustes predefinidos. Estos se pueden aplicar a bibliotecas de imágenes.</value>
+    <comment>Information for what the thumbnails are.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ThumbnailRegenerationWarning">
+    <value>Tenga en cuenta que esta operación puede tomar algún tiempo (hasta varias horas). La regeneración de las miniaturas en la biblioteca no afectará las páginas públicas que las utilizan, pero durante este proceso no podrá editar ni eliminar estas miniaturas.</value>
+    <comment>Phrase: Please note that this operation may take some time (up to few hours). Regenerating of the thumbnails in the library will not affect the public pages which are using them, but during this process you will not be able to edit or delete these thumbnails.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="GalleryDesignerNoLimitAndPagingDesc">
+    <value>Mostrar todos los elementos publicados a la vez</value>
+    <comment>Phrase: Show all published items at once</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ImageGalleryPropertyEditorTitle">
+    <value>Galería de imágenes</value>
+    <comment>Word: Image Gallery</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EditImage">
+    <value>Editar imagen</value>
+    <comment>Edit image</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SelectDocument">
+    <value>Seleccionar documento</value>
+    <comment>phrase: Select document</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RelocateLibrary">
+    <value>Cambiar URL de la biblioteca</value>
+    <comment>Change library Url context menu item in backend library grid action menu</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ThumbnailSettings">
+    <value>Configuración de miniaturas</value>
+    <comment>phrase: Thumbnail settings</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CropToAreaImageProcessorMethod">
+    <value>Recortar al área</value>
+    <comment>The title of the ImageProcessor.Crop method with FitToAreaArguments</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ImageItemName">
+    <value>Imagen</value>
+    <comment>The title of the image item name.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Details">
+    <value>Detalles &lt;em class='sfNote'&gt;(Autor, Descripción)&lt;/em&gt;</value>
+    <comment>The title of the 'Details' section.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="YouHaveUnuploadedItemsWantToInterruptUploading">
+    <value>Al salir de esta página usted abandonará la carga y algunos elementos pueden aparecer dañados.</value>
+    <comment>phrase: By leaving this page you will abandon the upload and some items may appear corrupted.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UploadImage">
+    <value>Cargar imagen</value>
+    <comment>UploadImage</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DefaultStorageProvider">
+    <value>{0} (predeterminado)</value>
+    <comment>phrase: {0} (default)</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AutoLabel">
+    <value>Automático</value>
+    <comment>Word: Auto</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CustomLabel">
+    <value>personalizado</value>
+    <comment>Word: Custom</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DocumentsTitle">
+    <value>Documentos y archivos</value>
+    <comment>Title of the Documents &amp; Files page.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ByAuthor">
+    <value>por autor ...</value>
+    <comment>The link for filtering by author in the sidebar.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DocumentsHtmlTitle">
+    <value>Documentos</value>
+    <comment>Html Title of the Documents &amp; Files page.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DeleteThisLibrary">
+    <value>Eliminar esta biblioteca</value>
+    <comment>The text of the delete button.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ResizeWithFitToAreaImageProcessorMethod">
+    <value>Redimensionar al área</value>
+    <comment>The title of the ImageProcessor.Resize method with FitToAreaArguments</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="VideoFiles">
+    <value>Archivos de vídeo</value>
+    <comment>VideoFiles.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ReorderItemsInLibrary">
+    <value>Reordenar {0} en &lt;em&gt;{{0}} &lt;/em&gt;{1}</value>
+    <comment>phrase: Reorder {0} in &lt;em&gt;{{0}}&lt;/em&gt; {1}</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AddDetails">
+    <value>Agregar detalles al {0} cargado</value>
+    <comment>phrase: Add details to the uploaded {0}</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UploadedOwner">
+    <value>Cargado/Propietario</value>
+    <comment>The header of 'Uploaded / Owner' column in the grid.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NarrowByTypingTitle">
+    <value>Filtrar escribiendo el título</value>
+    <comment>Phrase: Narrow by typing title</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RegenerateThumbnail">
+    <value>Regenerar esta miniatura</value>
+    <comment>Regenerate this thumbnail</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NoLibrariesWereCreated">
+    <value>Ningún {0} se creó</value>
+    <comment>phrase: No {0} were created</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ImagesMasterThumbnailLightboxViewFriendlyName">
+    <value>Imágenes - LightBox</value>
+    <comment>phrase: Images - lightbox</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AdvancedSection">
+    <value>Avanzado &lt;em class='sfNote'&gt;(Caché, Restricciones, URL, Proveedor de almacenamiento)&lt;/em&gt;</value>
+    <comment>The title of the 'Advanced' section in the Backend Detail View form.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="YouAreNotAllowedToViewThisLibraryItem">
+    <value>No está autorizado a ver este elemento de la biblioteca</value>
+    <comment>Phrase: You are not allowed to view this library item</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DeleteAndRegenerate">
+    <value>Eliminar y Regenerar</value>
+    <comment>phrase: Delete &amp; Regenerate</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Thumbnail120px">
+    <value>120 px de ancho</value>
+    <comment>Phrase: 120 px width</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FineTuneTheSelectedType">
+    <value>Ajuste detallado del tipo seleccionado</value>
+    <comment>Phrase: Fine tune the selected type</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ThmbnailUploadedWarning">
+    <value>Esta miniatura fue subida por el usuario y no generada automáticamente.</value>
+    <comment>Regenerate thumbnail warning message.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SetProfileAsDefault">
+    <value>Al crear una biblioteca de imágenes, seleccionar este tamaño de manera predeterminada.</value>
+    <comment>phrase: When creating an image library select this size by default.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SelectImageSize">
+    <value>- Seleccionar tamaño de la imagen -</value>
+    <comment>Phrase: - Select image size -</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ViewAll">
+    <value>Ver todos los {0}</value>
+    <comment>phrase: View all {0}</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Uploading">
+    <value>Cargando</value>
+    <comment>phrase:  Uploading</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ReplaceImage">
+    <value>Reemplazar imagen</value>
+    <comment>Label: Replace image</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EditLibrary">
+    <value>Editar una biblioteca</value>
+    <comment>The text of 'Edit a library' button.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BlobStorageStreamingProviderName">
+    <value>Proveedor de transmisión de datos</value>
+    <comment>phrase: Streaming provider</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AllLibraries">
+    <value>Todas las bibliotecas</value>
+    <comment>phrase: All libraries</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DragAndDropBeforeDraggingEscaped">
+    <value>&amp;lt;span class=&amp;#39;sfNoFilesLbl&amp;#39;&amp;gt;&amp;lt;b&amp;gt;Seleccionar {0} desde su ordenador&amp;lt;/b&amp;gt; &amp;lt;br/&amp;gt;o simplemente arrastrar &amp;amp; soltarlo aquí&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;#39;sfFilesSelectedLbl&amp;#39;&amp;gt;Añadir más {0}&amp;lt;/span&amp;gt;</value>
+    <comment>Text shown in the Html5 Upload prompt before dragging files</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Actions">
+    <value>Acciones</value>
+    <comment>The link representing the actions menu in the grid.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DragToChangeOrder">
+    <value>Arrastrar {0} para cambiar el orden</value>
+    <comment>phrase: Drag {0} to change its order</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ProviderNameAlreadyUsed">
+    <value>El nombre del proveedor '{0} "ya se utiliza.</value>
+    <comment>phrase: Provider name '{0}' already used.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ModuleDescription">
+    <value>Proporciona la interfaz de usuario para la gestión de imágenes, documentos y vídeos.</value>
+    <comment>The description of the Libraries module</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NoLibrariesWarningMessage">
+    <value>El artículo no se puede insertar porque no hay bibliotecas. Por favor, póngase en contacto con el administrador para obtener más detalles.</value>
+    <comment>Message displayed on the client on attempt to insert media content, while there are no library providers configured for the current site.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SitefinityDefaultConnection">
+    <value>(predeterminado)</value>
+    <comment>phrase: '(default)' in edit/add blob storage provider database connection's dropdown</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MoveLibrary">
+    <value>Mover la biblioteca</value>
+    <comment>The title of the done button in the move library dialog</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Categories">
+    <value>&lt;em&gt;Categorías: &lt;/em&gt;</value>
+    <comment>The 'Categories' label in the grid column.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DocumentsListDetailViewFriendlyName">
+    <value>Documentos - lista detallada</value>
+    <comment>phrase: Documents - list details</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UrlNameInvalidSymbols">
+    <value>La dirección URL contiene símbolos no válidos.</value>
+    <comment>The message shown when the url contains invalid symbols.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AllSizesOf">
+    <value>Todos los tamaños de {0}</value>
+    <comment>All sizes of {0}</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BlobStorageProviderLimitationMessage">
+    <value>Los proveedores de almacenamiento externos pueden ser configurados sólo para bibliotecas de contenido: Imágenes, Videos y Documentos y Archivos</value>
+    <comment>phrase: External storage providers can be configured only for content libraries: Images, Videos and Documents &amp;amp; Files</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LibrariesByStorage">
+    <value>Bibliotecas por almacenamiento</value>
+    <comment>phrase: Libraries by storage</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LibrariesDescription">
+    <value>Descripción de Bibliotecas</value>
+    <comment>Description of the Libraries page</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MaxWidth">
+    <value>Anchura máxima</value>
+    <comment>phrase: Max Width</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MoveToAnotherLibrary">
+    <value>Mover a otra biblioteca</value>
+    <comment>The text of 'Move to another library' menu item.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OneItemHasBeenSuccessfullyUploaded">
+    <value>{0} {1} se ha cargado con éxito</value>
+    <comment>phrase:  {0} {1} has been successfully uploaded</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ManageLibraries">
+    <value>Gestionar bibliotecas</value>
+    <comment>The 'Manage libraries' link in the grid sidebar.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="VideoSize">
+    <value>Tamaño del video</value>
+    <comment>Phrase: Size of the video</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SetAsPrimaryImage">
+    <value>Configurar imagen principal</value>
+    <comment>phrase: Set as primary image</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="WhatIsThis">
+    <value>¿Qué es esto?</value>
+    <comment>phrase: What is this?</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MoreLibraries">
+    <value>Más Bibliotecas</value>
+    <comment>phrase: More Libraries</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Preview">
+    <value>Vista previa</value>
+    <comment>word: Preview</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SelectItem">
+    <value>Seleccione {0}</value>
+    <comment>phrase:  Select {0}</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TitleCannotBeEmpty">
+    <value>El título no puede estar vacío</value>
+    <comment>phrase: Title cannot be empty</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Edit">
+    <value>&lt;strong&gt;Editar ...&lt;/strong&gt;</value>
+    <comment>word</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ChangeVideo">
+    <value>Cambiar video</value>
+    <comment>Label: Change video</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UploadedOn">
+    <value>&lt;em&gt;Cargado el &lt;/em&gt;</value>
+    <comment>The 'Uploaded on' label in the grid column.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Upload">
+    <value>Cargar</value>
+    <comment>The text of the upload button in grid toolbar.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BlobStorageFileSystemDefaultProviderTitle">
+    <value>Sistema de archivos</value>
+    <comment>phrase: File System</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UsePaging">
+    <value>Utilice paginación &lt;span class='sfNote'&gt; (en proceso de implementación) &lt;/span&gt;</value>
+    <comment>Phrase: Use Paging</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EmbeddedLinkOnlyForPublieshedContent">
+    <value>La incrustación sólo funcionará para los artículos publicados</value>
+    <comment>phrase: Embedding will work only for published items</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ImagesHtmlTitle">
+    <value>Imágenes</value>
+    <comment>Html Title of the Images page.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FilterByStorage">
+    <value>por Almacenamiento...</value>
+    <comment>The 'by Storage...' label in the sidebar.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Permissions">
+    <value>Permisos</value>
+    <comment>The link that navigates to permissions dialog in the sidebar.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ImageThumbnails">
+    <value>Miniaturas de Imagen</value>
+    <comment>phrase: Image Thumbnails</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ChangeThumbnailSizesHint">
+    <value>Para cambiar los tamaños de las miniaturas, vaya a Biblioteca  &gt; Acciones &gt; Configuración de miniatura</value>
+    <comment>phrase: To change thumbnail sizes go to Library &gt;Actions &gt;Thumbnails settings</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="StorageProvider">
+    <value>Proveedor de almacenamiento</value>
+    <comment>phrase: Storage provider</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UploadFileLimitReachedPlural">
+    <value>Por favor seleccione {0} archivos o menos</value>
+    <comment>Text shown when the user is trying to upload more files than the maximum limit</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BulkEditUserFiles">
+    <value>Editar archivos de usuario en cantidad</value>
+    <comment>Phrase: Bulk edit user files</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AddImageThumbnailProfile">
+    <value>Añadir un tamaño de miniatura de imagen</value>
+    <comment>phrase: Add an image thumbnail size.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SelectVideo">
+    <value>Seleccionar video</value>
+    <comment>phrase: Select video</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MoveDialogStorageSelectorTitle">
+    <value>Seleccionar el dispositivo de almacenamiento en donde se guardará esta biblioteca</value>
+    <comment>Libraries Move to another storage dialog storage selector title</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PublicHostIsInvalid">
+    <value>Host público no válido.</value>
+    <comment>Validation error message for the 'Public host' field in the Windows Azure blob storage provider basic settings.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LibrariesCountFormat">
+    <value>{0} bibliotecas</value>
+    <comment>A phrase representing a count of libraries. Should be formatted with one argument.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SizeLabel">
+    <value>Tamaño</value>
+    <comment>word: Size</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="VideosPageGroupNodeDescription">
+    <value>Este es el grupo de páginas que contiene todas las páginas para el módulo de vídeos.</value>
+    <comment>Videos Page Group Description</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SettingsFor">
+    <value>Configuración para {0}</value>
+    <comment>phrase: Settings for {0}</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="IsRequired">
+    <value>{0} es un campo obligatorio.</value>
+    <comment>phrase: {0} is a reqiured field.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TypeDestinationFolderPath">
+    <value>Escriba la ruta de la carpeta de destino, algo similar a:&lt;ul&gt;&lt;li&gt;\\fileserver\share&lt;/li&gt;&lt;li&gt;D:\filedirectory&lt;/li&gt;&lt;li&gt;~/App_Data/MyStorage&lt;/li&gt;&lt;/ul&gt;</value>
+    <comment>phrase: Type the destination folder path, something as:&lt;ul&gt;&lt;li&gt;\\fileserver\share&lt;/li&gt;&lt;li&gt;D:\filedirectory&lt;/li&gt;&lt;li&gt;~/App_Data/MyStorage&lt;/li&gt;&lt;/ul&gt;</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ThumbnailsForMultipleLibrariesNeedRegen">
+    <value>Miniatura {0} en {1} bibliotecas será regenerada para reflejar los cambios.</value>
+    <comment>phrase: Thumbnail images in {0} libraries will be regenerated to reflect the changes.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LibrarySelectorSearchBoxTitle">
+    <value>Empiece a escribir nombre {0} ...</value>
+    <comment>The title of the search box in library selector.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContainerNameExample">
+    <value>Si no ha creado un contenedor en Azure, éste se creará automáticamente con el nombre introducido aquí. &lt;strong&gt;Ejemplo:&lt;/strong&gt; &lt;em&gt;Images-container&lt;/em&gt;</value>
+    <comment>phrase: If you do not have created a container in Azure it will be automatically created with the name you entered here. &lt;strong&gt;Example:&lt;/strong&gt; &lt;em&gt;Images-container&lt;/em&gt;. Used in Blob storage provider basic settings Azure storage</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShowPrevAndNextLinks">
+    <value>Mostrar enlaces a imagen anterior y siguiente</value>
+    <comment>Phrase: Show links to the previous and the next image</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ViewAllThumbnailSizes">
+    <value>Ver todos los tamaños</value>
+    <comment>phrase: View all sizes</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="VideosMasterThumbnailLightboxViewFriendlyName">
+    <value>Videos - Lightbox</value>
+    <comment>phrase: Videos - lightbox</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ImagesMasterThumbnailViewFriendlyName">
+    <value>Imágenes - lista</value>
+    <comment>phrase: Images - list</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PublicHost">
+    <value>Host público</value>
+    <comment>Title of the 'Public host' field in the Windows Azure blob storage provider basic settings.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="StorageProvidersForLibraries">
+    <value>Proveedores de almacenamiento</value>
+    <comment>phrase: Storage providers</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LibraryImagesTitle">
+    <value>Biblioteca de Imágenes</value>
+    <comment>Title of the LibraryImages page.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Settings">
+    <value>Opciones</value>
+    <comment>Word: Settings</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PublicHostExample">
+    <value>Su host CDN o su host de dominio personalizado. &lt;strong&gt;Ejemplo:&lt;/strong&gt; &lt;em&gt;www.myhost.com (nombre DNS personalizado), az12345.vo.msecnd.net (URL CDN), https://mystorageaccount.blob.core.windows.net (usar HTTPS)&lt;/em&gt;</value>
+    <comment>Example for the 'Public host' field in the Windows Azure blob storage provider basic settings.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SelectLibrary">
+    <value>- Seleccione una biblioteca -</value>
+    <comment>phrase: -- Select a library --</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NoParentLib">
+    <value>Sin padre (esta biblioteca está en el nivel superior)</value>
+    <comment>phrase: No parent (this library is on top level)</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Html5MediaPlayerControlFriendlyName">
+    <value>Control de Reproductor de Medios</value>
+    <comment>Phrase: Media Player Control</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SelectDatabaseStoreItemsTo">
+    <value>Seleccionar una base de datos en la que desea almacenar artículos</value>
+    <comment>phrase: Select a database you want to store items to</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CantUploadFiles">
+    <value>No se puede cargar {0} archivos. Sólo {1} se pueden cargar.</value>
+    <comment>phrase: You can't upload {0} files. Only {1} can be uploaded</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CreateANewLibrary">
+    <value>Crear una nueva biblioteca</value>
+    <comment>label</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BlobStorageStreamingProviderTitle">
+    <value>Proveedor de transmisión de datos</value>
+    <comment>phrase: Streaming provider</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LibraryVideosTitle">
+    <value>Biblioteca de vídeos</value>
+    <comment>Title of the Libraries at Videos page.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="VideosViewDescription">
+    <value>Videos de una biblioteca</value>
+    <comment>The description of the ImagesView control, that appears on the controls toolbox.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AllItems1">
+    <value>Todos los elementos</value>
+    <comment>All items</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DocumentsDescription">
+    <value>Administrar documentos</value>
+    <comment>Description of the Documents page</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BlobStorageFileSystemTypeDescription">
+    <value>Almacena los datos de blob de los elementos de la biblioteca en el sistema de archivos.</value>
+    <comment>phrase: Stores the blob data of library items in the file system.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AccountKeyOrSASExample">
+    <value>Utilice un token para firma de acceso compartido (SAS). &lt;strong&gt;Ejemplo:&lt;/strong&gt; &lt;em&gt;?sr=c&amp;si=myPolicyName&amp;sig=[signature]&lt;/em&gt;</value>
+    <comment>phrase: For shared access signature (SAS) use a token. &lt;strong&gt;Example:&lt;/strong&gt; &lt;em&gt;?sr=c&amp;si=myPolicyName&amp;sig=[signature]&lt;/em&gt;</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MovingLibrary">
+    <value>Moviendo biblioteca &lt;em&gt;{0}&lt;/em&gt; a &lt;em&gt;{1}&lt;/em&gt;</value>
+    <comment>The description of the move library task.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MoveTo">
+    <value>Mover a…</value>
+    <comment>Redirects to the 'Move To Library' dialog</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AlbumsDescription">
+    <value>Administrar Bibliotecas de Imágenes</value>
+    <comment>Description of the Image Libraries page</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Cancel">
+    <value>Cancelar</value>
+    <comment>The text of the cancel button.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CustomSize">
+    <value>De tamaño personalizado ...</value>
+    <comment>The custom size option in the dropdown for selecting size.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SettingsAreValid">
+    <value>La configuración es válida.</value>
+    <comment>phrase: Settings are valid.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="WhichItemNameToUpload">
+    <value>Que {0} se debe cargar?</value>
+    <comment>phrase:  Which {0} to upload?</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LibrariesLowerCase">
+    <value>BIBLIOTECAS</value>
+    <comment>libraries</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ResizeImageCaption">
+    <value>Redimensionar imagen</value>
+    <comment>phrase: Resize image</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ThumbnailProfileNameTitle">
+    <value>Para los desarrolladores: nombre que se utiliza en el código</value>
+    <comment>phrase: For developers: name used in code</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LibraryActions">
+    <value>Acciones de biblioteca</value>
+    <comment>Phrase: Library actions</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ThumbnailMediaContentSupport">
+    <value>La regeneración de miniaturas solo es soportada para Imágenes y Videos.</value>
+    <comment>phrase: Thumbnail regeneration is supported only for Images and Videos.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LibraryNameText">
+    <value>{0} nombre</value>
+    <comment>Label for the field control where a name for the new library needs to be given.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Tags">
+    <value>Etiquetas &lt;em&gt;: &lt;/em&gt;</value>
+    <comment>The 'Tags' label in the grid column.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Author">
+    <value>Autor</value>
+    <comment>The 'Author' label.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Status">
+    <value>Estado</value>
+    <comment>The 'Status' label.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UseLocalDevelopmentStorage">
+    <value>Utilizar almacenamiento de desarrollo local</value>
+    <comment>phrase: Use local development storage. Used in Blob storage provider basic settings Azure storage</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="WhichItemsToUpload">
+    <value>Que {0} se debe cargar?</value>
+    <comment>phrase: Which {0} to upload?</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LibrariesByDate">
+    <value>Mostrar bibliotecas modificadas en...</value>
+    <comment>phrase: Display libraries modified in...</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="GeneratorHasNoMethods">
+    <value>El generador de miniaturas no tiene métodos.</value>
+    <comment>phrase: Thumbnail generator has no methods.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SampleBlobUrl">
+    <value>Ejemplo de la URL de un blob:</value>
+    <comment>phrase: Sample blob url:. Used in Blob storage provider basic settings Azure storage</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="VideoGalleryPropertyEditorTitle">
+    <value>Galería de vídeos</value>
+    <comment>Word: Video Gallery</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OriginalSize">
+    <value>Tamaño original</value>
+    <comment>Phrase: Original size</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ProviderType">
+    <value>Tipo de proveedor</value>
+    <comment>phrase: Provider type</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="IncludesItemsFromChildLibraries">
+    <value>(incluye artículos de las bibliotecas hijas)</value>
+    <comment>Label that indicates that a selected library will also include its child library items.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RandomEachTime">
+    <value>Aleatorio (diferente cada vez)</value>
+    <comment>Phrase: Random (different each time)</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MultpleThumbnailsAddedWarning">
+    <value>{0} y {1} se añadieron y las miniaturas existentes serán regeneradas para reflejar los cambios.</value>
+    <comment>phrase: {0} and {1} are added and the existing thumbnails will be regenerated to reflect the cnanges.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Dimensions">
+    <value>Dimensiones:</value>
+    <comment>The 'Dimensions:' label.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FilterLibraries">
+    <value>Filtrar bibliotecas</value>
+    <comment>phrase: Filter libraries</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="VideosDetailViewFriendlyName">
+    <value>Videos - uno a uno</value>
+    <comment>phrase: Videos - single</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NotAuthorizedToViewMediaItem">
+    <value>Usted no está autorizado para ver este elemento de medios</value>
+    <comment>Error message displayed when returning 403 if an image cannot be displayed</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="InvalidMethodName">
+    <value>El método seleccionado para el perfil {0} no existe.</value>
+    <comment>phrase: The selected method {0} does not exist.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CreateLibrary">
+    <value>Crear una biblioteca</value>
+    <comment>The text of 'Create a library' button.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="GalleryDesignerPagingDesc">
+    <value>Dividir la lista de miniaturas en páginas de</value>
+    <comment>Phrase: Divide the thumbnail list on pages up to</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MethodParameterErrorMessage">
+    <value>{0} debe ser un valor entre 1 y 9999, inclusive.</value>
+    <comment>phrase: {0} must be a value between 1 and 9999 inclusive.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShowMy">
+    <value>Mi {0}</value>
+    <comment>phrase: My {0}</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="StatusControlTitle">
+    <value>Estado de la carga {0}</value>
+    <comment>The title of the status control in upload dialog.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="GetCurrentFrame">
+    <value>Obtener el marco que se visualiza actualmente</value>
+    <comment>Phrase: Get the currently displayed frame</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NoImageLibrariesWarningMessage">
+    <value>La imagen no se puede insertar porque no hay bibliotecas. Por favor, póngase en contacto con el administrador para obtener más detalles.</value>
+    <comment>Message displayed on the client on attempt to insert an image, while there are no library providers configured for the current site.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ThumbnailStripPlusImage">
+    <value>Franja de miniaturas + Imagen en la misma página</value>
+    <comment>Phrase: Thumbnail strip + Image on the same page</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MaxVideoSize">
+    <value>Tamaño máximo de vídeo</value>
+    <comment>The title of the field for setting max video size.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BlobStorageDatabaseDefaultProviderTitle">
+    <value>Base de datos</value>
+    <comment>phrase: Database</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RegenerateThumbnails">
+    <value>Regenerar miniaturas</value>
+    <comment>phrase: Regenerate thumbnails.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AccountKeyOrSASIsRequired">
+    <value>Se requiere ya sea una clave de cuenta o una firma de acceso compartido (SAS).</value>
+    <comment>phrase: 'Either an account key or a shared access signature (SAS) is required.'; Used in Blob storage provider basic settings Azure storage</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BlobStorageFileSystemDefaultProviderDescription">
+    <value>Almacena los datos de blob de los elementos de la biblioteca en la carpeta App_Data.</value>
+    <comment>phrase: Stores the blob data of library items in the App_Data folder.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FitToAreaErrorMessage">
+    <value>Debe definir al menos un lado de la imagen (ancho o alto)</value>
+    <comment>phrase: You should define at least one image side (width or height)</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Uploadvideo">
+    <value>Cargar vídeo</value>
+    <comment>UploadVideo</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BlobStorageDatabaseDefaultProviderDescription">
+    <value>Almacena los datos de blob de los elementos de la biblioteca en la base de datos predeterminada.</value>
+    <comment>phrase: Stores the blob data of library items in the default database.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SetAsCoverMenuItemTitle">
+    <value>Configurar como cubierta de biblioteca</value>
+    <comment>Set as library cover menu item title</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Library">
+    <value>biblioteca</value>
+    <comment>The 'Library' string.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ByDate">
+    <value>Por fecha…</value>
+    <comment>The link for filtering by date in the sidebar.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DocumentsCountFormat">
+    <value>&lt;b&gt;{0}&lt;/b&gt; documentos</value>
+    <comment>A phrase representing a count of documents. Should be formatted with one argument.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CloseStorageFilter">
+    <value>Cerrar almacenamientos</value>
+    <comment>The link for closing the storage filter widget in the sidebar.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LibrariesResourcesDescription">
+    <value>Contiene recursos localizables para la interfaz de usuario de Bibliotecas.</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RegenerateThumbnailsInLibraryTitle">
+    <value>Regenerar miniaturas</value>
+    <comment>Regenerate thumbnails</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CannotDeleteSettingsInfo">
+    <value>No puede eliminar este ajuste ya que se aplica a {0} bibliotecas. Primero debe eliminarlo de estas bibliotecas.</value>
+    <comment>phrase: You cannot delete this set because it is applied to {0} libraries. You need to remove it from these libraries first.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="YouHaveUnsavedChangesWantToLeavePage">
+    <value>"¿Está seguro de que desea salir de esta página? Tienes cambios sin guardar. Pulse Aceptar para continuar, o Cancelar para permanecer en la página actual. "</value>
+    <comment>phrase: You have unsaved changes! Do you want to leave this page?</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MaxLibrarySize">
+    <value>Tamaño máximo de biblioteca</value>
+    <comment>The title of the field for setting max library size.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ThumbnailsNeedRegeneration">
+    <value>Se necesitan regenerar las miniaturas para esta biblioteca.</value>
+    <comment>phrase: The thumbnails for this library need to be regenerated.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DeleteThisItem">
+    <value>Eliminar</value>
+    <comment>Used in the actions menu in the Backend Detail View form</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ThumbnailsOfPrevAndNextImage">
+    <value>Miniaturas de la imagen anterior y siguiente</value>
+    <comment>Phrase: Thumbnails of previous and next image</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MoveLibraryDialogTitle">
+    <value>Mover una biblioteca a otro almacenamiento</value>
+    <comment>The title of the move to another storage dialog</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MoveToRootLibraryWarning">
+    <value>&lt;p&gt;&lt;strong&gt;Está a punto de mover esta biblioteca al nivel superior.&lt;/strong&gt;&lt;br/&gt;&lt;br/&gt;Esto puede tomar mucho tiempo y todos los URLs se cambiarán.&lt;br/&gt;&lt;br/&gt;¿Está seguro(a) de que desea continuar?&lt;/p&gt;</value>
+    <comment>phrase: &lt;p&gt;&lt;strong&gt;You are about to move this library on top level.&lt;/strong&gt;&lt;br/&gt;&lt;br/&gt;This may take a lot of time and all URLs will be changed.&lt;br/&gt;&lt;br/&gt;Are you sure you want to proceed?&lt;/p&gt;</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TestSettings">
+    <value>Probar configuración</value>
+    <comment>phrase: Test settings</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Thumbnail">
+    <value>Miniatura</value>
+    <comment>word: Thumbnail</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShowAll">
+    <value>Todas las {0}</value>
+    <comment>phrase: All {0}</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AddStorageProvider">
+    <value>Agregar proveedor de almacenamiento</value>
+    <comment>phrase: Add storage provider</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AnotherTaskRunning">
+    <value>Hay otra tarea ejecutándose para esta biblioteca.</value>
+    <comment>phrase: There is another task running for this library.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ThumbnailProfileExists">
+    <value>Ya existe un tamaño de miniatura con el mismo nombre.</value>
+    <comment>phrase: A profile with the same name already exists.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LibrarySelectorTitle">
+    <value>Seleccione {0} donde mover {1} {2}</value>
+    <comment>The title of the library selector.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UnpublishedMediaItemMessage">
+    <value>La publicación de {0} ha sido anulada</value>
+    <comment>Phrase: The media item has been unpublished</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ViewOriginalSize">
+    <value>Ver tamaño original</value>
+    <comment>The text of the 'View original size' link in the action menu.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SetLibraryPermissions">
+    <value>&lt;em&gt;Establecer permisos &lt;/em&gt;para este {0}</value>
+    <comment>Phrase: Set permissions of this {0}</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Big800px">
+    <value>Grande: 800 px de ancho</value>
+    <comment>Phrase: Big: 800 px width</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ThumbnailsPlusDetailPage">
+    <value>Miniaturas + Página de Detalle</value>
+    <comment>Phrase: Thumbnails + Detail page</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ThumbnailProfileTitleExample">
+    <value>&lt;strong&gt;Ejemplo: &lt;/strong&gt;Miniatura 120x120</value>
+    <comment>phrase: Thumbnail 120x120</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LibraryImagesDescription">
+    <value>Administrar imágenes</value>
+    <comment>Description of the LibraryImages page</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SingleThumbnailAddedWarning">
+    <value>{0} se añadió y las miniaturas existentes serán regeneradas para reflejar los cambios.</value>
+    <comment>phrase: {0} is added and the existing thumbnails will be regenerated to reflect the cnanges.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Size">
+    <value>Tamaño:</value>
+    <comment>The 'Size:' label.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ClickToAddDescription">
+    <value>Haga clic para añadir una descripción</value>
+    <comment>The expand text for the description field.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ImagesViewTitle">
+    <value>Galería de imágenes</value>
+    <comment>The title of the ImagesView control, that appears on the controls toolbox.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MoreActions">
+    <value>Más acciones</value>
+    <comment>The text of the more action menu in grid toolbar.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AsOrderedInLibrary">
+    <value>Según como se ordenan en la biblioteca</value>
+    <comment>Phrase: As they are ordered in library</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MyLibraries">
+    <value>Mis bibliotecas</value>
+    <comment>phrase: My libraries</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContainerName">
+    <value>Nombre de su contenedor Azure</value>
+    <comment>phrase: Name of your Azure container. Used in Blob storage provider basic settings Azure storage</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Unpublish">
+    <value>QuitarDePublicacion</value>
+    <comment>word: Unpublish</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RegeneratingThumbnailsFailed">
+    <value>Regeneración de miniaturas fallida</value>
+    <comment>phrase: Regenerating thumbnails failed</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="StoredIn">
+    <value>Almacenado en</value>
+    <comment>Label preceding the blob storage location of a library</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MaxImageSize">
+    <value>Tamaño máximo de imagen</value>
+    <comment>The title of the field for setting max image size.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LibrariesResourcesTitlePlural">
+    <value>BIBLIOTECAS</value>
+    <comment>The title plural of this class.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UrlNameCannotBeEmpty">
+    <value>La URL no puede estar vacía</value>
+    <comment>The message shown when the url is empty.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="StorageProviders">
+    <value>Proveedores de almacenamiento</value>
+    <comment>phrase: Storage providers</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ImagesDescription">
+    <value>Descripción de Imágenes</value>
+    <comment>Description of the Images page</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ReplaceThumbnail">
+    <value>Reemplazar miniatura</value>
+    <comment>Replace thumbnail</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SelectedLibraryWasDeleted">
+    <value>{0} seleccionado se ha eliminado</value>
+    <comment>phrase: Selected {0} was deleted</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MultipleItemsCanBeUploadedAtATime">
+    <value>Varios {0} se pueden cargar a la vez.</value>
+    <comment>phrase:  Multiple {0} can be uploaded at a time</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LibraryNameExample">
+    <value>Ejemplo: Vacaciones de verano</value>
+    <comment>An example for the field control where a name for the new library has to be given.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DocumentsTableDetailViewFriendlyName">
+    <value>Documentos - detalles de la tabla</value>
+    <comment>phrase: Documents - table details</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LibrariesUrlName">
+    <value>BIBLIOTECAS</value>
+    <comment>Libraries page URL.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="By">
+    <value>Por</value>
+    <comment>The 'by' label in the grid column.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BlobStorageStreamingProviderDescription">
+    <value>Usa la Streaming API de Transmisión de acceso abierto para subir blobs a la base de datos</value>
+    <comment>phrase: Uses the Open Access Streaming API to upload blobs to the database.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EditDetailPageTemplate">
+    <value>Editar plantilla de página de Detalle</value>
+    <comment>Phrase: Edit Detail page template</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Language">
+    <value>Idioma</value>
+    <comment>word: Language</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LibraryImagesUrlName">
+    <value>Biblioteca de Imágenes</value>
+    <comment>LibraryImages page URL.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BulkEditDocuments">
+    <value>Editar documentos en cantidad</value>
+    <comment>Phrase: Bulk edit documents</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FromAlreadyUploadedItems">
+    <value>Desde elemento ya cargado</value>
+    <comment>phrase: From already uploaded {0}</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ClickingTheResizedItemOpensTheOriginal">
+    <value>Haciendo clic en el {0} cambiado de tamaño abre la {1} en su tamaño original</value>
+    <comment>phrase:  Clicking the resized {0} opens the {1} in its original size</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NoLimitAndPaging">
+    <value>Sin límite y con paginación</value>
+    <comment>Phrase: No limit and paging</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BigImageSize">
+    <value>Tamaño de la imagen grande</value>
+    <comment>Phrase: Size of the image</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Small240px">
+    <value>240 px de ancho</value>
+    <comment>Phrase: 240 px width</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Scalable">
+    <value>Escalable</value>
+    <comment>Image size is scalable.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ExpiresOn">
+    <value>Expira el:</value>
+    <comment>Phrase: Expires on:</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UploadOther">
+    <value>Cargar más {0}</value>
+    <comment>phrase: Upload more {0}</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EditLibraryProperties">
+    <value>&lt;em&gt;Editar propiedades &lt;/em&gt;para este {0}</value>
+    <comment>Phrase: Edit Properties of this {0}</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="YouMustSelectLibraryNameInWhichToUploadItemName">
+    <value>Debe seleccionar el {0} en el que el {1} debe ser almacenado.</value>
+    <comment>phrase:  You must select the {0} in which the {1} ought to be uploaded.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="YesDeleteThumbnails">
+    <value>Sí, eliminar estas miniaturas</value>
+    <comment>phrase: Yes, delete these thumbnails</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SelectImage">
+    <value>Seleccionar imagen</value>
+    <comment>phrase: Select image</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ThisOperationCanTakeConsiderableAmountOfTime">
+    <value>La mudanza de imágenes/videos/documentos puede tardar un poco. Usted no podrá continuar con su trabajo hasta que finalice el proceso.</value>
+    <comment>warning message: Moving items may take a while. You will not be able to continue with your work until the process finishes</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="InvalidMethodParametersString">
+    <value>Cadena de parámetros de método no válida.</value>
+    <comment>phrase: Invalid method parameters string.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ShowPrevAndNextLinksAs">
+    <value>Mostrar enlaces a imagen anterior y siguiente como…</value>
+    <comment>Phrase: Show links to the previous and the next image as...</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ReviewHistory">
+    <value>Historial de revisiones</value>
+    <comment>Used in the actions menu in the Backend Detail View form</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ScaleUp">
+    <value>Cambiar tamaño de imágenes más pequeñas a mayores dimensiones</value>
+    <comment>The title of the ScaleUp property of the ImageProcessor.Resize method</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MultipleItemsCanBeSelectedAtOnce">
+    <value>Varios {0} se puede seleccionar a la vez.</value>
+    <comment>phrase: Multiple {0} can be selected at once.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AlbumsUrlName">
+    <value>Álbumes</value>
+    <comment>Albums page URL.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AspectRatio">
+    <value>Relación de aspecto</value>
+    <comment>Phrase: Aspect ratio</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CropToAreaSizeFormat">
+    <value>Recortar a {Width}x{Height}</value>
+    <comment>Crop to {Width}x{Height}</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Title">
+    <value>Título</value>
+    <comment>The 'Title' label.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MoreTranslations">
+    <value>más traducciones están utilizando este archivo y cualquier cambio se aplicará también a ellas</value>
+    <comment>Label: more translations are using this file and any changes will be applied to them too</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ChangeLibraryUrlWarning">
+    <value>Cambiar la dirección URL romperá todos los enlaces que apuntan a esta biblioteca y sus elementos. Esta acción puede tardar mucho tiempo y tener un costo adicional para los almacenamientos en la nube.</value>
+    <comment>Relocation warning label in move to another storage and change url screen</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Download">
+    <value>Descargar</value>
+    <comment>The text of the 'Download' button.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LibrariesHtmlTitle">
+    <value>BIBLIOTECAS</value>
+    <comment>Html Title of the Libraries page.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UnableToEditItemBecauseOfLibraryStorageChangeTask">
+    <value>Usted no tiene permiso para editar este artículo ya que la biblioteca a la que pertenece está en proceso de mudarse a otro almacenamiento. Inténtelo de nuevo en un rato.</value>
+    <comment>Message displayed on the client on attempt to edit media content, while the library is in process of moving to another storage.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AsOrderedInAlbum">
+    <value>Según como se ordenan en la biblioteca de imágenes</value>
+    <comment>Phrase: As they are ordered in image library</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DocumentsPageGroupNodeTitle">
+    <value>Documentos y archivos</value>
+    <comment>Title of the documents page group.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LibraryNotSelected">
+    <value>Debe seleccionar la biblioteca en la que se deben subir los archivos.</value>
+    <comment>phrase: You must select the library in which the files ought to be uploaded.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AllowedExtensionsErrorMessage">
+    <value>Por favor, seleccione únicamente los archivos con las siguientes extensiones: {0}</value>
+    <comment>Error message shown in the HTML5 Upload dialog when the user selects a file with a not allowed extension</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Folder">
+    <value>Carpeta</value>
+    <comment>phrase: Folder</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BlobStorageDatabaseTypeDescription">
+    <value>Almacena los datos de blob de los elementos de la biblioteca en una base de datos, utilizando OpenAccess ORM.</value>
+    <comment>phrase: Stores the blob data of library items in a database, using OpenAccess ORM.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Medium500px">
+    <value>Medio: 500 px de ancho</value>
+    <comment>Phrase: Medium: 500 px width</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NoAlbumSelected">
+    <value>Ninguna biblioteca de imágenes seleccionada</value>
+    <comment>Word: No image library selected</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BulkEdit">
+    <value>&lt;strong&gt;Edición masiva &lt;/strong&gt;títulos, categorías, etiquetas</value>
+    <comment>The text of the bulk edit button in the action menu.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SaveChanges">
+    <value>Guardar cambios</value>
+    <comment>Saves the edited item changes</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UseLimit">
+    <value>Limite de uso</value>
+    <comment>Phrase: Use limit</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SelectType">
+    <value>Seleccione tipo</value>
+    <comment>phrase: Select type</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ViewOriginal">
+    <value>Ver original</value>
+    <comment>The text of the 'View original' link in the action menu.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ThumbnailsOfImages">
+    <value>Miniaturas de imágenes originales</value>
+    <comment>phrase: Thumbnails of original images</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ProviderNameCannotBeEmpty">
+    <value>El nombre del proveedor no puede estar vacío.</value>
+    <comment>phrase: Provider name cannot be empty.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AccountNameIsInvalid">
+    <value>Nombre de cuenta no válido. El nombre de almacenamiento debe tener entre 3 y 24 caracteres de longitud y utilizar unicamente minúsculas y números.</value>
+    <comment>Validation error message for the 'Account name' field in the Windows Azure blob storage provider basic settings.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="Delete">
+    <value>Eliminar</value>
+    <comment>The text of the delete button.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SimpleList">
+    <value>Lista simple</value>
+    <comment>Phrase: Simple list</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LibraryLabel">
+    <value>&lt;em&gt;Bibliotecas: &lt;/em&gt;</value>
+    <comment>The 'Library:' string.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ThumbnailsPlusOverlay">
+    <value>Miniaturas + Overlay (LightBox)</value>
+    <comment>Phrase: Thumbnails + Overlay (lightbox)</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+</root>

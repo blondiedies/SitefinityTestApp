@@ -61,6 +61,15 @@ namespace SitefinityWebApp.App_GlobalResources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to This information is not currently available. Sorry!.
+        /// </summary>
+        public static string DisabledModule {
+            get {
+                return ResourceManager.GetString("DisabledModule", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to FLOP.
         /// </summary>
         public static string FailureMessage {

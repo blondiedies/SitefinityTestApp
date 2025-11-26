@@ -132,4 +132,7 @@
   <data name="FlightNumberLabel" xml:space="preserve">
     <value>Número de vuelo: </value>
   </data>
+  <data name="DisabledModule" xml:space="preserve">
+    <value>Esta información no se encuentra disponible actualmente. ¡Lo sentimos!</value>
+  </data>
 </root>

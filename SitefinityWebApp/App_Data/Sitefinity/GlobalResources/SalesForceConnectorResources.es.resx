@@ -1,0 +1,1050 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RemoveLabel">
+    <value>Eliminar</value>
+    <comment>Word: Remove</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FieldMappingsRequired">
+    <value>Usted debe asignar los campos que desea sincronizar</value>
+    <comment>Phrase: You should map the fields you want to be synced</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RolesSelectorHeader">
+    <value>Seleccione rol</value>
+    <comment>Phrase: Sitefinity roles</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LogStatusLabel">
+    <value>Estado</value>
+    <comment>Word: Status</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="RunningLabel">
+    <value>Ejecutándose</value>
+    <comment>Word: Running</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="InvalidCredentialsMessage">
+    <value>Nombre de usuario, contraseña o token de seguridad no válido.</value>
+    <comment>Phrase: Invalid username, password or security token.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForceMappingSitefinityDataProviderPropNameCaption">
+    <value>Nombre de proveedor de datos de Sitefinity</value>
+    <comment>Phrase: Sitefinity data provider name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DeleteAccountConfirmationLabel">
+    <value>¿Está seguro(a) de que desea eliminar esta cuenta de SalesForce?</value>
+    <comment>Phrase: Are you sure you want to delete this SalesForce account?</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ValueLabel">
+    <value>Valor</value>
+    <comment>Word: Value</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ListSyncFailMessage">
+    <value>La lista no se pudo sincronizar. Vea los detalles de error en los archivos de registro de Sitefinity.</value>
+    <comment>Phrase: The list failed to be synchronized. See the error details in the Sitefinity log files.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForceMappingSalesForceFieldPropNameDescription">
+    <value>Campo de SalesForce que será asignado</value>
+    <comment>Phrase: SalesForce field which will be mapped</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AllListsFilterLabel">
+    <value>Todas las sincronizaciones</value>
+    <comment>Phrase: All synchronizations</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SyncDetailsTitle">
+    <value>Detalles de sincronización</value>
+    <comment>Phrase: Synchronization details</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SynchronizationStatusPropNameCaption">
+    <value>Estatus de sincronización</value>
+    <comment>Phrase: Synchronization status</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AccountsFormAccountUsernameCannotBeEmpty">
+    <value>El nombre de usuario de SalesForce no puede estar vacío</value>
+    <comment>Phrase: SalesForce username cannot be empty</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ScheduleHalfHour">
+    <value>Cada 30 minutos</value>
+    <comment>Phrase: Every 30 minutes</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ConfigurationIdPropNameDescription">
+    <value>ID de configuración</value>
+    <comment>Phrase: Configuration id</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SyncInQueueLabel">
+    <value>Sincronización pendiente…</value>
+    <comment>Phrase: Sync pending...</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BackToSalesForceListsLabel">
+    <value>Volver a Sincronizaciones</value>
+    <comment>Phrase: Back to Synchronizations</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForceMappingSalesForceDataPropNameCaption">
+    <value>Nombre de lista de SalesForce</value>
+    <comment>Phrase: SalesForce list name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AccountsFormAccountPasswordTitle">
+    <value>Contraseña</value>
+    <comment>Word: Password</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EnabledSyncLabel">
+    <value>Habilitado</value>
+    <comment>Word: Enabled</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MasterAdapterPropNameCaption">
+    <value>Adaptador maestro</value>
+    <comment>Phrase: Master adapter</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ScheduleTuesday">
+    <value>Martes</value>
+    <comment>Word: Tuesday</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ScheduleWeekly">
+    <value>Semanalmente en</value>
+    <comment>Phrase: Weekly on</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ListsFailedSingular">
+    <value>La lista no se pudo sincronizar</value>
+    <comment>Phrase: list failed to be synced</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ScheduleNever">
+    <value>No programado</value>
+    <comment>Phrase: Not scheduled</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForcePasswordPropNameCaption">
+    <value>Contraseña</value>
+    <comment>Word: Password</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UnableToConnectToSiteMessage">
+    <value>No es posible conectarse. Asegúrese de que las credenciales de SalesForce son correctas.</value>
+    <comment>Phrase: Unable to connect. Please make sure the SalesForce credentials are correct.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForceAccountLabel">
+    <value>Cuenta de SalesForce</value>
+    <comment>Phrase: SalesForce account</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AccountsFormAccountSecurityTokenCannotBeEmpty">
+    <value>El token de seguridad de SalesForce no puede estar vacío</value>
+    <comment>Phrase: SalesForce security token cannot be empty</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForceUsernamePropNameDescription">
+    <value>Nombre de usuario de SalesForce</value>
+    <comment>Phrase: SalesForce username</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForceConnectorListsPageTitle">
+    <value>Sincronizaciones</value>
+    <comment>Word: Synchronizations</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SyncedLabel">
+    <value>sincronizado</value>
+    <comment>Word: Synced</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DeleteListConfirmationButton">
+    <value>Sí, eliminar esta sincronización</value>
+    <comment>Phrase: Yes, delete this synchronization</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AccountsFormEditTitle">
+    <value>Editar cuenta de SalesForce</value>
+    <comment>Phrase: Edit SalesForce account</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContentTypeDeleted">
+    <value>Tipo de contenido eliminado</value>
+    <comment>Phrase: Deleted content type</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SynchronizationStatusPropNameDescription">
+    <value>Estatus de sincronización</value>
+    <comment>Phrase: Synchronization status</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForceFieldMappingsPropNameDescription">
+    <value>Las asignaciones de campo entre las propiedades de los artículos de Sitefinity y los campos de los artículos de SalesForce</value>
+    <comment>Phrase: The field mappings between the Sitefinity item's properties and the SalesForce item's fields</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FieldExampleLabel">
+    <value>Departamento</value>
+    <comment>Word: Department</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ButtonSelectLabel">
+    <value>Seleccionar ...</value>
+    <comment>Phrase: Select...</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NoSalesForceListsConnectedLabel">
+    <value>Aún no se han creado sincronizaciones</value>
+    <comment>Phrase: No synchronizations have been created yet</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ScheduleSummaryPropNameDescription">
+    <value>Programar resumen de intervalor</value>
+    <comment>Phrase: Schedule interval summary</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SyncingDotDotDotLabel">
+    <value>Sincronizando…</value>
+    <comment>Phrase: Syncing...</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SyncDeletedItemsPropNameDescription">
+    <value>Determina si los artículos serán eliminados al sincronizarlos</value>
+    <comment>Phrase: Determines whether items will be deleted when syncing</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MasterAdapterPropNameDescription">
+    <value>Determina cuál adaptador gana en caso de conflictos. Valores posibles: SalesForce, Sitefinity</value>
+    <comment>Phrase: Determines which adapter wins in case of conflicts. Possible values: SalesForce, Sitefinity</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SelectSalesForceFieldNameLabel">
+    <value>Introducir campo de SalesForce</value>
+    <comment>Phrase: Select SalesForce field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="BackToSalesForceAccountsLabel">
+    <value>Volver al Conector para SalesForce</value>
+    <comment>Phrase: Back to Connector for SalesForce</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ConfigurationIdPropNameCaption">
+    <value>ID de configuración</value>
+    <comment>Phrase: Configuration id</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MissingFilterFieldMessage">
+    <value>El campo de filtración de SalesForce no existe. Por favor, revise si sus campos Contacto o Cliente potencial contienen el proporcionado. Puede encontrarlos en la página de configuración de su cuenta de SalesForce.</value>
+    <comment>Phrase: The SalesForce filtering field doesn't exist. Please check if your Contact or Lead fields contains the one provided. You can find them in the setup page of your SalesForce account.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ScheduleFiveMinutes">
+    <value>Cada 5 minutos</value>
+    <comment>Phrase: Every 5 minutes</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ScheduleMonday">
+    <value>Lunes</value>
+    <comment>Word: Monday</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MappingSettingsLabel">
+    <value>Asignación de configuración</value>
+    <comment>Phrase: Mapping settings</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForceMappingSitefinityContentTypePropNameDescription">
+    <value>El tipo de contenido sincronizado de Sitefinity</value>
+    <comment>Phrase: The synced Sitefinity content type</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForceSecurityTokenPropNameDescription">
+    <value>Token de seguridad de SalesForce</value>
+    <comment>Phrase: SalesForce security token</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TriggerSyncOnListLabel">
+    <value>Sincronizar ahora</value>
+    <comment>Phrase: Synchronize now</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AccountsFormCreateTitle">
+    <value>Añadir cuenta de SalesForce</value>
+    <comment>Phrase: Add SalesForce account</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="PropertiesLabel">
+    <value>Propiedades</value>
+    <comment>Word: Properties</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ScheduleTypeLabel">
+    <value>Tipo de programa</value>
+    <comment>Phrase: Schedule type</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForceConnectorResourcesTitle">
+    <value>Etiquetas de módulo SalesForceConnector</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ListAccountTitle">
+    <value>Cuenta</value>
+    <comment>Word: Account</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForceFieldMappingsPropNameCaption">
+    <value>Asignaciones de campo</value>
+    <comment>Phrase: Field mappings</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AccessSalesForceConnectorTitle">
+    <value>Acceder a módulo Conector para SalesForce</value>
+    <comment>Phrase: Access Connector for SalesForce module</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForceConnectorResourcesDescription">
+    <value>Contiene recursos localizables para módulo SalesForceConnector.</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DisabledSyncLabel">
+    <value>Desactivado</value>
+    <comment>Word: Disabled</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DeletedFormLabel">
+    <value>Formulario eliminado</value>
+    <comment>Phrase: Deleted form</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForceConnectorResourcesTitlePlural">
+    <value>Etiquetas de módulo SalesForceConnector</value>
+    <comment>The title plural of this class.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForceAccountsPropNameCaption">
+    <value>Cuenta de SalesForce</value>
+    <comment>Phrase: SalesForce accounts</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DeleteListConfirmationLabel">
+    <value>¿Está seguro(a) de que desea eliminar esta sincronización de SalesForce?</value>
+    <comment>Phrase: Are you sure you want to delete this SalesForce synchronization?</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MissingExternalIdMessage">
+    <value>No tiene un campo de id de SalesForce externo. Por favor vaya a su cuenta de SalesForce &gt; Setup -&gt; Personalizar -&gt; Contactos/Clientes potenciales -&gt; Campos y cree un nuevo campo de texto con valores únicos, 36 carácteres de extensión mínimo y establézcalo como ID externo. Luego, introduzca su nombre en Configuración Avanzada de Sitefinity  -&gt; Conector de SalesForce.</value>
+    <comment>Phrase: You don't have SalesForce external id field. Please go to your SalesForce account -&gt; Setup -&gt; Customize -&gt; Contacts/Leads -&gt; Fields and create a new text field with unique values, 36 characters minimal length and set it as external id. Then enter its name in the Sitefinity Advanced settings -&gt; SalesForce connector.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForceMappingSitefinityContentTypePropNameCaption">
+    <value>Tipo de contenido de Sitefinity</value>
+    <comment>Phrase: Sitefinity content type</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForceContactsExternalIdPropNameCaption">
+    <value>ID de contactos externo</value>
+    <comment>Phrase: Contacts external id</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForceSecurityTokenPropNameCaption">
+    <value>Token de seguridad</value>
+    <comment>Phrase: Security token</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForceConnectorGroupPageTitle">
+    <value>Conector para SalesForce</value>
+    <comment>Phrase: Connector for SalesForce</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForceConnectorAccountsPageDescription">
+    <value>Página de cuentas de Conector para SalesForce</value>
+    <comment>Phrase: Connector for SalesForce accounts page</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LibrariesSelectorHeader">
+    <value>Bibliotecas Sitefinity</value>
+    <comment>Phrase: Sitefinity libraries</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="CancelButtonLabel">
+    <value>cancelar</value>
+    <comment>Word: Cancel</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AccountNameLabel">
+    <value>Nombre</value>
+    <comment>Word: Name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AdvancedLabel">
+    <value>Avanzado</value>
+    <comment>Word: Advanced</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ListsSyncedSingular">
+    <value>Lista sincronizada con éxito</value>
+    <comment>Phrase: list successfully synced</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForceConnectorAccountsPageTitle">
+    <value>Conector para SalesForce</value>
+    <comment>Phrase:Connector for SalesForce</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ListsSyncedPlural">
+    <value>Las listas se sincronizaron con éxito</value>
+    <comment>Phrase: lists successfully synced</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ScheduleThursday">
+    <value>Jueves</value>
+    <comment>Word: Thursday</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FieldLabel">
+    <value>Campo</value>
+    <comment>Word: Field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AccountsFormAccountNameExampleLabel">
+    <value>Este nombre es solo para su comodidad</value>
+    <comment>Phrase: This name is for your convenience only</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AddSynchronizationLabel">
+    <value>Añadir sincronización</value>
+    <comment>Phrase: Add synchronization</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForceConnectorGroupPageDescription">
+    <value>Página de grupo Conector para SalesForce</value>
+    <comment>Phrase: Connector for SalesForce group page</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SelectLabel">
+    <value>Seleccionar</value>
+    <comment>Word: Select</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForceListSelectorHeader">
+    <value>Contactos de SalesForce</value>
+    <comment>Phrase: SalesForce contacts</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AccessSalesForceConnectorDescription">
+    <value>Acción de seguridad que permite acceder a las páginas backend del módulo Conector para SalesForce.</value>
+    <comment>Phrase: Security action that allows access to the backend pages of the Connector for SalesForce module.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DocumentsLabel">
+    <value>Documentos</value>
+    <comment>Word: Documents</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SchedulePropNameDescription">
+    <value>El intervalo del programa en formato crontab</value>
+    <comment>Phrase: The schedule interval in crontab format</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AddSalesForceAccountMessage">
+    <value>Añadir cuenta de SalesForce</value>
+    <comment>Phrase: Add SalesForce account</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForceUsernamePropNameCaption">
+    <value>Nombre de usuario</value>
+    <comment>Word: Username</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForceMappingSitefinityFieldPropNameCaption">
+    <value>Campo Sitefinity</value>
+    <comment>Phrase: Sitefinity field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SyncConditionLabel">
+    <value>Cuándo sincronizar</value>
+    <comment>Phrase: When to sync</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForceConnectorListsPageDescription">
+    <value>Página de sincronizaciones de Conector para SalesForce</value>
+    <comment>Phrase: Connector for SalesForce synchronizations page</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AddSalesForceAccountLabel">
+    <value>Añadir cuenta</value>
+    <comment>Phrase: Add account</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AccountsFormAccountNameTitle">
+    <value>Nombre</value>
+    <comment>Word: Name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ListsSidebarTitleLabel">
+    <value>Administrar sincronizaciones</value>
+    <comment>Phrase: Manage synchronizations</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AlreadyMappedLabel">
+    <value>Ya conectado</value>
+    <comment>Phrase: Already connected</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForceAccountsPropNameDescription">
+    <value>Cuentas que se sincronizarán</value>
+    <comment>Phrase: Accounts which will be synchronized</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SchedulePropNameCaption">
+    <value>Programar</value>
+    <comment>Word: Schedule</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AccountsFormAccountUsernameTitle">
+    <value>Nombre de usuario</value>
+    <comment>Word: Username</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ListMappingsPropNameCaption">
+    <value>Asignaciones de lista</value>
+    <comment>Phrase: List mappings</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AccountsFormAccountNameCannotBeEmpty">
+    <value>El nombre de la cuenta no puede estar vacío</value>
+    <comment>Phrase: Account name cannot be empty</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="LogDateLabel">
+    <value>Sincronizado a</value>
+    <comment>Phrase: Synced at</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SaveAndCloseLabel">
+    <value>Guardar y Cerrar</value>
+    <comment>Phrase: Save and Close</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SitefinityContentTypeLabel">
+    <value>Tipo</value>
+    <comment>Word: Type</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FilterListsLabel">
+    <value>Filtrar sincronizaciones</value>
+    <comment>Phrase: Filter synchronizations</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FailedToSynchronizeLabel">
+    <value>No se pudo sincronizar</value>
+    <comment>Phrase: Failed to be synced</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TaskRetryIntervalPropNameDescription">
+    <value>Obtiene o fija el intervalo para volver a intentar la tarea de sincronización en segundos</value>
+    <comment>Phrase: Gets or sets the synchronization task retry interval in seconds</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AccountNamePropNameDescription">
+    <value>Nombre de cuenta de SalesForce</value>
+    <comment>Phrase: SalesForce account name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DisableSyncLabel">
+    <value>Desactivar</value>
+    <comment>Word: Disable</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SelectUniqueSalesForceListLabel">
+    <value>El nombre de lista ya se está usando.</value>
+    <comment>Phrase: List name is already in use.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AddSalesForceListLabel">
+    <value>Añadir nueva sincronización</value>
+    <comment>Phrase: Add new sync</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NoConnectionMessage">
+    <value>El sitio '{0}' no se puede sincronizar porque no hay conexión con el servidor.</value>
+    <comment>Phrase: Site '{0}' cannot be synced because there is no connection with the server.</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FilterContactsLabel">
+    <value>Filtrar Contactos por campo</value>
+    <comment>Phrase: Filter Contacts by field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForceLeadsExternalIdPropNameCaption">
+    <value>ID de clientes potenciales externo</value>
+    <comment>Phrase: Leads external id</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="MappingsLabel">
+    <value>Asignaciones</value>
+    <comment>Word: Mappings</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForceListMappingFormTitle">
+    <value>Añadir sincronización</value>
+    <comment>Phrase: Add synchronization</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForceFieldsMappingHeader">
+    <value>Campos de SalesForce -&gt; Campos de Sitefinity</value>
+    <comment>Phrase: SalesForce fields -&gt; Sitefinity fields</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FormResponsesLabel">
+    <value>Respuestas de formulario</value>
+    <comment>Phrase: Form responses</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ScheduleFriday">
+    <value>Viernes</value>
+    <comment>Word: Friday</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AccountsFormAccountUsernameExampleLabel">
+    <value>Usar su cuenta de desarrollador de SalesForce</value>
+    <comment>Phrase: Use your SalesForce developer account</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContactSourceLabel">
+    <value>Establecer un campo para marcar los contactos sincronizados en SalesForce</value>
+    <comment>Phrase: Set a field to mark the synced contacts on SalesForce</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForceMappingSynchronizationTypePropNameCaption">
+    <value>Tipo de sincronización</value>
+    <comment>Phrase: Synchronization type</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ScheduleWednesday">
+    <value>Miércoles</value>
+    <comment>Word: Wednesday</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContactsLeadsLabel">
+    <value>(Contactos, Clientes potenciales, Usuarios)</value>
+    <comment>Phrase: (Contacts, Leads, Users)</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ListsFailedPlural">
+    <value>Las listas no se pudieron sincronizar</value>
+    <comment>Phrase: lists failed to be synced</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="OrLabel">
+    <value>o</value>
+    <comment>Word: or</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SelectSalesForceFieldValueLabel">
+    <value>Introducir valor de SalesForce</value>
+    <comment>Phrase: Enter SalesForce value</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ProviderLabel">
+    <value>Proveedor</value>
+    <comment>Word: Provider</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SelectSalesForceFilterInvalidCharsLabel">
+    <value>Caracteres no válidos: , = ; :</value>
+    <comment>Phrase: Invalid characters: , = ; :</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AccountConnectedListsTitle">
+    <value>Sincronizaciones</value>
+    <comment>Word: Synchronizations</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SyncLogLabel">
+    <value>Registro de sincronización</value>
+    <comment>Phrase: Synchronization log</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ListMappingsPropNameDescription">
+    <value>Asignaciones de lista</value>
+    <comment>Phrase: List mappings</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForceMappingSalesForceFieldPropNameCaption">
+    <value>Nombre de campo de SalesForce</value>
+    <comment>Phrase: SalesForce field name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AccountsFormAccountNameRegExError">
+    <value>El nombre de la cuenta contiene carácteres no válidos</value>
+    <comment>Phrase: Account name contains invalid characters</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="NoSalesForceAccountsConnectedLabel">
+    <value>No se ha conectado cuenta SalesForce para sincronización</value>
+    <comment>Phrase: No SalesForce account has been connected for synchronization</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="EnableSyncLabel">
+    <value>Activar</value>
+    <comment>Word: Enable</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForceMappingSalesForceDataPropNameDescription">
+    <value>Nombre de lista de SalesForce con filtro en el formato Contacto/Cliente Potencial(FilterField1:FilterValue1; FilterField2:FilterValue2;...)</value>
+    <comment>Phrase: SalesForce list name with filter in the format Contacts/Leads(FilterField1:FilterValue1; FilterField2:FilterValue2;...)</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForceMappingSitefinityDataPropNameDescription">
+    <value>El nombre del contenido sincronizado de Sitefinity</value>
+    <comment>Phrase: The name of the synced Sitefinity content</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContinueToSetupSyncLabel">
+    <value>Proceder a configurar sincronización</value>
+    <comment>Phrase: Continue to setup synchronization</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SyncTypeOneWayToSalesForceLabel">
+    <value>Servidor a SalesForce</value>
+    <comment>Phrase: Server to SalesForce</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UsersLabel">
+    <value>Usuarios</value>
+    <comment>Word: Users</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UsesSourceFieldPropNameDescription">
+    <value>Determina si el filtro en el nombre de lista de SalesForce se usa como un filtro o campo de fuente</value>
+    <comment>Phrase: Determines whether the filter in the SalesForce list name is used like a filter or source field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SyncTypeTwoWayLabel">
+    <value>De dos vías</value>
+    <comment>Phrase: Two way</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SelectSalesForceListLabel">
+    <value>Selecciones una lista de SalesForce</value>
+    <comment>Phrase: Select a SalesForce list</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TriggerSyncOnAccountLabel">
+    <value>Sincronizar ahora</value>
+    <comment>Phrase: Synchronize now</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AccountsFormAccountSecurityTokenTitle">
+    <value>Token de seguridad</value>
+    <comment>Phrase Security token</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="WhatToSyncLabel">
+    <value>Qué sincronizar</value>
+    <comment>Phrase: What to sync...</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SyncTypeOneWayToSitefinityLabel">
+    <value>SalesForce a servidor</value>
+    <comment>Phrase: SalesForce to server</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ActionsLabel">
+    <value>Acciones</value>
+    <comment>Word: Actions</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DeletedUserRoleLabel">
+    <value>Rol de usuario eliminado</value>
+    <comment>Phrase: Deleted user role</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ListsByAccountLabel">
+    <value>Listas por cuenta de SalesForce</value>
+    <comment>Phrase: Lists by SalesForce account</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SyncDeletedItemsPropNameCaption">
+    <value>Sincronizar artículos eliminados</value>
+    <comment>Phrase: Synchronize deleted items</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForceMappingSitefinityDataPropNameCaption">
+    <value>Nombre de tipo de contenido Sitefinity</value>
+    <comment>Phrase: Sitefinity content type name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FormsSelectorHeader">
+    <value>Seleccionar formulario</value>
+    <comment>Phrase: Sitefinity forms</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ListCountPluralLabel">
+    <value>sincronizaciones</value>
+    <comment>Word: synchronizations</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AccountNamePropNameCaption">
+    <value>Nombre de la cuenta</value>
+    <comment>Phrase: Account name</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SynchronizationTypeLabel">
+    <value>Tipo de sincronización</value>
+    <comment>Phrase: Synchronization type</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SaveLabel">
+    <value>Guardar</value>
+    <comment>Word: Save</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="WhatDataToSyncLabel">
+    <value>¿Cuáles datos desea sincronizar?</value>
+    <comment>Phrase: What data do you want to sync?</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DeletedLibraryLabel">
+    <value>Bibilioteca eliminada</value>
+    <comment>Phrase: Deleted library</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="AccountsFormAccountPasswordCannotBeEmpty">
+    <value>La contraseña de la cuenta de SalesForce no puede estar vacía</value>
+    <comment>Phrase: SalesForce account password cannot be empty</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ListCountLabel">
+    <value>sincronización</value>
+    <comment>Word: synchronization</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DeleteAccountConfirmationButton">
+    <value>Sí, eliminar este sitio SalesForce</value>
+    <comment>Phrase: Yes, delete this SalesForce site</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ScheduleOneHour">
+    <value>Cada 1 hora</value>
+    <comment>Phrase: Every 1 hour</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForceMappingSynchronizationTypePropNameDescription">
+    <value>La dirección de la sincronización</value>
+    <comment>Phrase: The synchronization direction</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForceMappingSitefinityDataProviderPropNameDescription">
+    <value>El nombre del proveedor de contenido sincronizado de Sitefinity</value>
+    <comment>Phrase: The name of the synced Sitefinity content provider</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="TaskRetryIntervalPropNameCaption">
+    <value>Intervalo de reintento de tarea</value>
+    <comment>Phrase: Task retry interval</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForceConnectorListsPageUrlName">
+    <value>Listas</value>
+    <comment>Word: Lists</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForceLeadsExternalIdPropNameDescription">
+    <value>La columna donde los ID de los artículos de Sitefinity se almacenará en la tabla de clientes potenciales de SalesForce</value>
+    <comment>Phrase: The column where the Sitefinity items will be stored in the SalesForce leads table</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="DisabledFromAccountLabel">
+    <value>Desactivado desde cuenta</value>
+    <comment>Phrase: Disabled from account</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SelectSitefinityRoleLabel">
+    <value>Selecciones un rol de Sitefinity</value>
+    <comment>Phrase: Select a Sitefinity role</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForceContactsExternalIdPropNameDescription">
+    <value>La columna donde los ID de los artículos de Sitefinity se almacenará en la tabla de contactos de SalesForce</value>
+    <comment>Phrase: The column where the Sitefinity items will be stored in the SalesForce contacts table</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="UsesSourceFieldPropNameCaption">
+    <value>Usa campo de fuente</value>
+    <comment>Phrase: Uses source field</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ScheduleSaturday">
+    <value>Sábado</value>
+    <comment>Word: Saturday</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ContinueLabel">
+    <value>Continuar</value>
+    <comment>Word: Continue</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="FailedLabel">
+    <value>fallido</value>
+    <comment>Word: Failed</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ScheduleSunday">
+    <value>Domingo</value>
+    <comment>Word: Sunday</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForceMappingSitefinityFieldPropNameDescription">
+    <value>Campo de Sitefinity que será asignado</value>
+    <comment>Phrase: Sitefinity field which will be mapped</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ScheduleSummaryPropNameCaption">
+    <value>Resumen de programa</value>
+    <comment>Phrase: Schedule summary</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForcePasswordPropNameDescription">
+    <value>Contraseña de SalesForce</value>
+    <comment>Phrase: SalesForce password</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SalesForceConnectorAccountsPageUrlName">
+    <value>Cuentas</value>
+    <comment>Word: Accounts</comment>
+    <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+</root>

@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Cancel">
+    <value>cancelar</value>
+    <comment>The text of the Cancel button.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MobileFormatDescription">
+    <value>Optimice su contenido como &lt;a target='_blank' href='https://www.ampproject.org/'&gt;Google AMP&lt;/a&gt; para cargarlo instantáneamente en dispositivos móviles en varias redes sociales y resultados de búsqueda de Google.</value>
+    <comment>Mobile formats screen description message</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CustomCanonicalUrlFormatDescription">
+    <value>Use corchetes para incluir los campos de los artículos. &lt;br /&gt;Ejemplo: /blogs/[UrlName] &lt;br/&gt; Asegúrese de que la URL enlace a una página existente.</value>
+    <comment>The custom canonical URL format description.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeactivationConfirmation">
+    <value>¿Está seguro de que desea desactivar</value>
+    <comment>The Deactivation confirmation value</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PreviewGoogleAMPPages">
+    <value>Previsualizar páginas Google AMP</value>
+    <comment>Describes the how to text</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ErrorChangeTemplate">
+    <value>Se produjo un error al modificar plantillas de formato móvil.</value>
+    <comment>Describes the error text that is shown when an error occurs.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MobileFormatsBasicSettings">
+    <value>Formatos móviles</value>
+    <comment>The title of mobile formats screen.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Inactive">
+    <value>Inactivo</value>
+    <comment>The inactive value</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ContentTypeLabel">
+    <value>Tipo de contenido</value>
+    <comment>The title of the content type column.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ErrorChangingContentTypes">
+    <value>Se produjo un error al modificar los estatus de tipo de contenido de formato móvil.</value>
+    <comment>Describes the error text that is shown when an error occurs.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MobileFormatContentTypeGridTitle">
+    <value>Publicar contenido</value>
+    <comment>The title of the content type grid.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ErrorDeletingContentType">
+    <value>Se produjo un error al eliminar el tipo de contenido de formato móvil.</value>
+    <comment>Describes the error text that is shown when an error occurs.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MobileFormatsConfigCaption">
+    <value>Formatos móviles</value>
+    <comment>Mobile formats configuration title</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CustomCanonicalUrlOption">
+    <value>URL Canónica personalizada</value>
+    <comment>The custom canonical URL dropdown option.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MobileFormatsConfigDescription">
+    <value>Configuraciones del módulo de formatos Mobile.</value>
+    <comment>Mobile formats configuration description message</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ErrorLoadingMobileFormatTemplates">
+    <value>Se produjo un error al cargar las plantillas de formato móvil para este tipo de contenido.</value>
+    <comment>Describes the error text that is shown when an error occurs.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="OutputCacheProfilesTitle">
+    <value>Perfiles en caché</value>
+    <comment>The title of a configuration element.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ErrorActivatingMobileFormatDefinition">
+    <value>Se produjo un error al activar la definición del formato móvil.</value>
+    <comment>Describes the error text that is shown when an error occurs.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AddNewContentTypeBtn">
+    <value>Añadir contenido</value>
+    <comment>The value of the button for adding new content types</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ActivationConfirmation">
+    <value>¿Está seguro de que desea activar</value>
+    <comment>The Activation confirmation value</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NoTemplateSelectedOption">
+    <value>Ninguna plantilla seleccionada</value>
+    <comment>The no template selected dropdown option.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CustomCanonicalUrlFormatLabel">
+    <value>Formato de URL canónica</value>
+    <comment>The custom canonical URL format label.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MobileFormatsSettingsDescription">
+    <value>Una colección de configuración de formatos móviles.</value>
+    <comment>Describes configuration element.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Configure">
+    <value>Configurar</value>
+    <comment>The configure value</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Publish">
+    <value>Publicar</value>
+    <comment>Publish text</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PreviewLabel">
+    <value>Vista previa</value>
+    <comment>Preview</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ChangeBtn">
+    <value>Cambiar</value>
+    <comment>The value of the button for chaning</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Deactivate">
+    <value>Desactivar</value>
+    <comment>The deactivate value</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Delete">
+    <value>Eliminar</value>
+    <comment>The text of the Delete button.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Active">
+    <value>Activo</value>
+    <comment>The active value</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MobileFormatsSettingsCaption">
+    <value>Configuración de formatos móviles</value>
+    <comment>Configuration element caption.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ErrorInitializingContentTypesGrid">
+    <value>Se produjo un error al inicializar la rejilla de tipos de contenido.</value>
+    <comment>Describes the error text that is shown when an error occurs.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Activate">
+    <value>Activar</value>
+    <comment>The activate value</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="HowTo">
+    <value>Cómo...</value>
+    <comment>Describes the how to text</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AddContentLabel">
+    <value>Añadir contenido</value>
+    <comment>The value of the title of the dialog</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeleteContentTypeConfirmation">
+    <value>¿Está seguro de que desea borrar este tipo de contenido?</value>
+    <comment>Delete content type confirmation text</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ErrorInitializingMobileDefinitionsGrid">
+    <value>Se produjo un error al inicializar la rejilla de definiciones del formato móvil.</value>
+    <comment>Describes the error text that is shown when an error occurs.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NoFeatherEnabled">
+    <value>El módulo Feather debe estar activo.</value>
+    <comment>Describes the error text that is shown when the Feather module is not enabled.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DefaultCanonicalUrlOption">
+    <value>URL canónica predeterminada</value>
+    <comment>The default canonical URL dropdown option.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CanonicalUrlLabel">
+    <value>URL Canónica</value>
+    <comment>The canonical URL label.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MobileFormatsConfigurationsDialogSaveBtn">
+    <value>Hecho</value>
+    <comment>The text in the Save button.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="OutputCacheProfilesDescription">
+    <value>Colección de configuraciones de caché de resultados nombradas.</value>
+    <comment>Describes configuration element.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+</root>

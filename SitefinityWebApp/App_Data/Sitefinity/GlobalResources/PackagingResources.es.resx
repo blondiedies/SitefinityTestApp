@@ -1,0 +1,640 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddonWillBeDeactivatedMessage">
+    <value>Este complemento se desactivará para</value>
+    <comment>This add-on will be deactivated for  phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExportNoFileSystemPermissionsWarning">
+    <value>Para exportar usted necesita permiso de escritura para</value>
+    <comment>To export you need write permission for phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExportForDeploymentPageHeader">
+    <value>Exportar módulos de Sitefinity para la implementación</value>
+    <comment>Gets the header in export for deployment page</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ErrorDeletingContent">
+    <value>Cierto contenido y páginas no se han eliminado correctamente. Por favor, revise el registro para obtener más información</value>
+    <comment>Error message when deleting content has failed</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TheModulesHaveNOTBeenSuccessfullyExported">
+    <value>Los módulos NO se han exportado con éxito</value>
+    <comment>Data have not been successfully exported phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Imported">
+    <value>Importado</value>
+    <comment>Imported phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ActivateAddon">
+    <value>Activar Complemento</value>
+    <comment>Activate Add-on phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExportToZipFileSizeWarningMessage">
+    <value>Usted puede exportar módulos y contenido desde el sitio actual y descargarlos como un archivo ZIP (hasta 2 Gb)</value>
+    <comment>You can export modules and content from the current site and download it as a ZIP file (Up to 2Gb) phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ContinueAnyway">
+    <value>Continuar de todos modos</value>
+    <comment>Continue anyway phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ActivateForThisSiteMessage">
+    <value>Activar para este sitio</value>
+    <comment>Activate for this site phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DownloadZipFilePageTitle">
+    <value>Descargar archivo ZIP</value>
+    <comment>Download ZIP file phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeleteImportedDataAndPagesMessage">
+    <value>Eliminar contenido y páginas importados</value>
+    <comment>Delete imported content and pages phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PackagingsConfigDescription">
+    <value>Cadenas de recurso para configuración de Embalaje.</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ImportInProgressMessage">
+    <value>Importación en curso... Por favor, espere</value>
+    <comment>Importing in progress... Please wait phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PackagingNodeUrl">
+    <value>Embalaje</value>
+    <comment>Packaging phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PackagingModulePageUrlName">
+    <value>Exportar para implementación</value>
+    <comment>Packaging module page URL name</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExportForArchivePageDescription">
+    <value>Exportar la estructura y el contenido de los módulos Sitefinity (Noticias, Blogs, Eventos, etc. o módulos creados con el desarrollador de Módulos) a un archivo.</value>
+    <comment>Gets the packaging export for archive page description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExportForDeploymentPageTitle">
+    <value>Exportar módulos para implementación</value>
+    <comment>Gets the packaging export page title</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="WhatToExportInAddonMessage">
+    <value>¿Qué exportar?</value>
+    <comment>Gets the description in export page</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TheModulesHaveNOTBeenSuccessfullyImported">
+    <value>Los datos no han sido importados con éxito</value>
+    <comment>Data have not been successfully imported phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExportForArchivePageUrlName">
+    <value>Exportar para archivar</value>
+    <comment>Packaging for archive module page URL name</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ImportExampleContentMessage">
+    <value>Importar contenido y páginas de muestra</value>
+    <comment>Import sample content and pages phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExportImportPageTitle">
+    <value>Exportar / Importar</value>
+    <comment>Export / Import phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="StructureOnly">
+    <value>Solo estructura</value>
+    <comment>Structure only phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ValidFolderNameMessage">
+    <value>Ingresar nombre de carpeta válida</value>
+    <comment>Enter valid folder name phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AllModulesWillBeExportedTo">
+    <value>Todos los módulos se exportarán a</value>
+    <comment>All modules will be exported to... phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeleteInProgressMessage">
+    <value>Eliminación en curso... Por favor, espere</value>
+    <comment>Deleting in progress... Please wait phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeleteImportedContentAndPagesMessage">
+    <value>Eliminar contenido y páginas importados</value>
+    <comment>Delete imported content and pages phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AddOnUrl">
+    <value>complemento</value>
+    <comment>Url of the add-on page</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AddonContainsMessage">
+    <value>Este complemento contiene...</value>
+    <comment>This add-on contains... phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="StructuresAndData">
+    <value>Estructuras y datos</value>
+    <comment>Structures and data phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExportSitefinityForDeploymentPhrase">
+    <value>Exportar Sitefinity para fines de implementación</value>
+    <comment>Export Sitefinity for deployment purposes phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeletedAddonFolderOfActivatedAddon">
+    <value>Los archivos de complemento faltan o están dañados. Si se desactiva, no se podrá volver a activar.</value>
+    <comment>Gets Message shown when an addon is activated but it's folder is missing</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExportAgain">
+    <value>Exportar nuevamente</value>
+    <comment>Export again phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeletedAddonFolderOfInactiveAddon">
+    <value>Este complemento no puede activarse porque sus archivos faltan o están dañados.</value>
+    <comment>Gets Message shown when an addon is not activated and it's folder is missing</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeactivateForThisSiteMessage">
+    <value>Desactivar para este sitio</value>
+    <comment>Deactivate for this site phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="InvalidFileFormat">
+    <value>Formato de archivo no válido</value>
+    <comment>Invalid file format phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExportPageDescription">
+    <value>Puede exportar sus módulos y contenido desde el sitio actual para crear un complemento.&lt;br/&gt;También, puede</value>
+    <comment>Gets the description in export page</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ClickHereMessage">
+    <value>haga clic aquí</value>
+    <comment>click here phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ImportFromArchivePageTitle">
+    <value>Importar</value>
+    <comment>Gets the packaging import from archive page title</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TheModulesHaveBeenSuccessfullyExported">
+    <value>Los módulos se han exportado con éxito</value>
+    <comment>Data have been successfully exported to phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PackagingNodeTitle">
+    <value>Exportar / Importar</value>
+    <comment>Export / Import phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExportForMakingAddonPageTitle">
+    <value>Exportación para complemento</value>
+    <comment>Export for add-on phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ImportedTo">
+    <value>Importado a</value>
+    <comment>Imported to phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ErrorDeactivating">
+    <value>Este complemento no se ha desactivado correctamente. Por favor, revise el registro para obtener más información</value>
+    <comment>Gets Error message when deactivating add-on has failed</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UploadingMessage">
+    <value>Subiendo ...</value>
+    <comment>Uploading... phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DownloadZipFilePageUrl">
+    <value>Archivo</value>
+    <comment>Archive phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NotImported">
+    <value>No importado</value>
+    <comment>Not imported phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FileSizeExceedsLimit">
+    <value>El archivo seleccionado supera el límite de tamaño de carga de 2 Gb</value>
+    <comment>Selected file exceeds the 2Gb upload size limit phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="WebServices">
+    <value>Servicios web</value>
+    <comment>Web services phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AddOnsUrl">
+    <value>Complementos</value>
+    <comment>Url of the add-ons page</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ImportExampleDataMessage">
+    <value>Importar datos de muestra a este sitio para ayudarle a empezar. Puede eliminar los datos importados en cualquier momento</value>
+    <comment>Import sample data to this site to help you getting started. You can delete imported data anytime phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PackagingModulePageDescription">
+    <value>Exportar la estructura de los módulos Sitefinity (Noticias, Blogs, Eventos, etc. o módulos creados con el desarrollador de Módulos).</value>
+    <comment>Gets the packaging export page description</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DataAlreadyImportedMessage">
+    <value>No puede importar los datos a este sitio, porque ya están importados a</value>
+    <comment>You cannot import the data to this site, because it is already imported to  phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PackagingsConfigCaption">
+    <value>Configuración de embalaje</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeactivateAddonPrompt">
+    <value>¿Está seguro de que desea desactivar este complemento?</value>
+    <comment>Are you sure you want to deactivate this add-on? phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExportedArchiveExceedsFileLimitMessage">
+    <value>La exportación ha fallado porque el archivo ZIP supera el límite de tamaño de 2 Gb.</value>
+    <comment>Export failed because ZIP file exceeds the 2Gb size limit phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ErrorActivatingSomeModules">
+    <value>Algunos módulos no se han activado correctamente. Por favor, revise el registro para obtener más información</value>
+    <comment>Error message when activating some modules has failed</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PackagingResourcesTitle">
+    <value>Embalaje</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExportForArchive">
+    <value>Exportar archivo ZIP</value>
+    <comment>Export ZIP file phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Export">
+    <value>Exportar</value>
+    <comment>Export phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AddonWillBeActivatedMessage">
+    <value>Este complemento se activará para</value>
+    <comment>This add-on will be activated to  phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TheModulesHaveBeenSuccessfullyImported">
+    <value>Los datos han sido importados con éxito</value>
+    <comment>Data have been successfully imported phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ImportFromArchivePageHeader">
+    <value>Importar datos</value>
+    <comment>Gets the packaging import from archive page header</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExportFolderNameLabel">
+    <value>Nombre de la carpeta</value>
+    <comment>Folder name phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ErrorImportingStructure">
+    <value>Algunos módulos no se han importado correctamente. Por favor, revise el registro para obtener más información</value>
+    <comment>Error message when importing structure has failed</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ErrorActivating">
+    <value>Este complemento no se ha activado correctamente. Por favor, revise el registro para obtener más información</value>
+    <comment>Error message when activating add-on has failed</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UploadZipPageHeaderMessage">
+    <value>Cargar archivo ZIP con contenido o módulos ya exportados y se importará en este proyecto</value>
+    <comment>Upload ZIP file with already exported modules or content and it will be imported in this project phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CustomOnlyMessage">
+    <value>(Solo personalizado)</value>
+    <comment>Phrase that indicates only custom items will be used</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SelectAllModulesLabel">
+    <value>Módulo</value>
+    <comment>Module phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="BlankNugetTemplateForAddon">
+    <value>Plantilla NuGet en blanco para complemento</value>
+    <comment>Blank NuGet template for add-on phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ActivationInProgressMessage">
+    <value>Activación en curso... Por favor, espere</value>
+    <comment>Phrase that indicates the activation of an addon is in progress</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="BackToImportOfArchive">
+    <value>Regresar a importar</value>
+    <comment>Back to Import phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExportForDeploymentPageDescription">
+    <value>Todos los campos y configuraciones de módulo, taxonomías relacionadas y plantillas de widget de la base de datos se exportarán para el propósito del proceso de implementación.</value>
+    <comment>Gets the description in export for deployment page</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExportFolderLabel">
+    <value>Los datos se exportarán a...</value>
+    <comment>Where the data will be exported to phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NoInstalledAddons">
+    <value>Aún no se han instalado complementos</value>
+    <comment>No add-ons have been installed yet phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ImportZipFilePageTitle">
+    <value>Importar archivo ZIP</value>
+    <comment>Import ZIP file phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AddOns">
+    <value>Complementos</value>
+    <comment>Add-ons page title</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="UploadZipLabelMessage">
+    <value>Archivo ZIP para subir (hasta 2 Gb)</value>
+    <comment>ZIP file to upload (Up to 2Gb) phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="BackToAllAddons">
+    <value>Todos los complementos</value>
+    <comment>All add-ons phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ImportNoFileSystemPermissionsWarning">
+    <value>Para importar necesita permiso de escritura para</value>
+    <comment>To import you need write permission for phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="Import">
+    <value>Importar</value>
+    <comment>Import phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExportForMakingAddonPageUrl">
+    <value>Complemento</value>
+    <comment>Addon phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ActivatedForAllSitesMessage">
+    <value>(activado para todos los sitios)</value>
+    <comment>(activated for all sites) phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="OptionalMessage">
+    <value>(opcional)</value>
+    <comment>(optional) phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ErrorImportingContent">
+    <value>Cierto contenido y páginas no se han importado correctamente. Por favor, revise el registro para obtener más información</value>
+    <comment>Error message when importing content has failed</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PackagingResourcesDescription">
+    <value>Contiene recursos localizables para el módulo de Embalaje.</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ImportedContentDeleteMessage">
+    <value>El contenido y las páginas de muestra importados se eliminarán y cualquier cambio se perderá.</value>
+    <comment>Imported sample content and pages will be deleted and any changes will be lost. phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LearnMore">
+    <value>Más información</value>
+    <comment>Learn more phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ModulesAndSampleContent">
+    <value>Módulos y contenido de muestra</value>
+    <comment>Modules and sample content phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="HowToInstallAddon">
+    <value>¿Cómo instalar un complemento?</value>
+    <comment>How to install an add-on? phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="BackToExport">
+    <value>Volver a Exportar</value>
+    <comment>Back to Export phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ContentAndPages">
+    <value>Contenido y páginas</value>
+    <comment>Content and pages phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeactivationInProgressMessage">
+    <value>Desactivación en curso... Por favor, espere</value>
+    <comment>Phrase that indicates the deactivation of an addon is in progress</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AddOn">
+    <value>complemento</value>
+    <comment>Add-on page title</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LoadBalancingModeWarning">
+    <value>Si ha abierto un nodo particular por URL puede proceder a usar la función.</value>
+    <comment>If you have opened a particular node by URL you may proceed using the feature. phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExportForArchivePageTitle">
+    <value>Descargar archivo ZIP</value>
+    <comment>Gets the archive export page title</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="NotImportedTo">
+    <value>No importado a</value>
+    <comment>Not imported to phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DownloadWillBeginShortly">
+    <value>La descarga comenzará automáticamente en 5 segundos, pero si no,</value>
+    <comment>Download will start automatically in 5 sec, but if not,  phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="DeactivateAddon">
+    <value>Desactivar Complemento</value>
+    <comment>Deactivate Add-on phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExportPageHeader">
+    <value>¿Qué desea exportar desde este sitio?</value>
+    <comment>Gets the header in export page</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PackagingModulePageTitle">
+    <value>Exportar para implementación</value>
+    <comment>Gets the packaging export page title</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ImportAnotherFile">
+    <value>Importar otro archivo</value>
+    <comment>Import another file phrase</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ImportFromArchivePageUrl">
+    <value>Archivo</value>
+    <comment>Gets the packaging import from archive page url</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+</root>

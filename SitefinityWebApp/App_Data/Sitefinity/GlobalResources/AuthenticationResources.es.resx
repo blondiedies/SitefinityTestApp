@@ -1,0 +1,885 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="IdentityTokenLifetimeDescription">
+    <value>Define en segundos la vida útil del token de identidad</value>
+    <comment>phrase: Defines the identity token lifetime in seconds</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CSPConnectSourceCaption">
+    <value>Fuente de Conexión</value>
+    <comment>phrase: Connect Source</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AllowedCorsOriginCaption">
+    <value>Orígenes cors permitidos</value>
+    <comment>phrase: Allowed cors origins</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExternalProdiverNameCaption">
+    <value>Nombre</value>
+    <comment>phrase: External provider name.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AccessTokenTypeCaption">
+    <value>Tipo de token de acceso</value>
+    <comment>phrase: Access token type</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="InludeJwtIdCaption">
+    <value>Incluir reclamación de ID JWT</value>
+    <comment>phrase: Include JWT id claim</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ErrorLdapUserNotFound">
+    <value>El usuario '{0}' no se encontró en el proveedor LDAP.</value>
+    <comment>Gets Error message for missing ldap user.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ErrorInvalidExternalUser">
+    <value>Usuario externo no válido.</value>
+    <comment>Gets Error message for invalid external user.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FlowDescription">
+    <value>Define el flujo del cliente</value>
+    <comment>phrase: Defines the client flow</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ClientNameDescription">
+    <value>El nombre del cliente.</value>
+    <comment>phrase: The name of the client</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ErrorUserEmailAlreadyExists">
+    <value>El usuario con correo electrónico {0} ya está registrado.</value>
+    <comment>Gets Error message for existing user.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AllowedScopesDescription">
+    <value>Una lista de los ámbitos permitidos para el cliente, separados por un espacio en blanco (p. ej., "openid profile").</value>
+    <comment>A list of allowed scopes for the client, separated by a whitespace (e.g. "openid profile").</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AdfsMetadataAddressDescription">
+    <value>Establece la dirección para recuperar los metadatos wsFederation.</value>
+    <comment>phrase: Sets the address to retrieve the wsFederation metadata.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="IdentityTokenLifetimeCaption">
+    <value>Vida útil del token de identidad</value>
+    <comment>phrase: Identity token lifetime</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="RequireConsentCaption">
+    <value>Requiere permiso</value>
+    <comment>phrase: Require consent</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="StoreLocationDescription">
+    <value>Ubicación de la tienda de seguridad</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExternalLoginDataProviderDescription">
+    <value>Proveedor de datos para usuarios de acceso externo.</value>
+    <comment>phrase: Data provider for external login users.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExternalProdiverAutoAssignedRolesCaption">
+    <value>Funciones autoasignadas</value>
+    <comment>phrase: Auto assigned roles</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AuthenticationResourcesTitle">
+    <value>Etiquetas de módulo de autenticación</value>
+    <comment>The title of this class.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PostLogoutRedirectUriCaption">
+    <value>URL de redireccionamiento después del cierre de sesión</value>
+    <comment>phrase: Defines Post log out redirect URI</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AuthCookieFromBearerTokenEndpointCaption">
+    <value>Cookie de autenticación desde extremo del portador</value>
+    <comment>phrase: Authentication cookie from bearer token endpoint</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ApplicationClientNameCaption">
+    <value>Nombre de cliente de aplicación</value>
+    <comment>phrase: Application client name</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExternalProdiverLinkCssClassDescription">
+    <value>Especifica la clase css que se aplicará al enlace del proveedor.</value>
+    <comment>phrase: Specifies the CSS class that will be applied to the provider's link.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ScopeClaimsCaption">
+    <value>Reclamaciones</value>
+    <comment>phrase: Claims</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ErrorInvalidExternalEmail">
+    <value>El correo electrónico del proveedor externo está equivocado.</value>
+    <comment>Gets Error message for invalid external provider email.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ClaimTypeCaption">
+    <value>Tipo de reclamación</value>
+    <comment>label: Claim type</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExternalProdiverAdditionalScopesCaption">
+    <value>Ámbitos adicionales de reclamaciones que se solicitarán</value>
+    <comment>phrase: Additional scopes of claims to be requested</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AuthCookieSlidingExpirationCaption">
+    <value>Caducidad variable de cookie de autenticación</value>
+    <comment>phrase: Authentication cookie sliding expiration</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExternalProdiverAppIdCaption">
+    <value>ID de la aplicación</value>
+    <comment>phrase: Application Id provided by the corresponding external provider.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EncryptionKeyDescription">
+    <value>La clave utilizada para cifrar y descifrar los datos transferidos entre el tercero y el Servicio de Token de Seguridad (STS).</value>
+    <comment>phrase: The key used to encrypt and decrypt data transferred between the Relying party and the Security Token Service.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExternalProdiverAppSecretCaption">
+    <value>Secreto de la aplicación</value>
+    <comment>phrase: Application Secret key provided by the corresponding external provider.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CSPScriptSourceDescription">
+    <value>El valor del atributo Fuente de Script. Nota: siempre se incluye 'self'.</value>
+    <comment>phrase: The value of the Script Source attribute. Note: 'self' is always included.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ClaimTypeDescription">
+    <value>El tipo de la reclamación</value>
+    <comment>phrase: The type of the claim</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="StsProviderNameDescription">
+    <value>El nombre del proveedor de STS.</value>
+    <comment>phrase: The name of the STS provider</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="RefreshTokenExpirationDescription">
+    <value>Define el tipo de vencimiento del token de actualización</value>
+    <comment>phrase: Defines the type of the refresh token expiration</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AuthCookieHttpOnlyDescription">
+    <value>Define si la cookie de autenticación solo debe ser http</value>
+    <comment>phrase: Defines if the authentication cookie should be http only</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AuthCookieSecureOptionDescription">
+    <value>Define si se debe obtener la cookie de autenticación</value>
+    <comment>phrase: Defines whether the authentication cookie should be secured</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AdditionalScopesCaption">
+    <value>Ámbitos adicionales de reclamaciones que se solicitarán al STS</value>
+    <comment>phrase: Additional scopes of claims to be requested from the STS</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="RefreshTokenUsageCaption">
+    <value>Tipo de uso del token de actualización</value>
+    <comment>phrase: Refresh token usage type</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LocalProviderNameCaption">
+    <value>Nombre del proveedor local</value>
+    <comment>phrase: Local provider name</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExternalProdiverEnabledDescription">
+    <value>Especifica si el proveedor está habilitado o no.</value>
+    <comment>phrase: Specifies whether the provider is enabled or not.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ApplicationClientNameDescription">
+    <value>El nombre de esta aplicación, cuando se utiliza como cliente para un STS externo</value>
+    <comment>phrase: The name of this application, when used as a client for an external STS</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AuthCookieSecureOptionCaption">
+    <value>Seguridad de cookie de autenticación</value>
+    <comment>label: Authentication cookie security</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="StoreNameDescription">
+    <value>Nombre de la tienda en la que se instaló el certificado.</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AuthCookieSlidingExpirationDescription">
+    <value>Define si la cookie de autenticación tiene caducidad variable</value>
+    <comment>phrase: Defines if the authentication cookie has sliding expiration</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TransientDataCleanupCronSpecDescription">
+    <value>El horario para limpiar datos transitorios, como permisos, tokens, etc. Por ejemplo: 5 * * * * (ejecutar en el minuto 5 de cada hora)</value>
+    <comment>phrase: The schedule for cleaning transient data such as consents, tokens, etc. For example: 5 * * * * (run on the fifth minute of every hour)</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExternalLoginDataProviderCaption">
+    <value>Proveedor de datos</value>
+    <comment>phrase: Data provider for external login users.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AllowAccessToAllScopesCaption">
+    <value>Permitir acceso a todos los ámbitos</value>
+    <comment>phrase: Allow access to all scopes</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CSPFontSourceCaption">
+    <value>Fuente del tipo de letra</value>
+    <comment>phrase: Font Source</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AdfsMetadataAddressCaption">
+    <value>Dirección de metadatos</value>
+    <comment>phrase: Sets the address to retrieve the wsFederation metadata.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="RefreshTokenExpirationCaption">
+    <value>Vencimiento del token de actualización</value>
+    <comment>phrase: Refresh token expiration</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AdfsWtrealmDescription">
+    <value>Establece la URI que identifica al tercero.</value>
+    <comment>phrase: Sets URI that identifies the Relaying Party.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ScopeClaimsDescription">
+    <value>Lista de reclamaciones separada por espacios.</value>
+    <comment>phrase: Space separated list of claims.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="RefreshTokenUsageDescription">
+    <value>Define la manera en que se utilizará el token de actualización</value>
+    <comment>phrase: Defines the way the refresh token will be used</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ClientNameCaption">
+    <value>Nombre del cliente</value>
+    <comment>phrase: Client name</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ErrorInvalidEmailOrPassword">
+    <value>Credenciales incorrectas</value>
+    <comment>Gets Error message for invalid credentials.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="IssuerCaption">
+    <value>Emisor</value>
+    <comment>phrase: Issuer</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ClientEnabledDescription">
+    <value>Determina si el cliente está habilitado</value>
+    <comment>phrase: Determines if the client is enabled</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EnableLoggingTitle">
+    <value>Habilitar inicio de sesión</value>
+    <comment>label: Enable logging</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="WinAuthWtrealmDescription">
+    <value>La URI que identifica al tercero.</value>
+    <comment>phrase: URI that identifies the relaying party.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FieldCaption">
+    <value>Campo Sitefinity</value>
+    <comment>phrase: Defines wich Sitefinity field is mapped to claim's value (in format Profile.&lt;field name&gt;)</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ClaimsToRolesMappingsCaption">
+    <value>Reclamaciones a asignaciones de funciones</value>
+    <comment>phrase: Claims to roles mappings</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExternalProdiverAdditionalScopesDescription">
+    <value>Lista de ámbitos separada por espacios que se solicitará.</value>
+    <comment>phrase: Space separated list of scopes to be requested.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ClaimsToRolesMappingsDescription">
+    <value>Define una colección de asignaciones entre tipo de reclamación y funciones valor a usuario</value>
+    <comment>phrase: Defines a collection of mappings between claim type and value to user roles</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AllowAccessToAllScopesDescription">
+    <value>Determina si se permitirán todos los ámbitos (p. ej., OpenId, Correo electrónico, Perfil, etc.). Para aplicaciones de producción se recomienda usar, en su lugar, los Ámbitos permitidos.</value>
+    <comment>phrase: Determines if all scopes will be allowed (e.g. OpenId, Email, Profile, etc.). For production applications it's recommended to use the Allowed Scopes instead.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="FlowCaption">
+    <value>Flujo de cliente</value>
+    <comment>phrase: Client flow</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="RealmDescription">
+    <value>La URL del territorio (tercero) que se utilizará para la autenticación, p. ej., 'https://mysite.com'</value>
+    <comment>phrase: The url of the realm (relaying party) that will be used for authentication e.g. 'https://mysite.com'</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ErrorNoExternalProviderEmail">
+    <value>Falta el correo electrónico del proveedor externo.</value>
+    <comment>Gets Error message for missing external provider email.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="StsProviderMappingsCaption">
+    <value>Asignaciones del proveedor de STS</value>
+    <comment>phrase: STS provider mappings</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="StsProviderMappingsDescription">
+    <value>Las asignaciones entre el STS y los proveedores locales</value>
+    <comment>phrase: The mappings between the STS and the local providers</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AuthCookieExpirationTimeDescription">
+    <value>Define en minutos el tiempo de vencimiento de la cookie de autenticación</value>
+    <comment>phrase: Defines the expiration time of the authentication cookie in minutes</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="RequireHttpsCaption">
+    <value>Requiere Https</value>
+    <comment>phrase: Require Https</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CallbackPathUriCaption">
+    <value>Ruta de devolución de llamada</value>
+    <comment>phrase: Defines callback path</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ClientSecretsCaption">
+    <value>Secretos del cliente</value>
+    <comment>phrase: Client secrets</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SlidingRefreshTokenLifetimeCaption">
+    <value>Vida útil variable del token de actualización</value>
+    <comment>phrase: Sliding refresh token lifetime</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ErrorNoExternalProviderUserId">
+    <value>Falta el identificador único del proveedor externo.</value>
+    <comment>Gets Error message for invalid external provider user id.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ClientIdCaption">
+    <value>ID de cliente</value>
+    <comment>phrase: Client ID</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExternalProdiverEnabledCaption">
+    <value>Habilitado</value>
+    <comment>phrase: Specifies whether the provider is enabled or not.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExternalProdiverAppIdDescription">
+    <value>El Id de la aplicación proporcionado por el proveedor externo correspondiente.</value>
+    <comment>phrase: Application Id provided by the corresponding external provider.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExternalProdiverAppSecretDescription">
+    <value>Clave secreta de la aplicación proporcionada por el proveedor externo correspondiente.</value>
+    <comment>phrase: Application Secret key provided by the corresponding external provider.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExternalProdiverTitleCaption">
+    <value>Título</value>
+    <comment>phrase: Caption in Sitefinity for the provider (e.g. Login button).</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExternalProdiverTitleDescription">
+    <value>Leyenda en Sitefinity para el proveedor (ej. Botón de inicio de sesión).</value>
+    <comment>phrase: Caption in Sitefinity for the provider (e.g. Login button).</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MappedRolesDescription">
+    <value>Define las funciones asignadas, separadas por comas, p. ej., 'BackendUsers, Editores'</value>
+    <comment>phrase: Defines the mapped roles, separated with comma e.g. 'BackendUsers, Editors'</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CSPFontSourceDescription">
+    <value>El valor del atributo Fuente de Tipo de Letra.</value>
+    <comment>phrase: The value of the Font Source attribute.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="MappedRolesCaption">
+    <value>Funciones asignadas</value>
+    <comment>label: Mapped roles</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ClientSecretsDescription">
+    <value>Define los secretos del cliente</value>
+    <comment>phrase: Defines the client secrets</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CSPScriptSourceCaption">
+    <value>Fuente de Script</value>
+    <comment>phrase: Script Source</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="InludeJwtIdDescription">
+    <value>Si desea incluir una reclamación de ID de JWT en los tokens</value>
+    <comment>phrase: Whether to include a JWT id claim in the tokens</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CookieRememberMeDurationDescription">
+    <value>La duración en segundos de la cookie de autenticación cuando se utiliza la opción Recordarme.</value>
+    <comment>phrase: The duration of the authentication cookie when the remember me option is used, in seconds.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AbsoluteRefreshTokenLifetimeCaption">
+    <value>Vida útil absoluta del token de actualización</value>
+    <comment>phrase: Absolute refresh token lifetime</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CSPStyleSourceCaption">
+    <value>Fuente de estilo</value>
+    <comment>phrase: Style Source</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="IdentityProviderCaption">
+    <value>Proveedor de identidad</value>
+    <comment>phrase: Identity provider</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ResponseTypeCaption">
+    <value>Tipo de respuesta</value>
+    <comment>phrase: Defines the response type</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ErrorPasswordRequired">
+    <value>Se requiere una contraseña.</value>
+    <comment>Gets Error message for missing password.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ClaimValueCaption">
+    <value>Valor de reclamación</value>
+    <comment>label: Claim value</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="RedirectUriDescription">
+    <value>La ruta absoluta al STS local, p. ej. "https://yoursitefinitysite/Sitefinity/Authenticate/OpenID/signin-custom"</value>
+    <comment>phrase: Defines redirect uri</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AllowedScopesCaption">
+    <value>Ámbitos permitidos</value>
+    <comment>phrase: Allowed scopes</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EnableBasicAuthenticationForBackendServicesDescription">
+    <value>Si está establecido en Verdadero, la autenticación básica está habilitada para servicios web backend. De manera predeterminada está deshabilitada.</value>
+    <comment>phrase: When set to true basic authentication is enabled for back-end web services. By default it is disabled.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="StoreLocationCaption">
+    <value>Ubicación de tienda</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="IssuerDescription">
+    <value>La URL del emisor (STS) que se utilizará para la autenticación, p. ej., 'https://mysite.com/authentication/sts'.</value>
+    <comment>phrase: The url of the issuer (STS) that will be used for authentication e.g. 'https://mysite.com/authentication/sts'.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AuthorityDescription">
+    <value>La ruta absoluta del STS externo, p. ej., "https://external-sts-address/"</value>
+    <comment>phrase: The absolute path of the external STS</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="RealmCaption">
+    <value>Territorio</value>
+    <comment>phrase: Realm</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AccessTokenLifetimeCaption">
+    <value>Vida útil del token de acceso</value>
+    <comment>phrase: Access token lifetime</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="IdentityProviderDescription">
+    <value>El nombre del proveedor, p. ej., ADFS. Si no se especifica, la asignación se aplicará a todos los proveedores.</value>
+    <comment>phrase: The name of the provider e.g. ADFS. If not specified, the mapping will be applied for all providers.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EnableLoggingDescription">
+    <value>Indica si el inicio de sesión avanzado del Servidor de identidad está habilitado</value>
+    <comment>phrase: Indicates if the Identity Server advanced logging is enabled</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CSPImageSourceCaption">
+    <value>Fuente de Imagen</value>
+    <comment>phrase: Image Source</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AuthorityCaption">
+    <value>Autoridad</value>
+    <comment>phrase: Defines authority</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AuthorizationCodeLifetimeDescription">
+    <value>Define en segundos la vida útil del código de autorización</value>
+    <comment>phrase: Defines the lifetime of the authorization code in seconds</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="RequireHttpsDescription">
+    <value>Obtiene o establece un valor que indica si se requiere https</value>
+    <comment>phrase: Gets or sets a value indicating whether https is required</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="EnableBasicAuthenticationForBackendServicesCaption">
+    <value>Habilitar autenticación básica para servicios backend</value>
+    <comment>phrase: Enable basic authentication for back-end services</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ScopeTypeCaption">
+    <value>Tipo de ámbito</value>
+    <comment>phrase: Scope type</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SubjectNameDescription">
+    <value>El nombre del sujeto para el que se emitió el certificado</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AccessTokenLifetimeDescription">
+    <value>Define en segundos la vida útil del token de acceso</value>
+    <comment>phrase: Defines the lifetime of the access token in seconds</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AuthenticationProtocolDescription">
+    <value>El protocolo utilizado para autenticarse en el sistema.</value>
+    <comment>phrase: The protocol used to authenticate in the system.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ErrorUserLockedOut">
+    <value>El usuario está bloqueado.</value>
+    <comment>Gets Error message for locked user.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CSPStyleSourceDescription">
+    <value>El valor del atributo Fuente de Estilo. Nota: siempre se incluyen 'self' y 'unsafe-inline'.</value>
+    <comment>phrase: The value of the Style Source attribute. Note: 'self' and 'unsafe-inline' are always included.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AuthCookieExpirationTimeCaption">
+    <value>Hora de vencimiento de cookie de autenticación</value>
+    <comment>phrase: Authentication cookie expiration time</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ScopeNameCaption">
+    <value>Nombre del ámbito</value>
+    <comment>phrase: Scope name</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ScopeNameDescription">
+    <value>El nombre del ámbito</value>
+    <comment>phrase: The name of the scope</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="TransientDataCleanupCronSpecTitle">
+    <value>Horario de limpieza de datos transitorios</value>
+    <comment>phrase: Transient data cleanup schedule</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CSPImageSourceDescription">
+    <value>El valor del atributo Fuente de Imagen.</value>
+    <comment>phrase: The value of the Image Source attribute.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CSPConnectSourceDescription">
+    <value>El valor del atributo Fuente de Conexión.</value>
+    <comment>phrase: The value of the Connect Source attribute.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="WinAuthMetadataAddressDescription">
+    <value>La dirección para recuperar los metadatos de la identidad de Windows (p. ej., https://windowshost.com)</value>
+    <comment>phrase: The address to retrieve the windows identity metadata (e.g. https://windowshost.com)</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="WinAuthMetadataAddressCaption">
+    <value>Dirección de metadatos</value>
+    <comment>phrase: The address to retrieve the windows identity metadata.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExternalProdiverLinkCssClassCaption">
+    <value>Clase css de enlace</value>
+    <comment>phrase: Link CSS class.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExternalProdiverNameDescription">
+    <value>Nombre del proveedor externo.</value>
+    <comment>phrase: External provider name.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="PostLogoutRedirectUriDescription">
+    <value>URL de redireccionamiento después del cierre de sesión, p. ej. "https://yoursitefinitysite". La URL de redireccionamiento después del cierre de sesión debe ser una URL de su sitio y debe estar configurada en la configuración de cliente servidor de identidad de la STS externa como URL de redireccionamiento.</value>
+    <comment>phrase: Defines Post log out redirect URI</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ClientEnabledCaption">
+    <value>Habilitado</value>
+    <comment>Describes configuration element.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AllowedCorsOriginDescription">
+    <value>Define el origen de cors permitidos</value>
+    <comment>phrase: Defines the allowed cors origin</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="StsProviderNameCaption">
+    <value>Nombre del proveedor STS</value>
+    <comment>phrase: STS provider name</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="SlidingRefreshTokenLifetimeDescription">
+    <value>Define en segundos la vida útil variable del token de actualización</value>
+    <comment>phrase: Defines the sliding lifetime of the refresh token in seconds</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="RedirectUriCaption">
+    <value>URL de redireccionamiento</value>
+    <comment>phrase: Defines redirect uri</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AuthorizationCodeLifetimeCaption">
+    <value>Vida útil del código de autorización</value>
+    <comment>phrase: Authorization code lifetime</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CookieRememberMeDurationCaption">
+    <value>Duración de cookie Recordarme</value>
+    <comment>phrase: Cookie remember me duration</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ClaimValueDescription">
+    <value>El valor de la reclamación</value>
+    <comment>phrase: The value of the claim</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ErrorUnexpected">
+    <value>Error inesperado.</value>
+    <comment>Gets Unexpected error message.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="StoreNameCaption">
+    <value>Nombre de tienda certificado</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ErrorNoExternalProviderName">
+    <value>Falta el nombre del proveedor externo.</value>
+    <comment>Gets Error message for invalid external provider.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ErrorUsernameRequired">
+    <value>Es necesario el nombre de usuario.</value>
+    <comment>Gets Error message for missing user name.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="CallbackPathDescription">
+    <value>p. ej. "/Sitefinity/Authenticate/OpenID/signin-custom". Una ruta restringida opcional en la que se debe procesar la devolución de llamada de autenticación. Si no se proporciona y RedirectUrl está disponible, este valor se generará a partir de RedirectUrl.</value>
+    <comment>phrase: An optional constrained path on which to process the authentication callback. If not provided and RedirectUri is available, this value will be generated from RedirectUri.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="LocalProviderNameDescription">
+    <value>El nombre del proveedor local</value>
+    <comment>phrase: The name of the local provider</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AccessTokenTypeDescription">
+    <value>El tipo de token de acceso emitido para este cliente.</value>
+    <comment>phrase: The type of the access token issued for this client.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="RequireConsentDescription">
+    <value>Define si se requerirá permiso (se mostrará la pantalla de permiso para elegir los ámbitos que se permitirán)</value>
+    <comment>phrase: Defines if the consent will be required (consent screen will be displayed to choose which scopes to allow)</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AdditionalScopesDescription">
+    <value>Lista de ámbitos adicionales separada por espacios que se solicitará al STS. De manera predeterminada, el STS devuelve reclamaciones desde los ámbitos siguientes: OpenId, Perfil, rememberMe.</value>
+    <comment>phrase: Space separated list of additional scopes to be requested from the STS. By default the STS returns claims from the following scopes: openid profile rememberMe</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AbsoluteRefreshTokenLifetimeDescription">
+    <value>Define en segundos la vida útil absoluta del token de actualización</value>
+    <comment>phrase: Defines the absolute lifetime of the refresh token in seconds</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AuthCookieHttpOnlyCaption">
+    <value>Cookie de autenticación, solo http</value>
+    <comment>phrase: Authentication cookie http only</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AuthenticationResourcesDescription">
+    <value>Contiene recursos localizables para la interfaz del módulo de autenticación.</value>
+    <comment>The description of this class.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ExternalProdiverAutoAssignedRolesDescription">
+    <value>Especifica las funciones que se asignarán automáticamente a los usuarios registrados con este proveedor (separadas por comas).</value>
+    <comment>phrase: Specifies the roles that will be automatically assigned to users registered with this provider (separated with comma)</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ClientIdDescription">
+    <value>Define el ID del cliente</value>
+    <comment></comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ServicePathDescription">
+    <value>La ruta relativa del STS</value>
+    <comment>phrase: The relative path of the STS</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AuthCookieFromBearerTokenEndpointDescription">
+    <value>El extremo que permite recuperar la cookie de autenticación mediante el uso del token del portador. Si el valor está vacío, no se expone ningún extremo.</value>
+    <comment>phrase: The endpoint that allows retrieving authentication cookie using bearer token. If the value is empty, no endpoint is exposed.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="AuthenticationProtocolCaption">
+    <value>Protocolo de autenticación</value>
+    <comment>phrase: Authentication protocol</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+  <data name="ScopeTypeDescription">
+    <value>El tipo del ámbito.</value>
+    <comment>phrase: The type of the scope.</comment>
+    <lastModified>2025-11-25T20:22:23</lastModified>
+  </data>
+</root>
