@@ -1,0 +1,50 @@
+@model Telerik.Sitefinity.Frontend.Mvc.Models.ContentListViewModel
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+@using Telerik.Sitefinity.Modules.Pages;
+@using Telerik.Sitefinity.Web.DataResolving;
+@using Telerik.Sitefinity.Frontend.Mvc.Models;
+
+
+<div class="@Model.CssClass">
+    @{ int i = 0; }
+    @foreach (var item in Model.Items)
+    {
+        string imageUrl = "";
+        var newsImageField = item.Fields.NewsImage;
+
+        // Extraer imagen de artículo
+        if (newsImageField != null)
+        {
+            if (newsImageField is ItemViewModel ivm)
+            {
+                var inner = ivm.DataItem;
+                if (inner != null)
+                {
+                    imageUrl = (inner as dynamic)?.MediaUrl ?? (inner as dynamic)?.Url;
+                }
+            }
+        }
+
+        var navUrl = HyperLinkHelpers.GetDetailPageUrl(item, ViewBag.DetailsPageId, ViewBag.OpenInSamePage, Model.UrlKeyPrefix);
+        var isOdd = (i % 2 == 1);
+
+        <hr class="featurette-divider" />
+        <div class="row featurette">
+            <div class="col-md-7 @(isOdd ? "order-md-2" : "")">
+                <h2 class="featurette-heading">@item.Fields.Title</h2>
+                <p class="lead">@Html.HtmlSanitize((string)item.Fields.Summary)</p>
+                <p class="lead"><a class="btn btn-light" href="@navUrl">@Html.Resource("FullStory")</a></p>
+            </div>
+            <div class="col-md-5 @(isOdd ? "order-md-1" : "")">
+                @if (!string.IsNullOrEmpty(imageUrl))
+                {
+                    <a href="@navUrl">
+                        <img class="featurette-image img-fluid mx-auto" src="@imageUrl" alt="@item.Fields.Title"/>
+                    </a>
+                }
+            </div>
+        </div>
+        i++;
+    }
+    <hr class="featurette-divider" />
+</div>

@@ -1,0 +1,173 @@
+﻿@using Telerik.Sitefinity.UI.MVC
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers
+@using System.Configuration
+@model SitefinityWebApp.Mvc.Models.LocationFieldModel
+@{
+    var googleKey = ConfigurationManager.AppSettings["GoogleMapsApiKey"] ?? "YOUR_API_KEY"; //get the API Key from Web.config file
+}
+
+<div class="@Model.CssClass form-group" data-sf-role="location-field-container">
+    <label>Pick a location @Model.MetaField.Title</label>
+    <input id="pac-input" class="form-control" type="text" />
+
+    <div id="map" style="height:320px;"></div>
+
+    <div id="infowindow-content" style="display:none;">
+        <img src="" width="16" id="place-icon" />
+        <span id="place-name" class="title"></span><br />
+        <span id="place-address"></span>
+    </div>
+
+    <div>
+        <input id="geoCoordinates" type="hidden" name="@Model.MetaField.FieldName" value="@Model.Value" data-sf-role="location-field-input" />
+    </div>
+</div>
+
+<style>
+    /* keep a reasonable explicit height so the map is visible inside the form */
+    #map {
+        width: 100%;
+        height: 320px;
+    }
+    /* kept other styles minimal to avoid collapsing; remove global html/body height rules here */
+    #infowindow-content .title {
+        font-weight: bold;
+    }
+</style>
+
+@Html.Script(Telerik.Sitefinity.Modules.Pages.ScriptRef.JQuery, "top", false)
+<script src="~/Mvc/Scripts/LocationField/ExtendFormLocationField.js"></script>
+<!-- Replace YOUR_API_KEY with a valid key. Use async & defer and callback so initMap runs when API is ready -->
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=@googleKey&libraries=places&callback=initMap"></script>
+
+<script type="text/javascript">
+    function initMap() {
+        // safe guards for elements that may not exist in your markup
+        var mapEl = document.getElementById("map");
+        var input = document.getElementById("pac-input");
+        if (!mapEl || !input) {
+            console.warn("LocationField: missing #map or #pac-input, skipping init.");
+            return;
+        }
+
+        var map = new google.maps.Map(mapEl, {
+            center: { lat: 40.749933, lng: -73.98633 },
+            zoom: 13,
+            mapTypeControl: false
+        });
+
+        // optional elements — check for existence before using them
+        var card = document.getElementById("pac-card");
+        if (card) {
+            map.controls[google.maps.ControlPosition.TOP_LEFT].push(card);
+        }
+
+        var options = {
+            fields: ["formatted_address", "geometry", "name"],
+            strictBounds: false
+        };
+
+        var autocomplete = new google.maps.places.Autocomplete(input, options);
+        autocomplete.bindTo("bounds", map);
+
+        var infowindow = new google.maps.InfoWindow();
+        var infowindowContent = document.getElementById("infowindow-content");
+        if (infowindowContent) {
+            infowindow.setContent(infowindowContent);
+        }
+
+        var marker = new google.maps.Marker({
+            map: map,
+            anchorPoint: new google.maps.Point(0, -29)
+        });
+
+        autocomplete.addListener("place_changed", function () {
+            infowindow.close();
+            marker.setVisible(false);
+
+            var place = autocomplete.getPlace();
+            if (!place || !place.geometry || !place.geometry.location) {
+                window.alert("No details available for input: '" + (place && place.name ? place.name : input.value) + "'");
+                return;
+            }
+
+            if (place.geometry.viewport) {
+                map.fitBounds(place.geometry.viewport);
+            } else {
+                map.setCenter(place.geometry.location);
+                map.setZoom(17);
+            }
+
+            marker.setPosition(place.geometry.location);
+            marker.setVisible(true);
+
+            // populate infowindow elements using safe getters
+            var placeNameEl = document.getElementById("place-name");
+            var placeAddressEl = document.getElementById("place-address");
+            if (placeNameEl) placeNameEl.textContent = place.name || "";
+            if (placeAddressEl) placeAddressEl.textContent = place.formatted_address || "";
+            if (infowindowContent) infowindow.open(map, marker);
+
+            // set the hidden input value (lat,lng) and trigger change so form rules can run
+            var geoInput = document.getElementById("geoCoordinates");
+            if (geoInput) {
+                var lat = place.geometry.location.lat();
+                var lng = place.geometry.location.lng();
+                geoInput.value = lat + "," + lng;
+                // trigger change via jQuery if available, so ExtendFormLocationField.js handler runs
+                if (window.jQuery) {
+                    window.jQuery(geoInput).trigger("change");
+                } else {
+                    var evt = document.createEvent("HTMLEvents");
+                    evt.initEvent("change", true, false);
+                    geoInput.dispatchEvent(evt);
+                }
+            }
+        });
+
+        // optional filter controls - make safe (they may not exist in your markup)
+        function setupClickListener(id, types) {
+            var radioButton = document.getElementById(id);
+            if (!radioButton) return;
+            radioButton.addEventListener("click", function () {
+                autocomplete.setTypes(types);
+                input.value = "";
+            });
+        }
+        setupClickListener("changetype-all", []);
+        setupClickListener("changetype-address", ["address"]);
+        setupClickListener("changetype-establishment", ["establishment"]);
+        setupClickListener("changetype-geocode", ["geocode"]);
+        setupClickListener("changetype-cities", ["(cities)"]);
+        setupClickListener("changetype-regions", ["(regions)"]);
+
+        var biasInputElement = document.getElementById("use-location-bias");
+        var strictBoundsInputElement = document.getElementById("use-strict-bounds");
+        if (biasInputElement) {
+            biasInputElement.addEventListener("change", function () {
+                if (biasInputElement.checked) {
+                    autocomplete.bindTo("bounds", map);
+                } else {
+                    autocomplete.unbind("bounds");
+                    autocomplete.setBounds({ east: 180, west: -180, north: 90, south: -90 });
+                    if (strictBoundsInputElement) strictBoundsInputElement.checked = false;
+                }
+                input.value = "";
+            });
+        }
+
+        if (strictBoundsInputElement) {
+            strictBoundsInputElement.addEventListener("change", function () {
+                autocomplete.setOptions({ strictBounds: strictBoundsInputElement.checked });
+                if (strictBoundsInputElement.checked && biasInputElement) {
+                    biasInputElement.checked = true;
+                    autocomplete.bindTo("bounds", map);
+                }
+                input.value = "";
+            });
+        }
+    }
+
+    // expose for Google Maps callback
+    window.initMap = initMap;
+</script>

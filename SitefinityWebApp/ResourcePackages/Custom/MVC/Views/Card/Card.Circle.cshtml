@@ -1,0 +1,28 @@
+@model Telerik.Sitefinity.Frontend.Card.Mvc.Models.Card.CardViewModel
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers
+
+@{
+    var imageWidth = Model.SelectedImageWidth != null ? string.Format("width={0}", Model.SelectedImageWidth) : string.Empty;
+    var imageHeight = Model.SelectedImageHeight != null ? string.Format("height={0}", Model.SelectedImageHeight) : string.Empty;
+}
+
+<div class="@Model.CssClass container">
+    <img src="@Model.SelectedSizeUrl" class="rounded-circle" alt="@Model.ImageAlternativeText" width="140" height="140" />
+    @if (!string.IsNullOrEmpty(Model.Heading))
+    {
+        <h1 data-darkreader-inline-color="" data-darkreader-inline-bgimage="" data-darkreader-inline-bgcolor="">
+            <em>@Html.HtmlSanitize(Model.Heading)</em>
+        </h1>
+    }
+    @if (!string.IsNullOrEmpty(Model.Description))
+    {<p data-darkreader-inline-bgimage="" data-darkreader-inline-bgcolor="" data-darkreader-inline-color="">
+            @Html.HtmlSanitize(Model.Description)
+        </p>
+    }
+    @if (!string.IsNullOrEmpty(Model.ActionName))
+    {
+        <a class="btn btn-primary btn-lg" href="@Html.UrlSanitize(Model.ActionUrl)" role="button">@Model.ActionName</a>
+    }
+
+
+</div>
