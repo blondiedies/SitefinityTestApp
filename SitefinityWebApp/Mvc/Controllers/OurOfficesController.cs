@@ -27,5 +27,15 @@ namespace SitefinityWebApp.Mvc.Controllers
             var viewModel = officeModel.GetOfficesViewModel();
             return View("Index", viewModel);
         }
+
+        /// <summary>
+        /// Crea una Oficina mediante Native API.
+        /// </summary>
+        /// <returns></returns>
+        [HttpPost]
+        public ActionResult CreateOffice() {
+            ViewBag.Result=officeModel.CreateOffice();
+            return View("OfficeResult");
+        }
     }
 }

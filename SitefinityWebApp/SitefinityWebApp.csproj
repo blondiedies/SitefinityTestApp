@@ -1472,6 +1472,7 @@
     <Content Include="Mvc\Views\LocationField\Read.Default.cshtml" />
     <Content Include="Mvc\Views\Articles\ArticlesList.cshtml" />
     <Content Include="Mvc\Views\OurOffices\Index.cshtml" />
+    <Content Include="Mvc\Views\OurOffices\OfficeResult.cshtml" />
     <None Include="packages.config" />
     <Content Include="Sitefinity\ExternalLibraries\LibWebP\libwebp_x86.sflib" />
     <Content Include="Sitefinity\ExternalLibraries\LibWebP\libwebp_x64.sflib" />
