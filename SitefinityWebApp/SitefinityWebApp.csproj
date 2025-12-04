@@ -100,16 +100,16 @@
       <HintPath>..\packages\EnyimMemcached.2.16.0\lib\net35\Enyim.Caching.dll</HintPath>
     </Reference>
     <Reference Include="GraphQL, Version=5.1.1.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>..\packages\Progress.Sitefinity.GraphQL.15.3.8500\lib\net48\GraphQL.dll</HintPath>
+      <HintPath>..\packages\Progress.Sitefinity.GraphQL.15.4.8621\lib\net48\GraphQL.dll</HintPath>
     </Reference>
     <Reference Include="GraphQL.DataLoader, Version=5.1.1.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>..\packages\Progress.Sitefinity.GraphQL.15.3.8500\lib\net48\GraphQL.DataLoader.dll</HintPath>
+      <HintPath>..\packages\Progress.Sitefinity.GraphQL.15.4.8621\lib\net48\GraphQL.DataLoader.dll</HintPath>
     </Reference>
     <Reference Include="GraphQL.NewtonsoftJson, Version=5.1.1.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>..\packages\Progress.Sitefinity.GraphQL.15.3.8500\lib\net48\GraphQL.NewtonsoftJson.dll</HintPath>
+      <HintPath>..\packages\Progress.Sitefinity.GraphQL.15.4.8621\lib\net48\GraphQL.NewtonsoftJson.dll</HintPath>
     </Reference>
     <Reference Include="GraphQLParser, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>..\packages\Progress.Sitefinity.GraphQL.15.3.8500\lib\net48\GraphQLParser.dll</HintPath>
+      <HintPath>..\packages\Progress.Sitefinity.GraphQL.15.4.8621\lib\net48\GraphQLParser.dll</HintPath>
     </Reference>
     <Reference Include="Html2Amp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <HintPath>..\packages\Progress.Sitefinity.HtmlToAmp.2.0.2\lib\net48\Html2Amp.dll</HintPath>
@@ -349,6 +349,9 @@
     <Reference Include="Microsoft.WindowsAzure.ServiceRuntime, Version=2.7.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Sitefinity.Windows.Azure.2.0.0.4\lib\net40\Microsoft.WindowsAzure.ServiceRuntime.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Storage, Version=9.3.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\WindowsAzure.Storage.9.3.3\lib\net45\Microsoft.WindowsAzure.Storage.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.WindowsAzure.StorageClient, Version=1.7.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Sitefinity.Windows.Azure.2.0.0.4\lib\net40\Microsoft.WindowsAzure.StorageClient.dll</HintPath>
     </Reference>
@@ -443,7 +446,6 @@
     <Reference Include="System.Linq.Async, Version=5.1.0.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Linq.Async.5.1.0\lib\net461\System.Linq.Async.dll</HintPath>
     </Reference>
-    <Reference Include="System.Memory" />
     <Reference Include="System.Memory, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Memory.4.6.0\lib\net462\System.Memory.dll</HintPath>
     </Reference>
@@ -458,7 +460,6 @@
     </Reference>
     <Reference Include="System.Net.Http.WebRequest" />
     <Reference Include="System.Numerics" />
-    <Reference Include="System.Numerics.Vectors" />
     <Reference Include="System.Numerics.Vectors, Version=4.1.5.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Numerics.Vectors.4.6.0\lib\net462\System.Numerics.Vectors.dll</HintPath>
     </Reference>
@@ -489,7 +490,6 @@
     <Reference Include="System.Text.Encoding.CodePages, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Text.Encoding.CodePages.6.0.0\lib\net461\System.Text.Encoding.CodePages.dll</HintPath>
     </Reference>
-    <Reference Include="System.Text.Encodings.Web" />
     <Reference Include="System.Text.Encodings.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Text.Encodings.Web.8.0.0\lib\net462\System.Text.Encodings.Web.dll</HintPath>
     </Reference>
@@ -618,20 +618,23 @@
     <Reference Include="Telerik.Sitefinity.AdminBridge, Version=15.4.8621.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <HintPath>..\packages\Progress.Sitefinity.AdminBridge.15.4.8621\lib\net48\Telerik.Sitefinity.AdminBridge.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.AIServiceConnector, Version=15.3.8500.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>..\packages\Progress.Sitefinity.AIServiceConnector.15.3.8500\lib\net48\Telerik.Sitefinity.AIServiceConnector.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.AIServiceConnector, Version=15.4.8621.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>..\packages\Progress.Sitefinity.AIServiceConnector.15.4.8621\lib\net48\Telerik.Sitefinity.AIServiceConnector.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Amazon, Version=15.3.8500.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>..\packages\Telerik.Sitefinity.Amazon.15.3.8500\lib\net48\Telerik.Sitefinity.Amazon.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Amazon, Version=15.4.8621.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>..\packages\Telerik.Sitefinity.Amazon.15.4.8621\lib\net48\Telerik.Sitefinity.Amazon.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Audit.Elasticsearch, Version=15.3.8500.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>..\packages\Telerik.Sitefinity.Audit.Elasticsearch.15.3.8500\lib\net48\Telerik.Sitefinity.Audit.Elasticsearch.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Audit.Elasticsearch, Version=15.4.8621.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>..\packages\Telerik.Sitefinity.Audit.Elasticsearch.15.4.8621\lib\net48\Telerik.Sitefinity.Audit.Elasticsearch.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.AuditTrail, Version=15.3.8500.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>..\packages\Telerik.Sitefinity.AuditTrail.15.3.8500\lib\net48\Telerik.Sitefinity.AuditTrail.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.AuditTrail, Version=15.4.8621.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>..\packages\Telerik.Sitefinity.AuditTrail.15.4.8621\lib\net48\Telerik.Sitefinity.AuditTrail.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Authentication, Version=15.4.8621.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <HintPath>..\packages\Progress.Sitefinity.Authentication.15.4.8621\lib\net48\Telerik.Sitefinity.Authentication.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Sitefinity.Azure, Version=15.4.8621.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>..\packages\Telerik.Sitefinity.Azure.15.4.8621\lib\net48\Telerik.Sitefinity.Azure.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Connectivity, Version=15.4.8621.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <HintPath>..\packages\Telerik.Sitefinity.Connectivity.15.4.8621\lib\net48\Telerik.Sitefinity.Connectivity.dll</HintPath>
@@ -645,14 +648,14 @@
     <Reference Include="Telerik.Sitefinity.DataIntelligenceConnector, Version=15.4.8621.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <HintPath>..\packages\Telerik.Sitefinity.DigitalExperienceCloudConnector.15.4.8621\lib\net48\Telerik.Sitefinity.DataIntelligenceConnector.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Diagnostics, Version=15.3.8500.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>..\packages\Telerik.Sitefinity.Diagnostics.15.3.8500\lib\net48\Telerik.Sitefinity.Diagnostics.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Diagnostics, Version=15.4.8621.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>..\packages\Telerik.Sitefinity.Diagnostics.15.4.8621\lib\net48\Telerik.Sitefinity.Diagnostics.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.EloquaConnector, Version=15.3.8500.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>..\packages\Progress.Sitefinity.EloquaConnector.15.3.8500\lib\net48\Telerik.Sitefinity.EloquaConnector.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.EloquaConnector, Version=15.4.8621.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>..\packages\Progress.Sitefinity.EloquaConnector.15.4.8621\lib\net48\Telerik.Sitefinity.EloquaConnector.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Forums, Version=15.3.8500.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>..\packages\Progress.Sitefinity.Forums.15.3.8500\lib\net48\Telerik.Sitefinity.Forums.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Forums, Version=15.4.8621.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>..\packages\Progress.Sitefinity.Forums.15.4.8621\lib\net48\Telerik.Sitefinity.Forums.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Frontend, Version=15.4.8621.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <HintPath>..\packages\Telerik.Sitefinity.Feather.Core.15.4.8621\lib\net48\Telerik.Sitefinity.Frontend.dll</HintPath>
@@ -717,23 +720,23 @@
     <Reference Include="Telerik.Sitefinity.Frontend.Taxonomies, Version=15.4.8621.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <HintPath>..\packages\Telerik.Sitefinity.Feather.15.4.8621\lib\net48\Telerik.Sitefinity.Frontend.Taxonomies.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.GraphQL, Version=15.3.8500.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>..\packages\Progress.Sitefinity.GraphQL.15.3.8500\lib\net48\Telerik.Sitefinity.GraphQL.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.GraphQL, Version=15.4.8621.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>..\packages\Progress.Sitefinity.GraphQL.15.4.8621\lib\net48\Telerik.Sitefinity.GraphQL.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.HubSpotConnector, Version=15.3.8500.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>..\packages\Progress.Sitefinity.HubSpotConnector.15.3.8500\lib\net48\Telerik.Sitefinity.HubSpotConnector.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.HubSpotConnector, Version=15.4.8621.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>..\packages\Progress.Sitefinity.HubSpotConnector.15.4.8621\lib\net48\Telerik.Sitefinity.HubSpotConnector.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.IntegrationHub, Version=15.3.8500.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>..\packages\Progress.Sitefinity.IntegrationHub.15.3.8500\lib\net48\Telerik.Sitefinity.IntegrationHub.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.IntegrationHub, Version=15.4.8621.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>..\packages\Progress.Sitefinity.IntegrationHub.15.4.8621\lib\net48\Telerik.Sitefinity.IntegrationHub.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Libraries.WebP, Version=15.3.8500.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>..\packages\Progress.Sitefinity.Libraries.WebP.15.3.8500\lib\net48\Telerik.Sitefinity.Libraries.WebP.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Libraries.WebP, Version=15.4.8621.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>..\packages\Progress.Sitefinity.Libraries.WebP.15.4.8621\lib\net48\Telerik.Sitefinity.Libraries.WebP.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.MarketoConnector, Version=15.3.8500.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>..\packages\Telerik.Sitefinity.MarketoConnector.15.3.8500\lib\net48\Telerik.Sitefinity.MarketoConnector.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.MarketoConnector, Version=15.4.8621.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>..\packages\Telerik.Sitefinity.MarketoConnector.15.4.8621\lib\net48\Telerik.Sitefinity.MarketoConnector.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.MobileFormats, Version=15.3.8500.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>..\packages\Progress.Sitefinity.MobileFormats.15.3.8500\lib\net48\Telerik.Sitefinity.MobileFormats.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.MobileFormats, Version=15.4.8621.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>..\packages\Progress.Sitefinity.MobileFormats.15.4.8621\lib\net48\Telerik.Sitefinity.MobileFormats.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Model, Version=15.4.8621.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <HintPath>..\packages\Telerik.Sitefinity.Core.15.4.8621\lib\net48\Telerik.Sitefinity.Model.dll</HintPath>
@@ -741,8 +744,8 @@
     <Reference Include="Telerik.Sitefinity.Mvc, Version=15.4.8621.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <HintPath>..\packages\Telerik.Sitefinity.Mvc.15.4.8621\lib\net48\Telerik.Sitefinity.Mvc.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Packaging, Version=15.3.8500.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>..\packages\Telerik.Sitefinity.Packaging.15.3.8500\lib\net48\Telerik.Sitefinity.Packaging.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Packaging, Version=15.4.8621.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>..\packages\Telerik.Sitefinity.Packaging.15.4.8621\lib\net48\Telerik.Sitefinity.Packaging.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Personalization, Version=15.4.8621.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <HintPath>..\packages\Telerik.Sitefinity.Core.15.4.8621\lib\net48\Telerik.Sitefinity.Personalization.dll</HintPath>
@@ -750,8 +753,8 @@
     <Reference Include="Telerik.Sitefinity.Personalization.Impl, Version=15.4.8621.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <HintPath>..\packages\Telerik.Sitefinity.ServicesImpl.15.4.8621\lib\net48\Telerik.Sitefinity.Personalization.Impl.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.PrecompiledPages.Backend.0, Version=15.3.8500.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Telerik.Sitefinity.PrecompiledPages.Backend.15.3.8500\lib\net48\Telerik.Sitefinity.PrecompiledPages.Backend.0.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.PrecompiledPages.Backend.0, Version=15.4.8621.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Telerik.Sitefinity.PrecompiledPages.Backend.15.4.8621\lib\net48\Telerik.Sitefinity.PrecompiledPages.Backend.0.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.PrecompiledTemplates, Version=15.4.8621.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Telerik.Sitefinity.PrecompiledTemplates.15.4.8621\lib\net48\Telerik.Sitefinity.PrecompiledTemplates.dll</HintPath>
@@ -759,15 +762,15 @@
     <Reference Include="Telerik.Sitefinity.RecurrentRules, Version=15.4.8621.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <HintPath>..\packages\Telerik.Sitefinity.Content.15.4.8621\lib\net48\Telerik.Sitefinity.RecurrentRules.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.RecycleBin, Version=15.3.8500.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>..\packages\Telerik.Sitefinity.RecycleBin.15.3.8500\lib\net48\Telerik.Sitefinity.RecycleBin.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.RecycleBin, Version=15.4.8621.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>..\packages\Telerik.Sitefinity.RecycleBin.15.4.8621\lib\net48\Telerik.Sitefinity.RecycleBin.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Resources, Version=15.4.8621.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Telerik.Sitefinity.Core.15.4.8621\lib\net48\Telerik.Sitefinity.Resources.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.SalesForceConnector, Version=15.3.8500.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>..\packages\Telerik.Sitefinity.SalesForceConnector.15.3.8500\lib\net48\Telerik.Sitefinity.SalesForceConnector.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.SalesForceConnector, Version=15.4.8621.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>..\packages\Telerik.Sitefinity.SalesForceConnector.15.4.8621\lib\net48\Telerik.Sitefinity.SalesForceConnector.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Search, Version=15.4.8621.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <HintPath>..\packages\Telerik.Sitefinity.Core.15.4.8621\lib\net48\Telerik.Sitefinity.Search.dll</HintPath>
@@ -797,10 +800,10 @@
       <HintPath>..\packages\Telerik.Sitefinity.ServicesImpl.15.4.8621\lib\net48\Telerik.Sitefinity.Services.Notifications.Impl.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Services.RecycleBin, Version=15.4.8621.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>..\packages\Telerik.Sitefinity.Core.15.4.8621\lib\net48\Telerik.Sitefinity.Services.RecycleBin.dll</HintPath>
+      <HintPath>..\packages\Telerik.Sitefinity.RecycleBin.15.4.8621\lib\net48\Telerik.Sitefinity.Services.RecycleBin.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Services.RecycleBin.Impl, Version=15.3.8500.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>..\packages\Telerik.Sitefinity.RecycleBin.15.3.8500\lib\net48\Telerik.Sitefinity.Services.RecycleBin.Impl.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Services.RecycleBin.Impl, Version=15.4.8621.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>..\packages\Telerik.Sitefinity.RecycleBin.15.4.8621\lib\net48\Telerik.Sitefinity.Services.RecycleBin.Impl.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Services.Statistics, Version=15.4.8621.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <HintPath>..\packages\Telerik.Sitefinity.Core.15.4.8621\lib\net48\Telerik.Sitefinity.Services.Statistics.dll</HintPath>
@@ -808,20 +811,20 @@
     <Reference Include="Telerik.Sitefinity.Services.Statistics.Impl, Version=15.4.8621.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <HintPath>..\packages\Telerik.Sitefinity.ServicesImpl.15.4.8621\lib\net48\Telerik.Sitefinity.Services.Statistics.Impl.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.SharepointConnector, Version=15.3.8500.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>..\packages\Telerik.Sitefinity.SharepointConnector.15.3.8500\lib\net48\Telerik.Sitefinity.SharepointConnector.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.SharepointConnector, Version=15.4.8621.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>..\packages\Telerik.Sitefinity.SharepointConnector.15.4.8621\lib\net48\Telerik.Sitefinity.SharepointConnector.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.SitemapGenerator, Version=15.3.8500.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>..\packages\Telerik.Sitefinity.SitemapGenerator.15.3.8500\lib\net48\Telerik.Sitefinity.SitemapGenerator.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.SitemapGenerator, Version=15.4.8621.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>..\packages\Telerik.Sitefinity.SitemapGenerator.15.4.8621\lib\net48\Telerik.Sitefinity.SitemapGenerator.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.SiteSync, Version=15.4.8621.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>..\packages\Telerik.Sitefinity.Core.15.4.8621\lib\net48\Telerik.Sitefinity.SiteSync.dll</HintPath>
+      <HintPath>..\packages\Telerik.Sitefinity.SiteSync.15.4.8621\lib\net48\Telerik.Sitefinity.SiteSync.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.SiteSync.Impl, Version=15.3.8500.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>..\packages\Telerik.Sitefinity.SiteSync.15.3.8500\lib\net48\Telerik.Sitefinity.SiteSync.Impl.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.SiteSync.Impl, Version=15.4.8621.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>..\packages\Telerik.Sitefinity.SiteSync.15.4.8621\lib\net48\Telerik.Sitefinity.SiteSync.Impl.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Translations, Version=15.3.8500.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>..\packages\Telerik.Sitefinity.Translations.15.3.8500\lib\net48\Telerik.Sitefinity.Translations.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.Translations, Version=15.4.8621.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>..\packages\Telerik.Sitefinity.Translations.15.4.8621\lib\net48\Telerik.Sitefinity.Translations.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Utilities, Version=15.4.8621.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <HintPath>..\packages\Telerik.Sitefinity.Core.15.4.8621\lib\net48\Telerik.Sitefinity.Utilities.dll</HintPath>
@@ -829,8 +832,8 @@
     <Reference Include="Telerik.Sitefinity.Web.Api, Version=15.4.8621.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <HintPath>..\packages\Telerik.Sitefinity.Web.Services.15.4.8621\lib\net48\Telerik.Sitefinity.Web.Api.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.WebSecurity, Version=15.3.8500.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
-      <HintPath>..\packages\Progress.Sitefinity.WebSecurity.15.3.8500\lib\net48\Telerik.Sitefinity.WebSecurity.dll</HintPath>
+    <Reference Include="Telerik.Sitefinity.WebSecurity, Version=15.4.8621.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
+      <HintPath>..\packages\Progress.Sitefinity.WebSecurity.15.4.8621\lib\net48\Telerik.Sitefinity.WebSecurity.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Web.Design, Version=2025.3.825.462, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
       <HintPath>..\packages\Progress.Sitefinity.Web.UI.2025.3.825.462\lib\net462\Telerik.Web.Design.dll</HintPath>
@@ -1428,6 +1431,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Mvc\Controllers\ArticlesController.cs" />
+    <Compile Include="Mvc\Controllers\DesignerTestController.cs" />
     <Compile Include="Mvc\Controllers\FlatTaxonomyController.cs" />
     <Compile Include="Mvc\Controllers\LocationFieldController.cs" />
     <Compile Include="Mvc\Controllers\OurOfficesController.cs" />
@@ -1473,6 +1477,9 @@
     <Content Include="Mvc\Views\Articles\ArticlesList.cshtml" />
     <Content Include="Mvc\Views\OurOffices\Index.cshtml" />
     <Content Include="Mvc\Views\OurOffices\OfficeResult.cshtml" />
+    <Content Include="Mvc\Views\OurOffices\DesignerView.Designer.cshtml" />
+    <Content Include="Mvc\Views\OurOffices\DesignerView.Designer.json" />
+    <Content Include="Mvc\Views\DesignerTest\Index.cshtml" />
     <None Include="packages.config" />
     <Content Include="Sitefinity\ExternalLibraries\LibWebP\libwebp_x86.sflib" />
     <Content Include="Sitefinity\ExternalLibraries\LibWebP\libwebp_x64.sflib" />
@@ -1635,14 +1642,14 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Analyzer Include="..\packages\AWSSDK.DynamoDBv2.3.7.403.7\analyzers\dotnet\cs\AWSSDK.DynamoDBv2.CodeAnalysis.dll" />
-    <Analyzer Include="..\packages\AWSSDK.DynamoDBv2.3.7.403.7\analyzers\dotnet\cs\SharedAnalysisCode.dll" />
-    <Analyzer Include="..\packages\AWSSDK.S3.3.7.408\analyzers\dotnet\cs\AWSSDK.S3.CodeAnalysis.dll" />
-    <Analyzer Include="..\packages\AWSSDK.S3.3.7.408\analyzers\dotnet\cs\SharedAnalysisCode.dll" />
-    <Analyzer Include="..\packages\AWSSDK.SQS.3.7.400.57\analyzers\dotnet\cs\AWSSDK.SQS.CodeAnalysis.dll" />
-    <Analyzer Include="..\packages\AWSSDK.SQS.3.7.400.57\analyzers\dotnet\cs\SharedAnalysisCode.dll" />
-    <Analyzer Include="..\packages\AWSSDK.TranscribeService.3.7.400.57\analyzers\dotnet\cs\AWSSDK.TranscribeService.CodeAnalysis.dll" />
-    <Analyzer Include="..\packages\AWSSDK.TranscribeService.3.7.400.57\analyzers\dotnet\cs\SharedAnalysisCode.dll" />
+    <Analyzer Include="..\packages\AWSSDK.DynamoDBv2.3.7.406.17\analyzers\dotnet\cs\AWSSDK.DynamoDBv2.CodeAnalysis.dll" />
+    <Analyzer Include="..\packages\AWSSDK.DynamoDBv2.3.7.406.17\analyzers\dotnet\cs\SharedAnalysisCode.dll" />
+    <Analyzer Include="..\packages\AWSSDK.S3.3.7.405.10\analyzers\dotnet\cs\AWSSDK.S3.CodeAnalysis.dll" />
+    <Analyzer Include="..\packages\AWSSDK.S3.3.7.405.10\analyzers\dotnet\cs\SharedAnalysisCode.dll" />
+    <Analyzer Include="..\packages\AWSSDK.SQS.3.7.400.129\analyzers\dotnet\cs\AWSSDK.SQS.CodeAnalysis.dll" />
+    <Analyzer Include="..\packages\AWSSDK.SQS.3.7.400.129\analyzers\dotnet\cs\SharedAnalysisCode.dll" />
+    <Analyzer Include="..\packages\AWSSDK.TranscribeService.3.7.403.1\analyzers\dotnet\cs\AWSSDK.TranscribeService.CodeAnalysis.dll" />
+    <Analyzer Include="..\packages\AWSSDK.TranscribeService.3.7.403.1\analyzers\dotnet\cs\SharedAnalysisCode.dll" />
     <Analyzer Include="..\packages\Lucene.Net.4.8.0-beta00017\analyzers\dotnet\cs\Lucene.Net.CodeAnalysis.CSharp.dll" />
   </ItemGroup>
   <ItemGroup>
@@ -1698,12 +1705,12 @@
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets'))" />
     <Error Condition="!Exists('..\packages\RazorGenerator.MsBuild.2.4.1\build\RazorGenerator.MsBuild.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\RazorGenerator.MsBuild.2.4.1\build\RazorGenerator.MsBuild.targets'))" />
-    <Error Condition="!Exists('..\packages\Telerik.Licensing.1.6.24\build\Telerik.Licensing.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Telerik.Licensing.1.6.24\build\Telerik.Licensing.targets'))" />
     <Error Condition="!Exists('..\packages\Telerik.Sitefinity.Feather.15.4.8621\build\Telerik.Sitefinity.Feather.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Telerik.Sitefinity.Feather.15.4.8621\build\Telerik.Sitefinity.Feather.targets'))" />
+    <Error Condition="!Exists('..\packages\Telerik.Licensing.1.6.24\build\Telerik.Licensing.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Telerik.Licensing.1.6.24\build\Telerik.Licensing.targets'))" />
   </Target>
   <Import Project="..\packages\RazorGenerator.MsBuild.2.4.1\build\RazorGenerator.MsBuild.targets" Condition="Exists('..\packages\RazorGenerator.MsBuild.2.4.1\build\RazorGenerator.MsBuild.targets')" />
-  <Import Project="..\packages\Telerik.Licensing.1.6.24\build\Telerik.Licensing.targets" Condition="Exists('..\packages\Telerik.Licensing.1.6.24\build\Telerik.Licensing.targets')" />
   <Import Project="..\packages\Telerik.Sitefinity.Feather.15.4.8621\build\Telerik.Sitefinity.Feather.targets" Condition="Exists('..\packages\Telerik.Sitefinity.Feather.15.4.8621\build\Telerik.Sitefinity.Feather.targets')" />
+  <Import Project="..\packages\Telerik.Licensing.1.6.24\build\Telerik.Licensing.targets" Condition="Exists('..\packages\Telerik.Licensing.1.6.24\build\Telerik.Licensing.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

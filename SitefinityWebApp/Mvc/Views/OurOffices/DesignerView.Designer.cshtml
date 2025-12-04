@@ -1,0 +1,61 @@
+﻿@using Telerik.Sitefinity.UI.MVC
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers
+@using System.Configuration
+@using Telerik.Sitefinity.Modules.Pages
+@model dynamic
+
+<sf-designerview>
+    <div class="ng-field">
+        <label>Section Title</label>
+        <input type="text"
+               ng-model="properties.SectionTitle.PropertyValue"
+               class="form-control" />
+    </div>
+
+    <div class="ng-field">
+        <label>Number of Offices</label>
+        <input type="text"
+               ng-model="properties.ItemsCount.PropertyValue"
+               class="form-control" />
+    </div>
+
+    <div class="ng-field">
+        <label>
+            <input type="checkbox"
+                   ng-true-value="'True'"
+                   ng-false-value="'False'"
+                   ng-model="properties.ShowCreateButton.PropertyValue" />
+            Show Create Button
+        </label>
+    </div>
+
+    <div class="ng-field">
+        <label>Filter by Category</label>
+        <select ng-model="properties.OfficeCategory.PropertyValue"
+                class="form-control">
+            <option value="All">All</option>
+            <option value="Headquarters">Headquarters</option>
+            <option value="Branch">Branch</option>
+            <option value="Regional">Regional</option>
+            <option value="Virtual">Virtual</option>
+        </select>
+    </div>
+
+    <div class="ng-field">
+        <label>Header Image</label>
+        <!-- Sitefinity will render a media selector for type:"media" -->
+        <input type="text"
+               ng-model="properties.HeaderImage.PropertyValue"
+               class="form-control"
+               placeholder="Image GUID" />
+    </div>
+
+    <div class="ng-field">
+        <label>Event Date</label>
+        <input type="text"
+               ng-model="properties.EventDate.PropertyValue"
+               class="form-control" />
+    </div>
+
+    <sf-designer-actions></sf-designer-actions>
+</sf-designerview>

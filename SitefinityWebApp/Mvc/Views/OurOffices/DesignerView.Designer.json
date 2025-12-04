@@ -1,0 +1,65 @@
+{
+  "views": [
+    {
+      "name": "DesignerView",
+      "templatePath": "~/Mvc/Views/OurOffices/DesignerView.Designer.cshtml",
+      "jsonPath": "~/Mvc/Views/OurOffices/DesignerView.Designer.json"
+    }
+  ],
+
+  "fields": [
+    {
+      "name": "SectionTitle",
+      "title": "Section Title",
+      "type": "text"
+    },
+    {
+      "name": "ItemsCount",
+      "title": "Number of Offices",
+      "type": "number"
+    },
+    {
+      "name": "ShowCreateButton",
+      "title": "Show Create Button",
+      "type": "checkbox"
+    },
+    {
+      "name": "OfficeCategory",
+      "title": "Filter by Category",
+      "type": "dropdown",
+      "options": [
+        {
+          "text": "All",
+          "value": "All"
+        },
+        {
+          "text": "Headquarters",
+          "value": "Headquarters"
+        },
+        {
+          "text": "Branch",
+          "value": "Branch"
+        },
+        {
+          "text": "Regional",
+          "value": "Regional"
+        },
+        {
+          "text": "Virtual",
+          "value": "Virtual"
+        }
+      ]
+    },
+    {
+      "name": "HeaderImage",
+      "title": "Header Image",
+      "type": "media",
+      "mediaType": "Images"
+    },
+    {
+      "name": "EventDate",
+      "title": "Event Date",
+      "type": "date"
+    }
+  ]
+}

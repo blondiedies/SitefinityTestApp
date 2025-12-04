@@ -1,21 +1,35 @@
 ﻿@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
 
 @model List<SitefinityWebApp.Mvc.ViewModels.OfficeViewModel>
+@if (!string.IsNullOrWhiteSpace(ViewBag.SectionTitle))
+{
+    <h1>
+        @ViewBag.SectionTitle
+    </h1>
+}
+@if (ViewBag.HeaderImage != null)
+{
+    <img src="@ViewBag.HeaderImage.ThumbnailUrl" alt="@ViewBag.HeaderImage.Title.Value" />
+}
+<br />
 <div>
     <ul class="list-unstyled row news-list-page">
         @foreach (var office in Model)
-            {
-                <li class="col-md-4">
-                    <h2>@office.Title</h2>
-                    <img src="@office.Picture.LinkedContentUrl" alt="@office.Picture.AlternativeText" class="mb-3" />
-                    <p>@Html.HtmlSanitize(office.Info)</p>
-                </li>
-            }
+        {
+            <li class="col-md-4">
+                <h2>@office.Title</h2>
+                <img src="@office.Picture.LinkedContentUrl" alt="@office.Picture.AlternativeText" class="mb-3" />
+                <p>@Html.HtmlSanitize(office.Info)</p>
+            </li>
+        }
 
 
     </ul>
-    @using (Html.BeginForm("CreateOffice", "OurOffices"))
-            {
-                <button type="submit" class="btn btn-primary">Create Office</button>
-            }
+    @if (ViewBag.ShowCreateButton != null && ViewBag.ShowCreateButton)
+    {
+        using (Html.BeginForm("CreateOffice", "OurOffices"))
+        {
+            <button type="submit" class="btn btn-primary">Create Office</button>
+        }
+    }
 </div>

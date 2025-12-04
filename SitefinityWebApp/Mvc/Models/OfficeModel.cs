@@ -1,5 +1,7 @@
 ﻿
 
+using Progress.Sitefinity.Renderer.Designers.Attributes;
+using Progress.Sitefinity.Renderer.Entities.Content;
 using SitefinityWebApp.Mvc.ViewModels;
 using System;
 using System.Collections.Generic;
@@ -8,6 +10,7 @@ using System.Linq;
 using Telerik.Sitefinity;
 using Telerik.Sitefinity.Configuration;
 using Telerik.Sitefinity.Data;
+using Telerik.Sitefinity.Data.Linq.Dynamic;
 using Telerik.Sitefinity.DynamicModules;
 using Telerik.Sitefinity.DynamicModules.Builder;
 using Telerik.Sitefinity.DynamicModules.Model;
@@ -19,14 +22,11 @@ using Telerik.Sitefinity.Locations;
 using Telerik.Sitefinity.Locations.Configuration;
 using Telerik.Sitefinity.Model;
 using Telerik.Sitefinity.Modules.Libraries;
+using Telerik.Sitefinity.News.Model;
 using Telerik.Sitefinity.RelatedData;
 using Telerik.Sitefinity.Security;
 using Telerik.Sitefinity.Utilities.TypeConverters;
 using Telerik.Sitefinity.Versioning;
-
-using Telerik.Sitefinity.Data.Linq.Dynamic;
-using System.Activities.Statements;
-using Elastic.Clients.Elasticsearch;
 
 namespace SitefinityWebApp.Mvc.Models
 {
@@ -34,11 +34,11 @@ namespace SitefinityWebApp.Mvc.Models
     {
         public Type OfficeType => TypeResolutionService.ResolveType("Telerik.Sitefinity.DynamicTypes.Model.Meettheteam.Office");
 
-        private string ProviderName
+        public string ProviderName
         {
-            get
-                ; set;
+            get; set;
         }
+
         public OfficeModel()
         {
             var dynType = ModuleBuilderManager.GetActiveTypes().FirstOrDefault(t => t.FullTypeName == OfficeType.FullName);
@@ -52,23 +52,27 @@ namespace SitefinityWebApp.Mvc.Models
 
         public List<OfficeViewModel> GetOfficesViewModel()
         {
-            var offices = GetManager().GetDataItems(OfficeType).Where(o=>o.Status == Telerik.Sitefinity.GenericContent.Model.ContentLifecycleStatus.Live && o.Visible);
+            var offices = GetManager().GetDataItems(OfficeType).Where(o => o.Status == Telerik.Sitefinity.GenericContent.Model.ContentLifecycleStatus.Live && o.Visible);
 
             //optimiza la llamada de datos de BD
             offices.SetRelatedDataSourceContext();
 
-            return offices.Select(o=>ToViewModel(o)).OrderBy(i=>i.Title).ToList();
+            return offices.Select(o => ToViewModel(o)).OrderBy(i => i.Title).ToList();
 
         }
+        public List<OfficeViewModel> GetOfficesViewModel(MixedContentContext offices)
+        {
+            return ManagerBase.GetItems(offices, OfficeType.FullName).OfType<DynamicContent>().Select(o=>ToViewModel(o)).ToList();
+        }
 
-        private OfficeViewModel ToViewModel(DynamicContent office)  =>
-        
+        private OfficeViewModel ToViewModel(DynamicContent office) =>
+
             new OfficeViewModel
             {
                 Id = office.Id,
                 Title = office.GetString("Title").Value,
                 Info = office.GetString("Info").Value,
-                Picture= GetImageViewModel(office.GetRelatedItems<Image>("Picture").ToList())
+                Picture = GetImageViewModel(office.GetRelatedItems<Image>("Picture").ToList())
 
             };
 
@@ -77,29 +81,30 @@ namespace SitefinityWebApp.Mvc.Models
             var image = new ImageViewModel();
             if (relatedImages.Any())
             {
-                var relatedImage= relatedImages.First();
-                image.Title=relatedImage.Title;
-                    image.AlternativeText=relatedImage.AlternativeText;
-                    image.ThumbnailUrl=relatedImage.ThumbnailUrl;
-                    image.LinkedContentUrl=relatedImage.Url;
+                var relatedImage = relatedImages.First();
+                image.Title = relatedImage.Title;
+                image.AlternativeText = relatedImage.AlternativeText;
+                image.ThumbnailUrl = relatedImage.ThumbnailUrl;
+                image.LinkedContentUrl = relatedImage.Url;
             }
             return image;
         }
 
         public string CreateOffice()
         {
-            try { 
-            //Código autogenerado por sitefinity:
-            // Set a transaction name and get the version manager
-            var transactionName = "someTransactionName";
-            var versionManager = VersionManager.GetManager(null, transactionName);
+            try
+            {
+                //Código autogenerado por sitefinity:
+                // Set a transaction name and get the version manager
+                var transactionName = "someTransactionName";
+                var versionManager = VersionManager.GetManager(null, transactionName);
 
-            DynamicModuleManager dynamicModuleManager = DynamicModuleManager.GetManager(ProviderName, transactionName);
-            DynamicContent officeItem = dynamicModuleManager.CreateDataItem(OfficeType);
+                DynamicModuleManager dynamicModuleManager = DynamicModuleManager.GetManager(ProviderName, transactionName);
+                DynamicContent officeItem = dynamicModuleManager.CreateDataItem(OfficeType);
 
-            // Set the culture name for the item fields
-            var cultureName = "en";
-            var culture = new CultureInfo(cultureName);
+                // Set the culture name for the item fields
+                var cultureName = "en";
+                var culture = new CultureInfo(cultureName);
 
                 // Wrap the following methods in a using statement using the culture you want to assign to the item
                 using (new CultureRegion(culture))
@@ -147,10 +152,12 @@ namespace SitefinityWebApp.Mvc.Models
                     DynamicContent checkOutOfficeItem = dynamicModuleManager.Lifecycle.CheckOut(officeItem) as DynamicContent;
                     DynamicContent checkInOfficeItem = dynamicModuleManager.Lifecycle.CheckIn(checkOutOfficeItem) as DynamicContent;
                     versionManager.CreateVersion(checkInOfficeItem, false);
-                    TransactionManager.CommitTransaction(transactionName); }
-            
+                    TransactionManager.CommitTransaction(transactionName);
+                }
+
             }
-                catch(Exception e){
+            catch (Exception e)
+            {
                 return e.Message.ToString();
 
             }
