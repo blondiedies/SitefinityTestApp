@@ -1352,11 +1352,7 @@
     <Content Include="GridSystem\Templates\grid-8+4.html" />
     <Content Include="GridSystem\Templates\grid-9+3.html" />
     <Content Include="GridSystem\Templates\grid-alert.html" />
-    <Content Include="Mvc\Controllers\readme.txt" />
-    <Content Include="Mvc\Models\readme.txt" />
     <Content Include="Mvc\Scripts\LocationField\ExtendFormLocationField.js" />
-    <Content Include="Mvc\Views\readme.txt" />
-    <Content Include="Mvc\Views\Shared\readme.txt" />
     <Content Include="ResourcePackages\Bootstrap5\assets\dist\css\main.css" />
     <Content Include="ResourcePackages\Bootstrap5\assets\dist\css\main.min.css" />
     <Content Include="ResourcePackages\Bootstrap5\assets\dist\css\main.min.rtl.css" />
@@ -1399,8 +1395,6 @@
     <Content Include="ResourcePackages\Custom\GridSystem\Templates\grid-8+4.html" />
     <Content Include="ResourcePackages\Custom\GridSystem\Templates\grid-9+3.html" />
     <Content Include="Web.config" />
-    <Content Include="MVC\Views\FlightData\Index.cshtml" />
-    <Content Include="MVC\Views\FeaturedArticleCarousel\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_GlobalResources\FeaturedNewsCarouselResources.designer.cs">
@@ -1432,11 +1426,15 @@
     </Compile>
     <Compile Include="Mvc\Controllers\ArticlesController.cs" />
     <Compile Include="Mvc\Controllers\DesignerTestController.cs" />
+    <Compile Include="Mvc\Controllers\FeaturedArticleCarouselController.cs" />
     <Compile Include="Mvc\Controllers\FlatTaxonomyController.cs" />
+    <Compile Include="Mvc\Controllers\FlightDataController.cs" />
     <Compile Include="Mvc\Controllers\LocationFieldController.cs" />
     <Compile Include="Mvc\Controllers\OurOfficesController.cs" />
     <Compile Include="Mvc\Models\CategoryFilterNewsModel.cs" />
+    <Compile Include="Mvc\Models\FeaturedArticleCarouselModel.cs" />
     <Compile Include="Mvc\Models\FlatTaxonomyModel.cs" />
+    <Compile Include="Mvc\Models\FlightDataModel.cs" />
     <Compile Include="Mvc\Models\LocationFieldModel.cs" />
     <Compile Include="Mvc\Models\OfficeModel.cs" />
     <Compile Include="Mvc\Models\TaxaCount.cs" />
@@ -1446,10 +1444,6 @@
     <Compile Include="Mvc\ViewModels\LaunchViewModel.cs" />
     <Compile Include="Mvc\ViewModels\OfficeViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="MVC\Controllers\FlightDataController.cs" />
-    <Compile Include="MVC\Models\FlightDataModel.cs" />
-    <Compile Include="MVC\Controllers\FeaturedArticleCarouselController.cs" />
-    <Compile Include="MVC\Models\FeaturedArticleCarouselModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="AdminApp\kendo-font-icons.0f48fbe137cdbe1a.ttf" />
@@ -1470,16 +1464,19 @@
     <Content Include="AdminApp\63b8ee5b81329a75.ttf" />
     <Content Include="App_Data\GeoLocation\GeoLite2-City.mmdb" />
     <Content Include="AdminApp\5cc09d33ffb4819f.ttf" />
-    <Content Include="Mvc\Views\FlatTaxonomy\Index.cshtml" />
-    <Content Include="Mvc\Views\TextField\Write.Browsers.cshtml" />
-    <Content Include="Mvc\Views\LocationField\Write.Default.cshtml" />
-    <Content Include="Mvc\Views\LocationField\Read.Default.cshtml" />
     <Content Include="Mvc\Views\Articles\ArticlesList.cshtml" />
-    <Content Include="Mvc\Views\OurOffices\Index.cshtml" />
-    <Content Include="Mvc\Views\OurOffices\OfficeResult.cshtml" />
+    <Content Include="Mvc\Views\DesignerTest\Index.cshtml" />
+    <Content Include="Mvc\Views\FeaturedArticleCarousel\Index.cshtml" />
+    <Content Include="Mvc\Views\FlatTaxonomy\Index.cshtml" />
+    <Content Include="Mvc\Views\FlightData\Index.cshtml" />
+    <Content Include="Mvc\Views\LocationField\Read.Default.cshtml" />
+    <Content Include="Mvc\Views\LocationField\Write.Default.cshtml" />
     <Content Include="Mvc\Views\OurOffices\DesignerView.Designer.cshtml" />
     <Content Include="Mvc\Views\OurOffices\DesignerView.Designer.json" />
-    <Content Include="Mvc\Views\DesignerTest\Index.cshtml" />
+    <Content Include="Mvc\Views\OurOffices\Index.cshtml" />
+    <Content Include="Mvc\Views\OurOffices\OfficeResult.cshtml" />
+    <Content Include="Mvc\Views\TextField\Write.Browsers.cshtml" />
+    <Content Include="Mvc\Views\SystemInfo\Index.cshtml" />
     <None Include="packages.config" />
     <Content Include="Sitefinity\ExternalLibraries\LibWebP\libwebp_x86.sflib" />
     <Content Include="Sitefinity\ExternalLibraries\LibWebP\libwebp_x64.sflib" />
@@ -1672,7 +1669,12 @@
       <LastGenOutput>FlightDataResources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Sitefinity.Training.Web.UI\Sitefinity.Training.Web.UI.csproj">
+      <Project>{86f6ae31-2deb-4d27-bdbe-e758fd794460}</Project>
+      <Name>Sitefinity.Training.Web.UI</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -6,7 +6,6 @@ using Telerik.Sitefinity.Configuration;
 using Telerik.Sitefinity.Data;
 using Telerik.Sitefinity.DynamicModules.Events;
 using Telerik.Sitefinity.Frontend;
-using Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing;
 using Telerik.Sitefinity.Frontend.News.Mvc.Models;
 using Telerik.Sitefinity.Model;
 using Telerik.Sitefinity.Services;
@@ -45,10 +44,10 @@ namespace SitefinityWebApp
         {
             if (e.CommandName == "Bootstrapped")
             {
-                //Configuraciones de endpoints custom
+                //Registro de configuraciones de endpoints custom
                 Config.RegisterSection<IntegrationConfig>();
                 Config.RegisterSection<FeaturedNewsConfig>();
-                //Config de modificaciones al widget News
+                //Config de modificaciones al guardar el widget News
                 FrontendModule.Current.DependencyResolver.Rebind<INewsModel>().To<CategoryFilterNewsModel>();
                
             }

@@ -6,6 +6,9 @@ namespace SitefinityWebApp.Configuration
 {
     public class IntegrationConfig : ConfigSection
     {
+        /// <summary>
+        /// Configuración personalizada
+        /// </summary>
         [ConfigurationProperty("endpoint", IsRequired = true)]
         public string Endpoint
         {
