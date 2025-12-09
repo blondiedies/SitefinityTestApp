@@ -31,7 +31,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-app.UseStaticFiles();
+app.UseStaticFiles(); //permite uso de archivos desde wwwroot
 app.UseRouting();
 app.UseSitefinity();
 

@@ -15,6 +15,7 @@ using Progress.Sitefinity.Renderer.Models;
 using Progress.Sitefinity.RestSdk;
 using Progress.Sitefinity.RestSdk.Client;
 using Progress.Sitefinity.RestSdk.Dto;
+using Progress.Sitefinity.RestSdk.OData;
 using WebApp.ViewModels.Card;
 
 namespace ViewComponents.Card
@@ -26,11 +27,14 @@ namespace ViewComponents.Card
     [SitefinityWidget(Title = "Custom Card Widget", Category = WidgetCategory.Content)]
     public class CardViewComponent : ViewComponent
     {
-        private IRestClient _restClient;
+        //los clientes permiten realizar operaciones CRUD
+        private IRestClient _restClient; //CRUD general
+        private IODataRestClient _odataClient; //Bound o Unbound
         private IStyleClassesProvider _styleClasses;
-        public CardViewComponent(IRestClient client, IStyleClassesProvider styleClasses) {
+        public CardViewComponent(IRestClient client, IStyleClassesProvider styleClasses, IODataRestClient odataClient) {
             _restClient = client;
             _styleClasses = styleClasses;
+            _odataClient = odataClient;
         
         }
         /// <summary>

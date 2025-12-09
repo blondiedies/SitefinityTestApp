@@ -15,6 +15,7 @@
 
     @Html.RenderSeoMeta(this.Model)
 
+    <!--Esta sección permite renderizar diferentes css dependiendo de si está en dev o prod-->
     <environment include="Development">
         <link rel="stylesheet" href="@Progress.Sitefinity.AspNetCore.Constants.PrefixRendererUrl("Styles/bootstrap.css")" />
     </environment>
