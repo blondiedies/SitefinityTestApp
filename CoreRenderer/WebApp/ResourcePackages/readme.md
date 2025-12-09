@@ -1,0 +1,1 @@
+This is where all the custom resource packages are recommended to be placed.
