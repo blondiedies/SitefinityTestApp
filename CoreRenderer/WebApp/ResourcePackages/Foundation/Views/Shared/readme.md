@@ -1,0 +1,1 @@
+Custom page templates using this resource package should go here.

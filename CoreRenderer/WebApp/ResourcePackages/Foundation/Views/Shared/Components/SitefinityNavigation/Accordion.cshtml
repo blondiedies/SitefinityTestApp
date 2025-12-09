@@ -1,0 +1,79 @@
+﻿@using Progress.Sitefinity.AspNetCore.TagHelpers;
+@using Progress.Sitefinity.AspNetCore.Widgets.Models.Navigation;
+@using Progress.Sitefinity.AspNetCore.Models;
+
+@model Progress.Sitefinity.AspNetCore.Widgets.Models.Navigation.NavigationViewModel
+
+<environment include="Development">
+    <script src="ResourcePackages/Foundation/assets/dist/js/foundation.util.keyboard.min.js" section-name="Bottom"></script>
+    <script src="ResourcePackages/Foundation/assets/dist/js/foundation.util.nest.min.js" section-name="Bottom"></script>
+    <script src="ResourcePackages/Foundation/assets/dist/js/foundation.accordionMenu.min.js" section-name="Bottom"></script>
+    <script src="scripts/accordion.js" section-name="Bottom" assembly-ref="Progress.Sitefinity.AspNetCore.Widgets"></script>
+</environment>
+<environment exclude="Development">
+    <script src="ResourcePackages/Foundation/assets/dist/js/foundation.util.keyboard.min.js" section-name="Bottom"></script>
+    <script src="ResourcePackages/Foundation/assets/dist/js/foundation.util.nest.min.js" section-name="Bottom"></script>
+    <script src="ResourcePackages/Foundation/assets/dist/js/foundation.core.min.js" section-name="Bottom"></script>
+    <script src="ResourcePackages/Foundation/assets/dist/js/foundation.accordionMenu.min.js" section-name="Bottom"></script>
+    <script src="scripts/accordion.js" section-name="Bottom" assembly-ref="Progress.Sitefinity.AspNetCore.Widgets"></script>
+</environment>
+
+@{
+    var accordionId = Html.GetUniqueId("accordion");
+}
+
+<div class="row">
+    <ul class="vertical menu accordion-menu" id="@accordionId" data-accordion-menu data-submenu-toggle="true" @Html.BuildAttributes(Model.Attributes)>
+        @foreach (var node in Model.Nodes)
+        {
+            RenderRootLevelNode(node);
+        }
+    </ul>
+</div>
+
+@*Here is specified the rendering for the root level*@
+@{ void RenderRootLevelNode(PageViewModel node)
+    {
+        <li>
+            @{ if (node.ChildNodes.Count > 0)
+                {
+                    var coolapseId = Html.GetUniqueId($"collapse-{node.Key}");
+                            @if (node.PageSiteMapNode.PageType == PageType.Group)
+                            {
+                            <a title="@node.Title" class="text-truncate sc-accordion-link sf-group" target="@node.LinkTarget">@node.Title</a>
+                            }
+                            @if (node.PageSiteMapNode.PageType != PageType.Group)
+                            {
+                            <a title="@node.Title" class="text-truncate sc-accordion-link" href="@node.Url" target="@node.LinkTarget">@node.Title</a>
+                            }
+
+                    RenderSubLevelsRecursive(node);
+                }
+                else
+                {
+                    <a>
+                            <span title="@node.Title" class="text-truncate" href="@node.Url" target="@node.LinkTarget">@node.Title</span>
+                    </a>
+                }
+            }
+        </li>
+    }
+}
+
+@*Here is specified the rendering for all child levels*@
+@{ void RenderSubLevelsRecursive(PageViewModel node, bool nested = false)
+    {
+        @if (node.ChildNodes.Count > 0)
+        {
+            <ul class="menu vertical nested @(nested ? "margin-left-1" : null)">
+                @foreach (var childNode in node.ChildNodes)
+                {
+                    <li>
+                        <a href="@childNode.Url" target="@childNode.LinkTarget">@childNode.Title</a>
+
+                        @{RenderSubLevelsRecursive(childNode, true);}
+                    </li>
+                }
+            </ul>}
+    }
+}
