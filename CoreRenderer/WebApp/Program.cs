@@ -5,7 +5,10 @@ using Microsoft.Extensions.Hosting;
 
 using Progress.Sitefinity.AspNetCore;
 using Progress.Sitefinity.AspNetCore.FormWidgets;
+using Progress.Sitefinity.AspNetCore.ViewComponents;
 using Progress.Sitefinity.AspNetCore.Web.Security;
+using Progress.Sitefinity.AspNetCore.Widgets.Models.ContentList;
+using Renderer.Entities.Extends;
 using WebApp.Utilities;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,6 +20,7 @@ builder.Services.AddFormViewComponentModels();
 
 // Custom services for custom widgets go here:
 builder.Services.AddSingleton<IHtmlSanitizer, CustomHtmlSanitizer>();
+builder.Services.AddSingleton<IEntityExtender, EntityExtender<ContentListEntity, ExtendedContentListEntity>>();
 
 
 var app = builder.Build();

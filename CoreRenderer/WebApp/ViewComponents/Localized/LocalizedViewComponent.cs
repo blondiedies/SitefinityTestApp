@@ -2,7 +2,7 @@
 using Microsoft.Extensions.Localization;
 using Progress.Sitefinity.AspNetCore.ViewComponents;
 
-namespace WebApp.ViewComponents
+namespace WebApp.ViewComponents.Localized
 {
     /// <summary>
     /// Test widget with different kind of restrictions for its properties.

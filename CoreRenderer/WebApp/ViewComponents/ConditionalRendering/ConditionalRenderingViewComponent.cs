@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Progress.Sitefinity.AspNetCore.ViewComponents;
 
-namespace WebApp.ViewComponents
+namespace WebApp.ViewComponents.ConditionalRendering
 {
     /// <summary>
     /// ViewComponent para renderizado condicional en el editor  NET Core.

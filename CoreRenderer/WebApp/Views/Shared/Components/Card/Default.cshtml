@@ -1,0 +1,20 @@
+<!--Widget creado mediante sitefinity CLI: 
+
+dotnet new sitefinity-widget --widget-name "Card" -->
+@using WebApp.ViewModels.Card
+
+@model CardViewModel
+
+<div class="card text-center @Model.Margins">
+    @if (Model.Image != null)
+    {
+        <img src="@Model.Image.Url" class="card-img-top" />
+    }
+    <div class="card-body">
+        <h5 class="card-title">@Model.CardTitle</h5>
+        @if (!string.IsNullOrEmpty(Model.Link))
+        {
+            <a href="@Model.Link" class="btn-@Model.ButtonStyle btn">Click</a>
+        }
+    </div>
+</div>
