@@ -157,4 +157,9 @@
     <comment>Describes configuration element.</comment>
     <lastModified>2025-11-25T20:22:24</lastModified>
   </data>
+  <data name="SecurityHeadersSection">
+    <value>Security headers instruct the client (browser) how to protect the user from security vulnerabilities. They are sent with each successful response from the server. Note: If some of those headers have been applied in the response (e.g. by code or server level configuration) those configured in Sitefinity won't be used to prevent duplications. They are only set if no such header is present already.</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
 </root>

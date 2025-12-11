@@ -587,11 +587,6 @@
     <comment>Message shown in page editor.</comment>
     <lastModified>2025-11-25T20:22:22</lastModified>
   </data>
-  <data name="Modules">
-    <value>Extensiones</value>
-    <comment>Label shown in license info page.</comment>
-    <lastModified>2025-11-25T20:22:22</lastModified>
-  </data>
   <data name="InvalidDomain">
     <value>Dominio no válido</value>
     <comment>Message shown in license info page.</comment>
@@ -641,5 +636,30 @@
     <value>clave de licencia (xx-dígitos)</value>
     <comment>LicenseIdNumberMessage</comment>
     <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="SystemErrorDescription">
+    <value>There are errors with the licensed domain(s). This may result in getting a Trial message on the frontend of your site. The following domain(s) are not registered in your license:</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
+  <data name="ExternalLinkTelerikAccount">
+    <value>https://www.telerik.com/login/v2/telerik</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
+  <data name="PackageAndAddons">
+    <value>Package and add-ons</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
+  <data name="ExternalLinkForgotPassword">
+    <value>https://www.telerik.com/login/v2/telerik</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
+  <data name="InvalidLicenseVersion">
+    <value>The uploaded license file does not match your Sitefinity CMS version. Upload the license file for Sitefinity CMS version {0}.</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
   </data>
 </root>

@@ -1082,4 +1082,204 @@
     <comment>word: DATA TYPE</comment>
     <lastModified>2025-11-25T20:22:13</lastModified>
   </data>
+  <data name="ThisContentItemCannotBeSynced">
+    <value>This content item cannot be synced</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="Synchronizing">
+    <value>Synchronizing</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="TheTemplatesUsedByRelatedPagesOfThisItemWasModifiedFormat">
+    <value>The templates {0} used by related pages of this item were modified. To sync the content item, first sync page template changes.</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="MigrationMode">
+    <value>Migration mode</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="AllChangesToThisContentItemOnlySynced">
+    <value>All changes to this item will be synced to</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="TheTemplateUsedByThisPageOrRelatedPageWasModifiedFormat">
+    <value>The template {0} was modified. This page or its related pages are based on the modified template. To sync page content, first sync page template changes.</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="PermissionSetDescription">
+    <value>Represents Site Sync module permissions.</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="AllChangesToThisContentItem">
+    <value>All changes to this item will be published and then synced to</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="ThisPageCannotBeSynced">
+    <value>This page cannot be synced</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="Initializing">
+    <value>Initializing</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="SingleItemSynchronizationDescription">
+    <value>Enable users to promote individual pages or content items to the next environment.</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="ExternalLinkMigrateSingleSiteToMultisite">
+    <value>https://www.progress.com/documentation/sitefinity-cms/migrate-a-single-site-to-a-multisite-instance</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="SyncPropertiesTitle">
+    <value>Sync properties</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="ReadOnlyDocumentationLinkText">
+    <value>Learn how to turn off read-only mode</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="SyncContentTitle">
+    <value>Sync content</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="ReadOnlyModeMessage">
+    <value>Your configuration is in read-only mode. This mode restricts writing to configuration files and hides pages from the backend used for modifying configurations such as SiteSync.</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="TheTemplatesUsedByThisPageOrItsRelatedPagesWasModifiedFormat">
+    <value>The templates {0} were modified. This page or its related pages are based on the modified template. To sync page content, first sync page template changes.</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="TheTargetServerIsRestartingTryAgain">
+    <value>The target server was in a process of restart.Try again later.</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="SystemStatusServerMessage">
+    <value>{0} (Server: {1})</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="TheTemplateUsedByRelatedPageOfThisItemWasModifiedFormat">
+    <value>The template {0} used by a related page of this item was modified. To sync the content item, first sync page template changes.</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="EnableSingleItemSyncQueueTitle">
+    <value>Enable queueing of single item sync tasks</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="SyncedOn">
+    <value>Synced on</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="ContactYourSiteAdministratorToSyncPageTemplates">
+    <value>Contact your site Administrator to sync page templates.</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="EnableSingleItemSyncQueueDescription">
+    <value>If set to true, when syncing through the Publish and sync option, the sync will wait until all other Publish and sync operations are completed. Loading will be presented until the original operation completes. If set to false, in case there is a running sync operation, the Publish and sync will fail and will have to be retried.</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="ExternalLinkSiteSynchronizationKey">
+    <value>https://www.progress.com/documentation/sitefinity-cms/site-synchronization-key</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="CheckingDependencies">
+    <value>Checking dependencies</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="TheTemplateUsedByThisPageWasModifiedFormat">
+    <value>The template "{0}" used by this page was modified. To sync page content, first sync page template changes.</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="PageTemplatesCanOnlyBeSyncedFrom">
+    <value>Page templates can only be synced from &amp;nbsp &lt;a href="{0}"&gt;Administration &gt; Site Sync&lt;/a&gt;.</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="MigrationModeTooltip">
+    <value>Use Migration mode when you transfer all of your existing site data to a new Sitefinity instance. To transfer settings, you need to transfer your configuration file manually.</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="SitePropertiesAndConfiguredModules">
+    <value>Site properties</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="EnableMigrationModeOptionTitle">
+    <value>Enable migration mode</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="SiteSyncCannotBeEnabled">
+    <value>SiteSync cannot be enabled</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="AllChangesToThisPage">
+    <value>All changes to this page will be published and then synced to</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="AllChangesToThisPageOnlySynced">
+    <value>All changes to this page will be synced to</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="SingleItemSynchronization">
+    <value>Sync individual pages and content items</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="ExternalLinkSynchronizingData">
+    <value>https://www.progress.com/documentation/sitefinity-cms/synchronize-data-between-two-servers</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="ChangePermissionsActionDescription">
+    <value>Enables users to change the permissions for Site Sync module.</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="SyncChangesTitle">
+    <value>Publish and sync</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="EnableMigrationModeOptionDescription">
+    <value>Enables the usage of Migration mode when adding а server for site sync. Use Migration mode when you transfer all of your existing site data to a new Sitefinity instance.</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="ReadOnlyDocumentationLinkUrl">
+    <value>https://www.progress.com/documentation/sitefinity-cms/read-only-mode-of-configurations</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
 </root>

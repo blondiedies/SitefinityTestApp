@@ -955,4 +955,14 @@ Si publica el elemento, también se publicarán todas las traducciones. ¿Está 
     <comment>phrase: Alphabetically (A-Z)</comment>
     <lastModified>2025-11-25T20:22:14</lastModified>
   </data>
+  <data name="AndMoreAreasFormat">
+    <value>and {0} more areas</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
+  <data name="Separator">
+    <value>,</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
 </root>

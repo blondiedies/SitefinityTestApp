@@ -1032,4 +1032,9 @@
     <comment>phrase: Are you sure you want to change {0} used by selected site(s)?</comment>
     <lastModified>2025-11-25T20:22:22</lastModified>
   </data>
+  <data name="ExternalLinkCategoriesTags">
+    <value>https://docs.sitefinity.com/overview-classify-your-content-using-taxonomies</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
 </root>

@@ -547,4 +547,9 @@
     <comment>Label: Index Folder</comment>
     <lastModified>2025-11-25T20:22:22</lastModified>
   </data>
+  <data name="Indexing">
+    <value>Indexing...</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
 </root>

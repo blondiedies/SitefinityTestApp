@@ -327,4 +327,9 @@
     <comment>The plural title of this class.</comment>
     <lastModified>2025-11-25T20:22:23</lastModified>
   </data>
+  <data name="ScoringProfileHasBeenDeleted">
+    <value>scoring profile has been deleted. Select different scoring profile or create a new one.</value>
+    <comment>El perfil de puntuación se ha eliminado. Seleccione un perfil de puntuación diferente o cree uno nuevo.</comment>
+    <lastModified>2025-12-11T15:26:43</lastModified>
+  </data>
 </root>

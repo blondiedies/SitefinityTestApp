@@ -2057,4 +2057,44 @@
     <comment>Phrase: Page for Posts of each thread</comment>
     <lastModified>2025-11-25T20:22:23</lastModified>
   </data>
+  <data name="TemplateLinkResolutionHostTitle">
+    <value>Resolution host for links in email template.</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
+  <data name="EditEmailTemplate">
+    <value>Edit email template</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
+  <data name="NewPosts">
+    <value>New posts</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
+  <data name="NewThreads">
+    <value>New threads</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
+  <data name="BackToForumsSettings">
+    <value>Back to Forums settings</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
+  <data name="AutomaticSubscriptionWhenPostingDescription">
+    <value>Authors of threads are automatically subscribed to notifications for new posts in their threads. If this setting is not enabled, when creating a new thread, authors will have the option to select whether they want to receive notifications or not.</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
+  <data name="TemplateLinkResolutionHostDescription">
+    <value>If you want links in email notifications to use a domain other than the domain of the site, on which threads and posts are submitted, enter the desired domain name here without http:// or https://</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
+  <data name="AutomaticSubscriptionWhenPostingTitle">
+    <value>Authors are automatically subscribed to their threads.</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
 </root>

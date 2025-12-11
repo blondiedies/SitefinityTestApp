@@ -288,9 +288,9 @@
     <lastModified>2025-11-25T20:22:21</lastModified>
   </data>
   <data name="ABCampaignReportHtmlTitle">
-    <value>informe de prueba A/B</value>
-    <comment>Html title of the A/B test report page</comment>
-    <lastModified>2025-11-25T20:22:21</lastModified>
+    <value>Informe de prueba A/B</value>
+    <comment>Informe de prueba A/B</comment>
+    <lastModified>2025-12-11T15:26:40</lastModified>
   </data>
   <data name="PlainText">
     <value>Texto sin formato</value>
@@ -668,9 +668,9 @@
     <lastModified>2025-11-25T20:22:21</lastModified>
   </data>
   <data name="ABCampaignReportPage">
-    <value>informe de prueba A/B</value>
-    <comment>Title of the A/B test report page</comment>
-    <lastModified>2025-11-25T20:22:21</lastModified>
+    <value>Informe de prueba A/B</value>
+    <comment>Informe de prueba A/B</comment>
+    <lastModified>2025-12-11T15:26:40</lastModified>
   </data>
   <data name="TxtFile">
     <value>archivo .txt</value>
@@ -923,9 +923,9 @@
     <lastModified>2025-11-25T20:22:21</lastModified>
   </data>
   <data name="ABCampaignsDescription">
-    <value>página de pruebas A/B</value>
-    <comment>Description of the A/B tests page</comment>
-    <lastModified>2025-11-25T20:22:21</lastModified>
+    <value>Página de pruebas A/B</value>
+    <comment>Página de pruebas A/B</comment>
+    <lastModified>2025-12-11T15:26:40</lastModified>
   </data>
   <data name="ABCampaignType">
     <value>Prueba A/B</value>
@@ -1328,14 +1328,14 @@
     <lastModified>2025-11-25T20:22:21</lastModified>
   </data>
   <data name="AbTestReportTitle">
-    <value>informe de prueba A/B</value>
-    <comment>Title of the A/B test report page of the Email Campaigns module.</comment>
-    <lastModified>2025-11-25T20:22:21</lastModified>
+    <value>Informe de Prueba A/B</value>
+    <comment>Informe de Prueba A/B</comment>
+    <lastModified>2025-12-11T15:26:40</lastModified>
   </data>
   <data name="AbCampaignReportTitle">
-    <value>título de informe de prueba A/B</value>
-    <comment>Title of the A/B test report</comment>
-    <lastModified>2025-11-25T20:22:21</lastModified>
+    <value>Título de Informe de Prueba A/B</value>
+    <comment>Título de Informe de Prueba A/B</comment>
+    <lastModified>2025-12-11T15:26:40</lastModified>
   </data>
   <data name="TestMessageBody">
     <value>Este es un mensaje de prueba enviado desde el módulo de boletines de Sitefinity para verificar su configuración SMTP. Su configuración de SMTP está funcionando correctamente.</value>
@@ -2098,9 +2098,9 @@
     <lastModified>2025-11-25T20:22:21</lastModified>
   </data>
   <data name="ABCampaignsHtmlTitle">
-    <value>pruebas A/B</value>
-    <comment>Html title of the A/B tests page</comment>
-    <lastModified>2025-11-25T20:22:21</lastModified>
+    <value>Pruebas A/B</value>
+    <comment>Pruebas A/B</comment>
+    <lastModified>2025-12-11T15:26:40</lastModified>
   </data>
   <data name="UnsubscribeDesignerSelectListDescription">
     <value>Seleccionar la lista de correo de la que se dará de baja el usuario.</value>
@@ -2328,9 +2328,9 @@
     <lastModified>2025-11-25T20:22:21</lastModified>
   </data>
   <data name="ABCampaignsTitle">
-    <value>pruebas A/B</value>
-    <comment>Title of the A/B tests page</comment>
-    <lastModified>2025-11-25T20:22:21</lastModified>
+    <value>Pruebas A/B</value>
+    <comment>Pruebas A/B</comment>
+    <lastModified>2025-12-11T15:26:40</lastModified>
   </data>
   <data name="UnsubscribeStatisticsComparison">
     <value>{0}% de tasa de cancelación en comparación con el {1}% de la edición anterior</value>
@@ -2863,9 +2863,9 @@
     <lastModified>2025-11-25T20:22:21</lastModified>
   </data>
   <data name="ABCampaignReportUrlName">
-    <value>informe</value>
-    <comment>Url name of the A/B test report page</comment>
-    <lastModified>2025-11-25T20:22:21</lastModified>
+    <value>Informe</value>
+    <comment>Informe</comment>
+    <lastModified>2025-12-11T15:26:40</lastModified>
   </data>
   <data name="TimesForwarded">
     <value>Veces que fue enviado</value>
@@ -3208,9 +3208,9 @@
     <lastModified>2025-11-25T20:22:21</lastModified>
   </data>
   <data name="AbTestReportHtmlTitle">
-    <value>informe de prueba A/B</value>
-    <comment>Html title of the A/B test report page of the Email Campaigns module.</comment>
-    <lastModified>2025-11-25T20:22:21</lastModified>
+    <value>Informe de Prueba A/B</value>
+    <comment>Informe de Prueba A/B</comment>
+    <lastModified>2025-12-11T15:26:40</lastModified>
   </data>
   <data name="CommaSeparatedList">
     <value>Separado por coma</value>
@@ -3258,9 +3258,9 @@
     <lastModified>2025-11-25T20:22:21</lastModified>
   </data>
   <data name="ABCampaigns">
-    <value>pruebas A/B</value>
-    <comment>phrase: A/B tests</comment>
-    <lastModified>2025-11-25T20:22:21</lastModified>
+    <value>Pruebas A/B</value>
+    <comment>Pruebas A/B</comment>
+    <lastModified>2025-12-11T15:26:40</lastModified>
   </data>
   <data name="ReplyToEmailDescription">
     <value>Sus respuestas irán a esta dirección de correo electrónico.</value>

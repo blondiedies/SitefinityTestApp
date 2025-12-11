@@ -1417,4 +1417,14 @@
     <comment>phrase: My email address</comment>
     <lastModified>2025-11-25T20:22:23</lastModified>
   </data>
+  <data name="ConfirmationEmail">
+    <value>Confirmation email</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="NotificationEmail">
+    <value>Notification email</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
 </root>

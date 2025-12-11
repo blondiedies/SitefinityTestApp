@@ -20,7 +20,7 @@ namespace SitefinityWebApp.Mvc.Controllers
     /// <summary>
     /// Widget de dirección para Forms
     /// </summary>
-    [ControllerToolboxItem(Name ="LocationField",Title ="Location Field", Toolbox =FormsConstants.FormControlsToolboxName, SectionName =FormsConstants.CommonSectionName)]
+    [ControllerToolboxItem(Name ="LocationField",Title ="Location Field", Toolbox =FormsConstants.FormControlsToolboxName, SectionName =FormsConstants.CustomSectionName)]
     [DatabaseMapping(Telerik.Sitefinity.Model.UserFriendlyDataType.ShortText)] //tipo de dato en BD
     public class LocationFieldController : FormFieldControllerBase<LocationFieldModel>, ISupportRules, ITextField
     {

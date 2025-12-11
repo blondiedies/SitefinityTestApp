@@ -7270,4 +7270,29 @@ El equipo de &lt;%\s*SiteName\s*%&gt;</value>
     <comment>phrase: Multilingual URLs</comment>
     <lastModified>2025-11-25T20:22:20</lastModified>
   </data>
+  <data name="SiteNotAccessible">
+    <value>You do not have a permission to access current site - "{0}".&lt;br/&gt;Contact your administrator for more information or choose a different site.</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
+  <data name="RevisionHistoryKeepAtLeastLabel">
+    <value>Keep at least</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
+  <data name="RevisionHistoryPublishedVersionsLabel">
+    <value>published versions for all time</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
+  <data name="TextEditorCompatibilityMessage">
+    <value>The following settings are applied only to the text editors in the classic interface.&lt;br /&gt;In the new interface, you configure the text editor directly via the &lt;b&gt;~\AdminApp\config.json&lt;/b&gt; file. &lt;a href="{0}"&gt;Learn more&lt;/a&gt;</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
+  <data name="AccessDenied">
+    <value>Acceso denegado</value>
+    <comment>Acceso denegado</comment>
+    <lastModified>2025-12-11T15:26:40</lastModified>
+  </data>
 </root>

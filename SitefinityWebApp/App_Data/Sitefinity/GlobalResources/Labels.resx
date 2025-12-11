@@ -277,4 +277,79 @@
     <comment>Dashboard Label: Learn how to design and modify layouts of pages</comment>
     <lastModified>2025-11-25T20:22:18</lastModified>
   </data>
+  <data name="ExternalLinkDashboardLearnHowToCreateAndUseForms">
+    <value>https://www.progress.com/documentation/sitefinity-cms/form-widget-mvc</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
+  <data name="ExternalLinkMobileWeb">
+    <value>https://www.progress.com/sitefinity-cms/platform/responsive-design</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
+  <data name="ExternalLinkDashboardCategoriesAndTags">
+    <value>https://www.progress.com/documentation/sitefinity-cms/overview-classify-your-content-using-taxonomies</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
+  <data name="ExternalLinkDashboardWatchVideo">
+    <value>https://www.progress.com/video?product=sitefinity</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
+  <data name="ExternalLinkSitefinityVideoTutorials">
+    <value>https://www.progress.com/video?product=sitefinity</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
+  <data name="ExternalLinkDashboardInlineEditing">
+    <value>https://www.progress.com/documentation/sitefinity-cms/inline-editing</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
+  <data name="ExternalLinkDashboardDiscoverHowTheFluentApiEnablesYouToInteractWithTheSitefinityData">
+    <value>https://www.progress.com/documentation/sitefinity-cms/for-developers-use-readable-code-with-the-fluent-api</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
+  <data name="SwitchNewInterface">
+    <value>Switch new interface</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
+  <data name="ExternalLinkTemplateBuilderVideo">
+    <value>https://www.progress.com/documentation/sitefinity-cms/for-developers-use-custom-layout-templates</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
+  <data name="ExternalLinkDashboardPageSetupWithWidgets">
+    <value>https://www.progress.com/documentation/sitefinity-cms/add-widgets-on-pages-and-templates</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
+  <data name="ExternalLinkDashboardPageLayouts">
+    <value>https://www.progress.com/documentation/sitefinity-cms/design-page-templates-in-the-layout-editor</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
+  <data name="ExternalLinkDashboardHowToCreateASimpleBlog">
+    <value>https://www.progress.com/documentation/sitefinity-cms/blog-posts-widget-mvc</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
+  <data name="ExternalLinkDashboardHowToSetNavigation">
+    <value>https://www.progress.com/documentation/sitefinity-cms/navigation-widget-mvc</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
+  <data name="TurnOff">
+    <value>Off</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
+  <data name="ExternalLinkDashboardWebAnalytics">
+    <value>https://www.progress.com/documentation/sitefinity-cms/overview-sitefinity-analytics</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
 </root>

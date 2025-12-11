@@ -3272,4 +3272,34 @@
     <comment>Imported / Exported taxes log files</comment>
     <lastModified>2025-11-25T20:22:22</lastModified>
   </data>
+  <data name="PaymentMethodLiveSecretRequired">
+    <value>The payment method live Secret is required</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
+  <data name="PaymentMethodLiveClientIDRequired">
+    <value>The payment method live Client ID is required</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
+  <data name="PaymentMethodTestClientIDRequired">
+    <value>The payment method test Client ID is required</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
+  <data name="PaymentMethodTestSecretRequired">
+    <value>The payment method test Secret is required</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
+  <data name="OffsitePaymentContinue">
+    <value>Click the button below to go to the merchants site and continue with your purchase...</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
+  <data name="PaymentMethodSecret">
+    <value>Secret</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
 </root>

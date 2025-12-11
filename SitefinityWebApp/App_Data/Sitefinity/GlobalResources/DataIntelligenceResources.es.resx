@@ -1232,11 +1232,6 @@
     <comment>word: Campgaigns</comment>
     <lastModified>2025-11-25T20:22:22</lastModified>
   </data>
-  <data name="CampaignCriterionTitle">
-    <value>Campaña (Optimizador de Experiencia Digital)</value>
-    <comment>Label: Campaign (from Digital Experience Cloud)</comment>
-    <lastModified>2025-11-25T20:22:22</lastModified>
-  </data>
   <data name="NoActiveCampaignsLabel">
     <value>No hay campañas activas disponibles en &lt;a href="https://dec.sitefinity.com" target="_blank" class="sfExternalRight"&gt;Sitefinity Digital Experience Cloud&lt;/a&gt;</value>
     <comment>Label: NoActiveCampaignsLabel</comment>
@@ -1431,5 +1426,45 @@
     <value>¿Cómo me vuelvo a conectar con &lt;i&gt;Sitefinity Digital Experience Cloud?&lt;/i&gt;?</value>
     <comment>phrase : How do I reconnect to Digital Experience Cloud?</comment>
     <lastModified>2025-11-25T20:22:22</lastModified>
+  </data>
+  <data name="ExternalLinkAuthenticationStrategyChanges">
+    <value>https://www.progress.com/documentation/sitefinity-cms/dec/required-changes-in-connection-settings?ref=sf-dashboard</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="ContactPropertyChanged">
+    <value>Contact property name &lt;i&gt;{0}&lt;/i&gt; has been changed to &lt;i&gt;{1}&lt;/i&gt;</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="FaqText1Link">
+    <value>https://www.progress.com/documentation/sitefinity-cms/dec/sites-and-domains</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="RemoveTrackingCookieOnLogoutPropNameDescription">
+    <value>If enabled, the tracking cookie is removed after the user logs out. For more information, see https://progress.com/sf-insight-tracking-strategies.</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="ContactPropertyInactive">
+    <value>Contact property &lt;i&gt;{0}&lt;/i&gt; has been disabled or deleted.</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="ExternalLinkMoreAboutDecCredentials">
+    <value>https://www.progress.com/documentation/sitefinity-cms/dec/access-dec</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="FaqText2Link">
+    <value>https://www.progress.com/documentation/sitefinity-cms/dec/what-visitor-activities-do-i-track</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="ChangeSitesTrackingPhrase">
+    <value>Change sites</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
   </data>
 </root>

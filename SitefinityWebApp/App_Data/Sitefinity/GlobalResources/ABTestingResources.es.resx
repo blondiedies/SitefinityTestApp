@@ -243,9 +243,9 @@
     <lastModified>2025-11-25T20:22:21</lastModified>
   </data>
   <data name="WinnerLabel">
-    <value>Ganador :</value>
-    <comment>label: Winner :</comment>
-    <lastModified>2025-11-25T20:22:21</lastModified>
+    <value>Ganador:</value>
+    <comment>Ganador:</comment>
+    <lastModified>2025-12-11T15:26:41</lastModified>
   </data>
   <data name="WinningVariationSetAsDefaultPage">
     <value>Ganar {0} se estableció como página predeterminada.</value>
@@ -828,9 +828,9 @@
     <lastModified>2025-11-25T20:22:21</lastModified>
   </data>
   <data name="ABTests">
-    <value>pruebas A/B</value>
-    <comment>label: A/B tests</comment>
-    <lastModified>2025-11-25T20:22:21</lastModified>
+    <value>Pruebas A/B</value>
+    <comment>Pruebas A/B</comment>
+    <lastModified>2025-12-11T15:26:41</lastModified>
   </data>
   <data name="AutoSyncCronSpecTitle">
     <value>Especificación de cron AutoSincr</value>
@@ -866,5 +866,10 @@
     <value>No hay registros que mostrar.</value>
     <comment>The text to show when there are no results for the specified view.</comment>
     <lastModified>2025-11-25T20:22:21</lastModified>
+  </data>
+  <data name="ABTestExistForAnotherTranslationOfThisPage">
+    <value>Una prueba A/B ya se ha creado para otra traducción de la página seleccionada. Las páginas con traducciones sincronizadas solo pueden tener una prueba A/B.</value>
+    <comment>Una prueba A/B ya se ha creado para otra traducción de la página seleccionada. Las páginas con traducciones sincronizadas solo pueden tener una prueba A/B.</comment>
+    <lastModified>2025-12-11T15:26:41</lastModified>
   </data>
 </root>

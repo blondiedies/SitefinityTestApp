@@ -777,4 +777,24 @@
     <comment>Gets the fields label</comment>
     <lastModified>2025-11-25T20:22:23</lastModified>
   </data>
+  <data name="AllowedNestedExpandLevelForODataQueriesTitle">
+    <value>Max allowed nested $expand levels.</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
+  <data name="ServiceApiKeyTitle">
+    <value>API key</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
+  <data name="AllowedNestedExpandLevelForODataQueriesDescription">
+    <value>Defines the number of maximum allowed $expand levels in OData queries.</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
+  <data name="ServiceApiKeyDescription">
+    <value>The key that is used to restrict the service from outside calls to a limited amount of users and applications</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
 </root>

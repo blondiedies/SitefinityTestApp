@@ -1352,7 +1352,15 @@
     <Content Include="GridSystem\Templates\grid-8+4.html" />
     <Content Include="GridSystem\Templates\grid-9+3.html" />
     <Content Include="GridSystem\Templates\grid-alert.html" />
+    <Content Include="Mvc\Scripts\ConfirmationField\confirmation-field.js" />
+    <Content Include="Mvc\Scripts\ConfirmationField\designerview-simple.js" />
+    <Content Include="Mvc\Scripts\CountryField\country-field.js" />
+    <Content Include="Mvc\Scripts\CountryField\designerview-simple.js" />
+    <Content Include="Mvc\Scripts\DateField\date-field.js" />
+    <Content Include="Mvc\Scripts\DateField\designerview-simple.js" />
     <Content Include="Mvc\Scripts\LocationField\ExtendFormLocationField.js" />
+    <Content Include="Mvc\Scripts\StateField\designerview-simple.js" />
+    <Content Include="Mvc\Scripts\StateField\state-field.js" />
     <Content Include="ResourcePackages\Bootstrap5\assets\dist\css\main.css" />
     <Content Include="ResourcePackages\Bootstrap5\assets\dist\css\main.min.css" />
     <Content Include="ResourcePackages\Bootstrap5\assets\dist\css\main.min.rtl.css" />
@@ -1421,22 +1429,35 @@
     <Compile Include="Configuration\FeaturedNewsConfig.cs" />
     <Compile Include="Configuration\IntegrationConfig.cs" />
     <Compile Include="Custom\Providers\UserOperationProvider.cs" />
+    <Compile Include="EnhancedFormsResources.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="Mvc\Controllers\ArticlesController.cs" />
+    <Compile Include="Mvc\Controllers\ConfirmationFieldController.cs" />
+    <Compile Include="Mvc\Controllers\CountryFieldController.cs" />
+    <Compile Include="Mvc\Controllers\DateFieldController.cs" />
     <Compile Include="Mvc\Controllers\DesignerTestController.cs" />
     <Compile Include="Mvc\Controllers\FeaturedArticleCarouselController.cs" />
     <Compile Include="Mvc\Controllers\FlatTaxonomyController.cs" />
     <Compile Include="Mvc\Controllers\FlightDataController.cs" />
     <Compile Include="Mvc\Controllers\LocationFieldController.cs" />
     <Compile Include="Mvc\Controllers\OurOfficesController.cs" />
+    <Compile Include="Mvc\Controllers\StateFieldController.cs" />
     <Compile Include="Mvc\Models\CategoryFilterNewsModel.cs" />
+    <Compile Include="Mvc\Models\ConfirmationField\ConfirmationFieldModel.cs" />
+    <Compile Include="Mvc\Models\ConfirmationField\ConfirmationFieldViewModel.cs" />
+    <Compile Include="Mvc\Models\ConfirmationField\ConfirmationValidatorDefinition.cs" />
+    <Compile Include="Mvc\Models\CountryField\CountryFieldModel.cs" />
+    <Compile Include="Mvc\Models\DateField\DateFieldModel.cs" />
+    <Compile Include="Mvc\Models\DateField\DateFieldViewModel.cs" />
     <Compile Include="Mvc\Models\FeaturedArticleCarouselModel.cs" />
     <Compile Include="Mvc\Models\FlatTaxonomyModel.cs" />
     <Compile Include="Mvc\Models\FlightDataModel.cs" />
     <Compile Include="Mvc\Models\LocationFieldModel.cs" />
     <Compile Include="Mvc\Models\OfficeModel.cs" />
+    <Compile Include="Mvc\Models\StateField\StateFieldModel.cs" />
     <Compile Include="Mvc\Models\TaxaCount.cs" />
     <Compile Include="Mvc\Models\ZoomLevel.cs" />
     <Compile Include="Mvc\ViewModels\FeaturedNewsModel.cs" />
@@ -1477,6 +1498,22 @@
     <Content Include="Mvc\Views\OurOffices\OfficeResult.cshtml" />
     <Content Include="Mvc\Views\TextField\Write.Browsers.cshtml" />
     <Content Include="Mvc\Views\SystemInfo\Index.cshtml" />
+    <Content Include="Mvc\Views\ConfirmationField\DesignerView.Simple.cshtml" />
+    <Content Include="Mvc\Views\ConfirmationField\DesignerView.Simple.json" />
+    <Content Include="Mvc\Views\ConfirmationField\Read.Default.cshtml" />
+    <Content Include="Mvc\Views\ConfirmationField\Write.Default.cshtml" />
+    <Content Include="Mvc\Views\CountryField\DesignerView.Simple.cshtml" />
+    <Content Include="Mvc\Views\CountryField\DesignerView.Simple.json" />
+    <Content Include="Mvc\Views\CountryField\Read.Default.cshtml" />
+    <Content Include="Mvc\Views\CountryField\Write.Default.cshtml" />
+    <Content Include="Mvc\Views\DateField\DesignerView.Simple.cshtml" />
+    <Content Include="Mvc\Views\DateField\DesignerView.Simple.json" />
+    <Content Include="Mvc\Views\DateField\Read.Default.cshtml" />
+    <Content Include="Mvc\Views\DateField\Write.Default.cshtml" />
+    <Content Include="Mvc\Views\StateField\DesignerView.Simple.cshtml" />
+    <Content Include="Mvc\Views\StateField\DesignerView.Simple.json" />
+    <Content Include="Mvc\Views\StateField\Read.Default.cshtml" />
+    <Content Include="Mvc\Views\StateField\Write.Default.cshtml" />
     <None Include="packages.config" />
     <Content Include="Sitefinity\ExternalLibraries\LibWebP\libwebp_x86.sflib" />
     <Content Include="Sitefinity\ExternalLibraries\LibWebP\libwebp_x64.sflib" />
@@ -1631,6 +1668,14 @@
     <Content Include="ResourcePackages\Custom\MVC\Views\News\Detail.DetailPage.cshtml" />
     <Content Include="ResourcePackages\Custom\MVC\Views\News\List.FeaturedArticles.cshtml" />
     <Content Include="ResourcePackages\Custom\MVC\Views\News\List.NewsList.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap5\MVC\Views\ConfirmationField\Read.Default.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap5\MVC\Views\ConfirmationField\Write.Default.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap5\MVC\Views\CountryField\Read.Default.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap5\MVC\Views\CountryField\Write.Default.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap5\MVC\Views\DateField\Read.Default.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap5\MVC\Views\DateField\Write.Default.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap5\MVC\Views\StateField\Read.Default.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap5\MVC\Views\StateField\Write.Default.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -1675,6 +1720,7 @@
       <Name>Sitefinity.Training.Web.UI</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

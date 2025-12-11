@@ -4061,4 +4061,14 @@ Actualmente, el contenido y los ajustes del widget no son los mismos que los del
     <comment>The description of the Content Blocks module landing page.</comment>
     <lastModified>2025-11-25T20:22:18</lastModified>
   </data>
+  <data name="HtmlIncludedInTheHeadTagExampleNewUI">
+    <value>&lt;meta name="author" content="John Smith" /&gt; &lt;link rel="stylesheet" type="text/css" media="screen and (max-width: 600px)" href="myCssFile.css" /&gt;&lt;script type="text/javascript" src="myJavascriptFile.js"&gt;&lt;/script&gt;</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="ExternalLinkHelpAndResources">
+    <value>https://www.progress.com/documentation/sitefinity-cms?ref=sf-dashboard</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
 </root>

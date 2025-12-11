@@ -837,4 +837,19 @@
     <comment>phrase: Maximum height</comment>
     <lastModified>2025-11-25T20:22:23</lastModified>
   </data>
+  <data name="ResponsiveAndMobileDesignCompatibilityWarning">
+    <value>&lt;p class="sfInformation sfMLeft35 sfMRight35 sfMBottom30"&gt;The following rules are applied only to pages based on Hybrid and Web Forms templates.&lt;/p&gt;</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
+  <data name="YouCannotDeleteARuleInUseTitle">
+    <value>You cannot delete a rule in use</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
+  <data name="PromptMessageSingleRuleInUse">
+    <value>&lt;strong&gt;{0} pages and {1} templates&lt;/strong&gt; use this rule.&lt;br/&gt;&lt;br/&gt;Before you are able to delete the rule, you must remove it from pages or templates that use it.</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:30</lastModified>
+  </data>
 </root>

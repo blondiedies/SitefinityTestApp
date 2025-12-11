@@ -10125,4 +10125,33 @@ Esta opción requiere reinicio.</value>
     <comment>Describes the title of this class.</comment>
     <lastModified>2025-11-25T20:22:18</lastModified>
   </data>
+  <data name="EmailSettingsBasicSettingsFaqAnswer">
+    <value>Follow the instructions for setting up the most popular mail services:
+                            &lt;ul&gt;
+                                &lt;li&gt;&lt;a target='_blank' href='https://www.progress.com/documentation/sitefinity-cms/predefined-notification-profiles#sendgrid'&gt; Sendgrid &lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target='_blank' href='https://www.progress.com/documentation/sitefinity-cms/predefined-notification-profiles#mandrill'&gt; Mandrill &lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target='_blank' href='https://www.progress.com/documentation/sitefinity-cms/predefined-notification-profiles#mailgun'&gt; Mailgun &lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target='_blank' href='https://www.progress.com/documentation/sitefinity-cms/predefined-notification-profiles#configure-other-external-email-services '&gt; Gmail &lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="CanonicalUrlResolverModeDescription">
+    <value>Render canonical url based on selected item:
+ Auto - Render url based on VaryByHost parameter from Page Cache Profiles and number of domain aliases. 
+ Dynamic - Render url based on domain resolving from current request. If page caching is enabled, VaryByHost parameter must be added on Page Cache Profiles. 
+ Static - Render url based on site domain. All domain aliases will be ignored.</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="PageTemplatesFrameworksDescription">
+    <value>Which frameworks are available for page templates.</value>
+    <comment></comment>
+    <lastModified>2025-12-10T15:42:29</lastModified>
+  </data>
+  <data name="SuccessfulRegistrationSenderNameDescription">
+    <value>Sender name displayed in the successful registration email.</value>
+    <comment>Nombre del remitente que se muestra en el correo electrónico de registro exitoso.</comment>
+    <lastModified>2025-12-11T15:26:38</lastModified>
+  </data>
 </root>
