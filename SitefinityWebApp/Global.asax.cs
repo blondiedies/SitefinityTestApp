@@ -21,7 +21,7 @@ namespace SitefinityWebApp
         {
             Bootstrapper.Initialized += Bootstrapper_Initialized;
             Bootstrapper.Bootstrapped += Bootstrapper_Bootstrapped;
-        }
+        } 
 
         private void Bootstrapper_Bootstrapped(object sender, EventArgs e)
         {
@@ -49,6 +49,7 @@ namespace SitefinityWebApp
                 //Registro de configuraciones de endpoints custom
                 Config.RegisterSection<IntegrationConfig>();
                 Config.RegisterSection<FeaturedNewsConfig>();
+                Config.RegisterSection<TasasConfig>();
                 //Config de modificaciones al guardar el widget News
                 FrontendModule.Current.DependencyResolver.Rebind<INewsModel>().To<CategoryFilterNewsModel>();
                

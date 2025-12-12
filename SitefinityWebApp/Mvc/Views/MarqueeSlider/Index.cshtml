@@ -1,0 +1,21 @@
+﻿@model SitefinityWebApp.Mvc.ViewModels.MarqueeSliderViewModel
+
+<div class="marquee-container overflow-hidden bg-light shadow-sm">
+    <div class="marquee-content d-flex align-items-center">
+        <div class="marquee-item px-4  bg-primary text-white rounded-pill mx-2">
+            <span class="B">B</span><span class="N">N</span><span class="C">C</span>, soluciones financieras justo a tu medida.
+        </div>
+        <div class="marquee-item px-4  bg-success text-white rounded-pill mx-2">
+            Utiliza plataformas electrónicas seguras y autorizadas.
+        </div>
+        <div class="marquee-item px-4  bg-info text-white rounded-pill mx-2">
+            <span class="fw-semibold">Menudeo</span> <i class="bi bi-caret-right-fill"></i> Fecha valor: <span class="ValueDate ItemSpace">@Model.MenudeoFecha</span><span class="USD"> USD $ </span>Compra Bs: @Model.MenudeoCompra / Venta Bs: @Model.MenudeoVenta
+        </div>
+        <div class="marquee-item px-4  bg-warning text-dark rounded-pill mx-2">
+            <span class="fw-semibold">Mesa de cambio</span> <i class="bi bi-caret-right-fill"></i> Fecha valor: <span class="ValueDate ItemSpace">@Model.MesaCambioFecha</span> <span class="USD"> USD $ </span>TC Compra: @Model.MesaCambioCompra / TC Venta: @Model.MesaCambioVenta
+        </div>
+        <div class="marquee-item px-4 bg-danger text-white rounded-pill mx-2">
+            <span class="fw-semibold">Cotización del Petro</span> <i class="bi bi-caret-right-fill"></i> 1 Petro / @Model.PetroCotizacion
+        </div>
+    </div>
+</div>

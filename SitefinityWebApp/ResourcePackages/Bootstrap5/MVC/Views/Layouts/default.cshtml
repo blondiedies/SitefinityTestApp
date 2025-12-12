@@ -21,6 +21,140 @@
 
 <body>
     @Html.Section("top")
+    @*Sticky header*@
+    <header class="header">
+        <div class="flexcontainer">
+            <div class="columns">
+                <a href="https://www.bncenlinea.com/">
+                    <img alt="" title="" src="/images/default-source/misc/BNCLogo_rebrand.png" data-displaymode="Original">
+                </a>
+            </div>
+            <div class="columns">
+                <div class="header-lnk">
+                    <a href="/Somos-BNC" class="menu-item">
+                        &nbsp;Somos BNC &nbsp;<br>
+                    </a>
+                    <a href="/De-interes" class="menu-item">
+                        &nbsp;De Interés &nbsp;<br>
+                    </a>
+                </div>
+            </div>
+            <div class="columns">
+                <a href="/preregistro-bnc" class="menu-item">Quiero una Cuenta</a>
+            </div>
+            <div class="columns">
+                <div class="nav__item nav__item--img">
+                    <a href="#" onclick="return false">BNCNET 2.0</a>
+                    <div class="nav-sub">
+                        <div class="nav-sub__item"><a class="nav-sub__link" href="#" onclick="$(this).attr('href', 'https://personas.bncenlinea.com');" target="_blank">Personas 2.0</a></div>
+                        <div class="nav-sub__item"><a class="nav-sub__link" href="#" onclick="$(this).attr('href', 'https://empresas.bncenlinea.com');" target="_blank">Empresas 2.0</a></div>
+                        <div class="nav-sub__item"><a class="nav-sub__link" href="#" onclick="$(this).attr('href', 'https://personas.bncenlinea.com/Auth/Login?opt=2');" target="_blank">BOD Personas 2.0</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="menu-wrap">
+                    <input class="toggler" type="checkbox">
+                    <div class="hamburger">
+                        <div>&nbsp;</div>
+                    </div>
+                    <div class="wrapBox" style=" top: 100px;"></div>
+                    <nav class="menu" style=" top: 100px;">
+                        <h3>Productos y Servicios</h3>
+                        <ul class="menu__ul">
+                            <li class="menu__item menu__homebanking">
+                                <i class="bi bi-caret-right-fill"></i>
+                                <a class="menu__link" href="#" onclick="$(this).attr('href', 'https://personas.bncenlinea.com');" target="_blank">BNCNET Personas 2.0</a>
+                            </li>
+                            <li class="menu__item menu__homebanking">
+                                <i class="bi bi-caret-right-fill"></i>
+                                <a class="menu__link" href="#" onclick="$(this).attr('href', 'https://empresas.bncenlinea.com');" target="_blank">BNCNET Empresas 2.0</a>
+                            </li>
+                            <li class="menu__item ">
+                                <i class="bi bi-caret-right-fill"></i>
+                                <a href="/preregistro-bnc" class="menu__link">Quiero una Cuenta</a>
+                            </li>
+                            <li class="menu__item">
+                                <i class="bi bi-caret-right-fill"></i>
+                                <a href="/productos-y-servicios/cuentas" class="menu__link">Cuentas</a>
+                            </li>
+                            <li class="menu__item">
+                                <i class="bi bi-caret-right-fill"></i>
+                                <a href="/productos-y-servicios/creditos" class="menu__link">Créditos</a>
+                            </li>
+                            <li class="menu__item">
+                                <i class="bi bi-caret-right-fill"></i>
+                                <a href="/productos-y-servicios/fideicomisos" class="menu__link">Fideicomiso</a>
+                            </li>
+                            <li class="menu__item">
+                                <i class="bi bi-caret-right-fill"></i>
+                                <a href="/productos-y-servicios/Tarjetas-BNC" class="menu__link">Tarjetas</a>
+                            </li>
+                            <li class="menu__item">
+                                <i class="bi bi-caret-right-fill"></i>
+                                <a href="/productos-y-servicios/servicios" class="menu__link">Servicios</a>
+                            </li>
+                            <li class="menu__item">
+                                <i class="bi bi-caret-right-fill"></i>
+                                <a href="/aliados-bnc" class="menu__link">Aliados</a>
+                            </li>
+                            <li class="menu__item">
+                                <i class="bi bi-caret-right-fill"></i>
+                                <a href="/listado-de-agencias-y-taquillas" class="menu__link">Agencias</a>
+                            </li>
+                        </ul>
+                        <div class="menu__separator"></div>
+                        <h3>Más para ti</h3>
+                        <ul class="menu__ul">
+                            <li class="menu__item">
+                                <i class="bi bi-caret-right-fill"></i>
+                                <a href="/Somos-BNC" class="menu__link">Somos BNC</a>
+                            </li>
+                            <li class="menu__item">
+                                <i class="bi bi-caret-right-fill"></i>
+                                <a href="/De-interes" class="menu__link">De Interés</a>
+                            </li>
+                            <li class="menu__item">
+                                <i class="bi bi-caret-right-fill"></i>
+                                <a href="/Sucursal-Curazao" class="menu__link">Sucursal Curaçao</a>
+                            </li>
+                            <li class="menu__item">
+                                <i class="bi bi-caret-right-fill"></i>
+                                <a href="/Paso-a-paso-con-el-BNC" class="menu__link">Paso a Paso con el BNC</a>
+                            </li>
+                        </ul>
+                        <div class="menu__separator"></div>
+                        <h3>Conéctate con nosotros</h3>
+                        <br>
+                        <div class="flex align_items_end socialnetwork">
+                            <a href="#" onclick="$(this).attr('href', UrlInstagram);" target="_blank" title="Instagram">
+                                <i class="bi bi-instagram socialnetwork-icon"></i>
+                                <img alt="" src="/images/default-source/misc/img-instagram.png">
+                            </a>
+                            <a href="#" onclick="$(this).attr('href', UrlTwitter);" target="_blank" title="Twitter">
+                                <i class="bi bi-twitter socialnetwork-icon"></i>
+                                <img alt="" src="/images/default-source/misc/img-twitter.png">
+                            </a>
+                            <a href="#" onclick="$(this).attr('href', UrlFacebook);" target="_blank" title="Facebook">
+                                <i class="bi bi-facebook socialnetwork-icon"></i>
+                                <img alt="" src="/images/default-source/misc/img-facebook.png">
+                            </a>
+                            <a href="#" onclick="$(this).attr('href', UrlYouTube);" target="_blank" title="YouTube">
+                                <i class="bi bi-youtube socialnetwork-icon"></i>
+                                <img alt="" src="/images/default-source/misc/img-youtube.png">
+                            </a>
+                            <a href="#" onclick="$(this).attr('href', UrlLinkedin);" target="_blank" title="LinkedIn">
+                                <i class="bi bi-linkedin socialnetwork-icon"></i>
+                                <img alt="" src="/images/default-source/misc/img-linkedin.png">
+                            </a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    @*end sticky header*@
+
 
     <div class="container-fluid">
         @Html.SfPlaceHolder("Contentplaceholder1")
