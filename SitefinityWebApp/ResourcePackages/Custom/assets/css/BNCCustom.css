@@ -1,31 +1,33 @@
-﻿/*@font-face {
-    font-family: 'Cosmos';
-    src: url('https://d3i9pllfrk5tet.cloudfront.net/fonts/cosmos_light-webfont.eot');
-    src: url('https://d3i9pllfrk5tet.cloudfront.net/fonts/cosmos_light-webfont.eot?#iefix') format('embedded-opentype'), url('https://d3i9pllfrk5tet.cloudfront.net/fonts/cosmos_light-webfont.woff2') format('woff2'), url('https://d3i9pllfrk5tet.cloudfront.net/fonts/cosmos_light-webfont.woff') format('woff'), url('https://d3i9pllfrk5tet.cloudfront.net/fonts/cosmos_light-webfont.ttf') format('truetype'), url('https://d3i9pllfrk5tet.cloudfront.net/fonts/cosmos_light-webfont.svg#cosmoslight') format('svg');
-    font-weight: 300;
+﻿@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Medium.ttf') format('truetype');
+    font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
-    font-family: 'Cosmos-bolder';
-    src: url('https://d3i9pllfrk5tet.cloudfront.net/fonts/cosmos-medium-webfont.eot');
-    src: url('https://d3i9pllfrk5tet.cloudfront.net/fonts/cosmos-medium-webfont.eot?#iefix') format('embedded-opentype'), url('https://d3i9pllfrk5tet.cloudfront.net/fonts/cosmos-medium-webfont.woff2') format('woff2'), url('https://d3i9pllfrk5tet.cloudfront.net/fonts/cosmos-medium-webfont.woff') format('woff'), url('https://d3i9pllfrk5tet.cloudfront.net/fonts/cosmos-medium-webfont.ttf') format('truetype'), url('https://d3i9pllfrk5tet.cloudfront.net/fonts/cosmos-medium-webfont.svg#cosmos-mediummedium') format('svg');
-    font-weight: 500;
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Bold.ttf') format('truetype');
+    font-weight: bold;
     font-style: normal;
 }
-
 @font-face {
-    font-family: 'Cosmos-bold';
-    src: url('https://d3i9pllfrk5tet.cloudfront.net/fonts/cosmos-extrabold-webfont.eot');
-    src: url('https://d3i9pllfrk5tet.cloudfront.net/fonts/cosmos-extrabold-webfont.eot?#iefix') format('embedded-opentype'), url('https://d3i9pllfrk5tet.cloudfront.net/fonts/cosmos-extrabold-webfont.woff2') format('woff2'), url('https://d3i9pllfrk5tet.cloudfront.net/fonts/cosmos-extrabold-webfont.woff') format('woff'), url('https://d3i9pllfrk5tet.cloudfront.net/fonts/cosmos-extrabold-webfont.ttf') format('truetype'), url('https://d3i9pllfrk5tet.cloudfront.net/fonts/cosmos-extrabold-webfont.svg#cosmosbold') format('svg');
-    font-weight: 700;
-    font-style: normal;
-}*/
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
 
 html,
 body {
     font-size: 14px;
-    font-family: /*'Cosmos', */ Helvetica,Arial,sans-serif !important;
+    font-family: 'Poppins', Helvetica,Arial,sans-serif !important;
     background-color: #fff !important;
 }
 
@@ -368,7 +370,7 @@ a:hover, a:visited, a:link, a:active {
         color: #f78e1e;
         font-size: 22px;
         font-weight: bold;
-        font-family: /*'Cosmos', */Helvetica, Arial, sans-serif;
+        font-family: 'Poppins',Helvetica, Arial, sans-serif;
     }
 
         .sfsearchResultTitle a:hover {
@@ -384,7 +386,7 @@ a:hover, a:visited, a:link, a:active {
 .sfsearchResultHighLighter {
     padding: 0 10px 20px 25px;
     margin: 10px 0 6px;
-    font-family: /*'Cosmos', */ Helvetica, Arial, sans-serif;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
     font-size: 13px;
     border-bottom: 1px solid #eeeeee;
     font-weight: normal;
@@ -553,15 +555,6 @@ a:hover, a:visited, a:link, a:active {
     user-select: none; /* Likely future */
 }
 
-/*.marquee {
-    width: 96%;
-    overflow: hidden;
-    font-size: 12pt;
-    font-weight: 500;
-    padding: 8pt;
-    visibility: hidden;
-    margin: auto;
-}*/
 .marquee-content {
     display: flex;
     animation: marquee 20s linear infinite;
@@ -569,7 +562,7 @@ a:hover, a:visited, a:link, a:active {
 
 .marquee-item {
     flex: 0 0 auto;
-    padding: 0 20px;
+    padding: 5px 20px;
     font-size: 1.2rem;
     color: #495057;
 }
@@ -584,15 +577,16 @@ a:hover, a:visited, a:link, a:active {
     position: relative;
     margin-bottom: 0px;
     overflow-y: hidden;
-    font-family: Helvetica,Arial,sans-serif !important;
+    font-family: 'Poppins', Helvetica,Arial,sans-serif !important;
 }
+
 @keyframes marquee {
     0% {
         transform: translateX(100%);
     }
 
     100% {
-        transform: translateX(-100%);
+        transform: translateX(calc(-1.1*var(--marquee-distance)));
     }
 }
 
@@ -684,7 +678,7 @@ a:hover, a:visited, a:link, a:active {
 }
 
 .B, .N, .C {
-    font-weight: 900;
+    font-weight: bold;
 }
 
 .B {
@@ -1066,7 +1060,8 @@ nav {
     padding-right: 2rem;
     width: 100%;
     color: #fff !important;
-    /*font-family: 'Cosmos-bolder';*/
+    font-family: 'Poppins';
+    font-weight:bold;
 }
 
     .sfsearchBox .sfsearchTxt:hover {
@@ -1185,7 +1180,8 @@ nav {
     color: #ffffff;
     font-size: 2rem;
     font-weight: 500;
-    /*font-family: 'Cosmos-bolder';*/
+    font-family: 'Poppins';
+    font-weight:bold;
     padding-left: 15px;
     text-shadow: 0 1px 2px #00000099;
 }
@@ -1289,7 +1285,8 @@ h6,
 .h4,
 .h5,
 .h6 {
-    /*font-family: 'Cosmos-bolder';*/
+    font-family: 'Poppins';
+    font-weight:bold;
     line-height: 1.5;
 }
 
@@ -1388,7 +1385,7 @@ h1.home.big-h1 {
 
 .RadGrid_Default {
     border: none !important;
-    /*font-family: 'Cosmos' !important;*/
+    font-family: 'Poppins' !important;
     font-size: 12.5pt !important;
     line-height: 1.5rem !important;
 }
@@ -1433,7 +1430,7 @@ h1.home.big-h1 {
 }
 
 table {
-    /*font-family: 'Cosmos' !important;*/
+    font-family: 'Poppins' !important;
     border-collapse: collapse;
     width: 100%;
 }
@@ -1558,10 +1555,6 @@ table {
     table td, table th {
         font-size: 13.5pt !important;
     }
-
-    /*.marquee {
-        font-size: 13pt !important;
-    }*/
 
     .agency-map-text {
         font-size: 13pt !important;
@@ -1744,10 +1737,6 @@ table {
         padding: 0 0 .05rem 0;
         background-color: #fdfdfd;
     }
-
-    /*.marquee {
-        font-size: 10pt;
-    }*/
 
     .custom-h1 {
         font-size: 2.25rem !important;

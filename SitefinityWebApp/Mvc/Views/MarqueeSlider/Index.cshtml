@@ -19,3 +19,11 @@
         </div>
     </div>
 </div>
+
+<script>
+    const marquee = document.querySelector('.marquee-content');
+    const container = document.querySelector('.marquee-container');
+
+    const distance = marquee.scrollWidth;
+    marquee.style.setProperty('--marquee-distance', `${distance}px`);
+</script>

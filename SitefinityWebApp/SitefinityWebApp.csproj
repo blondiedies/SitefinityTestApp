@@ -3471,6 +3471,7 @@
     <Content Include="ResourcePackages\Custom\assets\dist\sprites\brands.svg" />
     <Content Include="ResourcePackages\Custom\assets\dist\sprites\regular.svg" />
     <Content Include="ResourcePackages\Custom\assets\dist\sprites\solid.svg" />
+    <Content Include="ResourcePackages\Custom\assets\fonts\OFL.txt" />
     <Content Include="ResourcePackages\Custom\assets\js\bnc-site.js" />
     <Content Include="ResourcePackages\Custom\GridSystem\Templates\container.html" />
     <Content Include="ResourcePackages\Custom\GridSystem\Templates\grid-12.html" />
@@ -3768,6 +3769,25 @@
     <Content Include="ResourcePackages\Custom\assets\bootstrap-icons-1.13.1\bootstrap-icons.scss" />
     <Content Include="ResourcePackages\Custom\assets\bootstrap-icons-1.13.1\fonts\bootstrap-icons.woff" />
     <Content Include="ResourcePackages\Custom\assets\bootstrap-icons-1.13.1\fonts\bootstrap-icons.woff2" />
+    <Content Include="ResourcePackages\Custom\assets\fonts\Poppins-Black.ttf" />
+    <Content Include="ResourcePackages\Custom\assets\fonts\Poppins-BlackItalic.ttf" />
+    <Content Include="ResourcePackages\Custom\assets\fonts\Poppins-Bold.ttf" />
+    <Content Include="ResourcePackages\Custom\assets\fonts\Poppins-BoldItalic.ttf" />
+    <Content Include="ResourcePackages\Custom\assets\fonts\Poppins-ExtraBold.ttf" />
+    <Content Include="ResourcePackages\Custom\assets\fonts\Poppins-ExtraBoldItalic.ttf" />
+    <Content Include="ResourcePackages\Custom\assets\fonts\Poppins-ExtraLight.ttf" />
+    <Content Include="ResourcePackages\Custom\assets\fonts\Poppins-ExtraLightItalic.ttf" />
+    <Content Include="ResourcePackages\Custom\assets\fonts\Poppins-Italic.ttf" />
+    <Content Include="ResourcePackages\Custom\assets\fonts\Poppins-Light.ttf" />
+    <Content Include="ResourcePackages\Custom\assets\fonts\Poppins-LightItalic.ttf" />
+    <Content Include="ResourcePackages\Custom\assets\fonts\Poppins-Medium.ttf" />
+    <Content Include="ResourcePackages\Custom\assets\fonts\Poppins-MediumItalic.ttf" />
+    <Content Include="ResourcePackages\Custom\assets\fonts\Poppins-Regular.ttf" />
+    <Content Include="ResourcePackages\Custom\assets\fonts\Poppins-SemiBold.ttf" />
+    <Content Include="ResourcePackages\Custom\assets\fonts\Poppins-SemiBoldItalic.ttf" />
+    <Content Include="ResourcePackages\Custom\assets\fonts\Poppins-Thin.ttf" />
+    <Content Include="ResourcePackages\Custom\assets\fonts\Poppins-ThinItalic.ttf" />
+    <Content Include="ResourcePackages\Custom\assets\fonts\Poppins.zip" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
