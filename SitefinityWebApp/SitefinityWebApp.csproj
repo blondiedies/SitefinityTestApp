@@ -3530,6 +3530,7 @@
     <Compile Include="Mvc\Controllers\LocationFieldController.cs" />
     <Compile Include="Mvc\Controllers\MarqueeSliderController.cs" />
     <Compile Include="Mvc\Controllers\OurOfficesController.cs" />
+    <Compile Include="Mvc\Controllers\ProductTabCardController.cs" />
     <Compile Include="Mvc\Controllers\StateFieldController.cs" />
     <Compile Include="Mvc\Models\CategoryFilterNewsModel.cs" />
     <Compile Include="Mvc\Models\ConfirmationField\ConfirmationFieldModel.cs" />
@@ -3544,6 +3545,7 @@
     <Compile Include="Mvc\Models\LocationFieldModel.cs" />
     <Compile Include="Mvc\Models\MarqueeSliderModel.cs" />
     <Compile Include="Mvc\Models\OfficeModel.cs" />
+    <Compile Include="Mvc\Models\ProductModel.cs" />
     <Compile Include="Mvc\Models\StateField\StateFieldModel.cs" />
     <Compile Include="Mvc\Models\TaxaCount.cs" />
     <Compile Include="Mvc\Models\ZoomLevel.cs" />
@@ -3552,6 +3554,7 @@
     <Compile Include="Mvc\ViewModels\LaunchViewModel.cs" />
     <Compile Include="Mvc\ViewModels\MarqueeSliderViewModel.cs" />
     <Compile Include="Mvc\ViewModels\OfficeViewModel.cs" />
+    <Compile Include="Mvc\ViewModels\ProductViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -3603,6 +3606,7 @@
     <Content Include="Mvc\Views\StateField\Read.Default.cshtml" />
     <Content Include="Mvc\Views\StateField\Write.Default.cshtml" />
     <Content Include="Mvc\Views\MarqueeSlider\Index.cshtml" />
+    <Content Include="Mvc\Views\ProductTabCard\Index.cshtml" />
     <None Include="packages.config" />
     <Content Include="Sitefinity\ExternalLibraries\LibWebP\libwebp_x86.sflib" />
     <Content Include="Sitefinity\ExternalLibraries\LibWebP\libwebp_x64.sflib" />

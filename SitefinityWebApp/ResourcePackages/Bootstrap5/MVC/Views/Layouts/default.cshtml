@@ -167,7 +167,6 @@
         @Html.Script(ScriptRef.MicrosoftAjax, "inline-editing", true)
         @Html.Script(ScriptRef.MicrosoftAjaxCore, "inline-editing", true)
         @Html.Script(ScriptRef.JQuery, "inline-editing", true)
-
         @Html.Script(Url.EmbeddedResource("Telerik.Sitefinity.Resources.Reference", "Telerik.Sitefinity.Resources.Scripts.jquery.ba-outside-events.min.js"), "inline-editing", true)
         @Html.Script(ScriptRef.KendoAll, "inline-editing", true)
         @Html.Script(ScriptRef.KendoTimezones, "inline-editing", true)
@@ -178,5 +177,10 @@
     @Html.Section("frameworks")
     @Html.Section("plugins")
     @Html.Section("bottom")
+    @* Register Popper and Bootstrap (relative paths inside the ResourcePackage) *@
+    @Html.Script(Url.WidgetContent("~/ResourcePackages/Bootstrap5/assets/dist/js/popper.min.js"), "bottom", true)
+    @Html.Script(Url.WidgetContent("~/ResourcePackages/Bootstrap5/assets/dist/js/bootstrap.min.js"), "bottom", true)
+
+
 </body>
 </html>

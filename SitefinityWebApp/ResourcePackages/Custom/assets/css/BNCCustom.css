@@ -113,8 +113,10 @@ a:hover, a:visited, a:link, a:active {
 }
 
 .container {
-    max-width: 990px;
+    /*max-width: 990px;*/
+    max-width: fit-content !important;
     width: 100%;
+    padding:0 !important;
 }
 
 .f-s-8 {
@@ -392,6 +394,16 @@ a:hover, a:visited, a:link, a:active {
     font-weight: normal;
     color: #040404;
 }
+.odd-item {
+    /* Assign a lower order value to move it up/left, or a higher value to move it down/right */
+    order: -1;
+    background-color: #f2f2f2;
+}
+
+.even-item {
+    order: 1; /* Assign a higher order value */
+    background-color: #e6e6e6;
+}
 
 @media (min-width: 1024px) {
     .slide {
@@ -568,14 +580,17 @@ a:hover, a:visited, a:link, a:active {
 }
 
 .marquee-container {
-    padding: 15px 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left:0 !important;
+    padding-right:0 !important;
     width: 100%;
     background-color: #ffffff;
     -webkit-box-shadow: 0 0 10px #a2a2a2;
     box-shadow: 0 0 10px #a2a2a2;
     display: block;
     position: relative;
-    margin-bottom: 0px;
+    margin: 0px !important;
     overflow-y: hidden;
     font-family: 'Poppins', Helvetica,Arial,sans-serif !important;
 }
@@ -797,7 +812,7 @@ root {
 }
 
 .container {
-    max-width: 1200px;
+    /*max-width: 1200px;*/
     overflow: hidden;
     padding: 0 2rem;
 }
@@ -1515,10 +1530,10 @@ table {
         max-width: 1920px;
     }
 
-    .container {
+    /*.container {
         max-width: 1840px;
     }
-
+*/
     .tile-item {
         height: 400px !important;
     }
@@ -2231,6 +2246,12 @@ i.socialnetwork-icon {
 .container-search {
     padding-left: 30px;
     padding-right: 30px;
+}
+.container-fluid {
+    padding:0 !important;
+}
+.container-bnc {
+    padding:0 0.5rem 0 0.5rem !important;
 }
 
 .text-black {

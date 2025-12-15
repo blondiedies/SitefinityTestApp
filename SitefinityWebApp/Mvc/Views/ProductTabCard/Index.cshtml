@@ -1,0 +1,112 @@
+﻿@model List<SitefinityWebApp.Mvc.ViewModels.ProductViewModel>
+
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+@{
+    var i = 0;
+
+    var tabId = Html.UniqueId("productTab");
+    var tabContentId = Html.UniqueId("productTabContent");
+
+    var homeId = Html.UniqueId("productTab-home");
+    var homeTabId = Html.UniqueId("productTab-home-tab");
+
+    var profileId = Html.UniqueId("productTab-profile");
+    var profileTabId = Html.UniqueId("productTab-profile-tab");
+}
+
+<div class="container container-bnc my-5">
+    <h1 class="mb-3">Nuestros Productos</h1>
+    <p class="lead">@ViewBag.Info</p>
+
+    @foreach (var producto in Model)
+    {
+
+        var orderClass = (i % 2 == 0) ? "even-item" : "odd-item";
+
+        <div class="row">
+            <h2 class="mb-3">@producto.Title</h2>
+            <ul class="nav nav-tabs" id="@($"{tabId}-{i}")" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active"
+                            id="@($"{homeTabId}-{i}")"
+                            data-bs-toggle="tab"
+                            data-bs-target="@($"#{homeId}-{i}")"
+                            type="button"
+                            role="tab"
+                            aria-controls="@($"{homeId}-{i}")"
+                            aria-selected="true">
+                        Beneficios
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link"
+                            id="@($"{profileTabId}-{i}")"
+                            data-bs-toggle="tab"
+                            data-bs-target="@($"#{profileId}-{i}")"
+                            type="button"
+                            role="tab"
+                            aria-controls="@($"{profileId}-{i}")"
+                            aria-selected="false">
+                        Información
+                    </button>
+                </li>
+            </ul>
+        </div>
+
+        <div class=" row">
+
+            <div class="image-cropper @orderClass col-4">
+                <img src="@producto.Imagen.LinkedContentUrl" class="mb-3" />
+            </div>
+
+            <div class="tab-content mt-3 col" id="@($"{tabContentId}-{i}")">
+                <div class="tab-pane fade show active"
+                     id="@($"{homeId}-{i}")"
+                     role="tabpanel"
+                     aria-labelledby="@($"{homeTabId}-{i}")">
+                    <p class="lead">@producto.Beneficios</p>
+
+                </div>
+                <div class="tab-pane fade"
+                     id="@($"{profileId}-{i}")"
+                     role="tabpanel"
+                     aria-labelledby="@($"{profileTabId}-{i}")">
+                    <p class="lead">@producto.Descripcion</p>
+                </div>
+            </div>
+        </div>
+
+        <br />
+        i++;
+
+    }
+</div>
+<style>
+    /*
+    Source - https://stackoverflow.com/a
+    Posted by JohnnyKB, modified by community. See post 'Timeline' for change history
+    Retrieved 2025-12-15, License - CC BY-SA 4.0
+    */
+
+    .image-cropper {
+        margin-top:5rem;
+        margin-bottom:5rem;
+        width: 15rem;
+        height:15rem;
+        position: relative;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+
+    img {
+        display: inline;
+        margin: 0 auto;
+        height: 100%;
+        width: auto;
+    }
+
+    .tab-pane {
+        max-height:500px;
+        overflow-y: auto;
+    }
+</style>
