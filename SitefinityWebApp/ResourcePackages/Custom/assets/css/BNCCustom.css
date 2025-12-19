@@ -397,12 +397,12 @@ a:hover, a:visited, a:link, a:active {
 .odd-item {
     /* Assign a lower order value to move it up/left, or a higher value to move it down/right */
     order: -1;
-    background-color: #f2f2f2;
+    
 }
 
 .even-item {
     order: 1; /* Assign a higher order value */
-    background-color: #e6e6e6;
+   
 }
 
 @media (min-width: 1024px) {
@@ -627,10 +627,6 @@ a:hover, a:visited, a:link, a:active {
     padding-left: 20px;
 }
 
-.ValueDate {
-    color: #23478a;
-}
-
 .CURRENCY, .USD, .EUR, .CURR1, .CURR2, .CURR3 {
     margin-right: 5px;
     background-color: #002B61;
@@ -723,6 +719,7 @@ a:hover, a:visited, a:link, a:active {
 .menu-item {
     padding: .5rem 0;
     border-bottom: 1pt solid #ccc;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
 }
 
     .menu-item:hover {
@@ -2251,7 +2248,7 @@ i.socialnetwork-icon {
     padding:0 !important;
 }
 .container-bnc {
-    padding:0 0.5rem 0 0.5rem !important;
+    padding:0 1.5rem 0 1.5rem !important;
 }
 
 .text-black {
@@ -2293,3 +2290,85 @@ i.socialnetwork-icon {
 .hometiles-img-jp {
     background: url(https://d3q4nr72nuserl.cloudfront.net/images/default-source/products-services/icon-persona-juridica.png) no-repeat;
 }
+
+/*
+    Source - https://stackoverflow.com/a
+    Posted by JohnnyKB, modified by community. See post 'Timeline' for change history
+    Retrieved 2025-12-15, License - CC BY-SA 4.0
+    */
+.image-cropper {
+    margin-top: 2rem;
+    /* margin-bottom:5rem;*/
+    width: 30rem;
+    height: 30rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+img.image-cropper {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: max-content;
+}
+
+.tab-pane-bnc {
+    padding: 0.1rem;
+    margin: 4rem 2rem 2rem 2rem;
+    max-height: 450px;
+    overflow-y: auto;
+}
+
+.nav-product-bnc {
+    padding-left: calc(var(--bs-gutter-x) * .5) !important;
+    --bs-nav-tabs-border-width: 0 !important;
+    --bs-nav-tabs-link-active-bg: rgba(247, 117, 2, 0.9) !important;
+}
+
+.nav-product-bnc-link {
+    color: rgb(255, 255, 255);
+    background: #003c81;
+}
+
+    .nav-product-bnc-link:hover {
+        color: rgba(255, 255, 255);
+        background: #001e41;
+    }
+
+.product-row {
+    background-image: linear-gradient(to bottom, rgba(247, 117, 2, 0.9), rgb(255, 215, 180, 0.90), rgba(255, 255, 255, 0.00), rgba(255, 255, 255, 0.00),rgba(255, 255, 255, 0.00));
+    border-radius: 5px;
+}
+/**Pills override*/
+
+
+.bg-success {
+    background-color: #04a24d !important;
+}
+.bg-info {
+    background-color: #003c81 !important;
+}
+.bg-warning {
+    background-color: #f77502 !important;
+}
+
+/* For Firefox */
+.container {
+    scrollbar-width: thin;
+    scrollbar-color: #003c81 #2410;
+}
+
+    /* For Chrome, Safari, and Opera */
+    .container::-webkit-scrollbar {
+        width: 12px;
+    }
+
+    .container::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+
+    .container::-webkit-scrollbar-thumb {
+        background-color: #888;
+        border-radius: 10px;
+    }

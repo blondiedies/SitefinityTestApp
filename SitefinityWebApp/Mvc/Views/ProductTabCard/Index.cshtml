@@ -25,9 +25,9 @@
 
         <div class="row">
             <h2 class="mb-3">@producto.Title</h2>
-            <ul class="nav nav-tabs" id="@($"{tabId}-{i}")" role="tablist">
+            <ul class="nav nav-product-bnc nav-tabs" id="@($"{tabId}-{i}")" role="tablist">
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link active"
+                    <button class="nav-link nav-product-bnc-link active"
                             id="@($"{homeTabId}-{i}")"
                             data-bs-toggle="tab"
                             data-bs-target="@($"#{homeId}-{i}")"
@@ -39,7 +39,7 @@
                     </button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link"
+                    <button class="nav-link nav-product-bnc-link"
                             id="@($"{profileTabId}-{i}")"
                             data-bs-toggle="tab"
                             data-bs-target="@($"#{profileId}-{i}")"
@@ -53,21 +53,21 @@
             </ul>
         </div>
 
-        <div class=" row">
+        <div class="product-row row">
 
             <div class="image-cropper @orderClass col-4">
-                <img src="@producto.Imagen.LinkedContentUrl" class="mb-3" />
+                <img src="@producto.Imagen.LinkedContentUrl" class="mb-3 image-cropper" />
             </div>
 
             <div class="tab-content mt-3 col" id="@($"{tabContentId}-{i}")">
-                <div class="tab-pane fade show active"
+                <div class="tab-pane tab-pane-bnc fade show active"
                      id="@($"{homeId}-{i}")"
                      role="tabpanel"
                      aria-labelledby="@($"{homeTabId}-{i}")">
                     <p class="lead">@producto.Beneficios</p>
 
                 </div>
-                <div class="tab-pane fade"
+                <div class="tab-pane tab-pane-bnc fade"
                      id="@($"{profileId}-{i}")"
                      role="tabpanel"
                      aria-labelledby="@($"{profileTabId}-{i}")">
@@ -81,32 +81,3 @@
 
     }
 </div>
-<style>
-    /*
-    Source - https://stackoverflow.com/a
-    Posted by JohnnyKB, modified by community. See post 'Timeline' for change history
-    Retrieved 2025-12-15, License - CC BY-SA 4.0
-    */
-
-    .image-cropper {
-        margin-top:5rem;
-        margin-bottom:5rem;
-        width: 15rem;
-        height:15rem;
-        position: relative;
-        overflow: hidden;
-        border-radius: 50%;
-    }
-
-    img {
-        display: inline;
-        margin: 0 auto;
-        height: 100%;
-        width: auto;
-    }
-
-    .tab-pane {
-        max-height:500px;
-        overflow-y: auto;
-    }
-</style>
