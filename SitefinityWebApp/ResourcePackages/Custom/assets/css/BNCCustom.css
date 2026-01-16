@@ -1,36 +1,4 @@
-﻿@font-face {
-    font-family: 'Poppins';
-    src: url('../fonts/Poppins-Medium.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Poppins';
-    src: url('../fonts/Poppins-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Poppins';
-    src: url('../fonts/Poppins-Italic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-}
-@font-face {
-    font-family: 'Poppins';
-    src: url('../fonts/Poppins-BoldItalic.ttf') format('truetype');
-    font-weight: bold;
-    font-style: italic;
-}
-
-
-html,
-body {
-    font-size: 14px;
-    font-family: 'Poppins', Helvetica,Arial,sans-serif !important;
-    background-color: #fff !important;
-}
-
+﻿
 body,
 div,
 dl,
@@ -372,7 +340,7 @@ a:hover, a:visited, a:link, a:active {
         color: #f78e1e;
         font-size: 22px;
         font-weight: bold;
-        font-family: 'Poppins',Helvetica, Arial, sans-serif;
+        font-family: 'Montserrat',Helvetica, Arial, sans-serif;
     }
 
         .sfsearchResultTitle a:hover {
@@ -388,7 +356,7 @@ a:hover, a:visited, a:link, a:active {
 .sfsearchResultHighLighter {
     padding: 0 10px 20px 25px;
     margin: 10px 0 6px;
-    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
     font-size: 13px;
     border-bottom: 1px solid #eeeeee;
     font-weight: normal;
@@ -567,48 +535,7 @@ a:hover, a:visited, a:link, a:active {
     user-select: none; /* Likely future */
 }
 
-.marquee-content {
-    display: flex;
-    animation: marquee 20s linear infinite;
-}
 
-.marquee-item {
-    flex: 0 0 auto;
-    padding: 5px 20px;
-    font-size: 1.2rem;
-    color: #495057;
-}
-
-.marquee-container {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left:0 !important;
-    padding-right:0 !important;
-    width: 100%;
-    background-color: #ffffff;
-    -webkit-box-shadow: 0 0 10px #a2a2a2;
-    box-shadow: 0 0 10px #a2a2a2;
-    display: block;
-    position: relative;
-    margin: 0px !important;
-    overflow-y: hidden;
-    font-family: 'Poppins', Helvetica,Arial,sans-serif !important;
-}
-
-@keyframes marquee {
-    0% {
-        transform: translateX(100%);
-    }
-
-    100% {
-        transform: translateX(calc(-1.1*var(--marquee-distance)));
-    }
-}
-
-/* Optional: Pause animation on hover */
-.marquee-container:hover .marquee-content {
-    animation-play-state: paused;
-}
 
 .ItemSpaceShort {
     padding-right: 10px;
@@ -688,97 +615,9 @@ a:hover, a:visited, a:link, a:active {
     color: #000000;
 }
 
-.B, .N, .C {
-    font-weight: bold;
-}
-
-.B {
-    color: #f77502;
-}
-
-.N {
-    color: #003c81;
-}
-
-.C {
-    color: #04a24d;
-}
-
 .f-pointer {
     cursor: pointer;
 }
-
-.header-lnk {
-    display: flex;
-    justify-content: flex-end;
-    text-decoration: none;
-    font-weight: bold;
-    gap: 30px;
-}
-
-.menu-item {
-    padding: .5rem 0;
-    border-bottom: 1pt solid #ccc;
-    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
-}
-
-    .menu-item:hover {
-        border-bottom: 1pt solid #ff8a00;
-    }
-
-.header-lnk a:link, .header-lnk a:visited {
-    color: #062e5c;
-}
-
-.header-lnk a:hover {
-    color: #ff8a00;
-}
-
-div.flexcontainer {
-    display: flex;
-    min-height: 100px;
-    font-weight: bold;
-    font-size: 16px;
-    text-decoration: none;
-    color: #062e5c;
-    justify-content: center;
-    align-items: center;
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 0;
-}
-
-
-div.columns {
-    padding: 0 10px;
-    align-content: center;
-    justify-content: center;
-}
-
-    div.columns:nth-of-type(1) {
-        flex: 1.2;
-        padding-left: 20px;
-    }
-
-    div.columns:nth-of-type(2) {
-        flex: unset;
-        padding: 0;
-    }
-
-    div.columns:nth-of-type(3) {
-        flex: 0.5;
-        padding: 0 0 0 25px;
-    }
-
-    div.columns:nth-of-type(4) {
-        flex: 0.5;
-    }
-
-    div.columns:nth-of-type(5) {
-        flex: 0.1;
-        padding-bottom: 65px;
-        margin-left: 20px;
-    }
 
 .logplace {
     display: flex;
@@ -1072,7 +911,7 @@ nav {
     padding-right: 2rem;
     width: 100%;
     color: #fff !important;
-    font-family: 'Poppins';
+    font-family: 'Montserrat';
     font-weight:bold;
 }
 
@@ -1192,7 +1031,7 @@ nav {
     color: #ffffff;
     font-size: 2rem;
     font-weight: 500;
-    font-family: 'Poppins';
+    font-family: 'Montserrat';
     font-weight:bold;
     padding-left: 15px;
     text-shadow: 0 1px 2px #00000099;
@@ -1297,31 +1136,12 @@ h6,
 .h4,
 .h5,
 .h6 {
-    font-family: 'Poppins';
+    font-family: 'Montserrat';
     font-weight:bold;
     line-height: 1.5;
 }
 
-.btn--orange {
-    padding: .5rem !important;
-    font-size: 1.2rem;
-    background-color: #FF8A00;
-    color: #ffffff !important;
-    padding-left: 3rem !important;
-    padding-right: 3rem !important;
-}
 
-.btn {
-    padding: .2rem .75rem;
-    border: 1px solid transparent;
-    line-height: 1.5;
-    border-radius: .3rem;
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    cursor: pointer;
-    font-weight: 300 !important;
-}
 
 .Btn-ScrollUP {
     padding: 4px 10px !important;
@@ -1397,7 +1217,7 @@ h1.home.big-h1 {
 
 .RadGrid_Default {
     border: none !important;
-    font-family: 'Poppins' !important;
+    font-family: 'Montserrat' !important;
     font-size: 12.5pt !important;
     line-height: 1.5rem !important;
 }
@@ -1442,7 +1262,7 @@ h1.home.big-h1 {
 }
 
 table {
-    font-family: 'Poppins' !important;
+    font-family: 'Montserrat' !important;
     border-collapse: collapse;
     width: 100%;
 }
@@ -2340,35 +2160,3 @@ img.image-cropper {
     background-image: linear-gradient(to bottom, rgba(247, 117, 2, 0.9), rgb(255, 215, 180, 0.90), rgba(255, 255, 255, 0.00), rgba(255, 255, 255, 0.00),rgba(255, 255, 255, 0.00));
     border-radius: 5px;
 }
-/**Pills override*/
-
-
-.bg-success {
-    background-color: #04a24d !important;
-}
-.bg-info {
-    background-color: #003c81 !important;
-}
-.bg-warning {
-    background-color: #f77502 !important;
-}
-
-/* For Firefox */
-.container {
-    scrollbar-width: thin;
-    scrollbar-color: #003c81 #2410;
-}
-
-    /* For Chrome, Safari, and Opera */
-    .container::-webkit-scrollbar {
-        width: 12px;
-    }
-
-    .container::-webkit-scrollbar-track {
-        background: #f1f1f1;
-    }
-
-    .container::-webkit-scrollbar-thumb {
-        background-color: #888;
-        border-radius: 10px;
-    }
