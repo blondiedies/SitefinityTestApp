@@ -4690,13 +4690,14 @@
     <Compile Include="Configuration\IntegrationConfig.cs" />
     <Compile Include="Configuration\TasasConfig.cs" />
     <Compile Include="Custom\Providers\UserOperationProvider.cs" />
+    <Compile Include="Custom\Utilities\BNCUtils.cs" />
     <Compile Include="EnhancedFormsResources.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="Mvc\Controllers\ArticlesController.cs" />
-    <Compile Include="Mvc\Controllers\BNCNavBarController.cs" />
+    <Compile Include="Mvc\Controllers\BNC\BNCNavBarController.cs" />
     <Compile Include="Mvc\Controllers\ConfirmationFieldController.cs" />
     <Compile Include="Mvc\Controllers\CountryFieldController.cs" />
     <Compile Include="Mvc\Controllers\DateFieldController.cs" />
@@ -4709,6 +4710,7 @@
     <Compile Include="Mvc\Controllers\OurOfficesController.cs" />
     <Compile Include="Mvc\Controllers\ProductTabCardController.cs" />
     <Compile Include="Mvc\Controllers\StateFieldController.cs" />
+    <Compile Include="Mvc\Models\BNC\NavBar\BNCNavBarModel.cs" />
     <Compile Include="Mvc\Models\CategoryFilterNewsModel.cs" />
     <Compile Include="Mvc\Models\ConfirmationField\ConfirmationFieldModel.cs" />
     <Compile Include="Mvc\Models\ConfirmationField\ConfirmationFieldViewModel.cs" />
@@ -4726,6 +4728,8 @@
     <Compile Include="Mvc\Models\StateField\StateFieldModel.cs" />
     <Compile Include="Mvc\Models\TaxaCount.cs" />
     <Compile Include="Mvc\Models\ZoomLevel.cs" />
+    <Compile Include="Mvc\ViewModels\BNC\BNCNavBarViewModel.cs" />
+    <Compile Include="Mvc\ViewModels\BNC\NavBarMenuViewModel.cs" />
     <Compile Include="Mvc\ViewModels\FeaturedNewsModel.cs" />
     <Compile Include="Mvc\ViewModels\FlatTaxonomyViewModel.cs" />
     <Compile Include="Mvc\ViewModels\LaunchViewModel.cs" />
@@ -4785,6 +4789,7 @@
     <Content Include="Mvc\Views\MarqueeSlider\Index.cshtml" />
     <Content Include="Mvc\Views\ProductTabCard\Index.cshtml" />
     <Content Include="Mvc\Views\BNCNavBar\Index.cshtml" />
+    <Content Include="Mvc\Views\BNCNavBar\_NavBarOffcanvasMenu.cshtml" />
     <None Include="packages.config" />
     <Content Include="Sitefinity\ExternalLibraries\LibWebP\libwebp_x86.sflib" />
     <Content Include="Sitefinity\ExternalLibraries\LibWebP\libwebp_x64.sflib" />

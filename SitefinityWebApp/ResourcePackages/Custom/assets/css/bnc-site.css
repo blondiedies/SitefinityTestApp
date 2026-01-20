@@ -71,6 +71,9 @@
     --gradient-blue-5: linear-gradient(26.5deg, #53389E, #6941C6);
     --gradient-blue-6: linear-gradient(45deg, #42307D, #7F56D9);
     --gradient-blue-7: linear-gradient(45deg, #42307D, #6941C6);
+
+    /*Altura header*/
+    --bnc-header-height:80px;
 }
 
 /*General*/
@@ -85,6 +88,7 @@ body {
 header {
     font-size: 16px;
     font-weight: 600 !important;
+    height:var(--bnc-header-height);
 }
 
 @media (min-width: 1200px) {
@@ -227,11 +231,14 @@ header {
 
 
 /*NavBar*/
+.offcanvas-bnc {
+    padding-top:var(--bnc-header-height);
+}
 
 .bnc-navbar-logo {
     width: 3rem;
     margin-left: 5rem !important;
-    margin-right:1rem;
+    margin-right: 1rem;
 }
 
 .navbar-container {
