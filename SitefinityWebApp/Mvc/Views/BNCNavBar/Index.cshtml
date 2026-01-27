@@ -7,39 +7,78 @@
 <header class="header">
     @if (Model.MenuList == null || !Model.MenuList.Any())
     {
-<div class="bnc-navbar-placeholder">Menú no disponible</div>
-}
-else { 
-    <nav class="navbar navbar-expand-lg">
-        <div class="container navbar-container">
-            <a class="navbar-brand" href="https://www.bncenlinea.com/">
-                <img alt="" title="" src="~/AdminApp/assets/images/BNC/Banco_Nacional_de_Credito.png" class="bnc-navbar-logo" />
-            </a>
+        <div class="bnc-navbar-placeholder">Menú no disponible</div>
+    }
+    else
+    {
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container navbar-container">
+                <a class="navbar-brand" href="https://www.bncenlinea.com/">
+                    <img alt="BNC" src="~/AdminApp/assets/images/BNC/Banco_Nacional_de_Credito.png" class="bnc-navbar-logo" />
+                </a>
 
-            <div class="d-lg-flex gap-5">
-                @foreach (var section in Model.MenuList ?? Enumerable.Empty<BNCNavBarViewModel>())
-                {
-                    var title = section.Title;
-                    var idKey = BNCUtils.SanitizeURLKey(section.Key ?? section.Title ?? "menu");
-                    <a class="nav-link header-link" role="button" data-bs-toggle="offcanvas" href="#@(idKey)Offcanvas" aria-controls="@(idKey)Offcanvas">
-                        @title <i class="header-chevron bi bi-chevron-down"></i>
-                    </a>
-                }
-            </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBNCContent" aria-controls="navbarBNCContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <div class="d-flex navbar-button-segment-right">
-                <div class="ms-auto d-flex gap-3">
-                    <a class="btn btn-orange btn-link" href="/preregistro-bnc">Hazte Cliente</a>
-                    <a class="btn btn-white-orange btn-link" href="/bnc-en-linea">Entrar <i class="header-chevron bi bi-chevron-down"></i></a>
+                <div class="collapse navbar-collapse" id="navbarBNCContent">
+
+                    @*Menu - left*@
+                    <div class="navbar-nav me-auto gap-lg-5 bnc-collapse-invis">
+                        @foreach (var section in Model.MenuList ?? Enumerable.Empty<BNCNavBarViewModel>())
+                        {
+                            if (section.Listado == null || section.Listado.Count < 1) //single link
+                            {
+                                var title = section.Title;
+                                var url = section.Url;
+                                var target = section.Target;
+
+                                <a class="nav-link header-link"
+                                   role="button"
+                                   href="@url"
+                                   target="@target">
+                                    @title
+                                </a>
+                            }
+                            else
+                            {
+                                var title = section.Title;
+                                var idKey = BNCUtils.SanitizeURLKey(section.Key ?? section.Title ?? "menu");
+                                var collapseId = idKey + "Collapse";
+
+                                <a class="nav-link header-link"
+                                   role="button"
+                                   data-bs-toggle="collapse"
+                                   href="#@collapseId"
+                                   aria-expanded="false"
+                                   aria-controls="@collapseId">
+                                    @title <i class="header-chevron bi bi-chevron-down"></i>
+                                </a>
+                            }
+
+                        }
+                    </div>
+
+                    @* menu - right *@
+                    <div class="navbar-nav navbar-button-segment-right bnc-collapse-invis">
+                        <div class="d-flex flex-column flex-lg-row gap-3">
+                            <a class="btn btn-orange btn-link" href="/preregistro-bnc">Hazte Cliente</a>
+                            <a class="btn btn-white-orange btn-link" href="/bnc-en-linea">Entrar <i class="header-chevron bi bi-chevron-down"></i></a>
+                        </div>
+                    </div>
+
+                    @* menu - accordion (mobile) *@
+                    @Html.Partial("_NavBarMobileMenu", Model)
+
                 </div>
             </div>
-        </div>
-    </nav>
+            <div id="bncNavbarAccordion">
+                @foreach (var section in Model.MenuList ?? Enumerable.Empty<BNCNavBarViewModel>())
+                {
+                    @Html.Partial("_NavBarOffcanvasMenu", section)
+                }
+            </div>
+        </nav>
     }
 </header>
 
-@* Render offcanvas partials for every section *@
-@foreach (var section in Model.MenuList ?? Enumerable.Empty<BNCNavBarViewModel>())
-{
-    @Html.Partial("_NavBarOffcanvasMenu", section)
-}

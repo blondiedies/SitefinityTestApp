@@ -1,35 +1,35 @@
 ﻿@model SitefinityWebApp.Mvc.ViewModels.BNC.BNCNavBarViewModel
-    @using SitefinityWebApp.Mvc.ViewModels.BNC
+@using SitefinityWebApp.Mvc.ViewModels.BNC
+
 @{
     var idKey = (Model.Key ?? Model.Title ?? "menu").Replace(" ", "");
-    var offcanvasId = idKey + "Offcanvas";
-    var offcanvasLabel = idKey + "OffcanvasLabel";
+    var collapseId = idKey + "Collapse";
 }
-<div class="offcanvas offcanvas-top offcanvas-bnc" tabindex="-1" id="@offcanvasId" aria-labelledby="@offcanvasLabel">
-    <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="@offcanvasLabel">@Model.Title</h5>
-        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-    </div>
-    <div class="offcanvas-body">
-        <ul class="list-unstyled mb-0">
-            @foreach (var item in Model.Listado ?? Enumerable.Empty<NavBarMenuViewModel>())
-            {
-                <li class="py-2">
-                    <a class="d-flex align-items-start gap-2" href="@item.Url" target="@item.Target">
-                        @if (!string.IsNullOrEmpty(item.IconClass))
-                        {
-                            <i class="@item.IconClass me-2" aria-hidden="true"></i>
-                        }
-                        <div>
-                            <div class="fw-semibold">@item.LinkTitle</div>
+
+<div class="collapse collapse-bnc-fade"
+     id="@collapseId"
+     data-bs-parent="#bncNavbarAccordion">
+
+    <div class="p-4 border-bottom shadow-sm collapse-bnc">
+        <div class="container collapse-bnc-inner">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h5 class="mb-0 fw-bold">@Model.Title</h5>
+            </div>
+
+            <ul class="list-unstyled row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+                @foreach (var item in Model.Listado ?? Enumerable.Empty<NavBarMenuViewModel>())
+                {
+                    <li>
+                        <a class="text-decoration-none d-block p-2 rounded bnc-menu-item-hover" href="@item.Url" target="@item.Target">
+                            <div class="fw-semibold text-dark">@item.LinkTitle</div>
                             @if (!string.IsNullOrEmpty(item.Description))
                             {
-                                <small class="text-muted">@item.Description</small>
+                                <div class="small text-muted">@item.Description</div>
                             }
-                        </div>
-                    </a>
-                </li>
-            }
-        </ul>
+                        </a>
+                    </li>
+                }
+            </ul>
+        </div>
     </div>
 </div>

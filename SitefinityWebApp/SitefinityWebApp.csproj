@@ -4790,6 +4790,7 @@
     <Content Include="Mvc\Views\ProductTabCard\Index.cshtml" />
     <Content Include="Mvc\Views\BNCNavBar\Index.cshtml" />
     <Content Include="Mvc\Views\BNCNavBar\_NavBarOffcanvasMenu.cshtml" />
+    <Content Include="Mvc\Views\BNCNavBar\_NavBarMobileMenu.cshtml" />
     <None Include="packages.config" />
     <Content Include="Sitefinity\ExternalLibraries\LibWebP\libwebp_x86.sflib" />
     <Content Include="Sitefinity\ExternalLibraries\LibWebP\libwebp_x64.sflib" />

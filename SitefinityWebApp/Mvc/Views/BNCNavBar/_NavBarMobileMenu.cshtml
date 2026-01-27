@@ -1,0 +1,55 @@
+﻿@model SitefinityWebApp.Mvc.Models.BNC.NavBar.BNCNavBarModel
+@using SitefinityWebApp.Mvc.ViewModels.BNC
+@using SitefinityWebApp.Custom.Utilities;
+
+
+<div class="navbar-nav bnc-accordion">
+    <div class="d-flex flex-column flex-lg-row gap-3 bnc-accordion-inner">
+        @foreach (var section in Model.MenuList ?? Enumerable.Empty<BNCNavBarViewModel>())
+        {
+            if (section.Listado == null || section.Listado.Count < 1) //single link
+            {
+                var title = section.Title;
+                var url = section.Url;
+                var target = section.Target;
+
+                <a class="accordion-item bnc-mobile-menu-item"
+                   role="button"
+                   href="@url"
+                   target="@target">
+                    @title
+                </a>
+            }
+            else
+            {
+                var title = section.Title;
+                var idKey = BNCUtils.SanitizeURLKey(section.Key ?? section.Title ?? "menu");
+                var collapseId = idKey + "CollapseMobile";
+
+                <a class="accordion-item bnc-mobile-menu-item"
+                   role="button"
+                   data-bs-toggle="collapse"
+                   href="#@collapseId"
+                   aria-expanded="false"
+                   aria-controls="@collapseId">
+                    @title <i class="header-chevron bi bi-chevron-down"></i>
+                </a>
+
+                <div class="accordion-collapse collapse" id="@collapseId">
+                    <div class="accordion-body">
+                        @foreach (var subsection in section.Listado)
+                        {
+                            <a class="d-block" href="@subsection.Url" target="@subsection.Target">@subsection.LinkTitle</a>
+                            <p class="small text-muted">@subsection.Description</p>
+                        }
+                    </div>
+                </div>
+            }
+
+        }
+        @* Botones *@
+        <a class="btn btn-orange btn-link bnc-mobile-menu-item" href="/preregistro-bnc">Hazte Cliente</a>
+        <a class="btn btn-white-orange btn-link bnc-mobile-menu-item" href="/bnc-en-linea">Entrar <i class="header-chevron bi bi-chevron-down"></i></a>
+
+    </div>
+</div>

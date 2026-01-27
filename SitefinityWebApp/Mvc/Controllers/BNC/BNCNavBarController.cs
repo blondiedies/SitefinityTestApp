@@ -14,6 +14,7 @@ using Telerik.Sitefinity.DynamicModules.Model;
 using Telerik.Sitefinity.GenericContent.Model;
 using Telerik.Sitefinity.Model;
 using Telerik.Sitefinity.Mvc;
+using Telerik.Sitefinity.RelatedData;
 using Telerik.Sitefinity.Utilities.TypeConverters;
 using Telerik.Sitefinity.Web.UI.Fields.Model;
 
@@ -97,72 +98,71 @@ namespace SitefinityWebApp.Mvc.Controllers
                     : new List<DynamicContent>();
 
                 // 5) Filtrar por los IDs seleccionados y mapear
-                var sectionItems = allSections.Where(s => selectedIds.Contains(s.Id)).ToList();
+                var unorderedSections = allSections.Where(s => selectedIds.Contains(s.Id)).ToList();
+
+                // Re-ordenar basado en la posición exacta dentro de selectedIds (el orden del diseñador)
+                var sectionItems = unorderedSections
+                    .OrderBy(s => selectedIds.IndexOf(s.Id))
+                    .ToList();
 
                 foreach (var section in sectionItems)
                 {
                     try
                     {
                         var title = SafeGetString(section, "Title") ?? section.Id.ToString();
+                        var enlace = JsonConvert.DeserializeObject<List<UrlJsonModel>>(SafeGetString(section, "Enlace")) ?? null;
                         var urlName = SafeGetString(section, "UrlName");
                         var key = !string.IsNullOrWhiteSpace(urlName) ? urlName : title;
+
+                        var firstLink = enlace?.FirstOrDefault() ?? null;
+
+                        string url = "", target = "";
+
+                        if (firstLink != null)
+                        {
+                            url = firstLink.href;
+                            target = firstLink.target;
+                        }
+
 
                         var sectionVm = new BNCNavBarViewModel
                         {
                             Key = key,
                             Title = title,
-                            Listado = new List<NavBarMenuViewModel>()
+                            Listado = new List<NavBarMenuViewModel>(),
+                            Url = url,
+                            Target= target
                         };
 
-                        // 6) Obtener subsecciones relacionadas por la relación SubsectionLinks
-                        List<DynamicContent> related = null;
-                        try
-                        {
-                            var relObjs = TryGetRelatedItems(section, "SubsectionLinks");
-                            if (relObjs != null)
-                                related = relObjs.Where(o => o is DynamicContent).Cast<DynamicContent>().ToList();
-                        }
-                        catch (Exception ex)
-                        {
-                            System.Diagnostics.Debug.WriteLine($"TryGetRelatedItems threw: {ex}");
-                            related = new List<DynamicContent>();
-                        }
+                        var subsectionLinks= section.GetRelatedItems("SubsectionLinks");
 
-                        // 7) Mapear enlaces desde el campo URL de cada subsección
-                        foreach (var sub in related ?? Enumerable.Empty<DynamicContent>())
+                        List<DynamicContent> subsectionItems = new List<DynamicContent>();
+                        List<NavBarMenuViewModel> subsectionModeledItems = new List<NavBarMenuViewModel>();
+                        foreach (var subsection in subsectionLinks) //add each individual url to the list
                         {
-                            try
+                            //get id
+                            //get item from all subsections that matches id
+                            subsectionItems.AddRange(allSubsections.Where(s => s.Id == subsection.Id).ToList());
+                            //get info from this item and parse to navbarmenuviewmodel
+                            var subsectionObject = subsectionItems.Where(s => s.Id == subsection.Id).First();
+
+                            var urlList = JsonConvert.DeserializeObject<List<UrlJsonModel>>(SafeGetString(subsectionObject, "URL"));
+                            var urlJson = urlList?.FirstOrDefault();
+
+                            //parse to navbarmenuviewmodel
+                            var subsectionVm = new NavBarMenuViewModel
                             {
-                                var urlJson = SafeGetString(sub, "URL");
-                                if (string.IsNullOrWhiteSpace(urlJson)) continue;
+                                LinkTitle= SafeGetString(subsectionObject, "Title"),
+                                Description= SafeGetString(subsectionObject, "Description"),
+                                Url= urlJson.href,
+                                Target=urlJson.target
+                            };
 
-                                LinkItemModel[] links = null;
-                                try { links = JsonConvert.DeserializeObject<LinkItemModel[]>(urlJson); }
-                                catch (Exception jex)
-                                {
-                                    System.Diagnostics.Debug.WriteLine($"JSON parse error for subsection {sub.Id}: {jex}");
-                                    continue;
-                                }
-                                if (links == null) continue;
+                            //add to listado
+                            sectionVm.Listado.Add(subsectionVm);
 
-                                var subDescription = SafeGetString(sub, "Description") ?? string.Empty;
-                                foreach (var link in links)
-                                {
-                                    sectionVm.Listado.Add(new NavBarMenuViewModel
-                                    {
-                                        LinkTitle = link.Text,
-                                        Description = subDescription,
-                                        Url = link.Href,
-                                        IconClass = string.Empty,
-                                        Target = link.Target
-                                    });
-                                }
-                            }
-                            catch (Exception ex)
-                            {
-                                System.Diagnostics.Debug.WriteLine($"Error mapping subsection {sub.Id}: {ex}");
-                            }
                         }
+
 
                         model.MenuList.Add(sectionVm);
                     }
@@ -187,52 +187,6 @@ namespace SitefinityWebApp.Mvc.Controllers
         }
 
         // --- Helpers ---
-        private IEnumerable<object> TryGetRelatedItems(DynamicContent item, string relationName)
-        {
-            if (item == null) return null;
-
-            try
-            {
-                var mi = item.GetType().GetMethod("GetRelatedItems", new[] { typeof(string) });
-                if (mi != null)
-                {
-                    try
-                    {
-                        var result = mi.Invoke(item, new object[] { relationName });
-                        if (result is System.Collections.IEnumerable enumRes) return enumRes.Cast<object>();
-                        if (result != null) return new[] { result };
-                    }
-                    catch (TargetInvocationException tie)
-                    {
-                        System.Diagnostics.Debug.WriteLine($"GetRelatedItems invocation error: {tie.InnerException ?? tie}");
-                    }
-                    catch (Exception ex)
-                    {
-                        System.Diagnostics.Debug.WriteLine($"GetRelatedItems error: {ex}");
-                    }
-                }
-
-                var prop = item.GetType().GetProperty("RelatedItems") ?? item.GetType().GetProperty("Relations");
-                if (prop != null)
-                {
-                    try
-                    {
-                        var val = prop.GetValue(item) as System.Collections.IEnumerable;
-                        if (val != null) return val.Cast<object>();
-                    }
-                    catch (Exception ex)
-                    {
-                        System.Diagnostics.Debug.WriteLine($"RelatedItems/Relations property read error: {ex}");
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                System.Diagnostics.Debug.WriteLine($"TryGetRelatedItems outer error: {ex}");
-            }
-
-            return null;
-        }
 
         private IEnumerable<Guid> GetSelectedIdsFromMixedContext(object mixedContext)
         {
@@ -342,11 +296,49 @@ namespace SitefinityWebApp.Mvc.Controllers
 
         private string SafeGetString(DynamicContent item, string fieldName)
         {
-            try { return item.GetString(fieldName); }
-            catch
+            if (item == null || string.IsNullOrWhiteSpace(fieldName)) return null;
+
+            // Prefer GetValue first — avoids triggering Lstring.Value NRE inside GetString
+            try
             {
-                try { var v = item.GetValue(fieldName); return v?.ToString(); }
-                catch { return null; }
+                var val = item.GetValue(fieldName);
+                if (val != null)
+                {
+                    // Handle Sitefinity Lstring safely
+                    if (val is Lstring lstr)
+                    {
+                        try
+                        {
+                            // Guard access to Value (it can be null internally)
+                            var raw = lstr.Value;
+                            if (!string.IsNullOrEmpty(raw)) return raw;
+                            // Fallback to ToString() (safe)
+                            return lstr.ToString();
+                        }
+                        catch
+                        {
+                            // ignore and fallback below
+                        }
+                    }
+
+                    // For plain strings or other types
+                    return val.ToString();
+                }
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine($"SafeGetString: GetValue failed for '{fieldName}': {ex.Message}");
+            }
+
+            // Last resort: call GetString but catch any exceptions (previous NRE happened here)
+            try
+            {
+                return item.GetString(fieldName);
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine($"SafeGetString: GetString failed for '{fieldName}': {ex.Message}");
+                return null;
             }
         }
 
@@ -357,6 +349,20 @@ namespace SitefinityWebApp.Mvc.Controllers
             public string Text { get; set; }
             public string Target { get; set; }
             public string Href { get; set; }
+        }
+
+        private class UrlJsonModel
+        {
+            public string id { get; set; }
+            public string href { get; set; }
+            public string sfref { get; set; }
+            public string target { get; set; }
+            public string queryParams { get; set; }
+            public string anchor { get; set; }
+            public string tooltip { get; set; }
+            public string type { get; set; }
+            public string[] classList { get; set; }
+            public string attributes { get; set; }
         }
     }
 }

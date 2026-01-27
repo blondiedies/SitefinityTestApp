@@ -25,5 +25,10 @@ namespace SitefinityWebApp.Mvc.ViewModels.BNC
 
         [DisplayName("Listado de enlaces")]
         public List<NavBarMenuViewModel> Listado { get; set; }
+        [DisplayName("Enlace")]
+        [Description("Enlace individual. Sólo seleccionar si Listado de enlaces será vacío.")]
+        public string Url { get; set; }
+
+        public string Target { get; set; }
     }
 }

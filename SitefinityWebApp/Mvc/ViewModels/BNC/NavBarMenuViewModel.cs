@@ -21,8 +21,7 @@ namespace SitefinityWebApp.Mvc.ViewModels.BNC
         [DisplayName("Enlace")]
         [Required(ErrorMessage = "El enlace (URL) es obligatorio.")]
         public string Url { get; set; }
-        [DisplayName("Clase CSS del icono (opcional)")]
-        public string IconClass { get; set; } // opcional
+
         [DisplayName("Objetivo (_blank, #, etc)")]
         public string Target { get; set; } // opcional ej: "_blank"
     }
